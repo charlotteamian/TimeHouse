@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-07",
+  "repository": "https://github.com/charlotteamian/TimeHouse",
+  "private": true,
+  "anonymous_api_status": 404,
+  "source_integrity": {
+    "verified_commit": "d5a2bd0a05ee1be418a9365aeaef673894687a33",
+    "private": true,
+    "remote_tree_truncated": false,
+    "matching_file_names_and_git_hashes": 6208,
+    "matching_working_file_bytes": 6208,
+    "asset_files": 4323,
+    "signing_key_tracked": false,
+    "build_files_tracked": false
+  },
+  "cloud_build": {
+    "conclusion": "success",
+    "headSha": "02db26bc72b031c152429f35a2fdeeb8b316cedf",
+    "status": "completed",
+    "url": "https://github.com/charlotteamian/TimeHouse/actions/runs/37644688662"
+  },
+  "release": {
+    "format_version": 1,
+    "package_name": "com.restartday.fitness",
+    "version_name": "1.2.17+4",
+    "version_code": 2026100705,
+    "apk_name": "timehouse-debug.apk",
+    "apk_asset_id": 619074759,
+    "apk_bytes": 479885009,
+    "apk_sha256": "eb9d68fe3d8e690b1669ff403578c64c74374d673d28426980a1247c64f5a699",
+    "commit": "02db26bc72b031c152429f35a2fdeeb8b316cedf"
+  },
+  "domain_test_suites": 18,
+  "update_policy_checks": 24,
+  "reviewed_exercises": 37,
+  "settings_checks": [
+    "Settings exposes the update button",
+    "First check opens private-access configuration",
+    "Malformed token does not close configuration",
+    "Token is stored as ciphertext, without plaintext",
+    "Keystore token can be read after process restart",
+    "GitHub authentication failure has an actionable message",
+    "Token can be removed without changing fitness data",
+    "Removing a token deletes its ciphertext"
+  ],
+  "emulator_update": {
+    "version_name": "1.2.17+4",
+    "version_code": 2026100705,
+    "apk_sha256": "eb9d68fe3d8e690b1669ff403578c64c74374d673d28426980a1247c64f5a699",
+    "source_commit": "02db26bc72b031c152429f35a2fdeeb8b316cedf",
+    "checks": [
+      "Temporary QA credential encrypted through the app token store",
+      "Live credential stored only as Android Keystore ciphertext",
+      "Settings finds the actual private cloud version",
+      "Verified private APK requests Android installation permission",
+      "Android exposes the per-app unknown-source permission",
+      "Return from permission settings opens the system APK installer",
+      "System installer updates to the signed GitHub APK",
+      "Existing fitness preferences and records remain byte-identical after update",
+      "Updated app recognises its current cloud version and decrypts saved credential",
+      "Temporary live QA credential removed after verification"
+    ],
+    "physical_phone_tested": false,
+    "prefs_sha256_after_relaunch": "e5c5c91d2784e7ed38ade539ea46c886d2b52ad4828b23dac5bf2c991cb81813",
+    "installation_preferences_byte_identical": true
+  },
+  "secret_scan": {
+    "tracked_text_files": 981,
+    "candidates": 0
+  },
+  "archive": {
+    "historical_source_and_text_records": 303,
+    "historical_media_files": 1461,
+    "historical_media_bytes": 163378598
+  },
+  "physical_phone_tested": false
+}

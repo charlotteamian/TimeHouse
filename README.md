@@ -33,6 +33,7 @@
 | `app/src/main/assets/` | 中文动作、食谱、快捷餐与动作复核账本 |
 | `app/src/main/res/raw/` | 已封装的离线动作动画与语音 |
 | `assets/` | 原始图稿、动作修复批次和人工复核证据 |
+| `assets/archive/` | 清理前保存的历史媒体原件及 SHA-256 清单 |
 | `scripts/` | 测试、数据验证、构建与素材制作工具 |
 | `docs/` | 设计、科学依据、复核规则和历史交付说明 |
 | `docs/archive/build-records/` | 从旧 build 目录保存的历史源码快照与验收记录 |
@@ -55,5 +56,7 @@ bash scripts/build_android_debug.sh
 重新制作图像素材时另需 numpy、OpenCV；已有动画直接参与构建。重新生成中文语音需 macOS 的 `say`，云端只检查已保存的语音。手机与模拟器交互 QA 在本地运行。
 
 素材授权见 [第三方声明](THIRD_PARTY_NOTICES.md)。迁移与本地清理记录见 [GitHub 迁移说明](docs/github-migration.md)。
+
+本地 Git 使用浅层、按需下载的元数据，减少重复存储；完整提交历史保存在私有 GitHub。需要读取全部历史时可运行 `git fetch --unshallow --filter=blob:none origin`。已经保留的项目源文件仍可直接编辑。
 
 网页操作参考：[GitHub 网页编辑器](https://docs.github.com/en/codespaces/the-githubdev-web-based-editor)。

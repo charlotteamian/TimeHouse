@@ -1,0 +1,41 @@
+{
+  "ui_checks": 27,
+  "checks": {
+    "ui-dynamic": [
+      "Library covers actually change poses",
+      "Covers resume after background return",
+      "Five inspected drift problems are queued for repair",
+      "Reviewed TRX row enters TRX workout",
+      "TRX selection does not include dumbbells or misclassified rings/bar",
+      "Active workout retains dynamic covers",
+      "TRX search contains three corrected dataset movements plus one seed",
+      "TRX and reviewed filters combine correctly",
+      "Reviewed row declares the required TRX equipment",
+      "Android decodes both repaired assets as animation"
+    ],
+    "ui-edges": [
+      "Saved routines respect reviewed-only gate",
+      "Routine picker is restricted to reviewed exercises",
+      "Training scope selection persists after restart",
+      "Missing demonstrations are exposed as a separate queue"
+    ],
+    "ui-review": [
+      "Only explicit reviews; legacy verification is not migrated",
+      "Library review filter contains exactly the reviewed baseline",
+      "Detail demonstration can be paused",
+      "Approval requires all four checklist items",
+      "Personal rejection overrides bundled approval",
+      "Repair reason and rejected review survive restart",
+      "Explicit personal approval is persisted",
+      "Quick training draws only from reviewed exercises",
+      "Reviewed workout enters normal session flow",
+      "No silent fallback to unreviewed exercises when safe pool is empty",
+      "Empty candidate pool provides actionable explanation",
+      "Old saved draft cannot bypass reviewed-only start gate",
+      "Changing media invalidates a bundled review"
+    ]
+  },
+  "domain_tests": "passed",
+  "media_validation": "1324 dataset + 24 seed animations passed",
+  "real_device_tested": false
+}

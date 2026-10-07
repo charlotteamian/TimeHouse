@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.restartday.fitness.qa">
+    <uses-sdk android:minSdkVersion="28" android:targetSdkVersion="36" />
+    <queries><package android:name="com.restartday.fitness" /></queries>
+    <uses-permission android:name="android.permission.health.WRITE_HEART_RATE" />
+    <uses-permission android:name="android.permission.health.WRITE_EXERCISE" />
+    <uses-permission android:name="android.permission.health.WRITE_ACTIVE_CALORIES_BURNED" />
+    <uses-permission android:name="android.permission.health.WRITE_TOTAL_CALORIES_BURNED" />
+    <uses-permission android:name="android.permission.health.WRITE_STEPS" />
+    <uses-permission android:name="android.permission.health.WRITE_DISTANCE" />
+    <application android:label="Timehouse QA" android:debuggable="true" />
+    <instrumentation android:name=".UiSnapshot" android:targetPackage="com.restartday.fitness.qa" />
+    <instrumentation android:name=".HealthFixture" android:targetPackage="com.restartday.fitness.qa" />
+</manifest>

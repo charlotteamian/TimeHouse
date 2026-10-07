@@ -1,0 +1,30 @@
+{
+  "version": "1.2.2",
+  "versionCode": 2026091001,
+  "newAnimations": 20,
+  "totalRepairedAnimations": 30,
+  "equipmentScope": [
+    "自重",
+    "弹力带",
+    "哑铃",
+    "壶铃",
+    "TRX 悬挂带",
+    "瑜伽球",
+    "BOSU 球",
+    "动感单车"
+  ],
+  "domainTests": "passed",
+  "apkAssetBytes": "30 of 30 match",
+  "ui": {
+    "optionalRpe": 5,
+    "intensity": 15,
+    "priorityMedia": 2
+  },
+  "apk": "/Users/restartday/Documents/健身/build/时光屋-1.2.2-常用动作与自建训练修复.apk",
+  "bytes": 72529543,
+  "sha256": "68f15e051db9d57b5e669ab1584d61eba298bafa088971e40cadf101dc2e735f",
+  "signatureSha256": "f97b8a406448cb301259189f833d7beb7985728929dd652d2c257e8d36a28997",
+  "androidDecodedAnimations": 34,
+  "emulatorOriginalPreferencesRestored": true,
+  "emulatorStorageThresholdRestored": true
+}

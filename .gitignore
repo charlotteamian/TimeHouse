@@ -1,0 +1,24 @@
+# Rebuildable output and local runtimes
+/build/
+/dist/
+/.venv/
+/venv/
+__pycache__/
+*.py[cod]
+
+# Signing material and local credentials
+/.signing/
+*.keystore
+*.jks
+*.p12
+*.pem
+.env
+.env.*
+!.env.example
+local.properties
+
+# Machine-specific editor and macOS files
+/.idea/
+*.iml
+.DS_Store
+._*

@@ -1,0 +1,7 @@
+[
+  "20-second duration and empty RPE persist",
+  "Empty RPE survives app restart",
+  "Workout uses saved duration without adding default RPE",
+  "Preview omits empty RPE label",
+  "Training starts the exact 20-second countdown"
+]

@@ -1,0 +1,6 @@
+[
+  "Saved routines respect reviewed-only gate",
+  "Routine picker is restricted to reviewed exercises",
+  "Mandatory reviewed-only training survives restart and legacy opt-outs",
+  "Missing demonstrations are exposed as a separate queue"
+]

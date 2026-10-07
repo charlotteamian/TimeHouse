@@ -1,0 +1,112 @@
+{
+  "dataset_1324_0001": {
+    "name": "四分之三仰卧起坐",
+    "patterns": [
+      "核心"
+    ],
+    "primary": [
+      "腹肌"
+    ],
+    "isHold": false,
+    "perSide": false,
+    "shoulder": "NONE",
+    "lower_back": "MEDIUM",
+    "knee": "NONE"
+  },
+  "dataset_1324_0295": {
+    "name": "哑铃翻举",
+    "patterns": [
+      "下肢"
+    ],
+    "primary": [
+      "臀肌",
+      "腘绳肌"
+    ],
+    "isHold": false,
+    "perSide": false,
+    "shoulder": "NONE",
+    "lower_back": "NONE",
+    "knee": "MEDIUM"
+  },
+  "dataset_1324_0296": {
+    "name": "哑铃窄握卧推",
+    "patterns": [
+      "推",
+      "水平推"
+    ],
+    "primary": [
+      "肱三头肌",
+      "胸肌"
+    ],
+    "isHold": false,
+    "perSide": false,
+    "shoulder": "MEDIUM",
+    "lower_back": "NONE",
+    "knee": "NONE"
+  },
+  "dataset_1324_0297": {
+    "name": "哑铃单臂集中弯举",
+    "patterns": [
+      "拉"
+    ],
+    "primary": [
+      "肱二头肌",
+      "前臂"
+    ],
+    "isHold": false,
+    "perSide": true,
+    "shoulder": "MEDIUM",
+    "lower_back": "NONE",
+    "knee": "NONE"
+  },
+  "dataset_1324_0298": {
+    "name": "哑铃单臂交叉锤式弯举",
+    "patterns": [
+      "拉",
+      "屈肘"
+    ],
+    "primary": [
+      "肱二头肌",
+      "肱肌"
+    ],
+    "isHold": false,
+    "perSide": true,
+    "shoulder": "MEDIUM",
+    "lower_back": "NONE",
+    "knee": "NONE"
+  },
+  "dataset_1324_0292": {
+    "name": "哑铃单臂俯身划船",
+    "patterns": [
+      "拉",
+      "水平拉",
+      "俯身稳定"
+    ],
+    "primary": [
+      "上背",
+      "背阔肌"
+    ],
+    "isHold": false,
+    "perSide": true,
+    "shoulder": "MEDIUM",
+    "lower_back": "MEDIUM",
+    "knee": "NONE"
+  },
+  "dataset_1324_1427": {
+    "name": "侧卧单腿髋外展",
+    "patterns": [
+      "下肢",
+      "髋外展",
+      "单腿"
+    ],
+    "primary": [
+      "髋外展肌群",
+      "臀肌"
+    ],
+    "isHold": false,
+    "perSide": true,
+    "shoulder": "NONE",
+    "lower_back": "NONE",
+    "knee": "MEDIUM"
+  }
+}

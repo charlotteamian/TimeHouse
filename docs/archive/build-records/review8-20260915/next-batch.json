@@ -1,0 +1,103 @@
+{
+  "action": "review_next",
+  "reviewed": 30,
+  "remaining_dataset_candidates": 1242,
+  "deferred": 52,
+  "next": [
+    {
+      "id": "dataset_1324_0277",
+      "name": "下斜卷腹",
+      "equipment": "body weight",
+      "note": ""
+    },
+    {
+      "id": "dataset_1324_0312",
+      "name": "哑铃锤式弯举（第二式）",
+      "equipment": "dumbbell",
+      "note": ""
+    },
+    {
+      "id": "dataset_1324_0279",
+      "name": "下斜俯卧撑",
+      "equipment": "body weight",
+      "note": ""
+    },
+    {
+      "id": "dataset_1324_0314",
+      "name": "哑铃上斜卧推",
+      "equipment": "dumbbell",
+      "note": ""
+    },
+    {
+      "id": "dataset_1324_0282",
+      "name": "下斜仰卧起坐",
+      "equipment": "body weight",
+      "note": ""
+    },
+    {
+      "id": "dataset_1324_0315",
+      "name": "哑铃上斜弯举",
+      "equipment": "dumbbell",
+      "note": ""
+    },
+    {
+      "id": "dataset_1324_0284",
+      "name": "负重提踵",
+      "equipment": "body weight",
+      "note": ""
+    },
+    {
+      "id": "dataset_1324_0316",
+      "name": "哑铃上斜卧推",
+      "equipment": "dumbbell",
+      "note": ""
+    },
+    {
+      "id": "dataset_1324_0443",
+      "name": "肘触膝",
+      "equipment": "body weight",
+      "note": ""
+    },
+    {
+      "id": "dataset_1324_0317",
+      "name": "哑铃上斜弯举（第二式）",
+      "equipment": "dumbbell",
+      "note": ""
+    }
+  ],
+  "seed_missing": [
+    {
+      "id": "exercise_kettlebell_deadlift",
+      "name": "壶铃硬拉"
+    },
+    {
+      "id": "exercise_jumping_jack",
+      "name": "开合跳"
+    },
+    {
+      "id": "exercise_bodyweight_squat",
+      "name": "徒手深蹲",
+      "previous_attempt": {
+        "calls": 2,
+        "last_batch": "20260914_review4",
+        "result": "not_approved",
+        "reason": "Near/far foot alignment differs by 12 px",
+        "requires_new_strategy": true
+      }
+    }
+  ],
+  "trx_repairs": [
+    {
+      "id": "dataset_1324_0805",
+      "name": "悬挂带腹部前伸",
+      "note": "待修图 · 本轮重制已纠正朝向，但脚底与固定锚点仍不同步，精修后仍未通过，暂不替换现有图。",
+      "requires_new_repair_strategy": true
+    },
+    {
+      "id": "dataset_1324_0809",
+      "name": "悬挂带分腿蹲",
+      "note": "待修图 · 前脚与悬挂固定点不同步漂移，不能整体平移修正；已纠正后脚放入脚托的文字。 本轮重制草稿仍有多个支撑点漂移，尚未采用。",
+      "requires_new_repair_strategy": true
+    }
+  ]
+}

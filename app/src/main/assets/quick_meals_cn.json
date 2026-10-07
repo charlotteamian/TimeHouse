@@ -1,0 +1,352 @@
+{
+  "version": 1,
+  "note": "「记一餐」快速录入预设。groups 一律是平衡膳食宝塔口径的生重/干重，已从常见成品分量折算好（一碗熟米饭≈生米80g，100g面包≈面粉70g），用户不需要自己换算。热量为《中国食物成分表》常见值估算，仅供对照。",
+  "presets": [
+    {
+      "id": "p_rice_fist",
+      "name": "一拳米饭",
+      "kind": "PORTION",
+      "hint": "熟米饭约一碗/一拳 ≈ 生米 80g",
+      "kcal": 280,
+      "groups": {"GRAIN": 80}
+    },
+    {
+      "id": "p_noodle_fist",
+      "name": "一碗面条",
+      "kind": "PORTION",
+      "hint": "熟面约一碗 ≈ 干面 70g",
+      "kcal": 245,
+      "groups": {"GRAIN": 70}
+    },
+    {
+      "id": "p_mantou",
+      "name": "一个馒头",
+      "kind": "PORTION",
+      "hint": "中等大小 ≈ 面粉 60g",
+      "kcal": 210,
+      "groups": {"GRAIN": 60}
+    },
+    {
+      "id": "p_bread_100",
+      "name": "面包 100g",
+      "kind": "PORTION",
+      "hint": "照包装净重填 ≈ 面粉 70g",
+      "kcal": 300,
+      "groups": {"GRAIN": 70}
+    },
+    {
+      "id": "p_oat",
+      "name": "一份燕麦片",
+      "kind": "PORTION",
+      "hint": "干燕麦约 40g，算全谷物",
+      "kcal": 150,
+      "groups": {"GRAIN": 40, "WHOLE_GRAIN": 40}
+    },
+    {
+      "id": "p_meat_palm",
+      "name": "一掌心肉",
+      "kind": "PORTION",
+      "hint": "掌心大小不含手指、约 1cm 厚 ≈ 生重 75g",
+      "kcal": 150,
+      "groups": {"ANIMAL": 75}
+    },
+    {
+      "id": "p_fish_palm",
+      "name": "一掌心鱼虾",
+      "kind": "PORTION",
+      "hint": "约生重 80g",
+      "kcal": 90,
+      "groups": {"ANIMAL": 80}
+    },
+    {
+      "id": "p_egg",
+      "name": "一个鸡蛋",
+      "kind": "PORTION",
+      "hint": "约 50g",
+      "kcal": 72,
+      "groups": {"ANIMAL": 50}
+    },
+    {
+      "id": "p_veg_hands",
+      "name": "两手捧生菜叶",
+      "kind": "PORTION",
+      "hint": "生叶菜约 100g",
+      "kcal": 25,
+      "groups": {"VEGETABLE": 100}
+    },
+    {
+      "id": "p_veg_bowl",
+      "name": "一小碗炒青菜",
+      "kind": "PORTION",
+      "hint": "熟青菜缩水，约合生重 150g，含少量油",
+      "kcal": 130,
+      "groups": {"VEGETABLE": 150, "OIL": 10}
+    },
+    {
+      "id": "p_oil_thumb",
+      "name": "一拇指油",
+      "kind": "PORTION",
+      "hint": "约一瓷勺 10g",
+      "kcal": 90,
+      "groups": {"OIL": 10}
+    },
+    {
+      "id": "p_milk_cup",
+      "name": "一杯牛奶",
+      "kind": "PORTION",
+      "hint": "约 250ml",
+      "kcal": 135,
+      "groups": {"DAIRY": 250}
+    },
+    {
+      "id": "p_yogurt",
+      "name": "一盒酸奶",
+      "kind": "PORTION",
+      "hint": "约 150g",
+      "kcal": 110,
+      "groups": {"DAIRY": 150}
+    },
+    {
+      "id": "p_tofu_palm",
+      "name": "一掌心豆腐",
+      "kind": "PORTION",
+      "hint": "约 100g 北豆腐 ≈ 大豆 20g",
+      "kcal": 110,
+      "groups": {"SOY_NUT": 20}
+    },
+    {
+      "id": "p_nuts",
+      "name": "一小把坚果",
+      "kind": "PORTION",
+      "hint": "去壳约 10g",
+      "kcal": 60,
+      "groups": {"SOY_NUT": 10}
+    },
+    {
+      "id": "p_fruit_fist",
+      "name": "一个拳头大水果",
+      "kind": "PORTION",
+      "hint": "苹果/橙子等，约 200g",
+      "kcal": 90,
+      "groups": {"FRUIT": 200}
+    },
+    {
+      "id": "p_potato",
+      "name": "一个土豆/红薯",
+      "kind": "PORTION",
+      "hint": "中等大小约 150g",
+      "kcal": 120,
+      "groups": {"TUBER": 150}
+    },
+
+    {
+      "id": "t_huangmen",
+      "name": "黄焖鸡米饭",
+      "kind": "TAKEOUT",
+      "hint": "标准一份，含米饭",
+      "kcal": 750,
+      "groups": {"GRAIN": 100, "ANIMAL": 100, "TUBER": 40, "VEGETABLE": 40, "OIL": 20}
+    },
+    {
+      "id": "t_lanzhou",
+      "name": "兰州拉面",
+      "kind": "TAKEOUT",
+      "hint": "一碗，含牛肉几片",
+      "kcal": 700,
+      "groups": {"GRAIN": 150, "ANIMAL": 30, "VEGETABLE": 50, "OIL": 15}
+    },
+    {
+      "id": "t_malatang",
+      "name": "麻辣烫（中份）",
+      "kind": "TAKEOUT",
+      "hint": "菜多丸子少的混合一份",
+      "kcal": 670,
+      "groups": {"VEGETABLE": 200, "ANIMAL": 80, "SOY_NUT": 20, "TUBER": 50, "OIL": 25}
+    },
+    {
+      "id": "t_gaijiao",
+      "name": "盖浇饭（荤素）",
+      "kind": "TAKEOUT",
+      "hint": "一份饭 + 一个炒菜",
+      "kcal": 740,
+      "groups": {"GRAIN": 110, "ANIMAL": 80, "VEGETABLE": 100, "OIL": 20}
+    },
+    {
+      "id": "t_chaofan",
+      "name": "蛋炒饭",
+      "kind": "TAKEOUT",
+      "hint": "一份",
+      "kcal": 650,
+      "groups": {"GRAIN": 110, "ANIMAL": 50, "VEGETABLE": 30, "OIL": 20}
+    },
+    {
+      "id": "t_burger_set",
+      "name": "汉堡套餐",
+      "kind": "TAKEOUT",
+      "hint": "汉堡 + 薯条 + 一罐可乐",
+      "kcal": 950,
+      "groups": {"GRAIN": 70, "ANIMAL": 70, "VEGETABLE": 20, "DAIRY": 100, "TUBER": 100, "OIL": 25, "OTHER": 330}
+    },
+    {
+      "id": "t_luosifen",
+      "name": "螺蛳粉/米粉",
+      "kind": "TAKEOUT",
+      "hint": "一碗，米粉按干重折算",
+      "kcal": 600,
+      "groups": {"GRAIN": 100, "VEGETABLE": 80, "ANIMAL": 20, "OIL": 20}
+    },
+    {
+      "id": "t_mixian",
+      "name": "米线/汤粉",
+      "kind": "TAKEOUT",
+      "hint": "一碗，含少量肉和菜",
+      "kcal": 580,
+      "groups": {"GRAIN": 100, "ANIMAL": 50, "VEGETABLE": 80, "OIL": 15}
+    },
+    {
+      "id": "t_jiaozi",
+      "name": "饺子（约15个）",
+      "kind": "TAKEOUT",
+      "hint": "猪肉白菜馅一份",
+      "kcal": 660,
+      "groups": {"GRAIN": 120, "ANIMAL": 70, "VEGETABLE": 60, "OIL": 10}
+    },
+    {
+      "id": "t_salad",
+      "name": "轻食沙拉（鸡胸）",
+      "kind": "TAKEOUT",
+      "hint": "一盒，含少量主食和沙拉汁",
+      "kcal": 450,
+      "groups": {"VEGETABLE": 200, "ANIMAL": 100, "GRAIN": 50, "FRUIT": 30, "OIL": 10}
+    },
+    {
+      "id": "t_huoguo",
+      "name": "火锅（一人份）",
+      "kind": "TAKEOUT",
+      "hint": "含蘸料，油和钠都偏高",
+      "kcal": 850,
+      "groups": {"VEGETABLE": 250, "ANIMAL": 150, "SOY_NUT": 25, "TUBER": 60, "OIL": 30}
+    },
+    {
+      "id": "t_shaokao",
+      "name": "烧烤（一顿混合）",
+      "kind": "TAKEOUT",
+      "hint": "肉串为主 + 少量素串主食",
+      "kcal": 900,
+      "groups": {"ANIMAL": 200, "VEGETABLE": 80, "GRAIN": 50, "OIL": 30}
+    },
+    {
+      "id": "t_pizza",
+      "name": "披萨（2片）",
+      "kind": "TAKEOUT",
+      "hint": "9寸的两块，芝士按奶类折算",
+      "kcal": 610,
+      "groups": {"GRAIN": 80, "DAIRY": 150, "ANIMAL": 40, "VEGETABLE": 30, "OIL": 15}
+    },
+    {
+      "id": "t_sushi",
+      "name": "寿司（一盒约8贯）",
+      "kind": "TAKEOUT",
+      "hint": "一盒",
+      "kcal": 450,
+      "groups": {"GRAIN": 90, "ANIMAL": 70, "VEGETABLE": 20, "OIL": 5}
+    },
+    {
+      "id": "t_shaxian",
+      "name": "拌面 + 扁肉",
+      "kind": "TAKEOUT",
+      "hint": "沙县式一套，花生酱油偏多",
+      "kcal": 800,
+      "groups": {"GRAIN": 130, "ANIMAL": 50, "VEGETABLE": 20, "SOY_NUT": 10, "OIL": 25}
+    },
+    {
+      "id": "t_zhou",
+      "name": "粥 + 小菜 + 蛋",
+      "kind": "TAKEOUT",
+      "hint": "清淡早餐一套",
+      "kcal": 370,
+      "groups": {"GRAIN": 60, "VEGETABLE": 50, "ANIMAL": 50, "OIL": 8}
+    },
+
+    {
+      "id": "s_chips",
+      "name": "一包薯片",
+      "kind": "SNACK",
+      "hint": "约 70g；油炸薯片不算薯类",
+      "kcal": 380,
+      "groups": {"OTHER": 70, "OIL": 20}
+    },
+    {
+      "id": "s_milktea",
+      "name": "一杯奶茶",
+      "kind": "SNACK",
+      "hint": "约 500ml 全糖",
+      "kcal": 400,
+      "groups": {"OTHER": 500, "DAIRY": 50}
+    },
+    {
+      "id": "s_cola",
+      "name": "一罐含糖饮料",
+      "kind": "SNACK",
+      "hint": "330ml",
+      "kcal": 140,
+      "groups": {"OTHER": 330}
+    },
+    {
+      "id": "s_cake",
+      "name": "一块蛋糕/糕点",
+      "kind": "SNACK",
+      "hint": "约 100g",
+      "kcal": 350,
+      "groups": {"OTHER": 100, "OIL": 15}
+    },
+    {
+      "id": "s_biscuit",
+      "name": "几片饼干",
+      "kind": "SNACK",
+      "hint": "约 50g，主料是面粉所以计入谷类",
+      "kcal": 240,
+      "groups": {"GRAIN": 35, "OIL": 10}
+    },
+    {
+      "id": "s_chocolate",
+      "name": "一块巧克力",
+      "kind": "SNACK",
+      "hint": "约 40g",
+      "kcal": 220,
+      "groups": {"OTHER": 40}
+    },
+    {
+      "id": "s_icecream",
+      "name": "一支冰淇淋",
+      "kind": "SNACK",
+      "hint": "约 80g",
+      "kcal": 200,
+      "groups": {"OTHER": 80, "DAIRY": 40}
+    },
+    {
+      "id": "s_beer",
+      "name": "一瓶啤酒",
+      "kind": "SNACK",
+      "hint": "500ml",
+      "kcal": 180,
+      "groups": {"OTHER": 500}
+    },
+    {
+      "id": "s_friedchicken",
+      "name": "炸鸡（2块）",
+      "kind": "SNACK",
+      "hint": "带裹粉",
+      "kcal": 500,
+      "groups": {"ANIMAL": 120, "GRAIN": 20, "OIL": 25}
+    },
+    {
+      "id": "s_nuts_pack",
+      "name": "一包坚果",
+      "kind": "SNACK",
+      "hint": "每日坚果一小包约 25g",
+      "kcal": 150,
+      "groups": {"SOY_NUT": 25}
+    }
+  ]
+}

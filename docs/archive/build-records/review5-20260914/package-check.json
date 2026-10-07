@@ -1,0 +1,27 @@
+{
+  "version": "1.2.9",
+  "version_code": 2026091403,
+  "sha256": "282c5aedb73d044dd2284dca01f5d57e9bd851e5d4b49ea0c6bf09967a70df67",
+  "changed_dataset_ids": [
+    "0001",
+    "0295",
+    "0296",
+    "0297",
+    "0298",
+    "0292",
+    "1427"
+  ],
+  "changed_raw_assets": [
+    "res/raw/dataset_motion_0001.webp",
+    "res/raw/dataset_motion_0298.webp",
+    "res/raw/dataset_motion_1427.webp"
+  ],
+  "reviewed": 21,
+  "unreviewed": 1334,
+  "generated_images_imported": 0,
+  "apk_integrity": "passed",
+  "dataset_and_review_hashes": "passed",
+  "apk": "build/时光屋-1.2.9-第五批动作复核.apk",
+  "signature_verified": true,
+  "signer_sha256": "f97b8a406448cb301259189f833d7beb7985728929dd652d2c257e8d36a28997"
+}

@@ -1,0 +1,6 @@
+[
+  "Version 1 routines retain their original exercise and round rests",
+  "Edited routines migrate to separate persistent rest fields",
+  "Weight field preserves existing action notes",
+  "Version 2 routines execute saved breaks and weights after relaunch"
+]

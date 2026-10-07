@@ -1,0 +1,46 @@
+{
+  "build": "passed",
+  "domain_tests": "passed",
+  "emulator": "emulator-5554",
+  "ui_checks": {
+    "ui-batch3": 19,
+    "ui-review": 13,
+    "ui-edges": 4,
+    "ui-dynamic": 10
+  },
+  "total_ui_checks": 46,
+  "catalog_counts": {
+    "待核逻辑": 1319,
+    "待修图": 15,
+    "已完成": 18,
+    "待补图": 3
+  },
+  "package": {
+    "file": "build/时光屋-1.2.7-第三批动作复核.apk",
+    "version": "1.2.7",
+    "version_code": 2026091401,
+    "sha256": "a73c5fbe70303f353560e17a8951a8863f068a50328d91582a837676a79d4527",
+    "changed_dataset_ids": [
+      "0285",
+      "0310",
+      "0383",
+      "0430",
+      "0630",
+      "0872",
+      "3699"
+    ],
+    "changed_raw_assets": [
+      "res/raw/dataset_motion_0285.webp",
+      "res/raw/dataset_motion_0430.webp",
+      "res/raw/dataset_motion_0630.webp",
+      "res/raw/dataset_motion_0872.webp",
+      "res/raw/dataset_motion_3699.webp"
+    ],
+    "reviewed": 18,
+    "unreviewed": 1337,
+    "image_generation_calls": 0,
+    "signature_sha256": "f97b8a406448cb301259189f833d7beb7985728929dd652d2c257e8d36a28997",
+    "signature_verified": true
+  },
+  "physical_device_test": false
+}

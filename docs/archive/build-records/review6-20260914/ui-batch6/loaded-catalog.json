@@ -1,0 +1,264 @@
+{
+  "dataset_1324_0020": {
+    "name": "平衡板",
+    "equipment": [
+      "自重"
+    ],
+    "requiredEquipment": [
+      "平衡板"
+    ],
+    "available": {
+      "自重": false,
+      "哑铃": false,
+      "平板训练凳": false,
+      "哑铃|平板训练凳": false,
+      "哑铃|上斜训练凳": false,
+      "哑铃|下斜训练凳": false
+    },
+    "patterns": [
+      "下肢"
+    ],
+    "primary": [
+      "股四头肌",
+      "小腿肌"
+    ],
+    "isHold": false,
+    "perSide": false,
+    "shoulder": "NONE",
+    "lower_back": "NONE",
+    "knee": "MEDIUM"
+  },
+  "dataset_1324_0129": {
+    "name": "屈膝凳上臂屈伸",
+    "equipment": [
+      "自重"
+    ],
+    "requiredEquipment": [
+      "平板训练凳"
+    ],
+    "available": {
+      "自重": false,
+      "哑铃": false,
+      "平板训练凳": true,
+      "哑铃|平板训练凳": true,
+      "哑铃|上斜训练凳": false,
+      "哑铃|下斜训练凳": false
+    },
+    "patterns": [
+      "推",
+      "伸肘"
+    ],
+    "primary": [
+      "肱三头肌"
+    ],
+    "isHold": false,
+    "perSide": false,
+    "shoulder": "MEDIUM",
+    "lower_back": "NONE",
+    "knee": "NONE"
+  },
+  "dataset_1324_0130": {
+    "name": "卧推凳臀部后伸",
+    "equipment": [
+      "自重"
+    ],
+    "requiredEquipment": [
+      "平板训练凳"
+    ],
+    "available": {
+      "自重": false,
+      "哑铃": false,
+      "平板训练凳": true,
+      "哑铃|平板训练凳": true,
+      "哑铃|上斜训练凳": false,
+      "哑铃|下斜训练凳": false
+    },
+    "patterns": [
+      "下肢"
+    ],
+    "primary": [
+      "臀肌",
+      "腘绳肌"
+    ],
+    "isHold": false,
+    "perSide": false,
+    "shoulder": "NONE",
+    "lower_back": "NONE",
+    "knee": "MEDIUM"
+  },
+  "dataset_1324_0299": {
+    "name": "哑铃古巴推举",
+    "equipment": [
+      "哑铃"
+    ],
+    "requiredEquipment": [],
+    "available": {
+      "自重": false,
+      "哑铃": true,
+      "平板训练凳": false,
+      "哑铃|平板训练凳": true,
+      "哑铃|上斜训练凳": true,
+      "哑铃|下斜训练凳": true
+    },
+    "patterns": [
+      "推",
+      "肩外旋",
+      "过顶伸展"
+    ],
+    "primary": [
+      "三角肌"
+    ],
+    "isHold": false,
+    "perSide": false,
+    "shoulder": "MEDIUM",
+    "lower_back": "MEDIUM",
+    "knee": "NONE"
+  },
+  "dataset_1324_0301": {
+    "name": "哑铃下斜卧推",
+    "equipment": [
+      "哑铃"
+    ],
+    "requiredEquipment": [
+      "下斜训练凳"
+    ],
+    "available": {
+      "自重": false,
+      "哑铃": false,
+      "平板训练凳": false,
+      "哑铃|平板训练凳": false,
+      "哑铃|上斜训练凳": false,
+      "哑铃|下斜训练凳": true
+    },
+    "patterns": [
+      "推"
+    ],
+    "primary": [
+      "胸肌",
+      "肱三头肌"
+    ],
+    "isHold": false,
+    "perSide": false,
+    "shoulder": "MEDIUM",
+    "lower_back": "NONE",
+    "knee": "NONE"
+  },
+  "dataset_1324_0302": {
+    "name": "哑铃下斜飞鸟",
+    "equipment": [
+      "哑铃"
+    ],
+    "requiredEquipment": [
+      "下斜训练凳"
+    ],
+    "available": {
+      "自重": false,
+      "哑铃": false,
+      "平板训练凳": false,
+      "哑铃|平板训练凳": false,
+      "哑铃|上斜训练凳": false,
+      "哑铃|下斜训练凳": true
+    },
+    "patterns": [
+      "推"
+    ],
+    "primary": [
+      "胸肌",
+      "肩部"
+    ],
+    "isHold": false,
+    "perSide": false,
+    "shoulder": "MEDIUM",
+    "lower_back": "NONE",
+    "knee": "NONE"
+  },
+  "dataset_1324_0303": {
+    "name": "哑铃下斜锤式推举",
+    "equipment": [
+      "哑铃"
+    ],
+    "requiredEquipment": [
+      "下斜训练凳"
+    ],
+    "available": {
+      "自重": false,
+      "哑铃": false,
+      "平板训练凳": false,
+      "哑铃|平板训练凳": false,
+      "哑铃|上斜训练凳": false,
+      "哑铃|下斜训练凳": true
+    },
+    "patterns": [
+      "推"
+    ],
+    "primary": [
+      "胸肌",
+      "肱三头肌"
+    ],
+    "isHold": false,
+    "perSide": false,
+    "shoulder": "MEDIUM",
+    "lower_back": "NONE",
+    "knee": "NONE"
+  },
+  "dataset_1324_0304": {
+    "name": "哑铃俯卧上斜凳耸肩",
+    "equipment": [
+      "哑铃"
+    ],
+    "requiredEquipment": [
+      "上斜训练凳"
+    ],
+    "available": {
+      "自重": false,
+      "哑铃": false,
+      "平板训练凳": false,
+      "哑铃|平板训练凳": false,
+      "哑铃|上斜训练凳": true,
+      "哑铃|下斜训练凳": false
+    },
+    "patterns": [
+      "拉",
+      "肩胛上提"
+    ],
+    "primary": [
+      "斜方肌"
+    ],
+    "isHold": false,
+    "perSide": false,
+    "shoulder": "MEDIUM",
+    "lower_back": "MEDIUM",
+    "knee": "NONE"
+  },
+  "dataset_1324_0292": {
+    "name": "哑铃单臂俯身划船",
+    "equipment": [
+      "哑铃"
+    ],
+    "requiredEquipment": [
+      "平板训练凳"
+    ],
+    "available": {
+      "自重": false,
+      "哑铃": false,
+      "平板训练凳": false,
+      "哑铃|平板训练凳": true,
+      "哑铃|上斜训练凳": false,
+      "哑铃|下斜训练凳": false
+    },
+    "patterns": [
+      "拉",
+      "水平拉",
+      "俯身稳定"
+    ],
+    "primary": [
+      "上背",
+      "背阔肌"
+    ],
+    "isHold": false,
+    "perSide": true,
+    "shoulder": "MEDIUM",
+    "lower_back": "MEDIUM",
+    "knee": "NONE"
+  }
+}

@@ -1,0 +1,22 @@
+[
+  "Home rejects unreviewed despite both legacy opt-outs",
+  "Daily prescriptions separate short set rests and 75-second exercise rests",
+  "Preview edits reach structured dose and weight",
+  "Edited prescription survives process death",
+  "Edited 10-second rest controls the actual timer",
+  "Active edit shortens timer, preserves completed set, and pauses safely",
+  "Zero rest resumes into next set without getting stuck or double counting",
+  "Exercise transition is a separate 75-second rest",
+  "Transition timer is labelled exercise rest",
+  "Finish snapshots dose, weight and actual completed sets",
+  "Dedicated note editor stores Unicode and special characters",
+  "History editing updates prescription, load and weekly-volume data",
+  "History changes survive relaunch",
+  "Records show activity and total energy separately",
+  "Stored heart samples have an accessible chart",
+  "Old doses remain unknown until explicitly supplied",
+  "Legacy record accepts 30 reps while preserving original evidence",
+  "Editing notes and actions preserves synchronized health data",
+  "Legacy migration and edits persist together",
+  "Upgrade quarantines unreviewed preview while retaining its original data"
+]

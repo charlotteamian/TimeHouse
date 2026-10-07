@@ -1,0 +1,266 @@
+{
+  "version": 1,
+  "note": "内置循证食谱：按《中国居民膳食指南(2022)》平衡膳食宝塔结构设计；营养数值按《中国食物成分表》常见值估算（生重计），单人份。refs 使用 GuidelineRefs 键。",
+  "recipes": [
+    {
+      "id": "b01", "name": "燕麦牛奶蛋白早餐碗", "slots": ["早餐"],
+      "tags": ["高蛋白", "高纤维", "快手"], "trainingDay": true,
+      "kcal": 515, "protein": 23, "fat": 23, "carb": 55, "fiber": 7,
+      "groups": {"GRAIN": 50, "WHOLE_GRAIN": 50, "DAIRY": 250, "ANIMAL": 50, "FRUIT": 50, "SOY_NUT": 10},
+      "ingredients": ["燕麦片 50g", "牛奶 250ml", "鸡蛋 1 个", "蓝莓 50g", "混合坚果 10g"],
+      "steps": ["燕麦片加牛奶小火煮 3 分钟（或微波 2 分钟）", "鸡蛋水煮或煎（不额外多油）", "碗中铺燕麦，放蛋、蓝莓，撒坚果"],
+      "rationale": "一餐覆盖宝塔的谷类（全谷物）、奶类、蛋类、水果、坚果五层；全谷物燕麦提供 β-葡聚糖膳食纤维，蛋白约 23g 帮助达成全天蛋白目标。",
+      "refs": ["CDG_2022", "CDG_FIBER", "ESTIMATE_NOTE"]
+    },
+    {
+      "id": "b02", "name": "全麦蔬菜蛋三明治 + 牛奶", "slots": ["早餐"],
+      "tags": ["快手", "高纤维"], "trainingDay": false,
+      "kcal": 450, "protein": 23, "fat": 17, "carb": 53, "fiber": 7,
+      "groups": {"GRAIN": 80, "WHOLE_GRAIN": 80, "VEGETABLE": 80, "ANIMAL": 50, "DAIRY": 250},
+      "ingredients": ["全麦面包 2 片(80g)", "鸡蛋 1 个", "生菜 30g", "番茄 50g", "牛奶 250ml"],
+      "steps": ["鸡蛋煎成蛋皮或水煮切片", "面包夹入生菜、番茄、鸡蛋", "配一杯牛奶"],
+      "rationale": "全麦面包替换白面包提高全谷物与纤维占比；蛋 + 奶补齐优质蛋白，符合指南「每天一个鸡蛋、300ml 以上奶」。",
+      "refs": ["CDG_2022", "ESTIMATE_NOTE"]
+    },
+    {
+      "id": "b03", "name": "紫米粥豆浆套餐", "slots": ["早餐"],
+      "tags": ["清淡", "高纤维"], "trainingDay": false,
+      "kcal": 420, "protein": 22, "fat": 14, "carb": 52, "fiber": 4,
+      "groups": {"GRAIN": 60, "WHOLE_GRAIN": 60, "VEGETABLE": 100, "ANIMAL": 50, "SOY_NUT": 12, "OIL": 3},
+      "ingredients": ["紫米 60g", "无糖豆浆 300ml", "鸡蛋 1 个", "黄瓜 100g", "香油 3g"],
+      "steps": ["紫米提前泡 2 小时，煮粥 30 分钟", "黄瓜拍碎加香油少许盐凉拌", "配水煮蛋和无糖豆浆"],
+      "rationale": "紫米属全谷物；豆浆计入大豆类，指南推荐每天 25-35g 大豆及坚果；整餐低油低盐。",
+      "refs": ["CDG_2022", "ESTIMATE_NOTE"]
+    },
+    {
+      "id": "b04", "name": "希腊酸奶燕麦水果杯", "slots": ["早餐", "加餐"],
+      "tags": ["高蛋白", "免开火", "快手"], "trainingDay": true,
+      "kcal": 430, "protein": 24, "fat": 17, "carb": 45, "fiber": 5,
+      "groups": {"GRAIN": 20, "WHOLE_GRAIN": 20, "DAIRY": 200, "FRUIT": 100, "SOY_NUT": 10},
+      "ingredients": ["希腊式酸奶(无糖) 200g", "香蕉 1 根(100g)", "燕麦片 20g", "混合坚果 10g"],
+      "steps": ["酸奶打底", "香蕉切片铺面", "撒燕麦片与坚果，静置 5 分钟更绵软"],
+      "rationale": "希腊式酸奶蛋白密度高（约 9g/100g），适合训练日早餐或练后加餐；水果用整果而非果汁，符合指南。",
+      "refs": ["CDG_2022", "SPORT_PROTEIN", "ESTIMATE_NOTE"]
+    },
+    {
+      "id": "b05", "name": "蔬菜鸡蛋饼 + 小米粥", "slots": ["早餐"],
+      "tags": ["家常"], "trainingDay": false,
+      "kcal": 500, "protein": 22, "fat": 16, "carb": 67, "fiber": 4,
+      "groups": {"GRAIN": 80, "WHOLE_GRAIN": 30, "VEGETABLE": 100, "ANIMAL": 100, "OIL": 5},
+      "ingredients": ["鸡蛋 2 个", "面粉 50g", "胡萝卜丝 50g", "菠菜碎 50g", "植物油 5g", "小米 30g"],
+      "steps": ["小米加水煮粥", "蛋液+面粉+蔬菜丝调糊，少油摊成两张饼", "配粥食用"],
+      "rationale": "早餐进蔬菜 100g，更容易达成全天 300-500g 蔬菜目标；两个鸡蛋提供约 13g 蛋白。",
+      "refs": ["CDG_2022", "ESTIMATE_NOTE"]
+    },
+    {
+      "id": "b06", "name": "蒸红薯鸡蛋牛奶套餐", "slots": ["早餐"],
+      "tags": ["免开火可备餐", "高纤维"], "trainingDay": false,
+      "kcal": 465, "protein": 18, "fat": 19, "carb": 55, "fiber": 7,
+      "groups": {"TUBER": 200, "ANIMAL": 50, "DAIRY": 250, "SOY_NUT": 10},
+      "ingredients": ["红薯 200g", "鸡蛋 1 个", "牛奶 250ml", "混合坚果 10g"],
+      "steps": ["红薯蒸 20 分钟（可前一晚备好）", "配水煮蛋、牛奶、坚果"],
+      "rationale": "薯类是宝塔单列的一层（每天 50-100g，此份为两餐量可分食）；红薯膳食纤维高、饱腹感强。",
+      "refs": ["CDG_2022", "CDG_FIBER", "ESTIMATE_NOTE"]
+    },
+    {
+      "id": "l01", "name": "鸡胸糙米能量碗", "slots": ["午餐"],
+      "tags": ["高蛋白", "健身餐", "备餐友好"], "trainingDay": true,
+      "kcal": 585, "protein": 45, "fat": 14, "carb": 73, "fiber": 8,
+      "groups": {"GRAIN": 75, "WHOLE_GRAIN": 75, "VEGETABLE": 200, "ANIMAL": 150, "OIL": 8},
+      "ingredients": ["鸡胸肉 150g", "糙米 75g(生)", "西兰花 150g", "胡萝卜 50g", "橄榄油 8g", "黑胡椒/生抽 适量"],
+      "steps": ["糙米提前泡 1 小时，正常焖饭", "鸡胸切块用生抽黑胡椒腌 15 分钟，少油煎熟", "西兰花胡萝卜焯水 2 分钟，拌入碗中"],
+      "rationale": "训练日主餐：蛋白 45g、全谷物主食、两拳蔬菜；抗阻训练人群按 1.6-2.2g/kg 分配到三餐，这一餐承担大头。",
+      "refs": ["SPORT_PROTEIN", "CDG_2022", "ESTIMATE_NOTE"]
+    },
+    {
+      "id": "l02", "name": "清蒸鲈鱼配米饭菠菜", "slots": ["午餐", "晚餐"],
+      "tags": ["水产", "低油"], "trainingDay": false,
+      "kcal": 535, "protein": 39, "fat": 14, "carb": 67, "fiber": 5,
+      "groups": {"GRAIN": 75, "VEGETABLE": 200, "ANIMAL": 150, "OIL": 8},
+      "ingredients": ["鲈鱼 150g", "大米 75g(生)", "菠菜 200g", "葱姜/蒸鱼豉油", "植物油 8g"],
+      "steps": ["鲈鱼铺葱姜大火蒸 8 分钟，淋少许豉油", "菠菜焯水后蒜蓉清炒", "配米饭"],
+      "rationale": "指南建议每周至少 2 次水产品：清蒸做法保留蛋白与不饱和脂肪酸，全程低油。",
+      "refs": ["CDG_2022", "ESTIMATE_NOTE"]
+    },
+    {
+      "id": "l03", "name": "番茄牛肉荞麦面", "slots": ["午餐"],
+      "tags": ["高蛋白", "一锅出"], "trainingDay": true,
+      "kcal": 500, "protein": 31, "fat": 12, "carb": 68, "fiber": 7,
+      "groups": {"GRAIN": 75, "WHOLE_GRAIN": 75, "VEGETABLE": 250, "ANIMAL": 100, "OIL": 8},
+      "ingredients": ["瘦牛肉 100g", "荞麦面 75g(干)", "番茄 200g", "洋葱 50g", "植物油 8g"],
+      "steps": ["番茄炒出汁，加洋葱与牛肉片翻炒", "加水煮开，下荞麦面煮 4-5 分钟", "按口味少盐调味"],
+      "rationale": "荞麦面为全谷物主食；番茄基底汤面比红烧做法油盐更低；牛肉提供血红素铁。",
+      "refs": ["CDG_2022", "ESTIMATE_NOTE"]
+    },
+    {
+      "id": "l04", "name": "豆腐虾仁盖饭", "slots": ["午餐"],
+      "tags": ["高蛋白", "水产"], "trainingDay": true,
+      "kcal": 590, "protein": 36, "fat": 17, "carb": 72, "fiber": 5,
+      "groups": {"GRAIN": 75, "VEGETABLE": 150, "ANIMAL": 100, "SOY_NUT": 20, "OIL": 8},
+      "ingredients": ["虾仁 100g", "老豆腐 150g", "大米 75g(生)", "青椒 100g", "水发木耳 50g", "植物油 8g"],
+      "steps": ["豆腐切块少油煎至微黄", "下虾仁、青椒、木耳快炒，少许生抽勾薄芡", "盖在米饭上"],
+      "rationale": "动物蛋白（虾）+ 植物蛋白（豆腐）组合，兼顾指南的水产与大豆两类推荐。",
+      "refs": ["CDG_2022", "ESTIMATE_NOTE"]
+    },
+    {
+      "id": "l05", "name": "藜麦鸡腿沙拉碗", "slots": ["午餐"],
+      "tags": ["轻食", "备餐友好"], "trainingDay": false,
+      "kcal": 520, "protein": 35, "fat": 19, "carb": 46, "fiber": 7,
+      "groups": {"GRAIN": 60, "WHOLE_GRAIN": 60, "VEGETABLE": 300, "ANIMAL": 120, "OIL": 10},
+      "ingredients": ["去皮鸡腿肉 120g", "藜麦 60g(生)", "生菜 100g", "小番茄 100g", "黄瓜 100g", "橄榄油 10g", "柠檬汁/黑胡椒"],
+      "steps": ["藜麦煮 15 分钟沥干放凉", "鸡腿肉煎熟切条", "所有食材拌匀，油醋汁调味"],
+      "rationale": "一碗达成 300g 蔬菜（全天目标的 60-100%）；藜麦为全谷物且蛋白质氨基酸组成较全面。",
+      "refs": ["CDG_2022", "CDG_FIBER", "ESTIMATE_NOTE"]
+    },
+    {
+      "id": "l06", "name": "杂豆焖饭配双蔬小炒", "slots": ["午餐", "晚餐"],
+      "tags": ["高纤维", "家常"], "trainingDay": false,
+      "kcal": 565, "protein": 31, "fat": 15, "carb": 78, "fiber": 9,
+      "groups": {"GRAIN": 100, "WHOLE_GRAIN": 50, "VEGETABLE": 200, "ANIMAL": 75, "OIL": 8},
+      "ingredients": ["大米 50g", "红豆 25g", "鹰嘴豆 25g", "瘦猪里脊 75g", "紫甘蓝 100g", "芹菜 100g", "植物油 8g"],
+      "steps": ["红豆鹰嘴豆提前泡 4 小时，与大米同焖", "里脊切丝与芹菜同炒", "紫甘蓝清炒或凉拌"],
+      "rationale": "杂豆与全谷物同煮是指南推荐的「全谷物和杂豆 50-150g」最易执行的做法，膳食纤维接近全天目标的 1/3。",
+      "refs": ["CDG_2022", "CDG_FIBER", "ESTIMATE_NOTE"]
+    },
+    {
+      "id": "d01", "name": "香煎三文鱼配红薯西兰花", "slots": ["晚餐"],
+      "tags": ["水产", "低碳友好"], "trainingDay": false,
+      "kcal": 445, "protein": 29, "fat": 18, "carb": 42, "fiber": 8,
+      "groups": {"TUBER": 150, "VEGETABLE": 150, "ANIMAL": 125, "OIL": 8},
+      "ingredients": ["三文鱼 125g", "红薯 150g", "西兰花 150g", "橄榄油 8g", "柠檬/黑胡椒"],
+      "steps": ["红薯蒸熟", "三文鱼两面各煎 2-3 分钟", "西兰花焯水，淋油醋汁"],
+      "rationale": "深海鱼提供 n-3 多不饱和脂肪酸；主食换成薯类降低晚餐精制谷物比例。",
+      "refs": ["CDG_2022", "ESTIMATE_NOTE"]
+    },
+    {
+      "id": "d02", "name": "番茄豆腐蛋花汤 + 杂粮饭", "slots": ["晚餐"],
+      "tags": ["清淡", "大豆"], "trainingDay": false,
+      "kcal": 535, "protein": 26, "fat": 18, "carb": 67, "fiber": 6,
+      "groups": {"GRAIN": 75, "WHOLE_GRAIN": 35, "VEGETABLE": 200, "ANIMAL": 50, "SOY_NUT": 25, "OIL": 6},
+      "ingredients": ["嫩豆腐 200g", "番茄 150g", "鸡蛋 1 个", "大米 40g", "燕麦米 20g", "小米 15g", "香菇 50g", "植物油 6g"],
+      "steps": ["三种米同焖成杂粮饭", "番茄炒软加水，下豆腐香菇煮 5 分钟", "淋蛋液成蛋花，少盐出锅"],
+      "rationale": "晚餐以植物蛋白为主更清淡；杂粮饭把全谷物拆进主食，无感达标。",
+      "refs": ["CDG_2022", "ESTIMATE_NOTE"]
+    },
+    {
+      "id": "d03", "name": "香菇鸡肉山药煲 + 糙米饭", "slots": ["晚餐"],
+      "tags": ["家常", "炖菜"], "trainingDay": true,
+      "kcal": 540, "protein": 38, "fat": 11, "carb": 73, "fiber": 8,
+      "groups": {"GRAIN": 60, "WHOLE_GRAIN": 60, "TUBER": 150, "VEGETABLE": 250, "ANIMAL": 120, "OIL": 6},
+      "ingredients": ["鸡胸肉 120g", "山药 150g", "香菇 100g", "小青菜 150g", "糙米 60g(生)", "植物油 6g"],
+      "steps": ["鸡肉山药香菇加姜片炖 20 分钟", "青菜最后 2 分钟下锅", "配糙米饭"],
+      "rationale": "炖煮少油；山药计薯类、香菇与青菜补足蔬菜量，训练日晚餐蛋白 38g。",
+      "refs": ["CDG_2022", "SPORT_PROTEIN", "ESTIMATE_NOTE"]
+    },
+    {
+      "id": "d04", "name": "虾仁冬瓜荞麦汤面", "slots": ["晚餐"],
+      "tags": ["减脂轻晚餐", "水产"], "trainingDay": false,
+      "kcal": 385, "protein": 27, "fat": 7, "carb": 55, "fiber": 7,
+      "groups": {"GRAIN": 60, "WHOLE_GRAIN": 60, "VEGETABLE": 300, "ANIMAL": 100, "OIL": 5},
+      "ingredients": ["虾仁 100g", "冬瓜 200g", "荞麦面 60g(干)", "菠菜 100g", "香油 5g"],
+      "steps": ["冬瓜片加水煮开", "下荞麦面煮 4 分钟，加虾仁菠菜再煮 2 分钟", "滴香油少盐出锅"],
+      "rationale": "减脂日轻晚餐：热量 400 以内但蛋白 27g、蔬菜 300g，饱腹不超量。",
+      "refs": ["CDG_2022", "ENERGY_RATE", "ESTIMATE_NOTE"]
+    },
+    {
+      "id": "d05", "name": "牛肉土豆炖胡萝卜 + 小份米饭", "slots": ["晚餐"],
+      "tags": ["家常", "炖菜"], "trainingDay": true,
+      "kcal": 510, "protein": 28, "fat": 10, "carb": 73, "fiber": 6,
+      "groups": {"GRAIN": 50, "TUBER": 150, "VEGETABLE": 100, "ANIMAL": 100, "OIL": 8},
+      "ingredients": ["瘦牛肉 100g", "土豆 150g", "胡萝卜 100g", "大米 50g(生)", "植物油 8g"],
+      "steps": ["牛肉焯水后小火炖 40 分钟", "下土豆胡萝卜再炖 15 分钟", "配小份米饭（土豆已承担部分主食）"],
+      "rationale": "土豆作为薯类替代部分精米，主食总量不超；炖煮少油少盐。",
+      "refs": ["CDG_2022", "ESTIMATE_NOTE"]
+    },
+    {
+      "id": "d06", "name": "蒜蓉蒸虾 + 凉拌豆腐 + 甜玉米", "slots": ["晚餐"],
+      "tags": ["高蛋白", "低油"], "trainingDay": false,
+      "kcal": 505, "protein": 42, "fat": 13, "carb": 55, "fiber": 7,
+      "groups": {"GRAIN": 70, "WHOLE_GRAIN": 70, "VEGETABLE": 100, "ANIMAL": 150, "SOY_NUT": 20, "OIL": 6},
+      "ingredients": ["鲜虾 150g", "嫩豆腐 150g", "甜玉米 1 根(200g)", "黄瓜 100g", "香油 6g", "蒜蓉/生抽"],
+      "steps": ["虾开背铺蒜蓉蒸 6 分钟", "豆腐黄瓜加香油生抽凉拌", "玉米蒸熟当主食"],
+      "rationale": "蒸拌为主几乎不用烹调油；玉米作全谷物主食；水产 + 大豆双蛋白来源。",
+      "refs": ["CDG_2022", "ESTIMATE_NOTE"]
+    },
+    {
+      "id": "s01", "name": "无糖酸奶坚果杯", "slots": ["加餐"],
+      "tags": ["免开火", "快手"], "trainingDay": false,
+      "kcal": 230, "protein": 10, "fat": 14, "carb": 13, "fiber": 1,
+      "groups": {"DAIRY": 200, "SOY_NUT": 15},
+      "ingredients": ["无糖酸奶 200g", "混合坚果 15g"],
+      "steps": ["酸奶加坚果即食"],
+      "rationale": "把奶类与坚果的宝塔缺口安排在加餐补齐；选无糖酸奶控制添加糖 <25g/天。",
+      "refs": ["CDG_2022", "FAT_RANGE", "ESTIMATE_NOTE"]
+    },
+    {
+      "id": "s02", "name": "双色水果拼盘", "slots": ["加餐"],
+      "tags": ["免开火"], "trainingDay": false,
+      "kcal": 150, "protein": 1, "fat": 0, "carb": 36, "fiber": 6,
+      "groups": {"FRUIT": 300},
+      "ingredients": ["苹果 150g", "橙子 150g"],
+      "steps": ["洗净切块即食（不榨汁）"],
+      "rationale": "指南强调吃整果不喝果汁：保留膳食纤维、血糖反应更平缓；300g 覆盖全天水果目标的大部分。",
+      "refs": ["CDG_2022", "CDG_FIBER", "ESTIMATE_NOTE"]
+    },
+    {
+      "id": "s03", "name": "香蕉牛奶（练前/练后）", "slots": ["加餐"],
+      "tags": ["训练加餐", "免开火", "快手"], "trainingDay": true,
+      "kcal": 255, "protein": 9, "fat": 9, "carb": 34, "fiber": 3,
+      "groups": {"FRUIT": 100, "DAIRY": 250},
+      "ingredients": ["香蕉 1 根(100g)", "牛奶 250ml"],
+      "steps": ["直接吃，或打成奶昔"],
+      "rationale": "训练前 1 小时或训练后：易消化碳水 + 蛋白，帮助供能与恢复；比运动饮料多了奶类的钙与蛋白。",
+      "refs": ["SPORT_PROTEIN", "CDG_2022", "ESTIMATE_NOTE"]
+    },
+    {
+      "id": "s04", "name": "盐水毛豆", "slots": ["加餐"],
+      "tags": ["大豆", "高纤维"], "trainingDay": false,
+      "kcal": 130, "protein": 13, "fat": 5, "carb": 10, "fiber": 4,
+      "groups": {"SOY_NUT": 30},
+      "ingredients": ["带壳毛豆 250g（豆约 100g）", "少许盐/八角"],
+      "steps": ["毛豆剪角，淡盐水煮 8 分钟，放凉更入味"],
+      "rationale": "毛豆即新鲜大豆：一份补齐全天大豆坚果目标，且蛋白 13g、纤维 4g，远优于饼干类零食。",
+      "refs": ["CDG_2022", "CDG_FIBER", "ESTIMATE_NOTE"]
+    },
+    {
+      "id": "t01", "name": "练后恢复燕麦牛奶蛋杯", "slots": ["加餐", "早餐"],
+      "tags": ["训练加餐", "高蛋白", "快手"], "trainingDay": true,
+      "kcal": 530, "protein": 22, "fat": 19, "carb": 67, "fiber": 6,
+      "groups": {"GRAIN": 40, "WHOLE_GRAIN": 40, "DAIRY": 300, "ANIMAL": 50, "FRUIT": 100},
+      "ingredients": ["即食燕麦 40g", "牛奶 300ml", "鸡蛋 1 个", "香蕉 100g", "蜂蜜 5g"],
+      "steps": ["燕麦用热牛奶冲泡 2 分钟", "加入切片香蕉与水煮蛋", "淋少许蜂蜜"],
+      "rationale": "训练后 30-60 分钟内碳水+蛋白同补（约 3:1）利于糖原恢复与肌肉修复；适合大强度训练日。",
+      "refs": ["SPORT_PROTEIN", "ACSM_RT", "ESTIMATE_NOTE"]
+    },
+    {
+      "id": "t02", "name": "鸡胸大拌菜（减脂轻晚餐）", "slots": ["晚餐"],
+      "tags": ["减脂轻晚餐", "轻食"], "trainingDay": false,
+      "kcal": 295, "protein": 27, "fat": 9, "carb": 19, "fiber": 5,
+      "groups": {"GRAIN": 20, "WHOLE_GRAIN": 20, "VEGETABLE": 350, "ANIMAL": 100, "OIL": 6},
+      "ingredients": ["鸡胸肉 100g", "生菜 100g", "紫甘蓝 50g", "小番茄 100g", "黄瓜 100g", "甜玉米粒 50g", "橄榄油 6g", "油醋汁"],
+      "steps": ["鸡胸水煮 10 分钟撕成丝", "所有蔬菜洗净改刀", "油醋汁拌匀即可"],
+      "rationale": "热量 300 以内、蔬菜 350g、蛋白 27g：减脂期热量缺口主要放在晚餐时的稳妥选择。",
+      "refs": ["ENERGY_RATE", "CDG_2022", "ESTIMATE_NOTE"]
+    },
+    {
+      "id": "l07", "name": "西兰花牛肉糙米饭（备餐盒）", "slots": ["午餐", "晚餐"],
+      "tags": ["备餐友好", "高蛋白", "健身餐"], "trainingDay": true,
+      "kcal": 555, "protein": 40, "fat": 13, "carb": 70, "fiber": 8,
+      "groups": {"GRAIN": 75, "WHOLE_GRAIN": 75, "VEGETABLE": 250, "ANIMAL": 120, "OIL": 8},
+      "ingredients": ["瘦牛肉 120g", "糙米 75g(生)", "西兰花 150g", "彩椒 100g", "植物油 8g", "黑胡椒/生抽"],
+      "steps": ["糙米焖饭，可一次做 2-3 份冷藏", "牛肉切片炒至变色，下西兰花彩椒", "分装成备餐盒，吃前加热"],
+      "rationale": "经典备餐组合：一次备 2-3 天午餐，保证训练周高蛋白 + 全谷物 + 足量蔬菜的稳定执行。",
+      "refs": ["SPORT_PROTEIN", "CDG_2022", "ESTIMATE_NOTE"]
+    },
+    {
+      "id": "d07", "name": "海带豆腐味噌汤 + 烤秋刀鱼 + 米饭", "slots": ["晚餐"],
+      "tags": ["水产", "家常"], "trainingDay": false,
+      "kcal": 560, "protein": 33, "fat": 22, "carb": 60, "fiber": 5,
+      "groups": {"GRAIN": 65, "VEGETABLE": 150, "ANIMAL": 100, "SOY_NUT": 15, "OIL": 5},
+      "ingredients": ["秋刀鱼 100g", "嫩豆腐 100g", "海带结 100g", "小葱", "大米 65g(生)", "味噌 10g"],
+      "steps": ["秋刀鱼烤箱 200℃ 烤 15 分钟（无需额外用油）", "海带豆腐煮 5 分钟后调入味噌", "配米饭"],
+      "rationale": "秋刀鱼等富脂海鱼是 n-3 脂肪酸的高效来源，帮助达成每周 2 次水产；烤制不用额外油。",
+      "refs": ["CDG_2022", "ESTIMATE_NOTE"]
+    }
+  ]
+}

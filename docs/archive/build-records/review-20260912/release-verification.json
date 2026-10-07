@@ -1,0 +1,17 @@
+{
+  "apk": "/Users/restartday/Documents/健身/build/时光屋-1.2.4-动作复核与播放优化.apk",
+  "sha256": "c4b28f01ac277d59820f70d00120e5f1fc76c75652ca80f463d6a16b8cb64080",
+  "size_mb": 457.7,
+  "version": "1.2.4",
+  "same_signer_as_1_2_3": true,
+  "ui_passes": {
+    "ui": 13,
+    "edges": 4,
+    "today": 22
+  },
+  "static_cover_pixel_difference": 0,
+  "reviewed_default_count": 4,
+  "unreviewed_default_count": 1351,
+  "missing_media_count": 4,
+  "image_generation_calls": 0
+}

@@ -1,0 +1,23 @@
+[
+  "Quick-duration buttons have visible horizontal gaps",
+  "Daily 25-minute plan has five movement roles",
+  "Daily prescription uses RPE 7–8",
+  "Regeneration rotates at least two same-role exercises",
+  "Plan explains its scientific rotation rule",
+  "Empty routines rejected without leaving editor",
+  "Routine edit and ordering buttons have vertical breathing room",
+  "Routine ordering buttons have horizontal breathing room",
+  "Routine name and circuit settings saved from UI",
+  "External action, seconds and weight note persisted",
+  "Custom exercise equipment selection persisted",
+  "Reordering persists through save",
+  "Circuit expands A B A B",
+  "Action and round rest boundaries retained",
+  "Completed circuit action enters transition rest for next action",
+  "Process restart restores circuit rest and cursor paused",
+  "Saved timed action runs as exact 45-second countdown",
+  "End of circuit round uses 60-second round rest",
+  "Partial circuit saved as training record",
+  "Training never mutates saved routine",
+  "Deleting saved routine works"
+]

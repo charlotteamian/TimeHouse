@@ -1,0 +1,8 @@
+[
+  "App-private GIF decodes in custom exercise detail",
+  "App-private GIF still decodes after process restart",
+  "Existing custom exercise exposes editable equipment",
+  "Editing custom exercise equipment updates persisted data",
+  "Expired legacy content URI shows a visible recovery state",
+  "Expired content URI offers reselect instead of a broken browser link"
+]

@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "completed_at": "2026-09-15T03:49:38.145174+08:00",
+  "version": "1.2.11",
+  "domain_tests": "passed",
+  "build": "passed",
+  "ui_checks": {
+    "batch": 25,
+    "review": 13,
+    "edges": 4,
+    "dynamic": 10
+  },
+  "ui_checks_total": 52,
+  "reviewed": 28,
+  "unreviewed": 1327,
+  "new_reviewed_picker_entries_verified": [
+    "哑铃坐姿阿诺德推举",
+    "哑铃坐姿肩上推举",
+    "窄距平行握引体向上",
+    "哑铃俯卧上斜凳耸肩（另一示范）"
+  ],
+  "package": {
+    "version": "1.2.11",
+    "version_code": 2026091501,
+    "sha256": "4f05abd42a0e2b8b4fd6ed932f5d50b1d25f597f580ec0ea3aaacf7542d49626",
+    "changed_dataset_ids": [
+      "0139",
+      "0140",
+      "0138",
+      "0251",
+      "0253",
+      "0287",
+      "0288",
+      "0290",
+      "0291",
+      "0305"
+    ],
+    "changed_raw_assets": [
+      "res/raw/dataset_motion_0287.webp",
+      "res/raw/dataset_motion_0290.webp"
+    ],
+    "reviewed": 28,
+    "unreviewed": 1327,
+    "generated_images_imported": 0,
+    "apk_integrity": "passed",
+    "dataset_and_review_hashes": "passed",
+    "signature_verified": true,
+    "signer_sha256": "f97b8a406448cb301259189f833d7beb7985728929dd652d2c257e8d36a28997",
+    "apk": "build/时光屋-1.2.11-第七批动作复核.apk"
+  },
+  "physical_device_tested": false,
+  "generated_images_imported": 0
+}

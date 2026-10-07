@@ -1,0 +1,927 @@
+{
+ "generated": "2026-07-25",
+ "note": "Sheets whose start/end cells are too inconsistent to animate smoothly; currently shown as clean two-pose flips. Regenerate these rows (same spec, emphasize: same camera/scale/position, only the pose changes) to upgrade them.",
+ "count": 115,
+ "exercises": [
+  {
+   "id": "3132",
+   "name": "potty squat with support",
+   "sheet": "sheet_auto_upper_legs_0642_3662_3132.png",
+   "row": 2,
+   "edge_align": 0.1219,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "3305",
+   "name": "barbell thruster",
+   "sheet": "sheet_auto_shoulders_3305_0120_0119.png",
+   "row": 0,
+   "edge_align": 0.1355,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "2808",
+   "name": "dumbbell sumo pull through",
+   "sheet": "sheet_auto_upper_legs_2808_2803_1559.png",
+   "row": 0,
+   "edge_align": 0.1482,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "3220",
+   "name": "astride jumps (male)",
+   "sheet": "sheet_auto_cardio_3220_3672_3360.png",
+   "row": 0,
+   "edge_align": 0.158,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "3297",
+   "name": "back lever",
+   "sheet": "sheet_back_003_1314_3297_1405.png",
+   "row": 1,
+   "edge_align": 0.1589,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "2803",
+   "name": "dumbbell supported squat",
+   "sheet": "sheet_auto_upper_legs_2808_2803_1559.png",
+   "row": 1,
+   "edge_align": 0.1658,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "0044",
+   "name": "barbell good morning",
+   "sheet": "sheet_auto_upper_legs_0044_1436_0051.png",
+   "row": 0,
+   "edge_align": 0.1714,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "0678",
+   "name": "rocky pull-up pulldown",
+   "sheet": "sheet_auto_back_0678_2208_2207.png",
+   "row": 0,
+   "edge_align": 0.1885,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "1604",
+   "name": "world greatest stretch",
+   "sheet": "sheet_auto_mixed_3642_1604.png",
+   "row": 1,
+   "edge_align": 0.1966,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "1560",
+   "name": "exercise ball seated hamstring stretch",
+   "sheet": "sheet_auto_upper_legs_1416_1417_1560.png",
+   "row": 2,
+   "edge_align": 0.2207,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "0670",
+   "name": "rear pull-up",
+   "sheet": "sheet_auto_back_0651_0652_0670.png",
+   "row": 2,
+   "edge_align": 0.2297,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "3315",
+   "name": "full maltese",
+   "sheet": "sheet_auto_waist_0464_3315_3299.png",
+   "row": 1,
+   "edge_align": 0.2343,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "0517",
+   "name": "kettlebell advanced windmill",
+   "sheet": "sheet_auto_waist_0517_0524_0530.png",
+   "row": 0,
+   "edge_align": 0.2351,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "3218",
+   "name": "hands clasped circular toe touch (male)",
+   "sheet": "sheet_auto_upper_legs_3218_3215_1418.png",
+   "row": 0,
+   "edge_align": 0.237,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "3543",
+   "name": "bodyweight drop jump squat",
+   "sheet": "sheet_auto_upper_legs_0130_3639_3543.png",
+   "row": 2,
+   "edge_align": 0.2405,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "0796",
+   "name": "standing wheel rollerout",
+   "sheet": "sheet_auto_waist_2329_2297_0796.png",
+   "row": 2,
+   "edge_align": 0.2427,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "1686",
+   "name": "squat to overhead reach with twist",
+   "sheet": "sheet_auto_upper_legs_1686_1599_0795.png",
+   "row": 0,
+   "edge_align": 0.2427,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "1585",
+   "name": "runners stretch",
+   "sheet": "sheet_auto_upper_legs_2202_1585_1424.png",
+   "row": 1,
+   "edge_align": 0.2438,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "1410",
+   "name": "barbell lateral lunge",
+   "sheet": "sheet_auto_upper_legs_0053_1410_1435.png",
+   "row": 1,
+   "edge_align": 0.2587,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "3214",
+   "name": "arms apart circular toe touch (male)",
+   "sheet": "sheet_upper_legs_001_1512_3214_1709.png",
+   "row": 1,
+   "edge_align": 0.2602,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "1476",
+   "name": "one leg squat",
+   "sheet": "sheet_auto_upper_legs_0613_0624_1476.png",
+   "row": 2,
+   "edge_align": 0.2676,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "1291",
+   "name": "dumbbell one arm pullover on exercise ball",
+   "sheet": "sheet_auto_chest_1289_1290_1291.png",
+   "row": 2,
+   "edge_align": 0.2688,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "1757",
+   "name": "dumbbell single leg deadlift",
+   "sheet": "sheet_auto_upper_legs_1757_2805_0410.png",
+   "row": 0,
+   "edge_align": 0.271,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "3215",
+   "name": "hands reversed clasped circular toe touch (male)",
+   "sheet": "sheet_auto_upper_legs_3218_3215_1418.png",
+   "row": 1,
+   "edge_align": 0.2713,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "0652",
+   "name": "pull-up",
+   "sheet": "sheet_auto_back_0651_0652_0670.png",
+   "row": 1,
+   "edge_align": 0.2765,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "1435",
+   "name": "barbell low bar squat",
+   "sheet": "sheet_auto_upper_legs_0053_1410_1435.png",
+   "row": 2,
+   "edge_align": 0.2832,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "0533",
+   "name": "kettlebell front squat",
+   "sheet": "sheet_auto_upper_legs_0514_0513_0533.png",
+   "row": 2,
+   "edge_align": 0.2858,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "0124",
+   "name": "barbell wide squat",
+   "sheet": "sheet_auto_upper_legs_0124_0127_3212.png",
+   "row": 0,
+   "edge_align": 0.2877,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "3644",
+   "name": "weighted lunge with swing",
+   "sheet": "sheet_auto_upper_legs_1460_3643_3644.png",
+   "row": 2,
+   "edge_align": 0.2884,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "0115",
+   "name": "barbell stiff leg good morning",
+   "sheet": "sheet_auto_upper_legs_0115_0116_0117.png",
+   "row": 0,
+   "edge_align": 0.2947,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "1008",
+   "name": "band step-up",
+   "sheet": "sheet_auto_upper_legs_1004_1003_1008.png",
+   "row": 2,
+   "edge_align": 0.2963,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "0981",
+   "name": "band jack knife sit-up",
+   "sheet": "sheet_auto_waist_0972_0979_0981.png",
+   "row": 2,
+   "edge_align": 0.297,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "2805",
+   "name": "dumbbell single leg deadlift with stepbox support",
+   "sheet": "sheet_auto_upper_legs_1757_2805_0410.png",
+   "row": 1,
+   "edge_align": 0.2979,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "0002",
+   "name": "45° side bend",
+   "sheet": "sheet_pilot_0001_0002_3293_3294.png",
+   "row": 0,
+   "edge_align": 0.3,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "0457",
+   "name": "flexion leg sit up (straight arm)",
+   "sheet": "sheet_auto_waist_3303_0456_0457.png",
+   "row": 2,
+   "edge_align": 0.3,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "0689",
+   "name": "seated leg raise",
+   "sheet": "sheet_auto_waist_2204_2206_0689.png",
+   "row": 2,
+   "edge_align": 0.31,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "3533",
+   "name": "quads",
+   "sheet": "sheet_auto_upper_legs_0661_3533_3552.png",
+   "row": 1,
+   "edge_align": 0.3181,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "0551",
+   "name": "kettlebell turkish get up (squat style)",
+   "sheet": "sheet_auto_upper_legs_0551_0555_1576.png",
+   "row": 0,
+   "edge_align": 0.3211,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "3669",
+   "name": "standing archer",
+   "sheet": "sheet_auto_back_1362_1363_3669.png",
+   "row": 2,
+   "edge_align": 0.3217,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "0492",
+   "name": "incline push up depth jump",
+   "sheet": "sheet_auto_chest_2139_3234_0492.png",
+   "row": 2,
+   "edge_align": 0.3231,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "2812",
+   "name": "dumbbell step-up split squat",
+   "sheet": "sheet_auto_upper_legs_2812_0432_0434.png",
+   "row": 0,
+   "edge_align": 0.3255,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "0501",
+   "name": "jack burpee",
+   "sheet": "sheet_auto_cardio_3221_3636_0501.png",
+   "row": 2,
+   "edge_align": 0.3301,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "3643",
+   "name": "weighted cossack squats (male)",
+   "sheet": "sheet_auto_upper_legs_1460_3643_3644.png",
+   "row": 1,
+   "edge_align": 0.3301,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "1401",
+   "name": "muscle-up (on vertical bar)",
+   "sheet": "sheet_auto_back_0627_1401_1773.png",
+   "row": 1,
+   "edge_align": 0.3312,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "1759",
+   "name": "single leg squat (pistol) male",
+   "sheet": "sheet_auto_upper_legs_3645_0730_1759.png",
+   "row": 2,
+   "edge_align": 0.3324,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "2571",
+   "name": "rocking frog stretch",
+   "sheet": "sheet_auto_upper_legs_1423_2571_2205.png",
+   "row": 1,
+   "edge_align": 0.3344,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "0109",
+   "name": "barbell standing overhead triceps extension",
+   "sheet": "sheet_auto_upper_arms_0106_2414_0109.png",
+   "row": 2,
+   "edge_align": 0.3362,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "0579",
+   "name": "lever front pulldown",
+   "sheet": "sheet_auto_back_3200_0579_0580.png",
+   "row": 1,
+   "edge_align": 0.3364,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "1160",
+   "name": "burpee",
+   "sheet": "sheet_auto_cardio_1160_2331_1201.png",
+   "row": 0,
+   "edge_align": 0.3378,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "0028",
+   "name": "barbell clean and press",
+   "sheet": "sheet_auto_upper_legs_0026_0028_0029.png",
+   "row": 1,
+   "edge_align": 0.3389,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "0640",
+   "name": "one arm slam (with medicine ball)",
+   "sheet": "sheet_auto_waist_0640_0641_3147.png",
+   "row": 0,
+   "edge_align": 0.3426,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "1459",
+   "name": "dumbbell romanian deadlift",
+   "sheet": "sheet_auto_upper_legs_3888_0371_1459.png",
+   "row": 2,
+   "edge_align": 0.3433,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "0434",
+   "name": "dumbbell straight leg deadlift",
+   "sheet": "sheet_auto_upper_legs_2812_0432_0434.png",
+   "row": 2,
+   "edge_align": 0.3435,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "3212",
+   "name": "basic toe touch (male)",
+   "sheet": "sheet_auto_upper_legs_0124_0127_3212.png",
+   "row": 2,
+   "edge_align": 0.3463,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "1354",
+   "name": "medicine ball overhead slam",
+   "sheet": "sheet_auto_back_0609_1353_1354.png",
+   "row": 2,
+   "edge_align": 0.3469,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "1419",
+   "name": "iron cross stretch",
+   "sheet": "sheet_auto_upper_legs_0496_2400_1419.png",
+   "row": 2,
+   "edge_align": 0.3478,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "1335",
+   "name": "exercise ball back extension with knees off ground",
+   "sheet": "sheet_auto_back_1334_1335_1336.png",
+   "row": 1,
+   "edge_align": 0.353,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "1738",
+   "name": "dumbbell seated reverse grip one arm overhead tricep extension",
+   "sheet": "sheet_auto_upper_arms_0403_1738_2188.png",
+   "row": 1,
+   "edge_align": 0.3536,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "1496",
+   "name": "sledge hammer",
+   "sheet": "sheet_auto_waist_3679_1496_0756.png",
+   "row": 1,
+   "edge_align": 0.3629,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "1015",
+   "name": "band vertical pallof press",
+   "sheet": "sheet_auto_waist_1014_1015_0071.png",
+   "row": 1,
+   "edge_align": 0.3637,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "1756",
+   "name": "barbell single leg deadlift",
+   "sheet": "sheet_auto_upper_legs_0090_0097_1756.png",
+   "row": 2,
+   "edge_align": 0.3654,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "0778",
+   "name": "spider crawl push up",
+   "sheet": "sheet_auto_upper_legs_0778_1705_1685.png",
+   "row": 0,
+   "edge_align": 0.366,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "0666",
+   "name": "raise single arm push-up",
+   "sheet": "sheet_auto_chest_3145_0666_3124.png",
+   "row": 1,
+   "edge_align": 0.3681,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "1277",
+   "name": "dumbbell fly on exercise ball",
+   "sheet": "sheet_auto_chest_0307_0308_1277.png",
+   "row": 2,
+   "edge_align": 0.3682,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "3698",
+   "name": "inchworm v. 2",
+   "sheet": "sheet_auto_waist_3698_0491_0495.png",
+   "row": 0,
+   "edge_align": 0.3689,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "0730",
+   "name": "single leg platform slide",
+   "sheet": "sheet_auto_upper_legs_3645_0730_1759.png",
+   "row": 1,
+   "edge_align": 0.373,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "0432",
+   "name": "dumbbell stiff leg deadlift",
+   "sheet": "sheet_auto_upper_legs_2812_0432_0434.png",
+   "row": 1,
+   "edge_align": 0.3748,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "0675",
+   "name": "reverse hyper extension (on stability ball)",
+   "sheet": "sheet_auto_upper_legs_3007_3006_0675.png",
+   "row": 2,
+   "edge_align": 0.376,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "0803",
+   "name": "superman push-up",
+   "sheet": "sheet_auto_chest_0803_1310_3313.png",
+   "row": 0,
+   "edge_align": 0.376,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "1347",
+   "name": "lever one arm lateral wide pulldown",
+   "sheet": "sheet_auto_back_0589_1356_1347.png",
+   "row": 2,
+   "edge_align": 0.3767,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "0085",
+   "name": "barbell romanian deadlift",
+   "sheet": "sheet_auto_upper_legs_0078_0077_0085.png",
+   "row": 2,
+   "edge_align": 0.3781,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "1599",
+   "name": "standing hamstring and calf stretch with strap",
+   "sheet": "sheet_auto_upper_legs_1686_1599_0795.png",
+   "row": 1,
+   "edge_align": 0.3795,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "3231",
+   "name": "two toe touch (male)",
+   "sheet": "sheet_auto_back_0818_3231_1366.png",
+   "row": 1,
+   "edge_align": 0.3814,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "3888",
+   "name": "dumbbell one arm snatch",
+   "sheet": "sheet_auto_upper_legs_3888_0371_1459.png",
+   "row": 0,
+   "edge_align": 0.3818,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "3119",
+   "name": "potty squat",
+   "sheet": "sheet_auto_waist_1687_3119_3665.png",
+   "row": 1,
+   "edge_align": 0.3823,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "3168",
+   "name": "bodyweight squatting row",
+   "sheet": "sheet_auto_back_1317_3019_3168.png",
+   "row": 2,
+   "edge_align": 0.3844,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "0291",
+   "name": "dumbbell bench squat",
+   "sheet": "sheet_auto_upper_legs_0291_3635_0300.png",
+   "row": 0,
+   "edge_align": 0.3847,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "0969",
+   "name": "band alternating v-up",
+   "sheet": "sheet_auto_waist_1758_0969_0971.png",
+   "row": 1,
+   "edge_align": 0.3871,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "3672",
+   "name": "back and forth step",
+   "sheet": "sheet_auto_cardio_3220_3672_3360.png",
+   "row": 1,
+   "edge_align": 0.388,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "3656",
+   "name": "short stride run",
+   "sheet": "sheet_auto_cardio_3219_3222_3656.png",
+   "row": 2,
+   "edge_align": 0.3942,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "1316",
+   "name": "barbell bent arm pullover",
+   "sheet": "sheet_auto_back_1010_1013_1316.png",
+   "row": 2,
+   "edge_align": 0.3983,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "3635",
+   "name": "dumbbell contralateral forward lunge",
+   "sheet": "sheet_auto_upper_legs_0291_3635_0300.png",
+   "row": 1,
+   "edge_align": 0.4011,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "3224",
+   "name": "jack jump (male)",
+   "sheet": "sheet_auto_cardio_3224_2612_0630.png",
+   "row": 0,
+   "edge_align": 0.4017,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "0991",
+   "name": "band pull through",
+   "sheet": "sheet_auto_upper_legs_0991_0996_1001.png",
+   "row": 0,
+   "edge_align": 0.402,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "2207",
+   "name": "roller side lat stretch",
+   "sheet": "sheet_auto_back_0678_2208_2207.png",
+   "row": 2,
+   "edge_align": 0.404,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "0051",
+   "name": "barbell jefferson squat",
+   "sheet": "sheet_auto_upper_legs_0044_1436_0051.png",
+   "row": 2,
+   "edge_align": 0.4058,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "1341",
+   "name": "exercise ball lower back stretch (pyramid)",
+   "sheet": "sheet_auto_back_1338_1339_1341.png",
+   "row": 2,
+   "edge_align": 0.4062,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "0067",
+   "name": "barbell one arm snatch",
+   "sheet": "sheet_auto_shoulders_1017_0041_0067.png",
+   "row": 2,
+   "edge_align": 0.4095,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "0641",
+   "name": "otis up",
+   "sheet": "sheet_auto_waist_0640_0641_3147.png",
+   "row": 1,
+   "edge_align": 0.4134,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "1274",
+   "name": "deep push up",
+   "sheet": "sheet_auto_chest_3216_1273_1274.png",
+   "row": 2,
+   "edge_align": 0.4134,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "0537",
+   "name": "kettlebell one arm clean and jerk",
+   "sheet": "sheet_auto_shoulders_0537_0538_0539.png",
+   "row": 0,
+   "edge_align": 0.4139,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "1010",
+   "name": "band straight leg deadlift",
+   "sheet": "sheet_auto_back_1010_1013_1316.png",
+   "row": 0,
+   "edge_align": 0.4156,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "1545",
+   "name": "barbell full zercher squat",
+   "sheet": "sheet_auto_upper_legs_1462_1545_3562.png",
+   "row": 1,
+   "edge_align": 0.4156,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "1312",
+   "name": "medicine ball chest push with run release",
+   "sheet": "sheet_auto_chest_1312_3217_1306.png",
+   "row": 0,
+   "edge_align": 0.4161,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "1658",
+   "name": "dumbbell lunge with bicep curl",
+   "sheet": "sheet_auto_upper_arms_1660_1658_0337.png",
+   "row": 1,
+   "edge_align": 0.4175,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "3292",
+   "name": "elevator",
+   "sheet": "sheet_auto_back_3292_1332_1333.png",
+   "row": 0,
+   "edge_align": 0.4181,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "1378",
+   "name": "calf stretch with rope",
+   "sheet": "sheet_auto_lower_legs_1407_1377_1378.png",
+   "row": 2,
+   "edge_align": 0.4182,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "0097",
+   "name": "barbell side split squat v. 2",
+   "sheet": "sheet_auto_upper_legs_0090_0097_1756.png",
+   "row": 1,
+   "edge_align": 0.4184,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "1343",
+   "name": "exercise ball prone leg raise",
+   "sheet": "sheet_auto_back_1342_1343_3010.png",
+   "row": 1,
+   "edge_align": 0.4186,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "3221",
+   "name": "half knee bends (male)",
+   "sheet": "sheet_auto_cardio_3221_3636_0501.png",
+   "row": 0,
+   "edge_align": 0.4201,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "0661",
+   "name": "push-up inside leg kick",
+   "sheet": "sheet_auto_upper_legs_0661_3533_3552.png",
+   "row": 0,
+   "edge_align": 0.4214,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "1460",
+   "name": "walking lunge",
+   "sheet": "sheet_auto_upper_legs_1460_3643_3644.png",
+   "row": 0,
+   "edge_align": 0.422,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "3213",
+   "name": "side-to-side toe touch (male)",
+   "sheet": "sheet_auto_waist_0709_3213_0735.png",
+   "row": 1,
+   "edge_align": 0.422,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "0530",
+   "name": "kettlebell double windmill",
+   "sheet": "sheet_auto_waist_0517_0524_0530.png",
+   "row": 2,
+   "edge_align": 0.4234,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "0024",
+   "name": "barbell bench front squat",
+   "sheet": "sheet_auto_upper_legs_1009_1023_0024.png",
+   "row": 2,
+   "edge_align": 0.4281,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "2312",
+   "name": "lying elbow to knee",
+   "sheet": "sheet_auto_waist_2312_0620_0865.png",
+   "row": 0,
+   "edge_align": 0.4337,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "0262",
+   "name": "cross body crunch",
+   "sheet": "sheet_auto_waist_1468_0262_0267.png",
+   "row": 1,
+   "edge_align": 0.434,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "2330",
+   "name": "cable lat pulldown full range of motion",
+   "sheet": "sheet_auto_back_1318_2330_0177.png",
+   "row": 1,
+   "edge_align": 0.4347,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "1701",
+   "name": "medicine ball close grip push up",
+   "sheet": "sheet_auto_upper_arms_1701_1750_2328.png",
+   "row": 0,
+   "edge_align": 0.435,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "1772",
+   "name": "elbow lift - reverse push-up",
+   "sheet": "sheet_auto_back_2327_3664_1772.png",
+   "row": 2,
+   "edge_align": 0.4404,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "0524",
+   "name": "kettlebell bent press",
+   "sheet": "sheet_auto_waist_0517_0524_0530.png",
+   "row": 1,
+   "edge_align": 0.4406,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "0529",
+   "name": "kettlebell double snatch",
+   "sheet": "sheet_auto_shoulders_0527_0528_0529.png",
+   "row": 2,
+   "edge_align": 0.4427,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "3217",
+   "name": "modified hindu push-up (male)",
+   "sheet": "sheet_auto_chest_1312_3217_1306.png",
+   "row": 1,
+   "edge_align": 0.443,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "0101",
+   "name": "barbell speed squat",
+   "sheet": "sheet_auto_upper_legs_0099_0101_2810.png",
+   "row": 1,
+   "edge_align": 0.4466,
+   "reason": "start/end drawn too differently (misaligned scene/gear or changed viewpoint)"
+  },
+  {
+   "id": "3302",
+   "name": "handstand",
+   "sheet": "sheet_auto_upper_arms_2741_3302_0471.png",
+   "row": 1,
+   "edge_align": 0.941,
+   "reason": "start/end poses nearly identical — needs a larger motion amplitude"
+  }
+ ]
+}

@@ -1,0 +1,7 @@
+{
+  "manifest": "package: name='com.restartday.fitness' versionCode='2026090601' versionName='1.1.0' platformBuildVersionName='16' platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'",
+  "signingMatchesPreviousApk": true,
+  "certificateSha256": "f97b8a406448cb301259189f833d7beb7985728929dd652d2c257e8d36a28997",
+  "apkSha256": "09622b10dde4e5f8011e455cd4a788a2fa582519b8d4b121cf7f1ddf80a03a18",
+  "sizeBytes": 58197639
+}

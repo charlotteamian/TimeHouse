@@ -1,0 +1,39 @@
+{
+  "completed_at": "2026-09-14T13:35:02.502126+08:00",
+  "status": "passed",
+  "version": "1.2.8",
+  "domain_tests": "passed",
+  "build": "passed",
+  "ui_checks": {
+    "ui-batch4": 8,
+    "ui-review": 13,
+    "ui-edges": 4,
+    "ui-dynamic": 10
+  },
+  "ui_checks_total": 35,
+  "reviewed": 19,
+  "unreviewed": 1336,
+  "package": {
+    "version": "1.2.8",
+    "version_code": 2026091402,
+    "sha256": "092afdb93bf3b0f82013ea18f71a3ebeffd147a6913aa6b144511955121f4fc5",
+    "changed_dataset_ids": [
+      "0286",
+      "0287",
+      "0288",
+      "0290",
+      "0291"
+    ],
+    "changed_raw_assets": [
+      "res/raw/dataset_motion_0286.webp"
+    ],
+    "reviewed": 19,
+    "unreviewed": 1336,
+    "generated_images_imported": 0,
+    "apk": "build/时光屋-1.2.8-第四批动作复核.apk",
+    "signature_verified": true,
+    "signer_sha256": "f97b8a406448cb301259189f833d7beb7985728929dd652d2c257e8d36a28997"
+  },
+  "physical_device_tested": false,
+  "generated_images_imported": 0
+}

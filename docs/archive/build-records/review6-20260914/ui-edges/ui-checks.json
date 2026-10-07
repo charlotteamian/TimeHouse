@@ -1,0 +1,6 @@
+[
+  "Saved routines respect reviewed-only gate",
+  "Routine picker is restricted to reviewed exercises",
+  "Training scope selection persists after restart",
+  "Missing demonstrations are exposed as a separate queue"
+]

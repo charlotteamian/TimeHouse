@@ -1,0 +1,17 @@
+[
+  "Legacy planned-set suggestion uses the three recorded completed sets",
+  "Suggestion is explicitly explained rather than presented as known old plan",
+  "Unknown old repetitions are not invented",
+  "Entering only 15 reps now saves the three-set legacy record",
+  "Unknown weight and original historical text remain intact",
+  "Saving the old dose preserves notes and synchronized health data",
+  "Corrected dose survives app restart",
+  "Empty planned sets receive a specific visible field error",
+  "Empty rest receives a rest-field error",
+  "Completed sets greater than planned sets are rejected on their own field",
+  "Descending repetition range is rejected on the dose field",
+  "Overflowing repetitions report dose bounds, not a sets/rest error",
+  "Valid repetition range and zero rest save after correcting field errors",
+  "Hold-duration bounds remain enforced",
+  "Valid timed prescription still saves through the shared editor"
+]

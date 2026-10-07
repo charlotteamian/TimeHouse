@@ -1,0 +1,68 @@
+{
+  "status": "passed",
+  "completed_at": "2026-09-17T08:01:38.876697+08:00",
+  "version": "1.2.15",
+  "domain_tests": "passed",
+  "build": "passed",
+  "ui_checks": {
+    "batch": 21,
+    "new-training": 12,
+    "review": 13,
+    "edges": 4,
+    "dynamic": 10,
+    "save-bug": 15,
+    "user-fixes": 20,
+    "routines": 4
+  },
+  "ui_checks_total": 99,
+  "bug_reproduction_checks": 3,
+  "reviewed": 37,
+  "unreviewed": 1318,
+  "new_reviewed_picker_entries_verified": [
+    "哑铃上斜弯举（双臂同步）",
+    "哑铃上斜锤式弯举",
+    "哑铃上斜锤式弯举（另一示范）"
+  ],
+  "package": {
+    "version": "1.2.15",
+    "version_code": 2026091602,
+    "sha256": "2ad456cfeaa4fa72db00e856ac269686dfb462e2d0e064130371087302155632",
+    "bytes": 479868625,
+    "changed_dataset_ids": [
+      "0318",
+      "0319",
+      "0320",
+      "0321",
+      "0322",
+      "0456",
+      "0457",
+      "0459",
+      "0466"
+    ],
+    "changed_raw_assets": [
+      "res/raw/dataset_motion_0318.webp",
+      "res/raw/dataset_motion_0320.webp"
+    ],
+    "changed_app_code": [
+      "app/src/main/java/com/restartday/fitness/app/WorkoutDoseEditor.java"
+    ],
+    "changed_bundled_assets": [
+      "assets/exercise_reviews.json",
+      "assets/exercises_1324.json"
+    ],
+    "reviewed": 37,
+    "unreviewed": 1318,
+    "generated_images_imported": 0,
+    "apk_integrity": "passed",
+    "dataset_and_review_hashes": "passed",
+    "signature_verified": true,
+    "same_signer_as_1_2_14": true,
+    "signer_sha256": "f97b8a406448cb301259189f833d7beb7985728929dd652d2c257e8d36a28997",
+    "apk": "build/时光屋-1.2.15-第十批复核与记录保存修复.apk"
+  },
+  "physical_device_tested": false,
+  "image_generation_calls": 0,
+  "generated_images_imported": 0,
+  "workflow_status": "paused",
+  "pause_reason": "requested_single_batch_complete"
+}

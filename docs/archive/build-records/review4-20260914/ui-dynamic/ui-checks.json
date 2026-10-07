@@ -1,0 +1,12 @@
+[
+  "Library covers actually change poses",
+  "Covers resume after background return",
+  "Inspected drift problems are queued for repair",
+  "Reviewed TRX row enters TRX workout",
+  "TRX selection does not include dumbbells or misclassified rings/bar",
+  "Active workout retains dynamic covers",
+  "TRX search contains three corrected dataset movements plus one seed",
+  "TRX and reviewed filters combine correctly",
+  "Reviewed row declares the required TRX equipment",
+  "Android decodes both repaired assets as animation"
+]

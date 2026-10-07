@@ -1,0 +1,17 @@
+[
+  "Manual daily overrides low default",
+  "Generation preserves low default and explicit medium choice",
+  "Manual medium reaches actual RPE prescription",
+  "Manual selection survives restart and regeneration",
+  "Changing default does not override explicit selection",
+  "Follow default explicitly re-enables current high default",
+  "Changing default low to medium affects next generated plan",
+  "Low and medium choose different exercises with same equipment/time",
+  "Low and medium use different prescriptions",
+  "Actual severe pain is respected and exact cause displayed",
+  "Safety downgrade does not erase requested intensity",
+  "Legacy cap without positive safety screening does not silently override explicit choice",
+  "Positive safety assessment retains limit with date and exact reason",
+  "Custom workout manual medium also overrides default without rewriting it",
+  "Upgrade preserves legacy manually chosen daily mode above low default"
+]

@@ -1,0 +1,12 @@
+{
+  "version": "1.2.1",
+  "versionCode": 2026090902,
+  "apk": "build/时光屋-1.2.1-强度修复与10个动作示范.apk",
+  "bytes": 64157319,
+  "sha256": "80c7d8d18c8115a1976aff8cccbcfc01961740c6e0af0755d6aaa3350f499dfe",
+  "intensityChecks": 15,
+  "sessionChecks": 22,
+  "repairedExercises": 10,
+  "androidDecodedAnimations": 12,
+  "sameSigningCertificateAsPreviousApk": true
+}

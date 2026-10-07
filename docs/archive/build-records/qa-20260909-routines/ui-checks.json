@@ -1,0 +1,17 @@
+[
+  "Daily 25-minute plan has five movement roles",
+  "Daily prescription uses RPE 7–8",
+  "Empty routines rejected without leaving editor",
+  "Routine name and circuit settings saved from UI",
+  "External action, seconds and weight note persisted",
+  "Reordering persists through save",
+  "Circuit expands A B A B",
+  "Action and round rest boundaries retained",
+  "Completed circuit action enters transition rest for next action",
+  "Process restart restores circuit rest and cursor paused",
+  "Saved timed action runs as exact 45-second countdown",
+  "End of circuit round uses 60-second round rest",
+  "Partial circuit saved as training record",
+  "Training never mutates saved routine",
+  "Deleting saved routine works"
+]

@@ -1,0 +1,30 @@
+#!/usr/bin/env python3
+"""End-to-end checks for the second review batch and repaired RDL."""
+from pathlib import Path
+exec(Path('scripts/qa_review_flow.py').read_text().split('\nstop()\noriginal =')[0])
+stop();original=adb('exec-out','run-as',pkg,'cat','shared_prefs/fitness_state.xml')
+try:
+    state_with(reviewedOnlyV1=True,equipment='自重|哑铃')
+    tap('为我安排这一练 →')
+    check(any(x['id']=='dataset_1324_0300' for x in draft()['items']),'Reviewed dumbbell RDL fills the hip-hinge slot')
+    snapshot('rdl-workout')
+    state_with(reviewedOnlyV1=True,equipment='自重|哑铃',lowerBackPain='SEVERE')
+    tap('为我安排这一练 →')
+    check(not any(x['id']=='dataset_1324_0300' for x in draft().get('items',[])),'Acute lower-back screening excludes imported hip hinge')
+    snapshot('back-screening')
+    state_with()
+    tap('动作库');tap('肩');tap('哑铃推举')
+    check('暂停示范' in texts(),'Previously missing seed overhead press has a playable demonstration')
+    check(any('未复核' in s for s in texts()),'Adding media does not automatically approve the seed entry')
+    snapshot('seed-press-filled')
+    state_with()
+    tap('动作库');tap('复核筛选：全部状态');tap('已复核');tap('哑铃锤式弯举')
+    check(any('不转掌朝前' in s for s in texts()),'Hammer curl shows corrected neutral-grip instructions')
+    snapshot('hammer-curl-review')
+    tap('关闭');tap('深蹲至头顶伸展')
+    check('暂停示范' in texts() and any('已复核' in s for s in texts()),'Regenerated squat is playable and explicitly reviewed')
+    snapshot('regenerated-squat')
+    decoded=adb('shell','am','instrument','-w','-e','media','dataset_motion_0300,dataset_motion_0313,dataset_motion_0426,dataset_motion_1685','com.restartday.fitness.qa/.UiSnapshot').decode()
+    check('decodedAnimations=4' in decoded,'Android decodes repaired, reviewed, regenerated and reused media')
+finally:
+    write_state(original);launch()

@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "completed_at": "2026-09-15T02:35:41.884707+08:00",
+  "version": "1.2.10",
+  "domain_tests": "passed",
+  "build": "passed",
+  "ui_checks": {
+    "ui-batch6": 19,
+    "ui-review": 13,
+    "ui-edges": 4,
+    "ui-dynamic": 10
+  },
+  "ui_checks_total": 46,
+  "reviewed": 24,
+  "unreviewed": 1331,
+  "package": {
+    "version": "1.2.10",
+    "version_code": 2026091404,
+    "sha256": "17bb832b546ea2c1f5bd09ba94863c200f4b8c7331d8745be66c6006f9459367",
+    "changed_dataset_ids": [
+      "0003",
+      "0020",
+      "0129",
+      "0130",
+      "0299",
+      "0301",
+      "0302",
+      "0303",
+      "0304",
+      "0292"
+    ],
+    "changed_raw_assets": [
+      "res/raw/dataset_motion_0129.webp",
+      "res/raw/dataset_motion_0304.webp"
+    ],
+    "reviewed": 24,
+    "unreviewed": 1331,
+    "generated_images_imported": 0,
+    "apk_integrity": "passed",
+    "dataset_and_review_hashes": "passed",
+    "signature_verified": true,
+    "signer_sha256": "f97b8a406448cb301259189f833d7beb7985728929dd652d2c257e8d36a28997",
+    "apk": "build/时光屋-1.2.10-第六批动作复核.apk"
+  },
+  "physical_device_tested": false,
+  "generated_images_imported": 0
+}

@@ -1,0 +1,5 @@
+[
+  "Baseline reproduces blank planned sets despite three recorded completed sets",
+  "Baseline reproduces misleading integer error after entering 15 reps",
+  "Baseline cannot save the supplied repetitions"
+]

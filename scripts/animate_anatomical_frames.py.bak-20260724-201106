@@ -1,0 +1,237 @@
+#!/usr/bin/env python3
+"""Animate anatomical exercise GIFs from GPT-drawn start/end frame pairs.
+
+This is the recovered "Fable animation" pipeline, generalized into a batch tool.
+Given two anatomical frames (a start pose and an end pose of the *same* figure,
+same camera/scale/lighting), it interpolates between them with DIS optical flow —
+warping a single source image per frame (never blending two warps), so the loop
+stays crisp instead of double-exposing into ghost trails. Output matches the
+app's motion envelope: 480x480, 10 frames, held poses + fast transitions,
+2.36 s, infinite loop.
+
+Input modes (see `main`):
+  * --pair START.png END.png OUT.gif
+  * --manifest manifest.json  (batch; entries pick frames from files or sheets)
+  * --sheet SHEET.png --row R OUT.gif   (2 columns [start|end] x 3 rows)
+
+Manifest entry forms:
+  {"out": "dataset_motion_0007", "start": "a.png", "end": "b.png"}
+  {"out": "motion_goblet_squat",  "sheet": "sheet_legs_1.png", "row": 1}
+"""
+
+from __future__ import annotations
+
+import argparse
+import json
+import math
+from pathlib import Path
+from typing import List, Tuple
+
+import cv2
+import numpy as np
+from PIL import Image, ImageChops, ImageOps
+
+SIZE = 480
+PAD = 14
+BG = (255, 255, 255)
+HOLD_MS = 880
+TRANSITION_MS = 60
+# 12-frame loop: hold start, 5 warps to end, hold end, 5 warps back.
+# More in-between steps (incl. an exact midpoint) keep each warp small, so the
+# figure doesn't visibly deform mid-transition. Sums to 2360 ms.
+TRANSITIONS = [0.16, 0.33, 0.5, 0.67, 0.84]
+
+
+# --------------------------------------------------------------------------- #
+# Framing: normalize a raw frame onto the fixed white canvas
+# --------------------------------------------------------------------------- #
+
+def _content_box(img: Image.Image) -> Tuple[int, int, int, int]:
+    """Tight bounds of the figure, ignoring sparse edge noise / faint off-white bg.
+
+    A plain getbbox() is fooled by stray near-white pixels or a 253-gray
+    background and returns the whole cell. Instead require each kept row/column
+    to hold a minimum count of genuinely dark pixels, which locks onto the body.
+    """
+    arr = np.asarray(img.convert("RGB")).astype(np.int16)
+    dark = (255 - arr.max(axis=2)) > 14
+    col_hits = dark.sum(axis=0)
+    row_hits = dark.sum(axis=1)
+    col_thresh = max(2, int(0.02 * img.height))
+    row_thresh = max(2, int(0.02 * img.width))
+    xs = np.where(col_hits > col_thresh)[0]
+    ys = np.where(row_hits > row_thresh)[0]
+    if len(xs) == 0 or len(ys) == 0:
+        return (0, 0, img.width, img.height)
+    return (int(xs[0]), int(ys[0]), int(xs[-1]) + 1, int(ys[-1]) + 1)
+
+
+def normalize_pair(start: Image.Image, end: Image.Image) -> Tuple[Image.Image, Image.Image]:
+    """Crop both frames to a *shared* content box, then letterbox onto SIZE."""
+    sb, eb = _content_box(start), _content_box(end)
+    box = (min(sb[0], eb[0]), min(sb[1], eb[1]), max(sb[2], eb[2]), max(sb[3], eb[3]))
+
+    def fit(img: Image.Image) -> Image.Image:
+        crop = img.convert("RGB").crop(box)
+        contained = ImageOps.contain(crop, (SIZE - PAD * 2, SIZE - PAD * 2), Image.Resampling.LANCZOS)
+        canvas = Image.new("RGB", (SIZE, SIZE), BG)
+        canvas.paste(contained, ((SIZE - contained.width) // 2, (SIZE - contained.height) // 2))
+        return canvas
+
+    return fit(start), fit(end)
+
+
+def sheet_pair(sheet_path: Path, row: int, cols: int = 2, rows: int = 3,
+               inset: int = 8) -> Tuple[Image.Image, Image.Image]:
+    """Slice a start|end pair from a multi-cell sheet (default 2 cols x 3 rows)."""
+    sheet = Image.open(sheet_path).convert("RGB")
+    cw, ch = sheet.width // cols, sheet.height // rows
+    top = row * ch
+    start = sheet.crop((inset, top + inset, cw - inset, top + ch - inset))
+    end = sheet.crop((cw + inset, top + inset, cw * 2 - inset, top + ch - inset))
+    return start, end
+
+
+# --------------------------------------------------------------------------- #
+# Optical-flow interpolation (single-image warp per frame -> no ghosting)
+# --------------------------------------------------------------------------- #
+
+def _warp(image: np.ndarray, flow: np.ndarray, factor: float) -> np.ndarray:
+    h, w = flow.shape[:2]
+    gx, gy = np.meshgrid(np.arange(w), np.arange(h))
+    map_x = (gx + flow[..., 0] * factor).astype(np.float32)
+    map_y = (gy + flow[..., 1] * factor).astype(np.float32)
+    return cv2.remap(image, map_x, map_y, cv2.INTER_LINEAR, borderMode=cv2.BORDER_REPLICATE)
+
+
+def interpolate_frames(start: Image.Image, end: Image.Image) -> Tuple[List[Image.Image], List[int]]:
+    first = np.array(start.convert("RGB"))
+    last = np.array(end.convert("RGB"))
+    if ImageChops.difference(start, end).getbbox() is None:
+        # Identical poses (a static hold): breathe with a subtle zoom so it still loops.
+        big = end.resize((int(SIZE * 1.03), int(SIZE * 1.03)), Image.Resampling.LANCZOS)
+        off = (big.width - SIZE) // 2
+        last = np.array(big.crop((off, off, off + SIZE, off + SIZE)))
+
+    fg = cv2.cvtColor(first, cv2.COLOR_RGB2GRAY)
+    lg = cv2.cvtColor(last, cv2.COLOR_RGB2GRAY)
+    flow = cv2.DISOpticalFlow_create(cv2.DISOPTICAL_FLOW_PRESET_MEDIUM)
+    flow.setFinestScale(1)
+    flow.setGradientDescentIterations(48)
+    flow.setVariationalRefinementIterations(16)
+    forward = flow.calc(fg, lg, None)
+    backward = flow.calc(lg, fg, None)
+    # Smooth the flow fields: spurious per-pixel vectors are what make a warped
+    # limb "melt". A mild blur regularizes the field without dulling the motion.
+    forward = cv2.GaussianBlur(forward, (0, 0), 2.4)
+    backward = cv2.GaussianBlur(backward, (0, 0), 2.4)
+
+    diff = cv2.absdiff(first, last).max(axis=2)
+    mask = (diff > 26).astype(np.uint8) * 255
+    mask = cv2.morphologyEx(mask, cv2.MORPH_CLOSE, np.ones((7, 7), np.uint8), 1)
+    mask = cv2.dilate(mask, np.ones((11, 11), np.uint8), 1)
+    mask = (cv2.GaussianBlur(mask, (23, 23), 0).astype(np.float32) / 255.0)[..., None]
+
+    static = first.astype(np.float32)
+    schedule = ([(0.0, HOLD_MS)] + [(t, TRANSITION_MS) for t in TRANSITIONS]
+                + [(1.0, HOLD_MS)] + [(t, TRANSITION_MS) for t in reversed(TRANSITIONS)])
+    frames: List[Image.Image] = []
+    durations: List[int] = []
+    for t, dur in schedule:
+        eased = 0.5 - 0.5 * math.cos(math.pi * t)
+        # Warp a SINGLE source image toward this pose (never blend two warps —
+        # that double-exposes into ghost trails wherever the flows disagree).
+        # Always warp from the nearer end so no warp exceeds half the motion,
+        # and the smoothed flow keeps limbs from melting.
+        if eased <= 0.5:
+            moving = _warp(first, forward, -eased).astype(np.float32)
+        else:
+            moving = _warp(last, backward, -(1 - eased)).astype(np.float32)
+        frame = static * (1 - mask) + moving * mask
+        frames.append(Image.fromarray(frame.clip(0, 255).astype(np.uint8)))
+        durations.append(dur)
+    return frames, durations
+
+
+WEBP_QUALITY = 80
+
+
+def save_gif(frames: List[Image.Image], durations: List[int], out: Path) -> None:
+    out.parent.mkdir(parents=True, exist_ok=True)
+    palette = frames[0].quantize(colors=128, method=Image.Quantize.MEDIANCUT)
+    indexed = [palette] + [f.quantize(palette=palette, dither=Image.Dither.NONE) for f in frames[1:]]
+    indexed[0].save(out, format="GIF", save_all=True, append_images=indexed[1:],
+                    duration=durations, loop=0, optimize=True, disposal=2)
+
+
+def save_webp(frames: List[Image.Image], durations: List[int], out: Path,
+              quality: int = WEBP_QUALITY) -> None:
+    # Animated WebP: ~4x smaller than palette GIF at higher (true-color) quality.
+    # Decoded natively by Android's ImageDecoder (API 28+).
+    out.parent.mkdir(parents=True, exist_ok=True)
+    frames[0].save(out, format="WEBP", save_all=True, append_images=frames[1:],
+                   duration=durations, loop=0, quality=quality, method=4)
+
+
+def animate(start: Image.Image, end: Image.Image, out: Path) -> None:
+    ns, ne = normalize_pair(start, end)
+    frames, durations = interpolate_frames(ns, ne)
+    if out.suffix.lower() == ".gif":
+        save_gif(frames, durations, out)
+    else:
+        save_webp(frames, durations, out)
+
+
+# --------------------------------------------------------------------------- #
+# CLI
+# --------------------------------------------------------------------------- #
+
+def _resolve_frames(entry: dict, roots: dict) -> Tuple[Image.Image, Image.Image]:
+    if "sheet" in entry:
+        return sheet_pair(roots["sheets"] / entry["sheet"], int(entry["row"]),
+                          entry.get("cols", 2), entry.get("rows", 3))
+    start = Image.open(roots["frames"] / entry["start"])
+    end = Image.open(roots["frames"] / entry["end"])
+    return start, end
+
+
+def main() -> None:
+    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    sub = ap.add_subparsers(dest="mode", required=True)
+
+    p = sub.add_parser("pair", help="animate one start/end file pair")
+    p.add_argument("start", type=Path)
+    p.add_argument("end", type=Path)
+    p.add_argument("out", type=Path)
+
+    s = sub.add_parser("sheet", help="animate one row of a start|end sheet")
+    s.add_argument("sheet", type=Path)
+    s.add_argument("row", type=int)
+    s.add_argument("out", type=Path)
+
+    m = sub.add_parser("manifest", help="batch-animate from a JSON manifest")
+    m.add_argument("manifest", type=Path)
+    m.add_argument("--frames-root", type=Path, default=Path("."))
+    m.add_argument("--sheets-root", type=Path, default=Path("assets/motion_sheets"))
+    m.add_argument("--output-dir", type=Path, required=True)
+
+    args = ap.parse_args()
+    if args.mode == "pair":
+        animate(Image.open(args.start), Image.open(args.end), args.out)
+        print(f"wrote {args.out}")
+    elif args.mode == "sheet":
+        animate(*sheet_pair(args.sheet, args.row), args.out)
+        print(f"wrote {args.out}")
+    else:
+        roots = {"frames": args.frames_root, "sheets": args.sheets_root}
+        entries = json.loads(args.manifest.read_text(encoding="utf-8"))
+        for entry in entries:
+            start, end = _resolve_frames(entry, roots)
+            out = args.output_dir / f"{entry['out']}.gif"
+            animate(start, end, out)
+            print(f"wrote {out.name}")
+        print(f"done: {len(entries)} GIFs")
+
+
+if __name__ == "__main__":
+    main()

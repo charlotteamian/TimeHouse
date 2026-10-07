@@ -1,0 +1,10 @@
+[
+  "Alternating press has the correct movement name and pattern",
+  "Alternating presses count total reps rather than static holds or doubled sides",
+  "Overhead press retains shoulder and back screening tags",
+  "Four bench exercise names match their actual movement",
+  "Corrected press is playable from reviewed-only library",
+  "Alternating press cycles through poses on Android",
+  "Android decodes the repaired press as animation",
+  "Correcting bench labels does not grant review approval"
+]

@@ -1,0 +1,12 @@
+[
+  "Health Connect accepted workout metrics, an unrelated long session and out-of-window energy",
+  "120000 API calories converts to 120 kcal and excludes adjacent 900 kcal",
+  "Total energy is independently 150 kcal, not added to active energy",
+  "Step count and distance match platform records",
+  "Heart-rate samples read through the same matched workout window",
+  "Synced energy retains provider provenance",
+  "Exact workout match outranks a much longer overlapping session",
+  "Partial energy-only permission works without inventing heart rate or total energy",
+  "No platform data remains missing rather than zero",
+  "Missing-calorie state is explicit in the record"
+]

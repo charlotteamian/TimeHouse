@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "dataset_sha256": "481f30e272a849c1630f9dae2f896bd8949a1f7759f8c145e0004c955ecf9a14",
+  "reviewed": [
+    {
+      "id": "dataset_1324_0293",
+      "name": "哑铃俯身划船",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "AI逐项复核（本轮）",
+      "media_sha256": "4b3155369e9af07898de4df08b1d6d84fee5d8a312ed3516652d0d04a52ba857",
+      "note": "名称、器械、文字和四帧姿势已逐项核对；示范为分步阶段图，非连续实拍。",
+      "source": "https://www.puregym.com/exercises/back/rows/dumbbell-bent-over-row/"
+    },
+    {
+      "id": "dataset_1324_0294",
+      "name": "哑铃弯举",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "AI逐项复核（本轮）",
+      "media_sha256": "19aa02fe576fb6615c93eb3dd7cd745424418fbd94c5a5d992942face0068942",
+      "note": "名称、器械、文字和四帧姿势已逐项核对；示范为分步阶段图，非连续实拍。",
+      "source": "https://www.mayoclinic.org/healthy-lifestyle/fitness/multimedia/biceps-curl/vid-20084675"
+    },
+    {
+      "id": "dataset_1324_1760",
+      "name": "哑铃杯式深蹲",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "AI逐项复核（本轮）",
+      "media_sha256": "dfbd65113895eb25dad6b2a6d18a92029b7849bae6075bf869d677ffc7f7b852",
+      "note": "名称、器械、文字和四帧姿势已逐项核对；示范为分步阶段图，非连续实拍。",
+      "source": "https://www.nasm.org/resource-center/exercise-library/goblet-squat"
+    },
+    {
+      "id": "dataset_1324_0662",
+      "name": "俯卧撑",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "AI逐项复核（本轮）",
+      "media_sha256": "2b21e3e514d3d5cad514b393599050f9478f021f49c26aec9793ae817ae6b3a8",
+      "note": "名称、器械、文字和四帧姿势已逐项核对；示范为分步阶段图，非连续实拍。",
+      "source": "https://www.nasm.org/resource-center/exercise-library/push-up"
+    }
+  ],
+  "pending": [
+    {
+      "id": "dataset_1324_0300",
+      "note": "待核逻辑 · 硬拉名称与髋铰链示范的变式需要进一步核对"
+    },
+    {
+      "id": "dataset_1324_0289",
+      "note": "待核逻辑 · 卧推还需稳定卧推凳，当前器械筛选未单列支撑条件"
+    }
+  ]
+}

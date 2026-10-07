@@ -1,0 +1,78 @@
+{
+  "dataset_1324_0286": {
+    "name": "哑铃交替肩上推举",
+    "patterns": [
+      "推",
+      "垂直推",
+      "过顶伸展"
+    ],
+    "primary": [
+      "三角肌"
+    ],
+    "isHold": false,
+    "perSide": false,
+    "shoulder": "MEDIUM",
+    "lower_back": "MEDIUM",
+    "knee": "NONE"
+  },
+  "dataset_1324_0287": {
+    "name": "哑铃坐姿阿诺德推举",
+    "patterns": [
+      "辅助"
+    ],
+    "primary": [
+      "三角肌",
+      "肱三头肌"
+    ],
+    "isHold": false,
+    "perSide": false,
+    "shoulder": "MEDIUM",
+    "lower_back": "NONE",
+    "knee": "NONE"
+  },
+  "dataset_1324_0288": {
+    "name": "哑铃仰卧上拉",
+    "patterns": [
+      "推"
+    ],
+    "primary": [
+      "胸肌",
+      "肱三头肌"
+    ],
+    "isHold": false,
+    "perSide": false,
+    "shoulder": "MEDIUM",
+    "lower_back": "NONE",
+    "knee": "NONE"
+  },
+  "dataset_1324_0290": {
+    "name": "哑铃坐姿肩上推举",
+    "patterns": [
+      "辅助"
+    ],
+    "primary": [
+      "三角肌",
+      "肱三头肌"
+    ],
+    "isHold": false,
+    "perSide": false,
+    "shoulder": "MEDIUM",
+    "lower_back": "NONE",
+    "knee": "NONE"
+  },
+  "dataset_1324_0291": {
+    "name": "哑铃触凳深蹲",
+    "patterns": [
+      "下肢"
+    ],
+    "primary": [
+      "臀肌",
+      "股四头肌"
+    ],
+    "isHold": false,
+    "perSide": false,
+    "shoulder": "NONE",
+    "lower_back": "NONE",
+    "knee": "MEDIUM"
+  }
+}

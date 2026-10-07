@@ -1,0 +1,341 @@
+{
+  "dataset_1324_0139": {
+    "name": "窄握引体向上",
+    "equipment": [
+      "自重"
+    ],
+    "requiredEquipment": [
+      "单杠"
+    ],
+    "available": {
+      "自重": false,
+      "哑铃": false,
+      "平板训练凳": false,
+      "哑铃|平板训练凳": false,
+      "哑铃|上斜训练凳": false,
+      "哑铃|下斜训练凳": false,
+      "直立靠背训练凳": false,
+      "哑铃|直立靠背训练凳": false,
+      "单杠": true,
+      "双杠": false,
+      "中立握引体架": false
+    },
+    "patterns": [
+      "拉"
+    ],
+    "primary": [
+      "肱二头肌",
+      "前臂"
+    ],
+    "isHold": false,
+    "perSide": false,
+    "shoulder": "MEDIUM",
+    "lower_back": "NONE",
+    "knee": "NONE"
+  },
+  "dataset_1324_0140": {
+    "name": "引体向上",
+    "equipment": [
+      "自重"
+    ],
+    "requiredEquipment": [
+      "单杠"
+    ],
+    "available": {
+      "自重": false,
+      "哑铃": false,
+      "平板训练凳": false,
+      "哑铃|平板训练凳": false,
+      "哑铃|上斜训练凳": false,
+      "哑铃|下斜训练凳": false,
+      "直立靠背训练凳": false,
+      "哑铃|直立靠背训练凳": false,
+      "单杠": true,
+      "双杠": false,
+      "中立握引体架": false
+    },
+    "patterns": [
+      "拉"
+    ],
+    "primary": [
+      "肱二头肌",
+      "前臂"
+    ],
+    "isHold": false,
+    "perSide": false,
+    "shoulder": "MEDIUM",
+    "lower_back": "NONE",
+    "knee": "NONE"
+  },
+  "dataset_1324_0138": {
+    "name": "仰卧举髋卷腹",
+    "equipment": [
+      "自重"
+    ],
+    "requiredEquipment": [],
+    "available": {
+      "自重": true,
+      "哑铃": true,
+      "平板训练凳": true,
+      "哑铃|平板训练凳": true,
+      "哑铃|上斜训练凳": true,
+      "哑铃|下斜训练凳": true,
+      "直立靠背训练凳": true,
+      "哑铃|直立靠背训练凳": true,
+      "单杠": true,
+      "双杠": true,
+      "中立握引体架": true
+    },
+    "patterns": [
+      "核心"
+    ],
+    "primary": [
+      "腹肌"
+    ],
+    "isHold": false,
+    "perSide": false,
+    "shoulder": "NONE",
+    "lower_back": "MEDIUM",
+    "knee": "NONE"
+  },
+  "dataset_1324_0251": {
+    "name": "双杠臂屈伸（偏胸）",
+    "equipment": [
+      "自重"
+    ],
+    "requiredEquipment": [
+      "双杠"
+    ],
+    "available": {
+      "自重": false,
+      "哑铃": false,
+      "平板训练凳": false,
+      "哑铃|平板训练凳": false,
+      "哑铃|上斜训练凳": false,
+      "哑铃|下斜训练凳": false,
+      "直立靠背训练凳": false,
+      "哑铃|直立靠背训练凳": false,
+      "单杠": false,
+      "双杠": true,
+      "中立握引体架": false
+    },
+    "patterns": [
+      "推"
+    ],
+    "primary": [
+      "胸肌",
+      "肱三头肌"
+    ],
+    "isHold": false,
+    "perSide": false,
+    "shoulder": "MEDIUM",
+    "lower_back": "NONE",
+    "knee": "NONE"
+  },
+  "dataset_1324_0253": {
+    "name": "窄距平行握引体向上",
+    "equipment": [
+      "自重"
+    ],
+    "requiredEquipment": [
+      "中立握引体架"
+    ],
+    "available": {
+      "自重": false,
+      "哑铃": false,
+      "平板训练凳": false,
+      "哑铃|平板训练凳": false,
+      "哑铃|上斜训练凳": false,
+      "哑铃|下斜训练凳": false,
+      "直立靠背训练凳": false,
+      "哑铃|直立靠背训练凳": false,
+      "单杠": false,
+      "双杠": false,
+      "中立握引体架": true
+    },
+    "patterns": [
+      "拉",
+      "垂直拉"
+    ],
+    "primary": [
+      "背阔肌",
+      "上背"
+    ],
+    "isHold": false,
+    "perSide": false,
+    "shoulder": "MEDIUM",
+    "lower_back": "MEDIUM",
+    "knee": "NONE"
+  },
+  "dataset_1324_0287": {
+    "name": "哑铃坐姿阿诺德推举",
+    "equipment": [
+      "哑铃"
+    ],
+    "requiredEquipment": [
+      "直立靠背训练凳"
+    ],
+    "available": {
+      "自重": false,
+      "哑铃": false,
+      "平板训练凳": false,
+      "哑铃|平板训练凳": false,
+      "哑铃|上斜训练凳": false,
+      "哑铃|下斜训练凳": false,
+      "直立靠背训练凳": false,
+      "哑铃|直立靠背训练凳": true,
+      "单杠": false,
+      "双杠": false,
+      "中立握引体架": false
+    },
+    "patterns": [
+      "推",
+      "垂直推",
+      "过顶伸展"
+    ],
+    "primary": [
+      "三角肌"
+    ],
+    "isHold": false,
+    "perSide": false,
+    "shoulder": "MEDIUM",
+    "lower_back": "MEDIUM",
+    "knee": "NONE"
+  },
+  "dataset_1324_0288": {
+    "name": "哑铃仰卧上拉",
+    "equipment": [
+      "哑铃"
+    ],
+    "requiredEquipment": [
+      "平板训练凳"
+    ],
+    "available": {
+      "自重": false,
+      "哑铃": false,
+      "平板训练凳": false,
+      "哑铃|平板训练凳": true,
+      "哑铃|上斜训练凳": false,
+      "哑铃|下斜训练凳": false,
+      "直立靠背训练凳": false,
+      "哑铃|直立靠背训练凳": false,
+      "单杠": false,
+      "双杠": false,
+      "中立握引体架": false
+    },
+    "patterns": [
+      "推"
+    ],
+    "primary": [
+      "胸肌"
+    ],
+    "isHold": false,
+    "perSide": false,
+    "shoulder": "MEDIUM",
+    "lower_back": "NONE",
+    "knee": "NONE"
+  },
+  "dataset_1324_0290": {
+    "name": "哑铃坐姿肩上推举",
+    "equipment": [
+      "哑铃"
+    ],
+    "requiredEquipment": [
+      "直立靠背训练凳"
+    ],
+    "available": {
+      "自重": false,
+      "哑铃": false,
+      "平板训练凳": false,
+      "哑铃|平板训练凳": false,
+      "哑铃|上斜训练凳": false,
+      "哑铃|下斜训练凳": false,
+      "直立靠背训练凳": false,
+      "哑铃|直立靠背训练凳": true,
+      "单杠": false,
+      "双杠": false,
+      "中立握引体架": false
+    },
+    "patterns": [
+      "推",
+      "垂直推",
+      "过顶伸展"
+    ],
+    "primary": [
+      "三角肌"
+    ],
+    "isHold": false,
+    "perSide": false,
+    "shoulder": "MEDIUM",
+    "lower_back": "MEDIUM",
+    "knee": "NONE"
+  },
+  "dataset_1324_0291": {
+    "name": "哑铃触凳深蹲",
+    "equipment": [
+      "哑铃"
+    ],
+    "requiredEquipment": [
+      "平板训练凳"
+    ],
+    "available": {
+      "自重": false,
+      "哑铃": false,
+      "平板训练凳": false,
+      "哑铃|平板训练凳": true,
+      "哑铃|上斜训练凳": false,
+      "哑铃|下斜训练凳": false,
+      "直立靠背训练凳": false,
+      "哑铃|直立靠背训练凳": false,
+      "单杠": false,
+      "双杠": false,
+      "中立握引体架": false
+    },
+    "patterns": [
+      "下肢"
+    ],
+    "primary": [
+      "臀肌",
+      "股四头肌"
+    ],
+    "isHold": false,
+    "perSide": false,
+    "shoulder": "NONE",
+    "lower_back": "NONE",
+    "knee": "MEDIUM"
+  },
+  "dataset_1324_0305": {
+    "name": "哑铃俯卧上斜凳耸肩（另一示范）",
+    "equipment": [
+      "哑铃"
+    ],
+    "requiredEquipment": [
+      "上斜训练凳"
+    ],
+    "available": {
+      "自重": false,
+      "哑铃": false,
+      "平板训练凳": false,
+      "哑铃|平板训练凳": false,
+      "哑铃|上斜训练凳": true,
+      "哑铃|下斜训练凳": false,
+      "直立靠背训练凳": false,
+      "哑铃|直立靠背训练凳": false,
+      "单杠": false,
+      "双杠": false,
+      "中立握引体架": false
+    },
+    "patterns": [
+      "拉",
+      "肩胛上提"
+    ],
+    "primary": [
+      "斜方肌"
+    ],
+    "isHold": false,
+    "perSide": false,
+    "shoulder": "MEDIUM",
+    "lower_back": "MEDIUM",
+    "knee": "NONE"
+  }
+}

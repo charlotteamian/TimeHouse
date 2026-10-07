@@ -1,0 +1,27 @@
+{
+  "version": "1.2.13",
+  "version_code": 2026091503,
+  "sha256": "1d4654bcdc4c08903e8e313747636805e074f4d2d23b177e6d352ea53370d03a",
+  "changed_dataset_ids": [
+    "0277",
+    "0279",
+    "0282",
+    "0284",
+    "0312",
+    "0314",
+    "0315",
+    "0316",
+    "0317"
+  ],
+  "changed_raw_assets": [
+    "res/raw/dataset_motion_0317.webp"
+  ],
+  "reviewed": 34,
+  "unreviewed": 1321,
+  "generated_images_imported": 0,
+  "apk_integrity": "passed",
+  "dataset_and_review_hashes": "passed",
+  "signature_verified": true,
+  "signer_sha256": "f97b8a406448cb301259189f833d7beb7985728929dd652d2c257e8d36a28997",
+  "apk": "build/时光屋-1.2.13-第九批动作复核.apk"
+}

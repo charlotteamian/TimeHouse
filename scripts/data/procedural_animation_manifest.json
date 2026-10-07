@@ -1,0 +1,4846 @@
+{
+  "0002": {
+    "template": "side_bend",
+    "name": "45° side bend"
+  },
+  "1512": {
+    "template": "bird_dog",
+    "name": "all fours squad stretch"
+  },
+  "0007": {
+    "template": "pulldown",
+    "name": "alternate lateral pulldown"
+  },
+  "3293": {
+    "template": "pullup",
+    "name": "archer pull up"
+  },
+  "3294": {
+    "template": "pushup",
+    "name": "archer push up"
+  },
+  "2355": {
+    "template": "crunch",
+    "name": "arm slingers hanging bent knee legs"
+  },
+  "2333": {
+    "template": "crunch",
+    "name": "arm slingers hanging straight legs"
+  },
+  "3214": {
+    "template": "leg_raise",
+    "name": "arms apart circular toe touch (male)"
+  },
+  "3204": {
+    "template": "crunch",
+    "name": "arms overhead full sit-up (male)"
+  },
+  "0009": {
+    "template": "dip",
+    "name": "assisted chest dip (kneeling)"
+  },
+  "0011": {
+    "template": "leg_raise",
+    "name": "assisted hanging knee raise"
+  },
+  "0010": {
+    "template": "leg_raise",
+    "name": "assisted hanging knee raise with throw down"
+  },
+  "1708": {
+    "template": "stretch",
+    "name": "assisted lying calves stretch"
+  },
+  "1709": {
+    "template": "stretch",
+    "name": "assisted lying glutes stretch"
+  },
+  "1710": {
+    "template": "stretch",
+    "name": "assisted lying gluteus and piriformis stretch"
+  },
+  "0012": {
+    "template": "leg_raise",
+    "name": "assisted lying leg raise with lateral throw down"
+  },
+  "0013": {
+    "template": "leg_raise",
+    "name": "assisted lying leg raise with throw down"
+  },
+  "0014": {
+    "template": "rotation",
+    "name": "assisted motion russian twist"
+  },
+  "0015": {
+    "template": "pullup",
+    "name": "assisted parallel close grip pull-up"
+  },
+  "0016": {
+    "template": "squat",
+    "name": "assisted prone hamstring"
+  },
+  "1713": {
+    "template": "stretch",
+    "name": "assisted prone lying quads stretch"
+  },
+  "1714": {
+    "template": "stretch",
+    "name": "assisted prone rectus femoris stretch"
+  },
+  "0017": {
+    "template": "pullup",
+    "name": "assisted pull-up"
+  },
+  "1716": {
+    "template": "stretch",
+    "name": "assisted seated pectoralis major stretch with stability ball"
+  },
+  "1712": {
+    "template": "adduction",
+    "name": "assisted side lying adductor stretch"
+  },
+  "1758": {
+    "template": "crunch",
+    "name": "assisted sit-up"
+  },
+  "1431": {
+    "template": "pullup",
+    "name": "assisted standing chin-up"
+  },
+  "1432": {
+    "template": "pullup",
+    "name": "assisted standing pull-up"
+  },
+  "0018": {
+    "template": "triceps",
+    "name": "assisted standing triceps extension (with towel)"
+  },
+  "0019": {
+    "template": "dip",
+    "name": "assisted triceps dip (kneeling)"
+  },
+  "2364": {
+    "template": "dip",
+    "name": "assisted wide-grip chest dip (kneeling)"
+  },
+  "3220": {
+    "template": "jump",
+    "name": "astride jumps (male)"
+  },
+  "3672": {
+    "template": "run",
+    "name": "back and forth step"
+  },
+  "1314": {
+    "template": "row",
+    "name": "back extension on exercise ball"
+  },
+  "3297": {
+    "template": "row",
+    "name": "back lever"
+  },
+  "1405": {
+    "template": "stretch",
+    "name": "back pec stretch"
+  },
+  "1473": {
+    "template": "jump",
+    "name": "backward jump"
+  },
+  "0968": {
+    "template": "curl",
+    "name": "band alternating biceps curl"
+  },
+  "0969": {
+    "template": "crunch",
+    "name": "band alternating v-up"
+  },
+  "0971": {
+    "template": "stretch",
+    "name": "band assisted wheel rollerout"
+  },
+  "1254": {
+    "template": "chest_press",
+    "name": "band bench press"
+  },
+  "0980": {
+    "template": "squat",
+    "name": "band bent-over hip extension"
+  },
+  "0972": {
+    "template": "crunch",
+    "name": "band bicycle crunch"
+  },
+  "0974": {
+    "template": "pulldown",
+    "name": "band close-grip pulldown"
+  },
+  "0975": {
+    "template": "pushup",
+    "name": "band close-grip push-up"
+  },
+  "0976": {
+    "template": "curl",
+    "name": "band concentration curl"
+  },
+  "3117": {
+    "template": "pulldown",
+    "name": "band fixed back close grip pulldown"
+  },
+  "3116": {
+    "template": "pulldown",
+    "name": "band fixed back underhand pulldown"
+  },
+  "0977": {
+    "template": "lateral_raise",
+    "name": "band front lateral raise"
+  },
+  "0978": {
+    "template": "front_raise",
+    "name": "band front raise"
+  },
+  "1408": {
+    "template": "squat",
+    "name": "band hip lift"
+  },
+  "0979": {
+    "template": "crunch",
+    "name": "band horizontal pallof press"
+  },
+  "0981": {
+    "template": "jump",
+    "name": "band jack knife sit-up"
+  },
+  "0983": {
+    "template": "pulldown",
+    "name": "band kneeling one arm pulldown"
+  },
+  "0985": {
+    "template": "crunch",
+    "name": "band kneeling twisting crunch"
+  },
+  "0984": {
+    "template": "rotation",
+    "name": "band lying hip internal rotation"
+  },
+  "1002": {
+    "template": "leg_raise",
+    "name": "band lying straight leg raise"
+  },
+  "0986": {
+    "template": "curl",
+    "name": "band one arm overhead biceps curl"
+  },
+  "0987": {
+    "template": "squat",
+    "name": "band one arm single leg split squat"
+  },
+  "0988": {
+    "template": "row",
+    "name": "band one arm standing low row"
+  },
+  "0989": {
+    "template": "chest_press",
+    "name": "band one arm twisting chest press"
+  },
+  "0990": {
+    "template": "row",
+    "name": "band one arm twisting seated row"
+  },
+  "0991": {
+    "template": "squat",
+    "name": "band pull through"
+  },
+  "0992": {
+    "template": "crunch",
+    "name": "band push sit-up"
+  },
+  "0993": {
+    "template": "reverse_fly",
+    "name": "band reverse fly"
+  },
+  "0994": {
+    "template": "wrist",
+    "name": "band reverse wrist curl"
+  },
+  "0996": {
+    "template": "rotation",
+    "name": "band seated hip internal rotation"
+  },
+  "1011": {
+    "template": "rotation",
+    "name": "band seated twist"
+  },
+  "0997": {
+    "template": "overhead_press",
+    "name": "band shoulder press"
+  },
+  "1018": {
+    "template": "shrug",
+    "name": "band shrug"
+  },
+  "0998": {
+    "template": "triceps",
+    "name": "band side triceps extension"
+  },
+  "0999": {
+    "template": "calf_raise",
+    "name": "band single leg calf raise"
+  },
+  "1000": {
+    "template": "calf_raise",
+    "name": "band single leg reverse calf raise"
+  },
+  "1001": {
+    "template": "squat",
+    "name": "band single leg split squat"
+  },
+  "1004": {
+    "template": "squat",
+    "name": "band squat"
+  },
+  "1003": {
+    "template": "squat",
+    "name": "band squat row"
+  },
+  "1005": {
+    "template": "crunch",
+    "name": "band standing crunch"
+  },
+  "1022": {
+    "template": "row",
+    "name": "band standing rear delt row"
+  },
+  "1007": {
+    "template": "crunch",
+    "name": "band standing twisting crunch"
+  },
+  "1008": {
+    "template": "lunge",
+    "name": "band step-up"
+  },
+  "1009": {
+    "template": "hinge",
+    "name": "band stiff leg deadlift"
+  },
+  "1023": {
+    "template": "hinge",
+    "name": "band straight back stiff leg deadlift"
+  },
+  "1010": {
+    "template": "hinge",
+    "name": "band straight leg deadlift"
+  },
+  "1012": {
+    "template": "overhead_press",
+    "name": "band twisting overhead press"
+  },
+  "1369": {
+    "template": "calf_raise",
+    "name": "band two legs calf raise - (band under both legs) v. 2"
+  },
+  "1013": {
+    "template": "pulldown",
+    "name": "band underhand pulldown"
+  },
+  "1014": {
+    "template": "crunch",
+    "name": "band v-up"
+  },
+  "1015": {
+    "template": "crunch",
+    "name": "band vertical pallof press"
+  },
+  "1016": {
+    "template": "wrist",
+    "name": "band wrist curl"
+  },
+  "1017": {
+    "template": "lateral_raise",
+    "name": "band y-raise"
+  },
+  "0023": {
+    "template": "curl",
+    "name": "barbell alternate biceps curl"
+  },
+  "0024": {
+    "template": "squat",
+    "name": "barbell bench front squat"
+  },
+  "0025": {
+    "template": "chest_press",
+    "name": "barbell bench press"
+  },
+  "0026": {
+    "template": "squat",
+    "name": "barbell bench squat"
+  },
+  "1316": {
+    "template": "pullover",
+    "name": "barbell bent arm pullover"
+  },
+  "0027": {
+    "template": "row",
+    "name": "barbell bent over row"
+  },
+  "2407": {
+    "template": "curl",
+    "name": "barbell biceps curl (with arm blaster)"
+  },
+  "0028": {
+    "template": "squat",
+    "name": "barbell clean and press"
+  },
+  "0029": {
+    "template": "squat",
+    "name": "barbell clean-grip front squat"
+  },
+  "0030": {
+    "template": "chest_press",
+    "name": "barbell close-grip bench press"
+  },
+  "0033": {
+    "template": "chest_press",
+    "name": "barbell decline bench press"
+  },
+  "0034": {
+    "template": "pullover",
+    "name": "barbell decline bent arm pullover"
+  },
+  "0035": {
+    "template": "triceps",
+    "name": "barbell decline close grip to skull press"
+  },
+  "1255": {
+    "template": "pullover",
+    "name": "barbell decline pullover"
+  },
+  "0036": {
+    "template": "chest_press",
+    "name": "barbell decline wide-grip press"
+  },
+  "0037": {
+    "template": "pullover",
+    "name": "barbell decline wide-grip pullover"
+  },
+  "0038": {
+    "template": "curl",
+    "name": "barbell drag curl"
+  },
+  "1370": {
+    "template": "calf_raise",
+    "name": "barbell floor calf raise"
+  },
+  "0039": {
+    "template": "squat",
+    "name": "barbell front chest squat"
+  },
+  "0041": {
+    "template": "front_raise",
+    "name": "barbell front raise"
+  },
+  "0040": {
+    "template": "pullover",
+    "name": "barbell front raise and pullover"
+  },
+  "0042": {
+    "template": "squat",
+    "name": "barbell front squat"
+  },
+  "1461": {
+    "template": "squat",
+    "name": "barbell full squat (back pov)"
+  },
+  "1462": {
+    "template": "squat",
+    "name": "barbell full squat (side pov)"
+  },
+  "1545": {
+    "template": "squat",
+    "name": "barbell full zercher squat"
+  },
+  "3562": {
+    "template": "bridge",
+    "name": "barbell glute bridge two legs on bench (male)"
+  },
+  "0044": {
+    "template": "hinge",
+    "name": "barbell good morning"
+  },
+  "1436": {
+    "template": "squat",
+    "name": "barbell high bar squat"
+  },
+  "0047": {
+    "template": "chest_press",
+    "name": "barbell incline bench press"
+  },
+  "1719": {
+    "template": "chest_press",
+    "name": "barbell incline close grip bench press"
+  },
+  "0048": {
+    "template": "triceps",
+    "name": "barbell incline reverse-grip press"
+  },
+  "0049": {
+    "template": "row",
+    "name": "barbell incline row"
+  },
+  "0051": {
+    "template": "squat",
+    "name": "barbell jefferson squat"
+  },
+  "0052": {
+    "template": "chest_press",
+    "name": "barbell jm bench press"
+  },
+  "0053": {
+    "template": "jump",
+    "name": "barbell jump squat"
+  },
+  "1410": {
+    "template": "lunge",
+    "name": "barbell lateral lunge"
+  },
+  "1435": {
+    "template": "squat",
+    "name": "barbell low bar squat"
+  },
+  "1720": {
+    "template": "triceps",
+    "name": "barbell lying back of the head tricep extension"
+  },
+  "0055": {
+    "template": "triceps",
+    "name": "barbell lying close-grip press"
+  },
+  "0056": {
+    "template": "triceps",
+    "name": "barbell lying close-grip triceps extension"
+  },
+  "0057": {
+    "template": "triceps",
+    "name": "barbell lying extension"
+  },
+  "0058": {
+    "template": "squat",
+    "name": "barbell lying lifting (on hip)"
+  },
+  "0059": {
+    "template": "curl",
+    "name": "barbell lying preacher curl"
+  },
+  "0061": {
+    "template": "triceps",
+    "name": "barbell lying triceps extension"
+  },
+  "0060": {
+    "template": "triceps",
+    "name": "barbell lying triceps extension skull crusher"
+  },
+  "0063": {
+    "template": "squat",
+    "name": "barbell narrow stance squat"
+  },
+  "0064": {
+    "template": "row",
+    "name": "barbell one arm bent over row"
+  },
+  "0065": {
+    "template": "chest_press",
+    "name": "barbell one arm floor press"
+  },
+  "0066": {
+    "template": "hinge",
+    "name": "barbell one arm side deadlift"
+  },
+  "0067": {
+    "template": "lateral_raise",
+    "name": "barbell one arm snatch"
+  },
+  "0068": {
+    "template": "squat",
+    "name": "barbell one leg squat"
+  },
+  "0069": {
+    "template": "squat",
+    "name": "barbell overhead squat"
+  },
+  "1411": {
+    "template": "wrist",
+    "name": "barbell palms down wrist curl over a bench"
+  },
+  "1412": {
+    "template": "wrist",
+    "name": "barbell palms up wrist curl over a bench"
+  },
+  "3017": {
+    "template": "row",
+    "name": "barbell pendlay row"
+  },
+  "1751": {
+    "template": "triceps",
+    "name": "barbell pin presses"
+  },
+  "0070": {
+    "template": "curl",
+    "name": "barbell preacher curl"
+  },
+  "0071": {
+    "template": "crunch",
+    "name": "barbell press sit-up"
+  },
+  "0072": {
+    "template": "curl",
+    "name": "barbell prone incline curl"
+  },
+  "0073": {
+    "template": "pullover",
+    "name": "barbell pullover"
+  },
+  "0022": {
+    "template": "pullover",
+    "name": "barbell pullover to press"
+  },
+  "0074": {
+    "template": "squat",
+    "name": "barbell rack pull"
+  },
+  "0075": {
+    "template": "reverse_fly",
+    "name": "barbell rear delt raise"
+  },
+  "0078": {
+    "template": "lunge",
+    "name": "barbell rear lunge"
+  },
+  "0077": {
+    "template": "lunge",
+    "name": "barbell rear lunge v. 2"
+  },
+  "0079": {
+    "template": "wrist",
+    "name": "barbell revers wrist curl v. 2"
+  },
+  "2187": {
+    "template": "chest_press",
+    "name": "barbell reverse close-grip bench press"
+  },
+  "0080": {
+    "template": "curl",
+    "name": "barbell reverse curl"
+  },
+  "0118": {
+    "template": "row",
+    "name": "barbell reverse grip bent over row"
+  },
+  "1256": {
+    "template": "chest_press",
+    "name": "barbell reverse grip decline bench press"
+  },
+  "1257": {
+    "template": "chest_press",
+    "name": "barbell reverse grip incline bench press"
+  },
+  "1317": {
+    "template": "row",
+    "name": "barbell reverse grip incline bench row"
+  },
+  "1721": {
+    "template": "triceps",
+    "name": "barbell reverse grip skullcrusher"
+  },
+  "0081": {
+    "template": "curl",
+    "name": "barbell reverse preacher curl"
+  },
+  "0082": {
+    "template": "wrist",
+    "name": "barbell reverse wrist curl"
+  },
+  "0084": {
+    "template": "stretch",
+    "name": "barbell rollerout"
+  },
+  "0083": {
+    "template": "stretch",
+    "name": "barbell rollerout from bench"
+  },
+  "0085": {
+    "template": "hinge",
+    "name": "barbell romanian deadlift"
+  },
+  "0086": {
+    "template": "overhead_press",
+    "name": "barbell seated behind head military press"
+  },
+  "0087": {
+    "template": "lateral_raise",
+    "name": "barbell seated bradford rocky press"
+  },
+  "1718": {
+    "template": "triceps",
+    "name": "barbell seated close grip behind neck triceps extension"
+  },
+  "0089": {
+    "template": "curl",
+    "name": "barbell seated close-grip concentration curl"
+  },
+  "0090": {
+    "template": "hinge",
+    "name": "barbell seated good morning"
+  },
+  "0091": {
+    "template": "overhead_press",
+    "name": "barbell seated overhead press"
+  },
+  "0092": {
+    "template": "triceps",
+    "name": "barbell seated overhead triceps extension"
+  },
+  "0094": {
+    "template": "rotation",
+    "name": "barbell seated twist"
+  },
+  "0096": {
+    "template": "crunch",
+    "name": "barbell side bent v. 2"
+  },
+  "0097": {
+    "template": "squat",
+    "name": "barbell side split squat v. 2"
+  },
+  "1756": {
+    "template": "hinge",
+    "name": "barbell single leg deadlift"
+  },
+  "0099": {
+    "template": "squat",
+    "name": "barbell single leg split squat"
+  },
+  "2799": {
+    "template": "leg_raise",
+    "name": "barbell sitted alternate leg raise"
+  },
+  "2800": {
+    "template": "leg_raise",
+    "name": "barbell sitted alternate leg raise (female)"
+  },
+  "0100": {
+    "template": "lateral_raise",
+    "name": "barbell skier"
+  },
+  "0101": {
+    "template": "squat",
+    "name": "barbell speed squat"
+  },
+  "2810": {
+    "template": "squat",
+    "name": "barbell split squat v. 2"
+  },
+  "0102": {
+    "template": "squat",
+    "name": "barbell squat (on knees)"
+  },
+  "2798": {
+    "template": "jump",
+    "name": "barbell squat jump step rear lunge"
+  },
+  "0103": {
+    "template": "stretch",
+    "name": "barbell standing ab rollerout"
+  },
+  "0104": {
+    "template": "wrist",
+    "name": "barbell standing back wrist curl"
+  },
+  "0105": {
+    "template": "lateral_raise",
+    "name": "barbell standing bradford press"
+  },
+  "1372": {
+    "template": "calf_raise",
+    "name": "barbell standing calf raise"
+  },
+  "0106": {
+    "template": "curl",
+    "name": "barbell standing close grip curl"
+  },
+  "1456": {
+    "template": "overhead_press",
+    "name": "barbell standing close grip military press"
+  },
+  "2414": {
+    "template": "curl",
+    "name": "barbell standing concentration curl"
+  },
+  "0107": {
+    "template": "front_raise",
+    "name": "barbell standing front raise over head"
+  },
+  "0108": {
+    "template": "calf_raise",
+    "name": "barbell standing leg calf raise"
+  },
+  "0109": {
+    "template": "triceps",
+    "name": "barbell standing overhead triceps extension"
+  },
+  "0110": {
+    "template": "curl",
+    "name": "barbell standing reverse grip curl"
+  },
+  "0111": {
+    "template": "calf_raise",
+    "name": "barbell standing rocking leg calf raise"
+  },
+  "0112": {
+    "template": "rotation",
+    "name": "barbell standing twist"
+  },
+  "1629": {
+    "template": "curl",
+    "name": "barbell standing wide grip biceps curl"
+  },
+  "1457": {
+    "template": "overhead_press",
+    "name": "barbell standing wide military press"
+  },
+  "0113": {
+    "template": "curl",
+    "name": "barbell standing wide-grip curl"
+  },
+  "0114": {
+    "template": "lunge",
+    "name": "barbell step-up"
+  },
+  "0115": {
+    "template": "hinge",
+    "name": "barbell stiff leg good morning"
+  },
+  "0116": {
+    "template": "hinge",
+    "name": "barbell straight leg deadlift"
+  },
+  "0117": {
+    "template": "hinge",
+    "name": "barbell sumo deadlift"
+  },
+  "3305": {
+    "template": "lateral_raise",
+    "name": "barbell thruster"
+  },
+  "0120": {
+    "template": "row",
+    "name": "barbell upright row"
+  },
+  "0119": {
+    "template": "row",
+    "name": "barbell upright row v. 2"
+  },
+  "0121": {
+    "template": "row",
+    "name": "barbell upright row v. 3"
+  },
+  "0122": {
+    "template": "chest_press",
+    "name": "barbell wide bench press"
+  },
+  "1258": {
+    "template": "chest_press",
+    "name": "barbell wide reverse grip bench press"
+  },
+  "0124": {
+    "template": "squat",
+    "name": "barbell wide squat"
+  },
+  "0123": {
+    "template": "row",
+    "name": "barbell wide-grip upright row"
+  },
+  "0126": {
+    "template": "wrist",
+    "name": "barbell wrist curl"
+  },
+  "0125": {
+    "template": "wrist",
+    "name": "barbell wrist curl v. 2"
+  },
+  "0127": {
+    "template": "squat",
+    "name": "barbell zercher squat"
+  },
+  "3212": {
+    "template": "leg_raise",
+    "name": "basic toe touch (male)"
+  },
+  "3360": {
+    "template": "crawl",
+    "name": "bear crawl"
+  },
+  "0129": {
+    "template": "dip",
+    "name": "bench dip (knees bent)"
+  },
+  "1399": {
+    "template": "dip",
+    "name": "bench dip on floor"
+  },
+  "0130": {
+    "template": "squat",
+    "name": "bench hip extension"
+  },
+  "3019": {
+    "template": "pullup",
+    "name": "bench pull-ups"
+  },
+  "3639": {
+    "template": "rotation",
+    "name": "bent knee lying twist (male)"
+  },
+  "1770": {
+    "template": "curl",
+    "name": "biceps leg concentration curl"
+  },
+  "0139": {
+    "template": "pullup",
+    "name": "biceps narrow pull-ups"
+  },
+  "0140": {
+    "template": "pullup",
+    "name": "biceps pull-up"
+  },
+  "3543": {
+    "template": "jump",
+    "name": "bodyweight drop jump squat"
+  },
+  "3544": {
+    "template": "plank",
+    "name": "bodyweight incline side plank"
+  },
+  "1771": {
+    "template": "triceps",
+    "name": "bodyweight kneeling triceps extension"
+  },
+  "1769": {
+    "template": "curl",
+    "name": "bodyweight side lying biceps curl"
+  },
+  "3168": {
+    "template": "squat",
+    "name": "bodyweight squatting row"
+  },
+  "3167": {
+    "template": "squat",
+    "name": "bodyweight squatting row (with towel)"
+  },
+  "1373": {
+    "template": "calf_raise",
+    "name": "bodyweight standing calf raise"
+  },
+  "3156": {
+    "template": "row",
+    "name": "bodyweight standing close-grip one arm row"
+  },
+  "3158": {
+    "template": "row",
+    "name": "bodyweight standing close-grip row"
+  },
+  "3162": {
+    "template": "row",
+    "name": "bodyweight standing one arm row"
+  },
+  "3161": {
+    "template": "row",
+    "name": "bodyweight standing one arm row (with towel)"
+  },
+  "3166": {
+    "template": "row",
+    "name": "bodyweight standing row"
+  },
+  "3165": {
+    "template": "row",
+    "name": "bodyweight standing row (with towel)"
+  },
+  "0138": {
+    "template": "crunch",
+    "name": "bottoms-up"
+  },
+  "1374": {
+    "template": "jump",
+    "name": "box jump down with one leg stabilization"
+  },
+  "2466": {
+    "template": "crawl",
+    "name": "bridge - mountain climber (cross body)"
+  },
+  "1160": {
+    "template": "burpee",
+    "name": "burpee"
+  },
+  "1494": {
+    "template": "fly",
+    "name": "butterfly yoga pose"
+  },
+  "0148": {
+    "template": "overhead_press",
+    "name": "cable alternate shoulder press"
+  },
+  "0149": {
+    "template": "triceps",
+    "name": "cable alternate triceps extension"
+  },
+  "3235": {
+    "template": "leg_curl",
+    "name": "cable assisted inverse leg curl"
+  },
+  "0150": {
+    "template": "pulldown",
+    "name": "cable bar lateral pulldown"
+  },
+  "0151": {
+    "template": "chest_press",
+    "name": "cable bench press"
+  },
+  "1630": {
+    "template": "curl",
+    "name": "cable close grip curl"
+  },
+  "1631": {
+    "template": "curl",
+    "name": "cable concentration curl"
+  },
+  "0152": {
+    "template": "triceps",
+    "name": "cable concentration extension (on knee)"
+  },
+  "0153": {
+    "template": "pulldown",
+    "name": "cable cross-over lateral pulldown"
+  },
+  "0154": {
+    "template": "fly",
+    "name": "cable cross-over revers fly"
+  },
+  "0155": {
+    "template": "fly",
+    "name": "cable cross-over variation"
+  },
+  "0868": {
+    "template": "curl",
+    "name": "cable curl"
+  },
+  "0157": {
+    "template": "hinge",
+    "name": "cable deadlift"
+  },
+  "0158": {
+    "template": "fly",
+    "name": "cable decline fly"
+  },
+  "1260": {
+    "template": "chest_press",
+    "name": "cable decline one arm press"
+  },
+  "1261": {
+    "template": "chest_press",
+    "name": "cable decline press"
+  },
+  "0159": {
+    "template": "row",
+    "name": "cable decline seated wide-grip row"
+  },
+  "1632": {
+    "template": "curl",
+    "name": "cable drag curl"
+  },
+  "0160": {
+    "template": "row",
+    "name": "cable floor seated wide-grip row"
+  },
+  "0161": {
+    "template": "front_raise",
+    "name": "cable forward raise"
+  },
+  "0162": {
+    "template": "front_raise",
+    "name": "cable front raise"
+  },
+  "0164": {
+    "template": "lateral_raise",
+    "name": "cable front shoulder raise"
+  },
+  "0165": {
+    "template": "curl",
+    "name": "cable hammer curl (with rope)"
+  },
+  "1722": {
+    "template": "triceps",
+    "name": "cable high pulley overhead tricep extension"
+  },
+  "0167": {
+    "template": "row",
+    "name": "cable high row (kneeling)"
+  },
+  "0169": {
+    "template": "chest_press",
+    "name": "cable incline bench press"
+  },
+  "1318": {
+    "template": "row",
+    "name": "cable incline bench row"
+  },
+  "0171": {
+    "template": "fly",
+    "name": "cable incline fly"
+  },
+  "0170": {
+    "template": "fly",
+    "name": "cable incline fly (on stability ball)"
+  },
+  "0860": {
+    "template": "kickback",
+    "name": "cable kickback"
+  },
+  "0175": {
+    "template": "crunch",
+    "name": "cable kneeling crunch"
+  },
+  "3697": {
+    "template": "row",
+    "name": "cable kneeling rear delt row (with rope) (male)"
+  },
+  "0176": {
+    "template": "triceps",
+    "name": "cable kneeling triceps extension"
+  },
+  "2330": {
+    "template": "pulldown",
+    "name": "cable lat pulldown full range of motion"
+  },
+  "0177": {
+    "template": "pulldown",
+    "name": "cable lateral pulldown (with rope attachment)"
+  },
+  "2616": {
+    "template": "pulldown",
+    "name": "cable lateral pulldown with v-bar"
+  },
+  "0178": {
+    "template": "lateral_raise",
+    "name": "cable lateral raise"
+  },
+  "0179": {
+    "template": "fly",
+    "name": "cable low fly"
+  },
+  "0180": {
+    "template": "row",
+    "name": "cable low seated row"
+  },
+  "1634": {
+    "template": "curl",
+    "name": "cable lying bicep curl"
+  },
+  "0182": {
+    "template": "curl",
+    "name": "cable lying close-grip curl"
+  },
+  "0184": {
+    "template": "pullover",
+    "name": "cable lying extension pullover (with rope attachment)"
+  },
+  "0185": {
+    "template": "fly",
+    "name": "cable lying fly"
+  },
+  "0186": {
+    "template": "triceps",
+    "name": "cable lying triceps extension v. 2"
+  },
+  "0188": {
+    "template": "fly",
+    "name": "cable middle fly"
+  },
+  "0189": {
+    "template": "row",
+    "name": "cable one arm bent over row"
+  },
+  "0190": {
+    "template": "curl",
+    "name": "cable one arm curl"
+  },
+  "1262": {
+    "template": "fly",
+    "name": "cable one arm decline chest fly"
+  },
+  "1263": {
+    "template": "fly",
+    "name": "cable one arm fly on exercise ball"
+  },
+  "1264": {
+    "template": "fly",
+    "name": "cable one arm incline fly on exercise ball"
+  },
+  "1265": {
+    "template": "chest_press",
+    "name": "cable one arm incline press"
+  },
+  "1266": {
+    "template": "chest_press",
+    "name": "cable one arm incline press on exercise ball"
+  },
+  "0191": {
+    "template": "chest_press",
+    "name": "cable one arm lateral bent-over"
+  },
+  "0192": {
+    "template": "lateral_raise",
+    "name": "cable one arm lateral raise"
+  },
+  "1633": {
+    "template": "curl",
+    "name": "cable one arm preacher curl"
+  },
+  "1267": {
+    "template": "chest_press",
+    "name": "cable one arm press on exercise ball"
+  },
+  "3563": {
+    "template": "pulldown",
+    "name": "cable one arm pulldown"
+  },
+  "1635": {
+    "template": "curl",
+    "name": "cable one arm reverse preacher curl"
+  },
+  "0193": {
+    "template": "row",
+    "name": "cable one arm straight back high row (kneeling)"
+  },
+  "1723": {
+    "template": "triceps",
+    "name": "cable one arm tricep pushdown"
+  },
+  "1636": {
+    "template": "curl",
+    "name": "cable overhead curl"
+  },
+  "1637": {
+    "template": "curl",
+    "name": "cable overhead curl on exercise ball"
+  },
+  "0194": {
+    "template": "triceps",
+    "name": "cable overhead triceps extension (rope attachment)"
+  },
+  "1319": {
+    "template": "row",
+    "name": "cable palm rotational row"
+  },
+  "1268": {
+    "template": "chest_press",
+    "name": "cable press on exercise ball"
+  },
+  "0196": {
+    "template": "squat",
+    "name": "cable pull through (with rope)"
+  },
+  "0198": {
+    "template": "pulldown",
+    "name": "cable pulldown"
+  },
+  "0197": {
+    "template": "pulldown",
+    "name": "cable pulldown (pro lat bar)"
+  },
+  "1638": {
+    "template": "pulldown",
+    "name": "cable pulldown bicep curl"
+  },
+  "0201": {
+    "template": "triceps",
+    "name": "cable pushdown"
+  },
+  "0199": {
+    "template": "triceps",
+    "name": "cable pushdown (straight arm) v. 2"
+  },
+  "0200": {
+    "template": "triceps",
+    "name": "cable pushdown (with rope attachment)"
+  },
+  "0202": {
+    "template": "row",
+    "name": "cable rear delt row (stirrups)"
+  },
+  "0203": {
+    "template": "row",
+    "name": "cable rear delt row (with rope)"
+  },
+  "0204": {
+    "template": "triceps",
+    "name": "cable rear drive"
+  },
+  "0205": {
+    "template": "pulldown",
+    "name": "cable rear pulldown"
+  },
+  "0206": {
+    "template": "curl",
+    "name": "cable reverse curl"
+  },
+  "2406": {
+    "template": "triceps",
+    "name": "cable reverse grip triceps pushdown (sz-bar) (with arm blaster)"
+  },
+  "1413": {
+    "template": "curl",
+    "name": "cable reverse one arm curl"
+  },
+  "0209": {
+    "template": "curl",
+    "name": "cable reverse preacher curl"
+  },
+  "0210": {
+    "template": "wrist",
+    "name": "cable reverse wrist curl"
+  },
+  "0207": {
+    "template": "triceps",
+    "name": "cable reverse-grip pushdown"
+  },
+  "0208": {
+    "template": "row",
+    "name": "cable reverse-grip straight back seated high row"
+  },
+  "1320": {
+    "template": "row",
+    "name": "cable rope crossover seated row"
+  },
+  "1321": {
+    "template": "row",
+    "name": "cable rope elevated seated row"
+  },
+  "1322": {
+    "template": "row",
+    "name": "cable rope extension incline bench row"
+  },
+  "1639": {
+    "template": "curl",
+    "name": "cable rope hammer preacher curl"
+  },
+  "1724": {
+    "template": "triceps",
+    "name": "cable rope high pulley overhead tricep extension"
+  },
+  "1725": {
+    "template": "triceps",
+    "name": "cable rope incline tricep extension"
+  },
+  "1726": {
+    "template": "triceps",
+    "name": "cable rope lying on floor tricep extension"
+  },
+  "1640": {
+    "template": "curl",
+    "name": "cable rope one arm hammer preacher curl"
+  },
+  "1323": {
+    "template": "row",
+    "name": "cable rope seated row"
+  },
+  "0211": {
+    "template": "rotation",
+    "name": "cable russian twists (on stability ball)"
+  },
+  "2144": {
+    "template": "chest_press",
+    "name": "cable seated chest press"
+  },
+  "1641": {
+    "template": "curl",
+    "name": "cable seated curl"
+  },
+  "0213": {
+    "template": "row",
+    "name": "cable seated high row (v-bar)"
+  },
+  "0214": {
+    "template": "row",
+    "name": "cable seated one arm alternate row"
+  },
+  "1642": {
+    "template": "curl",
+    "name": "cable seated one arm concentration curl"
+  },
+  "1643": {
+    "template": "curl",
+    "name": "cable seated overhead curl"
+  },
+  "0215": {
+    "template": "lateral_raise",
+    "name": "cable seated rear lateral raise"
+  },
+  "0861": {
+    "template": "row",
+    "name": "cable seated row"
+  },
+  "0216": {
+    "template": "rotation",
+    "name": "cable seated shoulder internal rotation"
+  },
+  "2399": {
+    "template": "rotation",
+    "name": "cable seated twist"
+  },
+  "0218": {
+    "template": "row",
+    "name": "cable seated wide-grip row"
+  },
+  "0220": {
+    "template": "shrug",
+    "name": "cable shrug"
+  },
+  "0222": {
+    "template": "side_bend",
+    "name": "cable side bend"
+  },
+  "0221": {
+    "template": "crunch",
+    "name": "cable side bend crunch (bosu ball)"
+  },
+  "0223": {
+    "template": "crunch",
+    "name": "cable side crunch"
+  },
+  "1717": {
+    "template": "squat",
+    "name": "cable squat row (with rope attachment)"
+  },
+  "1644": {
+    "template": "squat",
+    "name": "cable squatting curl"
+  },
+  "0224": {
+    "template": "wrist",
+    "name": "cable standing back wrist curl"
+  },
+  "1375": {
+    "template": "calf_raise",
+    "name": "cable standing calf raise"
+  },
+  "0225": {
+    "template": "reverse_fly",
+    "name": "cable standing cross-over high reverse fly"
+  },
+  "0226": {
+    "template": "crunch",
+    "name": "cable standing crunch"
+  },
+  "0874": {
+    "template": "crunch",
+    "name": "cable standing crunch (with rope attachment)"
+  },
+  "0227": {
+    "template": "fly",
+    "name": "cable standing fly"
+  },
+  "0228": {
+    "template": "squat",
+    "name": "cable standing hip extension"
+  },
+  "0229": {
+    "template": "curl",
+    "name": "cable standing inner curl"
+  },
+  "0230": {
+    "template": "crunch",
+    "name": "cable standing lift"
+  },
+  "0231": {
+    "template": "triceps",
+    "name": "cable standing one arm triceps extension"
+  },
+  "1376": {
+    "template": "calf_raise",
+    "name": "cable standing one leg calf raise"
+  },
+  "0232": {
+    "template": "pulldown",
+    "name": "cable standing pulldown (with rope)"
+  },
+  "0233": {
+    "template": "row",
+    "name": "cable standing rear delt row (with rope)"
+  },
+  "1727": {
+    "template": "triceps",
+    "name": "cable standing reverse grip one arm overhead tricep extension"
+  },
+  "0234": {
+    "template": "row",
+    "name": "cable standing row (v-bar)"
+  },
+  "0235": {
+    "template": "rotation",
+    "name": "cable standing shoulder external rotation"
+  },
+  "0236": {
+    "template": "row",
+    "name": "cable standing twist row (v-bar)"
+  },
+  "1269": {
+    "template": "fly",
+    "name": "cable standing up straight crossovers"
+  },
+  "0238": {
+    "template": "pulldown",
+    "name": "cable straight arm pulldown"
+  },
+  "0237": {
+    "template": "pulldown",
+    "name": "cable straight arm pulldown (with rope)"
+  },
+  "0239": {
+    "template": "row",
+    "name": "cable straight back seated row"
+  },
+  "0240": {
+    "template": "reverse_fly",
+    "name": "cable supine reverse fly"
+  },
+  "2464": {
+    "template": "row",
+    "name": "cable thibaudeau kayak row"
+  },
+  "0241": {
+    "template": "triceps",
+    "name": "cable triceps pushdown (v-bar)"
+  },
+  "2405": {
+    "template": "triceps",
+    "name": "cable triceps pushdown (v-bar) (with arm blaster)"
+  },
+  "0242": {
+    "template": "crunch",
+    "name": "cable tuck reverse crunch"
+  },
+  "0243": {
+    "template": "rotation",
+    "name": "cable twist"
+  },
+  "0862": {
+    "template": "rotation",
+    "name": "cable twist (up-down)"
+  },
+  "0244": {
+    "template": "rotation",
+    "name": "cable twisting pull"
+  },
+  "1645": {
+    "template": "curl",
+    "name": "cable two arm curl on incline bench"
+  },
+  "1728": {
+    "template": "kickback",
+    "name": "cable two arm tricep kickback"
+  },
+  "0245": {
+    "template": "pulldown",
+    "name": "cable underhand pulldown"
+  },
+  "1270": {
+    "template": "fly",
+    "name": "cable upper chest crossovers"
+  },
+  "1324": {
+    "template": "row",
+    "name": "cable upper row"
+  },
+  "0246": {
+    "template": "row",
+    "name": "cable upright row"
+  },
+  "1325": {
+    "template": "pulldown",
+    "name": "cable wide grip rear pulldown behind neck"
+  },
+  "1407": {
+    "template": "stretch",
+    "name": "calf push stretch with hands against wall"
+  },
+  "1377": {
+    "template": "stretch",
+    "name": "calf stretch with hands against wall"
+  },
+  "1378": {
+    "template": "stretch",
+    "name": "calf stretch with rope"
+  },
+  "0248": {
+    "template": "row",
+    "name": "cambered bar lying row"
+  },
+  "2963": {
+    "template": "leg_raise",
+    "name": "captains chair straight leg raise"
+  },
+  "0251": {
+    "template": "dip",
+    "name": "chest dip"
+  },
+  "1430": {
+    "template": "pullup",
+    "name": "chest dip (on dip-pull-up cage)"
+  },
+  "2462": {
+    "template": "dip",
+    "name": "chest dip on straight bar"
+  },
+  "1272": {
+    "template": "stretch",
+    "name": "chest stretch with exercise ball"
+  },
+  "3216": {
+    "template": "pushup",
+    "name": "chest tap push-up (male)"
+  },
+  "0253": {
+    "template": "pullup",
+    "name": "chin-ups (narrow parallel grip)"
+  },
+  "0257": {
+    "template": "stretch",
+    "name": "circles knee stretch"
+  },
+  "1273": {
+    "template": "pushup",
+    "name": "clap push up"
+  },
+  "1327": {
+    "template": "pullup",
+    "name": "close grip chin-up"
+  },
+  "0259": {
+    "template": "pushup",
+    "name": "close-grip push-up"
+  },
+  "2398": {
+    "template": "pushup",
+    "name": "close-grip push-up (on knees)"
+  },
+  "1468": {
+    "template": "leg_raise",
+    "name": "crab twist toe touch"
+  },
+  "0262": {
+    "template": "crunch",
+    "name": "cross body crunch"
+  },
+  "0267": {
+    "template": "crunch",
+    "name": "crunch (hands overhead)"
+  },
+  "0271": {
+    "template": "crunch",
+    "name": "crunch (on stability ball)"
+  },
+  "0272": {
+    "template": "crunch",
+    "name": "crunch (on stability ball, arms straight)"
+  },
+  "0274": {
+    "template": "crunch",
+    "name": "crunch floor"
+  },
+  "3016": {
+    "template": "crunch",
+    "name": "curl-up"
+  },
+  "3769": {
+    "template": "squat",
+    "name": "curtsey squat"
+  },
+  "2331": {
+    "template": "bike",
+    "name": "cycle cross trainer"
+  },
+  "0282": {
+    "template": "crunch",
+    "name": "decline sit-up"
+  },
+  "1274": {
+    "template": "pushup",
+    "name": "deep push up"
+  },
+  "0283": {
+    "template": "pushup",
+    "name": "diamond push-up"
+  },
+  "0284": {
+    "template": "calf_raise",
+    "name": "donkey calf raise"
+  },
+  "1275": {
+    "template": "pushup",
+    "name": "drop push up"
+  },
+  "0285": {
+    "template": "curl",
+    "name": "dumbbell alternate biceps curl"
+  },
+  "2403": {
+    "template": "curl",
+    "name": "dumbbell alternate biceps curl (with arm blaster)"
+  },
+  "1646": {
+    "template": "curl",
+    "name": "dumbbell alternate hammer preacher curl"
+  },
+  "1647": {
+    "template": "curl",
+    "name": "dumbbell alternate preacher curl"
+  },
+  "1648": {
+    "template": "curl",
+    "name": "dumbbell alternate seated hammer curl"
+  },
+  "0286": {
+    "template": "lateral_raise",
+    "name": "dumbbell alternate side press"
+  },
+  "1649": {
+    "template": "leg_raise",
+    "name": "dumbbell alternating bicep curl with leg raised on exercise ball"
+  },
+  "1650": {
+    "template": "curl",
+    "name": "dumbbell alternating seated bicep curl on exercise ball"
+  },
+  "2137": {
+    "template": "lateral_raise",
+    "name": "dumbbell arnold press"
+  },
+  "0287": {
+    "template": "lateral_raise",
+    "name": "dumbbell arnold press v. 2"
+  },
+  "0288": {
+    "template": "pullover",
+    "name": "dumbbell around pullover"
+  },
+  "0290": {
+    "template": "lateral_raise",
+    "name": "dumbbell bench seated press"
+  },
+  "0291": {
+    "template": "squat",
+    "name": "dumbbell bench squat"
+  },
+  "0293": {
+    "template": "row",
+    "name": "dumbbell bent over row"
+  },
+  "1651": {
+    "template": "lunge",
+    "name": "dumbbell bicep curl lunge with bowling motion"
+  },
+  "1652": {
+    "template": "leg_raise",
+    "name": "dumbbell bicep curl on exercise ball with leg raised"
+  },
+  "1653": {
+    "template": "curl",
+    "name": "dumbbell bicep curl with stork stance"
+  },
+  "0294": {
+    "template": "curl",
+    "name": "dumbbell biceps curl"
+  },
+  "2401": {
+    "template": "curl",
+    "name": "dumbbell biceps curl (with arm blaster)"
+  },
+  "1654": {
+    "template": "curl",
+    "name": "dumbbell biceps curl reverse"
+  },
+  "1655": {
+    "template": "squat",
+    "name": "dumbbell biceps curl squat"
+  },
+  "1656": {
+    "template": "curl",
+    "name": "dumbbell biceps curl v sit on bosu ball"
+  },
+  "1201": {
+    "template": "burpee",
+    "name": "dumbbell burpee"
+  },
+  "1731": {
+    "template": "triceps",
+    "name": "dumbbell close grip press"
+  },
+  "0296": {
+    "template": "triceps",
+    "name": "dumbbell close-grip press"
+  },
+  "0297": {
+    "template": "curl",
+    "name": "dumbbell concentration curl"
+  },
+  "3635": {
+    "template": "lunge",
+    "name": "dumbbell contralateral forward lunge"
+  },
+  "0298": {
+    "template": "curl",
+    "name": "dumbbell cross body hammer curl"
+  },
+  "1657": {
+    "template": "curl",
+    "name": "dumbbell cross body hammer curl v. 2"
+  },
+  "0299": {
+    "template": "lateral_raise",
+    "name": "dumbbell cuban press"
+  },
+  "2136": {
+    "template": "lateral_raise",
+    "name": "dumbbell cuban press v. 2"
+  },
+  "0300": {
+    "template": "hinge",
+    "name": "dumbbell deadlift"
+  },
+  "0301": {
+    "template": "chest_press",
+    "name": "dumbbell decline bench press"
+  },
+  "0302": {
+    "template": "fly",
+    "name": "dumbbell decline fly"
+  },
+  "0303": {
+    "template": "chest_press",
+    "name": "dumbbell decline hammer press"
+  },
+  "1276": {
+    "template": "fly",
+    "name": "dumbbell decline one arm fly"
+  },
+  "1617": {
+    "template": "triceps",
+    "name": "dumbbell decline one arm hammer press"
+  },
+  "0305": {
+    "template": "shrug",
+    "name": "dumbbell decline shrug"
+  },
+  "0304": {
+    "template": "shrug",
+    "name": "dumbbell decline shrug v. 2"
+  },
+  "0306": {
+    "template": "triceps",
+    "name": "dumbbell decline triceps extension"
+  },
+  "0307": {
+    "template": "fly",
+    "name": "dumbbell decline twist fly"
+  },
+  "1437": {
+    "template": "wrist",
+    "name": "dumbbell finger curls"
+  },
+  "0308": {
+    "template": "fly",
+    "name": "dumbbell fly"
+  },
+  "1277": {
+    "template": "fly",
+    "name": "dumbbell fly on exercise ball"
+  },
+  "1732": {
+    "template": "lunge",
+    "name": "dumbbell forward lunge triceps extension"
+  },
+  "0310": {
+    "template": "front_raise",
+    "name": "dumbbell front raise"
+  },
+  "0309": {
+    "template": "front_raise",
+    "name": "dumbbell front raise v. 2"
+  },
+  "0311": {
+    "template": "lateral_raise",
+    "name": "dumbbell full can lateral raise"
+  },
+  "1760": {
+    "template": "squat",
+    "name": "dumbbell goblet squat"
+  },
+  "0313": {
+    "template": "curl",
+    "name": "dumbbell hammer curl"
+  },
+  "1659": {
+    "template": "curl",
+    "name": "dumbbell hammer curl on exercise ball"
+  },
+  "0312": {
+    "template": "curl",
+    "name": "dumbbell hammer curl v. 2"
+  },
+  "2402": {
+    "template": "curl",
+    "name": "dumbbell hammer curls (with arm blaster)"
+  },
+  "1664": {
+    "template": "curl",
+    "name": "dumbbell high curl"
+  },
+  "3545": {
+    "template": "chest_press",
+    "name": "dumbbell incline alternate press"
+  },
+  "0314": {
+    "template": "chest_press",
+    "name": "dumbbell incline bench press"
+  },
+  "0315": {
+    "template": "curl",
+    "name": "dumbbell incline biceps curl"
+  },
+  "0316": {
+    "template": "chest_press",
+    "name": "dumbbell incline breeding"
+  },
+  "0318": {
+    "template": "curl",
+    "name": "dumbbell incline curl"
+  },
+  "0317": {
+    "template": "curl",
+    "name": "dumbbell incline curl v. 2"
+  },
+  "0319": {
+    "template": "fly",
+    "name": "dumbbell incline fly"
+  },
+  "1278": {
+    "template": "fly",
+    "name": "dumbbell incline fly on exercise ball"
+  },
+  "0320": {
+    "template": "curl",
+    "name": "dumbbell incline hammer curl"
+  },
+  "0321": {
+    "template": "chest_press",
+    "name": "dumbbell incline hammer press"
+  },
+  "1618": {
+    "template": "triceps",
+    "name": "dumbbell incline hammer press on exercise ball"
+  },
+  "0322": {
+    "template": "curl",
+    "name": "dumbbell incline inner biceps curl"
+  },
+  "1279": {
+    "template": "fly",
+    "name": "dumbbell incline one arm fly"
+  },
+  "1280": {
+    "template": "fly",
+    "name": "dumbbell incline one arm fly on exercise ball"
+  },
+  "1619": {
+    "template": "triceps",
+    "name": "dumbbell incline one arm hammer press"
+  },
+  "1620": {
+    "template": "triceps",
+    "name": "dumbbell incline one arm hammer press on exercise ball"
+  },
+  "0323": {
+    "template": "lateral_raise",
+    "name": "dumbbell incline one arm lateral raise"
+  },
+  "1281": {
+    "template": "chest_press",
+    "name": "dumbbell incline one arm press"
+  },
+  "1282": {
+    "template": "chest_press",
+    "name": "dumbbell incline one arm press on exercise ball"
+  },
+  "0324": {
+    "template": "chest_press",
+    "name": "dumbbell incline palm-in press"
+  },
+  "1283": {
+    "template": "chest_press",
+    "name": "dumbbell incline press on exercise ball"
+  },
+  "0325": {
+    "template": "lateral_raise",
+    "name": "dumbbell incline raise"
+  },
+  "0326": {
+    "template": "lateral_raise",
+    "name": "dumbbell incline rear lateral raise"
+  },
+  "0329": {
+    "template": "shrug",
+    "name": "dumbbell incline shrug"
+  },
+  "3542": {
+    "template": "lateral_raise",
+    "name": "dumbbell incline t-raise"
+  },
+  "0330": {
+    "template": "triceps",
+    "name": "dumbbell incline triceps extension"
+  },
+  "0331": {
+    "template": "fly",
+    "name": "dumbbell incline twisted flyes"
+  },
+  "1733": {
+    "template": "triceps",
+    "name": "dumbbell incline two arm extension"
+  },
+  "3541": {
+    "template": "row",
+    "name": "dumbbell incline y-raise"
+  },
+  "0332": {
+    "template": "lateral_raise",
+    "name": "dumbbell iron cross"
+  },
+  "0333": {
+    "template": "kickback",
+    "name": "dumbbell kickback"
+  },
+  "1734": {
+    "template": "kickback",
+    "name": "dumbbell kickbacks on exercise ball"
+  },
+  "1660": {
+    "template": "curl",
+    "name": "dumbbell kneeling bicep curl exercise ball"
+  },
+  "0334": {
+    "template": "lateral_raise",
+    "name": "dumbbell lateral raise"
+  },
+  "0335": {
+    "template": "front_raise",
+    "name": "dumbbell lateral to front raise"
+  },
+  "0336": {
+    "template": "lunge",
+    "name": "dumbbell lunge"
+  },
+  "1658": {
+    "template": "lunge",
+    "name": "dumbbell lunge with bicep curl"
+  },
+  "0337": {
+    "template": "triceps",
+    "name": "dumbbell lying extension (across face)"
+  },
+  "1729": {
+    "template": "triceps",
+    "name": "dumbbell lying alternate extension"
+  },
+  "0338": {
+    "template": "triceps",
+    "name": "dumbbell lying elbow press"
+  },
+  "0863": {
+    "template": "rotation",
+    "name": "dumbbell lying external shoulder rotation"
+  },
+  "0339": {
+    "template": "squat",
+    "name": "dumbbell lying femoral"
+  },
+  "0340": {
+    "template": "chest_press",
+    "name": "dumbbell lying hammer press"
+  },
+  "2470": {
+    "template": "reverse_fly",
+    "name": "dumbbell lying on floor rear delt raise"
+  },
+  "0341": {
+    "template": "lateral_raise",
+    "name": "dumbbell lying one arm deltoid rear"
+  },
+  "0343": {
+    "template": "chest_press",
+    "name": "dumbbell lying one arm press"
+  },
+  "0342": {
+    "template": "chest_press",
+    "name": "dumbbell lying one arm press v. 2"
+  },
+  "0344": {
+    "template": "triceps",
+    "name": "dumbbell lying one arm pronated triceps extension"
+  },
+  "0345": {
+    "template": "lateral_raise",
+    "name": "dumbbell lying one arm rear lateral raise"
+  },
+  "0346": {
+    "template": "triceps",
+    "name": "dumbbell lying one arm supinated triceps extension"
+  },
+  "2705": {
+    "template": "wrist",
+    "name": "dumbbell lying pronation on floor"
+  },
+  "1284": {
+    "template": "pullover",
+    "name": "dumbbell lying pullover on exercise ball"
+  },
+  "1328": {
+    "template": "row",
+    "name": "dumbbell lying rear delt row"
+  },
+  "1735": {
+    "template": "triceps",
+    "name": "dumbbell lying single extension"
+  },
+  "2706": {
+    "template": "wrist",
+    "name": "dumbbell lying supination on floor"
+  },
+  "1661": {
+    "template": "curl",
+    "name": "dumbbell lying supine biceps curl"
+  },
+  "0350": {
+    "template": "curl",
+    "name": "dumbbell lying supine curl"
+  },
+  "0351": {
+    "template": "triceps",
+    "name": "dumbbell lying triceps extension"
+  },
+  "1662": {
+    "template": "curl",
+    "name": "dumbbell lying wide curl"
+  },
+  "0352": {
+    "template": "chest_press",
+    "name": "dumbbell neutral grip bench press"
+  },
+  "1285": {
+    "template": "fly",
+    "name": "dumbbell one arm bench fly"
+  },
+  "0292": {
+    "template": "row",
+    "name": "dumbbell one arm bent-over row"
+  },
+  "1286": {
+    "template": "fly",
+    "name": "dumbbell one arm chest fly on exercise ball"
+  },
+  "0353": {
+    "template": "curl",
+    "name": "dumbbell one arm concentration curl (on stability ball)"
+  },
+  "1287": {
+    "template": "chest_press",
+    "name": "dumbbell one arm decline chest press"
+  },
+  "1288": {
+    "template": "fly",
+    "name": "dumbbell one arm fly on exercise ball"
+  },
+  "1736": {
+    "template": "triceps",
+    "name": "dumbbell one arm french press on exercise ball"
+  },
+  "1663": {
+    "template": "curl",
+    "name": "dumbbell one arm hammer preacher curl"
+  },
+  "1621": {
+    "template": "triceps",
+    "name": "dumbbell one arm hammer press on exercise ball"
+  },
+  "1289": {
+    "template": "chest_press",
+    "name": "dumbbell one arm incline chest press"
+  },
+  "0354": {
+    "template": "kickback",
+    "name": "dumbbell one arm kickback"
+  },
+  "0355": {
+    "template": "lateral_raise",
+    "name": "dumbbell one arm lateral raise"
+  },
+  "0356": {
+    "template": "lateral_raise",
+    "name": "dumbbell one arm lateral raise with support"
+  },
+  "1290": {
+    "template": "chest_press",
+    "name": "dumbbell one arm press on exercise ball"
+  },
+  "1665": {
+    "template": "curl",
+    "name": "dumbbell one arm prone curl"
+  },
+  "1666": {
+    "template": "curl",
+    "name": "dumbbell one arm prone hammer curl"
+  },
+  "1291": {
+    "template": "pullover",
+    "name": "dumbbell one arm pullover on exercise ball"
+  },
+  "0358": {
+    "template": "wrist",
+    "name": "dumbbell one arm reverse wrist curl"
+  },
+  "0359": {
+    "template": "reverse_fly",
+    "name": "dumbbell one arm reverse fly (with support)"
+  },
+  "1622": {
+    "template": "chest_press",
+    "name": "dumbbell one arm reverse grip press"
+  },
+  "1414": {
+    "template": "curl",
+    "name": "dumbbell one arm reverse preacher curl"
+  },
+  "1667": {
+    "template": "curl",
+    "name": "dumbbell one arm reverse spider curl"
+  },
+  "1668": {
+    "template": "curl",
+    "name": "dumbbell one arm seated bicep curl on exercise ball"
+  },
+  "1669": {
+    "template": "curl",
+    "name": "dumbbell one arm seated hammer curl"
+  },
+  "1415": {
+    "template": "wrist",
+    "name": "dumbbell one arm seated neutral wrist curl"
+  },
+  "0361": {
+    "template": "overhead_press",
+    "name": "dumbbell one arm shoulder press"
+  },
+  "0360": {
+    "template": "overhead_press",
+    "name": "dumbbell one arm shoulder press v. 2"
+  },
+  "3888": {
+    "template": "squat",
+    "name": "dumbbell one arm snatch"
+  },
+  "1670": {
+    "template": "curl",
+    "name": "dumbbell one arm standing curl"
+  },
+  "1671": {
+    "template": "curl",
+    "name": "dumbbell one arm standing hammer curl"
+  },
+  "0362": {
+    "template": "triceps",
+    "name": "dumbbell one arm triceps extension (on bench)"
+  },
+  "0363": {
+    "template": "row",
+    "name": "dumbbell one arm upright row"
+  },
+  "0364": {
+    "template": "wrist",
+    "name": "dumbbell one arm wrist curl"
+  },
+  "1672": {
+    "template": "curl",
+    "name": "dumbbell one arm zottman preacher curl"
+  },
+  "1292": {
+    "template": "fly",
+    "name": "dumbbell one leg fly on exercise ball"
+  },
+  "0365": {
+    "template": "wrist",
+    "name": "dumbbell over bench neutral wrist curl"
+  },
+  "0366": {
+    "template": "wrist",
+    "name": "dumbbell over bench one arm neutral wrist curl"
+  },
+  "1441": {
+    "template": "wrist",
+    "name": "dumbbell over bench one arm reverse wrist curl"
+  },
+  "0367": {
+    "template": "wrist",
+    "name": "dumbbell over bench one arm wrist curl"
+  },
+  "0368": {
+    "template": "wrist",
+    "name": "dumbbell over bench revers wrist curl"
+  },
+  "0369": {
+    "template": "wrist",
+    "name": "dumbbell over bench wrist curl"
+  },
+  "1329": {
+    "template": "row",
+    "name": "dumbbell palm rotational bent over row"
+  },
+  "1623": {
+    "template": "chest_press",
+    "name": "dumbbell palms in incline bench press"
+  },
+  "0370": {
+    "template": "curl",
+    "name": "dumbbell peacher hammer curl"
+  },
+  "0371": {
+    "template": "squat",
+    "name": "dumbbell plyo squat"
+  },
+  "0372": {
+    "template": "curl",
+    "name": "dumbbell preacher curl"
+  },
+  "1673": {
+    "template": "curl",
+    "name": "dumbbell preacher curl over exercise ball"
+  },
+  "1293": {
+    "template": "chest_press",
+    "name": "dumbbell press on exercise ball"
+  },
+  "0373": {
+    "template": "triceps",
+    "name": "dumbbell pronate-grip triceps extension"
+  },
+  "1674": {
+    "template": "curl",
+    "name": "dumbbell prone incline hammer curl"
+  },
+  "0375": {
+    "template": "pullover",
+    "name": "dumbbell pullover"
+  },
+  "1294": {
+    "template": "pullover",
+    "name": "dumbbell pullover hip extension on exercise ball"
+  },
+  "1295": {
+    "template": "pullover",
+    "name": "dumbbell pullover on exercise ball"
+  },
+  "1700": {
+    "template": "overhead_press",
+    "name": "dumbbell push press"
+  },
+  "2292": {
+    "template": "reverse_fly",
+    "name": "dumbbell rear delt raise"
+  },
+  "0377": {
+    "template": "row",
+    "name": "dumbbell rear delt row_shoulder"
+  },
+  "0378": {
+    "template": "fly",
+    "name": "dumbbell rear fly"
+  },
+  "0380": {
+    "template": "lateral_raise",
+    "name": "dumbbell rear lateral raise"
+  },
+  "0379": {
+    "template": "lateral_raise",
+    "name": "dumbbell rear lateral raise (support head)"
+  },
+  "0382": {
+    "template": "curl",
+    "name": "dumbbell revers grip biceps curl"
+  },
+  "1624": {
+    "template": "chest_press",
+    "name": "dumbbell reverse bench press"
+  },
+  "0383": {
+    "template": "reverse_fly",
+    "name": "dumbbell reverse fly"
+  },
+  "1330": {
+    "template": "row",
+    "name": "dumbbell reverse grip incline bench one arm row"
+  },
+  "1331": {
+    "template": "row",
+    "name": "dumbbell reverse grip incline bench two arm row"
+  },
+  "2327": {
+    "template": "row",
+    "name": "dumbbell reverse grip row (female)"
+  },
+  "0384": {
+    "template": "curl",
+    "name": "dumbbell reverse preacher curl"
+  },
+  "1675": {
+    "template": "curl",
+    "name": "dumbbell reverse spider curl"
+  },
+  "0385": {
+    "template": "wrist",
+    "name": "dumbbell reverse wrist curl"
+  },
+  "1459": {
+    "template": "hinge",
+    "name": "dumbbell romanian deadlift"
+  },
+  "0386": {
+    "template": "reverse_fly",
+    "name": "dumbbell rotation reverse fly"
+  },
+  "2397": {
+    "template": "lateral_raise",
+    "name": "dumbbell scott press"
+  },
+  "0387": {
+    "template": "front_raise",
+    "name": "dumbbell seated alternate front raise"
+  },
+  "1676": {
+    "template": "curl",
+    "name": "dumbbell seated alternate hammer curl on exercise ball"
+  },
+  "0388": {
+    "template": "lateral_raise",
+    "name": "dumbbell seated alternate press"
+  },
+  "3546": {
+    "template": "lateral_raise",
+    "name": "dumbbell seated alternate shoulder"
+  },
+  "0389": {
+    "template": "triceps",
+    "name": "dumbbell seated bench extension"
+  },
+  "2317": {
+    "template": "lateral_raise",
+    "name": "dumbbell seated bent arm lateral raise"
+  },
+  "1730": {
+    "template": "kickback",
+    "name": "dumbbell seated bent over alternate kickback"
+  },
+  "1737": {
+    "template": "triceps",
+    "name": "dumbbell seated bent over triceps extension"
+  },
+  "1677": {
+    "template": "curl",
+    "name": "dumbbell seated bicep curl"
+  },
+  "0390": {
+    "template": "curl",
+    "name": "dumbbell seated biceps curl (on stability ball)"
+  },
+  "3547": {
+    "template": "overhead_press",
+    "name": "dumbbell seated biceps curl to shoulder press"
+  },
+  "1379": {
+    "template": "calf_raise",
+    "name": "dumbbell seated calf raise"
+  },
+  "0391": {
+    "template": "curl",
+    "name": "dumbbell seated curl"
+  },
+  "0392": {
+    "template": "front_raise",
+    "name": "dumbbell seated front raise"
+  },
+  "1678": {
+    "template": "curl",
+    "name": "dumbbell seated hammer curl"
+  },
+  "0393": {
+    "template": "curl",
+    "name": "dumbbell seated inner biceps curl"
+  },
+  "0394": {
+    "template": "kickback",
+    "name": "dumbbell seated kickback"
+  },
+  "0396": {
+    "template": "lateral_raise",
+    "name": "dumbbell seated lateral raise"
+  },
+  "0395": {
+    "template": "lateral_raise",
+    "name": "dumbbell seated lateral raise v. 2"
+  },
+  "0397": {
+    "template": "wrist",
+    "name": "dumbbell seated neutral wrist curl"
+  },
+  "1679": {
+    "template": "leg_raise",
+    "name": "dumbbell seated one arm bicep curl on exercise ball with leg raised"
+  },
+  "0398": {
+    "template": "kickback",
+    "name": "dumbbell seated one arm kickback"
+  },
+  "0399": {
+    "template": "wrist",
+    "name": "dumbbell seated one arm rotate"
+  },
+  "0400": {
+    "template": "calf_raise",
+    "name": "dumbbell seated one leg calf raise"
+  },
+  "1380": {
+    "template": "calf_raise",
+    "name": "dumbbell seated one leg calf raise - hammer grip"
+  },
+  "1381": {
+    "template": "calf_raise",
+    "name": "dumbbell seated one leg calf raise - palm up"
+  },
+  "0401": {
+    "template": "wrist",
+    "name": "dumbbell seated palms up wrist curl"
+  },
+  "0402": {
+    "template": "curl",
+    "name": "dumbbell seated preacher curl"
+  },
+  "0403": {
+    "template": "curl",
+    "name": "dumbbell seated revers grip concentration curl"
+  },
+  "1738": {
+    "template": "triceps",
+    "name": "dumbbell seated reverse grip one arm overhead tricep extension"
+  },
+  "0405": {
+    "template": "overhead_press",
+    "name": "dumbbell seated shoulder press"
+  },
+  "0404": {
+    "template": "overhead_press",
+    "name": "dumbbell seated shoulder press (parallel grip)"
+  },
+  "2188": {
+    "template": "triceps",
+    "name": "dumbbell seated triceps extension"
+  },
+  "0408": {
+    "template": "lateral_raise",
+    "name": "dumbbell side lying one hand raise"
+  },
+  "3664": {
+    "template": "fly",
+    "name": "dumbbell side plank with rear fly"
+  },
+  "3548": {
+    "template": "lateral_raise",
+    "name": "dumbbell single arm overhead carry"
+  },
+  "0409": {
+    "template": "calf_raise",
+    "name": "dumbbell single leg calf raise"
+  },
+  "1757": {
+    "template": "hinge",
+    "name": "dumbbell single leg deadlift"
+  },
+  "2805": {
+    "template": "hinge",
+    "name": "dumbbell single leg deadlift with stepbox support"
+  },
+  "0410": {
+    "template": "squat",
+    "name": "dumbbell single leg split squat"
+  },
+  "0411": {
+    "template": "squat",
+    "name": "dumbbell single leg squat"
+  },
+  "3560": {
+    "template": "curl",
+    "name": "dumbbell standing alternate hammer curl and press"
+  },
+  "0414": {
+    "template": "overhead_press",
+    "name": "dumbbell standing alternate overhead press"
+  },
+  "0415": {
+    "template": "lateral_raise",
+    "name": "dumbbell standing alternate raise"
+  },
+  "1739": {
+    "template": "kickback",
+    "name": "dumbbell standing alternating tricep kickback"
+  },
+  "2143": {
+    "template": "lateral_raise",
+    "name": "dumbbell standing around world"
+  },
+  "1740": {
+    "template": "triceps",
+    "name": "dumbbell standing bent over one arm triceps extension"
+  },
+  "1741": {
+    "template": "triceps",
+    "name": "dumbbell standing bent over two arm triceps extension"
+  },
+  "0416": {
+    "template": "curl",
+    "name": "dumbbell standing biceps curl"
+  },
+  "0417": {
+    "template": "calf_raise",
+    "name": "dumbbell standing calf raise"
+  },
+  "0418": {
+    "template": "curl",
+    "name": "dumbbell standing concentration curl"
+  },
+  "0419": {
+    "template": "front_raise",
+    "name": "dumbbell standing front raise above head"
+  },
+  "2321": {
+    "template": "curl",
+    "name": "dumbbell standing inner biceps curl v. 2"
+  },
+  "0420": {
+    "template": "kickback",
+    "name": "dumbbell standing kickback"
+  },
+  "0421": {
+    "template": "curl",
+    "name": "dumbbell standing one arm concentration curl"
+  },
+  "0422": {
+    "template": "curl",
+    "name": "dumbbell standing one arm curl (over incline bench)"
+  },
+  "1680": {
+    "template": "curl",
+    "name": "dumbbell standing one arm curl over incline bench"
+  },
+  "0423": {
+    "template": "triceps",
+    "name": "dumbbell standing one arm extension"
+  },
+  "0424": {
+    "template": "lateral_raise",
+    "name": "dumbbell standing one arm palm in press"
+  },
+  "0425": {
+    "template": "curl",
+    "name": "dumbbell standing one arm reverse curl"
+  },
+  "0426": {
+    "template": "overhead_press",
+    "name": "dumbbell standing overhead press"
+  },
+  "0427": {
+    "template": "lateral_raise",
+    "name": "dumbbell standing palms in press"
+  },
+  "0428": {
+    "template": "curl",
+    "name": "dumbbell standing preacher curl"
+  },
+  "0429": {
+    "template": "curl",
+    "name": "dumbbell standing reverse curl"
+  },
+  "0430": {
+    "template": "triceps",
+    "name": "dumbbell standing triceps extension"
+  },
+  "2293": {
+    "template": "curl",
+    "name": "dumbbell standing zottman preacher curl"
+  },
+  "1684": {
+    "template": "lunge",
+    "name": "dumbbell step up single leg balance with bicep curl"
+  },
+  "0431": {
+    "template": "lunge",
+    "name": "dumbbell step-up"
+  },
+  "2796": {
+    "template": "lunge",
+    "name": "dumbbell step-up lunge"
+  },
+  "2812": {
+    "template": "squat",
+    "name": "dumbbell step-up split squat"
+  },
+  "0432": {
+    "template": "hinge",
+    "name": "dumbbell stiff leg deadlift"
+  },
+  "0433": {
+    "template": "pulldown",
+    "name": "dumbbell straight arm pullover"
+  },
+  "0434": {
+    "template": "hinge",
+    "name": "dumbbell straight leg deadlift"
+  },
+  "2808": {
+    "template": "squat",
+    "name": "dumbbell sumo pull through"
+  },
+  "2803": {
+    "template": "squat",
+    "name": "dumbbell supported squat"
+  },
+  "0436": {
+    "template": "triceps",
+    "name": "dumbbell tate press"
+  },
+  "1742": {
+    "template": "kickback",
+    "name": "dumbbell tricep kickback with stork stance"
+  },
+  "1743": {
+    "template": "chest_press",
+    "name": "dumbbell twisting bench press"
+  },
+  "0437": {
+    "template": "row",
+    "name": "dumbbell upright row"
+  },
+  "1765": {
+    "template": "row",
+    "name": "dumbbell upright row (back pov)"
+  },
+  "0864": {
+    "template": "rotation",
+    "name": "dumbbell upright shoulder external rotation"
+  },
+  "5201": {
+    "template": "curl",
+    "name": "dumbbell waiter biceps curl"
+  },
+  "0438": {
+    "template": "lateral_raise",
+    "name": "dumbbell w-press"
+  },
+  "0439": {
+    "template": "curl",
+    "name": "dumbbell zottman curl"
+  },
+  "2294": {
+    "template": "curl",
+    "name": "dumbbell zottman preacher curl"
+  },
+  "2189": {
+    "template": "triceps",
+    "name": "dumbbells seated triceps extension"
+  },
+  "1167": {
+    "template": "stretch",
+    "name": "dynamic chest stretch (male)"
+  },
+  "3287": {
+    "template": "dip",
+    "name": "elbow dips"
+  },
+  "1772": {
+    "template": "pushup",
+    "name": "elbow lift - reverse push-up"
+  },
+  "0443": {
+    "template": "crunch",
+    "name": "elbow-to-knee"
+  },
+  "3292": {
+    "template": "row",
+    "name": "elevator"
+  },
+  "1332": {
+    "template": "row",
+    "name": "exercise ball alternating arm ups"
+  },
+  "1333": {
+    "template": "row",
+    "name": "exercise ball back extension with arms extended"
+  },
+  "1334": {
+    "template": "row",
+    "name": "exercise ball back extension with hands behind head"
+  },
+  "1335": {
+    "template": "row",
+    "name": "exercise ball back extension with knees off ground"
+  },
+  "1336": {
+    "template": "rotation",
+    "name": "exercise ball back extension with rotation"
+  },
+  "1744": {
+    "template": "dip",
+    "name": "exercise ball dip"
+  },
+  "1559": {
+    "template": "stretch",
+    "name": "exercise ball hip flexor stretch"
+  },
+  "1338": {
+    "template": "row",
+    "name": "exercise ball hug"
+  },
+  "1339": {
+    "template": "stretch",
+    "name": "exercise ball lat stretch"
+  },
+  "1341": {
+    "template": "stretch",
+    "name": "exercise ball lower back stretch (pyramid)"
+  },
+  "1342": {
+    "template": "stretch",
+    "name": "exercise ball lying side lat stretch"
+  },
+  "1382": {
+    "template": "calf_raise",
+    "name": "exercise ball on the wall calf raise"
+  },
+  "3241": {
+    "template": "calf_raise",
+    "name": "exercise ball on the wall calf raise (tennis ball between ankles)"
+  },
+  "3240": {
+    "template": "calf_raise",
+    "name": "exercise ball on the wall calf raise (tennis ball between knees)"
+  },
+  "1416": {
+    "template": "rotation",
+    "name": "exercise ball one leg prone lower body rotation"
+  },
+  "1417": {
+    "template": "leg_curl",
+    "name": "exercise ball one legged diagonal kick hamstring curl"
+  },
+  "1296": {
+    "template": "pushup",
+    "name": "exercise ball pike push up"
+  },
+  "1343": {
+    "template": "leg_raise",
+    "name": "exercise ball prone leg raise"
+  },
+  "1560": {
+    "template": "stretch",
+    "name": "exercise ball seated hamstring stretch"
+  },
+  "1745": {
+    "template": "stretch",
+    "name": "exercise ball seated triceps stretch"
+  },
+  "1746": {
+    "template": "triceps",
+    "name": "exercise ball supine triceps extension"
+  },
+  "1747": {
+    "template": "triceps",
+    "name": "ez bar french press on exercise ball"
+  },
+  "3010": {
+    "template": "pullover",
+    "name": "ez bar lying bent arms pullover"
+  },
+  "1748": {
+    "template": "triceps",
+    "name": "ez bar lying close grip triceps extension behind head"
+  },
+  "1344": {
+    "template": "row",
+    "name": "ez bar reverse grip bent over row"
+  },
+  "1682": {
+    "template": "curl",
+    "name": "ez bar seated close grip concentration curl"
+  },
+  "1749": {
+    "template": "triceps",
+    "name": "ez bar standing french press"
+  },
+  "0445": {
+    "template": "lateral_raise",
+    "name": "ez barbell anti gravity press"
+  },
+  "1627": {
+    "template": "curl",
+    "name": "ez barbell close grip preacher curl"
+  },
+  "0446": {
+    "template": "curl",
+    "name": "ez barbell close-grip curl"
+  },
+  "0447": {
+    "template": "curl",
+    "name": "ez barbell curl"
+  },
+  "0448": {
+    "template": "triceps",
+    "name": "ez barbell decline close grip face press"
+  },
+  "2186": {
+    "template": "triceps",
+    "name": "ez barbell decline triceps extension"
+  },
+  "0449": {
+    "template": "triceps",
+    "name": "ez barbell incline triceps extension"
+  },
+  "0450": {
+    "template": "chest_press",
+    "name": "ez barbell jm bench press"
+  },
+  "0451": {
+    "template": "curl",
+    "name": "ez barbell reverse grip curl"
+  },
+  "0452": {
+    "template": "curl",
+    "name": "ez barbell reverse grip preacher curl"
+  },
+  "1458": {
+    "template": "curl",
+    "name": "ez barbell seated curls"
+  },
+  "0453": {
+    "template": "triceps",
+    "name": "ez barbell seated triceps extension"
+  },
+  "0454": {
+    "template": "curl",
+    "name": "ez barbell spider curl"
+  },
+  "1628": {
+    "template": "curl",
+    "name": "ez barbell spider curl"
+  },
+  "2404": {
+    "template": "curl",
+    "name": "ez-bar biceps curl (with arm blaster)"
+  },
+  "2432": {
+    "template": "chest_press",
+    "name": "ez-bar close-grip bench press"
+  },
+  "2741": {
+    "template": "curl",
+    "name": "ez-barbell standing wide grip biceps curl"
+  },
+  "2133": {
+    "template": "run",
+    "name": "farmers walk"
+  },
+  "3303": {
+    "template": "crunch",
+    "name": "flag"
+  },
+  "0456": {
+    "template": "crunch",
+    "name": "flexion leg sit up (bent knee)"
+  },
+  "0457": {
+    "template": "crunch",
+    "name": "flexion leg sit up (straight arm)"
+  },
+  "0458": {
+    "template": "fly",
+    "name": "floor fly (with barbell)"
+  },
+  "1472": {
+    "template": "jump",
+    "name": "forward jump"
+  },
+  "3470": {
+    "template": "lunge",
+    "name": "forward lunge (male)"
+  },
+  "2429": {
+    "template": "crunch",
+    "name": "frog crunch"
+  },
+  "3301": {
+    "template": "crunch",
+    "name": "frog planche"
+  },
+  "3296": {
+    "template": "crunch",
+    "name": "front lever"
+  },
+  "3295": {
+    "template": "row",
+    "name": "front lever reps"
+  },
+  "0464": {
+    "template": "plank",
+    "name": "front plank with twist"
+  },
+  "3315": {
+    "template": "crunch",
+    "name": "full maltese"
+  },
+  "3299": {
+    "template": "crunch",
+    "name": "full planche"
+  },
+  "3327": {
+    "template": "pushup",
+    "name": "full planche push-up"
+  },
+  "0466": {
+    "template": "row",
+    "name": "gironda sternum chin"
+  },
+  "3561": {
+    "template": "bridge",
+    "name": "glute bridge march"
+  },
+  "3523": {
+    "template": "bridge",
+    "name": "glute bridge two legs on bench (male)"
+  },
+  "3193": {
+    "template": "squat",
+    "name": "glute-ham raise"
+  },
+  "0467": {
+    "template": "crunch",
+    "name": "gorilla chin"
+  },
+  "0469": {
+    "template": "crunch",
+    "name": "groin crunch"
+  },
+  "1383": {
+    "template": "calf_raise",
+    "name": "hack calf raise"
+  },
+  "1384": {
+    "template": "calf_raise",
+    "name": "hack one leg calf raise"
+  },
+  "3221": {
+    "template": "run",
+    "name": "half knee bends (male)"
+  },
+  "3202": {
+    "template": "crunch",
+    "name": "half sit-up (male)"
+  },
+  "2139": {
+    "template": "bike",
+    "name": "hands bike"
+  },
+  "3218": {
+    "template": "leg_raise",
+    "name": "hands clasped circular toe touch (male)"
+  },
+  "3215": {
+    "template": "leg_raise",
+    "name": "hands reversed clasped circular toe touch (male)"
+  },
+  "3302": {
+    "template": "triceps",
+    "name": "handstand"
+  },
+  "0471": {
+    "template": "pushup",
+    "name": "handstand push-up"
+  },
+  "1764": {
+    "template": "crunch",
+    "name": "hanging leg hip raise"
+  },
+  "1761": {
+    "template": "leg_raise",
+    "name": "hanging oblique knee raise"
+  },
+  "0474": {
+    "template": "crunch",
+    "name": "hanging straight leg hip raise"
+  },
+  "0475": {
+    "template": "leg_raise",
+    "name": "hanging straight leg raise"
+  },
+  "0476": {
+    "template": "rotation",
+    "name": "hanging straight twisting leg hip raise"
+  },
+  "3636": {
+    "template": "run",
+    "name": "high knee against wall"
+  },
+  "0484": {
+    "template": "crunch",
+    "name": "hip raise (bent knee)"
+  },
+  "1418": {
+    "template": "squat",
+    "name": "hug keens to chest"
+  },
+  "3234": {
+    "template": "fly",
+    "name": "hyght dumbbell fly"
+  },
+  "0489": {
+    "template": "row",
+    "name": "hyperextension"
+  },
+  "0488": {
+    "template": "row",
+    "name": "hyperextension (on bench)"
+  },
+  "3289": {
+    "template": "dip",
+    "name": "impossible dips"
+  },
+  "3698": {
+    "template": "crawl",
+    "name": "inchworm v. 2"
+  },
+  "0490": {
+    "template": "pushup",
+    "name": "incline close-grip push-up"
+  },
+  "0491": {
+    "template": "crunch",
+    "name": "incline leg hip raise (leg straight)"
+  },
+  "0492": {
+    "template": "pushup",
+    "name": "incline push up depth jump"
+  },
+  "3785": {
+    "template": "pushup",
+    "name": "incline push-up (on box)"
+  },
+  "0494": {
+    "template": "pushup",
+    "name": "incline reverse grip push-up"
+  },
+  "3011": {
+    "template": "pushup",
+    "name": "incline scapula push up"
+  },
+  "0495": {
+    "template": "crunch",
+    "name": "incline twisting sit-up"
+  },
+  "0496": {
+    "template": "leg_curl",
+    "name": "inverse leg curl (bench support)"
+  },
+  "2400": {
+    "template": "pullup",
+    "name": "inverse leg curl (on pull-up cable machine)"
+  },
+  "2300": {
+    "template": "row",
+    "name": "inverted row bent knees"
+  },
+  "2298": {
+    "template": "row",
+    "name": "inverted row on bench"
+  },
+  "0497": {
+    "template": "row",
+    "name": "inverted row v. 2"
+  },
+  "1419": {
+    "template": "stretch",
+    "name": "iron cross stretch"
+  },
+  "1297": {
+    "template": "chest_press",
+    "name": "isometric chest squeeze"
+  },
+  "0501": {
+    "template": "burpee",
+    "name": "jack burpee"
+  },
+  "3224": {
+    "template": "jump",
+    "name": "jack jump (male)"
+  },
+  "2612": {
+    "template": "jump",
+    "name": "jump rope"
+  },
+  "0514": {
+    "template": "jump",
+    "name": "jump squat"
+  },
+  "0513": {
+    "template": "jump",
+    "name": "jump squat v. 2"
+  },
+  "0517": {
+    "template": "side_bend",
+    "name": "kettlebell advanced windmill"
+  },
+  "0518": {
+    "template": "wrist",
+    "name": "kettlebell alternating hang clean"
+  },
+  "0520": {
+    "template": "lateral_raise",
+    "name": "kettlebell alternating press"
+  },
+  "0519": {
+    "template": "chest_press",
+    "name": "kettlebell alternating press on floor"
+  },
+  "0521": {
+    "template": "row",
+    "name": "kettlebell alternating renegade row"
+  },
+  "0522": {
+    "template": "row",
+    "name": "kettlebell alternating row"
+  },
+  "0524": {
+    "template": "crunch",
+    "name": "kettlebell bent press"
+  },
+  "0525": {
+    "template": "curl",
+    "name": "kettlebell bottoms up clean from the hang position"
+  },
+  "0526": {
+    "template": "curl",
+    "name": "kettlebell double alternating hang clean"
+  },
+  "0527": {
+    "template": "lateral_raise",
+    "name": "kettlebell double jerk"
+  },
+  "0528": {
+    "template": "overhead_press",
+    "name": "kettlebell double push press"
+  },
+  "0529": {
+    "template": "lateral_raise",
+    "name": "kettlebell double snatch"
+  },
+  "0530": {
+    "template": "side_bend",
+    "name": "kettlebell double windmill"
+  },
+  "0531": {
+    "template": "chest_press",
+    "name": "kettlebell extended range one arm press on floor"
+  },
+  "0533": {
+    "template": "squat",
+    "name": "kettlebell front squat"
+  },
+  "0534": {
+    "template": "squat",
+    "name": "kettlebell goblet squat"
+  },
+  "0536": {
+    "template": "lunge",
+    "name": "kettlebell lunge pass through"
+  },
+  "0537": {
+    "template": "lateral_raise",
+    "name": "kettlebell one arm clean and jerk"
+  },
+  "1298": {
+    "template": "chest_press",
+    "name": "kettlebell one arm floor press"
+  },
+  "0538": {
+    "template": "lateral_raise",
+    "name": "kettlebell one arm jerk"
+  },
+  "0539": {
+    "template": "overhead_press",
+    "name": "kettlebell one arm military press to the side"
+  },
+  "0540": {
+    "template": "overhead_press",
+    "name": "kettlebell one arm push press"
+  },
+  "0541": {
+    "template": "row",
+    "name": "kettlebell one arm row"
+  },
+  "0542": {
+    "template": "lateral_raise",
+    "name": "kettlebell one arm snatch"
+  },
+  "0543": {
+    "template": "lateral_raise",
+    "name": "kettlebell pirate supper legs"
+  },
+  "0545": {
+    "template": "pushup",
+    "name": "kettlebell plyo push-up"
+  },
+  "1438": {
+    "template": "overhead_press",
+    "name": "kettlebell seated two arm military press"
+  },
+  "0549": {
+    "template": "hinge",
+    "name": "kettlebell swing"
+  },
+  "0551": {
+    "template": "squat",
+    "name": "kettlebell turkish get up (squat style)"
+  },
+  "0552": {
+    "template": "lateral_raise",
+    "name": "kettlebell two arm clean"
+  },
+  "0553": {
+    "template": "overhead_press",
+    "name": "kettlebell two arm military press"
+  },
+  "1345": {
+    "template": "row",
+    "name": "kettlebell two arm row"
+  },
+  "0555": {
+    "template": "squat",
+    "name": "kick out sit"
+  },
+  "3640": {
+    "template": "crunch",
+    "name": "knee touch crunch"
+  },
+  "1346": {
+    "template": "stretch",
+    "name": "kneeling lat stretch"
+  },
+  "3239": {
+    "template": "plank",
+    "name": "kneeling plank tap shoulder (male)"
+  },
+  "3211": {
+    "template": "pushup",
+    "name": "kneeling push-up (male)"
+  },
+  "3288": {
+    "template": "dip",
+    "name": "korean dips"
+  },
+  "3418": {
+    "template": "pullup",
+    "name": "l-pull-up"
+  },
+  "3419": {
+    "template": "crunch",
+    "name": "l-sit on floor"
+  },
+  "0562": {
+    "template": "crunch",
+    "name": "landmine 180"
+  },
+  "3237": {
+    "template": "lateral_raise",
+    "name": "landmine lateral raise"
+  },
+  "3300": {
+    "template": "crunch",
+    "name": "lean planche"
+  },
+  "2271": {
+    "template": "lateral_raise",
+    "name": "left hook. boxing"
+  },
+  "0570": {
+    "template": "crunch",
+    "name": "leg pull in flat bench"
+  },
+  "1576": {
+    "template": "stretch",
+    "name": "leg up hamstring stretch"
+  },
+  "2287": {
+    "template": "squat",
+    "name": "lever alternate leg press"
+  },
+  "0571": {
+    "template": "row",
+    "name": "lever alternating narrow grip seated row"
+  },
+  "0572": {
+    "template": "pullup",
+    "name": "lever assisted chin-up"
+  },
+  "0573": {
+    "template": "row",
+    "name": "lever back extension"
+  },
+  "0574": {
+    "template": "row",
+    "name": "lever bent over row"
+  },
+  "3200": {
+    "template": "row",
+    "name": "lever bent-over row with v-bar"
+  },
+  "0575": {
+    "template": "curl",
+    "name": "lever bicep curl"
+  },
+  "2289": {
+    "template": "calf_raise",
+    "name": "lever calf press"
+  },
+  "0577": {
+    "template": "chest_press",
+    "name": "lever chest press"
+  },
+  "0576": {
+    "template": "chest_press",
+    "name": "lever chest press"
+  },
+  "0578": {
+    "template": "hinge",
+    "name": "lever deadlift"
+  },
+  "1300": {
+    "template": "chest_press",
+    "name": "lever decline chest press"
+  },
+  "1253": {
+    "template": "calf_raise",
+    "name": "lever donkey calf raise"
+  },
+  "0579": {
+    "template": "pulldown",
+    "name": "lever front pulldown"
+  },
+  "0580": {
+    "template": "shrug",
+    "name": "lever gripless shrug"
+  },
+  "1439": {
+    "template": "shrug",
+    "name": "lever gripless shrug v. 2"
+  },
+  "2288": {
+    "template": "wrist",
+    "name": "lever gripper hands"
+  },
+  "1615": {
+    "template": "curl",
+    "name": "lever hammer grip preacher curl"
+  },
+  "0581": {
+    "template": "row",
+    "name": "lever high row"
+  },
+  "2286": {
+    "template": "squat",
+    "name": "lever hip extension v. 2"
+  },
+  "2611": {
+    "template": "squat",
+    "name": "lever horizontal one leg press"
+  },
+  "1299": {
+    "template": "chest_press",
+    "name": "lever incline chest press"
+  },
+  "1479": {
+    "template": "chest_press",
+    "name": "lever incline chest press v. 2"
+  },
+  "0582": {
+    "template": "leg_curl",
+    "name": "lever kneeling leg curl"
+  },
+  "0583": {
+    "template": "rotation",
+    "name": "lever kneeling twist"
+  },
+  "0584": {
+    "template": "lateral_raise",
+    "name": "lever lateral raise"
+  },
+  "0585": {
+    "template": "leg_extension",
+    "name": "lever leg extension"
+  },
+  "0586": {
+    "template": "leg_curl",
+    "name": "lever lying leg curl"
+  },
+  "3195": {
+    "template": "leg_curl",
+    "name": "lever lying two-one leg curl"
+  },
+  "0587": {
+    "template": "overhead_press",
+    "name": "lever military press"
+  },
+  "0588": {
+    "template": "row",
+    "name": "lever narrow grip seated row"
+  },
+  "0589": {
+    "template": "row",
+    "name": "lever one arm bent over row"
+  },
+  "1356": {
+    "template": "row",
+    "name": "lever one arm lateral high row"
+  },
+  "1347": {
+    "template": "pulldown",
+    "name": "lever one arm lateral wide pulldown"
+  },
+  "0590": {
+    "template": "overhead_press",
+    "name": "lever one arm shoulder press"
+  },
+  "0591": {
+    "template": "dip",
+    "name": "lever overhand triceps dip"
+  },
+  "0592": {
+    "template": "curl",
+    "name": "lever preacher curl"
+  },
+  "1614": {
+    "template": "curl",
+    "name": "lever preacher curl v. 2"
+  },
+  "2285": {
+    "template": "pullover",
+    "name": "lever pullover"
+  },
+  "2736": {
+    "template": "pulldown",
+    "name": "lever reverse grip lateral pulldown"
+  },
+  "1616": {
+    "template": "curl",
+    "name": "lever reverse grip preacher curl"
+  },
+  "1348": {
+    "template": "row",
+    "name": "lever reverse grip vertical row"
+  },
+  "0593": {
+    "template": "squat",
+    "name": "lever reverse hyperextension"
+  },
+  "1349": {
+    "template": "row",
+    "name": "lever reverse t-bar row"
+  },
+  "2315": {
+    "template": "calf_raise",
+    "name": "lever rotary calf"
+  },
+  "2335": {
+    "template": "calf_raise",
+    "name": "lever seated calf press"
+  },
+  "0594": {
+    "template": "calf_raise",
+    "name": "lever seated calf raise"
+  },
+  "1452": {
+    "template": "crunch",
+    "name": "lever seated crunch"
+  },
+  "0595": {
+    "template": "crunch",
+    "name": "lever seated crunch (chest pad)"
+  },
+  "3760": {
+    "template": "crunch",
+    "name": "lever seated crunch v. 2"
+  },
+  "1451": {
+    "template": "dip",
+    "name": "lever seated dip"
+  },
+  "0596": {
+    "template": "fly",
+    "name": "lever seated fly"
+  },
+  "3759": {
+    "template": "hinge",
+    "name": "lever seated good morning"
+  },
+  "0597": {
+    "template": "abduction",
+    "name": "lever seated hip abduction"
+  },
+  "0598": {
+    "template": "adduction",
+    "name": "lever seated hip adduction"
+  },
+  "0599": {
+    "template": "leg_curl",
+    "name": "lever seated leg curl"
+  },
+  "0600": {
+    "template": "crunch",
+    "name": "lever seated leg raise crunch"
+  },
+  "0602": {
+    "template": "reverse_fly",
+    "name": "lever seated reverse fly"
+  },
+  "0601": {
+    "template": "reverse_fly",
+    "name": "lever seated reverse fly (parallel grip)"
+  },
+  "1350": {
+    "template": "row",
+    "name": "lever seated row"
+  },
+  "1385": {
+    "template": "squat",
+    "name": "lever seated squat calf raise on leg press machine"
+  },
+  "0603": {
+    "template": "overhead_press",
+    "name": "lever shoulder press"
+  },
+  "0869": {
+    "template": "overhead_press",
+    "name": "lever shoulder press v. 2"
+  },
+  "2318": {
+    "template": "overhead_press",
+    "name": "lever shoulder press v. 3"
+  },
+  "0604": {
+    "template": "shrug",
+    "name": "lever shrug"
+  },
+  "0605": {
+    "template": "calf_raise",
+    "name": "lever standing calf raise"
+  },
+  "3758": {
+    "template": "chest_press",
+    "name": "lever standing chest press"
+  },
+  "0606": {
+    "template": "row",
+    "name": "lever t bar row"
+  },
+  "1351": {
+    "template": "row",
+    "name": "lever t-bar reverse grip row"
+  },
+  "0607": {
+    "template": "triceps",
+    "name": "lever triceps extension"
+  },
+  "1313": {
+    "template": "row",
+    "name": "lever unilateral row"
+  },
+  "0609": {
+    "template": "row",
+    "name": "london bridge"
+  },
+  "3013": {
+    "template": "bridge",
+    "name": "low glute bridge on floor"
+  },
+  "3582": {
+    "template": "jump",
+    "name": "lunge with jump"
+  },
+  "1688": {
+    "template": "lunge",
+    "name": "lunge with twist"
+  },
+  "0613": {
+    "template": "stretch",
+    "name": "lying (side) quads stretch"
+  },
+  "2312": {
+    "template": "crunch",
+    "name": "lying elbow to knee"
+  },
+  "0620": {
+    "template": "leg_raise",
+    "name": "lying leg raise flat bench"
+  },
+  "0865": {
+    "template": "crunch",
+    "name": "lying leg-hip raise"
+  },
+  "1301": {
+    "template": "chest_press",
+    "name": "machine inner chest press"
+  },
+  "0624": {
+    "template": "squat",
+    "name": "march sit (wall)"
+  },
+  "1353": {
+    "template": "row",
+    "name": "medicine ball catch and overhead throw"
+  },
+  "1303": {
+    "template": "chest_press",
+    "name": "medicine ball chest push from 3 point stance"
+  },
+  "1304": {
+    "template": "chest_press",
+    "name": "medicine ball chest push multiple response"
+  },
+  "1305": {
+    "template": "chest_press",
+    "name": "medicine ball chest push single response"
+  },
+  "1312": {
+    "template": "run",
+    "name": "medicine ball chest push with run release"
+  },
+  "1701": {
+    "template": "pushup",
+    "name": "medicine ball close grip push up"
+  },
+  "1354": {
+    "template": "row",
+    "name": "medicine ball overhead slam"
+  },
+  "1750": {
+    "template": "triceps",
+    "name": "medicine ball supine chest throw"
+  },
+  "0627": {
+    "template": "pullup",
+    "name": "mixed grip chin-up"
+  },
+  "3217": {
+    "template": "pushup",
+    "name": "modified hindu push-up (male)"
+  },
+  "1421": {
+    "template": "pushup",
+    "name": "modified push up to lower arms"
+  },
+  "0630": {
+    "template": "crawl",
+    "name": "mountain climber"
+  },
+  "1401": {
+    "template": "row",
+    "name": "muscle-up (on vertical bar)"
+  },
+  "2328": {
+    "template": "pushup",
+    "name": "narrow push-up on exercise ball"
+  },
+  "1403": {
+    "template": "neck",
+    "name": "neck side stretch"
+  },
+  "0634": {
+    "template": "crunch",
+    "name": "negative crunch"
+  },
+  "1495": {
+    "template": "crunch",
+    "name": "oblique crunch v. 2"
+  },
+  "0635": {
+    "template": "crunch",
+    "name": "oblique crunches floor"
+  },
+  "0636": {
+    "template": "curl",
+    "name": "olympic barbell hammer curl"
+  },
+  "0637": {
+    "template": "triceps",
+    "name": "olympic barbell triceps extension"
+  },
+  "0639": {
+    "template": "dip",
+    "name": "one arm dip"
+  },
+  "0640": {
+    "template": "crunch",
+    "name": "one arm slam (with medicine ball)"
+  },
+  "1773": {
+    "template": "row",
+    "name": "one arm towel row"
+  },
+  "1386": {
+    "template": "calf_raise",
+    "name": "one leg donkey calf raise"
+  },
+  "1387": {
+    "template": "calf_raise",
+    "name": "one leg floor calf raise"
+  },
+  "1476": {
+    "template": "squat",
+    "name": "one leg squat"
+  },
+  "0641": {
+    "template": "crunch",
+    "name": "otis up"
+  },
+  "0642": {
+    "template": "pushup",
+    "name": "outside leg kick push-up"
+  },
+  "0643": {
+    "template": "stretch",
+    "name": "overhead triceps stretch"
+  },
+  "3147": {
+    "template": "crunch",
+    "name": "pelvic tilt"
+  },
+  "3662": {
+    "template": "pushup",
+    "name": "pike-to-cobra push-up"
+  },
+  "1306": {
+    "template": "pushup",
+    "name": "plyo push up"
+  },
+  "1687": {
+    "template": "crunch",
+    "name": "posterior step to overhead reach"
+  },
+  "3119": {
+    "template": "squat",
+    "name": "potty squat"
+  },
+  "3132": {
+    "template": "squat",
+    "name": "potty squat with support"
+  },
+  "3665": {
+    "template": "plank",
+    "name": "power point plank"
+  },
+  "3203": {
+    "template": "crunch",
+    "name": "prisoner half sit-up (male)"
+  },
+  "1707": {
+    "template": "rotation",
+    "name": "prone twist on stability ball"
+  },
+  "0651": {
+    "template": "pullup",
+    "name": "pull up (neutral grip)"
+  },
+  "0650": {
+    "template": "crunch",
+    "name": "pull-in (on stability ball)"
+  },
+  "0652": {
+    "template": "pullup",
+    "name": "pull-up"
+  },
+  "1689": {
+    "template": "chest_press",
+    "name": "push and pull bodyweight"
+  },
+  "3638": {
+    "template": "run",
+    "name": "push to run"
+  },
+  "1307": {
+    "template": "pushup",
+    "name": "push up on bosu ball"
+  },
+  "0662": {
+    "template": "pushup",
+    "name": "push-up"
+  },
+  "0653": {
+    "template": "pushup",
+    "name": "push-up (bosu ball)"
+  },
+  "0655": {
+    "template": "pushup",
+    "name": "push-up (on stability ball)"
+  },
+  "0656": {
+    "template": "pushup",
+    "name": "push-up (on stability ball)"
+  },
+  "0659": {
+    "template": "pushup",
+    "name": "push-up (wall)"
+  },
+  "0658": {
+    "template": "pushup",
+    "name": "push-up (wall) v. 2"
+  },
+  "0660": {
+    "template": "pushup",
+    "name": "push-up close-grip off dumbbell"
+  },
+  "0661": {
+    "template": "pushup",
+    "name": "push-up inside leg kick"
+  },
+  "0663": {
+    "template": "pushup",
+    "name": "push-up medicine ball"
+  },
+  "1467": {
+    "template": "pushup",
+    "name": "push-up on lower arms"
+  },
+  "3145": {
+    "template": "pushup",
+    "name": "push-up plus"
+  },
+  "0664": {
+    "template": "pushup",
+    "name": "push-up to side plank"
+  },
+  "3533": {
+    "template": "squat",
+    "name": "quads"
+  },
+  "3201": {
+    "template": "crunch",
+    "name": "quarter sit-up"
+  },
+  "3552": {
+    "template": "run",
+    "name": "quick feet v. 2"
+  },
+  "0666": {
+    "template": "pushup",
+    "name": "raise single arm push-up"
+  },
+  "0668": {
+    "template": "squat",
+    "name": "rear decline bridge"
+  },
+  "0669": {
+    "template": "reverse_fly",
+    "name": "rear deltoid stretch"
+  },
+  "0670": {
+    "template": "pullup",
+    "name": "rear pull-up"
+  },
+  "1582": {
+    "template": "squat",
+    "name": "reclining big toe pose with rope"
+  },
+  "3236": {
+    "template": "bridge",
+    "name": "resistance band hip thrusts on knees (female)"
+  },
+  "3007": {
+    "template": "leg_extension",
+    "name": "resistance band leg extension"
+  },
+  "3123": {
+    "template": "curl",
+    "name": "resistance band seated biceps curl"
+  },
+  "3124": {
+    "template": "chest_press",
+    "name": "resistance band seated chest press"
+  },
+  "3006": {
+    "template": "abduction",
+    "name": "resistance band seated hip abduction"
+  },
+  "3122": {
+    "template": "overhead_press",
+    "name": "resistance band seated shoulder press"
+  },
+  "3144": {
+    "template": "row",
+    "name": "resistance band seated straight back row"
+  },
+  "0672": {
+    "template": "dip",
+    "name": "reverse dip"
+  },
+  "0673": {
+    "template": "pulldown",
+    "name": "reverse grip machine lat pulldown"
+  },
+  "0674": {
+    "template": "pullup",
+    "name": "reverse grip pull-up"
+  },
+  "0675": {
+    "template": "squat",
+    "name": "reverse hyper extension (on stability ball)"
+  },
+  "1423": {
+    "template": "squat",
+    "name": "reverse hyper on flat bench"
+  },
+  "3663": {
+    "template": "plank",
+    "name": "reverse plank with leg lift"
+  },
+  "2571": {
+    "template": "stretch",
+    "name": "rocking frog stretch"
+  },
+  "0678": {
+    "template": "pullup",
+    "name": "rocky pull-up pulldown"
+  },
+  "2208": {
+    "template": "stretch",
+    "name": "roller back stretch"
+  },
+  "2204": {
+    "template": "stretch",
+    "name": "roller body saw"
+  },
+  "2205": {
+    "template": "stretch",
+    "name": "roller hip lat stretch"
+  },
+  "2202": {
+    "template": "stretch",
+    "name": "roller hip stretch"
+  },
+  "2206": {
+    "template": "crunch",
+    "name": "roller reverse crunch"
+  },
+  "2203": {
+    "template": "stretch",
+    "name": "roller seated shoulder flexor depresor retractor"
+  },
+  "2209": {
+    "template": "stretch",
+    "name": "roller seated single leg shoulder flexor depresor retractor"
+  },
+  "2207": {
+    "template": "stretch",
+    "name": "roller side lat stretch"
+  },
+  "0685": {
+    "template": "run",
+    "name": "run"
+  },
+  "0684": {
+    "template": "run",
+    "name": "run (equipment)"
+  },
+  "1585": {
+    "template": "stretch",
+    "name": "runners stretch"
+  },
+  "3012": {
+    "template": "dip",
+    "name": "scapula dips"
+  },
+  "3021": {
+    "template": "pushup",
+    "name": "scapula push-up"
+  },
+  "3219": {
+    "template": "jump",
+    "name": "scissor jumps (male)"
+  },
+  "1390": {
+    "template": "stretch",
+    "name": "seated calf stretch (male)"
+  },
+  "1424": {
+    "template": "stretch",
+    "name": "seated glute stretch"
+  },
+  "0689": {
+    "template": "leg_raise",
+    "name": "seated leg raise"
+  },
+  "0690": {
+    "template": "stretch",
+    "name": "seated lower back stretch"
+  },
+  "2567": {
+    "template": "stretch",
+    "name": "seated piriformis stretch"
+  },
+  "0691": {
+    "template": "crunch",
+    "name": "seated side crunch (wall)"
+  },
+  "1587": {
+    "template": "squat",
+    "name": "seated wide angle pose sequence"
+  },
+  "0697": {
+    "template": "leg_curl",
+    "name": "self assisted inverse leg curl"
+  },
+  "1766": {
+    "template": "leg_curl",
+    "name": "self assisted inverse leg curl"
+  },
+  "0696": {
+    "template": "leg_curl",
+    "name": "self assisted inverse leg curl (on floor)"
+  },
+  "3222": {
+    "template": "jump",
+    "name": "semi squat jump (male)"
+  },
+  "3656": {
+    "template": "run",
+    "name": "short stride run"
+  },
+  "1763": {
+    "template": "pullup",
+    "name": "shoulder grip pull-up"
+  },
+  "3699": {
+    "template": "crunch",
+    "name": "shoulder tap"
+  },
+  "0699": {
+    "template": "pushup",
+    "name": "shoulder tap push-up"
+  },
+  "1774": {
+    "template": "abduction",
+    "name": "side bridge hip abduction"
+  },
+  "0705": {
+    "template": "plank",
+    "name": "side bridge v. 2"
+  },
+  "0709": {
+    "template": "crunch",
+    "name": "side hip (on parallel bars)"
+  },
+  "0710": {
+    "template": "abduction",
+    "name": "side hip abduction"
+  },
+  "1358": {
+    "template": "stretch",
+    "name": "side lying floor stretch"
+  },
+  "3667": {
+    "template": "adduction",
+    "name": "side lying hip adduction (male)"
+  },
+  "1775": {
+    "template": "adduction",
+    "name": "side plank hip adduction"
+  },
+  "0716": {
+    "template": "neck",
+    "name": "side push neck stretch"
+  },
+  "0717": {
+    "template": "pushup",
+    "name": "side push-up"
+  },
+  "0721": {
+    "template": "wrist",
+    "name": "side wrist pull stretch"
+  },
+  "0720": {
+    "template": "row",
+    "name": "side-to-side chin"
+  },
+  "3213": {
+    "template": "leg_raise",
+    "name": "side-to-side toe touch (male)"
+  },
+  "0725": {
+    "template": "pushup",
+    "name": "single arm push-up"
+  },
+  "3645": {
+    "template": "stretch",
+    "name": "single leg bridge with outstretched leg"
+  },
+  "0727": {
+    "template": "calf_raise",
+    "name": "single leg calf raise (on a dumbbell)"
+  },
+  "0730": {
+    "template": "squat",
+    "name": "single leg platform slide"
+  },
+  "1759": {
+    "template": "squat",
+    "name": "single leg squat (pistol) male"
+  },
+  "1489": {
+    "template": "squat",
+    "name": "sissy squat"
+  },
+  "0735": {
+    "template": "crunch",
+    "name": "sit-up v. 2"
+  },
+  "3679": {
+    "template": "crunch",
+    "name": "sit-up with arms on chest"
+  },
+  "3361": {
+    "template": "jump",
+    "name": "skater hops"
+  },
+  "2142": {
+    "template": "triceps",
+    "name": "ski ergometer"
+  },
+  "3671": {
+    "template": "run",
+    "name": "ski step"
+  },
+  "3304": {
+    "template": "row",
+    "name": "skin the cat"
+  },
+  "1425": {
+    "template": "squat",
+    "name": "sled 45 degrees one leg press"
+  },
+  "0738": {
+    "template": "calf_raise",
+    "name": "sled 45в° calf press"
+  },
+  "0739": {
+    "template": "squat",
+    "name": "sled 45в° leg press"
+  },
+  "1464": {
+    "template": "squat",
+    "name": "sled 45в° leg press (back pov)"
+  },
+  "1463": {
+    "template": "squat",
+    "name": "sled 45° leg press (side pov)"
+  },
+  "0740": {
+    "template": "squat",
+    "name": "sled 45в° leg wide press"
+  },
+  "1391": {
+    "template": "calf_raise",
+    "name": "sled calf press on leg press"
+  },
+  "0741": {
+    "template": "squat",
+    "name": "sled closer hack squat"
+  },
+  "0742": {
+    "template": "calf_raise",
+    "name": "sled forward angled calf raise"
+  },
+  "0743": {
+    "template": "squat",
+    "name": "sled hack squat"
+  },
+  "2334": {
+    "template": "calf_raise",
+    "name": "sled lying calf press"
+  },
+  "0744": {
+    "template": "squat",
+    "name": "sled lying squat"
+  },
+  "1392": {
+    "template": "calf_raise",
+    "name": "sled one leg calf press on leg press"
+  },
+  "1496": {
+    "template": "rotation",
+    "name": "sledge hammer"
+  },
+  "0746": {
+    "template": "shrug",
+    "name": "smith back shrug"
+  },
+  "0747": {
+    "template": "neck",
+    "name": "smith behind neck press"
+  },
+  "0748": {
+    "template": "chest_press",
+    "name": "smith bench press"
+  },
+  "0749": {
+    "template": "hinge",
+    "name": "smith bent knee good morning"
+  },
+  "1359": {
+    "template": "row",
+    "name": "smith bent over row"
+  },
+  "0750": {
+    "template": "squat",
+    "name": "smith chair squat"
+  },
+  "0751": {
+    "template": "chest_press",
+    "name": "smith close-grip bench press"
+  },
+  "0752": {
+    "template": "hinge",
+    "name": "smith deadlift"
+  },
+  "0753": {
+    "template": "chest_press",
+    "name": "smith decline bench press"
+  },
+  "0754": {
+    "template": "chest_press",
+    "name": "smith decline reverse-grip press"
+  },
+  "1433": {
+    "template": "squat",
+    "name": "smith front squat (clean grip)"
+  },
+  "3281": {
+    "template": "squat",
+    "name": "smith full squat"
+  },
+  "0755": {
+    "template": "squat",
+    "name": "smith hack squat"
+  },
+  "0756": {
+    "template": "crunch",
+    "name": "smith hip raise"
+  },
+  "0757": {
+    "template": "chest_press",
+    "name": "smith incline bench press"
+  },
+  "0758": {
+    "template": "chest_press",
+    "name": "smith incline reverse-grip press"
+  },
+  "0759": {
+    "template": "chest_press",
+    "name": "smith incline shoulder raises"
+  },
+  "0760": {
+    "template": "squat",
+    "name": "smith leg press"
+  },
+  "1434": {
+    "template": "squat",
+    "name": "smith low bar squat"
+  },
+  "1683": {
+    "template": "curl",
+    "name": "smith machine bicep curl"
+  },
+  "1625": {
+    "template": "chest_press",
+    "name": "smith machine decline close grip bench press"
+  },
+  "1752": {
+    "template": "triceps",
+    "name": "smith machine incline tricep extension"
+  },
+  "1626": {
+    "template": "chest_press",
+    "name": "smith machine reverse decline close grip bench press"
+  },
+  "0761": {
+    "template": "row",
+    "name": "smith narrow row"
+  },
+  "1360": {
+    "template": "row",
+    "name": "smith one arm row"
+  },
+  "1393": {
+    "template": "calf_raise",
+    "name": "smith one leg floor calf raise"
+  },
+  "0762": {
+    "template": "row",
+    "name": "smith rear delt row"
+  },
+  "0763": {
+    "template": "calf_raise",
+    "name": "smith reverse calf raises"
+  },
+  "1394": {
+    "template": "calf_raise",
+    "name": "smith reverse calf raises"
+  },
+  "1361": {
+    "template": "row",
+    "name": "smith reverse grip bent over row"
+  },
+  "0764": {
+    "template": "chest_press",
+    "name": "smith reverse-grip press"
+  },
+  "1395": {
+    "template": "calf_raise",
+    "name": "smith seated one leg calf raise"
+  },
+  "0765": {
+    "template": "overhead_press",
+    "name": "smith seated shoulder press"
+  },
+  "1426": {
+    "template": "wrist",
+    "name": "smith seated wrist curl"
+  },
+  "0766": {
+    "template": "overhead_press",
+    "name": "smith shoulder press"
+  },
+  "0767": {
+    "template": "shrug",
+    "name": "smith shrug"
+  },
+  "0768": {
+    "template": "squat",
+    "name": "smith single leg split squat"
+  },
+  "0769": {
+    "template": "run",
+    "name": "smith sprint lunge"
+  },
+  "0770": {
+    "template": "squat",
+    "name": "smith squat"
+  },
+  "0771": {
+    "template": "wrist",
+    "name": "smith standing back wrist curl"
+  },
+  "0772": {
+    "template": "overhead_press",
+    "name": "smith standing behind head military press"
+  },
+  "0773": {
+    "template": "calf_raise",
+    "name": "smith standing leg calf raise"
+  },
+  "0774": {
+    "template": "overhead_press",
+    "name": "smith standing military press"
+  },
+  "3142": {
+    "template": "squat",
+    "name": "smith sumo squat"
+  },
+  "1396": {
+    "template": "calf_raise",
+    "name": "smith toe raise"
+  },
+  "0775": {
+    "template": "row",
+    "name": "smith upright row"
+  },
+  "1308": {
+    "template": "chest_press",
+    "name": "smith wide grip bench press"
+  },
+  "1309": {
+    "template": "chest_press",
+    "name": "smith wide grip decline bench press"
+  },
+  "1362": {
+    "template": "row",
+    "name": "sphinx"
+  },
+  "0778": {
+    "template": "pushup",
+    "name": "spider crawl push up"
+  },
+  "1363": {
+    "template": "stretch",
+    "name": "spine stretch"
+  },
+  "2329": {
+    "template": "rotation",
+    "name": "spine twist"
+  },
+  "1705": {
+    "template": "squat",
+    "name": "squat on bosu ball"
+  },
+  "1685": {
+    "template": "squat",
+    "name": "squat to overhead reach"
+  },
+  "1686": {
+    "template": "squat",
+    "name": "squat to overhead reach with twist"
+  },
+  "2297": {
+    "template": "crunch",
+    "name": "stability ball crunch (full range hands behind head)"
+  },
+  "3291": {
+    "template": "triceps",
+    "name": "stalder press"
+  },
+  "3669": {
+    "template": "row",
+    "name": "standing archer"
+  },
+  "0788": {
+    "template": "neck",
+    "name": "standing behind neck press"
+  },
+  "1490": {
+    "template": "calf_raise",
+    "name": "standing calf raise (on a staircase)"
+  },
+  "1397": {
+    "template": "calf_raise",
+    "name": "standing calves"
+  },
+  "1398": {
+    "template": "stretch",
+    "name": "standing calves calf stretch"
+  },
+  "1599": {
+    "template": "stretch",
+    "name": "standing hamstring and calf stretch with strap"
+  },
+  "0795": {
+    "template": "leg_curl",
+    "name": "standing single leg curl"
+  },
+  "0796": {
+    "template": "stretch",
+    "name": "standing wheel rollerout"
+  },
+  "3223": {
+    "template": "jump",
+    "name": "star jump (male)"
+  },
+  "2138": {
+    "template": "run",
+    "name": "stationary bike run v. 3"
+  },
+  "0798": {
+    "template": "run",
+    "name": "stationary bike walk"
+  },
+  "3314": {
+    "template": "crunch",
+    "name": "straddle maltese"
+  },
+  "3298": {
+    "template": "crunch",
+    "name": "straddle planche"
+  },
+  "1427": {
+    "template": "abduction",
+    "name": "straight leg outer hip abductor"
+  },
+  "0803": {
+    "template": "pushup",
+    "name": "superman push-up"
+  },
+  "0805": {
+    "template": "crunch",
+    "name": "suspended abdominal fallout"
+  },
+  "3433": {
+    "template": "squat",
+    "name": "swimmer kicks v. 2 (male)"
+  },
+  "3318": {
+    "template": "run",
+    "name": "swing 360"
+  },
+  "1753": {
+    "template": "dip",
+    "name": "three bench dip"
+  },
+  "0814": {
+    "template": "dip",
+    "name": "triceps dip"
+  },
+  "0812": {
+    "template": "dip",
+    "name": "triceps dip (bench leg)"
+  },
+  "0813": {
+    "template": "dip",
+    "name": "triceps dip (between benches)"
+  },
+  "0815": {
+    "template": "dip",
+    "name": "triceps dips floor"
+  },
+  "0816": {
+    "template": "triceps",
+    "name": "triceps press"
+  },
+  "0818": {
+    "template": "pulldown",
+    "name": "twin handle parallel grip lat pulldown"
+  },
+  "1466": {
+    "template": "rotation",
+    "name": "twist hip lift"
+  },
+  "2802": {
+    "template": "leg_raise",
+    "name": "twisted leg raise"
+  },
+  "2801": {
+    "template": "leg_raise",
+    "name": "twisted leg raise (female)"
+  },
+  "3231": {
+    "template": "leg_raise",
+    "name": "two toe touch (male)"
+  },
+  "1366": {
+    "template": "row",
+    "name": "upward facing dog"
+  },
+  "3420": {
+    "template": "crunch",
+    "name": "v-sit on floor"
+  },
+  "0826": {
+    "template": "leg_raise",
+    "name": "vertical leg raise (on parallel bars)"
+  },
+  "2141": {
+    "template": "run",
+    "name": "walk elliptical cross trainer"
+  },
+  "3655": {
+    "template": "run",
+    "name": "walking high knees lunge"
+  },
+  "1460": {
+    "template": "run",
+    "name": "walking lunge"
+  },
+  "3666": {
+    "template": "run",
+    "name": "walking on incline treadmill"
+  },
+  "2311": {
+    "template": "run",
+    "name": "walking on stepmill"
+  },
+  "2987": {
+    "template": "pullup",
+    "name": "weighted close grip chin-up on dip cage"
+  },
+  "3643": {
+    "template": "squat",
+    "name": "weighted cossack squats (male)"
+  },
+  "0832": {
+    "template": "crunch",
+    "name": "weighted crunch"
+  },
+  "3670": {
+    "template": "crunch",
+    "name": "weighted decline sit-up"
+  },
+  "0833": {
+    "template": "calf_raise",
+    "name": "weighted donkey calf raise"
+  },
+  "1310": {
+    "template": "pushup",
+    "name": "weighted drop push up"
+  },
+  "2135": {
+    "template": "plank",
+    "name": "weighted front plank"
+  },
+  "0834": {
+    "template": "front_raise",
+    "name": "weighted front raise"
+  },
+  "0866": {
+    "template": "crunch",
+    "name": "weighted hanging leg-hip raise"
+  },
+  "0835": {
+    "template": "row",
+    "name": "weighted hyperextension (on stability ball)"
+  },
+  "3641": {
+    "template": "lateral_raise",
+    "name": "weighted kneeling step with swing"
+  },
+  "3644": {
+    "template": "lunge",
+    "name": "weighted lunge with swing"
+  },
+  "3286": {
+    "template": "row",
+    "name": "weighted muscle up"
+  },
+  "3312": {
+    "template": "row",
+    "name": "weighted muscle up (on bar)"
+  },
+  "3290": {
+    "template": "pullup",
+    "name": "weighted one hand pull up"
+  },
+  "0840": {
+    "template": "crunch",
+    "name": "weighted overhead crunch (on stability ball)"
+  },
+  "0841": {
+    "template": "pullup",
+    "name": "weighted pull-up"
+  },
+  "0844": {
+    "template": "lateral_raise",
+    "name": "weighted round arm"
+  },
+  "0846": {
+    "template": "rotation",
+    "name": "weighted russian twist"
+  },
+  "0845": {
+    "template": "rotation",
+    "name": "weighted russian twist (legs up)"
+  },
+  "2371": {
+    "template": "rotation",
+    "name": "weighted russian twist v. 2"
+  },
+  "0847": {
+    "template": "curl",
+    "name": "weighted seated bicep curl (on stability ball)"
+  },
+  "0849": {
+    "template": "rotation",
+    "name": "weighted seated twist (on stability ball)"
+  },
+  "0850": {
+    "template": "side_bend",
+    "name": "weighted side bend (on stability ball)"
+  },
+  "0853": {
+    "template": "curl",
+    "name": "weighted standing curl"
+  },
+  "0854": {
+    "template": "wrist",
+    "name": "weighted standing hand squeeze"
+  },
+  "3313": {
+    "template": "dip",
+    "name": "weighted straight bar dip"
+  },
+  "3642": {
+    "template": "lunge",
+    "name": "weighted stretch lunge"
+  },
+  "0856": {
+    "template": "chest_press",
+    "name": "weighted svend press"
+  },
+  "1754": {
+    "template": "dip",
+    "name": "weighted three bench dips"
+  },
+  "1755": {
+    "template": "dip",
+    "name": "weighted tricep dips"
+  },
+  "1767": {
+    "template": "dip",
+    "name": "weighted triceps dip on high parallel bars"
+  },
+  "0857": {
+    "template": "stretch",
+    "name": "wheel rollerout"
+  },
+  "3637": {
+    "template": "run",
+    "name": "wheel run"
+  },
+  "1429": {
+    "template": "pullup",
+    "name": "wide grip pull-up"
+  },
+  "1367": {
+    "template": "pullup",
+    "name": "wide grip rear pull-up"
+  },
+  "1311": {
+    "template": "pushup",
+    "name": "wide hand push up"
+  },
+  "2363": {
+    "template": "dip",
+    "name": "wide-grip chest dip on high parallel bars"
+  },
+  "1604": {
+    "template": "stretch",
+    "name": "world greatest stretch"
+  },
+  "0859": {
+    "template": "wrist",
+    "name": "wrist rollerer"
+  }
+}

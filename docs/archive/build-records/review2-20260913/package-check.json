@@ -1,0 +1,17 @@
+{
+  "file": "时光屋-1.2.6-第二批动作复核.apk",
+  "version": "1.2.6",
+  "version_code": 2026091303,
+  "sha256": "0e9877790d4c413657b3ffa6e4902ba4d1033c4517909b3bb7cf666495fb2241",
+  "size_bytes": 479864529,
+  "changed_raw_assets": [
+    "res/raw/dataset_motion_0300.webp",
+    "res/raw/dataset_motion_0426.webp",
+    "res/raw/dataset_motion_1685.webp"
+  ],
+  "reviewed": 11,
+  "unreviewed": 1344,
+  "generated_images_imported": 1,
+  "signature_sha256": "f97b8a406448cb301259189f833d7beb7985728929dd652d2c257e8d36a28997",
+  "signature_verified": true
+}

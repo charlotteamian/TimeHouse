@@ -1,0 +1,1748 @@
+[
+  {
+    "original_path": "build/20260910-signature.txt",
+    "archive_path": "docs/archive/build-records/20260910-signature.txt",
+    "bytes": 310,
+    "sha256": "5eb3e3d220b0008e69fafb807f5ffae23ac918facb3cc20a8ee000ff8d975b8d"
+  },
+  {
+    "original_path": "build/anatomy_redraw_candidates.json",
+    "archive_path": "docs/archive/build-records/anatomy_redraw_candidates.json",
+    "bytes": 28898,
+    "sha256": "0eb096d3e8eb03609fa50195df8381e18938433d683758a3866d326f58a005b0"
+  },
+  {
+    "original_path": "build/anatomy_regen_report.json",
+    "archive_path": "docs/archive/build-records/anatomy_regen_report.json",
+    "bytes": 297822,
+    "sha256": "d107e6900dbf58d7944d7915e4be560d0ed5f0d4e13fd5c221b942648244ec9c"
+  },
+  {
+    "original_path": "build/anchor-review-20260913/anchor-measurements.json",
+    "archive_path": "docs/archive/build-records/anchor-review-20260913/anchor-measurements.json",
+    "bytes": 6753,
+    "sha256": "f69d213517774fd4b6b1b4eeb821aa8cb002148afa1457a399bc20beef146438"
+  },
+  {
+    "original_path": "build/anchor-review-20260913/apk-validation.json",
+    "archive_path": "docs/archive/build-records/anchor-review-20260913/apk-validation.json",
+    "bytes": 467,
+    "sha256": "5e511fbaa694e54d31830840da9cce81de6168537d5f71e2695d88067a175a83"
+  },
+  {
+    "original_path": "build/anchor-review-20260913/before/ExerciseDatasetLoader.java",
+    "archive_path": "docs/archive/build-records/anchor-review-20260913/before/ExerciseDatasetLoader.java",
+    "bytes": 12886,
+    "sha256": "128e9d8826e5ac933254d49853579843816d91375d5462e023d3024efc6d0606"
+  },
+  {
+    "original_path": "build/anchor-review-20260913/before/MainActivity.java",
+    "archive_path": "docs/archive/build-records/anchor-review-20260913/before/MainActivity.java",
+    "bytes": 539749,
+    "sha256": "ced3de1ed7f0c030f882f8bc693c07a50470484b04bb039acc6490e8a5a53075"
+  },
+  {
+    "original_path": "build/anchor-review-20260913/before/exercise_reviews.json",
+    "archive_path": "docs/archive/build-records/anchor-review-20260913/before/exercise_reviews.json",
+    "bytes": 2276,
+    "sha256": "0b065461d885f8b27068640673855f6b25be6d546e133ac9eea011b694a994e3"
+  },
+  {
+    "original_path": "build/anchor-review-20260913/before/exercises_1324.json",
+    "archive_path": "docs/archive/build-records/anchor-review-20260913/before/exercises_1324.json",
+    "bytes": 1062353,
+    "sha256": "481f30e272a849c1630f9dae2f896bd8949a1f7759f8c145e0004c955ecf9a14"
+  },
+  {
+    "original_path": "build/anchor-review-20260913/measure_anchors.py",
+    "archive_path": "docs/archive/build-records/anchor-review-20260913/measure_anchors.py",
+    "bytes": 1292,
+    "sha256": "0299af878e7d4bbd46f9a3d8aabbd2d30fa20001098407e85f8f12c0dbbf57ad"
+  },
+  {
+    "original_path": "build/anchor-review-20260913/repair_trial.py",
+    "archive_path": "docs/archive/build-records/anchor-review-20260913/repair_trial.py",
+    "bytes": 2220,
+    "sha256": "142eb3306b6d927085d2bf5f1a6b202d543923544fcc9b6afd6d4ec7f16624fd"
+  },
+  {
+    "original_path": "build/anchor-review-20260913/ui-dynamic/ui-checks.json",
+    "archive_path": "docs/archive/build-records/anchor-review-20260913/ui-dynamic/ui-checks.json",
+    "bytes": 531,
+    "sha256": "15474d187abecf3d906f06587a38599409f975843d3784bced9fff8e615487d9"
+  },
+  {
+    "original_path": "build/anchor-review-20260913/ui-edges/ui-checks.json",
+    "archive_path": "docs/archive/build-records/anchor-review-20260913/ui-edges/ui-checks.json",
+    "bytes": 218,
+    "sha256": "17969b5a3efda2c27d6adf28c2163c16f62420afdc75dec467f7f26c37ebe4c6"
+  },
+  {
+    "original_path": "build/anchor-review-20260913/ui-review/ui-checks.json",
+    "archive_path": "docs/archive/build-records/anchor-review-20260913/ui-review/ui-checks.json",
+    "bytes": 714,
+    "sha256": "e092da10e217e01a8b6d29db464e1dac4763131be5ab84a171744a1a4e81f464"
+  },
+  {
+    "original_path": "build/anchor-review-20260913/verification-summary.json",
+    "archive_path": "docs/archive/build-records/anchor-review-20260913/verification-summary.json",
+    "bytes": 1805,
+    "sha256": "6828a4d3957812e4273184a1813cc8e3dc7add7e0813cac7143df236ff30c9b2"
+  },
+  {
+    "original_path": "build/anchor-review-20260913/动作复核全量清单.json",
+    "archive_path": "docs/archive/build-records/anchor-review-20260913/动作复核全量清单.json",
+    "bytes": 448205,
+    "sha256": "b75be660f89e9ed09821d4733b14f0de0dc0e739e13771dc88cf14c3a9f216b8"
+  },
+  {
+    "original_path": "build/anchor-review-20260913/动作库梳理.md",
+    "archive_path": "docs/archive/build-records/anchor-review-20260913/动作库梳理.md",
+    "bytes": 3657,
+    "sha256": "23658c27d22b1b00d1f0372636de6f54299bed3d349f52a67b5e86c604296a4c"
+  },
+  {
+    "original_path": "build/before-20260906/MainActivity.java",
+    "archive_path": "docs/archive/build-records/before-20260906/MainActivity.java",
+    "bytes": 446186,
+    "sha256": "ce1ab7e5b7dd40fd6244d1a38dc27d8ba4577e7ff33deb88414147efb5a4c4e6"
+  },
+  {
+    "original_path": "build/before-20260906/run_domain_tests.sh",
+    "archive_path": "docs/archive/build-records/before-20260906/run_domain_tests.sh",
+    "bytes": 2091,
+    "sha256": "8b8c0129599af696ae475abaf0eda700031f24086e109f5ec62a450184cc679a"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/app/BuiltinRecipeLoader.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/app/BuiltinRecipeLoader.java",
+    "bytes": 4959,
+    "sha256": "4b57720b4255e20f0862a707f0734d57853ed160675409df92d48fa164aa4cbf"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/app/ExerciseDatasetLoader.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/app/ExerciseDatasetLoader.java",
+    "bytes": 12770,
+    "sha256": "5cdf85198bbba4ca317da44056405b4a7df35443c413ba3466f74daacf8980ed"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/app/GeminiClient.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/app/GeminiClient.java",
+    "bytes": 11597,
+    "sha256": "d8afbf8a3a4e410d8257ea9d4ed40f668bc04bfe0bcf67f7f55f9ee06dafd3b6"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/app/GeminiModelName.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/app/GeminiModelName.java",
+    "bytes": 1406,
+    "sha256": "5898f455dda4d5b0338ad7570f42b212748cc28e7596395d3b8b8ac18af9f929"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/app/GeminiResponseText.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/app/GeminiResponseText.java",
+    "bytes": 2184,
+    "sha256": "9cad55e394180b590ed3bd48367ec341e9c7e8d394f6a55786e07485bd766771"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/app/GroqClient.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/app/GroqClient.java",
+    "bytes": 6170,
+    "sha256": "13847cd379d3b9455cccd3aed189d1a3dd150a3c49b278578475b90e9d1877c5"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/app/GroqEndpoint.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/app/GroqEndpoint.java",
+    "bytes": 893,
+    "sha256": "23e01c21d288b79b24ec72c51e5e7473dd01ed80ef25a942127770204e748ceb"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/app/MainActivity.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/app/MainActivity.java",
+    "bytes": 477646,
+    "sha256": "b91d41d0c2d940b35dcc15a05c5641049f40bffecc00f5ae148d350cf0e54ae8"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/app/QuickMealLoader.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/app/QuickMealLoader.java",
+    "bytes": 3176,
+    "sha256": "70b364782caf526105a18f2c5112cf9715b17fca35921e26da3f05837319c233"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/app/VoiceCues.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/app/VoiceCues.java",
+    "bytes": 5433,
+    "sha256": "aa9aa877a2e76e2e312df8e2128edde52acd13c47732175b6e4b24e4b7af924d"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/ActivityLevel.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/ActivityLevel.java",
+    "bytes": 1231,
+    "sha256": "923794ba109adab1f39311040568cac1d618222425d48ac8609658f8823331f6"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/AdHocIntent.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/AdHocIntent.java",
+    "bytes": 9558,
+    "sha256": "6e3c90745e06c0a6206c9150b2439faf53154c966e433e93493e6a6a03d9ab15"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/AdHocPlanner.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/AdHocPlanner.java",
+    "bytes": 24816,
+    "sha256": "aa272779b53553ac10597bb5c9a061c6c07d027e9e8448d944db1acbdab821b6"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/AssessmentInput.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/AssessmentInput.java",
+    "bytes": 4413,
+    "sha256": "38d483444ababf8467b7a4cde408105148d9b5a6f1e82f6557fe132776ec5023"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/AssessmentResult.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/AssessmentResult.java",
+    "bytes": 1262,
+    "sha256": "6608e3725d41614449d2a3b5966d9c34befb7270901410c6185f226420a90413"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/BuiltinRecipe.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/BuiltinRecipe.java",
+    "bytes": 3352,
+    "sha256": "71db0c305ff9207e8e8707fc21c53bad3088475a6545749d4aa7e0ae1835c750"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/DailyGap.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/DailyGap.java",
+    "bytes": 5479,
+    "sha256": "44054b0d5cba8ecca899a85d4949e972b327cfa1861a8664bbb244b7f1786db7"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/DayFoodLog.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/DayFoodLog.java",
+    "bytes": 5382,
+    "sha256": "cec51b30f7d5d7e9324fa03a2c1e9914c875b482d570026e09932a38ba1ac4b9"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/EnergyPlan.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/EnergyPlan.java",
+    "bytes": 2268,
+    "sha256": "a45ec117f2298f9a29c5a53bbaa66fd7643a96b91975d3982249532e80760567"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/EvidenceStatus.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/EvidenceStatus.java",
+    "bytes": 637,
+    "sha256": "7f27bf5672f8e2c0753b8e9e577546e99004d37a54c6a3022409723457afec8c"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/Exercise.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/Exercise.java",
+    "bytes": 8575,
+    "sha256": "90baffc03686e26bf88ba2856899f477fffdb75232653dee15fa9b5277a9a011"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/ExerciseTempo.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/ExerciseTempo.java",
+    "bytes": 4194,
+    "sha256": "d06ef9fd77fe2ffc790c6927a02f1b1e3098b1c78efdb88f74226a2b09c027a6"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/FitnessAssessment.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/FitnessAssessment.java",
+    "bytes": 3276,
+    "sha256": "f1dfddafbddfce57a6f0d8957c55c6909b095a6c1f4bc39ad12cd3a6939a36b9"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/FoodGroup.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/FoodGroup.java",
+    "bytes": 2129,
+    "sha256": "db499735df7fa5660e7a8c83cb30bd6836ff8dc3409d0c3c776457a0fea6ee53"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/FoodLogEntry.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/FoodLogEntry.java",
+    "bytes": 3301,
+    "sha256": "ea93b8589a66625baa910ea748d0042b53e32f45e7ba91dccb8ae172268c7e3b"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/GuidelineRefs.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/GuidelineRefs.java",
+    "bytes": 4375,
+    "sha256": "97d6f22ad8b43eb00e762e0b0b6090573192cba95e93716c03b478ec6f6802dd"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/HeartRateStats.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/HeartRateStats.java",
+    "bytes": 5952,
+    "sha256": "b537317ae3a13d7b61facb6d65a9e3e22c83b9816b0db837c81fbad4834b7f0f"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/Intensity.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/Intensity.java",
+    "bytes": 646,
+    "sha256": "d8d3c0c54dd9ca01bfefa01e9547e9ea22f528184b8f548c324a175cf4a1310f"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/MealDraft.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/MealDraft.java",
+    "bytes": 6073,
+    "sha256": "6ef5e6e84687d9e2ffa56be17e9728ab61d430bedbf2dc8c40a59bb5be37f31c"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/MealPreset.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/MealPreset.java",
+    "bytes": 3351,
+    "sha256": "bdace01323926895b2af4a6e0012ec6074f30913c5c6488c1a48743d213f706f"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/NutritionPlanner.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/NutritionPlanner.java",
+    "bytes": 4703,
+    "sha256": "ee64abde990dcf2e215c70a7b2d38ecb5b7e05f4a632f5674d53e26598bbd22e"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/NutritionProfile.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/NutritionProfile.java",
+    "bytes": 1321,
+    "sha256": "a9485fe80c8532cec12677dad7bd75e01c3d4159eb2779e805a58136d9c6d1e3"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/PagodaTargets.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/PagodaTargets.java",
+    "bytes": 1919,
+    "sha256": "fd75a668b67115465b10b8b80e21da74472fc20a7c727281b2639c3ad1d90daa"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/PainPoint.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/PainPoint.java",
+    "bytes": 966,
+    "sha256": "03aac07cf4a1760b2497faebde57aa8e17d905edd5f32632dac4acc28aba2b16"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/PainSeverity.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/PainSeverity.java",
+    "bytes": 300,
+    "sha256": "95f23949f7feb43026fef50188fb4cebc22cfa79a1edb289fc7e6bf3334cfdfb"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/PlanGoal.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/PlanGoal.java",
+    "bytes": 1126,
+    "sha256": "249589daa8d6cd0cea5b1a293c148408c3d14e61674d895e9badf8559f08007c"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/Prescription.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/Prescription.java",
+    "bytes": 6651,
+    "sha256": "7cc736cdd21af5d0ad01f7ad6a5e14a51d8c33a3f45e755d0c8a24b17e5f35ad"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/ProgramBuilder.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/ProgramBuilder.java",
+    "bytes": 10793,
+    "sha256": "0d5303ddd4e4e1df1ff0e066464fcac5f3b0abfa0362810d5b5ba0351217723e"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/ProgramComposer.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/ProgramComposer.java",
+    "bytes": 12654,
+    "sha256": "8e474a7e84d14ce75389dfcd73d7861b1835adecea5a4f01060f025de6b9a443"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/ProgramFocus.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/ProgramFocus.java",
+    "bytes": 2573,
+    "sha256": "1078f858189279f2ba2873ce71961e36812249b589a2236495760fbc617aa5bf"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/ProgramPhase.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/ProgramPhase.java",
+    "bytes": 2184,
+    "sha256": "bd556284f570a963ab849a3fc98b42e9c2b3b6e9ae4210f51a0810921a8109f3"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/ProgramSchedule.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/ProgramSchedule.java",
+    "bytes": 12188,
+    "sha256": "cfc9dc747fc157bbcda672fee279fe6537578b4ebd48bf81fd1e043487505ae5"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/RecipeScorer.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/RecipeScorer.java",
+    "bytes": 4984,
+    "sha256": "da96781a19a4ea014aaeb5c5964615bf1230ae93f446c15d0d692354186395bb"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/RecipeSources.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/RecipeSources.java",
+    "bytes": 5287,
+    "sha256": "32adf422efcb6d1ba2c9215167e63577b8566cb424cbd79a11f67b7f00c950b7"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/RecommendationEngine.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/RecommendationEngine.java",
+    "bytes": 24627,
+    "sha256": "fc0b9c753f86481ba6a86999d4e37d8cd182bc020b34a0afbbc09ebf5f82f1b6"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/RecommendationInput.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/RecommendationInput.java",
+    "bytes": 5716,
+    "sha256": "2fac5cc24b53afe24276f300d8f51846ca4315cba5e8b9301fad35084854229e"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/RecoveryState.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/RecoveryState.java",
+    "bytes": 3450,
+    "sha256": "9ac20b60322711cfaa6b8b4106659538d615eda281f98a400b7654d3cf878059"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/ScheduledSession.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/ScheduledSession.java",
+    "bytes": 3230,
+    "sha256": "3f29e2efe8c95a783734883877a960883620e6653791a85273f0750df58efd13"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/SeedExercises.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/SeedExercises.java",
+    "bytes": 15925,
+    "sha256": "9b3a6f2706ea8d403f80ef1dc74e288bc2f187a67751a7d47d59d54dbd0baac5"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/SessionTimeModel.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/SessionTimeModel.java",
+    "bytes": 4745,
+    "sha256": "d8872ae324271c78e5182f3def724fa6c05baa37576b791231e2928357b3535b"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/StressLevel.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/StressLevel.java",
+    "bytes": 474,
+    "sha256": "4ebf7ab8e816acb381cb50b50e50aa7e50e9f329e3fced9553e9616d5047a2de"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/TrainingLevel.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/TrainingLevel.java",
+    "bytes": 1032,
+    "sha256": "e6e612ada4878aaad9c32922b2ac3d2f17b7c104227929195c0003b3627b604b"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/TrainingLoad.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/TrainingLoad.java",
+    "bytes": 1244,
+    "sha256": "a1538e2ed832b5f801f3849ee698ccc14bf36bf48935eba29e22fc4fa5a3e06c"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/TrainingProgram.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/TrainingProgram.java",
+    "bytes": 2762,
+    "sha256": "a22ca2c875fd4d1d59a1e508482cb2116d733a7e9907e634f11afa650a08a37c"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/WeeklyVolumeLedger.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/WeeklyVolumeLedger.java",
+    "bytes": 7389,
+    "sha256": "e0cf0c9e7db67589bffc1a320d8903fa86734ed996e0b2cfb5eaca2cab9543fa"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/WorkoutClock.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/WorkoutClock.java",
+    "bytes": 1787,
+    "sha256": "f2461cc78bba74e1488ac1867669ca91cda6c3672fb0f232e22fb78f5f2eff74"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/WorkoutItem.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/WorkoutItem.java",
+    "bytes": 742,
+    "sha256": "a973e1e2957a846410e803b2e1130f6855e09ffa0892b34fc404fb13c313d0d4"
+  },
+  {
+    "original_path": "build/before-20260909/java/com/restartday/fitness/domain/WorkoutPlan.java",
+    "archive_path": "docs/archive/build-records/before-20260909/java/com/restartday/fitness/domain/WorkoutPlan.java",
+    "bytes": 1818,
+    "sha256": "8d9ccba8a0fa2529add302a856e73360bf56de89374ad2eca573cdecb72c5dc4"
+  },
+  {
+    "original_path": "build/before-20260909/run_domain_tests.sh",
+    "archive_path": "docs/archive/build-records/before-20260909/run_domain_tests.sh",
+    "bytes": 2157,
+    "sha256": "dce2731e3eb4b2a3dbf8530e6a46089a527bbd9f6420977fe8b049f579832cc5"
+  },
+  {
+    "original_path": "build/before-20260909-intensity/MainActivity.java",
+    "archive_path": "docs/archive/build-records/before-20260909-intensity/MainActivity.java",
+    "bytes": 501139,
+    "sha256": "83c29ebf609f5c8ed55078dc30512b55a9071bd8c8a830cc4b76f45bb5a7a163"
+  },
+  {
+    "original_path": "build/before-20260910/MainActivity.java",
+    "archive_path": "docs/archive/build-records/before-20260910/MainActivity.java",
+    "bytes": 505389,
+    "sha256": "e3627eaa724c1d3251daa5742991b642b4dde2d951fc0c0c9ff1307b81ba9362"
+  },
+  {
+    "original_path": "build/before-20260910/Prescription.java",
+    "archive_path": "docs/archive/build-records/before-20260910/Prescription.java",
+    "bytes": 6651,
+    "sha256": "7cc736cdd21af5d0ad01f7ad6a5e14a51d8c33a3f45e755d0c8a24b17e5f35ad"
+  },
+  {
+    "original_path": "build/before-20260910/SeedExercises.java",
+    "archive_path": "docs/archive/build-records/before-20260910/SeedExercises.java",
+    "bytes": 19461,
+    "sha256": "0b33b5f25184bb2030d5ce30e7749d825f180838de3d8dbfb44033de20204236"
+  },
+  {
+    "original_path": "build/before-20260910/build_motion_repairs.py",
+    "archive_path": "docs/archive/build-records/before-20260910/build_motion_repairs.py",
+    "bytes": 5281,
+    "sha256": "42e3cb0742b08290543ccd741553bf44ae247e7d9ff4908c5c13b4ae1d9b99da"
+  },
+  {
+    "original_path": "build/before-20260910/deferred-original-prompts.json",
+    "archive_path": "docs/archive/build-records/before-20260910/deferred-original-prompts.json",
+    "bytes": 35102,
+    "sha256": "eff394ffb1b52039f6811eeedd2548ba37c829a3e07ec8d6e914946b7e251484"
+  },
+  {
+    "original_path": "build/before-20260910/exercises_1324.json",
+    "archive_path": "docs/archive/build-records/before-20260910/exercises_1324.json",
+    "bytes": 832211,
+    "sha256": "196dce46d5e11b2ee81d0d5d752f8661ab810c17f0abe335bc31bac6f728661a"
+  },
+  {
+    "original_path": "build/fixes-20260916/apk-validation.json",
+    "archive_path": "docs/archive/build-records/fixes-20260916/apk-validation.json",
+    "bytes": 830,
+    "sha256": "024b2e988dad175b4d151de0ad95b841eb4cd7123a27ca4a2a5c11faa65fe10e"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/app/BuiltinRecipeLoader.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/app/BuiltinRecipeLoader.java",
+    "bytes": 4959,
+    "sha256": "4b57720b4255e20f0862a707f0734d57853ed160675409df92d48fa164aa4cbf"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/app/ExerciseDatasetLoader.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/app/ExerciseDatasetLoader.java",
+    "bytes": 13791,
+    "sha256": "91d6fca21281c33509bc70d5eabe6531813e2c8b10bca1b8b76a1952b629ef0d"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/app/ExerciseReviewStore.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/app/ExerciseReviewStore.java",
+    "bytes": 7233,
+    "sha256": "63b04e6217c282115c608963679a8343fa355086acd42d754797a2f391fc4bbf"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/app/GeminiClient.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/app/GeminiClient.java",
+    "bytes": 11597,
+    "sha256": "d8afbf8a3a4e410d8257ea9d4ed40f668bc04bfe0bcf67f7f55f9ee06dafd3b6"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/app/GeminiModelName.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/app/GeminiModelName.java",
+    "bytes": 1406,
+    "sha256": "5898f455dda4d5b0338ad7570f42b212748cc28e7596395d3b8b8ac18af9f929"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/app/GeminiResponseText.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/app/GeminiResponseText.java",
+    "bytes": 2184,
+    "sha256": "9cad55e394180b590ed3bd48367ec341e9c7e8d394f6a55786e07485bd766771"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/app/GroqClient.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/app/GroqClient.java",
+    "bytes": 6170,
+    "sha256": "13847cd379d3b9455cccd3aed189d1a3dd150a3c49b278578475b90e9d1877c5"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/app/GroqEndpoint.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/app/GroqEndpoint.java",
+    "bytes": 893,
+    "sha256": "23e01c21d288b79b24ec72c51e5e7473dd01ed80ef25a942127770204e748ceb"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/app/MainActivity.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/app/MainActivity.java",
+    "bytes": 541740,
+    "sha256": "3a6ab2efe38ac585185463fdeddb10b7f7feb6eed647310101cec6cd1ca1b183"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/app/QuickMealLoader.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/app/QuickMealLoader.java",
+    "bytes": 3176,
+    "sha256": "70b364782caf526105a18f2c5112cf9715b17fca35921e26da3f05837319c233"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/app/RoutineCodec.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/app/RoutineCodec.java",
+    "bytes": 2725,
+    "sha256": "11b1efa2fee32a555c7499996351c05b9f53f518905d0c529ba406b51fad7ae7"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/app/VoiceCues.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/app/VoiceCues.java",
+    "bytes": 5433,
+    "sha256": "aa9aa877a2e76e2e312df8e2128edde52acd13c47732175b6e4b24e4b7af924d"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/ActivityLevel.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/ActivityLevel.java",
+    "bytes": 1231,
+    "sha256": "923794ba109adab1f39311040568cac1d618222425d48ac8609658f8823331f6"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/AdHocIntent.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/AdHocIntent.java",
+    "bytes": 9558,
+    "sha256": "6e3c90745e06c0a6206c9150b2439faf53154c966e433e93493e6a6a03d9ab15"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/AdHocPlanner.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/AdHocPlanner.java",
+    "bytes": 27553,
+    "sha256": "0b48570a89b9ea7c0047ea0c7408a24d9c2ff0e56b9556f498e5f7a8a0abf2b0"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/AssessmentInput.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/AssessmentInput.java",
+    "bytes": 4863,
+    "sha256": "2005718853451daf4fd96715cc1e3cbd49cd4d5a3046bee8c434a67d9ffd8230"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/AssessmentResult.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/AssessmentResult.java",
+    "bytes": 1262,
+    "sha256": "6608e3725d41614449d2a3b5966d9c34befb7270901410c6185f226420a90413"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/BuiltinRecipe.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/BuiltinRecipe.java",
+    "bytes": 3352,
+    "sha256": "71db0c305ff9207e8e8707fc21c53bad3088475a6545749d4aa7e0ae1835c750"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/DailyGap.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/DailyGap.java",
+    "bytes": 5479,
+    "sha256": "44054b0d5cba8ecca899a85d4949e972b327cfa1861a8664bbb244b7f1786db7"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/DayFoodLog.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/DayFoodLog.java",
+    "bytes": 5382,
+    "sha256": "cec51b30f7d5d7e9324fa03a2c1e9914c875b482d570026e09932a38ba1ac4b9"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/EnergyPlan.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/EnergyPlan.java",
+    "bytes": 2268,
+    "sha256": "a45ec117f2298f9a29c5a53bbaa66fd7643a96b91975d3982249532e80760567"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/EvidenceStatus.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/EvidenceStatus.java",
+    "bytes": 637,
+    "sha256": "7f27bf5672f8e2c0753b8e9e577546e99004d37a54c6a3022409723457afec8c"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/Exercise.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/Exercise.java",
+    "bytes": 9229,
+    "sha256": "9dfdca8031bb73897e754ed3233af3a3b74d4dcb164438c6ae4feb51738c6679"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/ExerciseTempo.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/ExerciseTempo.java",
+    "bytes": 4194,
+    "sha256": "d06ef9fd77fe2ffc790c6927a02f1b1e3098b1c78efdb88f74226a2b09c027a6"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/FitnessAssessment.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/FitnessAssessment.java",
+    "bytes": 3276,
+    "sha256": "f1dfddafbddfce57a6f0d8957c55c6909b095a6c1f4bc39ad12cd3a6939a36b9"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/FoodGroup.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/FoodGroup.java",
+    "bytes": 2129,
+    "sha256": "db499735df7fa5660e7a8c83cb30bd6836ff8dc3409d0c3c776457a0fea6ee53"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/FoodLogEntry.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/FoodLogEntry.java",
+    "bytes": 3301,
+    "sha256": "ea93b8589a66625baa910ea748d0042b53e32f45e7ba91dccb8ae172268c7e3b"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/GuidelineRefs.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/GuidelineRefs.java",
+    "bytes": 4375,
+    "sha256": "97d6f22ad8b43eb00e762e0b0b6090573192cba95e93716c03b478ec6f6802dd"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/HeartRateStats.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/HeartRateStats.java",
+    "bytes": 5952,
+    "sha256": "b537317ae3a13d7b61facb6d65a9e3e22c83b9816b0db837c81fbad4834b7f0f"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/Intensity.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/Intensity.java",
+    "bytes": 646,
+    "sha256": "d8d3c0c54dd9ca01bfefa01e9547e9ea22f528184b8f548c324a175cf4a1310f"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/MealDraft.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/MealDraft.java",
+    "bytes": 6073,
+    "sha256": "6ef5e6e84687d9e2ffa56be17e9728ab61d430bedbf2dc8c40a59bb5be37f31c"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/MealPreset.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/MealPreset.java",
+    "bytes": 3351,
+    "sha256": "bdace01323926895b2af4a6e0012ec6074f30913c5c6488c1a48743d213f706f"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/NutritionPlanner.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/NutritionPlanner.java",
+    "bytes": 4703,
+    "sha256": "ee64abde990dcf2e215c70a7b2d38ecb5b7e05f4a632f5674d53e26598bbd22e"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/NutritionProfile.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/NutritionProfile.java",
+    "bytes": 1321,
+    "sha256": "a9485fe80c8532cec12677dad7bd75e01c3d4159eb2779e805a58136d9c6d1e3"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/PagodaTargets.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/PagodaTargets.java",
+    "bytes": 1919,
+    "sha256": "fd75a668b67115465b10b8b80e21da74472fc20a7c727281b2639c3ad1d90daa"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/PainPoint.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/PainPoint.java",
+    "bytes": 966,
+    "sha256": "03aac07cf4a1760b2497faebde57aa8e17d905edd5f32632dac4acc28aba2b16"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/PainSeverity.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/PainSeverity.java",
+    "bytes": 300,
+    "sha256": "95f23949f7feb43026fef50188fb4cebc22cfa79a1edb289fc7e6bf3334cfdfb"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/PlanGoal.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/PlanGoal.java",
+    "bytes": 1126,
+    "sha256": "249589daa8d6cd0cea5b1a293c148408c3d14e61674d895e9badf8559f08007c"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/Prescription.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/Prescription.java",
+    "bytes": 6726,
+    "sha256": "ee479db40a48a1ef0d6a588bcab96df0cf514dcd979fd39c03a4c3899cb739e2"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/ProgramBuilder.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/ProgramBuilder.java",
+    "bytes": 10793,
+    "sha256": "0d5303ddd4e4e1df1ff0e066464fcac5f3b0abfa0362810d5b5ba0351217723e"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/ProgramComposer.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/ProgramComposer.java",
+    "bytes": 12653,
+    "sha256": "6c0380730163c939565cac726ecd146a2e20ebf38409adf1cb09fa2c542fc7ab"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/ProgramFocus.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/ProgramFocus.java",
+    "bytes": 2573,
+    "sha256": "1078f858189279f2ba2873ce71961e36812249b589a2236495760fbc617aa5bf"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/ProgramPhase.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/ProgramPhase.java",
+    "bytes": 2184,
+    "sha256": "bd556284f570a963ab849a3fc98b42e9c2b3b6e9ae4210f51a0810921a8109f3"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/ProgramSchedule.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/ProgramSchedule.java",
+    "bytes": 12188,
+    "sha256": "cfc9dc747fc157bbcda672fee279fe6537578b4ebd48bf81fd1e043487505ae5"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/RecipeScorer.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/RecipeScorer.java",
+    "bytes": 4984,
+    "sha256": "da96781a19a4ea014aaeb5c5964615bf1230ae93f446c15d0d692354186395bb"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/RecipeSources.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/RecipeSources.java",
+    "bytes": 5287,
+    "sha256": "32adf422efcb6d1ba2c9215167e63577b8566cb424cbd79a11f67b7f00c950b7"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/RecommendationEngine.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/RecommendationEngine.java",
+    "bytes": 24713,
+    "sha256": "bda5ea3d64f7138443889b905b928b05fd1870052040ae9eeb3e6102d009953f"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/RecommendationInput.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/RecommendationInput.java",
+    "bytes": 5716,
+    "sha256": "2fac5cc24b53afe24276f300d8f51846ca4315cba5e8b9301fad35084854229e"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/RecoveryState.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/RecoveryState.java",
+    "bytes": 3450,
+    "sha256": "9ac20b60322711cfaa6b8b4106659538d615eda281f98a400b7654d3cf878059"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/ScheduledSession.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/ScheduledSession.java",
+    "bytes": 3230,
+    "sha256": "3f29e2efe8c95a783734883877a960883620e6653791a85273f0750df58efd13"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/SeedExercises.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/SeedExercises.java",
+    "bytes": 19611,
+    "sha256": "d1acacb47b4b0ae27d17c4e92cc3570f2f80321555ed1af78f704754cd42069c"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/SessionTimeModel.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/SessionTimeModel.java",
+    "bytes": 4850,
+    "sha256": "8b6e5e745584b10ec485436b8ad1ad99dd2b23728f83aa4c2f4e8358e2516c6f"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/StressLevel.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/StressLevel.java",
+    "bytes": 474,
+    "sha256": "4ebf7ab8e816acb381cb50b50e50aa7e50e9f329e3fced9553e9616d5047a2de"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/TrainingLevel.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/TrainingLevel.java",
+    "bytes": 1032,
+    "sha256": "e6e612ada4878aaad9c32922b2ac3d2f17b7c104227929195c0003b3627b604b"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/TrainingLoad.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/TrainingLoad.java",
+    "bytes": 1244,
+    "sha256": "a1538e2ed832b5f801f3849ee698ccc14bf36bf48935eba29e22fc4fa5a3e06c"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/TrainingProgram.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/TrainingProgram.java",
+    "bytes": 2762,
+    "sha256": "a22ca2c875fd4d1d59a1e508482cb2116d733a7e9907e634f11afa650a08a37c"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/TrainingSelection.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/TrainingSelection.java",
+    "bytes": 2187,
+    "sha256": "ebd7d4e5f9f0e9d038a835cf8ad9656d7932a8f3db7bc3564cd6ee05ec2f3222"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/WeeklyVolumeLedger.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/WeeklyVolumeLedger.java",
+    "bytes": 7389,
+    "sha256": "e0cf0c9e7db67589bffc1a320d8903fa86734ed996e0b2cfb5eaca2cab9543fa"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/WorkoutClock.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/WorkoutClock.java",
+    "bytes": 1787,
+    "sha256": "f2461cc78bba74e1488ac1867669ca91cda6c3672fb0f232e22fb78f5f2eff74"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/WorkoutItem.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/WorkoutItem.java",
+    "bytes": 1101,
+    "sha256": "09b8322048bdf30a1e64f8e5f5ec361d9cb8ec10a2d479cceb11bfdfd8f2022a"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/WorkoutPlan.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/WorkoutPlan.java",
+    "bytes": 1818,
+    "sha256": "8d9ccba8a0fa2529add302a856e73360bf56de89374ad2eca573cdecb72c5dc4"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/WorkoutRoutine.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/java/com/restartday/fitness/domain/WorkoutRoutine.java",
+    "bytes": 2891,
+    "sha256": "f5003bbf95c6ad68eb76341741ace6139b082d923ec193a8f7301abce80e6eac"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/scripts/android_qa/UiSnapshot.java",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/scripts/android_qa/UiSnapshot.java",
+    "bytes": 9901,
+    "sha256": "ee859f365006e0ffdfdd3f8d05d47b4fcf79f3b2dd43ad1acdf34324e2c48e37"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/scripts/run_domain_tests.sh",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/scripts/run_domain_tests.sh",
+    "bytes": 2841,
+    "sha256": "0d7da6ca5f7a088f602b68c93311d7c73945c27263eefea474a5b5ea9aeeaa08"
+  },
+  {
+    "original_path": "build/fixes-20260916/release-artifact.json",
+    "archive_path": "docs/archive/build-records/fixes-20260916/release-artifact.json",
+    "bytes": 289,
+    "sha256": "2c96ef766f65d787c73e5ae956fecaec521455eec23fcf2c81fe299962a84ff1"
+  },
+  {
+    "original_path": "build/fixes-20260916/routine-ui/ui-checks.json",
+    "archive_path": "docs/archive/build-records/fixes-20260916/routine-ui/ui-checks.json",
+    "bytes": 259,
+    "sha256": "2c955b04e9aeb2156c8f82486c2ca9e1c018070fd773517b36eb016db7616aed"
+  },
+  {
+    "original_path": "build/fixes-20260916/today-ui/ui-checks.json",
+    "archive_path": "docs/archive/build-records/fixes-20260916/today-ui/ui-checks.json",
+    "bytes": 1149,
+    "sha256": "4fe8492ad998a65976b4ec162f4bf54ddcb05b67b2ee009cbb1d6a53fd756d17"
+  },
+  {
+    "original_path": "build/fixes-20260916/user-ui/ui-checks.json",
+    "archive_path": "docs/archive/build-records/fixes-20260916/user-ui/ui-checks.json",
+    "bytes": 1208,
+    "sha256": "b7011a5c19a9b9731bb552e3449664b258cb4fd58c7d1d45c76f9fe7700dfa96"
+  },
+  {
+    "original_path": "build/fixes-20260916/watch-ui/synced-record.json",
+    "archive_path": "docs/archive/build-records/fixes-20260916/watch-ui/synced-record.json",
+    "bytes": 2225,
+    "sha256": "e8153f48b7b9c65591bac6447fe465f2cf93f5b8dc76031ca8f298ec6e69e37e"
+  },
+  {
+    "original_path": "build/fixes-20260916/watch-ui/ui-checks.json",
+    "archive_path": "docs/archive/build-records/fixes-20260916/watch-ui/ui-checks.json",
+    "bytes": 679,
+    "sha256": "999981fbca864977bf1b2ba95e929b2d09e19e85bb3a80da6f4887b297c8d1c4"
+  },
+  {
+    "original_path": "build/media-fix-20260909/release-verification.json",
+    "archive_path": "docs/archive/build-records/media-fix-20260909/release-verification.json",
+    "bytes": 382,
+    "sha256": "f1235a74c240208f7eb5f066410e1d771ee367f9cd14b8d2bef5826c4dd30a2c"
+  },
+  {
+    "original_path": "build/media-fix-20260910/asset-checks.json",
+    "archive_path": "docs/archive/build-records/media-fix-20260910/asset-checks.json",
+    "bytes": 1702,
+    "sha256": "8cbcae29de428340276d144c0e056edadf4d5b5a11e1310c8e95b15a4459491b"
+  },
+  {
+    "original_path": "build/media-fix-20260910/release-verification.json",
+    "archive_path": "docs/archive/build-records/media-fix-20260910/release-verification.json",
+    "bytes": 836,
+    "sha256": "442ffefd5c562d0a022cd7488c8c399b97e1fc618f54bf71fc5495ccd6a8ee72"
+  },
+  {
+    "original_path": "build/qa-20260906/package-verification.json",
+    "archive_path": "docs/archive/build-records/qa-20260906/package-verification.json",
+    "bytes": 453,
+    "sha256": "2f263550e3953b1e41895b5628f67a9239849934fe9ed2d24ad75a24bfd08278"
+  },
+  {
+    "original_path": "build/qa-20260906/ui-checks.json",
+    "archive_path": "docs/archive/build-records/qa-20260906/ui-checks.json",
+    "bytes": 1149,
+    "sha256": "4fe8492ad998a65976b4ec162f4bf54ddcb05b67b2ee009cbb1d6a53fd756d17"
+  },
+  {
+    "original_path": "build/qa-20260906/验收结果.md",
+    "archive_path": "docs/archive/build-records/qa-20260906/验收结果.md",
+    "bytes": 874,
+    "sha256": "7848611a4940dec247ccdd99535e7ab12579a5669bc621699d77a7bbfb79472c"
+  },
+  {
+    "original_path": "build/qa-20260909-existing/ui-checks.json",
+    "archive_path": "docs/archive/build-records/qa-20260909-existing/ui-checks.json",
+    "bytes": 1149,
+    "sha256": "4fe8492ad998a65976b4ec162f4bf54ddcb05b67b2ee009cbb1d6a53fd756d17"
+  },
+  {
+    "original_path": "build/qa-20260909-final/ui-checks.json",
+    "archive_path": "docs/archive/build-records/qa-20260909-final/ui-checks.json",
+    "bytes": 241,
+    "sha256": "1510ffb124c1dd3b09809f7e9ddab02e404d8efabc483d17e4af78e6c847f462"
+  },
+  {
+    "original_path": "build/qa-20260909-intensity/ui-checks.json",
+    "archive_path": "docs/archive/build-records/qa-20260909-intensity/ui-checks.json",
+    "bytes": 959,
+    "sha256": "1cb21072e0a34eff8c5a335e017b17c5f84d6e15ba287658c85d3625c93a760b"
+  },
+  {
+    "original_path": "build/qa-20260909-intensity-existing/ui-checks.json",
+    "archive_path": "docs/archive/build-records/qa-20260909-intensity-existing/ui-checks.json",
+    "bytes": 1149,
+    "sha256": "4fe8492ad998a65976b4ec162f4bf54ddcb05b67b2ee009cbb1d6a53fd756d17"
+  },
+  {
+    "original_path": "build/qa-20260909-media/ui-checks.json",
+    "archive_path": "docs/archive/build-records/qa-20260909-media/ui-checks.json",
+    "bytes": 58,
+    "sha256": "970a0b641c8449265c0c40a3e1f01f6d6921e90a469670644f547517b84aa96f"
+  },
+  {
+    "original_path": "build/qa-20260909-routines/ui-checks.json",
+    "archive_path": "docs/archive/build-records/qa-20260909-routines/ui-checks.json",
+    "bytes": 728,
+    "sha256": "e0a711cd87af91f78259d39fcf3f8dcb42710323c2a6073e94a7df1f4d161575"
+  },
+  {
+    "original_path": "build/qa-20260910-intensity/ui-checks.json",
+    "archive_path": "docs/archive/build-records/qa-20260910-intensity/ui-checks.json",
+    "bytes": 959,
+    "sha256": "1cb21072e0a34eff8c5a335e017b17c5f84d6e15ba287658c85d3625c93a760b"
+  },
+  {
+    "original_path": "build/qa-20260910-media/ui-checks.json",
+    "archive_path": "docs/archive/build-records/qa-20260910-media/ui-checks.json",
+    "bytes": 102,
+    "sha256": "748b84896cea026841108013ada5ee9af35d90755a1af5c28aae6478e1e882cf"
+  },
+  {
+    "original_path": "build/qa-20260910-rpe/ui-checks.json",
+    "archive_path": "docs/archive/build-records/qa-20260910-rpe/ui-checks.json",
+    "bytes": 230,
+    "sha256": "25ed924b4ea7497fe402c31037f33ee62ecdac9ed2cd14c9885eb7a51ecaf25a"
+  },
+  {
+    "original_path": "build/qa-20260912-custom-media/ui-checks.json",
+    "archive_path": "docs/archive/build-records/qa-20260912-custom-media/ui-checks.json",
+    "bytes": 370,
+    "sha256": "f2105933bba9d25b9958544fb8530535cdc963a32a0ba385905df6756ba1686a"
+  },
+  {
+    "original_path": "build/qa-20260912-display-rotation/ui-checks.json",
+    "archive_path": "docs/archive/build-records/qa-20260912-display-rotation/ui-checks.json",
+    "bytes": 1072,
+    "sha256": "bb9e2f37e76800eb9118a6effe8250903a23469745c9050611e360a421cf8807"
+  },
+  {
+    "original_path": "build/qa-20260912-intensity/ui-checks.json",
+    "archive_path": "docs/archive/build-records/qa-20260912-intensity/ui-checks.json",
+    "bytes": 1453,
+    "sha256": "d26020e627e48a54c274e49d858371e34ee53a384f3e05f8af5d2ab1ce8ab255"
+  },
+  {
+    "original_path": "build/qa-20260912-intensity-final/ui-checks.json",
+    "archive_path": "docs/archive/build-records/qa-20260912-intensity-final/ui-checks.json",
+    "bytes": 1453,
+    "sha256": "d26020e627e48a54c274e49d858371e34ee53a384f3e05f8af5d2ab1ce8ab255"
+  },
+  {
+    "original_path": "build/qa_priority_media.py",
+    "archive_path": "docs/archive/build-records/qa_priority_media.py",
+    "bytes": 823,
+    "sha256": "d7223a9e0b2c3a72f9b87c0bf3eb414c2472ab31fa06b40f3e0541d3351c2c2e"
+  },
+  {
+    "original_path": "build/review-20260912/before/ExerciseDatasetLoader.java",
+    "archive_path": "docs/archive/build-records/review-20260912/before/ExerciseDatasetLoader.java",
+    "bytes": 12770,
+    "sha256": "5cdf85198bbba4ca317da44056405b4a7df35443c413ba3466f74daacf8980ed"
+  },
+  {
+    "original_path": "build/review-20260912/before/MainActivity.java",
+    "archive_path": "docs/archive/build-records/review-20260912/before/MainActivity.java",
+    "bytes": 528571,
+    "sha256": "4d6a9c7340c820f7b879b05db1dd9c176fe2921001851292249987cf94a718f5"
+  },
+  {
+    "original_path": "build/review-20260912/before/exercises_1324.json",
+    "archive_path": "docs/archive/build-records/review-20260912/before/exercises_1324.json",
+    "bytes": 832129,
+    "sha256": "fb53ff54e8f64a9511d1258efd6f096b17f38958d11eab1562c79d29a145322a"
+  },
+  {
+    "original_path": "build/review-20260912/before/run_domain_tests.sh",
+    "archive_path": "docs/archive/build-records/review-20260912/before/run_domain_tests.sh",
+    "bytes": 2770,
+    "sha256": "c90f0a87c2168b41a2d829c79c260a17c9ccfc08ead59ac55d82c4285395e78d"
+  },
+  {
+    "original_path": "build/review-20260912/edges/ui-checks.json",
+    "archive_path": "docs/archive/build-records/review-20260912/edges/ui-checks.json",
+    "bytes": 218,
+    "sha256": "17969b5a3efda2c27d6adf28c2163c16f62420afdc75dec467f7f26c37ebe4c6"
+  },
+  {
+    "original_path": "build/review-20260912/plan.md",
+    "archive_path": "docs/archive/build-records/review-20260912/plan.md",
+    "bytes": 376,
+    "sha256": "f71bae0bfd1f0232fa63fddb7fba35532231eaa076dd6013e9a45ba7ade3f179"
+  },
+  {
+    "original_path": "build/review-20260912/prepare_review_baseline.py",
+    "archive_path": "docs/archive/build-records/review-20260912/prepare_review_baseline.py",
+    "bytes": 2984,
+    "sha256": "43e60bd00ee6ac23ab5eb78c572234136807f62fab686f82979abe6fcefe6b3f"
+  },
+  {
+    "original_path": "build/review-20260912/release-verification.json",
+    "archive_path": "docs/archive/build-records/review-20260912/release-verification.json",
+    "bytes": 490,
+    "sha256": "2f4d64e41c95574ce504f618c36ee572af85265c77c3f2dda26e34000b1fd359"
+  },
+  {
+    "original_path": "build/review-20260912/today/ui-checks.json",
+    "archive_path": "docs/archive/build-records/review-20260912/today/ui-checks.json",
+    "bytes": 1149,
+    "sha256": "4fe8492ad998a65976b4ec162f4bf54ddcb05b67b2ee009cbb1d6a53fd756d17"
+  },
+  {
+    "original_path": "build/review-20260912/ui/ui-checks.json",
+    "archive_path": "docs/archive/build-records/review-20260912/ui/ui-checks.json",
+    "bytes": 719,
+    "sha256": "a5a6ffcbd8d640e83ad2fc3051faefb6397e756ec2fda04c211b24453c96e4fe"
+  },
+  {
+    "original_path": "build/review-20260912/动作复核全量清单.json",
+    "archive_path": "docs/archive/build-records/review-20260912/动作复核全量清单.json",
+    "bytes": 446368,
+    "sha256": "30eb2467caba07e2d4b11871fb22915e89fa3a850a5a5d2007acd727226379c4"
+  },
+  {
+    "original_path": "build/review-20260912/动作库梳理.md",
+    "archive_path": "docs/archive/build-records/review-20260912/动作库梳理.md",
+    "bytes": 2138,
+    "sha256": "7726e4ae5950d932176ce7afbfe3712b8efbfa423c1b2eb77467406a57cec360"
+  },
+  {
+    "original_path": "build/review10-20260916/batch/loaded-catalog.json",
+    "archive_path": "docs/archive/build-records/review10-20260916/batch/loaded-catalog.json",
+    "bytes": 9074,
+    "sha256": "0f00999cbb9895ef4471429f460890d885b21722d5ba944dd99d74048f8b9587"
+  },
+  {
+    "original_path": "build/review10-20260916/batch/ui-checks.json",
+    "archive_path": "docs/archive/build-records/review10-20260916/batch/ui-checks.json",
+    "bytes": 1550,
+    "sha256": "a99f63ac395d0415384a865716e553d44882d937eef43e8c615b2c4a75014866"
+  },
+  {
+    "original_path": "build/review10-20260916/dynamic/ui-checks.json",
+    "archive_path": "docs/archive/build-records/review10-20260916/dynamic/ui-checks.json",
+    "bytes": 526,
+    "sha256": "3fc4ad2d1b7c71f2a67137eac0696996177e05922ac0db7dabe497b604ac43ce"
+  },
+  {
+    "original_path": "build/review10-20260916/edges/reviewed-options.json",
+    "archive_path": "docs/archive/build-records/review10-20260916/edges/reviewed-options.json",
+    "bytes": 2193,
+    "sha256": "65b63578bacdb98a7ab5078845053ed48b334813d2165f6a2935be4b69b93910"
+  },
+  {
+    "original_path": "build/review10-20260916/edges/ui-checks.json",
+    "archive_path": "docs/archive/build-records/review10-20260916/edges/ui-checks.json",
+    "bytes": 240,
+    "sha256": "7b345fa197c39217e2f4fb042d04f0b189efda9c7fb105139a0a17ee4e9af5b6"
+  },
+  {
+    "original_path": "build/review10-20260916/new-training/loaded-safety.json",
+    "archive_path": "docs/archive/build-records/review10-20260916/new-training/loaded-safety.json",
+    "bytes": 3042,
+    "sha256": "8a4e03237ed54a2def2e900a4733db869195ece797e256ab7cc35eb565337add"
+  },
+  {
+    "original_path": "build/review10-20260916/new-training/ui-checks.json",
+    "archive_path": "docs/archive/build-records/review10-20260916/new-training/ui-checks.json",
+    "bytes": 1080,
+    "sha256": "3bb9099c961298dd3b091af04a0de144e5e1f4a9acf45f2716bd44f418164cbb"
+  },
+  {
+    "original_path": "build/review10-20260916/package-verification.json",
+    "archive_path": "docs/archive/build-records/review10-20260916/package-verification.json",
+    "bytes": 984,
+    "sha256": "f59238a5858527dab4da8096552c4c8d4c11d39019893e22be905c3d06db646a"
+  },
+  {
+    "original_path": "build/review10-20260916/review/ui-checks.json",
+    "archive_path": "docs/archive/build-records/review10-20260916/review/ui-checks.json",
+    "bytes": 728,
+    "sha256": "9d44ebb00bf41731eb2ef710d92315945d30fb9fe582c0227682d8bcaf6859d6"
+  },
+  {
+    "original_path": "build/review10-20260916/routines/ui-checks.json",
+    "archive_path": "docs/archive/build-records/review10-20260916/routines/ui-checks.json",
+    "bytes": 259,
+    "sha256": "2c955b04e9aeb2156c8f82486c2ca9e1c018070fd773517b36eb016db7616aed"
+  },
+  {
+    "original_path": "build/review10-20260916/save-bug/ui-checks.json",
+    "archive_path": "docs/archive/build-records/review10-20260916/save-bug/ui-checks.json",
+    "bytes": 947,
+    "sha256": "cd1ba4e4f393963d800ad362e42302319aadcc8e998e883bb407d76cadba3981"
+  },
+  {
+    "original_path": "build/review10-20260916/save-bug-before/ui-checks.json",
+    "archive_path": "docs/archive/build-records/review10-20260916/save-bug-before/ui-checks.json",
+    "bytes": 208,
+    "sha256": "d52eb3c76954a77f465a151031aedae174c0a498548d8ca5b30385dfd466f848"
+  },
+  {
+    "original_path": "build/review10-20260916/signature.txt",
+    "archive_path": "docs/archive/build-records/review10-20260916/signature.txt",
+    "bytes": 310,
+    "sha256": "5eb3e3d220b0008e69fafb807f5ffae23ac918facb3cc20a8ee000ff8d975b8d"
+  },
+  {
+    "original_path": "build/review10-20260916/user-fixes/ui-checks.json",
+    "archive_path": "docs/archive/build-records/review10-20260916/user-fixes/ui-checks.json",
+    "bytes": 1208,
+    "sha256": "b7011a5c19a9b9731bb552e3449664b258cb4fd58c7d1d45c76f9fe7700dfa96"
+  },
+  {
+    "original_path": "build/review10-20260916/verification-summary.json",
+    "archive_path": "docs/archive/build-records/review10-20260916/verification-summary.json",
+    "bytes": 1852,
+    "sha256": "f14a8dbe4d7b1273eff326294eb9d55fe63f98afe46e17c0d3aef34f1716c375"
+  },
+  {
+    "original_path": "build/review10-20260916/动作复核全量清单.json",
+    "archive_path": "docs/archive/build-records/review10-20260916/动作复核全量清单.json",
+    "bytes": 464755,
+    "sha256": "d9af1f99e5e2f04750772073c89e53e21dea4c8117aa7e82891113ce390f5e6a"
+  },
+  {
+    "original_path": "build/review10-20260916/动作库梳理.md",
+    "archive_path": "docs/archive/build-records/review10-20260916/动作库梳理.md",
+    "bytes": 17345,
+    "sha256": "3c0785175646d9119dfc41eae2611cbb29b0cb85a03155241b4859095feefa58"
+  },
+  {
+    "original_path": "build/review2-20260913/existing-anchor-check.json",
+    "archive_path": "docs/archive/build-records/review2-20260913/existing-anchor-check.json",
+    "bytes": 1706,
+    "sha256": "4b18610cb8ddb62baddd5ff8d9b76651135484c36390dd41bf86e3f5ff9fa059"
+  },
+  {
+    "original_path": "build/review2-20260913/generated-anchor-check.json",
+    "archive_path": "docs/archive/build-records/review2-20260913/generated-anchor-check.json",
+    "bytes": 1472,
+    "sha256": "4fdee28661c82274bc13c4528ea2eb764f9e041e59c646815475b7d0722e09eb"
+  },
+  {
+    "original_path": "build/review2-20260913/package-check.json",
+    "archive_path": "docs/archive/build-records/review2-20260913/package-check.json",
+    "bytes": 561,
+    "sha256": "210b57c33c84aac0e0daece883d7e744fe1f5623ad5189509113ca3766390c27"
+  },
+  {
+    "original_path": "build/review2-20260913/signature.txt",
+    "archive_path": "docs/archive/build-records/review2-20260913/signature.txt",
+    "bytes": 310,
+    "sha256": "5eb3e3d220b0008e69fafb807f5ffae23ac918facb3cc20a8ee000ff8d975b8d"
+  },
+  {
+    "original_path": "build/review2-20260913/ui-batch2/ui-checks.json",
+    "archive_path": "docs/archive/build-records/review2-20260913/ui-batch2/ui-checks.json",
+    "bytes": 439,
+    "sha256": "1a47ffda229ba567c0b2df520332920d21f90bb3e1d321fbeff9f2dafb3a706f"
+  },
+  {
+    "original_path": "build/review2-20260913/ui-dynamic/ui-checks.json",
+    "archive_path": "docs/archive/build-records/review2-20260913/ui-dynamic/ui-checks.json",
+    "bytes": 526,
+    "sha256": "3fc4ad2d1b7c71f2a67137eac0696996177e05922ac0db7dabe497b604ac43ce"
+  },
+  {
+    "original_path": "build/review2-20260913/ui-edges/ui-checks.json",
+    "archive_path": "docs/archive/build-records/review2-20260913/ui-edges/ui-checks.json",
+    "bytes": 218,
+    "sha256": "17969b5a3efda2c27d6adf28c2163c16f62420afdc75dec467f7f26c37ebe4c6"
+  },
+  {
+    "original_path": "build/review2-20260913/ui-review/ui-checks.json",
+    "archive_path": "docs/archive/build-records/review2-20260913/ui-review/ui-checks.json",
+    "bytes": 714,
+    "sha256": "e092da10e217e01a8b6d29db464e1dac4763131be5ab84a171744a1a4e81f464"
+  },
+  {
+    "original_path": "build/review2-20260913/verification-summary.json",
+    "archive_path": "docs/archive/build-records/review2-20260913/verification-summary.json",
+    "bytes": 964,
+    "sha256": "e783749a349bda04487bdb977d36809fe9398741dffb95656d498d464f0c3fba"
+  },
+  {
+    "original_path": "build/review2-20260913/动作复核全量清单.json",
+    "archive_path": "docs/archive/build-records/review2-20260913/动作复核全量清单.json",
+    "bytes": 449548,
+    "sha256": "d9c6758344c2697132429577a55cb1e3217f4681d3e7b502f66b44b597840bd5"
+  },
+  {
+    "original_path": "build/review2-20260913/动作库梳理.md",
+    "archive_path": "docs/archive/build-records/review2-20260913/动作库梳理.md",
+    "bytes": 4524,
+    "sha256": "2300d62b0a4cd140a852153d3690c4fcfafc398975a70b340f47d7730a95d27c"
+  },
+  {
+    "original_path": "build/review3-20260914/package-check.json",
+    "archive_path": "docs/archive/build-records/review3-20260914/package-check.json",
+    "bytes": 732,
+    "sha256": "5f4d023151e9729008f0b57fe36283c01ce8d87a41fcd06d73ffd62a339d88f9"
+  },
+  {
+    "original_path": "build/review3-20260914/ui-batch3/loaded-catalog.json",
+    "archive_path": "docs/archive/build-records/review3-20260914/ui-batch3/loaded-catalog.json",
+    "bytes": 2021,
+    "sha256": "0ed2954f93bcdfea00cc2548ff0c9b940bb8313446fb8cb5e9ad35d467ceb05d"
+  },
+  {
+    "original_path": "build/review3-20260914/ui-batch3/ui-checks.json",
+    "archive_path": "docs/archive/build-records/review3-20260914/ui-batch3/ui-checks.json",
+    "bytes": 1192,
+    "sha256": "9ee735c692b36ab6f096125c65f5a3347a5d21019fbbf7a6a0db16ec4c74b6cd"
+  },
+  {
+    "original_path": "build/review3-20260914/ui-dynamic/ui-checks.json",
+    "archive_path": "docs/archive/build-records/review3-20260914/ui-dynamic/ui-checks.json",
+    "bytes": 526,
+    "sha256": "3fc4ad2d1b7c71f2a67137eac0696996177e05922ac0db7dabe497b604ac43ce"
+  },
+  {
+    "original_path": "build/review3-20260914/ui-edges/reviewed-options.json",
+    "archive_path": "docs/archive/build-records/review3-20260914/ui-edges/reviewed-options.json",
+    "bytes": 835,
+    "sha256": "86041553d59c0c546b6bbc7701348a36a72bb4ccb14ff8fd12b69a0af89e46e0"
+  },
+  {
+    "original_path": "build/review3-20260914/ui-edges/ui-checks.json",
+    "archive_path": "docs/archive/build-records/review3-20260914/ui-edges/ui-checks.json",
+    "bytes": 218,
+    "sha256": "17969b5a3efda2c27d6adf28c2163c16f62420afdc75dec467f7f26c37ebe4c6"
+  },
+  {
+    "original_path": "build/review3-20260914/ui-review/ui-checks.json",
+    "archive_path": "docs/archive/build-records/review3-20260914/ui-review/ui-checks.json",
+    "bytes": 714,
+    "sha256": "e092da10e217e01a8b6d29db464e1dac4763131be5ab84a171744a1a4e81f464"
+  },
+  {
+    "original_path": "build/review3-20260914/verification-summary.json",
+    "archive_path": "docs/archive/build-records/review3-20260914/verification-summary.json",
+    "bytes": 1157,
+    "sha256": "da9afdc0dde904dd4a4efed2555220281969be35ce4aaa4f307ce802185f27e6"
+  },
+  {
+    "original_path": "build/review3-20260914/动作复核全量清单.json",
+    "archive_path": "docs/archive/build-records/review3-20260914/动作复核全量清单.json",
+    "bytes": 451679,
+    "sha256": "39fd46773913437ca9801e918d475249272f2b64deb74c3b172d12766df2c054"
+  },
+  {
+    "original_path": "build/review3-20260914/动作库梳理.md",
+    "archive_path": "docs/archive/build-records/review3-20260914/动作库梳理.md",
+    "bytes": 6384,
+    "sha256": "9649fac8d1da62304ac8d891bb95f6b828c9b2e5e11e99893a9814a29ac7054d"
+  },
+  {
+    "original_path": "build/review4-20260914/package-check.json",
+    "archive_path": "docs/archive/build-records/review4-20260914/package-check.json",
+    "bytes": 547,
+    "sha256": "35ac08f2132559a0b91a05106a2567b332cb3ff19e82d081beffd2928fb93de3"
+  },
+  {
+    "original_path": "build/review4-20260914/ui-batch4/loaded-catalog.json",
+    "archive_path": "docs/archive/build-records/review4-20260914/ui-batch4/loaded-catalog.json",
+    "bytes": 1443,
+    "sha256": "2f1f9b979d96b4061355ddcf280964e7954c8faf1f86e021c3cafa1ea4d8001c"
+  },
+  {
+    "original_path": "build/review4-20260914/ui-batch4/ui-checks.json",
+    "archive_path": "docs/archive/build-records/review4-20260914/ui-batch4/ui-checks.json",
+    "bytes": 499,
+    "sha256": "ed2f5acabd7417035faec0aacff6feef7f1f38fbc0e2fdc9e80107cff53b8dfc"
+  },
+  {
+    "original_path": "build/review4-20260914/ui-dynamic/ui-checks.json",
+    "archive_path": "docs/archive/build-records/review4-20260914/ui-dynamic/ui-checks.json",
+    "bytes": 526,
+    "sha256": "3fc4ad2d1b7c71f2a67137eac0696996177e05922ac0db7dabe497b604ac43ce"
+  },
+  {
+    "original_path": "build/review4-20260914/ui-edges/reviewed-options.json",
+    "archive_path": "docs/archive/build-records/review4-20260914/ui-edges/reviewed-options.json",
+    "bytes": 888,
+    "sha256": "79c4de31c2b67bbc13f0ff5a48af37deee0562ee2ee3203c052824a3f9a14113"
+  },
+  {
+    "original_path": "build/review4-20260914/ui-edges/ui-checks.json",
+    "archive_path": "docs/archive/build-records/review4-20260914/ui-edges/ui-checks.json",
+    "bytes": 218,
+    "sha256": "17969b5a3efda2c27d6adf28c2163c16f62420afdc75dec467f7f26c37ebe4c6"
+  },
+  {
+    "original_path": "build/review4-20260914/ui-review/ui-checks.json",
+    "archive_path": "docs/archive/build-records/review4-20260914/ui-review/ui-checks.json",
+    "bytes": 714,
+    "sha256": "e092da10e217e01a8b6d29db464e1dac4763131be5ab84a171744a1a4e81f464"
+  },
+  {
+    "original_path": "build/review4-20260914/verification-summary.json",
+    "archive_path": "docs/archive/build-records/review4-20260914/verification-summary.json",
+    "bytes": 988,
+    "sha256": "3a72cf3828da5947f5e3e121e0df873c237b4a2aaaf3b64e44b5b88225a43408"
+  },
+  {
+    "original_path": "build/review4-20260914/动作复核全量清单.json",
+    "archive_path": "docs/archive/build-records/review4-20260914/动作复核全量清单.json",
+    "bytes": 452945,
+    "sha256": "d3ad489c15763d6edd98ba4035140e49ca60e79f7d7a5e3ae86fb08949974f98"
+  },
+  {
+    "original_path": "build/review4-20260914/动作库梳理.md",
+    "archive_path": "docs/archive/build-records/review4-20260914/动作库梳理.md",
+    "bytes": 7808,
+    "sha256": "9faf9c820caef72649bfcdb843b0001a50f428dace8c79d0de51a0a5634a2a88"
+  },
+  {
+    "original_path": "build/review5-20260914/package-check.json",
+    "archive_path": "docs/archive/build-records/review5-20260914/package-check.json",
+    "bytes": 721,
+    "sha256": "bb83cd19cba451c08351a363845a002c1b870678eec3e4a85900007f4635e960"
+  },
+  {
+    "original_path": "build/review5-20260914/ui-batch5/loaded-catalog.json",
+    "archive_path": "docs/archive/build-records/review5-20260914/ui-batch5/loaded-catalog.json",
+    "bytes": 2055,
+    "sha256": "a4e2c62f2c85a11ab88d355b38abe2bf98f45e95e668e1e9296eb8410fd206de"
+  },
+  {
+    "original_path": "build/review5-20260914/ui-batch5/ui-checks.json",
+    "archive_path": "docs/archive/build-records/review5-20260914/ui-batch5/ui-checks.json",
+    "bytes": 1016,
+    "sha256": "b2e42b8515b546eb363ca5cda289a4e145af8d56daca2bd4cd7aec109d289ac4"
+  },
+  {
+    "original_path": "build/review5-20260914/ui-dynamic/ui-checks.json",
+    "archive_path": "docs/archive/build-records/review5-20260914/ui-dynamic/ui-checks.json",
+    "bytes": 526,
+    "sha256": "3fc4ad2d1b7c71f2a67137eac0696996177e05922ac0db7dabe497b604ac43ce"
+  },
+  {
+    "original_path": "build/review5-20260914/ui-edges/reviewed-options.json",
+    "archive_path": "docs/archive/build-records/review5-20260914/ui-edges/reviewed-options.json",
+    "bytes": 997,
+    "sha256": "d1db5c7b0a85b2edb8767d3ed7eb16c3a52f28b92504cdb99c3601386dd64e80"
+  },
+  {
+    "original_path": "build/review5-20260914/ui-edges/ui-checks.json",
+    "archive_path": "docs/archive/build-records/review5-20260914/ui-edges/ui-checks.json",
+    "bytes": 218,
+    "sha256": "17969b5a3efda2c27d6adf28c2163c16f62420afdc75dec467f7f26c37ebe4c6"
+  },
+  {
+    "original_path": "build/review5-20260914/ui-review/ui-checks.json",
+    "archive_path": "docs/archive/build-records/review5-20260914/ui-review/ui-checks.json",
+    "bytes": 714,
+    "sha256": "e092da10e217e01a8b6d29db464e1dac4763131be5ab84a171744a1a4e81f464"
+  },
+  {
+    "original_path": "build/review5-20260914/verification-summary.json",
+    "archive_path": "docs/archive/build-records/review5-20260914/verification-summary.json",
+    "bytes": 1175,
+    "sha256": "ee5bac82ad5d780e43a6d7958be87abcc50c1c10456c07d02eb13e9676c77693"
+  },
+  {
+    "original_path": "build/review5-20260914/动作复核全量清单.json",
+    "archive_path": "docs/archive/build-records/review5-20260914/动作复核全量清单.json",
+    "bytes": 454822,
+    "sha256": "337631fc315b24b4edf0233338586328a303ebaa085134f0cba3117e04a217cc"
+  },
+  {
+    "original_path": "build/review5-20260914/动作库梳理.md",
+    "archive_path": "docs/archive/build-records/review5-20260914/动作库梳理.md",
+    "bytes": 9591,
+    "sha256": "a260dfaebd8f8d4787b0dfcc35d916ca0a187cca1e0ad752a0ea130a87850006"
+  },
+  {
+    "original_path": "build/review6-20260914/package-check.json",
+    "archive_path": "docs/archive/build-records/review6-20260914/package-check.json",
+    "bytes": 719,
+    "sha256": "65c5ac03f1cdc3eef1bb32e5299bb4a3b116415de439f2cc829352d369cb42ef"
+  },
+  {
+    "original_path": "build/review6-20260914/ui-batch6/loaded-catalog.json",
+    "archive_path": "docs/archive/build-records/review6-20260914/ui-batch6/loaded-catalog.json",
+    "bytes": 5396,
+    "sha256": "49236219d20e4dd45fe784242ba3d39f1408df6ac514713f7bc56e8ba7fbcb8a"
+  },
+  {
+    "original_path": "build/review6-20260914/ui-batch6/ui-checks.json",
+    "archive_path": "docs/archive/build-records/review6-20260914/ui-batch6/ui-checks.json",
+    "bytes": 1207,
+    "sha256": "dd29e8a74d81dc3959d917db6ca9dfec12ed570b44caf2ecf849dab46312fe91"
+  },
+  {
+    "original_path": "build/review6-20260914/ui-dynamic/ui-checks.json",
+    "archive_path": "docs/archive/build-records/review6-20260914/ui-dynamic/ui-checks.json",
+    "bytes": 526,
+    "sha256": "3fc4ad2d1b7c71f2a67137eac0696996177e05922ac0db7dabe497b604ac43ce"
+  },
+  {
+    "original_path": "build/review6-20260914/ui-edges/reviewed-options.json",
+    "archive_path": "docs/archive/build-records/review6-20260914/ui-edges/reviewed-options.json",
+    "bytes": 1210,
+    "sha256": "2907b9672960917fbf95e0ebcf134fa30e2aee1028865df763020c24f27e268c"
+  },
+  {
+    "original_path": "build/review6-20260914/ui-edges/ui-checks.json",
+    "archive_path": "docs/archive/build-records/review6-20260914/ui-edges/ui-checks.json",
+    "bytes": 218,
+    "sha256": "17969b5a3efda2c27d6adf28c2163c16f62420afdc75dec467f7f26c37ebe4c6"
+  },
+  {
+    "original_path": "build/review6-20260914/ui-review/ui-checks.json",
+    "archive_path": "docs/archive/build-records/review6-20260914/ui-review/ui-checks.json",
+    "bytes": 714,
+    "sha256": "e092da10e217e01a8b6d29db464e1dac4763131be5ab84a171744a1a4e81f464"
+  },
+  {
+    "original_path": "build/review6-20260914/verification-summary.json",
+    "archive_path": "docs/archive/build-records/review6-20260914/verification-summary.json",
+    "bytes": 1178,
+    "sha256": "097d3a50b125210d54a7a630757512047749317c2f5d2e3a9cd6b63a535e0771"
+  },
+  {
+    "original_path": "build/review6-20260914/动作复核全量清单.json",
+    "archive_path": "docs/archive/build-records/review6-20260914/动作复核全量清单.json",
+    "bytes": 456591,
+    "sha256": "78ed6ecf04d4d5271d7c695c5235845554eccba7dc6b6169dc030fd0727fd380"
+  },
+  {
+    "original_path": "build/review6-20260914/动作库梳理.md",
+    "archive_path": "docs/archive/build-records/review6-20260914/动作库梳理.md",
+    "bytes": 11187,
+    "sha256": "6c04c0144865348f877f13d3a7e8ce8fcd45c9dfdbff39153194a2aa5c040479"
+  },
+  {
+    "original_path": "build/review7-20260915/batch/loaded-catalog.json",
+    "archive_path": "docs/archive/build-records/review7-20260915/batch/loaded-catalog.json",
+    "bytes": 7619,
+    "sha256": "e9e5ec472ca6b5020e9f671dfd3661011a8892cbcfc46bb84cabd15d1c0cb3cc"
+  },
+  {
+    "original_path": "build/review7-20260915/batch/ui-checks.json",
+    "archive_path": "docs/archive/build-records/review7-20260915/batch/ui-checks.json",
+    "bytes": 1807,
+    "sha256": "7b5f16c1827d7e782c479bac1cbabca6f56b60dfd3e942f0a4b82877d6d2bdd0"
+  },
+  {
+    "original_path": "build/review7-20260915/dynamic/ui-checks.json",
+    "archive_path": "docs/archive/build-records/review7-20260915/dynamic/ui-checks.json",
+    "bytes": 526,
+    "sha256": "3fc4ad2d1b7c71f2a67137eac0696996177e05922ac0db7dabe497b604ac43ce"
+  },
+  {
+    "original_path": "build/review7-20260915/edges/reviewed-options.json",
+    "archive_path": "docs/archive/build-records/review7-20260915/edges/reviewed-options.json",
+    "bytes": 1536,
+    "sha256": "30528526b131840047fd9fd0c4867073b46934115af9b60fce8e2ecb21cd4ead"
+  },
+  {
+    "original_path": "build/review7-20260915/edges/ui-checks.json",
+    "archive_path": "docs/archive/build-records/review7-20260915/edges/ui-checks.json",
+    "bytes": 218,
+    "sha256": "17969b5a3efda2c27d6adf28c2163c16f62420afdc75dec467f7f26c37ebe4c6"
+  },
+  {
+    "original_path": "build/review7-20260915/next-batch.json",
+    "archive_path": "docs/archive/build-records/review7-20260915/next-batch.json",
+    "bytes": 2578,
+    "sha256": "e2c663365fc114b1222bef6fef6377cb2eeadc8504fbde45caef2843f009cb1c"
+  },
+  {
+    "original_path": "build/review7-20260915/package-verification.json",
+    "archive_path": "docs/archive/build-records/review7-20260915/package-verification.json",
+    "bytes": 719,
+    "sha256": "5053f71d915a79b845be6c6ff0a72cb542264cfc635405f2150ebdb9bc7ebce5"
+  },
+  {
+    "original_path": "build/review7-20260915/review/ui-checks.json",
+    "archive_path": "docs/archive/build-records/review7-20260915/review/ui-checks.json",
+    "bytes": 714,
+    "sha256": "e092da10e217e01a8b6d29db464e1dac4763131be5ab84a171744a1a4e81f464"
+  },
+  {
+    "original_path": "build/review7-20260915/signature.txt",
+    "archive_path": "docs/archive/build-records/review7-20260915/signature.txt",
+    "bytes": 310,
+    "sha256": "5eb3e3d220b0008e69fafb807f5ffae23ac918facb3cc20a8ee000ff8d975b8d"
+  },
+  {
+    "original_path": "build/review7-20260915/verification-summary.json",
+    "archive_path": "docs/archive/build-records/review7-20260915/verification-summary.json",
+    "bytes": 1368,
+    "sha256": "1abb78d7c885f44025fa6656f80bdde364b11283aafd3f8d42f185c3845341dd"
+  },
+  {
+    "original_path": "build/review7-20260915/动作复核全量清单.json",
+    "archive_path": "docs/archive/build-records/review7-20260915/动作复核全量清单.json",
+    "bytes": 458213,
+    "sha256": "6d27a9c1d3ad5a4f9a80be31a87834d29bf0f32479a1debc64937fab456e949a"
+  },
+  {
+    "original_path": "build/review7-20260915/动作库梳理.md",
+    "archive_path": "docs/archive/build-records/review7-20260915/动作库梳理.md",
+    "bytes": 12136,
+    "sha256": "556266487dfd56fa417a2117d32627f6acee34fe24d7e93e24021b8b24a6a413"
+  },
+  {
+    "original_path": "build/review8-20260915/batch/loaded-catalog.json",
+    "archive_path": "docs/archive/build-records/review8-20260915/batch/loaded-catalog.json",
+    "bytes": 5176,
+    "sha256": "7ab4b66e6860fbc0713a484d6e3e3fbc3af1dae4b6c82f04d5e7142f906fca0b"
+  },
+  {
+    "original_path": "build/review8-20260915/batch/ui-checks.json",
+    "archive_path": "docs/archive/build-records/review8-20260915/batch/ui-checks.json",
+    "bytes": 1093,
+    "sha256": "8becb1792d2e518c888c288352077a819225c857bf841aa88ab90293e5cc0433"
+  },
+  {
+    "original_path": "build/review8-20260915/dynamic/ui-checks.json",
+    "archive_path": "docs/archive/build-records/review8-20260915/dynamic/ui-checks.json",
+    "bytes": 526,
+    "sha256": "3fc4ad2d1b7c71f2a67137eac0696996177e05922ac0db7dabe497b604ac43ce"
+  },
+  {
+    "original_path": "build/review8-20260915/edges/reviewed-options.json",
+    "archive_path": "docs/archive/build-records/review8-20260915/edges/reviewed-options.json",
+    "bytes": 1657,
+    "sha256": "8d5db224073dd09ad02a4912e3179e01d0b19a069d558cc2e8c60eb8347ae50e"
+  },
+  {
+    "original_path": "build/review8-20260915/edges/ui-checks.json",
+    "archive_path": "docs/archive/build-records/review8-20260915/edges/ui-checks.json",
+    "bytes": 218,
+    "sha256": "17969b5a3efda2c27d6adf28c2163c16f62420afdc75dec467f7f26c37ebe4c6"
+  },
+  {
+    "original_path": "build/review8-20260915/next-batch.json",
+    "archive_path": "docs/archive/build-records/review8-20260915/next-batch.json",
+    "bytes": 2572,
+    "sha256": "4d71bb6585df0119a5b2af480f4dd584717b487ea402eb2cb69e258f7a30e545"
+  },
+  {
+    "original_path": "build/review8-20260915/package-verification.json",
+    "archive_path": "docs/archive/build-records/review8-20260915/package-verification.json",
+    "bytes": 707,
+    "sha256": "69f66fb323d7bd1a25e7403ae1909d1f6367674945c557031772733bdde541b6"
+  },
+  {
+    "original_path": "build/review8-20260915/review/ui-checks.json",
+    "archive_path": "docs/archive/build-records/review8-20260915/review/ui-checks.json",
+    "bytes": 714,
+    "sha256": "e092da10e217e01a8b6d29db464e1dac4763131be5ab84a171744a1a4e81f464"
+  },
+  {
+    "original_path": "build/review8-20260915/signature.txt",
+    "archive_path": "docs/archive/build-records/review8-20260915/signature.txt",
+    "bytes": 310,
+    "sha256": "5eb3e3d220b0008e69fafb807f5ffae23ac918facb3cc20a8ee000ff8d975b8d"
+  },
+  {
+    "original_path": "build/review8-20260915/verification-summary.json",
+    "archive_path": "docs/archive/build-records/review8-20260915/verification-summary.json",
+    "bytes": 1369,
+    "sha256": "7a590c0dcbb167e654cb2cb6cbc637c3330affd39112bac25c6421ef2a0b3649"
+  },
+  {
+    "original_path": "build/review8-20260915/动作复核全量清单.json",
+    "archive_path": "docs/archive/build-records/review8-20260915/动作复核全量清单.json",
+    "bytes": 460032,
+    "sha256": "fced38280dca39a4435975488323bd4a1ce86c0875022750198bbc5d43f88ee2"
+  },
+  {
+    "original_path": "build/review8-20260915/动作库梳理.md",
+    "archive_path": "docs/archive/build-records/review8-20260915/动作库梳理.md",
+    "bytes": 13801,
+    "sha256": "2468f9910dc53084bde7509b2f575b93abef152b0cce39e853c7e9f703374e4f"
+  },
+  {
+    "original_path": "build/review9-20260915/batch/loaded-catalog.json",
+    "archive_path": "docs/archive/build-records/review9-20260915/batch/loaded-catalog.json",
+    "bytes": 9248,
+    "sha256": "268d5c2ad45fe9f5d564c08bdf2b27e89def2d7f26907fc009f05143e335f94d"
+  },
+  {
+    "original_path": "build/review9-20260915/batch/ui-checks.json",
+    "archive_path": "docs/archive/build-records/review9-20260915/batch/ui-checks.json",
+    "bytes": 2209,
+    "sha256": "83e9d221e098a6e5e1494ea9ad9431bb0d8bcf67b39d0de90fe7f15f5e0a46f9"
+  },
+  {
+    "original_path": "build/review9-20260915/dynamic/ui-checks.json",
+    "archive_path": "docs/archive/build-records/review9-20260915/dynamic/ui-checks.json",
+    "bytes": 526,
+    "sha256": "3fc4ad2d1b7c71f2a67137eac0696996177e05922ac0db7dabe497b604ac43ce"
+  },
+  {
+    "original_path": "build/review9-20260915/edges/reviewed-options.json",
+    "archive_path": "docs/archive/build-records/review9-20260915/edges/reviewed-options.json",
+    "bytes": 1950,
+    "sha256": "1aa3cb7eb12a694cc3243a201ef8f8431415527ae480500f706be03a2f948886"
+  },
+  {
+    "original_path": "build/review9-20260915/edges/ui-checks.json",
+    "archive_path": "docs/archive/build-records/review9-20260915/edges/ui-checks.json",
+    "bytes": 218,
+    "sha256": "17969b5a3efda2c27d6adf28c2163c16f62420afdc75dec467f7f26c37ebe4c6"
+  },
+  {
+    "original_path": "build/review9-20260915/package-verification.json",
+    "archive_path": "docs/archive/build-records/review9-20260915/package-verification.json",
+    "bytes": 667,
+    "sha256": "d771115c4fe9813451f0dba87c79bc87dd5bfee5de2cbe75bc10d1061c84a79a"
+  },
+  {
+    "original_path": "build/review9-20260915/review/ui-checks.json",
+    "archive_path": "docs/archive/build-records/review9-20260915/review/ui-checks.json",
+    "bytes": 714,
+    "sha256": "e092da10e217e01a8b6d29db464e1dac4763131be5ab84a171744a1a4e81f464"
+  },
+  {
+    "original_path": "build/review9-20260915/signature.txt",
+    "archive_path": "docs/archive/build-records/review9-20260915/signature.txt",
+    "bytes": 310,
+    "sha256": "5eb3e3d220b0008e69fafb807f5ffae23ac918facb3cc20a8ee000ff8d975b8d"
+  },
+  {
+    "original_path": "build/review9-20260915/verification-summary.json",
+    "archive_path": "docs/archive/build-records/review9-20260915/verification-summary.json",
+    "bytes": 1423,
+    "sha256": "b6030d823ad3aa6d466a3a13e6b0d947c6a8cd45e68794c17857f92adfdc9d7c"
+  },
+  {
+    "original_path": "build/review9-20260915/动作复核全量清单.json",
+    "archive_path": "docs/archive/build-records/review9-20260915/动作复核全量清单.json",
+    "bytes": 462326,
+    "sha256": "3b1b361c4c6b003722f7ec98d953498371d292932c50181a6cf5d947e6b3dc36"
+  },
+  {
+    "original_path": "build/review9-20260915/动作库梳理.md",
+    "archive_path": "docs/archive/build-records/review9-20260915/动作库梳理.md",
+    "bytes": 15467,
+    "sha256": "24abbcb22fa1cc5285841a46c0711b12e9a8840fc597600b64ebe22f6b93e7c6"
+  }
+]

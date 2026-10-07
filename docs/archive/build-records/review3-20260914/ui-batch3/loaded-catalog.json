@@ -1,0 +1,109 @@
+{
+  "dataset_1324_0285": {
+    "name": "哑铃交替弯举",
+    "patterns": [
+      "屈肘"
+    ],
+    "primary": [
+      "肱二头肌"
+    ],
+    "isHold": false,
+    "perSide": false,
+    "shoulder": "MEDIUM",
+    "lower_back": "NONE",
+    "knee": "NONE"
+  },
+  "dataset_1324_0310": {
+    "name": "哑铃前平举",
+    "patterns": [
+      "肩屈曲"
+    ],
+    "primary": [
+      "三角肌"
+    ],
+    "isHold": false,
+    "perSide": false,
+    "shoulder": "MEDIUM",
+    "lower_back": "NONE",
+    "knee": "NONE"
+  },
+  "dataset_1324_0383": {
+    "name": "哑铃俯身反向飞鸟",
+    "patterns": [
+      "肩水平外展",
+      "俯身稳定"
+    ],
+    "primary": [
+      "三角肌"
+    ],
+    "isHold": false,
+    "perSide": false,
+    "shoulder": "MEDIUM",
+    "lower_back": "MEDIUM",
+    "knee": "NONE"
+  },
+  "dataset_1324_0430": {
+    "name": "哑铃站姿单臂臂屈伸",
+    "patterns": [
+      "伸肘",
+      "过顶伸展"
+    ],
+    "primary": [
+      "肱三头肌"
+    ],
+    "isHold": false,
+    "perSide": true,
+    "shoulder": "MEDIUM",
+    "lower_back": "MEDIUM",
+    "knee": "NONE"
+  },
+  "dataset_1324_0630": {
+    "name": "登山跑",
+    "patterns": [
+      "核心",
+      "有氧",
+      "高位支撑",
+      "动态提膝"
+    ],
+    "primary": [
+      "腹肌",
+      "心肺系统"
+    ],
+    "isHold": false,
+    "perSide": false,
+    "shoulder": "MEDIUM",
+    "lower_back": "MEDIUM",
+    "knee": "MEDIUM"
+  },
+  "dataset_1324_0872": {
+    "name": "反向卷腹",
+    "patterns": [
+      "核心",
+      "脊柱屈曲"
+    ],
+    "primary": [
+      "腹肌"
+    ],
+    "isHold": false,
+    "perSide": false,
+    "shoulder": "NONE",
+    "lower_back": "MEDIUM",
+    "knee": "NONE"
+  },
+  "dataset_1324_3699": {
+    "name": "交替拍肩",
+    "patterns": [
+      "核心",
+      "抗旋转",
+      "高位支撑"
+    ],
+    "primary": [
+      "腹肌"
+    ],
+    "isHold": false,
+    "perSide": false,
+    "shoulder": "MEDIUM",
+    "lower_back": "MEDIUM",
+    "knee": "NONE"
+  }
+}

@@ -1,0 +1,390 @@
+{
+  "dataset_1324_0277": {
+    "name": "下斜仰卧起坐（勾脚式）",
+    "equipment": [
+      "自重"
+    ],
+    "requiredEquipment": [
+      "带勾脚的下斜训练凳"
+    ],
+    "available": {
+      "自重": false,
+      "哑铃": false,
+      "平板训练凳": false,
+      "哑铃|平板训练凳": false,
+      "哑铃|上斜训练凳": false,
+      "哑铃|下斜训练凳": false,
+      "直立靠背训练凳": false,
+      "哑铃|直立靠背训练凳": false,
+      "单杠": false,
+      "双杠": false,
+      "中立握引体架": false,
+      "上斜训练凳": false,
+      "带勾脚的下斜训练凳": true,
+      "稳固踏台": false,
+      "墙面": false,
+      "稳固踏台|墙面": false
+    },
+    "patterns": [
+      "核心",
+      "躯干屈曲"
+    ],
+    "primary": [
+      "腹肌"
+    ],
+    "isHold": false,
+    "perSide": false,
+    "shoulder": "NONE",
+    "lower_back": "MEDIUM",
+    "knee": "NONE"
+  },
+  "dataset_1324_0279": {
+    "name": "下斜俯卧撑",
+    "equipment": [
+      "自重"
+    ],
+    "requiredEquipment": [
+      "稳固踏台"
+    ],
+    "available": {
+      "自重": false,
+      "哑铃": false,
+      "平板训练凳": false,
+      "哑铃|平板训练凳": false,
+      "哑铃|上斜训练凳": false,
+      "哑铃|下斜训练凳": false,
+      "直立靠背训练凳": false,
+      "哑铃|直立靠背训练凳": false,
+      "单杠": false,
+      "双杠": false,
+      "中立握引体架": false,
+      "上斜训练凳": false,
+      "带勾脚的下斜训练凳": false,
+      "稳固踏台": true,
+      "墙面": false,
+      "稳固踏台|墙面": true
+    },
+    "patterns": [
+      "推"
+    ],
+    "primary": [
+      "胸肌",
+      "肱三头肌"
+    ],
+    "isHold": false,
+    "perSide": false,
+    "shoulder": "MEDIUM",
+    "lower_back": "NONE",
+    "knee": "NONE"
+  },
+  "dataset_1324_0282": {
+    "name": "下斜仰卧起坐",
+    "equipment": [
+      "自重"
+    ],
+    "requiredEquipment": [
+      "带勾脚的下斜训练凳"
+    ],
+    "available": {
+      "自重": false,
+      "哑铃": false,
+      "平板训练凳": false,
+      "哑铃|平板训练凳": false,
+      "哑铃|上斜训练凳": false,
+      "哑铃|下斜训练凳": false,
+      "直立靠背训练凳": false,
+      "哑铃|直立靠背训练凳": false,
+      "单杠": false,
+      "双杠": false,
+      "中立握引体架": false,
+      "上斜训练凳": false,
+      "带勾脚的下斜训练凳": true,
+      "稳固踏台": false,
+      "墙面": false,
+      "稳固踏台|墙面": false
+    },
+    "patterns": [
+      "核心"
+    ],
+    "primary": [
+      "腹肌",
+      "髋屈肌群"
+    ],
+    "isHold": false,
+    "perSide": false,
+    "shoulder": "NONE",
+    "lower_back": "MEDIUM",
+    "knee": "NONE"
+  },
+  "dataset_1324_0284": {
+    "name": "扶墙台阶提踵",
+    "equipment": [
+      "自重"
+    ],
+    "requiredEquipment": [
+      "稳固踏台",
+      "墙面"
+    ],
+    "available": {
+      "自重": false,
+      "哑铃": false,
+      "平板训练凳": false,
+      "哑铃|平板训练凳": false,
+      "哑铃|上斜训练凳": false,
+      "哑铃|下斜训练凳": false,
+      "直立靠背训练凳": false,
+      "哑铃|直立靠背训练凳": false,
+      "单杠": false,
+      "双杠": false,
+      "中立握引体架": false,
+      "上斜训练凳": false,
+      "带勾脚的下斜训练凳": false,
+      "稳固踏台": false,
+      "墙面": false,
+      "稳固踏台|墙面": true
+    },
+    "patterns": [
+      "下肢"
+    ],
+    "primary": [
+      "小腿肌"
+    ],
+    "isHold": false,
+    "perSide": false,
+    "shoulder": "NONE",
+    "lower_back": "NONE",
+    "knee": "MEDIUM"
+  },
+  "dataset_1324_0312": {
+    "name": "哑铃双臂锤式弯举",
+    "equipment": [
+      "哑铃"
+    ],
+    "requiredEquipment": [],
+    "available": {
+      "自重": false,
+      "哑铃": true,
+      "平板训练凳": false,
+      "哑铃|平板训练凳": true,
+      "哑铃|上斜训练凳": true,
+      "哑铃|下斜训练凳": true,
+      "直立靠背训练凳": false,
+      "哑铃|直立靠背训练凳": true,
+      "单杠": false,
+      "双杠": false,
+      "中立握引体架": false,
+      "上斜训练凳": false,
+      "带勾脚的下斜训练凳": false,
+      "稳固踏台": false,
+      "墙面": false,
+      "稳固踏台|墙面": false
+    },
+    "patterns": [
+      "屈肘",
+      "站姿稳定",
+      "辅助"
+    ],
+    "primary": [
+      "肱二头肌",
+      "前臂"
+    ],
+    "isHold": false,
+    "perSide": false,
+    "shoulder": "MEDIUM",
+    "lower_back": "LOW",
+    "knee": "NONE"
+  },
+  "dataset_1324_0314": {
+    "name": "哑铃上斜卧推",
+    "equipment": [
+      "哑铃"
+    ],
+    "requiredEquipment": [
+      "上斜训练凳"
+    ],
+    "available": {
+      "自重": false,
+      "哑铃": false,
+      "平板训练凳": false,
+      "哑铃|平板训练凳": false,
+      "哑铃|上斜训练凳": true,
+      "哑铃|下斜训练凳": false,
+      "直立靠背训练凳": false,
+      "哑铃|直立靠背训练凳": false,
+      "单杠": false,
+      "双杠": false,
+      "中立握引体架": false,
+      "上斜训练凳": false,
+      "带勾脚的下斜训练凳": false,
+      "稳固踏台": false,
+      "墙面": false,
+      "稳固踏台|墙面": false
+    },
+    "patterns": [
+      "推"
+    ],
+    "primary": [
+      "胸肌",
+      "肩部"
+    ],
+    "isHold": false,
+    "perSide": false,
+    "shoulder": "MEDIUM",
+    "lower_back": "NONE",
+    "knee": "NONE"
+  },
+  "dataset_1324_0315": {
+    "name": "哑铃上斜弯举",
+    "equipment": [
+      "哑铃"
+    ],
+    "requiredEquipment": [
+      "上斜训练凳"
+    ],
+    "available": {
+      "自重": false,
+      "哑铃": false,
+      "平板训练凳": false,
+      "哑铃|平板训练凳": false,
+      "哑铃|上斜训练凳": true,
+      "哑铃|下斜训练凳": false,
+      "直立靠背训练凳": false,
+      "哑铃|直立靠背训练凳": false,
+      "单杠": false,
+      "双杠": false,
+      "中立握引体架": false,
+      "上斜训练凳": false,
+      "带勾脚的下斜训练凳": false,
+      "稳固踏台": false,
+      "墙面": false,
+      "稳固踏台|墙面": false
+    },
+    "patterns": [
+      "屈肘",
+      "辅助"
+    ],
+    "primary": [
+      "肱二头肌"
+    ],
+    "isHold": false,
+    "perSide": false,
+    "shoulder": "MEDIUM",
+    "lower_back": "NONE",
+    "knee": "NONE"
+  },
+  "dataset_1324_0316": {
+    "name": "哑铃上斜卧推（另一示范）",
+    "equipment": [
+      "哑铃"
+    ],
+    "requiredEquipment": [
+      "上斜训练凳"
+    ],
+    "available": {
+      "自重": false,
+      "哑铃": false,
+      "平板训练凳": false,
+      "哑铃|平板训练凳": false,
+      "哑铃|上斜训练凳": true,
+      "哑铃|下斜训练凳": false,
+      "直立靠背训练凳": false,
+      "哑铃|直立靠背训练凳": false,
+      "单杠": false,
+      "双杠": false,
+      "中立握引体架": false,
+      "上斜训练凳": false,
+      "带勾脚的下斜训练凳": false,
+      "稳固踏台": false,
+      "墙面": false,
+      "稳固踏台|墙面": false
+    },
+    "patterns": [
+      "推"
+    ],
+    "primary": [
+      "胸肌",
+      "肩部"
+    ],
+    "isHold": false,
+    "perSide": false,
+    "shoulder": "MEDIUM",
+    "lower_back": "NONE",
+    "knee": "NONE"
+  },
+  "dataset_1324_0317": {
+    "name": "哑铃上斜弯举（另一示范）",
+    "equipment": [
+      "哑铃"
+    ],
+    "requiredEquipment": [
+      "上斜训练凳"
+    ],
+    "available": {
+      "自重": false,
+      "哑铃": false,
+      "平板训练凳": false,
+      "哑铃|平板训练凳": false,
+      "哑铃|上斜训练凳": true,
+      "哑铃|下斜训练凳": false,
+      "直立靠背训练凳": false,
+      "哑铃|直立靠背训练凳": false,
+      "单杠": false,
+      "双杠": false,
+      "中立握引体架": false,
+      "上斜训练凳": false,
+      "带勾脚的下斜训练凳": false,
+      "稳固踏台": false,
+      "墙面": false,
+      "稳固踏台|墙面": false
+    },
+    "patterns": [
+      "屈肘",
+      "辅助"
+    ],
+    "primary": [
+      "肱二头肌"
+    ],
+    "isHold": false,
+    "perSide": false,
+    "shoulder": "MEDIUM",
+    "lower_back": "NONE",
+    "knee": "NONE"
+  },
+  "dataset_1324_0443": {
+    "name": "肘触膝",
+    "equipment": [
+      "自重"
+    ],
+    "requiredEquipment": [],
+    "available": {
+      "自重": true,
+      "哑铃": true,
+      "平板训练凳": true,
+      "哑铃|平板训练凳": true,
+      "哑铃|上斜训练凳": true,
+      "哑铃|下斜训练凳": true,
+      "直立靠背训练凳": true,
+      "哑铃|直立靠背训练凳": true,
+      "单杠": true,
+      "双杠": true,
+      "中立握引体架": true,
+      "上斜训练凳": true,
+      "带勾脚的下斜训练凳": true,
+      "稳固踏台": true,
+      "墙面": true,
+      "稳固踏台|墙面": true
+    },
+    "patterns": [
+      "核心"
+    ],
+    "primary": [
+      "腹肌",
+      "腹斜肌"
+    ],
+    "isHold": false,
+    "perSide": false,
+    "shoulder": "NONE",
+    "lower_back": "MEDIUM",
+    "knee": "NONE"
+  }
+}

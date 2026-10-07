@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- pulse line behind the dumbbell (science / health) -->
+    <path
+        android:pathData="M22,54 L40,54 L46,42 L54,68 L60,54 L86,54"
+        android:strokeColor="#FFFFFF"
+        android:strokeAlpha="0.32"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <!-- left weight -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M32,36 L34,36 Q41,36 41,43 L41,65 Q41,72 34,72 L32,72 Q25,72 25,65 L25,43 Q25,36 32,36 Z" />
+    <!-- right weight -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M74,36 L76,36 Q83,36 83,43 L83,65 Q83,72 76,72 L74,72 Q67,72 67,65 L67,43 Q67,36 74,36 Z" />
+    <!-- bar -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M44,50 L64,50 Q67,50 67,54 Q67,58 64,58 L44,58 Q41,58 41,54 Q41,50 44,50 Z" />
+</vector>

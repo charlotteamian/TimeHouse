@@ -1,0 +1,222 @@
+[
+  {
+    "id": "0027",
+    "name": "杠铃俯身划船",
+    "prompt": "Use case: scientific-educational. Create ONE production exercise-animation sprite sheet, square 1024x1024, exact 2 rows x 2 columns of equal 512x512 cells. Reading order top-left, top-right, bottom-left, bottom-right is frames 1,2,3,4 of ONE exercise. Each cell has the SAME adult male anatomical fitness model: grayscale muscle anatomy, black short hair, black fitted shorts, bare feet. Fine clean gray lines, high quality instructional illustration, only specified working muscles muted coral red. Pure white background. No letters, numbers, arrows, dividers, borders, watermark, scenery or floor texture. Every cell uses IDENTICAL orthographic camera, scale and floor height; render full body and equipment with generous margins. Static body parts and fixed equipment occupy EXACT SAME local pixel coordinates in every cell. Do not auto-center each pose. Do not crop limbs or head. One human with exactly two arms, two legs and plausible hands in each cell. Four phases must depict real joint motion, never camera motion. Frame 4 repeats frame 2 for a back-and-forth animation. Exercise: Barbell bent-over row. Side three-quarter facing right. Fixed feet and stable hip hinge with torso 25 degrees above horizontal, neutral back and softly bent knees. Both hands shoulder-width overhand grip a barbell. Frame1 arms hanging vertically bar below shoulders; frame2 elbows pulling halfway back; frame3 bar pulled close to lower ribs, elbows behind body; frame4 repeat2. Hips torso head legs completely stationary, only arms move. Highlight lats and middle back.",
+    "anchor": [
+      0.25,
+      0.78,
+      0.74,
+      0.98
+    ]
+  },
+  {
+    "id": "0032",
+    "name": "杠铃硬拉",
+    "prompt": "Use case: scientific-educational. Create ONE production exercise-animation sprite sheet, square 1024x1024, exact 2 rows x 2 columns of equal 512x512 cells. Reading order top-left, top-right, bottom-left, bottom-right is frames 1,2,3,4 of ONE exercise. Each cell has the SAME adult male anatomical fitness model: grayscale muscle anatomy, black short hair, black fitted shorts, bare feet. Fine clean gray lines, high quality instructional illustration, only specified working muscles muted coral red. Pure white background. No letters, numbers, arrows, dividers, borders, watermark, scenery or floor texture. Every cell uses IDENTICAL orthographic camera, scale and floor height; render full body and equipment with generous margins. Static body parts and fixed equipment occupy EXACT SAME local pixel coordinates in every cell. Do not auto-center each pose. Do not crop limbs or head. One human with exactly two arms, two legs and plausible hands in each cell. Four phases must depict real joint motion, never camera motion. Frame 4 repeats frame 2 for a back-and-forth animation. Exercise: Conventional barbell deadlift. Side three-quarter view facing right. Feet at fixed coordinates hip-width apart, bar close to shins, shoulder-width overhand grip. Frame1 standing tall bar at thighs; frame2 hinge down bar at knees; frame3 bar on floor beside shins, hips back, knees bent, straight neutral spine, shoulders slightly forward of bar; frame4 repeat2. Arms straight throughout. Floor fixed, heels down. Highlight glutes and hamstrings.",
+    "anchor": [
+      0.3,
+      0.86,
+      0.69,
+      0.98
+    ]
+  },
+  {
+    "id": "0868",
+    "name": "绳索弯举",
+    "prompt": "Use case: scientific-educational. Create ONE production exercise-animation sprite sheet, square 1024x1024, exact 2 rows x 2 columns of equal 512x512 cells. Reading order top-left, top-right, bottom-left, bottom-right is frames 1,2,3,4 of ONE exercise. Each cell has the SAME adult male anatomical fitness model: grayscale muscle anatomy, black short hair, black fitted shorts, bare feet. Fine clean gray lines, high quality instructional illustration, only specified working muscles muted coral red. Pure white background. No letters, numbers, arrows, dividers, borders, watermark, scenery or floor texture. Every cell uses IDENTICAL orthographic camera, scale and floor height; render full body and equipment with generous margins. Static body parts and fixed equipment occupy EXACT SAME local pixel coordinates in every cell. Do not auto-center each pose. Do not crop limbs or head. One human with exactly two arms, two legs and plausible hands in each cell. Four phases must depict real joint motion, never camera motion. Frame 4 repeats frame 2 for a back-and-forth animation. Exercise: Low-pulley standing cable biceps curl. Side view facing right. Full model left, fixed pulley near floor right, simple black upright support (no exposed weight stack). Short straight handle in both hands, cable taut from handle to low pulley. Upper arms pinned vertically by torso. Frame1 arms down handle near thighs; frame2 elbows90 forearms forward; frame3 elbows flexed handle near front of shoulders; frame4 repeat2. Feet torso head support identical. Highlight biceps.",
+    "anchor": [
+      0.72,
+      0.65,
+      0.96,
+      0.97
+    ]
+  },
+  {
+    "id": "0162",
+    "name": "绳索前平举",
+    "prompt": "Use case: scientific-educational. Create ONE production exercise-animation sprite sheet, square 1024x1024, exact 2 rows x 2 columns of equal 512x512 cells. Reading order top-left, top-right, bottom-left, bottom-right is frames 1,2,3,4 of ONE exercise. Each cell has the SAME adult male anatomical fitness model: grayscale muscle anatomy, black short hair, black fitted shorts, bare feet. Fine clean gray lines, high quality instructional illustration, only specified working muscles muted coral red. Pure white background. No letters, numbers, arrows, dividers, borders, watermark, scenery or floor texture. Every cell uses IDENTICAL orthographic camera, scale and floor height; render full body and equipment with generous margins. Static body parts and fixed equipment occupy EXACT SAME local pixel coordinates in every cell. Do not auto-center each pose. Do not crop limbs or head. One human with exactly two arms, two legs and plausible hands in each cell. Four phases must depict real joint motion, never camera motion. Frame 4 repeats frame 2 for a back-and-forth animation. Exercise: Low-pulley cable front raise. Side view facing right. Full model left, fixed low pulley on a compact support at right, below knee height. Short bar held with both hands. Frame1 arms straight down bar just in front of thighs; frame2 both nearly straight arms raise forward45 degrees; frame3 bar forward at shoulder height arms horizontal; frame4 repeat2. Cable taut from moving handle to fixed low pulley, clearly outside body. Feet torso head fixed. Highlight anterior deltoids.",
+    "anchor": [
+      0.25,
+      0.76,
+      0.62,
+      0.98
+    ]
+  },
+  {
+    "id": "0178",
+    "name": "绳索侧平举",
+    "prompt": "Use case: scientific-educational. Create ONE production exercise-animation sprite sheet, square 1024x1024, exact 2 rows x 2 columns of equal 512x512 cells. Reading order top-left, top-right, bottom-left, bottom-right is frames 1,2,3,4 of ONE exercise. Each cell has the SAME adult male anatomical fitness model: grayscale muscle anatomy, black short hair, black fitted shorts, bare feet. Fine clean gray lines, high quality instructional illustration, only specified working muscles muted coral red. Pure white background. No letters, numbers, arrows, dividers, borders, watermark, scenery or floor texture. Every cell uses IDENTICAL orthographic camera, scale and floor height; render full body and equipment with generous margins. Static body parts and fixed equipment occupy EXACT SAME local pixel coordinates in every cell. Do not auto-center each pose. Do not crop limbs or head. One human with exactly two arms, two legs and plausible hands in each cell. Four phases must depict real joint motion, never camera motion. Frame 4 repeats frame 2 for a back-and-forth animation. Exercise: Single-arm cable lateral raise using a LOW pulley. Front three-quarter view. Man centered; tiny fixed low pulley far to his LEFT. His RIGHT hand holds D-handle, cable crosses in FRONT of thighs. Left hand rests on hip. Frame1 right arm down alongside right thigh; frame2 right arm raises laterally45 degrees; frame3 right arm sideways to shoulder height with slight elbow bend; frame4 repeat2. Only right arm moves, torso and feet and left arm and pulley fixed. Highlight right lateral deltoid. One cable and one handle, no extra hand, full body.",
+    "anchor": [
+      0.37,
+      0.76,
+      0.7,
+      0.98
+    ]
+  },
+  {
+    "id": "0180",
+    "name": "绳索低坐姿划船",
+    "prompt": "Use case: scientific-educational. Create ONE production exercise-animation sprite sheet, square 1024x1024, exact 2 rows x 2 columns of equal 512x512 cells. Reading order top-left, top-right, bottom-left, bottom-right is frames 1,2,3,4 of ONE exercise. Each cell has the SAME adult male anatomical fitness model: grayscale muscle anatomy, black short hair, black fitted shorts, bare feet. Fine clean gray lines, high quality instructional illustration, only specified working muscles muted coral red. Pure white background. No letters, numbers, arrows, dividers, borders, watermark, scenery or floor texture. Every cell uses IDENTICAL orthographic camera, scale and floor height; render full body and equipment with generous margins. Static body parts and fixed equipment occupy EXACT SAME local pixel coordinates in every cell. Do not auto-center each pose. Do not crop limbs or head. One human with exactly two arms, two legs and plausible hands in each cell. Four phases must depict real joint motion, never camera motion. Frame 4 repeats frame 2 for a back-and-forth animation. Exercise: Low cable seated row. Strict side view with slight three-quarter reveal facing right. Man seated on fixed low flat bench, both feet planted on fixed angled footplate, knees slightly bent. Low pulley ahead at shin height. Both hands hold ONE V handle. Frame1 arms extended forward, upright neutral torso; frame2 elbows bent halfway; frame3 handle near navel elbows beside ribs; frame4 repeat2. Bench feet hips torso completely stationary, no rocking. Cable line from handle to pulley remains taut. Highlight lats mid-back.",
+    "anchor": [
+      0.05,
+      0.8,
+      0.95,
+      0.98
+    ]
+  },
+  {
+    "id": "0861",
+    "name": "绳索坐姿划船",
+    "prompt": "Use case: scientific-educational. Create ONE production exercise-animation sprite sheet, square 1024x1024, exact 2 rows x 2 columns of equal 512x512 cells. Reading order top-left, top-right, bottom-left, bottom-right is frames 1,2,3,4 of ONE exercise. Each cell has the SAME adult male anatomical fitness model: grayscale muscle anatomy, black short hair, black fitted shorts, bare feet. Fine clean gray lines, high quality instructional illustration, only specified working muscles muted coral red. Pure white background. No letters, numbers, arrows, dividers, borders, watermark, scenery or floor texture. Every cell uses IDENTICAL orthographic camera, scale and floor height; render full body and equipment with generous margins. Static body parts and fixed equipment occupy EXACT SAME local pixel coordinates in every cell. Do not auto-center each pose. Do not crop limbs or head. One human with exactly two arms, two legs and plausible hands in each cell. Four phases must depict real joint motion, never camera motion. Frame 4 repeats frame 2 for a back-and-forth animation. Exercise: Seated cable row with a straight wide-grip handle. Side three-quarter facing right. Man upright on fixed bench facing a compact cable column right. Both feet planted on angled footplate, knees slightly flexed, torso vertical. Cable from fixed pulley at navel height to middle of handle. Frame1 arms reach forward; frame2 bend elbows halfway; frame3 handle near lower ribs and elbows travel backward; frame4 repeat2. Hips chest head never rock, bench and footplate identical. Highlight lats and mid-back.",
+    "anchor": [
+      0.05,
+      0.8,
+      0.95,
+      0.98
+    ]
+  },
+  {
+    "id": "1760",
+    "name": "哑铃杯式深蹲",
+    "prompt": "Use case: scientific-educational. Create ONE production exercise-animation sprite sheet, square 1024x1024, exact 2 rows x 2 columns of equal 512x512 cells. Reading order top-left, top-right, bottom-left, bottom-right is frames 1,2,3,4 of ONE exercise. Each cell has the SAME adult male anatomical fitness model: grayscale muscle anatomy, black short hair, black fitted shorts, bare feet. Fine clean gray lines, high quality instructional illustration, only specified working muscles muted coral red. Pure white background. No letters, numbers, arrows, dividers, borders, watermark, scenery or floor texture. Every cell uses IDENTICAL orthographic camera, scale and floor height; render full body and equipment with generous margins. Static body parts and fixed equipment occupy EXACT SAME local pixel coordinates in every cell. Do not auto-center each pose. Do not crop limbs or head. One human with exactly two arms, two legs and plausible hands in each cell. Four phases must depict real joint motion, never camera motion. Frame 4 repeats frame 2 for a back-and-forth animation. Exercise: Dumbbell goblet squat. Side three-quarter view facing right. ONE dumbbell held vertically close to chest, both palms cup underside of top dumbbell head, elbows down; dumbbell remains at chest in every frame. Frame1 standing tall; frame2 halfway squat; frame3 deep controlled squat thighs roughly parallel, heels firmly on floor, knees tracking toes, back neutral; frame4 repeat2. Full head feet weight visible in every frame, foot coordinates exactly fixed. No rack or backdrop. Highlight quadriceps glutes.",
+    "anchor": [
+      0.34,
+      0.86,
+      0.75,
+      0.98
+    ]
+  },
+  {
+    "id": "0313",
+    "name": "哑铃锤式弯举",
+    "prompt": "Use case: scientific-educational. Create ONE production exercise-animation sprite sheet, square 1024x1024, exact 2 rows x 2 columns of equal 512x512 cells. Reading order top-left, top-right, bottom-left, bottom-right is frames 1,2,3,4 of ONE exercise. Each cell has the SAME adult male anatomical fitness model: grayscale muscle anatomy, black short hair, black fitted shorts, bare feet. Fine clean gray lines, high quality instructional illustration, only specified working muscles muted coral red. Pure white background. No letters, numbers, arrows, dividers, borders, watermark, scenery or floor texture. Every cell uses IDENTICAL orthographic camera, scale and floor height; render full body and equipment with generous margins. Static body parts and fixed equipment occupy EXACT SAME local pixel coordinates in every cell. Do not auto-center each pose. Do not crop limbs or head. One human with exactly two arms, two legs and plausible hands in each cell. Four phases must depict real joint motion, never camera motion. Frame 4 repeats frame 2 for a back-and-forth animation. Exercise: Bilateral dumbbell hammer curl. Front three-quarter view. Upper arms fixed by sides, palms face inward towards each other throughout (neutral grip). Frame1 elbows straight dumbbells by thighs; frame2 elbows90; frame3 forearms near vertical dumbbells in front of shoulders; frame4 repeat2. Each dumbbell axis follows hand neutral orientation, one weight each hand. No body swing, head torso hips feet identical. Highlight brachialis/biceps and brachioradialis.",
+    "anchor": [
+      0.32,
+      0.72,
+      0.69,
+      0.98
+    ]
+  },
+  {
+    "id": "0333",
+    "name": "哑铃后踢",
+    "prompt": "Use case: scientific-educational. Create ONE production exercise-animation sprite sheet, square 1024x1024, exact 2 rows x 2 columns of equal 512x512 cells. Reading order top-left, top-right, bottom-left, bottom-right is frames 1,2,3,4 of ONE exercise. Each cell has the SAME adult male anatomical fitness model: grayscale muscle anatomy, black short hair, black fitted shorts, bare feet. Fine clean gray lines, high quality instructional illustration, only specified working muscles muted coral red. Pure white background. No letters, numbers, arrows, dividers, borders, watermark, scenery or floor texture. Every cell uses IDENTICAL orthographic camera, scale and floor height; render full body and equipment with generous margins. Static body parts and fixed equipment occupy EXACT SAME local pixel coordinates in every cell. Do not auto-center each pose. Do not crop limbs or head. One human with exactly two arms, two legs and plausible hands in each cell. Four phases must depict real joint motion, never camera motion. Frame 4 repeats frame 2 for a back-and-forth animation. Exercise: Bilateral dumbbell triceps kickback. Side three-quarter facing right. Maintain fixed hip hinge, torso nearly horizontal, neutral back, softly bent knees. Upper arms held alongside torso parallel to spine, elbows behind ribs. Frame1 elbows90 forearms hanging downward; frame2 forearms extend halfway backward; frame3 elbows fully straight arms in line with torso and dumbbells behind hips; frame4 repeat2. Upper arms shoulders feet hips torso identical, only forearms rotate around fixed elbows. Highlight triceps.",
+    "anchor": [
+      0.32,
+      0.78,
+      0.7,
+      0.98
+    ]
+  },
+  {
+    "id": "0405",
+    "name": "哑铃坐姿肩推",
+    "prompt": "Use case: scientific-educational. Create ONE production exercise-animation sprite sheet, square 1024x1024, exact 2 rows x 2 columns of equal 512x512 cells. Reading order top-left, top-right, bottom-left, bottom-right is frames 1,2,3,4 of ONE exercise. Each cell has the SAME adult male anatomical fitness model: grayscale muscle anatomy, black short hair, black fitted shorts, bare feet. Fine clean gray lines, high quality instructional illustration, only specified working muscles muted coral red. Pure white background. No letters, numbers, arrows, dividers, borders, watermark, scenery or floor texture. Every cell uses IDENTICAL orthographic camera, scale and floor height; render full body and equipment with generous margins. Static body parts and fixed equipment occupy EXACT SAME local pixel coordinates in every cell. Do not auto-center each pose. Do not crop limbs or head. One human with exactly two arms, two legs and plausible hands in each cell. Four phases must depict real joint motion, never camera motion. Frame 4 repeats frame 2 for a back-and-forth animation. Exercise: Seated dumbbell shoulder press. Front three-quarter view. Adult man seated with upright back against fixed bench backrest, both feet planted. Frame1 dumbbells at shoulders elbows90 forearms vertical, upper arms slightly forward of torso; frame2 press halfway overhead; frame3 arms almost fully extended overhead with weights separated, not touching; frame4 repeat2. Full head and overhead weights with substantial top margin in ALL frames. Seat and backrest and feet immobile, no back arch. Highlight deltoids and small triceps accent.",
+    "anchor": [
+      0.14,
+      0.74,
+      0.88,
+      0.98
+    ]
+  },
+  {
+    "id": "0417",
+    "name": "哑铃站立提踵",
+    "prompt": "Use case: scientific-educational. Create ONE production exercise-animation sprite sheet, square 1024x1024, exact 2 rows x 2 columns of equal 512x512 cells. Reading order top-left, top-right, bottom-left, bottom-right is frames 1,2,3,4 of ONE exercise. Each cell has the SAME adult male anatomical fitness model: grayscale muscle anatomy, black short hair, black fitted shorts, bare feet. Fine clean gray lines, high quality instructional illustration, only specified working muscles muted coral red. Pure white background. No letters, numbers, arrows, dividers, borders, watermark, scenery or floor texture. Every cell uses IDENTICAL orthographic camera, scale and floor height; render full body and equipment with generous margins. Static body parts and fixed equipment occupy EXACT SAME local pixel coordinates in every cell. Do not auto-center each pose. Do not crop limbs or head. One human with exactly two arms, two legs and plausible hands in each cell. Four phases must depict real joint motion, never camera motion. Frame 4 repeats frame 2 for a back-and-forth animation. Exercise: Standing dumbbell calf raise on flat floor. Strict side view with slight three-quarter reveal facing right. One dumbbell hangs beside each thigh, arms straight. Frame1 heels flat on ground; frame2 heels halfway lifted; frame3 heels raised high balancing on forefeet; frame4 repeat2. Toe contact coordinates exactly fixed; ankles plantarflex and entire straight body including head hips and dumbbells rises together. Do not bend knees, do not lift toes. Show ground only as tiny contact shadow. Highlight gastrocnemius and soleus.",
+    "anchor": [
+      0.49,
+      0.88,
+      0.7,
+      0.98
+    ]
+  },
+  {
+    "id": "0351",
+    "name": "哑铃仰卧臂屈伸",
+    "prompt": "Use case: scientific-educational. Create ONE production exercise-animation sprite sheet, square 1024x1024, exact 2 rows x 2 columns of equal 512x512 cells. Reading order top-left, top-right, bottom-left, bottom-right is frames 1,2,3,4 of ONE exercise. Each cell has the SAME adult male anatomical fitness model: grayscale muscle anatomy, black short hair, black fitted shorts, bare feet. Fine clean gray lines, high quality instructional illustration, only specified working muscles muted coral red. Pure white background. No letters, numbers, arrows, dividers, borders, watermark, scenery or floor texture. Every cell uses IDENTICAL orthographic camera, scale and floor height; render full body and equipment with generous margins. Static body parts and fixed equipment occupy EXACT SAME local pixel coordinates in every cell. Do not auto-center each pose. Do not crop limbs or head. One human with exactly two arms, two legs and plausible hands in each cell. Four phases must depict real joint motion, never camera motion. Frame 4 repeats frame 2 for a back-and-forth animation. Exercise: Lying bilateral dumbbell triceps extension on flat bench. Side three-quarter head left feet right. Supine, feet planted, upper arms vertical above shoulders throughout, one dumbbell each hand in neutral grip. Frame1 elbows straight weights overhead above shoulders; frame2 elbows partly bent; frame3 elbows bent around100 degrees bringing weights beside temples, not onto face; frame4 repeat2. Only forearms rotate around fixed elbows, upper arms never move behind torso. Bench head pelvis feet immobile. Highlight triceps.",
+    "anchor": [
+      0.05,
+      0.72,
+      0.97,
+      0.98
+    ]
+  },
+  {
+    "id": "0251",
+    "name": "双杠臂屈伸",
+    "prompt": "Use case: scientific-educational. Create ONE production exercise-animation sprite sheet, square 1024x1024, exact 2 rows x 2 columns of equal 512x512 cells. Reading order top-left, top-right, bottom-left, bottom-right is frames 1,2,3,4 of ONE exercise. Each cell has the SAME adult male anatomical fitness model: grayscale muscle anatomy, black short hair, black fitted shorts, bare feet. Fine clean gray lines, high quality instructional illustration, only specified working muscles muted coral red. Pure white background. No letters, numbers, arrows, dividers, borders, watermark, scenery or floor texture. Every cell uses IDENTICAL orthographic camera, scale and floor height; render full body and equipment with generous margins. Static body parts and fixed equipment occupy EXACT SAME local pixel coordinates in every cell. Do not auto-center each pose. Do not crop limbs or head. One human with exactly two arms, two legs and plausible hands in each cell. Four phases must depict real joint motion, never camera motion. Frame 4 repeats frame 2 for a back-and-forth animation. Exercise: Chest dip on parallel bars. Side three-quarter view facing right. Two parallel fixed horizontal rails with four vertical supports, open middle for body. Hands at fixed grips, body suspended, knees bent so feet clear floor. Slight constant forward torso lean. Frame1 supported with arms straight; frame2 descend halfway by bending elbows; frame3 shoulders lower to roughly elbow height, elbows90, no extreme depth; frame4 repeat2. Hands and bars remain absolutely fixed; whole torso descends, no moving machine. Highlight chest and triceps.",
+    "anchor": [
+      0.03,
+      0.75,
+      0.98,
+      0.98
+    ]
+  },
+  {
+    "id": "0043",
+    "name": "杠铃深蹲",
+    "prompt": "Use case: scientific-educational. Create ONE production exercise-animation sprite sheet, square 1024x1024, exact 2 rows x 2 columns of equal 512x512 cells. Reading order top-left, top-right, bottom-left, bottom-right is frames 1,2,3,4 of ONE exercise. Each cell has the SAME adult male anatomical fitness model: grayscale muscle anatomy, black short hair, black fitted shorts, bare feet. Fine clean gray lines, high quality instructional illustration, only specified working muscles muted coral red. Pure white background. No letters, numbers, arrows, dividers, borders, watermark, scenery or floor texture. Every cell uses IDENTICAL orthographic camera, scale and floor height; render full body and equipment with generous margins. Static body parts and fixed equipment occupy EXACT SAME local pixel coordinates in every cell. Do not auto-center each pose. Do not crop limbs or head. One human with exactly two arms, two legs and plausible hands in each cell. Four phases must depict real joint motion, never camera motion. Frame 4 repeats frame 2 for a back-and-forth animation. Exercise: High-bar back squat. Side three-quarter facing right. Barbell across upper trapezius, NEVER on neck; both hands grip bar. Feet fixed shoulder-width with heels flat. Frame1 standing tall; frame2 descend halfway with hips and knees bending; frame3 thighs parallel or just below, spine neutral torso leaning naturally forward, knees track toes; frame4 repeat2. Bar remains supported on upper back following body. No rack. Full bar ends head feet inside every cell, same camera. Highlight quadriceps and glutes.",
+    "anchor": [
+      0.31,
+      0.87,
+      0.77,
+      0.98
+    ]
+  },
+  {
+    "id": "0570",
+    "name": "平凳收腿",
+    "prompt": "Use case: scientific-educational. Create ONE production exercise-animation sprite sheet, square 1024x1024, exact 2 rows x 2 columns of equal 512x512 cells. Reading order top-left, top-right, bottom-left, bottom-right is frames 1,2,3,4 of ONE exercise. Each cell has the SAME adult male anatomical fitness model: grayscale muscle anatomy, black short hair, black fitted shorts, bare feet. Fine clean gray lines, high quality instructional illustration, only specified working muscles muted coral red. Pure white background. No letters, numbers, arrows, dividers, borders, watermark, scenery or floor texture. Every cell uses IDENTICAL orthographic camera, scale and floor height; render full body and equipment with generous margins. Static body parts and fixed equipment occupy EXACT SAME local pixel coordinates in every cell. Do not auto-center each pose. Do not crop limbs or head. One human with exactly two arms, two legs and plausible hands in each cell. Four phases must depict real joint motion, never camera motion. Frame 4 repeats frame 2 for a back-and-forth animation. Exercise: Seated knee tuck on flat bench (leg pull in flat bench). Side view facing right. Man seated near right end of fixed flat bench, both hands grasp bench edges beside hips. Frame1 torso slightly reclined with straight legs extending forward and feet off floor; frame2 knees bend halfway toward chest; frame3 knees tucked toward chest torso slightly curls closer, hands and seated hip contact stable; frame4 repeat2. No floating bench, no leg crossing. Full head feet bench always visible. Highlight rectus abdominis.",
+    "anchor": [
+      0.05,
+      0.76,
+      0.5,
+      0.97
+    ]
+  },
+  {
+    "id": "0500",
+    "name": "左右移动俯卧撑",
+    "prompt": "Use case: scientific-educational. Create ONE production exercise-animation sprite sheet, square 1024x1024, exact 2 rows x 2 columns of equal 512x512 cells. Reading order top-left, top-right, bottom-left, bottom-right is frames 1,2,3,4 of ONE exercise. Each cell has the SAME adult male anatomical fitness model: grayscale muscle anatomy, black short hair, black fitted shorts, bare feet. Fine clean gray lines, high quality instructional illustration, only specified working muscles muted coral red. Pure white background. No letters, numbers, arrows, dividers, borders, watermark, scenery or floor texture. Every cell uses IDENTICAL orthographic camera, scale and floor height; render full body and equipment with generous margins. Static body parts and fixed equipment occupy EXACT SAME local pixel coordinates in every cell. Do not auto-center each pose. Do not crop limbs or head. One human with exactly two arms, two legs and plausible hands in each cell. Four phases must depict real joint motion, never camera motion. Frame 4 repeats frame 2 for a back-and-forth animation. Exercise: Isometric wipers, an advanced lateral push-up variation. FRONT view slightly above floor. Wide hands fixed on floor, legs together toes planted, straight head-hips-heels plank. Hold low pushup position throughout. Frame1 chest low near LEFT hand, left elbow bent right arm nearly straight; frame2 chest low at center with both elbows bent; frame3 chest low near RIGHT hand, right elbow bent left arm nearly straight; frame4 repeat2. Chest travels laterally while palms and toes stay fixed. No floor movement or swinging legs. Highlight pectorals triceps. Full body visible, no scenery.",
+    "anchor": [
+      0.02,
+      0.67,
+      0.23,
+      0.94
+    ]
+  },
+  {
+    "id": "0652",
+    "name": "引体向上",
+    "prompt": "Use case: scientific-educational. Create ONE production exercise-animation sprite sheet, square 1024x1024, exact 2 rows x 2 columns of equal 512x512 cells. Reading order top-left, top-right, bottom-left, bottom-right is frames 1,2,3,4 of ONE exercise. Each cell has the SAME adult male anatomical fitness model: grayscale muscle anatomy, black short hair, black fitted shorts, bare feet. Fine clean gray lines, high quality instructional illustration, only specified working muscles muted coral red. Pure white background. No letters, numbers, arrows, dividers, borders, watermark, scenery or floor texture. Every cell uses IDENTICAL orthographic camera, scale and floor height; render full body and equipment with generous margins. Static body parts and fixed equipment occupy EXACT SAME local pixel coordinates in every cell. Do not auto-center each pose. Do not crop limbs or head. One human with exactly two arms, two legs and plausible hands in each cell. Four phases must depict real joint motion, never camera motion. Frame 4 repeats frame 2 for a back-and-forth animation. Exercise: Pronated wide-grip pull-up, BACK view. Fixed horizontal pull-up bar with two vertical upright posts at far sides and feet at floor; top rail generously within canvas. Man hangs center hands at fixed shoulder-and-a-half-width points on bar. Frame1 straight arms dead hang legs together lightly bent knees; frame2 pull upward halfway; frame3 chin clears bar while elbows point down, head fully inside frame; frame4 repeat2. Hands and bar/posts NEVER move, torso rises toward fixed hands. Highlight latissimus and mid-back.",
+    "anchor": [
+      0.04,
+      0.14,
+      0.15,
+      0.98
+    ]
+  },
+  {
+    "id": "0260",
+    "name": "仰卧收腹",
+    "prompt": "Use case: scientific-educational. Create ONE production exercise-animation sprite sheet, square 1024x1024, exact 2 rows x 2 columns of equal 512x512 cells. Reading order top-left, top-right, bottom-left, bottom-right is frames 1,2,3,4 of ONE exercise. Each cell has the SAME adult male anatomical fitness model: grayscale muscle anatomy, black short hair, black fitted shorts, bare feet. Fine clean gray lines, high quality instructional illustration, only specified working muscles muted coral red. Pure white background. No letters, numbers, arrows, dividers, borders, watermark, scenery or floor texture. Every cell uses IDENTICAL orthographic camera, scale and floor height; render full body and equipment with generous margins. Static body parts and fixed equipment occupy EXACT SAME local pixel coordinates in every cell. Do not auto-center each pose. Do not crop limbs or head. One human with exactly two arms, two legs and plausible hands in each cell. Four phases must depict real joint motion, never camera motion. Frame 4 repeats frame 2 for a back-and-forth animation. Exercise: Cocoon abdominal crunch. Strict side view head left feet right. Floor exercise on white background. Frame1 lying supine, legs straight hovering slightly off floor and arms extended overhead, neutral neck; frame2 flex knees toward chest and curl upper torso, arms sweeping forward; frame3 knees near chest, shoulder blades off floor, hands reach toward ankles without pulling knees; frame4 repeat2. Pelvis/low-back support stays in same place, no floating floor. Full feet hands head inside each cell. Highlight rectus abdominis.",
+    "anchor": [
+      0.38,
+      0.66,
+      0.59,
+      0.92
+    ]
+  },
+  {
+    "id": "0015",
+    "name": "辅助窄握引体向上",
+    "prompt": "Use case: scientific-educational. Create ONE production exercise-animation sprite sheet, square 1024x1024, exact 2 rows x 2 columns of equal 512x512 cells. Reading order top-left, top-right, bottom-left, bottom-right is frames 1,2,3,4 of ONE exercise. Each cell has the SAME adult male anatomical fitness model: grayscale muscle anatomy, black short hair, black fitted shorts, bare feet. Fine clean gray lines, high quality instructional illustration, only specified working muscles muted coral red. Pure white background. No letters, numbers, arrows, dividers, borders, watermark, scenery or floor texture. Every cell uses IDENTICAL orthographic camera, scale and floor height; render full body and equipment with generous margins. Static body parts and fixed equipment occupy EXACT SAME local pixel coordinates in every cell. Do not auto-center each pose. Do not crop limbs or head. One human with exactly two arms, two legs and plausible hands in each cell. Four phases must depict real joint motion, never camera motion. Frame 4 repeats frame 2 for a back-and-forth animation. Exercise: Assisted parallel close-grip pull-up on assisted machine. BACK three-quarter view. Fixed machine frame with overhead parallel neutral-grip handles shoulder width, narrow hand grip. Knees rest on a padded assistance platform guided by vertical rails. Frame1 arms extended, knees on low platform; frame2 elbows bend torso rising, knee pad also rises WITH knees; frame3 chin near handles elbows bent, knee pad higher; frame4 repeat2. Overhead grips and machine frame remain identical coordinates; only man AND connected knee platform move vertically. Do not move the entire machine. No exposed weight stack needed. Highlight lats. Full head machine base within every cell.",
+    "anchor": [
+      0.03,
+      0.72,
+      0.23,
+      0.98
+    ]
+  }
+]

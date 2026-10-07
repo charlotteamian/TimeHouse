@@ -1,0 +1,13 @@
+{
+  "same_certificate_as_1_2_13": true,
+  "certificate_sha256": "f97b8a406448cb301259189f833d7beb7985728929dd652d2c257e8d36a28997",
+  "package": "package: name='com.restartday.fitness' versionCode='2026091601' versionName='1.2.14' platformBuildVersionName='16' platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'",
+  "health_permissions": [
+    "uses-permission: name='android.permission.health.READ_HEART_RATE'",
+    "uses-permission: name='android.permission.health.READ_EXERCISE'",
+    "uses-permission: name='android.permission.health.READ_ACTIVE_CALORIES_BURNED'",
+    "uses-permission: name='android.permission.health.READ_TOTAL_CALORIES_BURNED'",
+    "uses-permission: name='android.permission.health.READ_STEPS'",
+    "uses-permission: name='android.permission.health.READ_DISTANCE'"
+  ]
+}

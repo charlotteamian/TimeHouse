@@ -1,0 +1,55 @@
+{
+  "status": "passed",
+  "completed_at": "2026-09-15T07:51:46.419689+08:00",
+  "version": "1.2.12",
+  "domain_tests": "passed",
+  "build": "passed",
+  "ui_checks": {
+    "batch": 15,
+    "review": 13,
+    "edges": 4,
+    "dynamic": 10
+  },
+  "ui_checks_total": 42,
+  "reviewed": 30,
+  "unreviewed": 1325,
+  "new_reviewed_picker_entries_verified": [
+    "哑铃双臂前平举",
+    "哑铃肩胛平面上举（拇指朝上）"
+  ],
+  "package": {
+    "version": "1.2.12",
+    "version_code": 2026091502,
+    "sha256": "023c5914025925e56955716e85e8a9336a2f8b4adacf43c3893724714b1d3570",
+    "changed_dataset_ids": [
+      "0257",
+      "0258",
+      "0260",
+      "0267",
+      "0306",
+      "0307",
+      "0308",
+      "0309",
+      "0311"
+    ],
+    "changed_raw_assets": [
+      "res/raw/dataset_motion_0309.webp",
+      "res/raw/dataset_motion_0311.webp"
+    ],
+    "reviewed": 30,
+    "unreviewed": 1325,
+    "generated_images_imported": 1,
+    "apk_integrity": "passed",
+    "dataset_and_review_hashes": "passed",
+    "signature_verified": true,
+    "signer_sha256": "f97b8a406448cb301259189f833d7beb7985728929dd652d2c257e8d36a28997",
+    "apk": "build/时光屋-1.2.12-第八批动作复核.apk"
+  },
+  "physical_device_tested": false,
+  "image_generation_calls": 2,
+  "generated_images_imported": 1,
+  "standing_stability_scope": [
+    "0309",
+    "0311"
+  ]
+}

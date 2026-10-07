@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="44dp"
+    android:height="44dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- rounded-square background with green gradient -->
+    <path android:pathData="M28,0 L80,0 Q108,0 108,28 L108,80 Q108,108 80,108 L28,108 Q0,108 0,80 L0,28 Q0,0 28,0 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="8"
+                android:startY="8"
+                android:endX="100"
+                android:endY="100"
+                android:startColor="#3C9576"
+                android:centerColor="#2F7D62"
+                android:endColor="#23583F" />
+        </aapt:attr>
+    </path>
+    <!-- pulse line -->
+    <path
+        android:pathData="M24,54 L40,54 L46,43 L54,67 L60,54 L84,54"
+        android:strokeColor="#FFFFFF"
+        android:strokeAlpha="0.34"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <!-- left weight -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M33,37 L35,37 Q42,37 42,44 L42,64 Q42,71 35,71 L33,71 Q26,71 26,64 L26,44 Q26,37 33,37 Z" />
+    <!-- right weight -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M73,37 L75,37 Q82,37 82,44 L82,64 Q82,71 75,71 L73,71 Q66,71 66,64 L66,44 Q66,37 73,37 Z" />
+    <!-- bar -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M45,51 L63,51 Q66,51 66,54 Q66,57 63,57 L45,57 Q42,57 42,54 Q42,51 45,51 Z" />
+</vector>

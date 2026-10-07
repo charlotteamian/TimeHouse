@@ -1,0 +1,37 @@
+{
+  "version": "1.2.15",
+  "version_code": 2026091602,
+  "sha256": "2ad456cfeaa4fa72db00e856ac269686dfb462e2d0e064130371087302155632",
+  "bytes": 479868625,
+  "changed_dataset_ids": [
+    "0318",
+    "0319",
+    "0320",
+    "0321",
+    "0322",
+    "0456",
+    "0457",
+    "0459",
+    "0466"
+  ],
+  "changed_raw_assets": [
+    "res/raw/dataset_motion_0318.webp",
+    "res/raw/dataset_motion_0320.webp"
+  ],
+  "changed_app_code": [
+    "app/src/main/java/com/restartday/fitness/app/WorkoutDoseEditor.java"
+  ],
+  "changed_bundled_assets": [
+    "assets/exercise_reviews.json",
+    "assets/exercises_1324.json"
+  ],
+  "reviewed": 37,
+  "unreviewed": 1318,
+  "generated_images_imported": 0,
+  "apk_integrity": "passed",
+  "dataset_and_review_hashes": "passed",
+  "signature_verified": true,
+  "same_signer_as_1_2_14": true,
+  "signer_sha256": "f97b8a406448cb301259189f833d7beb7985728929dd652d2c257e8d36a28997",
+  "apk": "build/时光屋-1.2.15-第十批复核与记录保存修复.apk"
+}

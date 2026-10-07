@@ -1,0 +1,36 @@
+{
+  "domain_tests": "passed",
+  "build": "passed",
+  "emulator": "emulator-5554",
+  "ui_checks": {
+    "ui-review": 13,
+    "ui-edges": 4,
+    "ui-dynamic": 10,
+    "ui-batch2": 7
+  },
+  "total_ui_checks": 34,
+  "catalog_counts": {
+    "待核逻辑": 1333,
+    "待修图": 8,
+    "已完成": 11,
+    "待补图": 3
+  },
+  "package": {
+    "file": "时光屋-1.2.6-第二批动作复核.apk",
+    "version": "1.2.6",
+    "version_code": 2026091303,
+    "sha256": "0e9877790d4c413657b3ffa6e4902ba4d1033c4517909b3bb7cf666495fb2241",
+    "size_bytes": 479864529,
+    "changed_raw_assets": [
+      "res/raw/dataset_motion_0300.webp",
+      "res/raw/dataset_motion_0426.webp",
+      "res/raw/dataset_motion_1685.webp"
+    ],
+    "reviewed": 11,
+    "unreviewed": 1344,
+    "generated_images_imported": 1,
+    "signature_sha256": "f97b8a406448cb301259189f833d7beb7985728929dd652d2c257e8d36a28997",
+    "signature_verified": true
+  },
+  "physical_device_test": false
+}

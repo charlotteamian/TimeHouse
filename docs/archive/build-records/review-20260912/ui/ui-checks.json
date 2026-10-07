@@ -1,0 +1,15 @@
+[
+  "Only four explicit reviews; legacy verification is not migrated",
+  "Library review filter contains exactly the reviewed baseline",
+  "Detail demonstration can be paused",
+  "Approval requires all four checklist items",
+  "Personal rejection overrides bundled approval",
+  "Repair reason and rejected review survive restart",
+  "Explicit personal approval is persisted",
+  "Quick training draws only from reviewed exercises",
+  "Reviewed workout enters normal session flow",
+  "No silent fallback to unreviewed exercises when safe pool is empty",
+  "Empty candidate pool provides actionable explanation",
+  "Old saved draft cannot bypass reviewed-only start gate",
+  "Changing media invalidates a bundled review"
+]

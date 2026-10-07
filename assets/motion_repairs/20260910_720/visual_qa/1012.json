@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The exercise is incorrectly depicted as a standard overhead press with no twisting motion, and the band setup is inconsistent across frames.",
+  "id": "1012",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 49.12,
+  "prompt_sha256": "4526ba897cbe756b35599591085d445ed15c102c14963c7bdeca326b5107247a"
+}

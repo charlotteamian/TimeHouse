@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The exercise is incorrectly depicted as a squat row with towel, but the grip and movement do not match the intended motion; the towel is inconsistently held and the muscle highlights are inaccurate.",
+  "id": "3167",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 56.66,
+  "prompt_sha256": "629a91d090cc24107672a2d70c5286692dddf61032bc2e92180eb32a5a8a85e0"
+}

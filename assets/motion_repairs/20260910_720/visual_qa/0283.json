@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The frames do not correctly depict the diamond push-up; the hand placement and body angle are inconsistent with the exercise's biomechanics.",
+  "id": "0283",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 86.31,
+  "prompt_sha256": "4ea4533252d2cadf113c46f707eee0ef3e1fac9d8d4920966ebbcfd69866057d"
+}

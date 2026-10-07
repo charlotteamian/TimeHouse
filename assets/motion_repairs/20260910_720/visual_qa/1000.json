@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The exercise is incorrectly depicted as a calf raise with the band anchored around the ankle, not as a reverse calf raise with the band looped around the foot and anchored to a fixed point.",
+  "id": "1000",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 56.94,
+  "prompt_sha256": "8b7a0cf3064971ea676083052234341238e575030e0b07959d4b3acc3f1c79a9"
+}

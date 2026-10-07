@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The sequence does not show a complete crunch motion; the top-left and bottom-right frames depict the same starting position, and the bottom-left frame shows an incomplete movement.",
+  "id": "0274",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 55.4,
+  "prompt_sha256": "05650031ec88923483fc04554a1a4d7b20480d1e5fdf26599f92fad253e98500"
+}

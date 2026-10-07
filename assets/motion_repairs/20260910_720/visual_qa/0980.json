@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The exercise is incorrectly depicted as a hip extension with a band anchored to a pole, but the movement shown is more consistent with a hip thrust or glute bridge, not a true bent-over hip extension. The band is not anchored correctly for the intended movement, and the muscle highlighting is inconsistent across frames.",
+  "id": "0980",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 56.43,
+  "prompt_sha256": "2e5cd4221f07e4c24c94c1f9916eeb77764b4d145db042f1f327f3a018695198"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The motion phases are not correctly sequenced; the top-right and bottom-right frames show the same position, indicating a duplicate phase rather than a full cycle.",
+  "id": "0999",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 59.12,
+  "prompt_sha256": "eb535ae875122a15f96182c214b2ef245a9eb4b6addcbccbe61eda4bf98cadbf"
+}

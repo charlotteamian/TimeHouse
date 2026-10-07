@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The exercise is incorrectly labeled as 'band single leg split squat' but the movement shown is a lateral lunge with a band around the ankles, not a split squat. The band is anchored incorrectly around the ankles in all frames, which is not standard for a split squat.",
+  "id": "1001",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 55.17,
+  "prompt_sha256": "f8f90161147430cbc12f15bd994cd3d143bf764cd3e45ca7b28a58f7ac85b2a8"
+}

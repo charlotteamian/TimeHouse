@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "All frames show the same static pose, lacking the dynamic shrug motion required for the exercise.",
+  "id": "1018",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 209.95,
+  "prompt_sha256": "6acb264bc505bf7b3fc6bc996a832f178683e0657d3f41565d4587815ebf5fc9"
+}

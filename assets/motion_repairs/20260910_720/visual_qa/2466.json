@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The motion does not match 'bridge - mountain climber (cross body)' as the limbs are not crossing the midline correctly in the peak phase.",
+  "id": "2466",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 71.08,
+  "prompt_sha256": "3cc7839d6c77c5563abb4c2858149ec54a0cd9dea0b2941d2e4fa0f187a784b9"
+}

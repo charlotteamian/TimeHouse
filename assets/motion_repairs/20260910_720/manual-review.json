@@ -1,0 +1,1406 @@
+{
+  "batch": "20260910_720",
+  "decisions": [
+    {
+      "id": "0002",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T12:20:59.386583+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Targeted redo reviewed at original size; corrected phase direction or exercise semantics and accepted into the final source batch."
+    },
+    {
+      "id": "0253",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T07:51:34.708777+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch contact sheets; anatomy, equipment, support points and movement phases are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "0257",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T12:20:59.386583+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Targeted redo reviewed at original size; corrected phase direction or exercise semantics and accepted into the final source batch."
+    },
+    {
+      "id": "0267",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T07:51:34.708777+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch contact sheets; anatomy, equipment, support points and movement phases are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "0272",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T07:51:34.708777+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch contact sheets; anatomy, equipment, support points and movement phases are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "0291",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T07:51:34.708777+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch contact sheets; anatomy, equipment, support points and movement phases are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "0299",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T07:51:34.708777+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch contact sheets; anatomy, equipment, support points and movement phases are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "0319",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T07:51:34.708777+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch contact sheets; anatomy, equipment, support points and movement phases are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "0324",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T10:41:46.710497+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch4 contact sheets; exercise semantics, equipment, anatomy and frame progression are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "0325",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T10:41:46.710497+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch4 contact sheets; exercise semantics, equipment, anatomy and frame progression are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "0326",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T10:41:46.710497+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch4 contact sheets; exercise semantics, equipment, anatomy and frame progression are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "0330",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T10:41:46.710497+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch4 contact sheets; exercise semantics, equipment, anatomy and frame progression are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "0342",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T10:41:46.710497+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch4 contact sheets; exercise semantics, equipment, anatomy and frame progression are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "0348",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T10:41:46.710497+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch4 contact sheets; exercise semantics, equipment, anatomy and frame progression are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "0360",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T12:23:43.485024+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch5 contact sheets and checked ambiguous entries against English exercise names and full source cues; acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "0361",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T12:23:43.485024+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch5 contact sheets and checked ambiguous entries against English exercise names and full source cues; acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "0371",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T12:23:43.485024+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch5 contact sheets and checked ambiguous entries against English exercise names and full source cues; acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "0381",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T12:23:43.485024+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch5 contact sheets and checked ambiguous entries against English exercise names and full source cues; acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "0386",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T12:23:43.485024+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch5 contact sheets and checked ambiguous entries against English exercise names and full source cues; acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "0388",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T12:23:43.485024+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch5 contact sheets and checked ambiguous entries against English exercise names and full source cues; acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "0396",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T16:08:14.696032+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch6联系表及原图复核通过：动作、器械、支撑点和主要关节路径可识别；边缘阈值或简单动作两姿势告警不影响App四帧循环。"
+    },
+    {
+      "id": "0397",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T16:15:08.198230+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch6针对性重生原图复核通过：腕弯举、前臂旋转、过头行走持重、仰卧Tate press和单哑铃服务员弯举均已按标准动作语义纠正。"
+    },
+    {
+      "id": "0399",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T16:15:08.198230+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch6针对性重生原图复核通过：腕弯举、前臂旋转、过头行走持重、仰卧Tate press和单哑铃服务员弯举均已按标准动作语义纠正。"
+    },
+    {
+      "id": "0404",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T16:08:14.696032+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch6联系表及原图复核通过：动作、器械、支撑点和主要关节路径可识别；边缘阈值或简单动作两姿势告警不影响App四帧循环。"
+    },
+    {
+      "id": "0409",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T16:08:14.696032+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch6联系表及原图复核通过：动作、器械、支撑点和主要关节路径可识别；边缘阈值或简单动作两姿势告警不影响App四帧循环。"
+    },
+    {
+      "id": "0413",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T16:08:14.696032+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch6联系表及原图复核通过：动作、器械、支撑点和主要关节路径可识别；边缘阈值或简单动作两姿势告警不影响App四帧循环。"
+    },
+    {
+      "id": "0419",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T16:08:14.696032+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch6联系表及原图复核通过：动作、器械、支撑点和主要关节路径可识别；边缘阈值或简单动作两姿势告警不影响App四帧循环。"
+    },
+    {
+      "id": "0423",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T16:08:14.696032+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch6联系表及原图复核通过：动作、器械、支撑点和主要关节路径可识别；边缘阈值或简单动作两姿势告警不影响App四帧循环。"
+    },
+    {
+      "id": "0426",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T16:08:14.696032+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch6联系表及原图复核通过：动作、器械、支撑点和主要关节路径可识别；边缘阈值或简单动作两姿势告警不影响App四帧循环。"
+    },
+    {
+      "id": "0431",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T16:08:14.696032+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch6联系表及原图复核通过：动作、器械、支撑点和主要关节路径可识别；边缘阈值或简单动作两姿势告警不影响App四帧循环。"
+    },
+    {
+      "id": "0436",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T16:15:08.198230+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch6针对性重生原图复核通过：腕弯举、前臂旋转、过头行走持重、仰卧Tate press和单哑铃服务员弯举均已按标准动作语义纠正。"
+    },
+    {
+      "id": "0443",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T20:29:19.231297+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch7联系表及源动作说明复核通过：内容完整且语义正确；边缘阈值与首格低珊瑚色面积不影响动作识别。"
+    },
+    {
+      "id": "0456",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T20:57:38.782480+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch8联系表及原图复核通过：高级自重/悬挂动作的支撑点、离地状态和关节路径可识别；边缘或着色阈值不影响App动画。"
+    },
+    {
+      "id": "0457",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T20:57:38.782480+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch8联系表及原图复核通过：高级自重/悬挂动作的支撑点、离地状态和关节路径可识别；边缘或着色阈值不影响App动画。"
+    },
+    {
+      "id": "0469",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T20:57:38.782480+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch8联系表及原图复核通过：高级自重/悬挂动作的支撑点、离地状态和关节路径可识别；边缘或着色阈值不影响App动画。"
+    },
+    {
+      "id": "0488",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T20:57:38.782480+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch8联系表及原图复核通过：高级自重/悬挂动作的支撑点、离地状态和关节路径可识别；边缘或着色阈值不影响App动画。"
+    },
+    {
+      "id": "0491",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T20:57:38.782480+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch8联系表及原图复核通过：高级自重/悬挂动作的支撑点、离地状态和关节路径可识别；边缘或着色阈值不影响App动画。"
+    },
+    {
+      "id": "0493",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T20:57:38.782480+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch8联系表及原图复核通过：高级自重/悬挂动作的支撑点、离地状态和关节路径可识别；边缘或着色阈值不影响App动画。"
+    },
+    {
+      "id": "0498",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T20:57:38.782480+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch8联系表及原图复核通过：高级自重/悬挂动作的支撑点、离地状态和关节路径可识别；边缘或着色阈值不影响App动画。"
+    },
+    {
+      "id": "0499",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T20:57:38.782480+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch8联系表及原图复核通过：高级自重/悬挂动作的支撑点、离地状态和关节路径可识别；边缘或着色阈值不影响App动画。"
+    },
+    {
+      "id": "0501",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T20:57:38.782480+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch8联系表及原图复核通过：高级自重/悬挂动作的支撑点、离地状态和关节路径可识别；边缘或着色阈值不影响App动画。"
+    },
+    {
+      "id": "0508",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T20:57:38.782480+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch8联系表及原图复核通过：高级自重/悬挂动作的支撑点、离地状态和关节路径可识别；边缘或着色阈值不影响App动画。"
+    },
+    {
+      "id": "0514",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T21:18:30.067291+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch9人工视觉复核：器械、动作阶段、姿势与项目指南一致；0530按指南采用单壶铃风车，0531按指南采用单臂地板推举。"
+    },
+    {
+      "id": "0520",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T21:18:30.067291+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch9人工视觉复核：器械、动作阶段、姿势与项目指南一致；0530按指南采用单壶铃风车，0531按指南采用单臂地板推举。"
+    },
+    {
+      "id": "0522",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T21:18:30.067291+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch9人工视觉复核：器械、动作阶段、姿势与项目指南一致；0530按指南采用单壶铃风车，0531按指南采用单臂地板推举。"
+    },
+    {
+      "id": "0527",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T21:18:30.067291+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch9人工视觉复核：器械、动作阶段、姿势与项目指南一致；0530按指南采用单壶铃风车，0531按指南采用单臂地板推举。"
+    },
+    {
+      "id": "0528",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T21:18:30.067291+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch9人工视觉复核：器械、动作阶段、姿势与项目指南一致；0530按指南采用单壶铃风车，0531按指南采用单臂地板推举。"
+    },
+    {
+      "id": "0529",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T21:18:30.067291+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch9人工视觉复核：器械、动作阶段、姿势与项目指南一致；0530按指南采用单壶铃风车，0531按指南采用单臂地板推举。"
+    },
+    {
+      "id": "0530",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T21:18:30.067291+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch9人工视觉复核：器械、动作阶段、姿势与项目指南一致；0530按指南采用单壶铃风车，0531按指南采用单臂地板推举。"
+    },
+    {
+      "id": "0531",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T21:18:30.067291+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch9人工视觉复核：器械、动作阶段、姿势与项目指南一致；0530按指南采用单壶铃风车，0531按指南采用单臂地板推举。"
+    },
+    {
+      "id": "0534",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T21:18:30.067291+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch9人工视觉复核：器械、动作阶段、姿势与项目指南一致；0530按指南采用单壶铃风车，0531按指南采用单臂地板推举。"
+    },
+    {
+      "id": "0538",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T21:18:30.067291+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch9人工视觉复核：器械、动作阶段、姿势与项目指南一致；0530按指南采用单壶铃风车，0531按指南采用单臂地板推举。"
+    },
+    {
+      "id": "0542",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T02:04:14.663416+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch10人工视觉复核：72张逐页联系表核验，并对疑似项回看项目原指南；器械、动作阶段、支撑点与语义一致，无需重生。"
+    },
+    {
+      "id": "0548",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T02:04:14.663416+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch10人工视觉复核：72张逐页联系表核验，并对疑似项回看项目原指南；器械、动作阶段、支撑点与语义一致，无需重生。"
+    },
+    {
+      "id": "0550",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T02:04:14.663416+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch10人工视觉复核：72张逐页联系表核验，并对疑似项回看项目原指南；器械、动作阶段、支撑点与语义一致，无需重生。"
+    },
+    {
+      "id": "0553",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T02:04:14.663416+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch10人工视觉复核：72张逐页联系表核验，并对疑似项回看项目原指南；器械、动作阶段、支撑点与语义一致，无需重生。"
+    },
+    {
+      "id": "0558",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T02:04:14.663416+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch10人工视觉复核：72张逐页联系表核验，并对疑似项回看项目原指南；器械、动作阶段、支撑点与语义一致，无需重生。"
+    },
+    {
+      "id": "0613",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T02:04:14.663416+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch10人工视觉复核：72张逐页联系表核验，并对疑似项回看项目原指南；器械、动作阶段、支撑点与语义一致，无需重生。"
+    },
+    {
+      "id": "0634",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T02:04:14.663416+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch10人工视觉复核：72张逐页联系表核验，并对疑似项回看项目原指南；器械、动作阶段、支撑点与语义一致，无需重生。"
+    },
+    {
+      "id": "0638",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T02:04:14.663416+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch10人工视觉复核：72张逐页联系表核验，并对疑似项回看项目原指南；器械、动作阶段、支撑点与语义一致，无需重生。"
+    },
+    {
+      "id": "0642",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T02:04:14.663416+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch10人工视觉复核：72张逐页联系表核验，并对疑似项回看项目原指南；器械、动作阶段、支撑点与语义一致，无需重生。"
+    },
+    {
+      "id": "0643",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T02:04:14.663416+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch10人工视觉复核：72张逐页联系表核验，并对疑似项回看项目原指南；器械、动作阶段、支撑点与语义一致，无需重生。"
+    },
+    {
+      "id": "0661",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T02:26:35.845243+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch11人工视觉复核：36张联系表及疑似项逐图对照原指南，动作语义一致；0684按严格八类器械范围排除，未放行。"
+    },
+    {
+      "id": "0664",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T02:26:35.845243+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch11人工视觉复核：36张联系表及疑似项逐图对照原指南，动作语义一致；0684按严格八类器械范围排除，未放行。"
+    },
+    {
+      "id": "0668",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T02:26:35.845243+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch11人工视觉复核：36张联系表及疑似项逐图对照原指南，动作语义一致；0684按严格八类器械范围排除，未放行。"
+    },
+    {
+      "id": "0670",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T02:26:35.845243+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch11人工视觉复核：36张联系表及疑似项逐图对照原指南，动作语义一致；0684按严格八类器械范围排除，未放行。"
+    },
+    {
+      "id": "0674",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T02:26:35.845243+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch11人工视觉复核：36张联系表及疑似项逐图对照原指南，动作语义一致；0684按严格八类器械范围排除，未放行。"
+    },
+    {
+      "id": "0677",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T02:26:35.845243+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch11人工视觉复核：36张联系表及疑似项逐图对照原指南，动作语义一致；0684按严格八类器械范围排除，未放行。"
+    },
+    {
+      "id": "0691",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T08:28:19.622983+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch12人工视觉复核：其余技术告警对照原指南通过；1766按器械范围排除。"
+    },
+    {
+      "id": "0716",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T08:28:19.622983+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch12人工视觉复核：其余技术告警对照原指南通过；1766按器械范围排除。"
+    },
+    {
+      "id": "0727",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T08:28:19.622983+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch12人工视觉复核：其余技术告警对照原指南通过；1766按器械范围排除。"
+    },
+    {
+      "id": "0735",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T08:28:19.622983+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch12人工视觉复核：其余技术告警对照原指南通过；1766按器械范围排除。"
+    },
+    {
+      "id": "0777",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T08:28:19.622983+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch12人工视觉复核：其余技术告警对照原指南通过；1766按器械范围排除。"
+    },
+    {
+      "id": "0778",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T08:28:19.622983+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch12人工视觉复核：其余技术告警对照原指南通过；1766按器械范围排除。"
+    },
+    {
+      "id": "0794",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T08:28:19.622983+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch12人工视觉复核：其余技术告警对照原指南通过；1766按器械范围排除。"
+    },
+    {
+      "id": "0803",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T08:28:19.622983+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch12人工视觉复核：其余技术告警对照原指南通过；1766按器械范围排除。"
+    },
+    {
+      "id": "0806",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T08:28:19.622983+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch12人工视觉复核：其余技术告警对照原指南通过；1766按器械范围排除。"
+    },
+    {
+      "id": "0809",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T08:28:19.622983+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch12人工视觉复核：其余技术告警对照原指南通过；1766按器械范围排除。"
+    },
+    {
+      "id": "0817",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T08:48:09.727672+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch13 contact-sheet visual review: action semantics and four-phase presentation are acceptable; automated border, low-coral, or small-motion flags are false positives for supported equipment/static mobility poses"
+    },
+    {
+      "id": "0826",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T08:48:09.727672+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch13 contact-sheet visual review: action semantics and four-phase presentation are acceptable; automated border, low-coral, or small-motion flags are false positives for supported equipment/static mobility poses"
+    },
+    {
+      "id": "0870",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T07:51:34.708777+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch contact sheets; anatomy, equipment, support points and movement phases are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "0970",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T07:51:34.708777+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch contact sheets; anatomy, equipment, support points and movement phases are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "0974",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T07:51:34.708777+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch contact sheets; anatomy, equipment, support points and movement phases are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "0976",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T07:51:34.708777+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch contact sheets; anatomy, equipment, support points and movement phases are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "0980",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T07:51:34.708777+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch contact sheets; anatomy, equipment, support points and movement phases are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "0984",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T07:51:34.708777+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch contact sheets; anatomy, equipment, support points and movement phases are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "0986",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T07:51:34.708777+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch contact sheets; anatomy, equipment, support points and movement phases are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "0994",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T07:51:34.708777+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch contact sheets; anatomy, equipment, support points and movement phases are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "0997",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T07:51:34.708777+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch contact sheets; anatomy, equipment, support points and movement phases are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "1008",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T07:51:34.708777+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch contact sheets; anatomy, equipment, support points and movement phases are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "1012",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T07:51:34.708777+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch contact sheets; anatomy, equipment, support points and movement phases are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "1160",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T07:51:34.708777+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch contact sheets; anatomy, equipment, support points and movement phases are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "1201",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T07:51:34.708777+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch contact sheets; anatomy, equipment, support points and movement phases are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "1273",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T07:51:34.708777+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch contact sheets; anatomy, equipment, support points and movement phases are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "1275",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T07:51:34.708777+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch contact sheets; anatomy, equipment, support points and movement phases are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "1280",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T10:41:46.710497+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch4 contact sheets; exercise semantics, equipment, anatomy and frame progression are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "1281",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T10:41:46.710497+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch4 contact sheets; exercise semantics, equipment, anatomy and frame progression are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "1283",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T10:41:46.710497+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch4 contact sheets; exercise semantics, equipment, anatomy and frame progression are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "1289",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T10:41:46.710497+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch4 contact sheets; exercise semantics, equipment, anatomy and frame progression are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "1290",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T10:41:46.710497+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch4 contact sheets; exercise semantics, equipment, anatomy and frame progression are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "1291",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T10:41:46.710497+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch4 contact sheets; exercise semantics, equipment, anatomy and frame progression are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "1311",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T08:48:09.727672+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch13 contact-sheet visual review: action semantics and four-phase presentation are acceptable; automated border, low-coral, or small-motion flags are false positives for supported equipment/static mobility poses"
+    },
+    {
+      "id": "1326",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T07:51:34.708777+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch contact sheets; anatomy, equipment, support points and movement phases are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "1327",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T07:51:34.708777+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch contact sheets; anatomy, equipment, support points and movement phases are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "1341",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T20:29:19.231297+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch7联系表及源动作说明复核通过：内容完整且语义正确；边缘阈值与首格低珊瑚色面积不影响动作识别。"
+    },
+    {
+      "id": "1342",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T20:29:19.231297+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch7联系表及源动作说明复核通过：内容完整且语义正确；边缘阈值与首格低珊瑚色面积不影响动作识别。"
+    },
+    {
+      "id": "1346",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T02:04:14.663416+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch10人工视觉复核：72张逐页联系表核验，并对疑似项回看项目原指南；器械、动作阶段、支撑点与语义一致，无需重生。"
+    },
+    {
+      "id": "1362",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T08:28:19.622983+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch12人工视觉复核：其余技术告警对照原指南通过；1766按器械范围排除。"
+    },
+    {
+      "id": "1363",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T08:28:19.622983+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch12人工视觉复核：其余技术告警对照原指南通过；1766按器械范围排除。"
+    },
+    {
+      "id": "1364",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T08:28:19.622983+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch12人工视觉复核：其余技术告警对照原指南通过；1766按器械范围排除。"
+    },
+    {
+      "id": "1365",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T08:48:09.727672+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch13 contact-sheet visual review: action semantics and four-phase presentation are acceptable; automated border, low-coral, or small-motion flags are false positives for supported equipment/static mobility poses"
+    },
+    {
+      "id": "1366",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T08:48:09.727672+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch13 contact-sheet visual review: action semantics and four-phase presentation are acceptable; automated border, low-coral, or small-motion flags are false positives for supported equipment/static mobility poses"
+    },
+    {
+      "id": "1367",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T08:48:09.727672+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch13 contact-sheet visual review: action semantics and four-phase presentation are acceptable; automated border, low-coral, or small-motion flags are false positives for supported equipment/static mobility poses"
+    },
+    {
+      "id": "1373",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T07:51:34.708777+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch contact sheets; anatomy, equipment, support points and movement phases are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "1374",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T07:51:34.708777+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch contact sheets; anatomy, equipment, support points and movement phases are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "1377",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T07:51:34.708777+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch contact sheets; anatomy, equipment, support points and movement phases are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "1386",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T02:04:14.663416+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch10人工视觉复核：72张逐页联系表核验，并对疑似项回看项目原指南；器械、动作阶段、支撑点与语义一致，无需重生。"
+    },
+    {
+      "id": "1398",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T08:28:19.622983+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch12人工视觉复核：其余技术告警对照原指南通过；1766按器械范围排除。"
+    },
+    {
+      "id": "1408",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T07:51:34.708777+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch contact sheets; anatomy, equipment, support points and movement phases are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "1414",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T12:23:43.485024+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch5 contact sheets and checked ambiguous entries against English exercise names and full source cues; acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "1418",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T20:57:38.782480+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch8联系表及原图复核通过：高级自重/悬挂动作的支撑点、离地状态和关节路径可识别；边缘或着色阈值不影响App动画。"
+    },
+    {
+      "id": "1421",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T02:04:14.663416+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch10人工视觉复核：72张逐页联系表核验，并对疑似项回看项目原指南；器械、动作阶段、支撑点与语义一致，无需重生。"
+    },
+    {
+      "id": "1422",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T02:04:14.663416+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch10人工视觉复核：72张逐页联系表核验，并对疑似项回看项目原指南；器械、动作阶段、支撑点与语义一致，无需重生。"
+    },
+    {
+      "id": "1424",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T08:28:19.622983+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch12人工视觉复核：其余技术告警对照原指南通过；1766按器械范围排除。"
+    },
+    {
+      "id": "1428",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T08:48:09.727672+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch13 contact-sheet visual review: action semantics and four-phase presentation are acceptable; automated border, low-coral, or small-motion flags are false positives for supported equipment/static mobility poses"
+    },
+    {
+      "id": "1459",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T12:23:43.485024+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch5 contact sheets and checked ambiguous entries against English exercise names and full source cues; acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "1466",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T08:48:09.727672+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch13 contact-sheet visual review: action semantics and four-phase presentation are acceptable; automated border, low-coral, or small-motion flags are false positives for supported equipment/static mobility poses"
+    },
+    {
+      "id": "1494",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T07:51:34.708777+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch contact sheets; anatomy, equipment, support points and movement phases are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "1512",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T12:20:59.386583+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Targeted redo reviewed at original size; corrected phase direction or exercise semantics and accepted into the final source batch."
+    },
+    {
+      "id": "1548",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T07:51:34.708777+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch contact sheets; anatomy, equipment, support points and movement phases are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "1560",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T20:57:38.782480+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch8联系表及原图复核通过：高级自重/悬挂动作的支撑点、离地状态和关节路径可识别；边缘或着色阈值不影响App动画。"
+    },
+    {
+      "id": "1585",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T02:26:35.845243+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch11人工视觉复核：36张联系表及疑似项逐图对照原指南，动作语义一致；0684按严格八类器械范围排除，未放行。"
+    },
+    {
+      "id": "1604",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T08:48:09.727672+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch13 contact-sheet visual review: action semantics and four-phase presentation are acceptable; automated border, low-coral, or small-motion flags are false positives for supported equipment/static mobility poses"
+    },
+    {
+      "id": "1618",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T10:41:46.710497+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch4 contact sheets; exercise semantics, equipment, anatomy and frame progression are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "1619",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T10:41:46.710497+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch4 contact sheets; exercise semantics, equipment, anatomy and frame progression are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "1622",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T12:23:43.485024+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch5 contact sheets and checked ambiguous entries against English exercise names and full source cues; acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "1655",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T07:51:34.708777+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch contact sheets; anatomy, equipment, support points and movement phases are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "1658",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T10:41:46.710497+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch4 contact sheets; exercise semantics, equipment, anatomy and frame progression are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "1678",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T16:08:14.696032+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch6联系表及原图复核通过：动作、器械、支撑点和主要关节路径可识别；边缘阈值或简单动作两姿势告警不影响App四帧循环。"
+    },
+    {
+      "id": "1684",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T16:08:14.696032+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch6联系表及原图复核通过：动作、器械、支撑点和主要关节路径可识别；边缘阈值或简单动作两姿势告警不影响App四帧循环。"
+    },
+    {
+      "id": "1685",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T08:28:19.622983+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch12人工视觉复核：其余技术告警对照原指南通过；1766按器械范围排除。"
+    },
+    {
+      "id": "1686",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T08:28:19.622983+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch12人工视觉复核：其余技术告警对照原指南通过；1766按器械范围排除。"
+    },
+    {
+      "id": "1687",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T02:04:14.663416+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch10人工视觉复核：72张逐页联系表核验，并对疑似项回看项目原指南；器械、动作阶段、支撑点与语义一致，无需重生。"
+    },
+    {
+      "id": "1689",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T02:04:14.663416+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch10人工视觉复核：72张逐页联系表核验，并对疑似项回看项目原指南；器械、动作阶段、支撑点与语义一致，无需重生。"
+    },
+    {
+      "id": "1700",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T12:23:43.485024+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch5 contact sheets and checked ambiguous entries against English exercise names and full source cues; acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "1707",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T02:04:14.663416+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch10人工视觉复核：72张逐页联系表核验，并对疑似项回看项目原指南；器械、动作阶段、支撑点与语义一致，无需重生。"
+    },
+    {
+      "id": "1731",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T07:51:34.708777+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch contact sheets; anatomy, equipment, support points and movement phases are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "1736",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T10:41:46.710497+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch4 contact sheets; exercise semantics, equipment, anatomy and frame progression are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "1737",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T12:23:43.485024+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch5 contact sheets and checked ambiguous entries against English exercise names and full source cues; acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "1775",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T08:28:19.622983+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch12人工视觉复核：其余技术告警对照原指南通过；1766按器械范围排除。"
+    },
+    {
+      "id": "2137",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T07:51:34.708777+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch contact sheets; anatomy, equipment, support points and movement phases are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "2189",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T16:08:14.696032+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch6联系表及原图复核通过：动作、器械、支撑点和主要关节路径可识别；边缘阈值或简单动作两姿势告警不影响App四帧循环。"
+    },
+    {
+      "id": "2333",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T07:51:34.708777+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch contact sheets; anatomy, equipment, support points and movement phases are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "2429",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T20:57:38.782480+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch8联系表及原图复核通过：高级自重/悬挂动作的支撑点、离地状态和关节路径可识别；边缘或着色阈值不影响App动画。"
+    },
+    {
+      "id": "2567",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T08:28:19.622983+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch12人工视觉复核：其余技术告警对照原指南通过；1766按器械范围排除。"
+    },
+    {
+      "id": "2796",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T16:08:14.696032+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch6联系表及原图复核通过：动作、器械、支撑点和主要关节路径可识别；边缘阈值或简单动作两姿势告警不影响App四帧循环。"
+    },
+    {
+      "id": "2812",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T16:08:14.696032+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch6联系表及原图复核通过：动作、器械、支撑点和主要关节路径可识别；边缘阈值或简单动作两姿势告警不影响App四帧循环。"
+    },
+    {
+      "id": "3013",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T02:04:14.663416+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch10人工视觉复核：72张逐页联系表核验，并对疑似项回看项目原指南；器械、动作阶段、支撑点与语义一致，无需重生。"
+    },
+    {
+      "id": "3158",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T07:51:34.708777+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch contact sheets; anatomy, equipment, support points and movement phases are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "3168",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T07:51:34.708777+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch contact sheets; anatomy, equipment, support points and movement phases are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "3193",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T21:02:46.555446+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch8针对性重生原图复核通过：Maltese环上水平直臂支撑、GHD膝主导臀腿抬高、前臂落杠的不可能臂屈伸均已按标准动作语义纠正。"
+    },
+    {
+      "id": "3202",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T20:57:38.782480+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch8联系表及原图复核通过：高级自重/悬挂动作的支撑点、离地状态和关节路径可识别；边缘或着色阈值不影响App动画。"
+    },
+    {
+      "id": "3203",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T02:04:14.663416+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch10人工视觉复核：72张逐页联系表核验，并对疑似项回看项目原指南；器械、动作阶段、支撑点与语义一致，无需重生。"
+    },
+    {
+      "id": "3204",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T07:51:34.708777+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch contact sheets; anatomy, equipment, support points and movement phases are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "3214",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T07:51:34.708777+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch contact sheets; anatomy, equipment, support points and movement phases are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "3217",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T02:04:14.663416+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch10人工视觉复核：72张逐页联系表核验，并对疑似项回看项目原指南；器械、动作阶段、支撑点与语义一致，无需重生。"
+    },
+    {
+      "id": "3218",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T20:57:38.782480+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch8联系表及原图复核通过：高级自重/悬挂动作的支撑点、离地状态和关节路径可识别；边缘或着色阈值不影响App动画。"
+    },
+    {
+      "id": "3220",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T07:51:34.708777+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch contact sheets; anatomy, equipment, support points and movement phases are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "3222",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T08:28:19.622983+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch12人工视觉复核：其余技术告警对照原指南通过；1766按器械范围排除。"
+    },
+    {
+      "id": "3223",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T08:28:19.622983+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch12人工视觉复核：其余技术告警对照原指南通过；1766按器械范围排除。"
+    },
+    {
+      "id": "3231",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T08:48:09.727672+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch13 contact-sheet visual review: action semantics and four-phase presentation are acceptable; automated border, low-coral, or small-motion flags are false positives for supported equipment/static mobility poses"
+    },
+    {
+      "id": "3236",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T02:26:35.845243+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch11人工视觉复核：36张联系表及疑似项逐图对照原指南，动作语义一致；0684按严格八类器械范围排除，未放行。"
+    },
+    {
+      "id": "3289",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T21:02:46.555446+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch8针对性重生原图复核通过：Maltese环上水平直臂支撑、GHD膝主导臀腿抬高、前臂落杠的不可能臂屈伸均已按标准动作语义纠正。"
+    },
+    {
+      "id": "3291",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T08:32:05.445961+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch12定向重生复核通过：Stalder press、straddle planche、straddle Maltese 均改为标准体操动作，支撑点和离地状态清晰。"
+    },
+    {
+      "id": "3296",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T20:57:38.782480+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch8联系表及原图复核通过：高级自重/悬挂动作的支撑点、离地状态和关节路径可识别；边缘或着色阈值不影响App动画。"
+    },
+    {
+      "id": "3298",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T08:32:05.445961+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch12定向重生复核通过：Stalder press、straddle planche、straddle Maltese 均改为标准体操动作，支撑点和离地状态清晰。"
+    },
+    {
+      "id": "3302",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T20:57:38.782480+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch8联系表及原图复核通过：高级自重/悬挂动作的支撑点、离地状态和关节路径可识别；边缘或着色阈值不影响App动画。"
+    },
+    {
+      "id": "3314",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T08:32:05.445961+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch12定向重生复核通过：Stalder press、straddle planche、straddle Maltese 均改为标准体操动作，支撑点和离地状态清晰。"
+    },
+    {
+      "id": "3315",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T21:02:46.555446+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch8针对性重生原图复核通过：Maltese环上水平直臂支撑、GHD膝主导臀腿抬高、前臂落杠的不可能臂屈伸均已按标准动作语义纠正。"
+    },
+    {
+      "id": "3360",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T07:51:34.708777+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch contact sheets; anatomy, equipment, support points and movement phases are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "3523",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T20:57:38.782480+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch8联系表及原图复核通过：高级自重/悬挂动作的支撑点、离地状态和关节路径可识别；边缘或着色阈值不影响App动画。"
+    },
+    {
+      "id": "3533",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T02:26:35.845243+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch11人工视觉复核：36张联系表及疑似项逐图对照原指南，动作语义一致；0684按严格八类器械范围排除，未放行。"
+    },
+    {
+      "id": "3543",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T07:51:34.708777+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch contact sheets; anatomy, equipment, support points and movement phases are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "3545",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T10:41:46.710497+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch4 contact sheets; exercise semantics, equipment, anatomy and frame progression are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "3546",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T12:23:43.485024+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch5 contact sheets and checked ambiguous entries against English exercise names and full source cues; acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "3547",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T15:26:26.650597+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "原图逐格复核通过：坐姿哑铃弯举至推举，四阶段完整；器械贴近分格边缘但未发生影响动作识别的裁切。"
+    },
+    {
+      "id": "3548",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T16:15:08.198230+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch6针对性重生原图复核通过：腕弯举、前臂旋转、过头行走持重、仰卧Tate press和单哑铃服务员弯举均已按标准动作语义纠正。"
+    },
+    {
+      "id": "3560",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T16:08:14.696032+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch6联系表及原图复核通过：动作、器械、支撑点和主要关节路径可识别；边缘阈值或简单动作两姿势告警不影响App四帧循环。"
+    },
+    {
+      "id": "3561",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T20:57:38.782480+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch8联系表及原图复核通过：高级自重/悬挂动作的支撑点、离地状态和关节路径可识别；边缘或着色阈值不影响App动画。"
+    },
+    {
+      "id": "3582",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T02:04:14.663416+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch10人工视觉复核：72张逐页联系表核验，并对疑似项回看项目原指南；器械、动作阶段、支撑点与语义一致，无需重生。"
+    },
+    {
+      "id": "3635",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T07:51:34.708777+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch contact sheets; anatomy, equipment, support points and movement phases are acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "3636",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T20:57:38.782480+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch8联系表及原图复核通过：高级自重/悬挂动作的支撑点、离地状态和关节路径可识别；边缘或着色阈值不影响App动画。"
+    },
+    {
+      "id": "3638",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T02:04:14.663416+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch10人工视觉复核：72张逐页联系表核验，并对疑似项回看项目原指南；器械、动作阶段、支撑点与语义一致，无需重生。"
+    },
+    {
+      "id": "3640",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T02:04:14.663416+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch10人工视觉复核：72张逐页联系表核验，并对疑似项回看项目原指南；器械、动作阶段、支撑点与语义一致，无需重生。"
+    },
+    {
+      "id": "3656",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T08:28:19.622983+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch12人工视觉复核：其余技术告警对照原指南通过；1766按器械范围排除。"
+    },
+    {
+      "id": "3662",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T02:04:14.663416+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch10人工视觉复核：72张逐页联系表核验，并对疑似项回看项目原指南；器械、动作阶段、支撑点与语义一致，无需重生。"
+    },
+    {
+      "id": "3679",
+      "status": "accept",
+      "reviewed_at": "2026-09-12T08:28:19.622983+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch12人工视觉复核：其余技术告警对照原指南通过；1766按器械范围排除。"
+    },
+    {
+      "id": "3698",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T20:57:38.782480+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch8联系表及原图复核通过：高级自重/悬挂动作的支撑点、离地状态和关节路径可识别；边缘或着色阈值不影响App动画。"
+    },
+    {
+      "id": "3888",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T12:23:43.485024+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "Reviewed in batch5 contact sheets and checked ambiguous entries against English exercise names and full source cues; acceptable despite conservative pixel-threshold flags."
+    },
+    {
+      "id": "5201",
+      "status": "accept",
+      "reviewed_at": "2026-09-11T16:15:08.198230+00:00",
+      "reviewer": "contact-sheet-visual-review",
+      "note": "batch6针对性重生原图复核通过：腕弯举、前臂旋转、过头行走持重、仰卧Tate press和单哑铃服务员弯举均已按标准动作语义纠正。"
+    }
+  ],
+  "updated_at": "2026-09-12T08:48:09.727672+00:00"
+}

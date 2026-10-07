@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The exercise is incorrectly depicted as a 'dead bug' with arms and legs moving in a coordinated pattern, but the movement shown is more consistent with a 'bicycle crunch' or 'leg raise' variation, not the classic dead bug where only one limb moves at a time while the core is braced.",
+  "id": "0276",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 58.23,
+  "prompt_sha256": "eb03a0a47bda910cba4406e4fd06095bac70beda0f99a26cd4e4f0272ed7a735"
+}

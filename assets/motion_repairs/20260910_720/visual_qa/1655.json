@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The sequence does not correctly depict the dumbbell biceps curl squat; the top-right and bottom-left frames show incorrect arm positioning and lack the full squat motion.",
+  "id": "1655",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 59.82,
+  "prompt_sha256": "98a6983a50118225b8898e28fee23cf2f53b389c0e1b04b3c1d5a1f09a672f2c"
+}

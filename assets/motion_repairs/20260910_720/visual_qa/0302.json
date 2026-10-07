@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The exercise is incorrectly depicted as dumbbell bench press, not decline fly; equipment is shown as dumbbells but the movement is inconsistent with decline fly mechanics; anatomy is inconsistent across frames with incorrect muscle highlighting and limb positioning.",
+  "id": "0302",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 58.53,
+  "prompt_sha256": "fbf4479d9fd0219928f6d9d3d2652cc99dee6036c22a150bed97ea614741421b"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The top-right and bottom-right cells show the same peak stretch phase, violating the requirement for distinct phases.",
+  "id": "1548",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 56.44,
+  "prompt_sha256": "0901c94d0ea905b6aadc7cb5a9d41aab96f66659961372db1ec964b840564b52"
+}

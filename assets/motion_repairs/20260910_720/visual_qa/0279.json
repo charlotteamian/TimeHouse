@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The exercise is incorrectly labeled as 'decline push-up' but the movement shown is a standard push-up with feet elevated, not a true decline push-up. The equipment is not correctly used as the feet are on a box, which is not standard for a decline push-up. The anatomy is inconsistent with the movement, showing incorrect muscle activation and joint angles. The style does not match the required grayscale anatomy with muted coral target muscles.",
+  "id": "0279",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 64.2,
+  "prompt_sha256": "bbfa505731269f35e20fb869d39c81d872afee82c92dbc16babed4a0c53c5efc"
+}

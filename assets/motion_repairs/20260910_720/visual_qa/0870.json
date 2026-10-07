@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The exercise is incorrectly depicted as a hip bridge with leg raises, not a butt-up (hip thrust). The motion phases are inconsistent with the intended movement.",
+  "id": "0870",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 74.74,
+  "prompt_sha256": "1d828dd9ccafa3893accde395ad946c25a4b07babadfcdabd96c871827eb00ef"
+}

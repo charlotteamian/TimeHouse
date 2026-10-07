@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The motion does not correctly depict the alternate biceps curl; the arms are not alternating in a controlled, isolated manner as required.",
+  "id": "0285",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 66.42,
+  "prompt_sha256": "1ac711044e79e604b3b6ecbb975529744ca758d40dec9e4b9c21ab55877759ab"
+}

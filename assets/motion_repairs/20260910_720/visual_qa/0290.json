@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The motion phases are not correctly sequenced; the top-right and bottom-left frames show the same peak contraction, while the bottom-right frame is an incomplete repetition of the starting position.",
+  "id": "0290",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 45.84,
+  "prompt_sha256": "e16edcde2cc475c304f374400ce1962f2077557d50820bbbf27f8104ac45fffc"
+}

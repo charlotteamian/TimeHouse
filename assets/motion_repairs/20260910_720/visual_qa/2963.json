@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The motion phases are inconsistent with the intended captain's chair straight leg raise; some frames show bent knees or incorrect leg positioning.",
+  "id": "2963",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 59.29,
+  "prompt_sha256": "538c7cb81ac285f33fc610bdbcebd7fd800081ef0d74702ab7d93930ba12bb79"
+}

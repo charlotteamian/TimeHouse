@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The sequence does not correctly depict a bent-knee lying twist; the movements appear to be variations of a bridge or hip thrust, not a twisting motion.",
+  "id": "3639",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 74.1,
+  "prompt_sha256": "2176591633808e0e2dd0aa8f56fbedb0d09e444a90e84dcbaf77260e1dac0037"
+}

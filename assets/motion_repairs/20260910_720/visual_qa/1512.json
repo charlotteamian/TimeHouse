@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The exercise is incorrectly labeled as 'all fours squad stretch' but visually depicts a glute bridge, not a quad stretch; the target muscles shown are glutes, not quads.",
+  "id": "1512",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 91.34,
+  "prompt_sha256": "ff1a7bded754b6ddde27f4b473eea423b0aca78f64148a543927358ccb1d31e7"
+}

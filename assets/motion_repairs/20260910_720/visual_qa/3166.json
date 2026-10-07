@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The motion phases are inconsistent with the intended bodyweight row exercise; the top-left and bottom-left frames show incorrect arm positioning and lack the proper pulling motion.",
+  "id": "3166",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 63.77,
+  "prompt_sha256": "5fa6ffb185e4bf34c871f398344dd5e495ee967908fa2814bc1b199462fe6a8c"
+}

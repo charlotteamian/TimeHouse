@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The motion phases are inconsistent with the intended calf push stretch; the top-left frame shows a standing position with no stretch, while the others show incorrect leg positioning for the exercise.",
+  "id": "1407",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 58.14,
+  "prompt_sha256": "94bce90c3bf9eba9dd2904d5ef2262545334f9a6bdccc9d572fd85fd5e6127ef"
+}

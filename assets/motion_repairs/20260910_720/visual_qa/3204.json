@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The sequence shows a full sit-up, but the bottom-right cell depicts the starting position, which is not a 'repeated-halfway' phase as required.",
+  "id": "3204",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 49.64,
+  "prompt_sha256": "583552f5de6400367bcfdad6407b76606a1c5d512197c364a29c9325dfbf81a5"
+}

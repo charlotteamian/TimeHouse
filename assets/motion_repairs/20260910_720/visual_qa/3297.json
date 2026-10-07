@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": false,
+  "style_match": true,
+  "reason": "Top-right and bottom-right cells show incorrect back lever positions; top-left and bottom-left show inconsistent muscle highlighting and posture.",
+  "id": "3297",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 51.81,
+  "prompt_sha256": "67d52ea9bfa0fa8621c71549cdf385a0673d2e80e3da229f28b41157dd6ec80b"
+}

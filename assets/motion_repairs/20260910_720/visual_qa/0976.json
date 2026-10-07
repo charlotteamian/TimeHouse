@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The exercise is incorrectly depicted as a band concentration curl with the band anchored under the foot, but the movement shown is a standard seated bicep curl with the band anchored to the floor, which is biomechanically inconsistent with the intended concentration curl motion.",
+  "id": "0976",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 52.77,
+  "prompt_sha256": "2bfec96c9e4142c8d3bcdaf31fc71f8e18d4ed9c8cec4ec4886539cc15c8a303"
+}

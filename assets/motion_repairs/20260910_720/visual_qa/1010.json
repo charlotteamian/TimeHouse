@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The sequence incorrectly depicts a band deadlift with the band anchored at the feet, not the intended hip/leg position, and the motion phases are inconsistent with the exercise's biomechanics.",
+  "id": "1010",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 54.74,
+  "prompt_sha256": "888670c649a6245dff338786f5c8ccc054adc05bda80a71c6ac1be507af3cdfa"
+}

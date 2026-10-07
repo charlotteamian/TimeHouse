@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The exercise is incorrectly labeled as a calf stretch when it's actually a wall-assisted lunge, and the target muscles highlighted are not the calves but the glutes and hamstrings.",
+  "id": "1377",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 54.33,
+  "prompt_sha256": "14721b563bbae0cb0cd465395e5c1cc31de1b0ca74f37d6ef4e5b806dad05d1e"
+}

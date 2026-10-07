@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": false,
+  "style_match": true,
+  "reason": "The frames do not correctly depict the clock push-up motion; they show variations of standard push-ups with inconsistent body positioning and lack the specific rotational and depth changes required for the exercise.",
+  "id": "0258",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 56.71,
+  "prompt_sha256": "3514c1d05f8333e379298db668c87978ed9e260c56054d09430c80eccf5b708f"
+}

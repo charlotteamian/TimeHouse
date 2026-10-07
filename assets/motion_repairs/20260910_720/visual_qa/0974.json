@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The exercise is incorrectly depicted as a band pull-apart or rowing motion, not a close-grip pulldown; the grip and anchor points are inconsistent across frames; the muscle activation highlights are inaccurate for lats; and the equipment setup is malformed with no visible anchor point for the band.",
+  "id": "0974",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 61.98,
+  "prompt_sha256": "934ad483d2f3983c3719751a3627fc72cca76429a1d940266e8b982319a2f05e"
+}

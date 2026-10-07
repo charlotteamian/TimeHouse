@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The motion phases are not correctly sequenced for a chest dip; the top-left and bottom-left frames show the same position, and the bottom-right frame shows an incorrect arm position for the dip motion.",
+  "id": "2462",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 66.7,
+  "prompt_sha256": "d9d60ae30b9764ca0a593cd8dcdadbaf3ba7445ac22f4d736177457f02d5ee0d"
+}

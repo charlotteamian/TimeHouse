@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The exercise is incorrectly depicted as a band bench press with the band anchored to the bench legs, but the motion shown is inconsistent with standard band bench press mechanics and lacks proper equipment setup.",
+  "id": "1254",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 52.01,
+  "prompt_sha256": "8d0811e88a88841ace2ee177c6fa51508afad5d966e3d512ab7510e3236ff743"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": false,
+  "style_match": true,
+  "reason": "The frames do not show a consistent narrow grip or correct biceps-focused motion; some frames depict wide grip or incorrect arm positioning.",
+  "id": "0139",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 52.84,
+  "prompt_sha256": "9eaa4bf049fd9f44c09c3472b5fd2300256658d4162613b2861e927cff2c70a0"
+}

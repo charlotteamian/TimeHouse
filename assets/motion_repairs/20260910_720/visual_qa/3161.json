@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The exercise is incorrectly depicted as a towel row with the towel anchored, but the movement phases do not match the intended bodyweight single-arm row mechanics.",
+  "id": "3161",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 55.45,
+  "prompt_sha256": "5e4ccc46b78ae2b453e047e8b1f09c949dba3d4d6e8835cd4ef0076654da7800"
+}

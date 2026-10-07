@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The animation shows incorrect biomechanics for a band v-up; the movement is not a controlled v-up but a static hold with arms and legs pulled in, and the equipment setup is inconsistent across frames.",
+  "id": "1014",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 49.81,
+  "prompt_sha256": "8d0a516dbf33bd8cfe27f41420d32ad6191d24b86dce25bf506325180b38c41f"
+}

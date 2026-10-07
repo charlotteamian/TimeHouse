@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The motion sequence is inconsistent with bench hip extension; the poses suggest a hip thrust or glute bridge with the torso elevated, not the intended hip extension with the torso flat on the bench.",
+  "id": "0130",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 63.64,
+  "prompt_sha256": "c2c25c9f0d9a3c1e245185837b05572f4fd57568d182d1551274b8f337acb2fb"
+}

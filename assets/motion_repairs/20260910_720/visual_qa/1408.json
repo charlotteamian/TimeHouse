@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The exercise is incorrectly depicted as a hip lift with a band around the knees, not the glutes, and the muscle highlighting is inconsistent with the movement phases.",
+  "id": "1408",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 63.13,
+  "prompt_sha256": "870888ce83c3e9a94d5a87c644188d766bd0952b6e282890647c7451e58154ca"
+}

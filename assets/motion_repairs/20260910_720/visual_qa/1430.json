@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": false,
+  "style_match": true,
+  "reason": "The frames show inconsistent motion phases and incorrect muscle activation patterns for chest dips; some frames depict a pull-up motion instead.",
+  "id": "1430",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 64.65,
+  "prompt_sha256": "52af126aac6650a6d634f95e8076504f3deed8fe26d878b2e0378fa230f1b40a"
+}

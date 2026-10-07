@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The motion phases are inconsistent with the intended 'stork stance' and do not clearly show the full curl range or correct joint angles for the exercise.",
+  "id": "1653",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 58.12,
+  "prompt_sha256": "767c36bebc51ea273df1c4b3631b4cc59c661cfe98379e0a3f68375d86437dfb"
+}

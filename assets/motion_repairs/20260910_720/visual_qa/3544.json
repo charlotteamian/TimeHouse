@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The motion phases are inconsistent with the intended incline side plank; the top-left and bottom-left show a side plank with arm extended, not the incline movement.",
+  "id": "3544",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 58.22,
+  "prompt_sha256": "e0d38d4e2306fe108c3c1e1bf3f2d7615e914067f5d3541aeac286762b1d26e5"
+}

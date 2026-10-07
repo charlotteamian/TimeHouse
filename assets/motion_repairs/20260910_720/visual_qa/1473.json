@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The motion does not correctly depict a backward jump; the poses suggest a forward jump or squat pattern.",
+  "id": "1473",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 50.11,
+  "prompt_sha256": "8a5560cd030574ad334614e4293d8aa5bf5ca1da37889d280057b66d574e5116"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The sequence shows incorrect squat mechanics with inconsistent band placement and non-standard movement phases.",
+  "id": "1004",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 49.17,
+  "prompt_sha256": "9051665a87c939955b6b140baef77798e6f9c4a27e98922d9d66bdfbd7339c6b"
+}

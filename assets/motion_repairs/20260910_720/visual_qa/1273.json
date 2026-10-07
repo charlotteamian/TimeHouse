@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The motion does not correctly depict a clap push-up; the hand positions and body angles are inconsistent with the exercise's biomechanics.",
+  "id": "1273",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 53.33,
+  "prompt_sha256": "702c7f6beda153257ffbb3bbc521952d44ac1fcc1e2a73ada974326c611b51ce"
+}

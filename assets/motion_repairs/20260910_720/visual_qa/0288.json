@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The exercise is incorrectly depicted as a dumbbell pullover with overhead press, not a 'dumbbell around pullover' with the barbell-like motion shown in Image 2. Equipment is inconsistently shown (dumbbell vs. barbell), and anatomy is inconsistent across frames.",
+  "id": "0288",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 55.26,
+  "prompt_sha256": "ed0209e60dcbd00633ef1d68867807cc552692c9b1a6f89b5a541e44847b7d82"
+}

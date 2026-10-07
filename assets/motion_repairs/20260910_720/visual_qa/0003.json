@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The motion depicted is not air bike; it's a standard crunch with legs bent, not pedaling motion.",
+  "id": "0003",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 152.7,
+  "prompt_sha256": "c80ba9440b7d03f10b9401f67b4965c5874e2e9847092bfe28170e9f1ad265f8"
+}

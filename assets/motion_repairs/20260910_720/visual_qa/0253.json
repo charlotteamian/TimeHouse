@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": false,
+  "style_match": true,
+  "reason": "All frames show the same grip and motion, but the exercise is incorrectly labeled as 'chin-ups (narrow parallel grip)' when the grip is actually wide-grip, and the muscle activation patterns are inconsistent across frames.",
+  "id": "0253",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 58.5,
+  "prompt_sha256": "5db4a627674c0dfa303dbb7c4c21440de777f2e421691abbfd506a2e3bcb3f2c"
+}

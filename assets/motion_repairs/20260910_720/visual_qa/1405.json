@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": false,
+  "style_match": true,
+  "reason": "The motion sequence is inconsistent with the intended back pec stretch; the top-right and bottom-left frames show incorrect arm positioning and body posture for targeting lats.",
+  "id": "1405",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 52.32,
+  "prompt_sha256": "73a660cbf53cd8b83f5c9d839da3aa5666c78f9dd7f76610a46dbf179ed98c47"
+}

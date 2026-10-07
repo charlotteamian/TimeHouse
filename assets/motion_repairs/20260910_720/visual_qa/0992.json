@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The motion sequence is incorrect; the top-right and bottom-left frames show the same phase (mid-sit-up) but the bottom-right frame shows a full sit-up, which breaks the intended 'halfway, peak, repeated-halfway' progression.",
+  "id": "0992",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 55.72,
+  "prompt_sha256": "8a29445f59f193db07d4798b27af747601864e7e18cdbc5cd814009e0caf5f8f"
+}

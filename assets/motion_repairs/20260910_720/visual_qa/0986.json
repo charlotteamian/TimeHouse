@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The exercise is incorrectly depicted as a lateral raise or shoulder press, not a biceps curl, and the band is not anchored correctly for a true overhead curl.",
+  "id": "0986",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 60.52,
+  "prompt_sha256": "1a1b6c4e1a37afde05948d0885cf75578574014a75696eae6c2de3784f8568e9"
+}

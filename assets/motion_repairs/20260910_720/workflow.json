@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "mode": "built-in-imagegen",
+  "batch": "20260910_720",
+  "equipment": [
+    "自重",
+    "弹力带",
+    "哑铃",
+    "壶铃",
+    "瑜伽球",
+    "BOSU 球",
+    "动感单车"
+  ],
+  "scope_pending_before_workflow": 721,
+  "new_images": 716,
+  "exact_duplicate_reuses": 5,
+  "scope_exclusions": 4,
+  "covered_rows": 721,
+  "already_repaired": 30,
+  "status_counts": {
+    "generated": 716
+  },
+  "prompt_strategy": "one quality anchor plus one local movement guide plus full source movement cue"
+}

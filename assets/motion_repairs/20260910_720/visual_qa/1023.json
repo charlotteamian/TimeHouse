@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The exercise is incorrectly labeled as 'band straight back stiff leg deadlift' but the movement shown is a band Romanian deadlift, not a stiff-leg deadlift. The equipment is not anchored properly and the muscle highlighting is inconsistent across frames.",
+  "id": "1023",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 60.46,
+  "prompt_sha256": "8df69ff3512f45587391d89be3519f02367dcdbbe9707a07d3dc8fb301319e4b"
+}

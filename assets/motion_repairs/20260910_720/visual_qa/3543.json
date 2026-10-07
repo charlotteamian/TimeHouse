@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The motion does not correctly depict a drop jump squat; the figures show static squat positions without the dynamic drop and jump phases.",
+  "id": "3543",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 55.84,
+  "prompt_sha256": "03d8f353dd99ea0f4f04ea5c3e9364d57511aa1a528e5183a873dd9f4a8adf1f"
+}

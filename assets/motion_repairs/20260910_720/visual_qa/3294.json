@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The motion phases do not correctly represent the archer push-up; the arm positions and body angles are inconsistent with the exercise's biomechanics.",
+  "id": "3294",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 78.35,
+  "prompt_sha256": "9a01c4796737b8b929ff2ba88e063e13e9b897b9ce0ac64e4c988f60294b13c1"
+}

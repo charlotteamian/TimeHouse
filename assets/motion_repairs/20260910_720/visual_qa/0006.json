@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The motion does not match alternate heel touchers; it appears to be a standard crunch with no alternating heel contact.",
+  "id": "0006",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 48.71,
+  "prompt_sha256": "5e2ef6aeda0821eac4f08a8415dfe93706cf0b6d9ac5ea72033a303496808e61"
+}

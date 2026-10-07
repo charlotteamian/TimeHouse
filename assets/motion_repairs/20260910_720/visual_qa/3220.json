@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The top-right and bottom-right cells show the same squat position, indicating duplicate phases instead of distinct movement stages.",
+  "id": "3220",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 57.2,
+  "prompt_sha256": "da140e9a4c2563304ce2b1a7ffb5cca3cd61ee4f349e556e7f99d4fcb9419615"
+}

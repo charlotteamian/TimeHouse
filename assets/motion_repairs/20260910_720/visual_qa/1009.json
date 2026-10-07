@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The sequence incorrectly depicts a hip hinge with a band, not a stiff-leg deadlift, and the muscle highlighting is inconsistent with the movement phases.",
+  "id": "1009",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 48.41,
+  "prompt_sha256": "83fe8d79453d9254e5583b29391c83d6250c0b7e1c99e174625cf9f139eb6441"
+}

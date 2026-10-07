@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The exercise is incorrectly labeled as 'biceps leg concentration curl' but the movement is a seated dumbbell curl targeting the biceps, not a leg curl. The equipment is dumbbells, not bodyweight. The muscle highlighted is the biceps, not the hamstrings. The motion phases are inconsistent with the intended exercise.",
+  "id": "1770",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 64.52,
+  "prompt_sha256": "b6585e3cdf3dc6c02993b8404c48815336210d65a10a717b81e664ed3969dbcb"
+}

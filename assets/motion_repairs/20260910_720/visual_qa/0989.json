@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The exercise is incorrectly depicted as a single-arm twist; the animation shows alternating arm positions that do not match the intended unilateral twisting motion.",
+  "id": "0989",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 60.84,
+  "prompt_sha256": "257dc00e285bc427e9538f9a15ecc6ceb480df0d180f7bea53c139a6521961fe"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The exercise is incorrectly depicted as a calf raise with the band under the legs, but the movement shown is a static hold with no visible motion progression. The band is not anchored correctly for a calf raise, and the phases do not show the intended movement.",
+  "id": "1369",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 54.5,
+  "prompt_sha256": "845e2d25bf05c7a9737726e12638ec6923d69aea5c1ebef7becbdc9d58f3bec2"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The exercise is incorrectly labeled as 'dumbbell close grip press' but the movement shown is a seated dumbbell overhead press, which primarily targets the shoulders and triceps differently than intended.",
+  "id": "1731",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 55.93,
+  "prompt_sha256": "6e9f9e0600e2790c014fcad7ee34bc47097e125c733fc8527ac77ef958c6bf12"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The exercise is incorrectly labeled as 'push-ups' but depicts a triceps extension; the movement lacks proper knee-to-floor support and shows inconsistent limb positioning across frames.",
+  "id": "1771",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 63.26,
+  "prompt_sha256": "2b401505524dfc475a8b712e158275093ea5aea8a032b743f9dfe2891020a85b"
+}

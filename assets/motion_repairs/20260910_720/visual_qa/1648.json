@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The exercise is incorrectly labeled as 'alternate seated hammer curl' but the motion shown is a standard seated dumbbell curl with no alternating arm movement.",
+  "id": "1648",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 103.3,
+  "prompt_sha256": "dd87d4b2ecd9a22b1be37f67f879a098c1f6abb570a10b191a9f054751829d69"
+}

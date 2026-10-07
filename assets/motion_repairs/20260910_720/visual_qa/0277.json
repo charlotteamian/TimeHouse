@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The animation shows inconsistent motion phases and incorrect equipment use; the man is not using a decline bench properly, and the muscle highlighting is inaccurate.",
+  "id": "0277",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 49.43,
+  "prompt_sha256": "6bed6b403c7a7628ef348ae6fc567bf7a99e47aef7f76aa28a6a816bab11a528"
+}

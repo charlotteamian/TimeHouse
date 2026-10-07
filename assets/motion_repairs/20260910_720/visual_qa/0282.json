@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The top-right and bottom-left frames show the same motion phase but from different angles, indicating duplicated or misaligned animation frames.",
+  "id": "0282",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 55.03,
+  "prompt_sha256": "f5a1563d2bf81e18b2eda09c9e1ccb8da1e1b67ec23ed98f2dea0a785cdcef60"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The exercise is incorrectly depicted as a band-assisted pull-up with the band anchored around the knees, which is biomechanically implausible and not consistent with the reference image's correct band setup.",
+  "id": "0970",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 60.53,
+  "prompt_sha256": "7a958c03d1652d6bc332c4d93874e31576863b78238aa36d786832747d602b42"
+}

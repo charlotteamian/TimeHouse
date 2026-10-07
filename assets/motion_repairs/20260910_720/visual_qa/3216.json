@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The bottom-left frame shows an incorrect chest tap motion; the hands are not positioned to tap the chest, and the body posture is inconsistent with the intended movement.",
+  "id": "3216",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 60.52,
+  "prompt_sha256": "0520c6ad77f9310f5872bb2ee6d024b080a239cefbe82a29e4617be15461ad75"
+}

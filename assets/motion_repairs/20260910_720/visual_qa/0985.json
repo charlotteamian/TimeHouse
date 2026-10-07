@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The motion phases are inconsistent with the intended band kneeling twisting crunch; the top-right and bottom-right frames show the same peak contraction, violating the requirement for distinct phases.",
+  "id": "0985",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 50.66,
+  "prompt_sha256": "2622d4d076f50d383913bcb1c0683f676d60b3201ee85b5c3e7bddb199ef56f8"
+}

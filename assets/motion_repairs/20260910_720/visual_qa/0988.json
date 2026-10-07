@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The exercise is incorrectly depicted as a single-arm row, but the animation shows two-arm movements and inconsistent grip positions across frames.",
+  "id": "0988",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 52.33,
+  "prompt_sha256": "482ca18a0b7715946c403796b4b9ffeb6775b419d297c450f42c08d0161b9bba"
+}

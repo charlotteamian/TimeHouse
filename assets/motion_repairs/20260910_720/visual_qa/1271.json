@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The poses do not match the chest and front shoulder stretch; they depict arm-crossing movements that are not a continuous stretch and lack proper equipment mechanics.",
+  "id": "1271",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 62.33,
+  "prompt_sha256": "165e5a3a4fc0d2e4d9c59076405928f5ea7b95c50a09b6c264ca91aee9f7ec84"
+}

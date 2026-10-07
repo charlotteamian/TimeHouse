@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The exercise is incorrectly labeled as 'bench dip on floor' but the movement shown is a floor push-up with a bench, not a true bench dip. The equipment is not correctly used as the bench is not supporting the body for a dip; it's being used as a support for a push-up variation.",
+  "id": "1399",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 58.29,
+  "prompt_sha256": "172e8903359bfefe6c8c9fa9b66c82ab7cd842d763e62fbb37f79b9b19f6cb34"
+}

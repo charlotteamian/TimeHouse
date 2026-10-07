@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The motion sequence is incorrect; the bottom-left frame shows a full crunch with the band anchored at the waist, which is not the intended band-standing crunch motion.",
+  "id": "1005",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 48.62,
+  "prompt_sha256": "b5ee633cb26ac7600de44c587294382db57e464e78927aa6c440ca21fce9db70"
+}

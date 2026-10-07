@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The pose is incorrectly labeled as 'butterfly' but visually matches 'bound angle' or 'Apanasana' with feet together, not the butterfly's spread-legs configuration.",
+  "id": "1494",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 61.73,
+  "prompt_sha256": "57b6316475c26da8b738fff230c364a9fb4698078a8ecca8f1a02f65725368a6"
+}

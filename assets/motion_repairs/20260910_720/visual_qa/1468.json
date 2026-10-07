@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The motion sequence does not correctly depict the crab twist toe touch; the leg positions and torso rotations are inconsistent with the intended exercise mechanics.",
+  "id": "1468",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 57.52,
+  "prompt_sha256": "7725c036451081bd66ade0094be763a59c9a360d8e5cc7c29e72e25cc4740160"
+}

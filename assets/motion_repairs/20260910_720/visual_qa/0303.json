@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The exercise is incorrectly depicted as dumbbell decline press with neutral grip, not hammer grip; equipment is mismatched; anatomy is inconsistent across frames; style does not match the reference guide.",
+  "id": "0303",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 61.68,
+  "prompt_sha256": "2f31e5b3368ced2bfe76d7a6d0080e331b6c5ffd1129951edef07729846a8ef7"
+}

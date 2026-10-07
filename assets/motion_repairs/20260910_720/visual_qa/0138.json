@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The exercise is incorrectly labeled as 'bottoms-up' (inverted push-up), but the depicted movement is a 'dead bug' or 'abdominal crunch' variation, not an inverted push-up.",
+  "id": "0138",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 53.11,
+  "prompt_sha256": "97bd69a82466e2d9e28a2e97689036b6b327fb3ce29410c2bc46b040f4eea8d4"
+}

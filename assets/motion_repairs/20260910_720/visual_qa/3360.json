@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The motion sequence does not correctly depict the bear crawl; the arm and leg movements are inconsistent with the exercise's biomechanics.",
+  "id": "3360",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 53.97,
+  "prompt_sha256": "1a38aa625d9c7cb65dac9481926bca13a4ba78a1524e5ca8cc32001a9a2c6a31"
+}

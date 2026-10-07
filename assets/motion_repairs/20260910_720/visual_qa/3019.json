@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The exercise is incorrectly labeled as 'bench pull-ups' when it's actually a standard pull-up with no bench involved.",
+  "id": "3019",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 71.31,
+  "prompt_sha256": "91dcc863be86fb89337b4aced7bb184a5a83be512925f04d785e0040af2703c5"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The motion sequence does not correctly depict alternating bicep curls; the arm positions suggest a single-arm curl or a different movement pattern.",
+  "id": "1650",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 65.63,
+  "prompt_sha256": "cbf075d99ba12d5e3786f11ce7d1a30fdfc6c60bf7a89051f490fcae167e4496"
+}

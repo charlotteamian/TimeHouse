@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The sequence does not correctly depict the contralateral forward lunge; the bottom-left frame shows a lunge with the front knee bent too far, and the top-right frame shows an incorrect stance with the back leg not properly extended.",
+  "id": "3635",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 59.57,
+  "prompt_sha256": "578b17bd054be47dba2dadba7c4d010c91402230216ee77b9c5ef4bff9fabf96"
+}

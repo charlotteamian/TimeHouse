@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": false,
+  "style_match": true,
+  "reason": "The motion does not correctly depict the archer pull-up; the arm positions and body angles are inconsistent with the exercise's biomechanics.",
+  "id": "3293",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 61.72,
+  "prompt_sha256": "69b2a9a285547d14fb2d4945b0055abc26906f3f58475454d2f085e97c441d8c"
+}

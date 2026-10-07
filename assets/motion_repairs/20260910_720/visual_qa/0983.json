@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The exercise is incorrectly labeled as 'band kneeling one arm pulldown' but the movements shown are not consistent with that name; the equipment is inconsistently anchored and the muscle highlighting is inaccurate.",
+  "id": "0983",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 64.24,
+  "prompt_sha256": "12c9003973ff0c48ab61bead2b9655aad7a0474fc52d27d3f3eb340cd9131838"
+}

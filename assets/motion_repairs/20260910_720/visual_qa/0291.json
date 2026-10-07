@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The exercise is incorrectly labeled as 'dumbbell bench squat' but the movement is actually a seated dumbbell squat with no bench support for the back, and the equipment is inconsistently shown (dumbbells on floor vs. held).",
+  "id": "0291",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 57.99,
+  "prompt_sha256": "f88b6197a584b85788bd56402262d88158ac843be200dc1271d4c0c4618a594f"
+}

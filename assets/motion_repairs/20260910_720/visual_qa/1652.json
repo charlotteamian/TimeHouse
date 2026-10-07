@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The frames show inconsistent motion phases and incorrect equipment handling; some frames depict the dumbbells being held incorrectly or not in the expected curling motion, and the leg position varies inconsistently with the exercise's standard form.",
+  "id": "1652",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 58.13,
+  "prompt_sha256": "696e54b8eca2e1583fd11588e974a5c62df87abab9139c52da01dfe4a2528b69"
+}

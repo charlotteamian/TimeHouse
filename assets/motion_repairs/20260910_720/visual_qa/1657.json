@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The exercise is incorrectly depicted as a standard hammer curl with one arm holding the dumbbell, not a cross-body motion with both arms engaged simultaneously.",
+  "id": "1657",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 328.02,
+  "prompt_sha256": "d51f13ecfe1c3d9d442bf851a9a0387c577c39b56028ce62dc5cde3a4096d3ae"
+}

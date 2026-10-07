@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The exercise is incorrectly depicted as a back row (underhand grip) when it should be a fixed back underhand pulldown; the equipment is shown as a single band with a fixed anchor, but the setup and grip are inconsistent with the intended movement.",
+  "id": "3116",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 48.76,
+  "prompt_sha256": "b3965ed51f2da6cfb316ce3ec2d99b1746ebb3595186f2777d05dd5d67702dac"
+}

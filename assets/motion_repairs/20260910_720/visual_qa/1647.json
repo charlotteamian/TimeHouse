@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The frames do not show a complete alternating motion; the right arm is consistently shown in the same phase across all frames, indicating a lack of true alternation.",
+  "id": "1647",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 94.76,
+  "prompt_sha256": "e40d3b2a8cb993210d358222ac24cd64c76b01a65c314155d3cb4070a02947fc"
+}

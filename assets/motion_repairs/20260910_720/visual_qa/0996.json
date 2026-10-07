@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The motion sequence does not correctly depict hip internal rotation; the band is positioned incorrectly and the movement appears to be hip abduction or adduction rather than internal rotation.",
+  "id": "0996",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 216.1,
+  "prompt_sha256": "86d4ba883efdb604e35b4f8a923de59be4ffa4fb2bbb4c8d6e44fbea42128c17"
+}

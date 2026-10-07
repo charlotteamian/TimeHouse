@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The frames do not correctly depict the dumbbell alternate biceps curl; the arm blaster is not properly anchored to the torso, and the movement phases are inconsistent with the exercise's biomechanics.",
+  "id": "2403",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 63.72,
+  "prompt_sha256": "2a7fe7730fa99d45cbf168723513c3ef7886b30c669a192b3ad32eaf929a4195"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The motion phases are not correctly sequenced for a close-grip push-up; the top-left and bottom-left frames show the same position, and the bottom-right frame is an incomplete repetition.",
+  "id": "2398",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 57.63,
+  "prompt_sha256": "0aef26aad8bc3aebd7e9370ff66784e0e5c1753d1ea246c7488dc1a9b1e5ab88"
+}

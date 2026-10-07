@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The exercise is incorrectly depicted as a bench-assisted body-up, not a standard body-up, and the equipment is misused; the bench is not part of the intended movement.",
+  "id": "0137",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 53.75,
+  "prompt_sha256": "ca77504e3d7dac4035d36b5a4501aa31ee7eb11164cb34636b681dd07a0f94b9"
+}

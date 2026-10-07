@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The exercise is incorrectly depicted as a rowing motion with a fixed anchor point, not a squatting row with a bodyweight movement pattern. The equipment setup and muscle activation are inconsistent with the intended exercise.",
+  "id": "3168",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 55.1,
+  "prompt_sha256": "8f9102a5b5d24c6d92b613e1378cdc51117322b01c4ae6f661f1b46e25e85d0a"
+}

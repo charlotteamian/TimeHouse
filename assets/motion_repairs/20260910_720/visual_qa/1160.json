@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The sequence does not correctly depict a burpee; the top-left cell shows a static standing pose, not part of the movement.",
+  "id": "1160",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 57.4,
+  "prompt_sha256": "d4039b55251d6538242458adfd9118e61fc09a8c88a4af548a80e25583ab8483"
+}

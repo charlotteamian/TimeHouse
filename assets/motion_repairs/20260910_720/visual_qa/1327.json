@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": false,
+  "style_match": true,
+  "reason": "The exercise is incorrectly labeled as 'close grip chin-up' but the grips are wide, and the muscle activation shown is inconsistent with the movement phases.",
+  "id": "1327",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 50.75,
+  "prompt_sha256": "3c88d58a73426e1794fc45d4ee77b43e41884fb5296855f583452ac8a9c1cdd9"
+}

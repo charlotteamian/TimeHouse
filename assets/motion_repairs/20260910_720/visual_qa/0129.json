@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The exercise is incorrectly labeled as 'bench dip (knees bent)' but the motion shown is a seated row or back extension, not a triceps-focused dip.",
+  "id": "0129",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 48.71,
+  "prompt_sha256": "6abcbbd2a2c7e644cb053ea5d4a577bd1950b7aa7113877949360db8478ec4ed"
+}

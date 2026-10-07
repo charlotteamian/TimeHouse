@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The frames do not correctly depict the close-grip push-up; the hand placement is too wide and the elbow positioning does not match the intended motion.",
+  "id": "0259",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 60.38,
+  "prompt_sha256": "2f944a3d37428379a9cef3252148035e3f5e8007e6cfc538c01bd74e9c2a7016"
+}

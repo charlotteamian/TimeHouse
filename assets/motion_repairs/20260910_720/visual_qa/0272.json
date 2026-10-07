@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The sequence incorrectly shows a full sit-up motion instead of a controlled crunch, with inconsistent arm positioning and lack of proper abdominal contraction visualization.",
+  "id": "0272",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 53.37,
+  "prompt_sha256": "794670e6f8cace352c6c68c9af44d804e156f61310aca6abbae2fa63c5b49568"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The frames depict incorrect movement phases for a close-grip row; the grip and body position do not match the exercise, and the equipment is incorrectly shown as a cable machine rather than bodyweight.",
+  "id": "3158",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 63.29,
+  "prompt_sha256": "6daa330619d2d93e609d02be92389f320dfe276ea8261cd00f3e331be6433f4c"
+}

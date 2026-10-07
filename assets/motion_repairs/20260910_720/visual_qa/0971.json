@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The exercise is incorrectly depicted as a wheel rollerout with a band anchored to the ground, but the band is shown attached to the wheel and the body, which is biomechanically implausible for a 'band assisted' movement. The anatomy and muscle highlighting are inconsistent across frames, and the equipment setup is incorrect.",
+  "id": "0971",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 56.15,
+  "prompt_sha256": "97b892d4f610e9c4f0cb4e772c2bea898ab110b58382cbc8837acc19638ecc56"
+}

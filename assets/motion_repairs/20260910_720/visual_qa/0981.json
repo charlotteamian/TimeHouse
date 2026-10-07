@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The exercise is incorrectly labeled as 'band jack knife sit-up' but the movements shown are not jackknife sit-ups; they are standard resistance band sit-ups with inconsistent limb positioning and missing equipment details.",
+  "id": "0981",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 57.94,
+  "prompt_sha256": "57d0dda652dd86955bf633eefa93955f6948559a05cc2dbce4422297fa1f9693"
+}

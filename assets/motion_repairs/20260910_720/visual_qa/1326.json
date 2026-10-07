@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The frames show inconsistent grip (underhand vs. overhand) and incorrect muscle highlighting, violating the chin-up exercise definition and anatomical accuracy.",
+  "id": "1326",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 56.97,
+  "prompt_sha256": "11ec2b7cc39efdc7506fdebecb2179d81eee830423dfe9f02d78e33a8029e93a"
+}

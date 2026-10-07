@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The exercise is incorrectly depicted as a standing crunch with a band around the torso, not a twisting crunch. The band is anchored incorrectly and the motion phases are inconsistent with the intended twisting movement.",
+  "id": "1007",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 50.98,
+  "prompt_sha256": "55600f3f9dc4d04ddce10db26754827d58d99db85be386ee83a55846a91caec1"
+}

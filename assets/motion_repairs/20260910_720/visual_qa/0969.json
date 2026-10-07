@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The exercise is incorrectly depicted as a standard v-up with band anchored at feet, not an alternating v-up with band anchored at hands and feet. The equipment is inconsistently shown as anchored at feet in some frames and missing in others.",
+  "id": "0969",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 51.33,
+  "prompt_sha256": "021ac427976f0cd3f3c8bf3bc79faa62fb639226cd9fa94245cb3b2775f18540"
+}

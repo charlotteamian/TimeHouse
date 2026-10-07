@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The motion phases are not correctly sequenced for the horizontal pallof press; the top-right and bottom-left frames show incorrect arm positions for the exercise.",
+  "id": "0979",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 50.16,
+  "prompt_sha256": "1b78256bab7ea7113bb186aa92c4dfe43ad720faadb1686eeb85a8dab9e1c84b"
+}

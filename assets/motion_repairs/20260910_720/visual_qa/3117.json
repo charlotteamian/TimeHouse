@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The motion sequence is incorrect; it shows a seated row or face pull variation, not a close-grip pulldown, as the arms are not pulling down toward the chest.",
+  "id": "3117",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 52.35,
+  "prompt_sha256": "b39d68d60dfb4466df8a377cb8cbc903b66f5e6f2e791b3b95d5388a2fb96f96"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The exercise is incorrectly depicted as a band pull-apart or chest press, not a vertical pallof press; the band is anchored incorrectly and the muscle activation shown is inconsistent with the movement.",
+  "id": "1015",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 51.28,
+  "prompt_sha256": "304d3f2b1acb05731e2747e0e83b7a0c859ccaf2a044591004288556614494b6"
+}

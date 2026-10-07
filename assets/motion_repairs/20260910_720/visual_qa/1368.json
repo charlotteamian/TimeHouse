@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The motion shown is not ankle circles but rather a seated leg extension with hip flexion, which does not match the intended exercise.",
+  "id": "1368",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 53.49,
+  "prompt_sha256": "61a075e2d11e25827fa215442819baf940cc4f79339b78bfd29e557cdd6aaf3f"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The exercise is incorrectly depicted as a Y-raise with arms pulled back, not a proper Y-raise with arms raised forward; equipment is inconsistently shown and anchored; anatomy and muscle highlighting are inconsistent across frames.",
+  "id": "1017",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 52.52,
+  "prompt_sha256": "ff744575dfe3417aad090d19c0b2b9601fe82ec37cb5e745125dd0a881e2122d"
+}

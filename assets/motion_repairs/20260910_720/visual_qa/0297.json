@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The frames show inconsistent grip and elbow positioning, and the dumbbells are not consistently anchored to the bench as required for concentration curls.",
+  "id": "0297",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 56.18,
+  "prompt_sha256": "727c1a7b2bd9c114bcc181de6f07a2472567e1fb8489e2d7bde4252f48bd6f2c"
+}

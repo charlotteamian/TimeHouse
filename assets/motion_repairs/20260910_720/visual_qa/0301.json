@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The frames show inconsistent motion phases and incorrect equipment handling; the exercise is not properly executed as a decline bench press with dumbbells.",
+  "id": "0301",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 52.02,
+  "prompt_sha256": "d8560e190458ab8f6d0ecc467fccea49c9cb59db823c69c94788f997d78963be"
+}

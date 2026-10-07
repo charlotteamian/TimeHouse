@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The sequence does not correctly depict a drop push-up; the bottom two frames show a knee-bent position that is not part of the drop push-up motion.",
+  "id": "1275",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 72.12,
+  "prompt_sha256": "6b64e5c98eab9e424c99bb4593d0d5450ebe77b91f731f1fca137df549afe2cb"
+}

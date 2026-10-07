@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The exercise is incorrectly labeled as 'dumbbell biceps curl reverse' but the motion shown is a standard dumbbell curl, not a reverse curl.",
+  "id": "1654",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 57.49,
+  "prompt_sha256": "55b02b9fb27826102e3ce66b939df01f1eef2f0e5968c2fd483cc48f507501cf"
+}

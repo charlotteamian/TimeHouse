@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The frames do not correctly depict a deep push-up with dumbbells; the motion is inconsistent and the equipment is not properly anchored to the body.",
+  "id": "1274",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 62.57,
+  "prompt_sha256": "e8d1c146965fca52a74057381d663d10d58a1eb9b4875506b1716a6cb90ffe24"
+}

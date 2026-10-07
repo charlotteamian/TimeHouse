@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The exercise is incorrectly depicted as a band row with arms pulled back, not a rear delt row with arms pulled across the body; equipment anchors are inconsistent and not fixed; anatomy is inconsistent across frames with mismatched muscle highlights and limb positions.",
+  "id": "1022",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 55.76,
+  "prompt_sha256": "c7b262eb1865d10993249381a1ef37b18b248d4c34190693241b0d6c47221ebc"
+}

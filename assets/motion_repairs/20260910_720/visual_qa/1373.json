@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The motion phases are not correctly sequenced for a calf raise; the bottom-left and bottom-right frames show the same position, and the top frames do not show the proper descent or peak contraction.",
+  "id": "1373",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 58.81,
+  "prompt_sha256": "ea8199fd12d237113dd8889088007871e12175e2d9a32c163d77976cc5325943"
+}

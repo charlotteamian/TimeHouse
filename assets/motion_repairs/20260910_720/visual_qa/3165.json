@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The exercise is incorrectly labeled as 'bodyweight standing row' but the movements shown are variations of a towel pull-up or towel row, not a true standing row. The equipment is not consistently held or anchored as required for a standing row.",
+  "id": "3165",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 69.75,
+  "prompt_sha256": "2921de9aed4f073facc533be9c3ef2a074663d279bc96bbfcc997947374cb43e"
+}

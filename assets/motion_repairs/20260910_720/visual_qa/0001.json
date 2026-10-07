@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The motion sequence incorrectly depicts a full sit-up rather than a 3/4 sit-up, as the torso does not stop at the halfway point and the movement is not segmented into the required phases.",
+  "id": "0001",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 57.36,
+  "prompt_sha256": "d7964e41520b24bd10c98d9e0c7865fffdba25ed53282470ea1fbcf1dc07edc5"
+}

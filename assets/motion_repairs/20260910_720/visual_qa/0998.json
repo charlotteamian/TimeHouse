@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The exercise is incorrectly depicted as a lateral triceps extension (side triceps extension) but the motion shown is a front triceps extension, and the equipment is not anchored correctly for the intended movement.",
+  "id": "0998",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 65.06,
+  "prompt_sha256": "7b5bf94a2c22c0c87002e94b5de6f8df14491daf6706190fddb878c7ab5e2808"
+}

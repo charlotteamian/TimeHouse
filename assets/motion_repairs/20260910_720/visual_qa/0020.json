@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The motion phases are not correctly sequenced to show a continuous balance board movement; the poses appear static or repeated without clear progression.",
+  "id": "0020",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 53.16,
+  "prompt_sha256": "c25efc268c9225bbd3928a29a885fa6a6775e04d66b81c25ac29e4a3ed58176a"
+}

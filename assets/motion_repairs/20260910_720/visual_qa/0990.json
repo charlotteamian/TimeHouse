@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The exercise is incorrectly labeled as 'band one arm twisting seated row' but the animation shows a bilateral row with alternating arm movements, not a single-arm twist.",
+  "id": "0990",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 49.32,
+  "prompt_sha256": "cc19754e601aba90babc3a47c0ca295669e0a897b488f8b2abac1b0a53e1aa22"
+}

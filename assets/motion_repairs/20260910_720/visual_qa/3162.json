@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The exercise is incorrectly depicted as dumbbell rows, not bodyweight rows, and the muscle highlighting is inconsistent across frames.",
+  "id": "3162",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 57.31,
+  "prompt_sha256": "8ed3822a86df0e07748e3766d78fa40eb68dfa624810f854383accca59010d2d"
+}

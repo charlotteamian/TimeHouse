@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The sequence shows a full crunch cycle but the bottom-right cell incorrectly depicts the starting position instead of the repeated halfway phase.",
+  "id": "0267",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 54.1,
+  "prompt_sha256": "efc070795ef3971a2cd1f03271bcfd005060128100f3edd9abff7585afa93cda"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": false,
+  "style_match": true,
+  "reason": "The exercise is incorrectly depicted as hanging knee raises (leg raises) rather than arm slingers (pull-ups), and the muscle activation shown is inconsistent across frames.",
+  "id": "2355",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 53.31,
+  "prompt_sha256": "5b97966f3cfd859c48cb055d5eeb86d0c957b26b5530923160dfd3d1212d8dd1"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The frames do not depict a clean (抓举) motion; they show a squat with dumbbells, which is biomechanically incorrect for the exercise and lacks the proper clean movement phases.",
+  "id": "0295",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 58.52,
+  "prompt_sha256": "5787e4b87e8c8ca36b9693a6878f4021a4dee3d0435555f88d4f6c604d7076ba"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The animation shows incorrect biomechanics for band pull-through; the movement is depicted as a hip hinge with the band anchored at the waist, not the glutes, and the muscle highlighting is inconsistent with the motion.",
+  "id": "0991",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 50.3,
+  "prompt_sha256": "a50ba2b66c872b9ba6a5c9a9a7d4c7b74244c6530f7a68629fa29269da48acde"
+}

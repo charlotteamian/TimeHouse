@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The exercise is incorrectly depicted as a lateral raise with the band anchored at the feet, but the movement shown is more consistent with a front raise or band pull-apart, not a true lateral raise. The equipment setup and motion phases are inconsistent with the intended exercise.",
+  "id": "0977",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 50.3,
+  "prompt_sha256": "dc3a94dd00b58d2adde31fff5b43fdca6afdb4567512f49af4c63d34b52d09f9"
+}

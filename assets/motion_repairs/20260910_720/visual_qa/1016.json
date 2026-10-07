@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The frames show inconsistent wrist curl mechanics and incorrect equipment setup; the band is not anchored properly and the motion phases are not clearly defined as setup, halfway, peak, and repeated-halfway.",
+  "id": "1016",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 60.82,
+  "prompt_sha256": "f08bc7ee5f49e76579d70716d151b71e4fcdaf40d7a208189d86b93a72884dd9"
+}

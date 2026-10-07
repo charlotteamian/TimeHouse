@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The sequence does not correctly depict the Arnold press motion; the top-right and bottom-right frames show incorrect elbow positioning and shoulder angle for the exercise.",
+  "id": "2137",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 57.15,
+  "prompt_sha256": "0692bdd6238da53b40b4482d8d7cf2405c6822c1735b846a3689d4448f38d767"
+}

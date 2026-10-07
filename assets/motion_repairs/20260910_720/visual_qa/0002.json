@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The top-right and bottom-left frames show incorrect side-bend angles; the top-right is too shallow and bottom-left is too deep for a 45° side bend.",
+  "id": "0002",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 69.44,
+  "prompt_sha256": "b224276ad8689215c71b1722fba73842cc54e8a1279043b4642922c8824655a4"
+}

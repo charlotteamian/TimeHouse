@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The exercise is incorrectly depicted as a lunge, not a back-and-forth step; the motion phases are mismatched with the intended movement.",
+  "id": "3672",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 53.79,
+  "prompt_sha256": "434c37f8a473bc57dc1e6d934aee6a8847e5c4d1143ce8780f27ddadd78260db"
+}

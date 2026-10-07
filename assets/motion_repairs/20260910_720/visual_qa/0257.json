@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The motion does not match the intended 'circles knee stretch' as the legs are not performing rotational circles; instead, they appear to be in static or slightly shifted squat positions.",
+  "id": "0257",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 51.96,
+  "prompt_sha256": "6f5fc8639cb3b754af284468412ee944a739691b1035557cb89cc92645cecd31"
+}

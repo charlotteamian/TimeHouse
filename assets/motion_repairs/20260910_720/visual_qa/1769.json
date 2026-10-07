@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The motion phases are inconsistent with the intended side-lying biceps curl; the arm positions suggest a front or back raise rather than a true side curl.",
+  "id": "1769",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 53.0,
+  "prompt_sha256": "79576252f751cf40aed10ac78a447334bd514f46ed643a21c6e4edabc20ac008"
+}

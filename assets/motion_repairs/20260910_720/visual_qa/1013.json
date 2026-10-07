@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The exercise is incorrectly depicted as a band underhand pulldown, but the motion and grip do not match the intended movement; the equipment setup is inconsistent across frames; anatomy is not consistently rendered with the same scale and camera angle; the target muscle highlighting is inaccurate for the shown motion.",
+  "id": "1013",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 49.86,
+  "prompt_sha256": "2c7bc04a3cab2bf2759dd66bd5c89c4f1f9539fac8732a44c069ac349210e243"
+}

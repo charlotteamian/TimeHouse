@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The motion does not match the intended 'arms apart circular toe touch' exercise; the poses show a static side-bend rather than a circular movement.",
+  "id": "3214",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 50.59,
+  "prompt_sha256": "43200e5091bc50e6206ae3a24eb2700e49487d3d3e6bb3b2e0c4f786e1e7165b"
+}

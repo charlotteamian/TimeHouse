@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The top-right and bottom-right frames show the same motion phase, indicating duplicate frames in the sequence.",
+  "id": "0287",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 55.47,
+  "prompt_sha256": "47ba1dce2d78aa8836a360b3a54794827f895ab6473197f15c142418ced57d9b"
+}

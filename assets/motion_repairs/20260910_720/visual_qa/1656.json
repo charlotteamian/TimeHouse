@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The top-right and bottom-right frames show the same peak contraction phase, indicating duplicate motion phases.",
+  "id": "1656",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 59.17,
+  "prompt_sha256": "a2a7a56598fb68729d60bf47b0f0c62b5a17e7987767a81d899299a92759d592"
+}

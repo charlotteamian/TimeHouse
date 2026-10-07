@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The frames show inconsistent grip and equipment use; some depict single dumbbells while others show two, and the motion phases are not correctly sequenced for the alternate hammer curl.",
+  "id": "1646",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 116.09,
+  "prompt_sha256": "34b5e2527faf8615574c0a7d7d0b13ade490ed1bd8ac7a091a525be3e67a7a3e"
+}

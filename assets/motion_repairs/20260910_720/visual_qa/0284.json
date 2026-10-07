@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The animation shows only two distinct phases (up and down) repeated twice, not the required four unique phases for a complete cycle.",
+  "id": "0284",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 80.38,
+  "prompt_sha256": "e5e21385f7e90a9200f107a3229f02ec2603abda19de7b6aebe91bd8778088ab"
+}

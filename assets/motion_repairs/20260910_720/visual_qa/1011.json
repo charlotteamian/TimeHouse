@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The frames depict a seated row or pull motion, not a seated twist, and the muscle highlighting is inconsistent with the exercise's target.",
+  "id": "1011",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 56.38,
+  "prompt_sha256": "1fc2f26736b74aee292e63e68a113644e7f0645dd72a39d59381d46c8a37f778"
+}

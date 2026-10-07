@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The motion sequence is incorrect; it shows a full curl-up cycle but the bottom-right panel depicts a return to the starting position without the proper halfway phase, breaking the expected curl-up progression.",
+  "id": "3016",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 55.78,
+  "prompt_sha256": "e5e3b057c8eeb229cc9a90dfb972fe94ee4a17614b7a842d472fdd5d07073a73"
+}

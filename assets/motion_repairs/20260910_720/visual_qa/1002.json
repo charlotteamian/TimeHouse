@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The exercise is incorrectly depicted as a leg raise with a band anchored at the foot, not a straight leg raise. The band is not anchored properly and the motion phases are inconsistent with the intended exercise.",
+  "id": "1002",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 53.18,
+  "prompt_sha256": "761967cee3a236f07080f6fa7ca342ac4ef57d7608a185d0e2ebcfb895fce7f3"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The exercise is incorrectly labeled as 'band step-up' but the movement shown is a lateral step-up with band, not a standard step-up. The band is anchored incorrectly in two frames and the target muscles are not consistently highlighted.",
+  "id": "1008",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 54.06,
+  "prompt_sha256": "b9566318a99624042d8f41ef0d9da7516d357ed5b83a09559360e996b49cb09c"
+}

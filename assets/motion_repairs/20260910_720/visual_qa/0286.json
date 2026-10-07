@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The exercise is incorrectly labeled as 'alternate side press' but the motion shown is a standard lateral raise with both arms moving simultaneously, not alternating.",
+  "id": "0286",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 93.86,
+  "prompt_sha256": "11f10c130fe4f5fc95cce8f1fd4a7917cbe724f6ca1d965e4d81fae432e08ffe"
+}

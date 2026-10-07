@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The image depicts dumbbell push-ups, not dumbbell burpees, and the equipment is not used correctly in the motion phases.",
+  "id": "1201",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 59.12,
+  "prompt_sha256": "b597231f7161b6dde987b5022e770d0dc5626e32140578bfee3c05e16084af51"
+}

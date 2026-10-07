@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The exercise is incorrectly depicted as a standard crunch with a band, not a bicycle crunch; the band is anchored incorrectly and the motion phases are inconsistent with the intended movement.",
+  "id": "0972",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 55.82,
+  "prompt_sha256": "e25a4fd8b09d329655dac5f617081574388551ca4abc9aed502bab6e52d9d85f"
+}

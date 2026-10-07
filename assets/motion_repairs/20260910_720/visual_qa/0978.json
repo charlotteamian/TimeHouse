@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The exercise is incorrectly depicted as a lateral raise (side raise) rather than a front raise, and the band is anchored incorrectly at the feet in all frames, which is biomechanically unsound for a front raise.",
+  "id": "0978",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 54.19,
+  "prompt_sha256": "1d452ff7ba4c67a5512697deca28651957056134c06a28f2a5e6ab4fe1feff62"
+}

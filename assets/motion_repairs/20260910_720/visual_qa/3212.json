@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The sequence does not correctly depict a basic toe touch; the bottom-left frame shows an incorrect forward bend with hands on knees, not a full toe touch.",
+  "id": "3212",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 62.3,
+  "prompt_sha256": "2d681e76a504ee2687e8d5df574fda503055bbda6663978a8fd031a2edbd7f50"
+}

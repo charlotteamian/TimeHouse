@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The frames show incorrect motion phases and inconsistent equipment placement; the arm blaster is not properly anchored or used as intended.",
+  "id": "2401",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 52.4,
+  "prompt_sha256": "2a4f6b0144ea0cf646c24996da94b07409e2a9f12aa03f1728c6ac35574a498e"
+}

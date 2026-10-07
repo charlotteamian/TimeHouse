@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The motion phases are not correctly sequenced for a reverse wrist curl; the top-right and bottom-right frames show the same position, indicating a lack of proper progression.",
+  "id": "0994",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 187.68,
+  "prompt_sha256": "24d0339266e5b3457f7f62b1ff787f0fe68374b1211b4326b23d48529ca44be4"
+}

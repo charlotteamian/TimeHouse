@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The sequence does not correctly depict the cross-body crunch; the bottom-right frame shows a return to the starting position, which is not a standard phase of the exercise, and the top-left frame lacks the cross-body arm motion.",
+  "id": "0262",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 52.68,
+  "prompt_sha256": "e68b91e52d7968fe30004cb481bbc7c9397e89528282a37ca73b6351f9e7d202"
+}

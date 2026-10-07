@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The exercise is incorrectly labeled as 'band one arm single leg split squat' but the animation shows a lunge with a band around the hip, not a split squat with one arm holding a bar. The equipment is misidentified as a 'band' when it's actually a resistance band looped around the hip. The anatomy is inconsistent with the target muscle highlighted (quads) and the movement pattern shown. The style does not match the required grayscale anatomy with muted coral target muscles; the muscles are highlighted in red and the style is inconsistent with the reference image.",
+  "id": "0987",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 78.92,
+  "prompt_sha256": "873bb7ed2f2a182b6c41c2691e8bace620f9dc6b54d85f3cdd707fb9cd579f65"
+}

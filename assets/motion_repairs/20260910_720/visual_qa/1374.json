@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The exercise is incorrectly labeled as 'box jump down' but the motion shown is a step-down with stabilization, not a jump. The movement phases are inconsistent with the intended exercise.",
+  "id": "1374",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 60.02,
+  "prompt_sha256": "9392e70baf579af704664adfccbfe48772849611f62c066602128365fbf41cf6"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": false,
+  "style_match": true,
+  "reason": "The exercise is incorrectly labeled as 'arm slingers hanging straight legs' but the motion shown is a hanging leg raise, not an arm sling. The anatomy is inconsistent across frames with mismatched muscle highlights and limb positioning.",
+  "id": "2333",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 57.76,
+  "prompt_sha256": "0df1822bf405c98beb250691175873cbb47b99e6fc236a097592fb31e5a25577"
+}

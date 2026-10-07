@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": false,
+  "anatomy_consistent": false,
+  "style_match": false,
+  "reason": "The exercise is incorrectly depicted as a band push-up with the band anchored around the upper arms, not the intended close-grip band push-up with band anchored around the torso or wrists.",
+  "id": "0975",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 46.44,
+  "prompt_sha256": "aa286e0b6a6559fb0b5e5e94d93d6a07583abe96748ba293081f3799723ead07"
+}

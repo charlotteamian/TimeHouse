@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": true,
+  "style_match": true,
+  "reason": "The motion sequence does not correctly depict a chest stretch; it shows a chest press movement instead.",
+  "id": "1272",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 74.12,
+  "prompt_sha256": "536b215cae9eb7060d5db0de39d63e057f2d2cada96d4730984ce5b96d7e29e7"
+}

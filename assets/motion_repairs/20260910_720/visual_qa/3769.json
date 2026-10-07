@@ -1,0 +1,12 @@
+{
+  "status": "review",
+  "motion_correct": false,
+  "equipment_correct": true,
+  "anatomy_consistent": false,
+  "style_match": true,
+  "reason": "The exercise is incorrectly labeled as 'curtsy squat' but the movements shown are lunge variations, not a curtsey squat. The anatomy highlights are inconsistent across frames and do not match the intended muscle activation for the exercise.",
+  "id": "3769",
+  "model": "qwen3-vl:8b-instruct",
+  "seconds": 57.74,
+  "prompt_sha256": "ca53d2b2905437fbded6839f0793c792086b8bca7eb62bad811c3f970a347209"
+}

@@ -20,6 +20,8 @@ import java.net.HttpURLConnection;
 import java.net.URI;
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
+import java.util.HashSet;
+import java.util.Set;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 /** Authenticated private Release downloads with size, hash, version and signer checks. */
@@ -60,7 +62,26 @@ final class GitHubUpdater {
     }
 
     private final Handler main = new Handler(Looper.getMainLooper());
+    private static final Set<File> activeParts = new HashSet<>();
     private Task current;
+
+    private static synchronized void preparePart(File part) throws IOException {
+        // Process death skips finally. Keep other live downloads, but reclaim
+        // abandoned partial packages before checking available storage.
+        File[] leftovers = part.getParentFile().listFiles();
+        if (leftovers != null) for (File file : leftovers) {
+            if (file.getName().startsWith("download-") && file.getName().endsWith(".part")
+                    && file.isFile() && !activeParts.contains(file) && !file.delete()) {
+                throw new UpdateException("无法清理中断的下载，请清理应用缓存后重试");
+            }
+        }
+        activeParts.add(part);
+    }
+
+    private static synchronized void finishPart(File part) {
+        if (part.exists()) part.delete();
+        activeParts.remove(part);
+    }
 
     synchronized void cancel() {
         if (current == null) return;
@@ -120,6 +141,8 @@ final class GitHubUpdater {
                 if (!apk.getParentFile().isDirectory() && !apk.getParentFile().mkdirs()) {
                     throw new UpdateException("无法创建下载目录，请检查手机存储空间");
                 }
+                task.checkCancelled();
+                preparePart(part);
                 if (apk.isFile() && apk.length() == release.bytes && checksum(task, apk).equalsIgnoreCase(release.sha256)) {
                     verifyPackage(app, apk, release);
                     post(task, () -> callback.onReady(apk));
@@ -132,24 +155,26 @@ final class GitHubUpdater {
                 }
                 HttpURLConnection connection = connect(task, api("assets/" + release.apkAssetId), token, true);
                 long length = connection.getContentLengthLong();
-                if (length >= 0 && length != release.bytes) throw new UpdateException("安装包大小与版本信息不一致，请重新检查更新");
                 MessageDigest digest = MessageDigest.getInstance("SHA-256");
                 long readBytes = 0;
                 long lastProgress = 0;
-                try (InputStream input = connection.getInputStream(); FileOutputStream output = new FileOutputStream(part)) {
-                    byte[] buffer = new byte[65536];
-                    int count;
-                    while ((count = input.read(buffer)) != -1) {
-                        task.checkCancelled();
-                        readBytes += count;
-                        if (readBytes > release.bytes) throw new UpdateException("安装包超出预期大小，已停止下载");
-                        output.write(buffer, 0, count);
-                        digest.update(buffer, 0, count);
-                        long now = System.nanoTime();
-                        if (now - lastProgress > 250000000L || readBytes == release.bytes) {
-                            final long progress = readBytes;
-                            post(task, () -> callback.onProgress(progress, release.bytes));
-                            lastProgress = now;
+                try {
+                    if (length >= 0 && length != release.bytes) throw new UpdateException("安装包大小与版本信息不一致，请重新检查更新");
+                    try (InputStream input = connection.getInputStream(); FileOutputStream output = new FileOutputStream(part)) {
+                        byte[] buffer = new byte[65536];
+                        int count;
+                        while ((count = input.read(buffer)) != -1) {
+                            task.checkCancelled();
+                            readBytes += count;
+                            if (readBytes > release.bytes) throw new UpdateException("安装包超出预期大小，已停止下载");
+                            output.write(buffer, 0, count);
+                            digest.update(buffer, 0, count);
+                            long now = System.nanoTime();
+                            if (now - lastProgress > 250000000L || readBytes == release.bytes) {
+                                final long progress = readBytes;
+                                post(task, () -> callback.onProgress(progress, release.bytes));
+                                lastProgress = now;
+                            }
                         }
                     }
                 } finally {
@@ -166,7 +191,7 @@ final class GitHubUpdater {
             } catch (Exception error) {
                 post(task, () -> callback.onError(describe(error)));
             } finally {
-                if (part.exists()) part.delete();
+                finishPart(part);
             }
         }, "github-update-download").start();
     }
@@ -185,6 +210,7 @@ final class GitHubUpdater {
         PackageInfo downloaded = manager.getPackageArchiveInfo(file.getAbsolutePath(), PackageManager.GET_SIGNING_CERTIFICATES);
         if (downloaded == null || !context.getPackageName().equals(downloaded.packageName)
                 || downloaded.getLongVersionCode() != release.versionCode
+                || !release.versionName.equals(downloaded.versionName)
                 || !GitHubUpdatePolicy.isNewer(downloaded.getLongVersionCode(), installed.getLongVersionCode())) {
             throw new UpdateException("安装包版本或包名不匹配，已停止安装");
         }

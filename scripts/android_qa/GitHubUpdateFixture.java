@@ -100,6 +100,18 @@ public final class GitHubUpdateFixture extends Instrumentation {
             CountDownLatch downloaded = new CountDownLatch(1);
             AtomicReference<File> ready = new AtomicReference<>();
             int[] lastStep = {-1};
+            File orphan = new File(apk.getParentFile(), "download-qa-orphan.part");
+            orphan.getParentFile().mkdirs();
+            Files.write(orphan.toPath(), new byte[4096]);
+            File live = new File(apk.getParentFile(), "download-qa-live.part");
+            File concurrent = new File(apk.getParentFile(), "download-qa-concurrent.part");
+            method(clientType, "preparePart", File.class).invoke(null, live);
+            Files.write(live.toPath(), new byte[4096]);
+            method(clientType, "preparePart", File.class).invoke(null, concurrent);
+            if (!live.isFile() || orphan.exists()) throw new AssertionError("Partial cleanup did not preserve the active download");
+            method(clientType, "finishPart", File.class).invoke(null, live);
+            method(clientType, "finishPart", File.class).invoke(null, concurrent);
+            Files.write(orphan.toPath(), new byte[4096]);
             Object downloadCallback = Proxy.newProxyInstance(loader, new Class<?>[]{downloadType}, (proxy, called, values) -> {
                 if ("onReady".equals(called.getName())) { ready.set((File) values[0]); downloaded.countDown(); }
                 else if ("onError".equals(called.getName())) { failure.set((String) values[0]); downloaded.countDown(); }
@@ -119,6 +131,7 @@ public final class GitHubUpdateFixture extends Instrumentation {
                 throw new AssertionError(failure.get() == null ? "Download timed out" : failure.get());
             }
             Uri uri = Uri.parse("content://com.restartday.fitness.updates/timehouse-debug.apk");
+            if (orphan.exists()) throw new AssertionError("Abandoned partial download was not removed");
             try (ParcelFileDescriptor descriptor = context.getContentResolver().openFileDescriptor(uri, "r")) {
                 if (descriptor == null || descriptor.getStatSize() != ready.get().length()) throw new AssertionError("APK provider size mismatch");
             }
@@ -127,9 +140,17 @@ public final class GitHubUpdateFixture extends Instrumentation {
             catch (SecurityException expected) { rejected = true; }
             if (!rejected) throw new AssertionError("Provider allowed writes");
             rejected = false;
-            try { context.getContentResolver().getType(Uri.parse("content://com.restartday.fitness.updates/../files/secret")); }
+            try { rejected = context.getContentResolver().getType(Uri.parse("content://com.restartday.fitness.updates/../files/secret")) == null; }
             catch (SecurityException expected) { rejected = true; }
             if (!rejected) throw new AssertionError("Provider allowed another path");
+            Constructor<?> releaseConstructor = releaseType.getDeclaredConstructor(long.class, String.class, long.class, String.class, long.class);
+            releaseConstructor.setAccessible(true);
+            Object mismatched = releaseConstructor.newInstance(code, "incorrect-version", field(found, "bytes"),
+                    field(found, "sha256"), field(found, "apkAssetId"));
+            rejected = false;
+            try { method(clientType, "verifyPackage", Context.class, File.class, releaseType).invoke(null, context, apk, mismatched); }
+            catch (java.lang.reflect.InvocationTargetException expected) { rejected = true; }
+            if (!rejected) throw new AssertionError("APK version name mismatch was accepted");
             JSONObject saved = new JSONObject();
             saved.put("version_code", code); saved.put("version_name", field(found, "versionName"));
             saved.put("bytes", field(found, "bytes")); saved.put("sha256", field(found, "sha256")); saved.put("asset", field(found, "apkAssetId"));

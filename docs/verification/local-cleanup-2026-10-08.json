@@ -1,0 +1,37 @@
+{
+  "started_date": "2026-10-07",
+  "completed_date": "2026-10-08",
+  "original_project_size_approx_gib": 6.4,
+  "removed": [
+    {
+      "path": "build/qa-avd",
+      "allocated_bytes_before": 4655673344
+    },
+    {
+      "path": ".idea",
+      "allocated_bytes_before": 139264
+    },
+    {
+      "path": ".DS_Store",
+      "allocated_bytes_before": 12288
+    },
+    {
+      "path": "build/",
+      "allocated_bytes_before": 11609165824
+    }
+  ],
+  "preserved": [
+    "app/",
+    "assets/",
+    "scripts/",
+    "docs/",
+    ".signing/debug.keystore"
+  ],
+  "historical_text_archive_files": 303,
+  "historical_media_archive_files": 1461,
+  "git_mode": "shallow partial clone with full history in private GitHub",
+  "project_size_approx_gib_after": 2.6,
+  "net_reduction_approx_gib": 3.8,
+  "allocated_bytes_after": 2773368832,
+  "git_allocated_bytes_after": 1626112
+}

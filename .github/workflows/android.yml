@@ -60,7 +60,11 @@ jobs:
           python -m pip install -r requirements-ci.txt
           sudo apt-get update -qq
           sudo apt-get install -y -qq jq zip ffmpeg
-          sdkmanager 'platforms;android-36' 'build-tools;36.1.0'
+          # Hosted Ubuntu runners already include these SDK packages. The SDK
+          # manager is installed outside PATH, so use its explicit location.
+          if [[ ! -f "$ANDROID_HOME/platforms/android-36/android.jar" || ! -x "$ANDROID_HOME/build-tools/36.1.0/aapt2" ]]; then
+            "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" 'platforms;android-36' 'build-tools;36.1.0'
+          fi
 
       - name: Run domain and bundled data checks
         run: bash scripts/run_domain_tests.sh

@@ -144,7 +144,8 @@ jobs:
           else
             gh release create latest-build --target "$GITHUB_SHA" --title '时光屋 · 最新开发构建' --notes-file build/cloud-release.md --prerelease
           fi
-          gh release upload latest-build build/timehouse-debug.apk build/timehouse-debug.apk.sha256 build/review-current/动作复核全量清单.json --clobber
+          cp build/review-current/动作复核全量清单.json build/exercise-review-audit.json
+          gh release upload latest-build build/timehouse-debug.apk build/timehouse-debug.apk.sha256 build/exercise-review-audit.json --clobber
           python - <<'PY'
           from pathlib import Path
           import hashlib, json, os, subprocess, xml.etree.ElementTree as ET

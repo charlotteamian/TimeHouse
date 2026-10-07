@@ -1,0 +1,174 @@
+name: Android checks and APK
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'app/**'
+      - 'scripts/**'
+      - 'requirements-ci.txt'
+      - '.github/workflows/android.yml'
+  pull_request:
+    paths:
+      - 'app/**'
+      - 'scripts/**'
+      - 'requirements-ci.txt'
+      - '.github/workflows/android.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: android-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test-and-build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout application and tools
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          filter: blob:none
+          sparse-checkout: |
+            app
+            scripts
+            .github
+            requirements-ci.txt
+          sparse-checkout-cone-mode: false
+
+      - name: Set up Java
+        uses: actions/setup-java@de7274f081f381c8f8158605e0321c36c376e2e6 # v6.0.1
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - name: Set up Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-ci.txt
+
+      - name: Install validation and SDK dependencies
+        run: |
+          python -m pip install -r requirements-ci.txt
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq jq zip ffmpeg
+          sdkmanager 'platforms;android-36' 'build-tools;36.1.0'
+
+      - name: Run domain and bundled data checks
+        run: bash scripts/run_domain_tests.sh
+
+      - name: Audit reviewed exercise fingerprints
+        run: python scripts/audit_exercise_reviews.py
+
+      - name: Give each cloud build an increasing version
+        run: |
+          python - <<'PY'
+          import os, xml.etree.ElementTree as ET
+          path = 'app/src/main/AndroidManifest.xml'
+          ET.register_namespace('android', 'http://schemas.android.com/apk/res/android')
+          tree = ET.parse(path, parser=ET.XMLParser(target=ET.TreeBuilder(insert_comments=True)))
+          manifest = tree.getroot()
+          prefix = '{http://schemas.android.com/apk/res/android}'
+          run = int(os.environ['GITHUB_RUN_NUMBER'])
+          code = int(manifest.get(prefix + 'versionCode')) + run
+          assert 0 < code <= 2100000000, 'Android versionCode out of range'
+          manifest.set(prefix + 'versionCode', str(code))
+          manifest.set(prefix + 'versionName', manifest.get(prefix + 'versionName') + '+' + str(run))
+          tree.write(path, encoding='utf-8', xml_declaration=True)
+          PY
+
+      - name: Restore existing APK signing key
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        env:
+          SIGNING_KEY_BASE64: ${{ secrets.ANDROID_DEBUG_KEYSTORE_BASE64 }}
+        run: |
+          if [[ -z "$SIGNING_KEY_BASE64" ]]; then
+            echo 'Missing repository secret ANDROID_DEBUG_KEYSTORE_BASE64' >&2
+            exit 1
+          fi
+          mkdir -p .signing
+          printf '%s' "$SIGNING_KEY_BASE64" | base64 --decode > .signing/debug.keystore
+          chmod 600 .signing/debug.keystore
+
+      - name: Build and verify APK
+        run: |
+          bash scripts/build_android_debug.sh
+          sha256sum build/timehouse-debug.apk > build/timehouse-debug.apk.sha256
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib, zipfile
+          root = Path.cwd()
+          with zipfile.ZipFile(root / 'build/timehouse-debug.apk') as apk:
+              for source in (root / 'app/src/main/assets').rglob('*'):
+                  if source.is_file():
+                      name = 'assets/' + source.relative_to(root / 'app/src/main/assets').as_posix()
+                      assert hashlib.sha256(apk.read(name)).digest() == hashlib.sha256(source.read_bytes()).digest(), name
+          print('Bundled data matches repository source')
+          PY
+
+      - name: Update private latest build release
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import os, xml.etree.ElementTree as ET
+          manifest = ET.parse('app/src/main/AndroidManifest.xml').getroot()
+          version = manifest.get('{http://schemas.android.com/apk/res/android}versionName')
+          commit = os.environ['GITHUB_SHA']
+          run = os.environ['GITHUB_SERVER_URL'] + '/' + os.environ['GITHUB_REPOSITORY'] + '/actions/runs/' + os.environ['GITHUB_RUN_ID']
+          Path('build/cloud-release.md').write_text(
+              f'时光屋 {version} 最新开发构建。\n\n'
+              f'源码提交：`{commit}`。\n\n'
+              f'[通过的检查与构建]({run})。\n\n'
+              '下载 `timehouse-debug.apk`，使用原有签名覆盖安装。'
+              '本入口在每次 main 成功构建后更新；动作复核仍遵循人工证据流程。\n', encoding='utf-8')
+          PY
+          if gh release view latest-build >/dev/null 2>&1; then
+            gh api --method PATCH "repos/$GH_REPO/git/refs/tags/latest-build" -f sha="$GITHUB_SHA" -F force=true
+            gh release edit latest-build --title '时光屋 · 最新开发构建' --notes-file build/cloud-release.md --prerelease
+          else
+            gh release create latest-build --target "$GITHUB_SHA" --title '时光屋 · 最新开发构建' --notes-file build/cloud-release.md --prerelease
+          fi
+          gh release upload latest-build build/timehouse-debug.apk build/timehouse-debug.apk.sha256 build/review-current/动作复核全量清单.json --clobber
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib, json, os, subprocess, xml.etree.ElementTree as ET
+          apk = Path('build/timehouse-debug.apk')
+          repository = os.environ['GH_REPO']
+          release = json.loads(subprocess.check_output(['gh', 'api', f'repos/{repository}/releases/tags/latest-build']))
+          asset = next(a for a in release['assets'] if a['name'] == apk.name and a['state'] == 'uploaded')
+          sha = hashlib.file_digest(apk.open('rb'), 'sha256').hexdigest()
+          assert asset['size'] == apk.stat().st_size
+          assert asset.get('digest') in (None, 'sha256:' + sha)
+          manifest = ET.parse('app/src/main/AndroidManifest.xml').getroot()
+          prefix = '{http://schemas.android.com/apk/res/android}'
+          metadata = {
+              'format_version': 1,
+              'package_name': manifest.get('package'),
+              'version_name': manifest.get(prefix + 'versionName'),
+              'version_code': int(manifest.get(prefix + 'versionCode')),
+              'apk_name': apk.name,
+              'apk_asset_id': asset['id'],
+              'apk_bytes': apk.stat().st_size,
+              'apk_sha256': sha,
+              'commit': os.environ['GITHUB_SHA'],
+          }
+          Path('build/update.json').write_text(json.dumps(metadata, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          PY
+          # Publish metadata last so the app never accepts a partly replaced APK.
+          gh release upload latest-build build/update.json --clobber
+
+      - name: Remove runner signing material
+        if: always()
+        run: rm -rf .signing

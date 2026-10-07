@@ -29,9 +29,11 @@ mkdir -p "$OUT"
   "$ROOT/app/src/main/java/com/restartday/fitness/app/GeminiModelName.java" \
   "$ROOT/app/src/main/java/com/restartday/fitness/app/GeminiResponseText.java" \
   "$ROOT/app/src/main/java/com/restartday/fitness/app/GroqEndpoint.java" \
+  "$ROOT/app/src/main/java/com/restartday/fitness/app/GitHubUpdatePolicy.java" \
   "$ROOT/app/src/test/java/com/restartday/fitness/app/GeminiModelNameTest.java" \
   "$ROOT/app/src/test/java/com/restartday/fitness/app/GeminiResponseTextTest.java" \
-  "$ROOT/app/src/test/java/com/restartday/fitness/app/GroqEndpointTest.java"
+  "$ROOT/app/src/test/java/com/restartday/fitness/app/GroqEndpointTest.java" \
+  "$ROOT/app/src/test/java/com/restartday/fitness/app/GitHubUpdatePolicyTest.java"
 
 "$JAVA" -cp "$OUT" com.restartday.fitness.domain.RecommenderTest
 "$JAVA" -cp "$OUT" com.restartday.fitness.domain.RequiredEquipmentTest
@@ -50,6 +52,7 @@ mkdir -p "$OUT"
 "$JAVA" -cp "$OUT" com.restartday.fitness.app.GeminiModelNameTest
 "$JAVA" -cp "$OUT" com.restartday.fitness.app.GeminiResponseTextTest
 "$JAVA" -cp "$OUT" com.restartday.fitness.app.GroqEndpointTest
+"$JAVA" -cp "$OUT" com.restartday.fitness.app.GitHubUpdatePolicyTest
 "$ROOT/scripts/validate_exercise_dataset.sh"
 "$PYTHON" "$ROOT/scripts/validate_recipe_dataset.py"
 "$PYTHON" "$ROOT/scripts/generate_voice_cues.py" --check

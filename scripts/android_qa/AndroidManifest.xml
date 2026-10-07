@@ -10,4 +10,5 @@
     <application android:label="Timehouse QA" android:debuggable="true" />
     <instrumentation android:name=".UiSnapshot" android:targetPackage="com.restartday.fitness.qa" />
     <instrumentation android:name=".HealthFixture" android:targetPackage="com.restartday.fitness.qa" />
+    <instrumentation android:name=".GitHubUpdateFixture" android:targetPackage="com.restartday.fitness" />
 </manifest>

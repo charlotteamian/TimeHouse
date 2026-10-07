@@ -184,6 +184,7 @@ public final class MainActivity extends Activity {
     private static final int REQ_PICK_RECIPE_COVER = 4207;
     private static final int REQ_PICK_STEP_IMAGE = 4208;
     private static final int REQ_PICK_MEAL_PHOTO = 4209;
+    private static final int REQ_UPDATE_INSTALL_PERMISSION = 4210;
     private static final String HEALTH_READ_HEART_RATE = "android.permission.health.READ_HEART_RATE";
     /** 读手表自己的运动记录，用来把统计窗口对齐到它的起止时刻。 */
     private static final String HEALTH_READ_EXERCISE = "android.permission.health.READ_EXERCISE";
@@ -316,6 +317,12 @@ public final class MainActivity extends Activity {
     private boolean currentPlanFromAi;
     private final GeminiClient geminiClient = new GeminiClient();
     private final GroqClient groqClient = new GroqClient();
+    private final GitHubUpdater githubUpdater = new GitHubUpdater();
+    private String githubUpdateStatus = "尚未检查更新";
+    private boolean githubUpdateBusy;
+    private TextView githubUpdateStatusView;
+    private Button githubUpdateButton;
+    private File pendingUpdateApk;
     private WorkoutPlan currentPlan;
     private RecommendationInput lastInput;
     private final List<WorkoutItem> activeItems = new ArrayList<WorkoutItem>();
@@ -415,6 +422,7 @@ public final class MainActivity extends Activity {
     protected void onDestroy() {
         stopTicker();
         voiceCues.release();
+        githubUpdater.cancel();
         super.onDestroy();
     }
 
@@ -2918,6 +2926,14 @@ public final class MainActivity extends Activity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == REQ_UPDATE_INSTALL_PERMISSION) {
+            if (getPackageManager().canRequestPackageInstalls() && pendingUpdateApk != null) {
+                launchUpdateInstaller(pendingUpdateApk);
+            } else {
+                setGitHubUpdateStatus("尚未允许安装更新；授权后可点“安装已下载更新”", false);
+            }
+            return;
+        }
         if (requestCode == REQ_PICK_MEDIA && resultCode == RESULT_OK
                 && data != null && data.getData() != null) {
             Uri uri = data.getData();
@@ -4053,6 +4069,7 @@ public final class MainActivity extends Activity {
         currentTab = "settings";
         clear();
         content.addView(title("设置", "强度、体能评估、器械和伤痛"));
+        content.addView(appUpdateCard());
         content.addView(reviewScopeButton(this::renderSettings), fullButton());
 
         LinearLayout intensityCard = card();
@@ -4215,6 +4232,208 @@ public final class MainActivity extends Activity {
         content.addView(watch);
         renderBottomNav();
         scrollToTop();
+    }
+
+    private View appUpdateCard() {
+        LinearLayout card = card();
+        card.addView(section("应用更新"));
+        String version;
+        try { version = getPackageManager().getPackageInfo(getPackageName(), 0).versionName; }
+        catch (Exception ignored) { version = "未知"; }
+        card.addView(text("当前版本 " + version + " · GitHub 私有项目", 13, Typeface.NORMAL, MUTED));
+        githubUpdateStatusView = text(githubUpdateStatus, 13, Typeface.NORMAL, MUTED);
+        card.addView(githubUpdateStatusView);
+        card.addView(space(8));
+        githubUpdateButton = button("检查更新", GREEN, Color.WHITE, v -> checkGitHubUpdate());
+        githubUpdateButton.setEnabled(!githubUpdateBusy);
+        card.addView(githubUpdateButton, fullButton());
+        if (githubUpdateBusy) {
+            card.addView(space(6));
+            card.addView(button("取消", GREEN_SOFT, GREEN, v -> {
+                githubUpdater.cancel();
+                setGitHubUpdateStatus("更新操作已取消", false);
+                renderSettings();
+            }), fullButton());
+        }
+        if (pendingUpdateApk != null && pendingUpdateApk.isFile() && !githubUpdateBusy) {
+            card.addView(space(6));
+            card.addView(button("安装已下载更新", BLUE, Color.WHITE,
+                    v -> launchUpdateInstaller(pendingUpdateApk)), fullButton());
+        }
+        String token = "";
+        try { token = new GitHubTokenStore(this).read(); }
+        catch (Exception ignored) { }
+        card.addView(space(6));
+        card.addView(text(token.isEmpty() ? "首次使用需配置私有项目的只读访问令牌。"
+                : "已配置访问令牌，仅用于读取私有更新。", 12, Typeface.NORMAL, MUTED));
+        Button configure = button("配置 GitHub 访问", GREEN_SOFT, GREEN, v -> configureGitHubAccess());
+        configure.setEnabled(!githubUpdateBusy);
+        card.addView(configure, fullButton());
+        if (!token.isEmpty()) {
+            Button clearToken = button("清除访问令牌", Color.rgb(236, 240, 234), INK, v -> {
+                try {
+                    new GitHubTokenStore(this).clear();
+                    setGitHubUpdateStatus("访问令牌已清除", false);
+                    renderSettings();
+                } catch (Exception ignored) {
+                    Toast.makeText(this, "未能清除访问令牌，请重试", Toast.LENGTH_LONG).show();
+                }
+            });
+            clearToken.setEnabled(!githubUpdateBusy);
+            card.addView(space(6));
+            card.addView(clearToken, fullButton());
+        }
+        return card;
+    }
+
+    private void configureGitHubAccess() {
+        LinearLayout box = new LinearLayout(this);
+        box.setOrientation(LinearLayout.VERTICAL);
+        box.setPadding(dp(20), dp(10), dp(20), dp(10));
+        box.addView(text("使用 GitHub 的 Fine-grained token：只选择 TimeHouse 仓库，"
+                + "Repository permissions → Contents 设为 Read-only。令牌会加密保存在本机。",
+                14, Typeface.NORMAL, MUTED));
+        final EditText tokenInput = new EditText(this);
+        tokenInput.setSingleLine(true);
+        tokenInput.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PASSWORD);
+        tokenInput.setHint("粘贴只读访问令牌");
+        tokenInput.setContentDescription("GitHub 只读访问令牌");
+        box.addView(tokenInput);
+        AlertDialog dialog = new AlertDialog.Builder(this).setTitle("配置私有更新")
+                .setView(box).setNegativeButton("取消", null).setPositiveButton("保存", null)
+                .setNeutralButton("创建只读令牌", (d, which) -> openExternal(
+                        "https://github.com/settings/personal-access-tokens/new"
+                        + "?name=TimeHouse-Updates&target_name=charlotteamian&expires_in=90&contents=read"))
+                .create();
+        dialog.setOnShowListener(d -> dialog.getButton(AlertDialog.BUTTON_POSITIVE).setOnClickListener(v -> {
+            String token = tokenInput.getText().toString().trim();
+            if (!token.matches("(?:github_pat_|ghp_)[A-Za-z0-9_]{20,}")) {
+                tokenInput.setError("请填写有效的 GitHub 访问令牌");
+                return;
+            }
+            try {
+                new GitHubTokenStore(this).save(token);
+                dialog.dismiss();
+                setGitHubUpdateStatus("令牌已保存，可以检查更新", false);
+                renderSettings();
+            } catch (Exception ignored) {
+                tokenInput.setError("令牌未能加密保存，请重试");
+            }
+        }));
+        dialog.show();
+    }
+
+    private void setGitHubUpdateStatus(String status, boolean busy) {
+        githubUpdateStatus = status;
+        githubUpdateBusy = busy;
+        if (githubUpdateStatusView != null) githubUpdateStatusView.setText(status);
+        if (githubUpdateButton != null) githubUpdateButton.setEnabled(!busy);
+    }
+
+    private void checkGitHubUpdate() {
+        if (githubUpdateBusy) return;
+        if (inSession) {
+            Toast.makeText(this, "请先结束本次训练，再更新应用", Toast.LENGTH_LONG).show();
+            return;
+        }
+        final String token;
+        final long installedCode;
+        try {
+            token = new GitHubTokenStore(this).read();
+            installedCode = getPackageManager().getPackageInfo(getPackageName(), 0).getLongVersionCode();
+        } catch (Exception ignored) {
+            setGitHubUpdateStatus("请重新配置 GitHub 访问令牌", false);
+            configureGitHubAccess();
+            return;
+        }
+        if (token.isEmpty()) {
+            configureGitHubAccess();
+            return;
+        }
+        setGitHubUpdateStatus("正在检查 GitHub 新版本…", true);
+        renderSettings();
+        githubUpdater.check(token, new GitHubUpdater.CheckCallback() {
+            @Override public void onRelease(GitHubUpdater.Release release) {
+                if (isFinishing() || isDestroyed()) return;
+                if (!GitHubUpdatePolicy.isNewer(release.versionCode, installedCode)) {
+                    setGitHubUpdateStatus("当前已是最新版本；GitHub 版本 " + release.versionName, false);
+                    if ("settings".equals(currentTab)) renderSettings();
+                    return;
+                }
+                setGitHubUpdateStatus("发现新版本 " + release.versionName, false);
+                if ("settings".equals(currentTab)) renderSettings();
+                new AlertDialog.Builder(MainActivity.this).setTitle("更新到 " + release.versionName)
+                        .setMessage("安装包约 " + (release.bytes / 1024 / 1024) + " MB。下载后会校验文件和签名，"
+                                + "再打开系统安装界面。覆盖安装会保留现有记录。")
+                        .setNegativeButton("稍后", null)
+                        .setPositiveButton("下载并安装", (dialog, which) -> downloadGitHubUpdate(token, release)).show();
+            }
+            @Override public void onError(String message) {
+                if (isFinishing() || isDestroyed()) return;
+                setGitHubUpdateStatus(message, false);
+                if ("settings".equals(currentTab)) renderSettings();
+            }
+        });
+    }
+
+    private void downloadGitHubUpdate(String token, GitHubUpdater.Release release) {
+        pendingUpdateApk = null;
+        setGitHubUpdateStatus("正在下载更新…", true);
+        if ("settings".equals(currentTab)) renderSettings();
+        githubUpdater.download(this, token, release, new GitHubUpdater.DownloadCallback() {
+            @Override public void onProgress(long bytes, long total) {
+                setGitHubUpdateStatus("正在下载 · " + (bytes * 100 / total) + "%（"
+                        + (bytes / 1024 / 1024) + "/" + (total / 1024 / 1024) + " MB）", true);
+            }
+            @Override public void onReady(File apk) {
+                if (isFinishing() || isDestroyed()) return;
+                pendingUpdateApk = apk;
+                setGitHubUpdateStatus("下载与签名校验通过，可以安装更新", false);
+                if ("settings".equals(currentTab)) renderSettings();
+                launchUpdateInstaller(apk);
+            }
+            @Override public void onError(String message) {
+                if (isFinishing() || isDestroyed()) return;
+                setGitHubUpdateStatus(message, false);
+                if ("settings".equals(currentTab)) renderSettings();
+            }
+        });
+    }
+
+    private void launchUpdateInstaller(File apk) {
+        if (inSession) {
+            Toast.makeText(this, "请先结束本次训练，再安装更新", Toast.LENGTH_LONG).show();
+            return;
+        }
+        if (apk == null || !apk.isFile()) {
+            setGitHubUpdateStatus("安装包已被清理，请重新检查更新", false);
+            return;
+        }
+        pendingUpdateApk = apk;
+        if (!getPackageManager().canRequestPackageInstalls()) {
+            new AlertDialog.Builder(this).setTitle("允许安装更新")
+                    .setMessage("请在系统设置中允许“时光屋”安装应用。返回后会继续打开更新安装界面。")
+                    .setNegativeButton("稍后", null)
+                    .setPositiveButton("去授权", (dialog, which) -> {
+                        try {
+                            startActivityForResult(new Intent(android.provider.Settings.ACTION_MANAGE_UNKNOWN_APP_SOURCES,
+                                    Uri.parse("package:" + getPackageName())), REQ_UPDATE_INSTALL_PERMISSION);
+                        } catch (Exception ignored) {
+                            setGitHubUpdateStatus("无法打开安装权限设置，请在系统设置中手动允许", false);
+                        }
+                    }).show();
+            return;
+        }
+        try {
+            Uri uri = UpdateApkProvider.apkUri();
+            Intent intent = new Intent(Intent.ACTION_VIEW).setDataAndType(uri, "application/vnd.android.package-archive");
+            intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+            intent.setClipData(android.content.ClipData.newRawUri("时光屋更新", uri));
+            startActivity(intent);
+            setGitHubUpdateStatus("已打开系统安装界面", false);
+        } catch (Exception ignored) {
+            setGitHubUpdateStatus("无法打开安装界面，请稍后重试", false);
+        }
     }
 
     private void confirmDeleteAssessment() {

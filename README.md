@@ -13,7 +13,17 @@
 
 网页编辑器的修改需要提交才会同步到 GitHub。APK 使用原有签名，可覆盖安装；`latest-build` 每次成功构建会替换为最新安装包。安装包放在私有 Release 中，不使用 Actions 长期存储大文件。
 
-发布新版时，一并增加 `app/src/main/AndroidManifest.xml` 的 `android:versionCode`，并按需要更新 `android:versionName`。目前源码标记为 1.2.16；第十一批动作复核仍处于 `initial_validation`，迁移保留原状态。
+云端构建会自动增加安装包版本号，并在版本名后添加构建序号，如 `1.2.17+1`，因此后续 GitHub 修改会被 App 识别为新版。需要调整基础版本时修改 `app/src/main/AndroidManifest.xml`，不要降低其 `android:versionCode`。目前源码标记为 1.2.17；第十一批动作复核仍处于 `initial_validation`，迁移保留原状态。
+
+## 从 App 更新
+
+首次先从私有 Release 下载并安装带更新功能的 APK。以后到「设置 → 应用更新」点「检查更新」，有新版时可下载并打开系统安装界面。首次安装可能需要允许“时光屋”安装应用。
+
+私有项目需要访问凭证。在「配置 GitHub 访问」中点「创建只读令牌」，登录 GitHub，选择 **Only select repositories → TimeHouse**，将 **Contents** 设为 **Read-only**，生成后复制回 App 保存。建议使用仅限这个仓库的 Fine-grained token；到期后重新配置。
+
+访问令牌由 Android Keystore 加密保存在手机上，不进入源码、APK 或应用 JSON 备份。下载只访问 GitHub，重定向不会向素材下载域名转发令牌；安装前校验文件大小、SHA-256、包名、版本号和原有签名。每次成功的云端构建会最后发布 `update.json`，供 App 检查版本。
+
+私有下载权限参考：[GitHub Release 资源 API](https://docs.github.com/en/rest/releases/assets)；令牌设置参考：[创建 Fine-grained token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)。
 
 ## 项目入口
 

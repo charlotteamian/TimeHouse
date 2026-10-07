@@ -7,7 +7,7 @@ BT="${ANDROID_BUILD_TOOLS:-$SDK/build-tools/36.1.0}"
 KEYSTORE="${ANDROID_DEBUG_KEYSTORE:-$ROOT/.signing/debug.keystore}"
 OUT="$ROOT/build/android-qa"
 mkdir -p "$OUT/classes" "$OUT/dex"
-"$JDK/bin/javac" -encoding UTF-8 -source 11 -target 11 -cp "$SDK/platforms/android-36/android.jar" -d "$OUT/classes" "$ROOT/scripts/android_qa/UiSnapshot.java" "$ROOT/scripts/android_qa/HealthFixture.java"
+"$JDK/bin/javac" -encoding UTF-8 -source 11 -target 11 -cp "$SDK/platforms/android-36/android.jar" -d "$OUT/classes" "$ROOT/scripts/android_qa/UiSnapshot.java" "$ROOT/scripts/android_qa/HealthFixture.java" "$ROOT/scripts/android_qa/GitHubUpdateFixture.java"
 JAVA_HOME="$JDK" "$BT/d8" --lib "$SDK/platforms/android-36/android.jar" --output "$OUT/dex" "$OUT"/classes/com/restartday/fitness/qa/*.class
 "$BT/aapt2" link -I "$SDK/platforms/android-36/android.jar" --manifest "$ROOT/scripts/android_qa/AndroidManifest.xml" -o "$OUT/raw.apk"
 (cd "$OUT/dex" && zip -q "$OUT/raw.apk" classes.dex)

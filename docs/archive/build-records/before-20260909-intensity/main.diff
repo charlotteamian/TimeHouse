@@ -1,0 +1,223 @@
+--- build/before-20260909-intensity/MainActivity.java	2026-09-09 21:26:19
++++ app/src/main/java/com/restartday/fitness/app/MainActivity.java	2026-09-09 21:42:41
+@@ -237,7 +237,10 @@
+     private SessionPhase sessionPhase = SessionPhase.PREPARE;
+     private boolean sessionVisible;
+     private int quickMinutes = 8;
+-    private boolean quickGentle = true;
++    private boolean quickGentle = false;
++    private Intensity defaultIntensity = Intensity.MEDIUM;
++    private Intensity quickIntensityOverride = null;
++    private Intensity customIntensityOverride = null;
+     private String trainingPage = "home";
+     private String commandDraft = "";
+     private int planGeneration;
+@@ -559,8 +562,18 @@
+             hero.addView(button(quickGentle ? "轻松模式 · 点此切换为日常强度" : "日常强度 · 点此切换为轻松模式",
+                     Color.TRANSPARENT, Color.rgb(211, 233, 220), v -> {
+                         quickGentle = !quickGentle;
++                        quickIntensityOverride = quickGentle ? Intensity.LOW : Intensity.MEDIUM;
+                         saveState();
+                         renderTraining();
++                    }), fullButton());
++            hero.addView(text(quickIntensityOverride == null
++                    ? "本次跟随默认：" + defaultIntensity.label() + "强度"
++                    : "本次已手动选择：" + quickIntensityOverride.label() + "强度", 12, Typeface.NORMAL, Color.WHITE));
++            if (quickIntensityOverride != null) hero.addView(button("恢复跟随默认强度", Color.TRANSPARENT,
++                    Color.WHITE, v -> {
++                        quickIntensityOverride = null;
++                        quickGentle = defaultIntensity == Intensity.LOW;
++                        saveState(); renderTraining();
+                     }), fullButton());
+             hero.addView(space(4));
+             hero.addView(button("为我安排这一练 →", Color.rgb(218, 241, 177), INK,
+@@ -660,7 +673,7 @@
+     }
+ 
+     private Intensity allowedDailyIntensity(Intensity requested) {
+-        if ((assessment != null && assessment.intensityCap() == Intensity.LOW)
++        if ((assessment != null && assessment.medicalClearanceAdvised())
+                 || shoulderPain == PainSeverity.SEVERE || lowerBackPain == PainSeverity.SEVERE
+                 || kneePain == PainSeverity.SEVERE) return Intensity.LOW;
+         return requested;
+@@ -669,32 +682,43 @@
+     private WorkoutPlan explainDailyIntensity(WorkoutPlan plan, Intensity requested) {
+         List<String> notes = new ArrayList<>(plan.avoidanceNotes());
+         boolean limited = plan.intensity() != requested && allowedDailyIntensity(requested) != requested;
+-        if (limited) notes.add("你选了日常强度，但当前安全评估或急性伤痛设置限制为轻松强度。请在设置 / 体能评估中检查原因；本次不会悄悄按日常标注。");
++        String limitReason = "";
++        if (limited) {
++            List<String> reasons = new ArrayList<>();
++            if (shoulderPain == PainSeverity.SEVERE) reasons.add("肩部伤痛设为急性");
++            if (lowerBackPain == PainSeverity.SEVERE) reasons.add("腰部伤痛设为急性");
++            if (kneePain == PainSeverity.SEVERE) reasons.add("膝部伤痛设为急性");
++            if (assessment != null && assessment.medicalClearanceAdvised())
++                reasons.add((assessmentDate.length() > 0 ? assessmentDate + " 的" : "已保存的") + "体能评估存在安全筛查阳性项");
++            limitReason = "本次选择" + requested.label() + "强度；因" + join(reasons)
++                    + "，实际按低强度安排。可到设置核对伤痛或重新进行体能评估。";
++            notes.add(limitReason);
++        }
+         Set<String> used = new LinkedHashSet<>();
+         for (WorkoutItem item : plan.items()) used.addAll(item.exercise().equipment());
+         notes.add("本次使用：" + join(new ArrayList<>(used)) + "。器械按动作结构选用，不要求每节课用完全部器械。");
+         String effort = plan.intensity() == Intensity.LOW ? "轻松强度：优先控制动作，保留明显余力。"
+                 : "日常强度：主动作目标 RPE 7–8，约还可完成 2–3 次；用重量、支撑角度调节难度。完成上限次数且明显偏轻，下次小幅增加负重或难度。";
+         return new WorkoutPlan((limited ? "已降为轻松 · " : "") + plan.title(), plan.intensity(), plan.estimatedMinutes(), plan.items(),
+-                effort + plan.recommendationReason(), notes, limited ? notes.get(notes.size() - 2) : plan.safetyMessage(), limited || plan.isSafetyLimited());
++                effort + plan.recommendationReason(), notes, limited ? limitReason : plan.safetyMessage(), limited || plan.isSafetyLimited());
+     }
+ 
+     private void generateQuickWorkout() {
+         if (inSession) { renderSession(); return; }
+         planGeneration++;
+         planBudgetMinutes = quickMinutes;
+-        selectedIntensity = quickGentle ? Intensity.LOW : Intensity.MEDIUM;
+-        selectedIntensity = allowedDailyIntensity(selectedIntensity);
+-        String intentText = quickGentle ? "轻松恢复" : "";
++        Intensity requestedIntensity = quickIntensityOverride == null ? defaultIntensity : quickIntensityOverride;
++        Intensity effectiveIntensity = allowedDailyIntensity(requestedIntensity);
++        String intentText = requestedIntensity == Intensity.LOW ? "轻松恢复" : "";
+         AdHocIntent intent = AdHocIntent.parse(intentText);
+-        lastInput = adHocInput(intentText, !quickGentle, intent);
++        lastInput = adHocInput(intentText, intentText.isEmpty(), intent, effectiveIntensity);
+         WorkoutPlan plan = AdHocPlanner.plan(engine().safeCandidates(lastInput), new AdHocPlanner.Request()
+-                .intent(intent).minutes(quickMinutes).intensity(selectedIntensity).level(currentLevel())
++                .intent(intent).minutes(quickMinutes).intensity(effectiveIntensity).level(currentLevel())
+                 .paceFactor(paceFactor).recovery(recoveryState()).ledger(weeklyLedger())
+                 .tomorrowRegions(tomorrowPlannedRegions()).favoriteIds(favoriteIds)
+                 .recentExerciseIds(recentlyTrainedExerciseIds()));
+         pendingProgramKey = "";
+-        applyPlan(explainDailyIntensity(plan, quickGentle ? Intensity.LOW : Intensity.MEDIUM), false);
++        applyPlan(explainDailyIntensity(plan, requestedIntensity), false);
+     }
+ 
+     private String workoutItemLabel(WorkoutItem item) {
+@@ -790,6 +814,12 @@
+         commandCard.addView(commandInput, matchWrap());
+         commandCard.addView(space(10));
+         commandCard.addView(intensityRow());
++        commandCard.addView(text(customIntensityOverride == null ? "本次跟随默认强度" : "本次已手动选择强度", 12, Typeface.NORMAL, MUTED));
++        if (customIntensityOverride != null) commandCard.addView(button("恢复跟随默认强度", GREEN_SOFT, GREEN, v -> {
++            commandDraft = commandInput.getText().toString();
++            customIntensityOverride = null; selectedIntensity = defaultIntensity;
++            saveState(); renderAdHocSetup();
++        }));
+         commandCard.addView(space(6));
+         commandCard.addView(durationRow());
+         commandCard.addView(space(10));
+@@ -3701,7 +3731,8 @@
+ 
+         LinearLayout intensityCard = card();
+         intensityCard.addView(section("默认强度与时长"));
+-        intensityCard.addView(intensityRow());
++        intensityCard.addView(intensityRow(true));
++        intensityCard.addView(text("未手动选择时使用默认强度；本次手动选择优先。修改后重新生成训练生效。", 12, Typeface.NORMAL, MUTED));
+         intensityCard.addView(space(6));
+         intensityCard.addView(durationRow());
+         content.addView(intensityCard);
+@@ -6046,20 +6077,33 @@
+                 ViewGroup.LayoutParams.WRAP_CONTENT, dp(38)));
+     }
+ 
+-    private LinearLayout intensityRow() {
++    private LinearLayout intensityRow() { return intensityRow(false); }
++
++    private LinearLayout intensityRow(boolean defaults) {
+         LinearLayout row = new LinearLayout(this);
+         row.setOrientation(LinearLayout.HORIZONTAL);
+         final Intensity[] options = {Intensity.LOW, Intensity.MEDIUM, Intensity.HIGH};
+         final Button[] chips = new Button[options.length];
+         for (int i = 0; i < options.length; i++) {
+             final Intensity intensity = options[i];
+-            Button c = chip(intensity.label(), selectedIntensity == intensity, v -> {
+-                selectedIntensity = intensity;
++            Button c = chip(intensity.label(), (defaults ? defaultIntensity : selectedIntensity) == intensity, v -> {
++                if (defaults) {
++                    defaultIntensity = intensity;
++                    if (customIntensityOverride == null) selectedIntensity = intensity;
++                    if (quickIntensityOverride == null) quickGentle = intensity == Intensity.LOW;
++                } else {
++                    customIntensityOverride = intensity;
++                    selectedIntensity = intensity;
++                }
+                 saveState();
+                 for (int j = 0; j < options.length; j++) {
+-                    styleChip(chips[j], options[j] == selectedIntensity);
++                    styleChip(chips[j], options[j] == (defaults ? defaultIntensity : selectedIntensity));
+                 }
+                 updateStatusCard();
++                if (!defaults) {
++                    commandDraft = commandInput.getText().toString();
++                    renderAdHocSetup();
++                }
+             });
+             chips[i] = c;
+             row.addView(c);
+@@ -6226,8 +6270,17 @@
+         SharedPreferences prefs = getSharedPreferences("fitness_state", MODE_PRIVATE);
+         quickMinutes = prefs.getInt("quickMinutes", 8);
+         if (quickMinutes != 8 && quickMinutes != 15 && quickMinutes != 25) quickMinutes = 8;
+-        quickGentle = prefs.getBoolean("quickGentle", true);
+-        selectedIntensity = parseIntensity(prefs.getString("intensity", selectedIntensity.name()));
++        defaultIntensity = parseIntensity(prefs.getString("defaultIntensityV2", prefs.getString("intensity", "MEDIUM")));
++        String quickOverride = prefs.getString("quickIntensityOverrideV2", "");
++        if (!prefs.contains("quickIntensityOverrideV2") && prefs.contains("quickGentle")
++                && !prefs.getBoolean("quickGentle", true)) quickOverride = "MEDIUM";
++        String customOverride = prefs.getString("customIntensityOverrideV2", "");
++        quickIntensityOverride = quickOverride.isEmpty() ? null : parseIntensity(quickOverride);
++        customIntensityOverride = customOverride.isEmpty() ? null : parseIntensity(customOverride);
++        // Old false meant the user switched away from the old gentle starting mode.
++        // Old true is ambiguous, so follows the saved default; new overrides are explicit.
++        quickGentle = (quickIntensityOverride == null ? defaultIntensity : quickIntensityOverride) == Intensity.LOW;
++        selectedIntensity = customIntensityOverride == null ? defaultIntensity : customIntensityOverride;
+         selectedDurationMinutes = parseDurationMinutes(prefs.getInt("durationMinutes", selectedDurationMinutes));
+         shoulderPain = parseSeverity(prefs.getString("shoulderPain", ""));
+         lowerBackPain = parseSeverity(prefs.getString("lowerBackPain", ""));
+@@ -6443,7 +6496,10 @@
+         editor.putInt("quickMinutes", quickMinutes);
+         editor.putBoolean("quickGentle", quickGentle);
+         editor.putString("workoutDraft", workoutDraftJson());
+-        editor.putString("intensity", selectedIntensity.name());
++        editor.putString("intensity", defaultIntensity.name());
++        editor.putString("defaultIntensityV2", defaultIntensity.name());
++        editor.putString("quickIntensityOverrideV2", quickIntensityOverride == null ? "" : quickIntensityOverride.name());
++        editor.putString("customIntensityOverrideV2", customIntensityOverride == null ? "" : customIntensityOverride.name());
+         editor.putInt("durationMinutes", selectedDurationMinutes);
+         editor.putString("shoulderPain", shoulderPain == null ? "" : shoulderPain.name());
+         editor.putString("lowerBackPain", lowerBackPain == null ? "" : lowerBackPain.name());
+@@ -9653,19 +9709,19 @@
+         if (inSession) { renderSession(); return; }
+         planGeneration++;
+         Intensity requestedIntensity = selectedIntensity;
+-        selectedIntensity = allowedDailyIntensity(selectedIntensity);
++        Intensity effectiveIntensity = allowedDailyIntensity(requestedIntensity);
+         pendingProgramKey = "";
+         AdHocIntent intent = AdHocIntent.parse(unknown ? "" : rawText);
+         planBudgetMinutes = intent.minutes() > 0 ? intent.minutes()
+                 : selectedDurationMinutes > 0 ? selectedDurationMinutes : 20;
+-        RecommendationInput input = adHocInput(rawText, unknown, intent);
++        RecommendationInput input = adHocInput(rawText, unknown, intent, effectiveIntensity);
+         lastInput = input;
+ 
+         WeeklyVolumeLedger ledger = weeklyLedger();
+         AdHocPlanner.Request request = new AdHocPlanner.Request()
+                 .intent(intent)
+                 .minutes(selectedDurationMinutes > 0 ? selectedDurationMinutes : 20)
+-                .intensity(selectedIntensity)
++                .intensity(effectiveIntensity)
+                 .level(currentLevel())
+                 .paceFactor(paceFactor)
+                 .recovery(recoveryState())
+@@ -9690,10 +9746,10 @@
+     }
+ 
+     /** 加练的推荐输入：意图里说了排除部位就带进去，安全/器械过滤仍走推荐引擎。 */
+-    private RecommendationInput adHocInput(String rawText, boolean unknown, AdHocIntent intent) {
++    private RecommendationInput adHocInput(String rawText, boolean unknown, AdHocIntent intent, Intensity effectiveIntensity) {
+         RecommendationInput.Builder builder = new RecommendationInput.Builder()
+                 .intentText(unknown ? "" : rawText)
+-                .intensity(selectedIntensity)
++                .intensity(effectiveIntensity)
+                 .targetMinutes(intent.minutes() > 0 ? intent.minutes() : selectedDurationMinutes)
+                 .includeUserUnverified(includeUnverified)
+                 .favoriteExercises(favoriteIds)

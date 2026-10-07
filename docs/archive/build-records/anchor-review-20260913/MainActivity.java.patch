@@ -1,0 +1,120 @@
+--- 1.2.4/MainActivity.java
++++ 1.2.5/MainActivity.java
+@@ -283,10 +283,6 @@
+     private String libraryReviewFilter = "全部状态";
+     private boolean reviewedOnly;
+     private ExerciseReviewStore exerciseReviews;
+-    private final android.util.LruCache<String, Bitmap> packagedThumbs =
+-            new android.util.LruCache<String, Bitmap>(6 * 1024 * 1024) {
+-                @Override protected int sizeOf(String key, Bitmap value) { return value.getByteCount(); }
+-            };
+     private int libraryVisibleLimit = 60;
+     private String datasetLoadError = "";
+     private String foodPreferenceText = "";
+@@ -2134,7 +2130,7 @@
+         int reviewedCount = 0;
+         for (Exercise e : inventory) if (isReviewed(e)) reviewedCount++;
+         content.addView(text("已复核 " + reviewedCount + " · 未复核 " + (inventory.size() - reviewedCount)
+-                + " · 点开封面看示范", 12, Typeface.BOLD, GREEN));
++                + " · 动态示范", 12, Typeface.BOLD, GREEN));
+         content.addView(button("复核筛选：" + libraryReviewFilter, GREEN_SOFT, GREEN, v -> {
+             String[] filters = {"全部状态", "已复核", "未复核", "待补图", "待修图", "待核逻辑"};
+             new AlertDialog.Builder(this).setTitle("筛选复核状态（可叠加部位和搜索）")
+@@ -2368,7 +2364,7 @@
+             frame.addView(image, new FrameLayout.LayoutParams(
+                     ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
+             if (isPackagedMedia(media)) {
+-                loadPackagedThumb(image, media);
++                loadPackagedImage(image, media, 320, true);
+             } else {
+                 loadThumbInto(image, media);
+             }
+@@ -10457,7 +10453,7 @@
+             frame.addView(image, new FrameLayout.LayoutParams(
+                     ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
+             if (isPackagedMedia(media)) {
+-                loadPackagedThumb(image, media);
++                loadPackagedImage(image, media, 480, true);
+             } else {
+                 loadThumbInto(image, media);
+             }
+@@ -10720,6 +10716,10 @@
+     }
+ 
+     private boolean loadPackagedImage(ImageView image, String value) {
++        return loadPackagedImage(image, value, 480, false);
++    }
++
++    private boolean loadPackagedImage(ImageView image, String value, int maxEdge, boolean preview) {
+         int resId = packagedMediaResId(value);
+         if (resId == 0) {
+             return false;
+@@ -10727,9 +10727,13 @@
+         try {
+             if (Build.VERSION.SDK_INT >= 28) {
+                 ImageDecoder.Source source = ImageDecoder.createSource(getResources(), resId);
+-                Drawable drawable = ImageDecoder.decodeDrawable(source);
++                Drawable drawable = ImageDecoder.decodeDrawable(source, (decoder, info, src) -> {
++                    int width = info.getSize().getWidth(), height = info.getSize().getHeight();
++                    float scale = Math.min(1f, maxEdge / (float) Math.max(width, height));
++                    decoder.setTargetSize(Math.max(1, Math.round(width * scale)), Math.max(1, Math.round(height * scale)));
++                });
+                 image.setImageDrawable(drawable);
+-                startAnimatedDrawable(image, drawable);
++                if (preview) startVisiblePreview(image, drawable); else startAnimatedDrawable(image, drawable);
+             } else {
+                 Drawable movieDrawable = loadMovieDrawable(resId);
+                 if (movieDrawable == null) {
+@@ -10744,25 +10748,33 @@
+         }
+     }
+ 
+-    /** Decode only the cover frame for lists; no running drawable and bounded memory. */
+-    private boolean loadPackagedThumb(ImageView image, String value) {
+-        try {
+-            Bitmap bitmap = packagedThumbs.get(value);
+-            if (bitmap == null) {
+-                int id = packagedMediaResId(value);
+-                if (id == 0) return false;
+-                bitmap = ImageDecoder.decodeBitmap(ImageDecoder.createSource(getResources(), id),
+-                        (decoder, info, source) -> {
+-                            int width = info.getSize().getWidth(), height = info.getSize().getHeight();
+-                            float scale = Math.min(1f, 240f / Math.max(width, height));
+-                            decoder.setTargetSize(Math.max(1, Math.round(width * scale)), Math.max(1, Math.round(height * scale)));
+-                        });
+-                packagedThumbs.put(value, bitmap);
+-            }
+-            image.setImageBitmap(bitmap);
+-            image.setContentDescription("静态封面，点开播放示范");
+-            return true;
+-        } catch (Exception ignored) { return false; }
++    /** Dynamic covers keep playing while visible; offscreen previews do not consume frame work. */
++    private void startVisiblePreview(ImageView image, Drawable drawable) {
++        image.setContentDescription("动态封面，点开查看示范");
++        if (!(drawable instanceof AnimatedImageDrawable)) return;
++        AnimatedImageDrawable animated = (AnimatedImageDrawable) drawable;
++        animated.setRepeatCount(AnimatedImageDrawable.REPEAT_INFINITE);
++        Runnable update = () -> {
++            Rect visible = new Rect();
++            if (image.isAttachedToWindow() && image.hasWindowFocus() && image.isShown() && image.getGlobalVisibleRect(visible)) animated.start();
++            else animated.stop();
++        };
++        android.view.ViewTreeObserver.OnScrollChangedListener scroll = update::run;
++        android.view.ViewTreeObserver.OnWindowFocusChangeListener window = focus -> update.run();
++        image.addOnAttachStateChangeListener(new View.OnAttachStateChangeListener() {
++            @Override public void onViewAttachedToWindow(View v) {
++                image.getViewTreeObserver().addOnScrollChangedListener(scroll);
++                image.getViewTreeObserver().addOnWindowFocusChangeListener(window);
++                image.post(update);
++            }
++            @Override public void onViewDetachedFromWindow(View v) {
++                animated.stop(); image.removeCallbacks(update);
++                if (image.getViewTreeObserver().isAlive()) {
++                    image.getViewTreeObserver().removeOnScrollChangedListener(scroll);
++                    image.getViewTreeObserver().removeOnWindowFocusChangeListener(window);
++                }
++            }
++        });
+     }
+ 
+     private Drawable loadMovieDrawable(int resId) {

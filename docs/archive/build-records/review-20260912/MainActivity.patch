@@ -1,0 +1,452 @@
+--- build/review-20260912/before/MainActivity.java	2026-09-12 22:42:58
++++ app/src/main/java/com/restartday/fitness/app/MainActivity.java	2026-09-13 10:06:17
+@@ -280,6 +280,13 @@
+     private String currentTab = "training";
+     private String libraryFilter = "全部";
+     private String libraryQuery = "";
++    private String libraryReviewFilter = "全部状态";
++    private boolean reviewedOnly;
++    private ExerciseReviewStore exerciseReviews;
++    private final android.util.LruCache<String, Bitmap> packagedThumbs =
++            new android.util.LruCache<String, Bitmap>(6 * 1024 * 1024) {
++                @Override protected int sizeOf(String key, Bitmap value) { return value.getByteCount(); }
++            };
+     private int libraryVisibleLimit = 60;
+     private String datasetLoadError = "";
+     private String foodPreferenceText = "";
+@@ -359,6 +366,9 @@
+         mealPresets.addAll(QuickMealLoader.load(this));
+         equipment.addAll(Arrays.asList("自重", "弹力带", "哑铃", "固定器械", "高位下拉器"));
+         loadState();
++        exerciseReviews = new ExerciseReviewStore(this);
++        exerciseReviews.load(datasetExercises, getSharedPreferences("fitness_state", MODE_PRIVATE)
++                .getString("exerciseReviewsV1", "{}"));
+         restoreWorkoutDraft();
+         rebuildNutritionDerived();
+         if (handleIncomingShare(getIntent())) {
+@@ -496,6 +506,7 @@
+         content.addView(title("时光屋", new SimpleDateFormat("M月d日 EEEE", Locale.CHINA).format(new Date())));
+         content.addView(text("给自己一点时间", 28, Typeface.BOLD, INK));
+         content.addView(text("从今天能做到的开始。", 14, Typeface.NORMAL, MUTED));
++        content.addView(reviewScopeButton(this::renderTraining), fullButton());
+         content.addView(space(12));
+ 
+         LinearLayout hero = card();
+@@ -745,7 +756,7 @@
+         String label = p.compactLabel().replace(" · 休息 " + p.restSeconds() + " 秒", "");
+         if (p.sets() > 1) label += " · 组间休息 " + p.restSeconds() + " 秒";
+         if (item.restAfterSeconds() > 0) label += " · 动作后休息 " + item.restAfterSeconds() + " 秒";
+-        return label;
++        return reviewLabel(item.exercise()) + " · " + label;
+     }
+ 
+     private void renderWorkoutPreview() {
+@@ -769,7 +780,7 @@
+         intro.addView(text(currentPlan.safetyMessage(), 12, Typeface.NORMAL,
+                 currentPlan.isSafetyLimited() ? CORAL : MUTED));
+         if (activeItems.isEmpty()) {
+-            intro.addView(text("当前条件下没有可用动作，可以到设置查看器械与伤痛选项。", 14, Typeface.NORMAL, MUTED));
++            intro.addView(text("当前复核范围、器械和伤痛条件下没有可用动作。可切换训练选材或先复核适合的动作。", 14, Typeface.NORMAL, MUTED));
+             intro.addView(button("查看设置", GREEN_SOFT, GREEN, v -> renderSettings()), fullButton());
+         }
+         content.addView(intro);
+@@ -809,6 +820,7 @@
+         clear();
+         trainingPage = "custom";
+         content.addView(title("自己安排", "按部位、时间和今天的状态来练"));
++        content.addView(reviewScopeButton(this::renderAdHocSetup), fullButton());
+         content.addView(button("‹ 回到今天", GREEN_SOFT, GREEN, v -> renderTraining()));
+         content.addView(button("编排并保存动作组", GREEN_SOFT, GREEN, v -> renderRoutines()), fullButton());
+         content.addView(statusCard());
+@@ -1293,6 +1305,7 @@
+ 
+     private void startSession() {
+         if (inSession) { renderSession(); return; }
++        if (!checkReviewedSelection(activeItems)) return;
+         if (activeItems.isEmpty()) {
+             Toast.makeText(this, "请先生成一套训练组合", Toast.LENGTH_SHORT).show();
+             return;
+@@ -1422,6 +1435,8 @@
+         content.addView(ctrl);
+ 
+         LinearLayout demonstration = card();
++        demonstration.addView(text(reviewLabel(exercise), 13, Typeface.BOLD,
++                isReviewed(exercise) ? GREEN : AMBER));
+         demonstration.setElevation(0);
+         View demo = mediaStrip(exercise);
+         demo.setOnClickListener(v -> { pauseWorkout(); renderSession(); openMedia(exercise); });
+@@ -1947,6 +1962,7 @@
+             WorkoutItem item = routineItems.get(i);
+             LinearLayout row = card();
+             row.addView(section((i + 1) + "  " + item.exercise().name()));
++            row.addView(text(reviewLabel(item.exercise()), 12, Typeface.BOLD, isReviewed(item.exercise()) ? GREEN : AMBER));
+             row.addView(text(item.prescription().compactLabel(), 13, Typeface.NORMAL, MUTED));
+             row.addView(text(item.reason(), 13, Typeface.NORMAL, GREEN));
+             row.addView(space(8));
+@@ -2000,6 +2016,7 @@
+     private void chooseRoutineExercise() {
+         LinearLayout box = new LinearLayout(this); box.setOrientation(LinearLayout.VERTICAL); box.setPadding(dp(16), 0, dp(16), 0);
+         EditText search = routineField(box, "搜索名称或器械", "", false);
++        box.addView(text(reviewedOnly ? "仅显示已复核动作" : "全部动作 · 标签显示复核状态", 13, Typeface.BOLD, GREEN));
+         android.widget.ListView list = new android.widget.ListView(this);
+         box.addView(list, new LinearLayout.LayoutParams(-1, dp(340)));
+         List<Exercise> matches = new ArrayList<>();
+@@ -2008,9 +2025,9 @@
+         Runnable update = () -> {
+             matches.clear(); adapter.clear();
+             String query = search.getText().toString().toLowerCase(Locale.ROOT).trim();
+-            for (Exercise e : allExercises()) {
++            for (Exercise e : trainingExercises()) {
+                 if ((e.name() + " " + join(e.equipment())).toLowerCase(Locale.ROOT).contains(query)) {
+-                    matches.add(e); adapter.add(e.name() + " · " + join(e.equipment()));
++                    matches.add(e); adapter.add(e.name() + " · " + reviewLabel(e) + " · " + join(e.equipment()));
+                     if (matches.size() >= 100) break;
+                 }
+             }
+@@ -2080,6 +2097,7 @@
+ 
+     private void launchRoutine(WorkoutRoutine routine) {
+         if (inSession) { renderSession(); return; }
++        if (!checkReviewedSelection(routine.items())) return;
+         List<String> conflicts = new ArrayList<>();
+         Set<String> allowedIds = new HashSet<>();
+         for (Exercise e : engine().safeCandidates(inputBuilder("", true).includeUserUnverified(true).build())) allowedIds.add(e.id());
+@@ -2112,6 +2130,21 @@
+         clear();
+         content.addView(title("动作库", "共 " + (seedExercises.size() + datasetExercises.size())
+                 + " 个默认动作·按部位分类"));
++        List<Exercise> inventory = allExercises();
++        int reviewedCount = 0;
++        for (Exercise e : inventory) if (isReviewed(e)) reviewedCount++;
++        content.addView(text("已复核 " + reviewedCount + " · 未复核 " + (inventory.size() - reviewedCount)
++                + " · 点开封面看示范", 12, Typeface.BOLD, GREEN));
++        content.addView(button("复核筛选：" + libraryReviewFilter, GREEN_SOFT, GREEN, v -> {
++            String[] filters = {"全部状态", "已复核", "未复核", "待补图", "待修图", "待核逻辑"};
++            new AlertDialog.Builder(this).setTitle("筛选复核状态（可叠加部位和搜索）")
++                    .setItems(filters, (d, which) -> {
++                        libraryReviewFilter = filters[which]; libraryVisibleLimit = 60;
++                        renderLibrary(libraryFilter);
++                    }).show();
++        }), fullButton());
++        if (!exerciseReviews.loadError.isEmpty()) content.addView(text(exerciseReviews.loadError, 12, Typeface.NORMAL, CORAL));
++        content.addView(space(8));
+ 
+         content.addView(button("我的动作组", GREEN_SOFT, GREEN, v -> renderRoutines()), fullButton());
+         LinearLayout tools = new LinearLayout(this);
+@@ -2194,7 +2227,7 @@
+             }
+             List<Exercise> list = new ArrayList<Exercise>();
+             for (Exercise exercise : allExercises()) {
+-                if (matchesLibraryFilter(exercise) && matchesLibraryQuery(exercise)) {
++                if (matchesLibraryFilter(exercise) && matchesLibraryQuery(exercise) && matchesReviewFilter(exercise)) {
+                     list.add(exercise);
+                 }
+             }
+@@ -2285,11 +2318,10 @@
+         name.setGravity(Gravity.CENTER);
+         name.setMaxLines(2);
+         card.addView(name);
+-        if (effectiveStatus(exercise) == EvidenceStatus.USER_UNVERIFIED) {
+-            TextView tag = text("未验证", 10, Typeface.BOLD, AMBER);
+-            tag.setGravity(Gravity.CENTER);
+-            card.addView(tag);
+-        } else if (favoriteIds.contains(exercise.id())) {
++        TextView reviewTag = text(reviewLabel(exercise), 11, Typeface.BOLD, isReviewed(exercise) ? GREEN : AMBER);
++        reviewTag.setGravity(Gravity.CENTER);
++        card.addView(reviewTag);
++        if (favoriteIds.contains(exercise.id())) {
+             TextView tag = text("♥", 12, Typeface.BOLD, HEART_RED);
+             tag.setGravity(Gravity.CENTER);
+             card.addView(tag);
+@@ -2336,12 +2368,14 @@
+             frame.addView(image, new FrameLayout.LayoutParams(
+                     ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
+             if (isPackagedMedia(media)) {
+-                loadPackagedImage(image, media);
++                loadPackagedThumb(image, media);
+             } else {
+                 loadThumbInto(image, media);
+             }
+         } else {
+-            frame.addView(regionIllustration(exercise), new FrameLayout.LayoutParams(
++            TextView missing = text(hasEffectiveMedia(exercise) ? "打开动作来源" : "暂无示范\n待补图", 13, Typeface.NORMAL, MUTED);
++            missing.setGravity(Gravity.CENTER);
++            frame.addView(missing, new FrameLayout.LayoutParams(
+                     ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
+         }
+ 
+@@ -3887,6 +3921,7 @@
+         currentTab = "settings";
+         clear();
+         content.addView(title("设置", "强度、体能评估、器械和伤痛"));
++        content.addView(reviewScopeButton(this::renderSettings), fullButton());
+ 
+         LinearLayout intensityCard = card();
+         intensityCard.addView(section("默认强度与时长"));
+@@ -6415,6 +6450,13 @@
+         final AlertDialog[] dialogRef = new AlertDialog[1];
+         box.addView(buildMediaView(exercise, dp(210), detailWeb));
+         box.addView(space(8));
++        box.addView(text(exerciseReviews.description(exercise, effectiveMedia(exercise)),
++                13, Typeface.NORMAL, isReviewed(exercise) ? GREEN : AMBER));
++        String reviewSource = exerciseReviews.source(exercise);
++        if (isWebUrl(reviewSource)) box.addView(externalLinkText("查看复核参考资料", reviewSource, 12));
++        box.addView(button("复核这个动作", GREEN_SOFT, GREEN, v -> {
++            dialogRef[0].dismiss(); showExerciseReview(exercise);
++        }), fullButton());
+         String detailMedia = effectiveMedia(exercise);
+         if (isWebUrl(detailMedia) && !isImageUrl(detailMedia)) {
+             box.addView(button("▶ 在浏览器打开示范", BLUE, Color.WHITE, v -> openExternal(detailMedia)),
+@@ -6471,8 +6513,7 @@
+ 
+         if (exercise.evidenceStatus() == EvidenceStatus.USER_UNVERIFIED) {
+             box.addView(space(12));
+-            box.addView(text("这是未验证动作。确认动作信息、风险标注无误后，可标记为已验证，"
+-                    + "之后才会进入自动推荐。", 13, Typeface.NORMAL, MUTED));
++            box.addView(text("个人动作完成四项复核后可进入自动推荐；旧版验证标记不等于示范已复核。", 13, Typeface.NORMAL, MUTED));
+         } else if (exercise.evidenceStatus() == EvidenceStatus.DEFAULT_LIBRARY) {
+             box.addView(space(12));
+             box.addView(text("这是默认动作库资料。中文步骤、器械和肌群已完成结构化校验；"
+@@ -6486,11 +6527,6 @@
+                 .setView(scroll)
+                 .setPositiveButton("关闭", null)
+                 .setNeutralButton("编辑", (dialog, which) -> editExercise(exercise));
+-        if (exercise.evidenceStatus() == EvidenceStatus.USER_UNVERIFIED) {
+-            boolean verified = verifiedIds.contains(exercise.id());
+-            builder.setNegativeButton(verified ? "撤销验证" : "标记为已验证",
+-                    (dialog, which) -> toggleVerified(exercise));
+-        }
+         AlertDialog dialog = builder.create();
+         dialogRef[0] = dialog;
+         dialog.setOnDismissListener(d -> {
+@@ -6502,11 +6538,102 @@
+     }
+ 
+     private RecommendationEngine engine() {
+-        return new RecommendationEngine(allExercises());
++        return new RecommendationEngine(trainingExercises());
++    }
++
++    private boolean isReviewed(Exercise exercise) {
++        return exerciseReviews != null && exerciseReviews.reviewed(exercise, effectiveMedia(exercise));
++    }
++
++    private String reviewLabel(Exercise exercise) { return isReviewed(exercise) ? "已复核" : "未复核"; }
++
++    private List<Exercise> trainingExercises() {
++        List<Exercise> result = new ArrayList<>();
++        for (Exercise e : allExercises()) if (!reviewedOnly || isReviewed(e)) result.add(e);
++        return result;
++    }
++
++    private boolean matchesReviewFilter(Exercise e) {
++        if ("已复核".equals(libraryReviewFilter)) return isReviewed(e);
++        if ("未复核".equals(libraryReviewFilter)) return !isReviewed(e);
++        if (!"全部状态".equals(libraryReviewFilter) && isReviewed(e)) return false;
++        String description = exerciseReviews.description(e, effectiveMedia(e));
++        if ("待补图".equals(libraryReviewFilter)) return !hasEffectiveMedia(e)
++                || (isLocalUri(effectiveMedia(e)) && !canReadLocalMedia(effectiveMedia(e))) || description.contains("待补图");
++        if ("待修图".equals(libraryReviewFilter)) return !isReviewed(e) && description.contains("待修图");
++        if ("待核逻辑".equals(libraryReviewFilter)) return !isReviewed(e) && !description.contains("待修图")
++                && !description.contains("待补图");
++        return true;
++    }
++
++    private Button reviewScopeButton(Runnable refresh) {
++        return button("训练选材：" + (reviewedOnly ? "仅已复核" : "全部动作"), GREEN_SOFT, GREEN, v -> {
++            new AlertDialog.Builder(this).setTitle("训练使用哪些动作")
++                    .setSingleChoiceItems(new String[]{"全部动作（显示复核标签）", "仅已复核（候选不足会提示）"},
++                            reviewedOnly ? 1 : 0, (d, which) -> {
++                                reviewedOnly = which == 1;
++                                planGeneration++;
++                                if (!inSession) { currentPlan = null; activeItems.clear(); pendingProgramKey = ""; }
++                                saveState(); d.dismiss(); refresh.run();
++                            }).setNegativeButton("返回", null).show();
++        });
++    }
++
++    private boolean checkReviewedSelection(List<WorkoutItem> items) {
++        if (!reviewedOnly) return true;
++        List<String> conflicts = new ArrayList<>();
++        for (WorkoutItem item : items) if (!isReviewed(item.exercise()) && !conflicts.contains(item.exercise().name()))
++            conflicts.add(item.exercise().name());
++        if (conflicts.isEmpty()) return true;
++        new AlertDialog.Builder(this).setTitle("这套训练含未复核动作")
++                .setMessage("当前选择了仅已复核：\n" + join(conflicts)
++                        + "\n请替换或复核这些动作，也可回到今天切换训练选材。")
++                .setPositiveButton("知道了", null).show();
++        return false;
++    }
++
++    private void showExerciseReview(Exercise exercise) {
++        LinearLayout box = new LinearLayout(this); box.setOrientation(LinearLayout.VERTICAL);
++        box.setPadding(dp(16), 0, dp(16), 0);
++        box.addView(text("逐项看过再勾选。已复核表示资料与示范已核对，具体强度仍由训练设置决定。",
++                13, Typeface.NORMAL, MUTED));
++        String[] labels = {"名称、器械和目标肌群一致", "文字步骤与动作逻辑一致", "示范姿势、支撑点和顺序正确", "完整看过播放，无明显重影或错图"};
++        List<CheckBox> checks = new ArrayList<>();
++        for (String label : labels) { CheckBox c = new CheckBox(this); c.setText(label); box.addView(c); checks.add(c); }
++        EditText note = new EditText(this); note.setHint("复核备注或发现的问题（可选）"); box.addView(note);
++        AlertDialog dialog = new AlertDialog.Builder(this).setTitle("复核 · " + exercise.name()).setView(box)
++                .setPositiveButton("标为已复核", null).setNegativeButton("返回动作", (d,w) -> showExerciseDetail(exercise))
++                .setNeutralButton("标为未复核", (d,w) -> {
++                    String[] reasons = {"待核逻辑", "待补图", "待修图 · 重影或姿势异常"};
++                    new AlertDialog.Builder(this).setTitle("记录待办原因").setItems(reasons, (d2, index) ->
++                            saveExerciseReview(exercise, false, reasons[index] + " " + note.getText())).show();
++                }).create();
++        dialog.setOnShowListener(d -> {
++            Button complete = dialog.getButton(AlertDialog.BUTTON_POSITIVE); complete.setEnabled(false);
++            for (CheckBox c : checks) c.setOnCheckedChangeListener((b, checked) ->
++                    complete.setEnabled(checks.stream().allMatch(CheckBox::isChecked)));
++            complete.setOnClickListener(v -> {
++                if (saveExerciseReview(exercise, true, "四项已核对；" + note.getText())) dialog.dismiss();
++            });
++        }); dialog.show();
+     }
+ 
++    private boolean saveExerciseReview(Exercise exercise, boolean approved, String note) {
++        try {
++            exerciseReviews.set(exercise, effectiveMedia(exercise), approved, note);
++            planGeneration++;
++            if (approved && exercise.evidenceStatus() == EvidenceStatus.USER_UNVERIFIED) verifiedIds.add(exercise.id());
++            if (!approved) verifiedIds.remove(exercise.id());
++            saveState();
++            if ("library".equals(currentTab)) renderLibrary(libraryFilter);
++            Toast.makeText(this, approved ? "已标记为已复核" : "已标记为未复核", Toast.LENGTH_SHORT).show();
++            return true;
++        } catch (Exception error) { Toast.makeText(this, error.getMessage(), Toast.LENGTH_LONG).show(); return false; }
++    }
++
+     private void loadState() {
+         SharedPreferences prefs = getSharedPreferences("fitness_state", MODE_PRIVATE);
++        reviewedOnly = prefs.getBoolean("reviewedOnlyV1", false);
+         quickMinutes = prefs.getInt("quickMinutes", 8);
+         if (quickMinutes != 8 && quickMinutes != 15 && quickMinutes != 25) quickMinutes = 8;
+         defaultIntensity = parseIntensity(prefs.getString("defaultIntensityV2", prefs.getString("intensity", "MEDIUM")));
+@@ -6733,6 +6860,8 @@
+ 
+     private void saveState() {
+         SharedPreferences.Editor editor = getSharedPreferences("fitness_state", MODE_PRIVATE).edit();
++        editor.putBoolean("reviewedOnlyV1", reviewedOnly);
++        if (exerciseReviews != null) editor.putString("exerciseReviewsV1", exerciseReviews.save());
+         editor.putInt("quickMinutes", quickMinutes);
+         editor.putBoolean("quickGentle", quickGentle);
+         editor.putString("workoutDraft", workoutDraftJson());
+@@ -9067,6 +9196,7 @@
+         currentTab = "training";
+         clear();
+         content.addView(title("设定周期目标", "按目标和可练天数生成 8 周计划"));
++        content.addView(reviewScopeButton(this::renderProgramSetup), fullButton());
+ 
+         if (assessment != null) {
+             LinearLayout summary = card();
+@@ -9567,6 +9697,7 @@
+             Toast.makeText(this, "这一天的动作已失效，请重新生成计划", Toast.LENGTH_LONG).show();
+             return;
+         }
++        if (!checkReviewedSelection(items)) return;
+ 
+         int minutes = timeModel().sessionMinutes(items);
+         String title = "第 " + session.week() + " 周 · " + session.focus().label() + " · " + phase.name();
+@@ -9875,6 +10006,7 @@
+         card.addView(mediaStrip(item.exercise()));
+         card.addView(space(8));
+         card.addView(text((index + 1) + ". " + item.exercise().name(), 17, Typeface.BOLD, INK));
++        card.addView(text(reviewLabel(item.exercise()), 12, Typeface.BOLD, isReviewed(item.exercise()) ? GREEN : AMBER));
+         card.addView(text(join(item.exercise().targetRegions()) + " · " + item.reason(),
+                 12, Typeface.NORMAL, MUTED));
+         card.addView(space(4));
+@@ -10325,7 +10457,7 @@
+             frame.addView(image, new FrameLayout.LayoutParams(
+                     ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
+             if (isPackagedMedia(media)) {
+-                loadPackagedImage(image, media);
++                loadPackagedThumb(image, media);
+             } else {
+                 loadThumbInto(image, media);
+             }
+@@ -10462,16 +10594,14 @@
+             ImageView image = new ImageView(this);
+             image.setScaleType(ImageView.ScaleType.FIT_CENTER);
+             if (loadPackagedImage(image, url)) {
+-                box.addView(image, new LinearLayout.LayoutParams(
+-                        ViewGroup.LayoutParams.MATCH_PARENT, dp(260)));
++                box.addView(roundedMedia(image, dp(260)));
+                 shown = true;
+             }
+         } else if (isLocalUri(url)) {
+             ImageView image = new ImageView(this);
+             image.setAdjustViewBounds(true);
+             if (loadLocalImage(image, url)) {
+-                box.addView(image, new LinearLayout.LayoutParams(
+-                        ViewGroup.LayoutParams.MATCH_PARENT, dp(260)));
++                box.addView(roundedMedia(image, dp(260)));
+                 shown = true;
+             }
+         } else if (isWebUrl(url) && isImageUrl(url)) {
+@@ -10614,6 +10744,27 @@
+         }
+     }
+ 
++    /** Decode only the cover frame for lists; no running drawable and bounded memory. */
++    private boolean loadPackagedThumb(ImageView image, String value) {
++        try {
++            Bitmap bitmap = packagedThumbs.get(value);
++            if (bitmap == null) {
++                int id = packagedMediaResId(value);
++                if (id == 0) return false;
++                bitmap = ImageDecoder.decodeBitmap(ImageDecoder.createSource(getResources(), id),
++                        (decoder, info, source) -> {
++                            int width = info.getSize().getWidth(), height = info.getSize().getHeight();
++                            float scale = Math.min(1f, 240f / Math.max(width, height));
++                            decoder.setTargetSize(Math.max(1, Math.round(width * scale)), Math.max(1, Math.round(height * scale)));
++                        });
++                packagedThumbs.put(value, bitmap);
++            }
++            image.setImageBitmap(bitmap);
++            image.setContentDescription("静态封面，点开播放示范");
++            return true;
++        } catch (Exception ignored) { return false; }
++    }
++
+     private Drawable loadMovieDrawable(int resId) {
+         try {
+             Movie movie = Movie.decodeStream(getResources().openRawResource(resId));
+@@ -10648,6 +10799,19 @@
+         frame.addView(inner, new FrameLayout.LayoutParams(
+                 ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
+         frame.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, heightPx));
++        if (inner instanceof ImageView && ((ImageView) inner).getDrawable() instanceof AnimatedImageDrawable) {
++            AnimatedImageDrawable animated = (AnimatedImageDrawable) ((ImageView) inner).getDrawable();
++            LinearLayout controls = new LinearLayout(this); controls.setOrientation(LinearLayout.VERTICAL);
++            controls.addView(frame);
++            Button pause = button("暂停示范", GREEN_SOFT, GREEN, v -> {});
++            pause.setOnClickListener(v -> {
++                if (animated.isRunning()) { animated.stop(); pause.setText("播放示范"); }
++                else { animated.start(); pause.setText("暂停示范"); }
++            });
++            controls.addView(pause, fullButton());
++            controls.addView(text("阶段图会分步切换；可暂停查看姿势。", 12, Typeface.NORMAL, MUTED));
++            return controls;
++        }
+         return frame;
+     }
+ 
+@@ -10707,13 +10871,11 @@
+         if (Build.VERSION.SDK_INT >= 28 && drawable instanceof AnimatedImageDrawable) {
+             AnimatedImageDrawable animated = (AnimatedImageDrawable) drawable;
+             animated.setRepeatCount(AnimatedImageDrawable.REPEAT_INFINITE);
++            image.addOnAttachStateChangeListener(new View.OnAttachStateChangeListener() {
++                @Override public void onViewAttachedToWindow(View v) { animated.start(); }
++                @Override public void onViewDetachedFromWindow(View v) { animated.stop(); }
++            });
+             animated.start();
+-            image.post(new Runnable() {
+-                @Override
+-                public void run() {
+-                    animated.start();
+-                }
+-            });
+         }
+     }
+ 

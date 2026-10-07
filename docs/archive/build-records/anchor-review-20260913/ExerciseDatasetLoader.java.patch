@@ -1,0 +1,12 @@
+--- 1.2.4/ExerciseDatasetLoader.java
++++ 1.2.5/ExerciseDatasetLoader.java
+@@ -184,6 +184,9 @@
+     private static String localizeEquipment(String value) {
+         String key = value == null ? "" : value.toLowerCase(Locale.ROOT);
+         if ("body weight".equals(key)) return "自重";
++        if ("suspension trainer".equals(key)) return "TRX 悬挂带";
++        if ("gymnastic rings".equals(key)) return "吊环";
++        if ("pull-up bar".equals(key)) return "单杠";
+         if ("dumbbell".equals(key)) return "哑铃";
+         if ("barbell".equals(key) || "olympic barbell".equals(key)) return "杠铃";
+         if ("ez barbell".equals(key)) return "EZ 杠";

@@ -18,6 +18,18 @@
     "sha256": "d107e6900dbf58d7944d7915e4be560d0ed5f0d4e13fd5c221b942648244ec9c"
   },
   {
+    "original_path": "build/anchor-review-20260913/ExerciseDatasetLoader.java.patch",
+    "archive_path": "docs/archive/build-records/anchor-review-20260913/ExerciseDatasetLoader.java.patch",
+    "bytes": 672,
+    "sha256": "4525a4081a8ec6022d376f80893124b384f13320837cf6d1909b81201a314151"
+  },
+  {
+    "original_path": "build/anchor-review-20260913/MainActivity.java.patch",
+    "archive_path": "docs/archive/build-records/anchor-review-20260913/MainActivity.java.patch",
+    "bytes": 6571,
+    "sha256": "4d2a1faff974b9c463d69245a75fae7a1079f9c2d6502b49f8b5205a11f90039"
+  },
+  {
     "original_path": "build/anchor-review-20260913/anchor-measurements.json",
     "archive_path": "docs/archive/build-records/anchor-review-20260913/anchor-measurements.json",
     "bytes": 6753,
@@ -28,6 +40,12 @@
     "archive_path": "docs/archive/build-records/anchor-review-20260913/apk-validation.json",
     "bytes": 467,
     "sha256": "5e511fbaa694e54d31830840da9cce81de6168537d5f71e2695d88067a175a83"
+  },
+  {
+    "original_path": "build/anchor-review-20260913/before/AndroidManifest.xml",
+    "archive_path": "docs/archive/build-records/anchor-review-20260913/before/AndroidManifest.xml",
+    "bytes": 2556,
+    "sha256": "01036508ddd30515fa8241081a98bb41eca6d56225aed7d9266ad233c0f6fd14"
   },
   {
     "original_path": "build/anchor-review-20260913/before/ExerciseDatasetLoader.java",
@@ -102,6 +120,12 @@
     "sha256": "23658c27d22b1b00d1f0372636de6f54299bed3d349f52a67b5e86c604296a4c"
   },
   {
+    "original_path": "build/before-20260906/AndroidManifest.xml",
+    "archive_path": "docs/archive/build-records/before-20260906/AndroidManifest.xml",
+    "bytes": 2487,
+    "sha256": "ee56891bcdac9f6dcc88251b76c8840fd6fad61f01334577a178cf52d5d68e14"
+  },
+  {
     "original_path": "build/before-20260906/MainActivity.java",
     "archive_path": "docs/archive/build-records/before-20260906/MainActivity.java",
     "bytes": 446186,
@@ -112,6 +136,30 @@
     "archive_path": "docs/archive/build-records/before-20260906/run_domain_tests.sh",
     "bytes": 2091,
     "sha256": "8b8c0129599af696ae475abaf0eda700031f24086e109f5ec62a450184cc679a"
+  },
+  {
+    "original_path": "build/before-20260909-intensity/AndroidManifest.xml",
+    "archive_path": "docs/archive/build-records/before-20260909-intensity/AndroidManifest.xml",
+    "bytes": 2556,
+    "sha256": "c3a4762fefc89d98468e4de7dd106e1ade8392854f03d8708d72b86193f1ccba"
+  },
+  {
+    "original_path": "build/before-20260909-intensity/MainActivity.java",
+    "archive_path": "docs/archive/build-records/before-20260909-intensity/MainActivity.java",
+    "bytes": 501139,
+    "sha256": "83c29ebf609f5c8ed55078dc30512b55a9071bd8c8a830cc4b76f45bb5a7a163"
+  },
+  {
+    "original_path": "build/before-20260909-intensity/main.diff",
+    "archive_path": "docs/archive/build-records/before-20260909-intensity/main.diff",
+    "bytes": 14515,
+    "sha256": "6660c238b684d4312c6ce707fdeb2132d55b4cc089d712f505cec618185af079"
+  },
+  {
+    "original_path": "build/before-20260909/AndroidManifest.xml",
+    "archive_path": "docs/archive/build-records/before-20260909/AndroidManifest.xml",
+    "bytes": 2556,
+    "sha256": "980d233e3e9303b79ddc35ea895192d73665171c0d7e9f8502fe715989b490dc"
   },
   {
     "original_path": "build/before-20260909/java/com/restartday/fitness/app/BuiltinRecipeLoader.java",
@@ -468,10 +516,10 @@
     "sha256": "dce2731e3eb4b2a3dbf8530e6a46089a527bbd9f6420977fe8b049f579832cc5"
   },
   {
-    "original_path": "build/before-20260909-intensity/MainActivity.java",
-    "archive_path": "docs/archive/build-records/before-20260909-intensity/MainActivity.java",
-    "bytes": 501139,
-    "sha256": "83c29ebf609f5c8ed55078dc30512b55a9071bd8c8a830cc4b76f45bb5a7a163"
+    "original_path": "build/before-20260910/AndroidManifest.xml",
+    "archive_path": "docs/archive/build-records/before-20260910/AndroidManifest.xml",
+    "bytes": 2556,
+    "sha256": "c0a005c2513e055f63a7f34bef62dd50543e7e55e485db1988492d2df7309722"
   },
   {
     "original_path": "build/before-20260910/MainActivity.java",
@@ -510,10 +558,22 @@
     "sha256": "196dce46d5e11b2ee81d0d5d752f8661ab810c17f0abe335bc31bac6f728661a"
   },
   {
+    "original_path": "build/debug/exercises.json",
+    "archive_path": "docs/archive/build-records/debug/exercises.json",
+    "bytes": 1169396,
+    "sha256": "a60bc981a1a64c8fed33d763872449b112302fa3cf73028c0fa0a7878332b0c4"
+  },
+  {
     "original_path": "build/fixes-20260916/apk-validation.json",
     "archive_path": "docs/archive/build-records/fixes-20260916/apk-validation.json",
     "bytes": 830,
     "sha256": "024b2e988dad175b4d151de0ad95b841eb4cd7123a27ca4a2a5c11faa65fe10e"
+  },
+  {
+    "original_path": "build/fixes-20260916/before/app/src/main/AndroidManifest.xml",
+    "archive_path": "docs/archive/build-records/fixes-20260916/before/app/src/main/AndroidManifest.xml",
+    "bytes": 2557,
+    "sha256": "d6f7fcf35f31315eba9abbc40ae5ed48af6c72d369409d7eacd176bac47a30b8"
   },
   {
     "original_path": "build/fixes-20260916/before/app/src/main/java/com/restartday/fitness/app/BuiltinRecipeLoader.java",
@@ -984,16 +1044,16 @@
     "sha256": "1510ffb124c1dd3b09809f7e9ddab02e404d8efabc483d17e4af78e6c847f462"
   },
   {
-    "original_path": "build/qa-20260909-intensity/ui-checks.json",
-    "archive_path": "docs/archive/build-records/qa-20260909-intensity/ui-checks.json",
-    "bytes": 959,
-    "sha256": "1cb21072e0a34eff8c5a335e017b17c5f84d6e15ba287658c85d3625c93a760b"
-  },
-  {
     "original_path": "build/qa-20260909-intensity-existing/ui-checks.json",
     "archive_path": "docs/archive/build-records/qa-20260909-intensity-existing/ui-checks.json",
     "bytes": 1149,
     "sha256": "4fe8492ad998a65976b4ec162f4bf54ddcb05b67b2ee009cbb1d6a53fd756d17"
+  },
+  {
+    "original_path": "build/qa-20260909-intensity/ui-checks.json",
+    "archive_path": "docs/archive/build-records/qa-20260909-intensity/ui-checks.json",
+    "bytes": 959,
+    "sha256": "1cb21072e0a34eff8c5a335e017b17c5f84d6e15ba287658c85d3625c93a760b"
   },
   {
     "original_path": "build/qa-20260909-media/ui-checks.json",
@@ -1038,14 +1098,14 @@
     "sha256": "bb9e2f37e76800eb9118a6effe8250903a23469745c9050611e360a421cf8807"
   },
   {
-    "original_path": "build/qa-20260912-intensity/ui-checks.json",
-    "archive_path": "docs/archive/build-records/qa-20260912-intensity/ui-checks.json",
+    "original_path": "build/qa-20260912-intensity-final/ui-checks.json",
+    "archive_path": "docs/archive/build-records/qa-20260912-intensity-final/ui-checks.json",
     "bytes": 1453,
     "sha256": "d26020e627e48a54c274e49d858371e34ee53a384f3e05f8af5d2ab1ce8ab255"
   },
   {
-    "original_path": "build/qa-20260912-intensity-final/ui-checks.json",
-    "archive_path": "docs/archive/build-records/qa-20260912-intensity-final/ui-checks.json",
+    "original_path": "build/qa-20260912-intensity/ui-checks.json",
+    "archive_path": "docs/archive/build-records/qa-20260912-intensity/ui-checks.json",
     "bytes": 1453,
     "sha256": "d26020e627e48a54c274e49d858371e34ee53a384f3e05f8af5d2ab1ce8ab255"
   },
@@ -1054,6 +1114,18 @@
     "archive_path": "docs/archive/build-records/qa_priority_media.py",
     "bytes": 823,
     "sha256": "d7223a9e0b2c3a72f9b87c0bf3eb414c2472ab31fa06b40f3e0541d3351c2c2e"
+  },
+  {
+    "original_path": "build/review-20260912/MainActivity.patch",
+    "archive_path": "docs/archive/build-records/review-20260912/MainActivity.patch",
+    "bytes": 25824,
+    "sha256": "c739ec938554255be8ea6c35ac4b5ed61f099948e50742a3ad505c581a6a3ff2"
+  },
+  {
+    "original_path": "build/review-20260912/before/AndroidManifest.xml",
+    "archive_path": "docs/archive/build-records/review-20260912/before/AndroidManifest.xml",
+    "bytes": 2556,
+    "sha256": "d74c3f8d40b7e8a4e84672e65d25da10366c25f06c73e344c29da4d81ac871a2"
   },
   {
     "original_path": "build/review-20260912/before/ExerciseDatasetLoader.java",
@@ -1188,16 +1260,16 @@
     "sha256": "2c955b04e9aeb2156c8f82486c2ca9e1c018070fd773517b36eb016db7616aed"
   },
   {
-    "original_path": "build/review10-20260916/save-bug/ui-checks.json",
-    "archive_path": "docs/archive/build-records/review10-20260916/save-bug/ui-checks.json",
-    "bytes": 947,
-    "sha256": "cd1ba4e4f393963d800ad362e42302319aadcc8e998e883bb407d76cadba3981"
-  },
-  {
     "original_path": "build/review10-20260916/save-bug-before/ui-checks.json",
     "archive_path": "docs/archive/build-records/review10-20260916/save-bug-before/ui-checks.json",
     "bytes": 208,
     "sha256": "d52eb3c76954a77f465a151031aedae174c0a498548d8ca5b30385dfd466f848"
+  },
+  {
+    "original_path": "build/review10-20260916/save-bug/ui-checks.json",
+    "archive_path": "docs/archive/build-records/review10-20260916/save-bug/ui-checks.json",
+    "bytes": 947,
+    "sha256": "cd1ba4e4f393963d800ad362e42302319aadcc8e998e883bb407d76cadba3981"
   },
   {
     "original_path": "build/review10-20260916/signature.txt",

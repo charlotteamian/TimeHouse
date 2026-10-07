@@ -1,0 +1,120 @@
+{
+  "batch": "20260915_review8",
+  "inspected": [
+    "0257",
+    "0306",
+    "0258",
+    "0307",
+    "0260",
+    "0308",
+    "0262",
+    "0309",
+    "0267",
+    "0311"
+  ],
+  "definition_updates": {
+    "0257": {
+      "name_zh": "站姿膝部绕环"
+    },
+    "0258": {
+      "name_zh": "时钟式俯卧撑"
+    },
+    "0260": {
+      "muscle_group": ""
+    },
+    "0267": {
+      "muscle_group": ""
+    },
+    "0306": {
+      "muscle_group": "",
+      "required_equipment_zh": [
+        "下斜训练凳"
+      ]
+    },
+    "0307": {
+      "required_equipment_zh": [
+        "下斜训练凳"
+      ]
+    },
+    "0308": {
+      "muscle_group": "",
+      "required_equipment_zh": [
+        "平板训练凳"
+      ]
+    },
+    "0309": {
+      "name_zh": "哑铃双臂前平举",
+      "muscle_group": "",
+      "movement_patterns_zh": [
+        "肩屈曲",
+        "站姿稳定",
+        "辅助"
+      ],
+      "instructions_zh": [
+        "双脚站稳，双手各持一只轻哑铃放在大腿前方，掌心朝向大腿。",
+        "保持腹部收紧、背部自然，肘部微屈并保持角度。",
+        "双臂同时向前举起至肩部高度，不耸肩或后仰甩起重量。",
+        "控制降回起点，一次举起和下放计一次，双脚全程保持原位。"
+      ]
+    },
+    "0311": {
+      "name_zh": "哑铃肩胛平面上举（拇指朝上）",
+      "muscle_group": "",
+      "movement_patterns_zh": [
+        "肩胛平面上举",
+        "站姿稳定",
+        "辅助"
+      ],
+      "instructions_zh": [
+        "双脚站稳，双手各持轻哑铃在身体两侧，掌心朝向身体，肘部微屈。",
+        "双臂沿身体侧方略向前约三十至四十五度的方向同步举起，拇指带动向上，保持中立握法。",
+        "举至肩部高度即可，不耸肩、后仰或摆动身体。",
+        "控制沿原路径下放，一次举起和下放计一次，双脚保持固定。"
+      ]
+    }
+  },
+  "sources": {
+    "0309": "https://www.strengthlog.com/dumbbell-front-raise/",
+    "0311": "https://library.theprehabguys.com/vimeo-video/scaption-raise-dumbbell-2-2/"
+  },
+  "additional_sources": {
+    "0311": "https://www.acefitness.org/certifiednewsarticle/2660/a-commonsense-approach-to-addressing-shoulder-instability/"
+  },
+  "review_candidates": [
+    "0309",
+    "0311"
+  ],
+  "newly_reviewed": [
+    "dataset_1324_0309",
+    "dataset_1324_0311"
+  ],
+  "pending": {
+    "0257": "待修图 · 脚掌支点与膝部绕环顺序尚未匹配，现有四帧主要表现向一侧摆动，未完整表现顺逆时针绕环。",
+    "0258": "待修图 · 示范混入单臂侧移姿势，身体朝向与手脚支点跨帧改变，尚不能匹配时钟式俯卧撑的绕行逻辑。",
+    "0260": "待核逻辑 · 已将髋屈肌从主肌群移至辅助；收拢时骨盆接触区域及躯干卷起幅度仍待确认，暂不按仅一个贴地区域授予通过。",
+    "0262": "待修图 · 原文要求双脚放地交替卷转，示范仅一侧屈膝抬腿且脚部、骨盆跨帧位置不同，变式与固定点仍需匹配。",
+    "0267": "待修图 · 抬起阶段从头后长臂变成向前伸手，脚位和骨盆关系变化，另有画面边缘残留，不能确认为同一长臂卷腹。",
+    "0306": "待修图 · 虽然凳脚与双脚可同时平移对齐，上臂仍大幅向头后摆动，尚不能确认肘伸展动作逻辑；已补必需下斜凳。",
+    "0307": "待修图 · 原图头高脚低，与下斜飞鸟定义相反，凳面和脚部也有位移；已补下斜训练凳条件。",
+    "0308": "待修图 · 部分脚点可对齐，但远侧凳脚被遮挡且形态不能可靠匹配，飞鸟最低点与支撑稳定仍需复核；已补平板训练凳。"
+  },
+  "registered_media": [
+    "0309",
+    "0311"
+  ],
+  "original_pose_repairs": [
+    "0309"
+  ],
+  "generated_images_imported": 1,
+  "image_generation_calls": 2,
+  "initial_validation": "passed",
+  "validation": "passed",
+  "implementation_note": "Explicit standing stability pattern maps to LOW lower-back stress; shoulder MEDIUM remains. Initial Android check caught previously unspecified NONE value.",
+  "android_playback_visually_reviewed": [
+    "0309",
+    "0311"
+  ],
+  "initial_ui_checks": 15,
+  "completed_at": "2026-09-15T07:51:46.419689+08:00",
+  "verification_summary": "build/review8-20260915/verification-summary.json"
+}

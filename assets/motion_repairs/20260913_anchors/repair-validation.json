@@ -1,0 +1,42 @@
+[
+  {
+    "id": "0426",
+    "source_sha256": "d0131a3515b1092db4249df89fb5ffcd024a4cccc09da576a976637776542cc7",
+    "output_sha256": "7b749452f71bd27ab4115ad570b03d71c880b6083e7bd598385bd70d23f13312",
+    "frames": 4,
+    "durations": [
+      800,
+      380,
+      800,
+      380
+    ],
+    "top_pose_feet_displacement_after": [
+      [
+        1,
+        0,
+        0.937
+      ],
+      [
+        -1,
+        0,
+        0.96
+      ]
+    ],
+    "method": "Translate original top-position frame upward 6 px; no scaling or interpolation"
+  },
+  {
+    "id": "0808",
+    "source_sha256": "8b73afd452d1609dcb961ca3fc29dacfaa6ae117815b10edd0aa1acfebf8d93e",
+    "output_sha256": "a6767e1b80d83d0864226138e71475dcc75d5304b6b39aed573966d9afc00c17",
+    "frames": 4,
+    "durations": [
+      800,
+      380,
+      800,
+      380
+    ],
+    "wall_anchor_identical": true,
+    "body_and_feet_unchanged": true,
+    "method": "Local equipment affine pivoting about grip, with exact original wall-mount patch"
+  }
+]

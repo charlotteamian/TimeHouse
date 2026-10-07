@@ -1,0 +1,165 @@
+{
+  "batch": "20260915_review9",
+  "version": "1.2.13",
+  "version_code": 2026091503,
+  "apk_name": "时光屋-1.2.13-第九批动作复核.apk",
+  "output": "build/review9-20260915",
+  "report": "docs/releases/2026-09-15-review-batch9.md",
+  "inspected": [
+    "0277",
+    "0312",
+    "0279",
+    "0314",
+    "0282",
+    "0315",
+    "0284",
+    "0316",
+    "0443",
+    "0317"
+  ],
+  "definition_updates": {
+    "0277": {
+      "name_zh": "下斜仰卧起坐（勾脚式）",
+      "muscle_group": "",
+      "required_equipment_zh": [
+        "带勾脚的下斜训练凳"
+      ],
+      "movement_patterns_zh": [
+        "核心",
+        "躯干屈曲"
+      ],
+      "instructions_zh": [
+        "使用带牢固勾脚垫的下斜训练凳，双脚勾稳，屈膝躺下，让背部得到凳面支撑。",
+        "双手轻放头侧或交叉胸前，收紧腹部，控制将躯干卷起并抬向膝部。",
+        "手臂不拉扯颈部，不借反弹或摆动起身，勾脚位置和训练凳保持稳定。",
+        "控制躯干沿原路径放回凳面，一次起身和回落计一次。"
+      ]
+    },
+    "0312": {
+      "name_zh": "哑铃双臂锤式弯举",
+      "movement_patterns_zh": [
+        "屈肘",
+        "站姿稳定",
+        "辅助"
+      ],
+      "instructions_zh": [
+        "双脚站稳，双手各持哑铃垂在身体两侧，掌心相对，保持中立握法。",
+        "腹部收紧、肩部放松，上臂靠近躯干并尽量保持原位。",
+        "屈肘将哑铃举向肩部，全程保持掌心相对，不向前转掌或摆动身体借力。",
+        "控制伸肘将哑铃放回起点，双臂同步完成一次弯举和下放计一次。"
+      ]
+    },
+    "0315": {
+      "muscle_group": "",
+      "movement_patterns_zh": [
+        "屈肘",
+        "辅助"
+      ],
+      "required_equipment_zh": [
+        "上斜训练凳"
+      ],
+      "instructions_zh": [
+        "将上斜训练凳设为约四十五至六十度，坐稳并让背部贴住靠背，双脚踩实地面。",
+        "双手各持哑铃，掌心向前，手臂自然垂在身体两侧稍后方，肘部不强行锁死。",
+        "保持肩部和上臂尽量稳定，屈肘将哑铃举向肩部，不用躯干摆动或抬肘借力。",
+        "控制伸肘降回起点，双臂同步完成一次弯举和下放计一次，双脚和凳脚保持固定。"
+      ]
+    },
+    "0317": {
+      "name_zh": "哑铃上斜弯举（另一示范）",
+      "muscle_group": "",
+      "movement_patterns_zh": [
+        "屈肘",
+        "辅助"
+      ],
+      "required_equipment_zh": [
+        "上斜训练凳"
+      ],
+      "instructions_zh": [
+        "将上斜训练凳设为约四十五至六十度，坐稳并让背部贴住靠背，双脚踩实地面。",
+        "双手各持哑铃，掌心向前，手臂自然垂在身体两侧稍后方，肘部不强行锁死。",
+        "保持肩部和上臂尽量稳定，屈肘将哑铃举向肩部，不用躯干摆动或抬肘借力。",
+        "控制伸肘降回起点，双臂同步完成一次弯举和下放计一次，双脚和凳脚保持固定。"
+      ]
+    },
+    "0279": {
+      "required_equipment_zh": [
+        "稳固踏台"
+      ]
+    },
+    "0282": {
+      "required_equipment_zh": [
+        "带勾脚的下斜训练凳"
+      ]
+    },
+    "0284": {
+      "name_zh": "扶墙台阶提踵",
+      "muscle_group": "",
+      "required_equipment_zh": [
+        "稳固踏台",
+        "墙面"
+      ]
+    },
+    "0314": {
+      "required_equipment_zh": [
+        "上斜训练凳"
+      ]
+    },
+    "0316": {
+      "name_zh": "哑铃上斜卧推（另一示范）",
+      "required_equipment_zh": [
+        "上斜训练凳"
+      ]
+    }
+  },
+  "sources": {
+    "0277": "https://cdn.muscleandstrength.com/exercises/decline-situp.html",
+    "0312": "https://www.puregym.com/exercises/arms-and-shoulders/bicep-curl/hammer-curls/",
+    "0315": "https://www.puregym.com/exercises/arms-and-shoulders/bicep-curl/incline-bicep-curls/",
+    "0317": "https://www.puregym.com/exercises/arms-and-shoulders/bicep-curl/incline-bicep-curls/"
+  },
+  "review_candidates": [
+    "0277",
+    "0312",
+    "0315",
+    "0317"
+  ],
+  "newly_reviewed": [
+    "dataset_1324_0277",
+    "dataset_1324_0312",
+    "dataset_1324_0315",
+    "dataset_1324_0317"
+  ],
+  "pending": {
+    "0279": "待修图 · 下降帧一只手横移约 6 px、另一只约 24 px，而踏台基本不动，不能整体平移同时固定双手和脚托。",
+    "0282": "待修图 · 虽然凳脚可对齐，起始图中背部与凳面支撑关系仍不明确，不能只凭固定凳脚通过仰卧起坐。",
+    "0284": "待修图 · 已纠正负重及驴式误名，实际为扶墙台阶提踵；墙面、手掌与踏台跨帧不能同时固定，已补踏台及墙面条件。",
+    "0314": "待修图 · 帧顺序有低位直接跳至顶点的问题；尝试核对重排时发现近侧脚形仍不一致，不能仅依靠其他三处支点对齐就通过。",
+    "0316": "待核逻辑 · 实图为上斜推举，已用另一示范区分同名条目；原帧仅高低两阶段重复，动作来源命名不清，仍需确认完整变式与播放节奏。",
+    "0443": "待修图 · 腿部和躯干仅示范同一侧收拢，未完整表现文本左右交替，骨盆与贴地区域关系也待核对。"
+  },
+  "registered_media": [
+    "0317"
+  ],
+  "original_pose_repairs": [
+    "0317"
+  ],
+  "generated_images_imported": 0,
+  "image_generation_calls": 0,
+  "initial_validation": "passed",
+  "validation": "passed",
+  "review_notes": {
+    "0277": "图示幅度为下斜仰卧起坐，已纠正卷腹名称；脚托和两处凳脚稳定，背部与凳面关系及下放顺序通过。",
+    "0312": "已去除前转手掌的错误步骤；中立握、屈肘、双侧计次和肩腰负荷核对通过，原图双脚稳定。",
+    "0315": "原有四帧保持，双脚与两处凳脚稳定；背部靠凳、掌心向前和屈肘步骤核对通过。",
+    "0317": "保留原姿势作整数平移，双脚和两处凳脚残差不超过 2 px；上斜弯举姿势和顺序核对通过。"
+  },
+  "android_playback_visually_reviewed": [
+    "0277",
+    "0312",
+    "0315",
+    "0317"
+  ],
+  "completed_at": "2026-09-15T12:52:22.349716+08:00",
+  "verification_summary": "build/review9-20260915/verification-summary.json"
+}

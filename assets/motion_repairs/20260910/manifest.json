@@ -1,0 +1,466 @@
+[
+  {
+    "id": "1760",
+    "name": "哑铃杯式深蹲",
+    "source": "assets/motion_repairs/20260910/1760.png",
+    "asset": "app/src/main/res/raw/dataset_motion_1760.webp",
+    "offsets": [
+      [
+        0,
+        0
+      ],
+      [
+        4.93,
+        0.09
+      ],
+      [
+        5.66,
+        -16.42
+      ]
+    ],
+    "frames": 4,
+    "duration": 2360,
+    "mode": "reviewed-keyframes-no-morph"
+  },
+  {
+    "id": "0313",
+    "name": "哑铃锤式弯举",
+    "source": "assets/motion_repairs/20260910/0313.png",
+    "asset": "app/src/main/res/raw/dataset_motion_0313.webp",
+    "offsets": [
+      [
+        0,
+        0
+      ],
+      [
+        -0.02,
+        0.0
+      ],
+      [
+        0.01,
+        -0.26
+      ]
+    ],
+    "frames": 4,
+    "duration": 2360,
+    "mode": "reviewed-keyframes-no-morph"
+  },
+  {
+    "id": "0333",
+    "name": "哑铃后踢",
+    "source": "assets/motion_repairs/20260910/0333.png",
+    "asset": "app/src/main/res/raw/dataset_motion_0333.webp",
+    "offsets": [
+      [
+        0,
+        0
+      ],
+      [
+        -0.02,
+        -0.01
+      ],
+      [
+        0.01,
+        -0.08
+      ]
+    ],
+    "frames": 4,
+    "duration": 2360,
+    "mode": "reviewed-keyframes-no-morph"
+  },
+  {
+    "id": "0405",
+    "name": "哑铃坐姿肩推",
+    "source": "assets/motion_repairs/20260910/0405.png",
+    "asset": "app/src/main/res/raw/dataset_motion_0405.webp",
+    "offsets": [
+      [
+        0,
+        0
+      ],
+      [
+        -0.09,
+        2.0
+      ],
+      [
+        -0.03,
+        13.98
+      ]
+    ],
+    "frames": 4,
+    "duration": 2360,
+    "mode": "reviewed-keyframes-no-morph"
+  },
+  {
+    "id": "0417",
+    "name": "哑铃站立提踵",
+    "source": "assets/motion_repairs/20260910/0417.png",
+    "asset": "app/src/main/res/raw/dataset_motion_0417.webp",
+    "offsets": [
+      [
+        0,
+        0
+      ],
+      [
+        -4.57,
+        1.51
+      ],
+      [
+        -13.68,
+        1.98
+      ]
+    ],
+    "frames": 4,
+    "duration": 2360,
+    "mode": "reviewed-keyframes-no-morph"
+  },
+  {
+    "id": "0351",
+    "name": "哑铃仰卧臂屈伸",
+    "source": "assets/motion_repairs/20260910/0351.png",
+    "asset": "app/src/main/res/raw/dataset_motion_0351.webp",
+    "offsets": [
+      [
+        0,
+        0
+      ],
+      [
+        -0.09,
+        -0.01
+      ],
+      [
+        0.01,
+        -0.05
+      ]
+    ],
+    "frames": 4,
+    "duration": 2360,
+    "mode": "reviewed-keyframes-no-morph"
+  },
+  {
+    "id": "0251",
+    "name": "双杠臂屈伸",
+    "source": "assets/motion_repairs/20260910/0251.png",
+    "asset": "app/src/main/res/raw/dataset_motion_0251.webp",
+    "offsets": [
+      [
+        0,
+        0
+      ],
+      [
+        -0.13,
+        -0.02
+      ],
+      [
+        0.01,
+        -13.59
+      ]
+    ],
+    "frames": 4,
+    "duration": 2360,
+    "mode": "reviewed-keyframes-no-morph"
+  },
+  {
+    "id": "0570",
+    "name": "平凳收腿",
+    "source": "assets/motion_repairs/20260910/0570.png",
+    "asset": "app/src/main/res/raw/dataset_motion_0570.webp",
+    "offsets": [
+      [
+        0,
+        0
+      ],
+      [
+        -0.02,
+        0.03
+      ],
+      [
+        0.03,
+        -0.08
+      ]
+    ],
+    "frames": 4,
+    "duration": 2360,
+    "mode": "reviewed-keyframes-no-morph"
+  },
+  {
+    "id": "0500",
+    "name": "左右移动俯卧撑",
+    "source": "assets/motion_repairs/20260910/0500.png",
+    "asset": "app/src/main/res/raw/dataset_motion_0500.webp",
+    "offsets": [
+      [
+        0,
+        0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -28.0
+      ]
+    ],
+    "frames": 4,
+    "duration": 2360,
+    "mode": "reviewed-keyframes-no-morph"
+  },
+  {
+    "id": "0652",
+    "name": "引体向上",
+    "source": "assets/motion_repairs/20260910/0652.png",
+    "asset": "app/src/main/res/raw/dataset_motion_0652.webp",
+    "offsets": [
+      [
+        0,
+        0
+      ],
+      [
+        0.04,
+        -0.1
+      ],
+      [
+        0.05,
+        -0.14
+      ]
+    ],
+    "frames": 4,
+    "duration": 2360,
+    "mode": "reviewed-keyframes-no-morph"
+  },
+  {
+    "id": "0260",
+    "name": "仰卧收腹",
+    "source": "assets/motion_repairs/20260910/0260.png",
+    "asset": "app/src/main/res/raw/dataset_motion_0260.webp",
+    "offsets": [
+      [
+        0,
+        0
+      ],
+      [
+        -34.0,
+        0.0
+      ],
+      [
+        -23.0,
+        -2.0
+      ]
+    ],
+    "frames": 4,
+    "duration": 2360,
+    "mode": "reviewed-keyframes-no-morph"
+  },
+  {
+    "id": "3144",
+    "name": "弹力带坐姿划船",
+    "source": "assets/motion_repairs/20260910/3144.png",
+    "asset": "app/src/main/res/raw/dataset_motion_3144.webp",
+    "offsets": [
+      [
+        0,
+        0
+      ],
+      [
+        -3.24,
+        -0.01
+      ],
+      [
+        -1.39,
+        -3.53
+      ]
+    ],
+    "frames": 4,
+    "duration": 2360,
+    "mode": "reviewed-keyframes-no-morph"
+  },
+  {
+    "id": "0968",
+    "name": "弹力带交替弯举",
+    "source": "assets/motion_repairs/20260910/0968.png",
+    "asset": "app/src/main/res/raw/dataset_motion_0968.webp",
+    "offsets": [
+      [
+        0,
+        0
+      ],
+      [
+        0.12,
+        0.02
+      ],
+      [
+        -0.01,
+        -0.18
+      ]
+    ],
+    "frames": 4,
+    "duration": 2360,
+    "mode": "reviewed-keyframes-no-morph"
+  },
+  {
+    "id": "0549",
+    "name": "壶铃摆动",
+    "source": "assets/motion_repairs/20260910/0549.png",
+    "asset": "app/src/main/res/raw/dataset_motion_0549.webp",
+    "offsets": [
+      [
+        0,
+        0
+      ],
+      [
+        -25.38,
+        4.66
+      ],
+      [
+        -13.39,
+        -0.47
+      ]
+    ],
+    "frames": 4,
+    "duration": 2360,
+    "mode": "reviewed-keyframes-no-morph"
+  },
+  {
+    "id": "0541",
+    "name": "壶铃单臂划船",
+    "source": "assets/motion_repairs/20260910/0541.png",
+    "asset": "app/src/main/res/raw/dataset_motion_0541.webp",
+    "offsets": [
+      [
+        0,
+        0
+      ],
+      [
+        -0.3,
+        0.06
+      ],
+      [
+        -0.1,
+        -0.29
+      ]
+    ],
+    "frames": 4,
+    "duration": 2360,
+    "mode": "reviewed-keyframes-no-morph"
+  },
+  {
+    "id": "0271",
+    "name": "瑜伽球卷腹",
+    "source": "assets/motion_repairs/20260910/0271.png",
+    "asset": "app/src/main/res/raw/dataset_motion_0271.webp",
+    "offsets": [
+      [
+        0,
+        0
+      ],
+      [
+        -8.82,
+        -0.22
+      ],
+      [
+        -3.35,
+        0.56
+      ]
+    ],
+    "frames": 4,
+    "duration": 2360,
+    "mode": "reviewed-keyframes-no-morph"
+  },
+  {
+    "id": "1314",
+    "name": "瑜伽球背伸展",
+    "source": "assets/motion_repairs/20260910/1314.png",
+    "asset": "app/src/main/res/raw/dataset_motion_1314.webp",
+    "offsets": [
+      [
+        0,
+        0
+      ],
+      [
+        -0.25,
+        -0.13
+      ],
+      [
+        -2.58,
+        -13.23
+      ]
+    ],
+    "frames": 4,
+    "duration": 2360,
+    "mode": "reviewed-keyframes-no-morph"
+  },
+  {
+    "id": "0808",
+    "name": "TRX 悬挂划船",
+    "source": "assets/motion_repairs/20260910/0808.png",
+    "asset": "app/src/main/res/raw/dataset_motion_0808.webp",
+    "offsets": [
+      [
+        0,
+        0
+      ],
+      [
+        20.39,
+        2.9
+      ],
+      [
+        15.01,
+        4.88
+      ]
+    ],
+    "frames": 4,
+    "duration": 2360,
+    "mode": "reviewed-keyframes-no-morph"
+  },
+  {
+    "id": "1705",
+    "name": "BOSU 球深蹲",
+    "source": "assets/motion_repairs/20260910/1705.png",
+    "asset": "app/src/main/res/raw/dataset_motion_1705.webp",
+    "offsets": [
+      [
+        0,
+        0
+      ],
+      [
+        -0.13,
+        0.07
+      ],
+      [
+        -0.05,
+        -19.5
+      ]
+    ],
+    "frames": 4,
+    "duration": 2360,
+    "mode": "reviewed-keyframes-no-morph"
+  },
+  {
+    "id": "2138",
+    "name": "动感单车",
+    "source": "assets/motion_repairs/20260910/2138.png",
+    "asset": "app/src/main/res/raw/dataset_motion_2138.webp",
+    "offsets": [
+      [
+        0,
+        0
+      ],
+      [
+        -0.13,
+        0.01
+      ],
+      [
+        -0.02,
+        -0.06
+      ],
+      [
+        -0.1,
+        -0.08
+      ]
+    ],
+    "frames": 4,
+    "duration": 2360,
+    "mode": "reviewed-keyframes-no-morph"
+  }
+]

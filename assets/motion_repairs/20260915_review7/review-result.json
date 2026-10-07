@@ -1,0 +1,170 @@
+{
+  "batch": "20260915_review7",
+  "inspected": [
+    "0138",
+    "0287",
+    "0139",
+    "0288",
+    "0140",
+    "0290",
+    "0251",
+    "0291",
+    "0253",
+    "0305"
+  ],
+  "definition_updates": {
+    "0138": {
+      "name_zh": "仰卧举髋卷腹",
+      "muscle_group": ""
+    },
+    "0139": {
+      "name_zh": "窄握引体向上",
+      "required_equipment_zh": [
+        "单杠"
+      ]
+    },
+    "0140": {
+      "name_zh": "引体向上",
+      "required_equipment_zh": [
+        "单杠"
+      ]
+    },
+    "0287": {
+      "muscle_group": "",
+      "movement_patterns_zh": [
+        "推",
+        "垂直推",
+        "过顶伸展"
+      ],
+      "instructions_zh": [
+        "坐在稳固的直立靠背训练凳上，背部贴近靠背，双脚踩实地面；双手持哑铃在肩前，掌心朝向自己。",
+        "将肘部向两侧打开，随手臂展开把掌心转向前方，再将哑铃推向头顶；不要只拧动手腕。",
+        "推至可控制的高度，肘部不强行锁死，腹部收紧，不后仰借力。",
+        "控制降回肩部并反向转回掌心朝向自己的姿势，双脚和训练凳全程稳定。"
+      ],
+      "required_equipment_zh": [
+        "直立靠背训练凳"
+      ]
+    },
+    "0288": {
+      "muscle_group": "",
+      "instructions_zh": [
+        "仰卧在稳固平板训练凳上，头背贴凳，双脚踩实地面。",
+        "双手稳握一只哑铃，举至胸部上方，肘部保持轻微弯曲。",
+        "保持肘角，在肩部可控制的范围内将哑铃沿弧线降向头后，不塌腰或弹震。",
+        "控制将哑铃带回胸部上方，重复动作。"
+      ],
+      "required_equipment_zh": [
+        "平板训练凳"
+      ]
+    },
+    "0290": {
+      "muscle_group": "",
+      "secondary_muscles": [
+        "triceps",
+        "traps"
+      ],
+      "movement_patterns_zh": [
+        "推",
+        "垂直推",
+        "过顶伸展"
+      ],
+      "required_equipment_zh": [
+        "直立靠背训练凳"
+      ]
+    },
+    "0251": {
+      "name_zh": "双杠臂屈伸（偏胸）",
+      "instructions_zh": [
+        "双手握住稳固双杠，手臂伸展使双脚离地，身体略微前倾。",
+        "控制屈肘下降至上臂约平行地面或肩部舒适的范围，不追求更深幅度。",
+        "保持握点稳定，用胸部和手臂发力推回起点，不弹起或耸肩借力。",
+        "重复动作；肩部出现疼痛时停止。"
+      ],
+      "required_equipment_zh": [
+        "双杠"
+      ]
+    },
+    "0253": {
+      "target": "lats",
+      "muscle_group": "upper back",
+      "movement_patterns_zh": [
+        "拉",
+        "垂直拉"
+      ],
+      "instructions_zh": [
+        "握住稳固引体架的窄距平行握把，掌心相对；双脚离地，腹部收紧。",
+        "先稳定肩胛，再屈肘将身体拉起，肘部向下靠近身体，双手始终握在原位。",
+        "上拉至下巴接近或超过握把所在横杆的高度，不伸颈或摆腿借力。",
+        "控制下降回到手臂伸展的位置，不塌腰；双臂同步完成一次上拉和下放计一次。"
+      ],
+      "required_equipment_zh": [
+        "中立握引体架"
+      ]
+    },
+    "0305": {
+      "muscle_group": "",
+      "movement_patterns_zh": [
+        "拉",
+        "肩胛上提"
+      ],
+      "instructions_zh": [
+        "将可调训练凳设为稳固的上斜角度，俯卧使胸腹贴住凳面，双脚在地面站稳。",
+        "双手各持一只哑铃自然下垂，手臂伸直，颈部保持自然，不抬头借力。",
+        "胸部继续贴凳，通过肩胛和肩部向上提起带动哑铃，不屈肘划船或移动训练凳。",
+        "短暂停顿后控制放低肩部，回到手臂自然下垂的位置，双脚和凳脚全程稳定。"
+      ],
+      "name_zh": "哑铃俯卧上斜凳耸肩（另一示范）",
+      "required_equipment_zh": [
+        "上斜训练凳"
+      ]
+    },
+    "0291": {
+      "required_equipment_zh": [
+        "平板训练凳"
+      ]
+    }
+  },
+  "sources": {
+    "0287": "https://www.puregym.com/exercises/arms-and-shoulders/shoulder-press/arnold-press/",
+    "0290": "https://www.muscleandstrength.com/exercises/seated-dumbbell-press.html",
+    "0253": "https://library.theprehabguys.com/vimeo-video/pull-up-neutral-grip/",
+    "0305": "https://www.muscleandfitness.com/exercise/workouts/shoulder-exercises/incline-dumbbell-shrug/"
+  },
+  "review_candidates": [
+    "0287",
+    "0290",
+    "0253",
+    "0305"
+  ],
+  "newly_reviewed": [
+    "dataset_1324_0287",
+    "dataset_1324_0290",
+    "dataset_1324_0253",
+    "dataset_1324_0305"
+  ],
+  "pending": {
+    "0138": "待修图 · 实际是仰卧举髋卷腹，已纠正倒立撑误名；头部与贴地手掌不能同时对齐，仍保持未复核。",
+    "0139": "待修图 · 单杠固定但双手握距跨帧改变，起始脚部贴近画面下边缘；握法与图示仍需统一，已补必需单杠。",
+    "0140": "待修图 · 单杠立柱和横杆跨帧改变位置、握距也变化，无法整体平移修复；已补必需单杠。",
+    "0288": "待修图 · 近侧凳脚与脚部横向位移接近零，远侧凳脚却移动约 22 px，不能同时固定；已补平板训练凳并纠正屈肘步骤。",
+    "0251": "待修图 · 双杠固定但双手沿杠移动，需固定握点；已纠正胸推误名、下降幅度和必需双杠。",
+    "0291": "待修图 · 训练凳与双脚独立移动，不能同时对齐；已补平板训练凳，保持触凳深蹲图文待修。"
+  },
+  "registered_media": [
+    "0287",
+    "0290"
+  ],
+  "image_generation_calls": 0,
+  "initial_validation": "passed",
+  "validation": "passed",
+  "android_playback_visually_reviewed": [
+    "0287",
+    "0290",
+    "0253",
+    "0305"
+  ],
+  "initial_ui_checks": 25,
+  "completed_at": "2026-09-15T03:49:38.145174+08:00",
+  "verification_summary": "build/review7-20260915/verification-summary.json"
+}

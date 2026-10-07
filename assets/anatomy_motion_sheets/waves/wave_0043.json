@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "wave": 43,
+  "mode": "built-in-imagegen",
+  "batches": [
+    {
+      "id": "auto_lower_legs_0257_0284_1379",
+      "category": "lower legs",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_lower_legs_0257_0284_1379.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_legs_1.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_legs_back_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_1.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: circles knee stretch (环膝拉伸).\nPrimary target metadata: calves; supporting muscle group: hamstrings; equipment: body weight.\nSource movement instructions: 双脚分开与肩同宽站立，双手放在臀部。 稍微弯曲膝盖，将脚跟抬离地面，用脚掌保持平衡。 保持膝盖弯曲，先顺时针旋转膝盖，然后逆时针旋转膝盖。 执行所需的重复运动次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: donkey calf raise (负重提踵).\nPrimary target metadata: calves; supporting muscle group: hamstrings; equipment: body weight.\nSource movement instructions: 将脚趾站立在升高的表面上，例如台阶或木块。 将双手放在稳定的支撑物上，例如墙壁或栏杆，以保持平衡。 尽可能高地抬高脚后跟，将身体重量转移到脚掌上。 在顶部停顿片刻，然后慢慢降低脚后跟回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: dumbbell seated calf raise (哑铃坐姿提踵).\nPrimary target metadata: calves; supporting muscle group: hamstrings; equipment: dumbbell.\nSource movement instructions: 坐在长凳或椅子上，双脚平放在地面上，并将哑铃放在大腿上。 将脚掌放在升高的表面（例如台阶或木块）上，脚跟悬在边缘外。 握住哑铃以保持稳定。 尽可能高地抬高脚后跟，将身体重量转移到脚掌上。 在顶部停顿片刻，然后慢慢降低脚后跟回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "43245cd3c5e4ec42dde1ef88f46c935b5be6f1a36c5840e886126dedf7a06957",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "0257",
+          "name": "circles knee stretch",
+          "name_zh": "环膝拉伸"
+        },
+        {
+          "row": 1,
+          "id": "0284",
+          "name": "donkey calf raise",
+          "name_zh": "负重提踵"
+        },
+        {
+          "row": 2,
+          "id": "1379",
+          "name": "dumbbell seated calf raise",
+          "name_zh": "哑铃坐姿提踵"
+        }
+      ]
+    },
+    {
+      "id": "auto_lower_legs_0400_1380_1381",
+      "category": "lower legs",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_lower_legs_0400_1380_1381.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_legs_1.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_legs_back_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_1.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: dumbbell seated one leg calf raise (哑铃坐姿单腿提踵).\nPrimary target metadata: calves; supporting muscle group: hamstrings; equipment: dumbbell.\nSource movement instructions: 坐在长凳或椅子上，双脚平放在地面上，将哑铃放在右大腿上。 将左腿伸直到身前，保持脚部弯曲。 将右脚掌放在升高的表面上，例如台阶或配重板。 使用小腿肌肉，尽可能高地抬高右脚跟。 在顶部暂停片刻，然后慢慢将脚跟放回起始位置。 重复所需的重复次数，然后换腿。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: dumbbell seated one leg calf raise - hammer grip (哑铃坐姿单腿提踵 - 锤式握).\nPrimary target metadata: calves; supporting muscle group: hamstrings; equipment: dumbbell.\nSource movement instructions: 坐在长凳或椅子上，双脚平放在地面上，并将哑铃放在大腿上。 将一只脚放在凸起的表面上，例如台阶或木块，脚跟悬在边缘之外。 用锤式握法握住哑铃，这意味着您的手掌相对，手指缠绕在手柄上。 保持核心收紧，背部挺直，通过脚掌推动，将脚后跟慢慢抬高，尽可能高。 在顶部暂停片刻，然后慢慢将脚跟放回起始位置。 重复所需的重复次数，然后换另一条腿。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: dumbbell seated one leg calf raise - palm up (哑铃坐姿单腿提踵 - 掌心向上).\nPrimary target metadata: calves; supporting muscle group: hamstrings; equipment: dumbbell.\nSource movement instructions: 坐在长凳或椅子上，背部挺直，双脚平放在地面上。 一只手握住哑铃，将其放在大腿上方，掌心朝上。 将一条腿抬离地面并将其延伸到您面前，保持膝盖稍微弯曲。 通过脚掌推动，尽可能高地抬起脚后跟。 在顶部停顿片刻，然后慢慢降低脚跟。 重复所需的重复次数，然后换腿并重复。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "c4b7fbfdc0dfd2b3f9e3111f54d4f651639d6509a3a732a7a9dc2ab0f44f1414",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "0400",
+          "name": "dumbbell seated one leg calf raise",
+          "name_zh": "哑铃坐姿单腿提踵"
+        },
+        {
+          "row": 1,
+          "id": "1380",
+          "name": "dumbbell seated one leg calf raise - hammer grip",
+          "name_zh": "哑铃坐姿单腿提踵 - 锤式握"
+        },
+        {
+          "row": 2,
+          "id": "1381",
+          "name": "dumbbell seated one leg calf raise - palm up",
+          "name_zh": "哑铃坐姿单腿提踵 - 掌心向上"
+        }
+      ]
+    },
+    {
+      "id": "auto_lower_legs_0409_0417_1382",
+      "category": "lower legs",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_lower_legs_0409_0417_1382.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_legs_1.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_legs_back_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_1.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: dumbbell single leg calf raise (哑铃单腿提踵).\nPrimary target metadata: calves; supporting muscle group: ankles; equipment: dumbbell.\nSource movement instructions: 站在台阶或平台的边缘，脚后跟悬垂，脚趾放在台阶上。 一手握住哑铃，另一只手放在墙壁或栏杆上以获得支撑。 尽可能高地抬高脚跟，将身体抬起到脚趾上。 在顶部停顿片刻，然后慢慢将脚跟放回到台阶下方。 重复所需的重复次数，然后换另一条腿。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: dumbbell standing calf raise (哑铃站立提踵).\nPrimary target metadata: calves; supporting muscle group: ankles; equipment: dumbbell.\nSource movement instructions: 双脚分开与肩同宽站立，每只手各握一个哑铃。 用小腿将脚跟抬离地面，尽可能高。 在顶部停顿片刻，然后慢慢降低脚后跟回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: exercise ball on the wall calf raise (健身球靠墙提踵).\nPrimary target metadata: calves; supporting muscle group: hamstrings; equipment: dumbbell.\nSource movement instructions: 背靠墙站立，将健身球放在下背部和墙壁之间。 双脚分开与肩同宽，脚趾指向前方。 每只手握住一个哑铃，双臂伸向身体两侧。 将脚跟抬离地面，将身体重量转移到脚掌上。 在顶部停顿片刻，然后慢慢降低脚后跟回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "dcb6a05349a13ff49aac17efd0b45853bc22f773281587a0c69be4299d31abe5",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "0409",
+          "name": "dumbbell single leg calf raise",
+          "name_zh": "哑铃单腿提踵"
+        },
+        {
+          "row": 1,
+          "id": "0417",
+          "name": "dumbbell standing calf raise",
+          "name_zh": "哑铃站立提踵"
+        },
+        {
+          "row": 2,
+          "id": "1382",
+          "name": "exercise ball on the wall calf raise",
+          "name_zh": "健身球靠墙提踵"
+        }
+      ]
+    }
+  ]
+}

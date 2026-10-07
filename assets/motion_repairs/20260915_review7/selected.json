@@ -1,0 +1,209 @@
+[
+  {
+    "id": "0138",
+    "name": "bottoms-up",
+    "name_zh": "倒立撑",
+    "media": "raw:dataset_motion_0138",
+    "category": "waist",
+    "equipment": "body weight",
+    "target": "abs",
+    "muscle_group": "obliques",
+    "secondary_muscles": [
+      "obliques",
+      "hip flexors"
+    ],
+    "instructions_zh": [
+      "平躺，双腿伸展，双臂放在身体两侧。",
+      "弯曲膝盖并将其靠近胸部，保持双脚离开地面。",
+      "收紧腹肌，将臀部抬离地面，将膝盖靠近头部。",
+      "在顶部暂停片刻，然后慢慢将臀部放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0287",
+    "name": "dumbbell arnold press v. 2",
+    "name_zh": "哑铃坐姿阿诺德推举",
+    "media": "raw:dataset_motion_0287",
+    "category": "shoulders",
+    "equipment": "dumbbell",
+    "target": "delts",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "upper chest"
+    ],
+    "instructions_zh": [
+      "坐在有背部支撑的长凳上，双手各握一个哑铃，与肩同高，手掌朝向身体，肘部弯曲。",
+      "向上推哑铃，直到手臂完全伸展，手掌朝前。",
+      "抬起时旋转手腕，使手掌在动作的最高点朝前。",
+      "在最高点暂停片刻，然后慢慢将哑铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0139",
+    "name": "biceps narrow pull-ups",
+    "name_zh": "窄握正手引体向上（肱二头肌）",
+    "media": "raw:dataset_motion_0139",
+    "category": "upper arms",
+    "equipment": "body weight",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "悬挂在引体向上杆上，手掌朝向自己，双手与肩同宽。",
+      "启动你的核心并将自己拉向杠铃，专注于使用二头肌来抬起你的身体。",
+      "在最高点暂停片刻，然后慢慢降低回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0288",
+    "name": "dumbbell around pullover",
+    "name_zh": "哑铃仰卧上拉",
+    "media": "raw:dataset_motion_0288",
+    "category": "chest",
+    "equipment": "dumbbell",
+    "target": "pectorals",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "latissimus dorsi"
+    ],
+    "instructions_zh": [
+      "平躺在长凳上，头放在一端，双脚牢牢踩在地上。",
+      "双手握住哑铃，将手臂伸直至胸部上方。",
+      "保持手臂伸直，以弧线动作慢慢将哑铃降低到脑后。",
+      "在底部停顿片刻，然后将哑铃举回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0140",
+    "name": "biceps pull-up",
+    "name_zh": "肱二头肌正手引体向上",
+    "media": "raw:dataset_motion_0140",
+    "category": "upper arms",
+    "equipment": "body weight",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "悬挂在引体向上杆上，手掌背向自己，双手与肩同宽。",
+      "启动核心肌群，弯曲肘部将自己拉起，使胸部靠近杠铃。",
+      "在动作的最高点暂停，然后慢慢降低回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0290",
+    "name": "dumbbell bench seated press",
+    "name_zh": "哑铃坐姿肩上推举",
+    "media": "raw:dataset_motion_0290",
+    "category": "shoulders",
+    "equipment": "dumbbell",
+    "target": "delts",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "chest"
+    ],
+    "instructions_zh": [
+      "坐在有稳定靠背的训练凳上，双脚踩实地面。",
+      "双手各持哑铃在肩部两侧，掌心朝前，肘部弯曲。",
+      "腹部收紧，背部保持自然贴近靠背，将哑铃向头顶推起。",
+      "控制降回肩部，不用后仰或弹起借力。"
+    ]
+  },
+  {
+    "id": "0251",
+    "name": "chest dip",
+    "name_zh": "胸推",
+    "media": "raw:dataset_motion_0251",
+    "category": "chest",
+    "equipment": "body weight",
+    "target": "pectorals",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "将自己置于双杠上，双臂完全伸展，身体伸直。",
+      "弯曲肘部，降低身体，直到肩膀低于肘部。",
+      "伸直手臂，将自己推回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0291",
+    "name": "dumbbell bench squat",
+    "name_zh": "哑铃触凳深蹲",
+    "media": "raw:dataset_motion_0291",
+    "category": "upper legs",
+    "equipment": "dumbbell",
+    "target": "glutes",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "双手各握一只哑铃垂在身体两侧，背对稳定长凳站立，双脚约与肩同宽。",
+      "髋膝同时屈曲，臀部向后下方移动，保持背部自然平直。",
+      "臀部轻触凳面后，用双脚稳定发力站起，不向后坐倒或松懈借力。",
+      "膝盖朝脚尖方向，哑铃始终握在手中，控制每次下降。"
+    ]
+  },
+  {
+    "id": "0253",
+    "name": "chin-ups (narrow parallel grip)",
+    "name_zh": "窄距平行握引体向上",
+    "media": "raw:dataset_motion_0253",
+    "category": "back",
+    "equipment": "body weight",
+    "target": "upper back",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "用狭窄的平行握距悬挂在引体向上杆上，手掌朝向您。",
+      "收紧背部肌肉，将身体拉向杠铃杆，保持肘部靠近身体。",
+      "继续拉，直到下巴位于杠铃上方。",
+      "在顶部停顿片刻，然后慢慢将身体放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0305",
+    "name": "dumbbell decline shrug",
+    "name_zh": "哑铃下斜耸肩",
+    "media": "raw:dataset_motion_0305",
+    "category": "back",
+    "equipment": "dumbbell",
+    "target": "traps",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "rhomboids"
+    ],
+    "instructions_zh": [
+      "设置一个 45 度角的下斜凳。",
+      "脸朝下躺在长凳上，胸部和腹部靠在长凳上。",
+      "每只手握住一个哑铃，双臂完全伸向地板。",
+      "保持手臂伸直，将肩膀尽可能高地抬向耳朵。",
+      "保持收缩一会儿，然后慢慢将哑铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  }
+]

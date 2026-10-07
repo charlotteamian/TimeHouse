@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "wave": 119,
+  "mode": "built-in-imagegen",
+  "batches": [
+    {
+      "id": "auto_waist_1468_0262_0267",
+      "category": "waist",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_waist_1468_0262_0267.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_1.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_arms_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_legs_back_2.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: crab twist toe touch (螃蟹扭腰触脚).\nPrimary target metadata: abs; supporting muscle group: obliques; equipment: body weight.\nSource movement instructions: 首先坐在地上，膝盖弯曲，双脚平放在地板上。 将双手放在身后，手指指向脚部，并将臀部抬离地面。 将一条腿伸直到您面前，同时将另一只手伸向脚趾。 返回起始位置并在另一侧重复。 继续交替进行所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: cross body crunch (交叉卷腹).\nPrimary target metadata: abs; supporting muscle group: obliques; equipment: body weight.\nSource movement instructions: 平躺，膝盖弯曲，双脚平放在地上。 将双手放在脑后，肘部朝外。 收紧腹肌，将上半身抬离地面，然后扭转，使右肘靠近左膝盖。 在顶部停顿片刻，然后慢慢将上半身放回起始位置。 在另一侧重复，将左肘靠近右膝盖。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: crunch (hands overhead) (卷腹（手举过头）).\nPrimary target metadata: abs; supporting muscle group: hip flexors; equipment: body weight.\nSource movement instructions: 平躺，膝盖弯曲，双脚平放在地上。 将双臂伸直至头顶上方。 收紧腹肌，将上半身抬离地面，向前向膝盖弯曲。 在顶部停顿片刻，然后慢慢将上半身放回起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "0b3814231c25b5ec6035ea66f094f69bc5a12fee024048dc38c22fe8a88764ef",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "1468",
+          "name": "crab twist toe touch",
+          "name_zh": "螃蟹扭腰触脚"
+        },
+        {
+          "row": 1,
+          "id": "0262",
+          "name": "cross body crunch",
+          "name_zh": "交叉卷腹"
+        },
+        {
+          "row": 2,
+          "id": "0267",
+          "name": "crunch (hands overhead)",
+          "name_zh": "卷腹（手举过头）"
+        }
+      ]
+    },
+    {
+      "id": "auto_waist_0271_0272_0274",
+      "category": "waist",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_waist_0271_0272_0274.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_1.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_arms_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_legs_back_2.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: crunch (on stability ball) (球上卷腹).\nPrimary target metadata: abs; supporting muscle group: hip flexors; equipment: stability ball.\nSource movement instructions: 坐在稳定球上，双脚平放在地面上，膝盖弯曲成 90 度角。 仰卧在球上，直到下背部得到支撑并且上半身与地板平行。 将双手放在脑后或放在胸前。 收紧腹肌，将上身抬向膝盖，躯干向前卷曲。 在动作的最高点暂停片刻，然后慢慢将上半身放回起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: crunch (on stability ball, arms straight) (球上卷腹（手臂伸直）).\nPrimary target metadata: abs; supporting muscle group: hip flexors; equipment: stability ball.\nSource movement instructions: 坐在稳定球上，双脚平放在地面上，膝盖弯曲成 90 度角。 仰卧在球上，直到下背部得到支撑并且上半身与地板平行。 将双手放在脑后或交叉放在胸前。 收紧腹肌，将上半身抬离球，将肩膀向臀部弯曲。 在顶部停顿片刻，然后慢慢将上半身放回起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: crunch floor (地板卷腹).\nPrimary target metadata: abs; supporting muscle group: hip flexors; equipment: body weight.\nSource movement instructions: 平躺，膝盖弯曲，双脚平放在地上。 将双手放在脑后，肘部朝外。 收紧腹肌，将肩膀抬离地面，向前向膝盖弯曲。 在顶部停顿片刻，然后慢慢将肩膀放回起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "9c084f13dfb9b8fa413bec501b816bf0236b05fbfa1ebfc6ae29eb5b149350f6",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "0271",
+          "name": "crunch (on stability ball)",
+          "name_zh": "球上卷腹"
+        },
+        {
+          "row": 1,
+          "id": "0272",
+          "name": "crunch (on stability ball, arms straight)",
+          "name_zh": "球上卷腹（手臂伸直）"
+        },
+        {
+          "row": 2,
+          "id": "0274",
+          "name": "crunch floor",
+          "name_zh": "地板卷腹"
+        }
+      ]
+    },
+    {
+      "id": "auto_waist_3016_0282_0443",
+      "category": "waist",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_waist_3016_0282_0443.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_1.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_arms_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_legs_back_2.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: curl-up (卷腹).\nPrimary target metadata: abs; supporting muscle group: hip flexors; equipment: body weight.\nSource movement instructions: 平躺，膝盖弯曲，双脚平放在地上。 将双手放在脑后，肘部朝外。 收紧腹肌，慢慢将上半身抬离地面，向前卷曲，直到躯干呈 45 度角。 在顶部停顿片刻，然后慢慢将上半身放回起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: decline sit-up (下斜仰卧起坐).\nPrimary target metadata: abs; supporting muscle group: hip flexors; equipment: body weight.\nSource movement instructions: 躺在倾斜的长凳上，双脚固定，膝盖弯曲。 将双手放在脑后或放在胸前。 收紧腹肌，将上半身抬离长凳，向前向膝盖弯曲。 在顶部停顿片刻，然后慢慢将上半身放回起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: elbow-to-knee (肘触膝).\nPrimary target metadata: abs; supporting muscle group: obliques; equipment: body weight.\nSource movement instructions: 首先平躺，膝盖弯曲，双脚平放在地上。 将双手放在脑后，肘部朝外。 收紧腹肌，将上半身抬离地面，将右肘靠近左膝盖。 同时，将左膝移向右肘，形成扭转动作。 在顶部停顿片刻，然后慢慢降低上半身并将双腿伸展回到起始位置。 重复该动作，这次将左肘移向右膝，将右膝移向左肘。 继续交替进行所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "7d0f1a48347c21028001b31848171b93bfede8d2f701b41633f4f83b9f66ac12",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "3016",
+          "name": "curl-up",
+          "name_zh": "卷腹"
+        },
+        {
+          "row": 1,
+          "id": "0282",
+          "name": "decline sit-up",
+          "name_zh": "下斜仰卧起坐"
+        },
+        {
+          "row": 2,
+          "id": "0443",
+          "name": "elbow-to-knee",
+          "name_zh": "肘触膝"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "wave": 63,
+  "mode": "built-in-imagegen",
+  "batches": [
+    {
+      "id": "auto_upper_arms_1720_0055_0056",
+      "category": "upper arms",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_upper_arms_1720_0055_0056.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_arms_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_push_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_back_2.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: barbell lying back of the head tricep extension (杠铃仰卧后脑三头肌伸展).\nPrimary target metadata: triceps; supporting muscle group: shoulders; equipment: barbell.\nSource movement instructions: 平躺在长凳上，双脚平放在地上，头放在长凳的末端。 正手握住杠铃，双手与肩同宽，将手臂伸直至胸部上方。 保持上臂静止，弯曲肘部，慢慢将杠铃降低到脑后。 暂停片刻，然后将手臂伸回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: barbell lying close-grip press (杠铃仰卧窄握推).\nPrimary target metadata: triceps; supporting muscle group: chest; equipment: barbell.\nSource movement instructions: 平躺在长凳上，双脚平放在地上，背部紧贴长凳。 紧紧握住杠铃，双手与肩同宽，手掌朝向脚部。 将杠铃从架子上提起，并将其直接放在胸部上方，双臂完全伸展。 慢慢地将杠铃降低到胸部，保持肘部靠近身体。 当杠铃接触胸部时暂停片刻，然后将其推回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: barbell lying close-grip triceps extension (杠铃仰卧窄握三头肌伸展).\nPrimary target metadata: triceps; supporting muscle group: shoulders; equipment: barbell.\nSource movement instructions: 平躺在长凳上，双脚平放在地上，头放在长凳的末端。 紧握杠铃，双手与肩同宽，掌心向上。 充分伸展双臂，将杠铃举至胸部上方。 保持上臂静止，弯曲肘部，慢慢将杠铃降低到前额。 在底部停顿片刻，然后将手臂伸展回起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "5e688503f1051da428c395612a84aa369dfdda232cfb90b46cf533ac6691b4dd",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "1720",
+          "name": "barbell lying back of the head tricep extension",
+          "name_zh": "杠铃仰卧后脑三头肌伸展"
+        },
+        {
+          "row": 1,
+          "id": "0055",
+          "name": "barbell lying close-grip press",
+          "name_zh": "杠铃仰卧窄握推"
+        },
+        {
+          "row": 2,
+          "id": "0056",
+          "name": "barbell lying close-grip triceps extension",
+          "name_zh": "杠铃仰卧窄握三头肌伸展"
+        }
+      ]
+    },
+    {
+      "id": "auto_upper_arms_0057_0059_0061",
+      "category": "upper arms",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_upper_arms_0057_0059_0061.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_arms_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_push_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_back_2.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: barbell lying extension (杠铃仰卧伸展).\nPrimary target metadata: triceps; supporting muscle group: shoulders; equipment: barbell.\nSource movement instructions: 平躺在长凳上，双脚平放在地上，头放在长凳的末端。 正手握住杠铃，双手与肩同宽，将手臂伸直至胸部上方。 保持上臂静止，弯曲肘部，慢慢将杠铃降低到前额。 暂停片刻，然后将手臂伸回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: barbell lying preacher curl (杠铃仰卧牧师凳弯举).\nPrimary target metadata: biceps; supporting muscle group: forearms; equipment: barbell.\nSource movement instructions: 坐在牧师长凳上，胸部靠在垫子上，手臂伸出边缘，反手握住杠铃。 保持上臂静止，呼气并弯举哑铃，同时收缩二头肌。 继续抬高杠铃，直到二头肌完全收缩并且杠铃与肩部齐平。 挤压二头肌时，保持收缩位置短暂停顿。 吸气并慢慢开始将杠铃放回起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: barbell lying triceps extension (杠铃仰卧三头肌伸展).\nPrimary target metadata: triceps; supporting muscle group: shoulders; equipment: barbell.\nSource movement instructions: 平躺在长凳上，双脚平放在地上，头放在长凳的末端。 正手握住杠铃，双手与肩同宽，将手臂伸直至胸部上方。 保持上臂静止，弯曲肘部，慢慢将杠铃降低到前额。 在底部停顿片刻，然后将手臂伸回起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "f82ce7d2cc8a664aad52eca35d2d089419f0efa2d88a8f2f935425e0a57e0710",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "0057",
+          "name": "barbell lying extension",
+          "name_zh": "杠铃仰卧伸展"
+        },
+        {
+          "row": 1,
+          "id": "0059",
+          "name": "barbell lying preacher curl",
+          "name_zh": "杠铃仰卧牧师凳弯举"
+        },
+        {
+          "row": 2,
+          "id": "0061",
+          "name": "barbell lying triceps extension",
+          "name_zh": "杠铃仰卧三头肌伸展"
+        }
+      ]
+    },
+    {
+      "id": "auto_upper_arms_0060_0065_1751",
+      "category": "upper arms",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_upper_arms_0060_0065_1751.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_arms_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_push_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_back_2.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: barbell lying triceps extension skull crusher (杠铃仰卧三头肌伸展（顶压式）).\nPrimary target metadata: triceps; supporting muscle group: shoulders; equipment: barbell.\nSource movement instructions: 平躺在长凳上，双脚平放在地上，头放在长凳的末端。 正手握住杠铃，双手与肩同宽，将手臂伸直至胸部上方。 保持上臂静止，弯曲肘部，慢慢将杠铃降低到前额。 当杠铃位于前额上方时暂停片刻，然后将手臂向后伸展至起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: barbell one arm floor press (杠铃单臂地板推).\nPrimary target metadata: triceps; supporting muscle group: chest; equipment: barbell.\nSource movement instructions: 仰卧在地板上，膝盖弯曲，双脚平放在地面上。 用一只手握住杠铃，掌心朝上，将手臂伸直至胸部上方。 慢慢地将杠铃降低到胸部，保持肘部靠近身体。 在底部停顿片刻，然后将杠铃推回到起始位置。 重复所需的重复次数，然后换臂。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: barbell pin presses (杠铃固定高度推举).\nPrimary target metadata: triceps; supporting muscle group: shoulders; equipment: barbell.\nSource movement instructions: 将杠铃放在与胸部同高的力量架上。 面向杠铃站立，将自己置于杠铃下方，双脚分开与肩同宽。 正手握住杠铃，握距略宽于肩宽。 将杠铃从架子上提起，并将其保持在胸部正上方，双臂完全伸展。 将杠铃向胸部方向降低，保持肘部靠近身体。 当杠铃触及胸部时暂停片刻。 将杠铃推回到起始位置，完全伸展双臂。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "a984e7145b75bd2cdc424ef61ffbb33a6d63c26dfaf2bfc3d5135125fde0bdf6",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "0060",
+          "name": "barbell lying triceps extension skull crusher",
+          "name_zh": "杠铃仰卧三头肌伸展（顶压式）"
+        },
+        {
+          "row": 1,
+          "id": "0065",
+          "name": "barbell one arm floor press",
+          "name_zh": "杠铃单臂地板推"
+        },
+        {
+          "row": 2,
+          "id": "1751",
+          "name": "barbell pin presses",
+          "name_zh": "杠铃固定高度推举"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "wave": 94,
+  "mode": "built-in-imagegen",
+  "batches": [
+    {
+      "id": "auto_upper_legs_1004_1003_1008",
+      "category": "upper legs",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_upper_legs_1004_1003_1008.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_legs_1.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_legs_back_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_1.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: band squat (弹力带深蹲).\nPrimary target metadata: glutes; supporting muscle group: quadriceps; equipment: band.\nSource movement instructions: 双脚分开站立，与肩同宽，弹力带放在膝盖上方。 保持挺胸、核心收紧，将臀部向后推，弯曲膝盖，形成下蹲姿势。 确保膝盖位于脚趾上方，并且重量位于脚后跟。 在底部停顿片刻，然后推动脚后跟回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: band squat row (弹力带深蹲划船).\nPrimary target metadata: glutes; supporting muscle group: hamstrings; equipment: band.\nSource movement instructions: 将带子固定在腰部高度的坚固锚点上。 面向锚点站立，双脚分开与肩同宽。 双手握住弹力带手柄，手掌相对，双臂向前伸展。 弯曲膝盖并蹲下，保持背部挺直，挺胸。 从蹲姿开始，将弹力带手柄拉向身体，将肩胛骨挤压在一起。 在最高点停顿片刻，然后慢慢释放张力，回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: band step-up (弹力带台阶抬腿).\nPrimary target metadata: glutes; supporting muscle group: quadriceps; equipment: band.\nSource movement instructions: 将一条带子绕在大腿上，就在膝盖上方。 面向台阶或平台站立，双脚分开与臀部同宽。 用右脚踩上平台，用脚后跟推动。 将左腿伸到身后，保持伸直。 将左脚放回地面。 重复左脚踩上平台的动作。 继续交替双腿达到所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "6200fa2b918dac33fd74d0cc237fc56735911a28ace1a50886911846c7297033",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "1004",
+          "name": "band squat",
+          "name_zh": "弹力带深蹲"
+        },
+        {
+          "row": 1,
+          "id": "1003",
+          "name": "band squat row",
+          "name_zh": "弹力带深蹲划船"
+        },
+        {
+          "row": 2,
+          "id": "1008",
+          "name": "band step-up",
+          "name_zh": "弹力带台阶抬腿"
+        }
+      ]
+    },
+    {
+      "id": "auto_upper_legs_1009_1023_0024",
+      "category": "upper legs",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_upper_legs_1009_1023_0024.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_legs_1.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_legs_back_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_1.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: band stiff leg deadlift (弹力带直膝硬拉).\nPrimary target metadata: glutes; supporting muscle group: hamstrings; equipment: band.\nSource movement instructions: 双脚分开站立，与肩同宽，将弹力带绕在脚踝上。 用双手将弹力带放在大腿前面，手掌朝向身体。 保持背部挺直，核心收紧，铰接臀部，慢慢将上半身降低到地面。 当你降低时，将臀部向后推，并让膝盖稍微弯曲。 将弹力带降低至地面，感受腿筋的拉伸。 在底部暂停片刻，然后启动臀肌和腿筋，将上半身抬回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: band straight back stiff leg deadlift (弹力带直背直腿硬拉).\nPrimary target metadata: glutes; supporting muscle group: hamstrings; equipment: band.\nSource movement instructions: 双脚分开与肩同宽站立，将弹力带绕在大腿上。 用双手将弹力带放在大腿前面，手掌朝向身体。 保持背部挺直，膝盖稍微弯曲，铰接臀部并将弹力带降低到地面。 当你降低弹力带时，感受腿筋的拉伸。 启动臀肌和腿筋，将身体抬回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: barbell bench front squat (杠铃卧推前蹲).\nPrimary target metadata: quads; supporting muscle group: hamstrings; equipment: barbell.\nSource movement instructions: 首先站立，双脚分开与肩同宽，将杠铃放在上胸部，锁骨下方。 正手握住杠铃，保持肘部向上，上臂与地面平行。 弯曲膝盖和臀部，将身体降低到蹲姿，保持背部挺直，挺胸。 在深蹲底部暂停片刻，然后用脚后跟恢复到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "e91b3c274cf58ebc4c8c06a39826b5c89edf6e91ef15d5bd2a25861d31e146f7",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "1009",
+          "name": "band stiff leg deadlift",
+          "name_zh": "弹力带直膝硬拉"
+        },
+        {
+          "row": 1,
+          "id": "1023",
+          "name": "band straight back stiff leg deadlift",
+          "name_zh": "弹力带直背直腿硬拉"
+        },
+        {
+          "row": 2,
+          "id": "0024",
+          "name": "barbell bench front squat",
+          "name_zh": "杠铃卧推前蹲"
+        }
+      ]
+    },
+    {
+      "id": "auto_upper_legs_0026_0028_0029",
+      "category": "upper legs",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_upper_legs_0026_0028_0029.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_legs_1.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_legs_back_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_1.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: barbell bench squat (杠铃卧推深蹲).\nPrimary target metadata: quads; supporting muscle group: glutes; equipment: barbell.\nSource movement instructions: 将杠铃放在深蹲架上，与胸部同高。 背对架子站立，双脚与肩同宽。 弯曲膝盖，将身体降低至蹲姿，保持背部挺直，挺胸。 正手握住杠铃，握距略宽于肩宽。 将杠铃从架子上提起并向后退一步，确保双脚仍与肩同宽。 降低身体蹲下，保持膝盖与脚趾在一条线上。 在底部停顿片刻，然后推动脚后跟回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: barbell clean and press (杠铃抓举推举).\nPrimary target metadata: quads; supporting muscle group: hamstrings; equipment: barbell.\nSource movement instructions: 双脚分开与肩同宽站立，杠铃放在你面前的地板上。 弯曲膝盖并以臀部为铰链降低并用正手握住杠铃，双手分开略宽于肩宽。 通过脚后跟发力，伸展臀部和膝盖，将杠铃抬离地板，使其靠近身体。 当杠铃到达大腿时，爆发性伸展臀部，耸肩，并将杠铃拉向胸部。 当杠铃到达胸部高度时，迅速将其降至肩部水平，肘部向前，手掌朝上。 从接球位置开始，伸展双臂并将杠铃笔直向上推，将杠铃压过头顶。 将杠铃放回起始位置，然后重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: barbell clean-grip front squat (杠铃抓握前蹲).\nPrimary target metadata: glutes; supporting muscle group: quadriceps; equipment: barbell.\nSource movement instructions: 首先，双脚分开与肩同宽，将杠铃放在上胸部，肘部向前。 弯曲膝盖并将臀部向后推，降低身体，就像坐在椅子上一样。 下降时保持挺胸、背部挺直，确保膝盖不超过脚趾。 继续降低，直到大腿与地面平行，或者尽可能低。 在底部停顿片刻，然后用脚跟推动站起来，伸展臀部和膝盖。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "4920c70d4d8f12a468952769bb58b5d630ab9809fab9a814dcf6cd1d1055fe4a",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "0026",
+          "name": "barbell bench squat",
+          "name_zh": "杠铃卧推深蹲"
+        },
+        {
+          "row": 1,
+          "id": "0028",
+          "name": "barbell clean and press",
+          "name_zh": "杠铃抓举推举"
+        },
+        {
+          "row": 2,
+          "id": "0029",
+          "name": "barbell clean-grip front squat",
+          "name_zh": "杠铃抓握前蹲"
+        }
+      ]
+    }
+  ]
+}

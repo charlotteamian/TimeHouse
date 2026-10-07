@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "wave": 34,
+  "mode": "built-in-imagegen",
+  "batches": [
+    {
+      "id": "auto_chest_1312_3217_1306",
+      "category": "chest",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_chest_1312_3217_1306.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_push_1.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_push_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_arms_2.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: medicine ball chest push with run release (药球胸推+跑动释放).\nPrimary target metadata: pectorals; supporting muscle group: triceps; equipment: medicine ball.\nSource movement instructions: 双脚分开与肩同宽站立，将药球举至胸部水平。 右脚向前迈出一步，同时向前推动药球，充分伸展双臂。 当你向前推动球时，松开它并让它向前滚动。 快速向前跑，在球落地之前接住球。 接住球后，将其放回胸前，左脚向前重复该动作。 继续交替双腿并重复练习达到所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: modified hindu push-up (male) (改良印度俯卧撑（男）).\nPrimary target metadata: pectorals; supporting muscle group: triceps; equipment: body weight.\nSource movement instructions: 从俯卧撑位置开始，双手分开略宽于肩宽，双脚分开与臀部同宽。 将身体向地面降低，弯曲肘部并保持核心参与。 当你降低身体时，将你的重心向后转移，并将臀部向上抬向天花板，与你的身体形成一个倒V形。 继续降低身体，直到胸部刚好高于地面，然后反向运动，将臀部向下推，并伸展手臂回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: plyo push up (爆发俯卧撑).\nPrimary target metadata: pectorals; supporting muscle group: triceps; equipment: body weight.\nSource movement instructions: 从高平板支撑位置开始，双手分开略宽于肩宽。 弯曲肘部，将胸部压向地面，保持身体呈一条直线。 爆发性地推离地面，利用胸部肌肉将上半身推离地面。 双手回到起始位置，轻轻落地。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "a6a5511c2db3a86f0450a90fdd6ddd69c8e7bc96284b6271903118d8c5345b44",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "1312",
+          "name": "medicine ball chest push with run release",
+          "name_zh": "药球胸推+跑动释放"
+        },
+        {
+          "row": 1,
+          "id": "3217",
+          "name": "modified hindu push-up (male)",
+          "name_zh": "改良印度俯卧撑（男）"
+        },
+        {
+          "row": 2,
+          "id": "1306",
+          "name": "plyo push up",
+          "name_zh": "爆发俯卧撑"
+        }
+      ]
+    },
+    {
+      "id": "auto_chest_1689_1307_0662",
+      "category": "chest",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_chest_1689_1307_0662.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_push_1.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_push_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_arms_2.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: push and pull bodyweight (推拉自重).\nPrimary target metadata: pectorals; supporting muscle group: triceps; equipment: body weight.\nSource movement instructions: 从俯卧撑位置开始，双手分开略宽于肩宽，身体呈一条直线。 弯曲肘部，将胸部压向地面，保持身体伸直。 推动手掌以伸展手臂并返回到起始位置。 从俯卧撑位置开始，弯曲肘部，将胸部拉向地面，保持身体伸直。 推动手掌以伸展手臂并返回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: push up on bosu ball (半圆平衡球俯卧撑).\nPrimary target metadata: pectorals; supporting muscle group: triceps; equipment: bosu ball.\nSource movement instructions: 将博苏球平放在地上，平面朝上。 将自己置于俯卧撑位置，双手放在博苏球的外边缘。 弯曲肘部，调动核心力量，将身体向博苏球方向降低。 伸展双臂，将自己推回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: push-up (俯卧撑).\nPrimary target metadata: pectorals; supporting muscle group: triceps; equipment: body weight.\nSource movement instructions: 从高位平板支撑开始，双手分开略宽于肩宽，双脚并拢。 弯曲肘部，调动核心力量，将身体压向地面，保持身体呈一条直线。 当你的胸部刚好高于地面时，暂停片刻，然后伸直手臂，将自己推回起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "4cb6ac0b41d0012b48da054f98bf39265365ab54313a5b24ad4fc3beba5acc98",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "1689",
+          "name": "push and pull bodyweight",
+          "name_zh": "推拉自重"
+        },
+        {
+          "row": 1,
+          "id": "1307",
+          "name": "push up on bosu ball",
+          "name_zh": "半圆平衡球俯卧撑"
+        },
+        {
+          "row": 2,
+          "id": "0662",
+          "name": "push-up",
+          "name_zh": "俯卧撑"
+        }
+      ]
+    },
+    {
+      "id": "auto_chest_0653_0655_0656",
+      "category": "chest",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_chest_0653_0655_0656.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_push_1.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_push_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_arms_2.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: push-up (bosu ball) (半圆平衡球俯卧撑).\nPrimary target metadata: pectorals; supporting muscle group: triceps; equipment: bosu ball.\nSource movement instructions: 将博苏球平放在地上，平面朝上。 将自己置于俯卧撑位置，双手放在博苏球的外边缘。 弯曲肘部，调动核心力量，将身体向博苏球方向降低。 伸展双臂，将自己推回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: push-up (on stability ball) (球上俯卧撑).\nPrimary target metadata: pectorals; supporting muscle group: triceps; equipment: stability ball.\nSource movement instructions: 将稳定球放在地上，面朝下，双手放在球上，与肩同宽。 将双腿伸直在身后，用脚趾保持平衡。 弯曲肘部，调动核心力量，将胸部向球方向降低，保持身体呈一条直线。 在底部暂停片刻，然后伸直手臂将自己推回起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: push-up (on stability ball) (球上俯卧撑).\nPrimary target metadata: pectorals; supporting muscle group: triceps; equipment: stability ball.\nSource movement instructions: 将稳定球放在地上，面朝下，双手放在球上，与肩同宽。 将双腿伸直在身后，用脚趾保持平衡。 弯曲肘部，调动核心力量，将胸部向球方向降低，保持身体呈一条直线。 在底部暂停片刻，然后伸直手臂将自己推回起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "535b32ca4e9ad0a9245d5d74f116ea8e1a14c436f9627185fda0a7da283c7e43",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "0653",
+          "name": "push-up (bosu ball)",
+          "name_zh": "半圆平衡球俯卧撑"
+        },
+        {
+          "row": 1,
+          "id": "0655",
+          "name": "push-up (on stability ball)",
+          "name_zh": "球上俯卧撑"
+        },
+        {
+          "row": 2,
+          "id": "0656",
+          "name": "push-up (on stability ball)",
+          "name_zh": "球上俯卧撑"
+        }
+      ]
+    }
+  ]
+}

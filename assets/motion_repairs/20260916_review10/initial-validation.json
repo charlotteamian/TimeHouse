@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "checks": 21,
+  "visually_reviewed": [
+    "0318",
+    "0320",
+    "0322"
+  ],
+  "dataset_sha256": "aa0d5efc4fdf1d1dbf37ec2b58cc0cd0b6428e09085569294b16587f8408fb4a",
+  "media_sha256": {
+    "0318": "e6dcd8d1de09c4a78dffcf826e5296508ff4ef273d64ce791b0df40a7de20ae3",
+    "0320": "bd12d7144a18d088c722e7c9f7db644909d7cea90e4d8b2d709158397138233e",
+    "0322": "780edf4995a6e3a0131d4b5bff731e44c4b43cce80b8e53d200e78f91f13d68d"
+  },
+  "notes": "Inspected all source frames, fixed sheets, and each saved 12-sample Android loop; feet and bench remain stable, elbow paths and grip match the corrected variants. Mandatory unreviewed training gate preserved."
+}

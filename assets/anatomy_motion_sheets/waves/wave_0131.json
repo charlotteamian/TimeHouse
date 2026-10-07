@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "wave": 131,
+  "mode": "built-in-imagegen",
+  "batches": [
+    {
+      "id": "auto_mixed_3642_1604",
+      "category": "mixed",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_mixed_3642_1604.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_back_1.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_1.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_legs_1.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_push_1.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_arms_2.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: weighted stretch lunge (负重拉伸弓步).\nPrimary target metadata: glutes; supporting muscle group: quadriceps; equipment: weighted.\nSource movement instructions: 双脚分开与肩同宽站立。 右脚向前迈出一步，保持背部挺直。 弯曲膝盖降低身体，直到右大腿与地面平行。 推动右脚跟回到起始位置。 左腿重复上述动作。 继续交替双腿达到所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: world greatest stretch (世界最伟大拉伸).\nPrimary target metadata: hamstrings; supporting muscle group: glutes; equipment: body weight.\nSource movement instructions: 从弓步位置开始，右脚向前，左脚向后。 将双手放在右脚两侧的地面上。 将左膝降低到地面并伸展右腿，保持右脚平放在地面上。 向右旋转你的躯干，将你的右臂伸向天花板。 保持这个姿势几秒钟，然后回到起始位置。 换边并重复拉伸，左脚向前。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 calibration row: repeat a neutral standing anatomical model in both cells at identical scale and viewpoint, arms relaxed by the sides, no equipment and no highlighted muscles. This row is layout filler only.",
+      "prompt_sha256": "1c696e530b355682affc93a24d3f3489c3f3f7ad4a8181135ab246799656f6d2",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "3642",
+          "name": "weighted stretch lunge",
+          "name_zh": "负重拉伸弓步"
+        },
+        {
+          "row": 1,
+          "id": "1604",
+          "name": "world greatest stretch",
+          "name_zh": "世界最伟大拉伸"
+        }
+      ]
+    }
+  ]
+}

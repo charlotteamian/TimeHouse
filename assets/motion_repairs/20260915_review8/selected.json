@@ -1,0 +1,209 @@
+[
+  {
+    "id": "0257",
+    "name": "circles knee stretch",
+    "name_zh": "环膝拉伸",
+    "media": "raw:dataset_motion_0257",
+    "category": "lower legs",
+    "equipment": "body weight",
+    "target": "calves",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings",
+      "quadriceps"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，双手放在臀部。",
+      "稍微弯曲膝盖，将脚跟抬离地面，用脚掌保持平衡。",
+      "保持膝盖弯曲，先顺时针旋转膝盖，然后逆时针旋转膝盖。",
+      "执行所需的重复运动次数。"
+    ]
+  },
+  {
+    "id": "0306",
+    "name": "dumbbell decline triceps extension",
+    "name_zh": "哑铃下斜三头肌伸展",
+    "media": "raw:dataset_motion_0306",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "triceps",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "躺在斜凳上，头低于脚，双手各握一个哑铃，手掌相对。",
+      "充分伸展双臂，保持肘部靠近头部。",
+      "将哑铃慢慢降低到脑后，弯曲肘部。",
+      "暂停片刻，然后将哑铃举回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0258",
+    "name": "clock push-up",
+    "name_zh": "钟形俯卧撑",
+    "media": "raw:dataset_motion_0258",
+    "category": "chest",
+    "equipment": "body weight",
+    "target": "pectorals",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "shoulders",
+      "core"
+    ],
+    "instructions_zh": [
+      "从高平板支撑位置开始，双手直接放在肩膀下方，身体呈一条直线。",
+      "弯曲肘部，使肘部靠近身体两侧，将身体降低到地面。",
+      "当你下降时，将你的身体向左旋转，将你的左臂伸直到侧面。",
+      "向上推回到起始位置，同时将身体旋转到中心。",
+      "重复俯卧撑，这次将身体向右旋转，并将右臂向侧面伸出。",
+      "每次重复时继续交替进行。"
+    ]
+  },
+  {
+    "id": "0307",
+    "name": "dumbbell decline twist fly",
+    "name_zh": "哑铃下斜扭转飞鸟",
+    "media": "raw:dataset_motion_0307",
+    "category": "chest",
+    "equipment": "dumbbell",
+    "target": "pectorals",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "triceps"
+    ],
+    "instructions_zh": [
+      "躺在倾斜的长凳上，头部低于臀部。",
+      "双手各握一个哑铃，手掌相对，双臂伸直越过胸部。",
+      "将哑铃以宽弧线向两侧放低，直到感觉到胸部有拉伸感。",
+      "当你降低哑铃时，扭转手腕，使手掌在动作底部朝前。",
+      "反转动作，将哑铃拉回到起始位置，在顶部挤压胸部肌肉。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0260",
+    "name": "cocoons",
+    "name_zh": "仰卧收腹",
+    "media": "raw:dataset_motion_0260",
+    "category": "waist",
+    "equipment": "body weight",
+    "target": "abs",
+    "muscle_group": "hip flexors",
+    "secondary_muscles": [
+      "hip flexors",
+      "lower back"
+    ],
+    "instructions_zh": [
+      "仰卧，双臂向头顶方向伸展，双腿伸直并略微离地。",
+      "收紧腹部，屈膝向胸前收拢，同时卷起肩胛骨，双手向脚踝方向伸出。",
+      "保持颈部自然，不拉扯膝盖；缓慢展开手臂和双腿回到起始位。"
+    ]
+  },
+  {
+    "id": "0308",
+    "name": "dumbbell fly",
+    "name_zh": "哑铃飞鸟",
+    "media": "raw:dataset_motion_0308",
+    "category": "chest",
+    "equipment": "dumbbell",
+    "target": "pectorals",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "平躺在长凳上，双手各握一个哑铃，手掌相对。",
+      "将手臂伸直越过胸部，肘部稍微弯曲。",
+      "保持肘部轻微弯曲，将手臂以宽弧线向两侧放低，直到感觉到胸部有拉伸感。",
+      "暂停片刻，然后反转动作，将哑铃拉回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0262",
+    "name": "cross body crunch",
+    "name_zh": "交叉卷腹",
+    "media": "raw:dataset_motion_0262",
+    "category": "waist",
+    "equipment": "body weight",
+    "target": "abs",
+    "muscle_group": "obliques",
+    "secondary_muscles": [
+      "obliques"
+    ],
+    "instructions_zh": [
+      "平躺，膝盖弯曲，双脚平放在地上。",
+      "将双手放在脑后，肘部朝外。",
+      "收紧腹肌，将上半身抬离地面，然后扭转，使右肘靠近左膝盖。",
+      "在顶部停顿片刻，然后慢慢将上半身放回起始位置。",
+      "在另一侧重复，将左肘靠近右膝盖。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0309",
+    "name": "dumbbell front raise v. 2",
+    "name_zh": "哑铃前平举（第二式）",
+    "media": "raw:dataset_motion_0309",
+    "category": "shoulders",
+    "equipment": "dumbbell",
+    "target": "delts",
+    "muscle_group": "trapezius",
+    "secondary_muscles": [
+      "trapezius",
+      "biceps"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，双手各握一个哑铃，手掌朝向大腿。",
+      "保持背部挺直并启动核心肌群。",
+      "慢慢举起你面前的哑铃，手臂伸直，直到与肩齐平。",
+      "在顶部停顿片刻，然后慢慢将哑铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0267",
+    "name": "crunch (hands overhead)",
+    "name_zh": "卷腹（手举过头）",
+    "media": "raw:dataset_motion_0267",
+    "category": "waist",
+    "equipment": "body weight",
+    "target": "abs",
+    "muscle_group": "hip flexors",
+    "secondary_muscles": [
+      "hip flexors"
+    ],
+    "instructions_zh": [
+      "平躺，膝盖弯曲，双脚平放在地上。",
+      "将双臂伸直至头顶上方。",
+      "收紧腹肌，将上半身抬离地面，向前向膝盖弯曲。",
+      "在顶部停顿片刻，然后慢慢将上半身放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0311",
+    "name": "dumbbell full can lateral raise",
+    "name_zh": "哑铃全幅度侧平举",
+    "media": "raw:dataset_motion_0311",
+    "category": "shoulders",
+    "equipment": "dumbbell",
+    "target": "delts",
+    "muscle_group": "traps",
+    "secondary_muscles": [
+      "traps",
+      "rotator cuff"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，双手各握一个哑铃，手掌朝向身体。",
+      "保持背部挺直并启动核心肌群。",
+      "将手臂向两侧举起，肘部保持轻微弯曲，直到与地面平行。",
+      "在顶部暂停片刻，然后慢慢将手臂放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  }
+]

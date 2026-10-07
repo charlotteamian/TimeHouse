@@ -1,0 +1,10 @@
+{
+  "expected_checks": 21,
+  "runner": "scripts/qa_review_batch10.py",
+  "candidates": [
+    "0318",
+    "0320",
+    "0322"
+  ],
+  "visual_gate": "Inspect saved Android loops before approving; unreviewed training remains blocked under 1.2.14 rules"
+}

@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "wave": 3,
+  "mode": "built-in-imagegen",
+  "batches": [
+    {
+      "id": "auto_back_3167_3156_3158",
+      "category": "back",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_back_3167_3156_3158.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_back_1.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_back_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_legs_back_2.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: bodyweight squatting row (with towel) (自重深蹲划船（毛巾辅助）).\nPrimary target metadata: upper back; supporting muscle group: biceps; equipment: body weight.\nSource movement instructions: 双脚分开与肩同宽站立，手掌朝下，将毛巾放在身前。 弯曲膝盖，将身体降低至蹲姿，保持背部挺直，挺胸。 当你下蹲时，同时将毛巾拉向胸部，将肩胛骨挤压在一起。 在深蹲底部停顿片刻，然后慢慢回到起始位置，同时伸展双臂。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: bodyweight standing close-grip one arm row (自重站立窄握单臂划船).\nPrimary target metadata: upper back; supporting muscle group: biceps; equipment: body weight.\nSource movement instructions: 双脚分开与肩同宽站立，膝盖稍微弯曲，一只手握住哑铃，握姿中立。 臀部向前弯曲，保持背部挺直，核心肌群参与。 将哑铃向上拉向胸部，保持肘部靠近身体并将肩胛骨挤压在一起。 在顶部停顿片刻，然后慢慢将哑铃放回起始位置。 重复所需的重复次数，然后换边。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: bodyweight standing close-grip row (自重站立窄握划船).\nPrimary target metadata: upper back; supporting muscle group: biceps; equipment: body weight.\nSource movement instructions: 站立，双脚分开与肩同宽，膝盖稍微弯曲。 腰部向前弯曲，保持背部挺直，核心肌群参与。 将双臂伸直在身前，紧紧抓住杆或手柄。 将杠铃或手柄拉向身体，将肩胛骨挤压在一起。 在动作的最高点停顿片刻，然后慢慢松开并回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "13a4c6e76f914817d4312343c506f0935f79672a29de876b48ad9237700e01d2",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "3167",
+          "name": "bodyweight squatting row (with towel)",
+          "name_zh": "自重深蹲划船（毛巾辅助）"
+        },
+        {
+          "row": 1,
+          "id": "3156",
+          "name": "bodyweight standing close-grip one arm row",
+          "name_zh": "自重站立窄握单臂划船"
+        },
+        {
+          "row": 2,
+          "id": "3158",
+          "name": "bodyweight standing close-grip row",
+          "name_zh": "自重站立窄握划船"
+        }
+      ]
+    },
+    {
+      "id": "auto_back_3162_3161_3166",
+      "category": "back",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_back_3162_3161_3166.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_back_1.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_back_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_legs_back_2.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: bodyweight standing one arm row (自重站立单臂划船).\nPrimary target metadata: upper back; supporting muscle group: biceps; equipment: body weight.\nSource movement instructions: 双脚分开与肩同宽站立，膝盖稍微弯曲，一手握住哑铃。 臀部向前弯曲，保持背部挺直，核心肌群参与。 让哑铃垂直悬挂在您面前，手臂完全伸展。 将哑铃向上拉向胸部，保持肘部靠近身体。 在动作的最高点将肩胛骨挤压在一起。 将哑铃放回起始位置。 重复所需的重复次数，然后换边。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: bodyweight standing one arm row (with towel) (自重站立单臂划船（毛巾辅助）).\nPrimary target metadata: upper back; supporting muscle group: biceps; equipment: body weight.\nSource movement instructions: 双脚分开与肩同宽站立，膝盖微曲，单手握住毛巾。 臀部向前弯曲，保持背部挺直，核心肌群参与。 将毛巾拉向胸部，将肩胛骨挤压在一起。 在顶部停顿片刻，然后慢慢将毛巾放回起始位置。 重复所需的重复次数，然后换到另一只手臂。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: bodyweight standing row (自重站立划船).\nPrimary target metadata: upper back; supporting muscle group: biceps; equipment: body weight.\nSource movement instructions: 站立，双脚分开与肩同宽，膝盖稍微弯曲。 正手握住杆或手柄，手掌朝下。 保持背部挺直，核心参与。 将杠铃或手柄拉向身体，将肩胛骨挤压在一起。 在动作的最高点停顿片刻。 慢慢释放并伸展双臂回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "84a491e3c77d6e3988ba47cf1213453f72b1eba3bebfa2712acf363cf578f574",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "3162",
+          "name": "bodyweight standing one arm row",
+          "name_zh": "自重站立单臂划船"
+        },
+        {
+          "row": 1,
+          "id": "3161",
+          "name": "bodyweight standing one arm row (with towel)",
+          "name_zh": "自重站立单臂划船（毛巾辅助）"
+        },
+        {
+          "row": 2,
+          "id": "3166",
+          "name": "bodyweight standing row",
+          "name_zh": "自重站立划船"
+        }
+      ]
+    },
+    {
+      "id": "auto_back_3165_0150_0153",
+      "category": "back",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_back_3165_0150_0153.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_back_1.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_back_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_legs_back_2.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: bodyweight standing row (with towel) (自重站立划船（毛巾辅助）).\nPrimary target metadata: upper back; supporting muscle group: biceps; equipment: body weight.\nSource movement instructions: 双脚分开与肩同宽站立，双手握住毛巾放在身前。 稍微弯曲膝盖，髋部向前转动，保持背部挺直。 将毛巾拉向胸部，将肩胛骨挤压在一起。 在最高点停顿片刻，然后慢慢释放张力，回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: cable bar lateral pulldown (绳索横杠下拉).\nPrimary target metadata: lats; supporting muscle group: biceps; equipment: cable.\nSource movement instructions: 将电缆滑轮调整至较高位置并安装直杆。 面向缆绳机坐着，双脚平放在地面上，膝盖稍微弯曲。 正手握住杠铃，握距略宽于肩宽。 稍微向后倾斜，挺胸，保持下背部轻微的拱形。 将杠铃向下拉向胸部，用肘部引导并将肩胛骨挤压在一起。 在动作底部暂停片刻，然后慢慢地将杠铃返回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: cable cross-over lateral pulldown (绳索交叉下拉).\nPrimary target metadata: lats; supporting muscle group: biceps; equipment: cable.\nSource movement instructions: 将电缆手柄连接到电缆机器两侧与肩同高的位置。 站在机器中间，双脚分开与肩同宽。 正手握住手柄并后退以在电缆中产生张力。 从臀部开始稍微向前倾，保持背部挺直，挺胸。 将手柄向下拉并穿过身体，将肩胛骨挤压在一起。 在动作底部暂停片刻，然后慢慢回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "1197fccdebe7521552fe6c89cc7b7405470e67bbed6e796434664a381965637d",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "3165",
+          "name": "bodyweight standing row (with towel)",
+          "name_zh": "自重站立划船（毛巾辅助）"
+        },
+        {
+          "row": 1,
+          "id": "0150",
+          "name": "cable bar lateral pulldown",
+          "name_zh": "绳索横杠下拉"
+        },
+        {
+          "row": 2,
+          "id": "0153",
+          "name": "cable cross-over lateral pulldown",
+          "name_zh": "绳索交叉下拉"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "exercise": "0311",
+  "calls": 2,
+  "status": "approved",
+  "method": "Edit only arm plane and neutral grip; lock standing body across all four frames",
+  "first_issue": "Peak arms form lateral T instead of matching the diagonal scaption plane",
+  "output": "0311-generated-v2.png",
+  "packed_output": "0311-fixed.webp",
+  "second_result": "Peak plane corrected, both feet register within 1 px; Android playback pending",
+  "android_validation": "passed"
+}

@@ -1,0 +1,336 @@
+[
+  {
+    "id": "3211",
+    "name": "kneeling push-up (male)",
+    "name_zh": "跪姿俯卧撑（男）",
+    "media": "raw:dataset_motion_3211",
+    "category": "chest",
+    "equipment": "body weight",
+    "target": "pectorals",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "首先跪在地上，双手与肩同宽，手指指向前方。",
+      "将双腿伸到身后，放在脚掌上，使身体从头到脚跟形成一条直线。",
+      "弯曲肘部，保持核心靠近身体两侧，将身体压向地面。",
+      "继续降低，直到胸部刚好高于地面，然后伸直手臂，将其推回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0659",
+    "name": "push-up (wall)",
+    "name_zh": "墙俯卧撑",
+    "media": "raw:dataset_motion_0659",
+    "category": "chest",
+    "equipment": "body weight",
+    "target": "pectorals",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "deltoids"
+    ],
+    "instructions_zh": [
+      "面向墙壁站立，距离大约一臂距离。",
+      "将双手放在墙上，与肩同高，距离略宽于肩宽。",
+      "后退几英尺，保持身体挺直，双脚分开与臀部同宽。",
+      "弯曲肘部，将胸部向墙壁降低，保持身体呈一条直线。",
+      "推回起始位置，伸直手臂。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0274",
+    "name": "crunch floor",
+    "name_zh": "地板卷腹",
+    "media": "raw:dataset_motion_0274",
+    "category": "waist",
+    "equipment": "body weight",
+    "target": "abs",
+    "muscle_group": "hip flexors",
+    "secondary_muscles": [
+      "hip flexors"
+    ],
+    "instructions_zh": [
+      "平躺，膝盖弯曲，双脚平放在地上。",
+      "将双手放在脑后，肘部朝外。",
+      "收紧腹肌，将肩膀抬离地面，向前向膝盖弯曲。",
+      "在顶部停顿片刻，然后慢慢将肩膀放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0006",
+    "name": "alternate heel touchers",
+    "name_zh": "交替脚跟触碰",
+    "media": "raw:dataset_motion_0006",
+    "category": "waist",
+    "equipment": "body weight",
+    "target": "abs",
+    "muscle_group": "obliques",
+    "secondary_muscles": [
+      "obliques"
+    ],
+    "instructions_zh": [
+      "平躺，膝盖弯曲，双脚平放在地上。",
+      "将双臂伸直至两侧，与地面平行。",
+      "收紧腹肌，将肩膀抬离地面，并将右手伸向右脚跟。",
+      "返回起始位置并在左侧重复，将左手伸向左脚跟。",
+      "继续交替进行所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0310",
+    "name": "dumbbell front raise",
+    "name_zh": "哑铃前平举",
+    "media": "raw:dataset_motion_0310",
+    "category": "shoulders",
+    "equipment": "dumbbell",
+    "target": "delts",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "trapezius"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，双手各握一个哑铃，手掌朝向大腿。",
+      "保持双臂伸直，呼气并将哑铃举至身前，直至与肩齐平。",
+      "在顶部停顿片刻，然后吸气，慢慢将哑铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0333",
+    "name": "dumbbell kickback",
+    "name_zh": "哑铃后推",
+    "media": "raw:dataset_motion_0333",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "triceps",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，每只手各握一个哑铃。",
+      "稍微弯曲膝盖，髋部向前转动，保持背部挺直。",
+      "将上臂靠近身体两侧，肘部弯曲成 90 度角。",
+      "将手臂向后伸直，在动作的最高点挤压三头肌。",
+      "暂停片刻，然后慢慢将哑铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0383",
+    "name": "dumbbell reverse fly",
+    "name_zh": "哑铃反飞鸟",
+    "media": "raw:dataset_motion_0383",
+    "category": "shoulders",
+    "equipment": "dumbbell",
+    "target": "delts",
+    "muscle_group": "trapezius",
+    "secondary_muscles": [
+      "trapezius",
+      "rhomboids"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，每只手各握一个哑铃。",
+      "稍微弯曲膝盖，髋部向前转动，保持背部挺直。",
+      "将双臂伸直在身前，手掌相对。",
+      "保持肘部轻微弯曲，将手臂向两侧抬起，直到与地面平行。",
+      "在顶部暂停片刻，然后慢慢将手臂放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0430",
+    "name": "dumbbell standing triceps extension",
+    "name_zh": "哑铃站立三头肌伸展",
+    "media": "raw:dataset_motion_0430",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "triceps",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，一只手握住哑铃。",
+      "将哑铃举过头顶，保持手臂伸直。",
+      "弯曲肘部，将哑铃放到脑后，保持上臂静止。",
+      "将手臂向后伸展至起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0285",
+    "name": "dumbbell alternate biceps curl",
+    "name_zh": "哑铃交替弯举",
+    "media": "raw:dataset_motion_0285",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "站直，双手各握一个哑铃，手掌朝前，双臂完全伸展。",
+      "保持上臂静止，呼气并弯举哑铃，同时收缩二头肌。",
+      "继续举起哑铃，直到二头肌完全收缩并且哑铃与肩部齐平。",
+      "挤压二头肌时，保持收缩位置短暂停顿。",
+      "吸气并慢慢开始将哑铃放回起始位置。",
+      "重复所需的重复次数，交替手臂。"
+    ]
+  },
+  {
+    "id": "3021",
+    "name": "scapula push-up",
+    "name_zh": "肩胛俯卧撑",
+    "media": "raw:dataset_motion_3021",
+    "category": "chest",
+    "equipment": "body weight",
+    "target": "serratus anterior",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "从高平板支撑位置开始，双手直接放在肩膀下方，身体呈一条直线。",
+      "将胸部压向地面，保持肘部靠近身体。",
+      "当你下降时，将肩胛骨挤压在一起并将胸部向前推。",
+      "在底部停顿片刻，然后推回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0805",
+    "name": "suspended abdominal fallout",
+    "name_zh": "悬挂带腹部前伸",
+    "media": "raw:dataset_motion_0805",
+    "category": "waist",
+    "equipment": "suspension trainer",
+    "target": "abs",
+    "muscle_group": "obliques",
+    "secondary_muscles": [
+      "obliques",
+      "hip flexors"
+    ],
+    "instructions_zh": [
+      "将悬挂训练器连接到高锚点并将带子调整至腰部高度。",
+      "背对锚点站立，并握住手柄，双臂向前伸展。",
+      "腰部向前倾，保持身体挺直，核心肌群参与。",
+      "尽可能降低身体，同时保持腹肌的控制和紧张。",
+      "在底部停顿片刻，然后慢慢抬起身体回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0809",
+    "name": "suspended split squat",
+    "name_zh": "悬挂带分腿蹲",
+    "media": "raw:dataset_motion_0809",
+    "category": "upper legs",
+    "equipment": "suspension trainer",
+    "target": "quads",
+    "muscle_group": "glutes",
+    "secondary_muscles": [
+      "glutes",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "确认锚点牢固，背对悬挂带，将后方一只脚放入脚托，前脚稳固着地。",
+      "弯曲前腿并将髋部向后、向下移动，前膝与脚尖方向一致。",
+      "前脚压地站起；避免靠后腿拉扯悬挂带，完成后换侧。"
+    ]
+  },
+  {
+    "id": "0872",
+    "name": "reverse crunch",
+    "name_zh": "反向卷腹",
+    "media": "raw:dataset_motion_0872",
+    "category": "waist",
+    "equipment": "body weight",
+    "target": "abs",
+    "muscle_group": "hip flexors",
+    "secondary_muscles": [
+      "hip flexors"
+    ],
+    "instructions_zh": [
+      "平躺，双臂沿着身体两侧伸展。",
+      "弯曲膝盖，将脚抬离地面，使大腿垂直于地板。",
+      "收缩腹肌，将臀部卷离地板，使膝盖靠近胸部。",
+      "在顶部暂停片刻，然后慢慢将臀部放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0710",
+    "name": "side hip abduction",
+    "name_zh": "侧臀外展",
+    "media": "raw:dataset_motion_0710",
+    "category": "upper legs",
+    "equipment": "body weight",
+    "target": "abductors",
+    "muscle_group": "glutes",
+    "secondary_muscles": [
+      "glutes",
+      "quadriceps"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，双手放在臀部。",
+      "将重心转移到一条腿上，并将另一条腿向一侧抬起，保持伸直。",
+      "在顶部暂停片刻，然后慢慢将腿放回起始位置。",
+      "在另一侧重复。",
+      "继续交替进行所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3699",
+    "name": "shoulder tap",
+    "name_zh": "肩部轻拍",
+    "media": "raw:dataset_motion_3699",
+    "category": "waist",
+    "equipment": "body weight",
+    "target": "abs",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "triceps"
+    ],
+    "instructions_zh": [
+      "从高平板支撑位置开始，双手直接放在肩膀下方，身体呈一条直线。",
+      "启动你的核心并将右手抬离地面，伸手拍打你的左肩。",
+      "将右手放回地面，然后用左手轻拍右肩，重复此操作。",
+      "继续交替轻拍肩膀，同时保持臀部和躯干稳定。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0630",
+    "name": "mountain climber",
+    "name_zh": "登山者",
+    "media": "raw:dataset_motion_0630",
+    "category": "cardio",
+    "equipment": "body weight",
+    "target": "cardiovascular system",
+    "muscle_group": "core",
+    "secondary_muscles": [
+      "core",
+      "shoulders",
+      "triceps"
+    ],
+    "instructions_zh": [
+      "从高平板支撑位置开始，双手直接放在肩膀下方，身体呈一条直线。",
+      "启动你的核心并将你的右膝盖靠近你的胸部，然后快速切换并将你的左膝盖靠近你的胸部。",
+      "继续以跑步动作交替双腿，保持臀部较低，核心肌群参与。",
+      "在整个练习过程中保持稳定的节奏和均匀的呼吸。",
+      "重复所需的重复次数。"
+    ]
+  }
+]

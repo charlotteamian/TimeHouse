@@ -1,0 +1,6 @@
+{
+  "expected_checks": 30,
+  "runner": "scripts/qa_review_batch9.py",
+  "candidates": ["0277", "0312", "0315", "0317"],
+  "visual_gate": "Inspect each saved Android playback loop before granting review"
+}

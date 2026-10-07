@@ -1,0 +1,14 @@
+{
+  "source_sha256": "7b749452f71bd27ab4115ad570b03d71c880b6083e7bd598385bd70d23f13312",
+  "output_sha256": "9f4575ba09dd957d3f49c8cf65f1c627af6b23008f63ba0203672ce988078a5e",
+  "cropped_source_spill_row": 479,
+  "frame": 0,
+  "pose_pixels_unchanged": true,
+  "frames": 4,
+  "durations": [
+    800,
+    380,
+    800,
+    380
+  ]
+}

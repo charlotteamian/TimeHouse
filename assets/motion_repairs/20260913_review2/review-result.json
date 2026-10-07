@@ -1,0 +1,43 @@
+{
+  "batch": "20260913_review2",
+  "inspected": [
+    "0276",
+    "3013",
+    "1685",
+    "0805",
+    "0809",
+    "0300",
+    "0313",
+    "0336",
+    "1373",
+    "2368",
+    "3769"
+  ],
+  "newly_reviewed": [
+    "0300",
+    "0313",
+    "1685"
+  ],
+  "existing_frame_repair": [
+    "0300"
+  ],
+  "reused_media": {
+    "exercise_dumbbell_overhead_press": "dataset_motion_0426"
+  },
+  "generated_drafts": {
+    "0276": "failed support consistency and cell boundary",
+    "3013": "failed head/feet support consistency",
+    "0809": "failed front-foot/ceiling-anchor consistency",
+    "0805": "orientation corrected, anchor/feet consistency still failed after refinement"
+  },
+  "generation_pending": [],
+  "generation_error": "",
+  "generated_images_used_in_app": 1,
+  "source_cell_edge_repair": [
+    "0426"
+  ],
+  "generated_and_approved": [
+    "1685"
+  ],
+  "generation_error_resolved": true
+}

@@ -1,0 +1,8 @@
+[
+  {
+    "id": "0276",
+    "name": "死虫式",
+    "prompt": "Use case: scientific-educational. Edit target: attached flawed dead-bug exercise sheet. Redraw a corrected 2x2 four-panel square sprite sheet, 1024x1024, four equal 512x512 cells with NO borders, text, arrows or labels. Preserve the white-background grayscale anatomical adult male in black shorts, coral abdominal muscles style. Fixed camera, fixed scale, same person and same torso in ALL cells. Critical: head, shoulder blades, lower back and pelvis remain on the exact same ground contact coordinates in every cell; never shift, lift, rotate or resize the torso. Three-quarter side view, head left, feet right, enough white margin for the full extended arm and leg. The dead bug moves OPPOSITE arm and leg only. Top left: both arms vertical, both hips and knees 90 degrees (tabletop). Top right: far-side arm begins extending overhead toward the left, NEAR-side leg partly extends toward the right; near arm stays vertical and far leg stays bent at 90. Bottom left: far arm extended overhead hovering above ground, near leg long and low hovering above ground; near arm vertical and far leg tabletop. Bottom right: EXACT repeat of top-right pose. Torso, head and pelvis must be identical in position/shape across the 4 frames. Four limbs only, separate visible limbs, no duplicates or motion trails. Correct the source's head/pelvis drift and inconsistent opposite-limb sequence. This is a pose sheet to be cropped into existing four-frame playback, not a montage with moving camera.",
+    "cycle": false
+  }
+]

@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "wave": 112,
+  "mode": "built-in-imagegen",
+  "batches": [
+    {
+      "id": "auto_upper_legs_0760_1434_0768",
+      "category": "upper legs",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_upper_legs_0760_1434_0768.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_legs_1.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_legs_back_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_1.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: smith leg press (史密斯腿推).\nPrimary target metadata: glutes; supporting muscle group: quadriceps; equipment: smith machine.\nSource movement instructions: 将史密斯机的座椅和脚踏板调整到舒适的位置。 坐在机器上，背部靠在靠背上，双脚与肩同宽放在踏板上。 抓住机器的手柄或侧面以保持稳定性。 伸展双腿，使背部紧靠靠背，将脚踏板推离您。 在完全伸展的位置暂停片刻。 慢慢弯曲膝盖，将脚踏板向您的方向放低，回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: smith low bar squat (史密斯高杠深蹲).\nPrimary target metadata: glutes; supporting muscle group: quadriceps; equipment: smith machine.\nSource movement instructions: 将史密斯机与杠铃设置在一个高度，以便您可以将其舒适地放在上背部。 站立，双脚分开与肩同宽，脚趾稍微向外转动。 走到杠铃下方，将其放在上背部上方，将其放在斜方肌上。 双手握住杠铃，距离略大于肩宽。 伸直双腿并从架子上退后，将杠铃松开。 深呼吸并支撑你的核心。 通过向后推臀部并弯曲膝盖来开始深蹲。 降低身体，直到大腿与地面平行或稍低于地面。 在整个动作过程中保持挺胸、背部挺直。 通过脚后跟站起来，伸展臀部和膝盖。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: smith single leg split squat (史密斯单腿分腿蹲).\nPrimary target metadata: quads; supporting muscle group: glutes; equipment: smith machine.\nSource movement instructions: 站在史密斯机前，双脚分开与肩同宽。 将一只脚放在身后的长凳或台阶上，脚趾向前。 握住史密斯机杆以保持稳定性。 弯曲前膝盖，将身体降低到弓步位置，保持背部挺直。 在底部停顿片刻，然后推动前脚跟回到起始位置。 重复所需的重复次数，然后换腿。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "962ac630453f6f2ef4dca8639ba5833296f980ea8606ad2bc0a5b3c7a49a9ee9",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "0760",
+          "name": "smith leg press",
+          "name_zh": "史密斯腿推"
+        },
+        {
+          "row": 1,
+          "id": "1434",
+          "name": "smith low bar squat",
+          "name_zh": "史密斯高杠深蹲"
+        },
+        {
+          "row": 2,
+          "id": "0768",
+          "name": "smith single leg split squat",
+          "name_zh": "史密斯单腿分腿蹲"
+        }
+      ]
+    },
+    {
+      "id": "auto_upper_legs_0769_0770_3142",
+      "category": "upper legs",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_upper_legs_0769_0770_3142.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_legs_1.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_legs_back_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_1.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: smith sprint lunge (史密斯冲刺弓步).\nPrimary target metadata: glutes; supporting muscle group: quadriceps; equipment: smith machine.\nSource movement instructions: 将杠铃置于臀部高度的史密斯机上。 背对机器站立，双脚与肩同宽。 右脚向后退一步，将其放在杠铃上，将脚尖放在杠上。 弯曲左膝，将身体降低到弓步位置，保持背部挺直。 推动左脚跟返回到起始位置。 在另一侧重复，左脚向后退一步。 继续交替进行所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: smith squat (史密斯深蹲).\nPrimary target metadata: glutes; supporting muscle group: quadriceps; equipment: smith machine.\nSource movement instructions: 将史密斯机和杠铃设置在适合深蹲的高度。 站立，双脚分开与肩同宽，脚趾稍微向外。 将自己置于杠铃下方，将其放在斜方肌上部和肩膀上。 宽握距握住杠铃，握距略宽于肩宽。 启动你的核心并打开杠铃，后退以清理架子。 保持胸部挺直，背部挺直，通过弯曲臀部和膝盖开始深蹲。 降低身体，直到大腿与地面平行或稍低于地面。 在底部停顿片刻，然后用脚后跟恢复到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: smith sumo squat (史密斯宽距深蹲).\nPrimary target metadata: glutes; supporting muscle group: quadriceps; equipment: smith machine.\nSource movement instructions: 将杠铃置于臀部高度的史密斯机上。 站立，双脚分开比肩宽，脚趾朝外。 将自己置于杠铃下方，将其放在上背部和肩膀上。 当你将身体降低到蹲姿时，收紧核心并保持挺胸，将臀部向后推并弯曲膝盖。 放低身体，直到大腿与地面平行，或者尽可能低到您能舒服的高度。 在底部停顿片刻，然后推动脚后跟回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "0df154555870a3fe6ff7ec59e2684673add71e8747abb08582695bb09f5b5170",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "0769",
+          "name": "smith sprint lunge",
+          "name_zh": "史密斯冲刺弓步"
+        },
+        {
+          "row": 1,
+          "id": "0770",
+          "name": "smith squat",
+          "name_zh": "史密斯深蹲"
+        },
+        {
+          "row": 2,
+          "id": "3142",
+          "name": "smith sumo squat",
+          "name_zh": "史密斯宽距深蹲"
+        }
+      ]
+    },
+    {
+      "id": "auto_upper_legs_0778_1705_1685",
+      "category": "upper legs",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_upper_legs_0778_1705_1685.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_legs_1.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_legs_back_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_1.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: spider crawl push up (蜘蛛爬俯卧撑).\nPrimary target metadata: glutes; supporting muscle group: core; equipment: body weight.\nSource movement instructions: 从俯卧撑位置开始，双手分开略宽于肩宽，双脚并拢。 将右膝靠近右肘，使其离开地面。 当您将右膝向后拉时，同时弯曲肘部将身体降低到地面。 推回起始位置，然后将左膝朝向左肘重复此动作。 继续交替进行所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: squat on bosu ball (博苏球深蹲).\nPrimary target metadata: quads; supporting muscle group: glutes; equipment: bosu ball.\nSource movement instructions: 将博苏球平放在地上。 双脚分开与肩同宽站立，将自己放在博苏球的顶部。 弯曲膝盖和臀部，降低身体，就像坐回椅子上一样。 保持挺胸，将体重放在脚后跟上。 降低身体直到大腿与地面平行。 暂停片刻，然后用力推动脚后跟，回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: squat to overhead reach (深蹲至头顶伸展).\nPrimary target metadata: quads; supporting muscle group: glutes; equipment: body weight.\nSource movement instructions: 站立，双脚分开与肩同宽，脚趾稍微外翻。 弯曲膝盖并将臀部向后推，将身体降低至蹲姿。 当你从深蹲中站起来时，将手臂伸过头顶，伸向天花板。 放下手臂并弯曲膝盖再次蹲下，回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "4b01caed8454263bd587940a9175f91a069408f7857cbe1cabffb54e8f8ef8aa",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "0778",
+          "name": "spider crawl push up",
+          "name_zh": "蜘蛛爬俯卧撑"
+        },
+        {
+          "row": 1,
+          "id": "1705",
+          "name": "squat on bosu ball",
+          "name_zh": "博苏球深蹲"
+        },
+        {
+          "row": 2,
+          "id": "1685",
+          "name": "squat to overhead reach",
+          "name_zh": "深蹲至头顶伸展"
+        }
+      ]
+    }
+  ]
+}

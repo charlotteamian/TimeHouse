@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "wave": 24,
+  "mode": "built-in-imagegen",
+  "batches": [
+    {
+      "id": "auto_chest_0185_0188_1262",
+      "category": "chest",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_chest_0185_0188_1262.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_push_1.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_push_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_arms_2.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: cable lying fly (绳索仰卧飞鸟).\nPrimary target metadata: pectorals; supporting muscle group: deltoids; equipment: cable.\nSource movement instructions: 将手柄连接到电缆上，平放在长凳上，双脚平放在地面上。 手掌相对，握住手柄，双臂伸直至胸部上方。 保持肘部轻微弯曲，将手臂以宽弧线向两侧放低，直到感觉到胸部有拉伸感。 暂停片刻，然后挤压胸部肌肉，使手臂回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: cable middle fly (绳索中飞鸟).\nPrimary target metadata: pectorals; supporting muscle group: deltoids; equipment: cable.\nSource movement instructions: 将电缆连接到电缆机两侧胸部高度处。 站在机器的中央，一只脚稍微在另一只脚前面。 正手握住手柄，并将手臂向两侧伸展。 保持肘部轻微弯曲并保持轻微前倾。 收紧胸部肌肉，并以扫过的动作将手臂向前伸。 在中心停顿片刻，然后慢慢将手臂放回起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: cable one arm decline chest fly (绳索单臂下斜胸飞鸟).\nPrimary target metadata: pectorals; supporting muscle group: shoulders; equipment: cable.\nSource movement instructions: 将 D 形手柄连接到低滑轮绳索机器上，并将长凳设置为下降角度。 躺在长凳上，头朝向机器，用右手抓住手柄。 将手臂伸直至胸部上方，保持肘部轻微弯曲。 控制动作，将手臂向一侧放低，直到手与肩膀在一条直线上。 暂停片刻，然后反转动作并将手臂恢复到起始位置。 重复所需的重复次数，然后切换到左臂并重复练习。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "0ff80dc86e91f7834bd204df6cd008b739b4d811e49c024f707436dda1383264",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "0185",
+          "name": "cable lying fly",
+          "name_zh": "绳索仰卧飞鸟"
+        },
+        {
+          "row": 1,
+          "id": "0188",
+          "name": "cable middle fly",
+          "name_zh": "绳索中飞鸟"
+        },
+        {
+          "row": 2,
+          "id": "1262",
+          "name": "cable one arm decline chest fly",
+          "name_zh": "绳索单臂下斜胸飞鸟"
+        }
+      ]
+    },
+    {
+      "id": "auto_chest_1263_1264_1265",
+      "category": "chest",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_chest_1263_1264_1265.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_push_1.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_push_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_arms_2.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: cable one arm fly on exercise ball (绳索单臂飞鸟（健身球）).\nPrimary target metadata: pectorals; supporting muscle group: deltoids; equipment: cable.\nSource movement instructions: 坐在健身球上，双脚平放在地上，背部挺直。 一只手握住电缆手柄，并将手臂向一侧伸出，与地面平行。 保持肘部稍微弯曲，手掌朝前。 慢慢地将手臂放在身体上，挤压胸部肌肉。 动作结束时暂停片刻，然后慢慢回到起始位置。 重复所需的重复次数，然后换边。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: cable one arm incline fly on exercise ball (绳索单臂上斜飞鸟（健身球）).\nPrimary target metadata: pectorals; supporting muscle group: deltoids; equipment: cable.\nSource movement instructions: 坐在健身球上，双脚平放在地面上，背部靠在倾斜的长凳上。 一只手握住电缆手柄，手臂伸展，手掌朝内。 保持肘部轻微弯曲，慢慢地将手臂向一侧放低，直到手与肩膀在一条直线上。 暂停片刻，然后挤压胸部肌肉，使手臂回到起始位置。 重复所需的重复次数，然后换臂。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: cable one arm incline press (绳索单臂上斜推举).\nPrimary target metadata: pectorals; supporting muscle group: deltoids; equipment: cable.\nSource movement instructions: 将拉索机调整至低滑轮位置。 坐在倾斜的长凳上，背对缆绳机。 用一只手抓住手柄并将其举至肩膀高度。 将双脚牢牢放在地面上并保持稳定的位置。 向前和向上按下手柄，充分伸展手臂。 在最高点暂停片刻，然后慢慢将手柄放回起始位置。 重复所需的重复次数，然后换边。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "19e734345ae8283232b3fcc5393ec2f62c66e5fe102c0907df29b443dc11b5ab",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "1263",
+          "name": "cable one arm fly on exercise ball",
+          "name_zh": "绳索单臂飞鸟（健身球）"
+        },
+        {
+          "row": 1,
+          "id": "1264",
+          "name": "cable one arm incline fly on exercise ball",
+          "name_zh": "绳索单臂上斜飞鸟（健身球）"
+        },
+        {
+          "row": 2,
+          "id": "1265",
+          "name": "cable one arm incline press",
+          "name_zh": "绳索单臂上斜推举"
+        }
+      ]
+    },
+    {
+      "id": "auto_chest_1266_0191_1267",
+      "category": "chest",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_chest_1266_0191_1267.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_push_1.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_push_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_arms_2.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: cable one arm incline press on exercise ball (绳索单臂上斜推举（健身球）).\nPrimary target metadata: pectorals; supporting muscle group: shoulders; equipment: cable.\nSource movement instructions: 坐在健身球上，双脚平放在地上，背部靠在倾斜的长凳上。 一只手握住电缆手柄，将手臂呈 90 度角，肘部弯曲。 向前和向上按下电缆手柄，完全伸展手臂。 在顶部暂停片刻，然后慢慢将拉索手柄放回起始位置。 重复所需的重复次数，然后换到另一只手臂。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: cable one arm lateral bent-over (绳索单臂侧平举（俯身）).\nPrimary target metadata: pectorals; supporting muscle group: deltoids; equipment: cable.\nSource movement instructions: 双脚分开与肩同宽站立，面向缆绳机。 用一只手抓住手柄并向后退一步以在电缆上产生张力。 腰部向前弯曲，保持背部挺直，核心肌群参与。 将手臂向侧面伸展，与地面平行，肘部稍微弯曲。 慢慢地将手臂放回起始位置，在整个运动过程中保持控制。 重复所需的重复次数，然后换边。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: cable one arm press on exercise ball (绳索单臂推举（健身球）).\nPrimary target metadata: pectorals; supporting muscle group: shoulders; equipment: cable.\nSource movement instructions: 坐在健身球上，双脚平放在地上，背部挺直。 一只手握住电缆手柄，将手臂置于胸部高度，肘部弯曲。 将另一只手放在臀部上以保持稳定。 向前按电缆手柄，完全伸展手臂。 暂停片刻，然后慢慢回到起始位置。 重复所需的重复次数，然后换臂。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "9ef871426dbb2b540e5cf8f9d943ff7341680ed0b91bdcfca2ca6e9feaed537a",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "1266",
+          "name": "cable one arm incline press on exercise ball",
+          "name_zh": "绳索单臂上斜推举（健身球）"
+        },
+        {
+          "row": 1,
+          "id": "0191",
+          "name": "cable one arm lateral bent-over",
+          "name_zh": "绳索单臂侧平举（俯身）"
+        },
+        {
+          "row": 2,
+          "id": "1267",
+          "name": "cable one arm press on exercise ball",
+          "name_zh": "绳索单臂推举（健身球）"
+        }
+      ]
+    }
+  ]
+}

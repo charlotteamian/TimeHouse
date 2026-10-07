@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "wave": 90,
+  "mode": "built-in-imagegen",
+  "batches": [
+    {
+      "id": "auto_upper_arms_0636_0637_0639",
+      "category": "upper arms",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_upper_arms_0636_0637_0639.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_arms_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_push_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_back_2.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: olympic barbell hammer curl (奥运杠铃锤式弯举).\nPrimary target metadata: biceps; supporting muscle group: forearms; equipment: olympic barbell.\nSource movement instructions: 站直，双脚分开与肩同宽，正手握住奥林匹克杠铃。 让杠铃悬挂在大腿前面，手掌与身体保持一臂距离。 保持上臂静止，呼气并弯举哑铃，同时收缩二头肌。 继续举起杠铃，直到二头肌完全收缩并且杠铃与肩部齐平。 挤压二头肌时，保持收缩位置短暂停顿。 吸气并慢慢开始将杠铃放回起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: olympic barbell triceps extension (奥运杠铃三头肌伸展).\nPrimary target metadata: triceps; supporting muscle group: shoulders; equipment: olympic barbell.\nSource movement instructions: 首先，双脚分开与肩同宽站立，并用正手握住杠铃。 将杠铃举过头顶，充分伸展双臂。 保持上臂靠近头部，弯曲肘部，慢慢将杠铃降低到脑后。 暂停片刻，然后将手臂伸回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: one arm dip (单臂凳上臂屈伸).\nPrimary target metadata: triceps; supporting muscle group: chest; equipment: body weight.\nSource movement instructions: 背对长凳或椅子站立，双脚分开与肩同宽。 将一只手放在身后的长凳或椅子上，手指指向您的身体。 将双腿向前方伸展，脚跟保持在地面上。 弯曲肘部，将身体放低至地面，使背部靠近长凳或椅子。 在底部停顿片刻，然后用手掌推直手臂，回到起始位置。 重复所需的重复次数，然后换边并用另一只手臂重复。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "2c8933f9e9ee5061d1e233d8336228c508ef55130442c1c262ecfeaa4604b352",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "0636",
+          "name": "olympic barbell hammer curl",
+          "name_zh": "奥运杠铃锤式弯举"
+        },
+        {
+          "row": 1,
+          "id": "0637",
+          "name": "olympic barbell triceps extension",
+          "name_zh": "奥运杠铃三头肌伸展"
+        },
+        {
+          "row": 2,
+          "id": "0639",
+          "name": "one arm dip",
+          "name_zh": "单臂凳上臂屈伸"
+        }
+      ]
+    },
+    {
+      "id": "auto_upper_arms_0643_0660_1467",
+      "category": "upper arms",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_upper_arms_0643_0660_1467.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_arms_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_push_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_back_2.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: overhead triceps stretch (过头三头肌拉伸).\nPrimary target metadata: triceps; supporting muscle group: shoulders; equipment: body weight.\nSource movement instructions: 站立或坐直，双脚分开与肩同宽。 将一只手臂伸过头顶，弯曲肘部，使手伸向对面的肩胛骨。 用另一只手轻轻地将伸出的手臂的肘部拉向头部的另一侧，感受三头肌的拉伸。 保持拉伸 15-30 秒，然后放松。 在另一侧重复。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: push-up close-grip off dumbbell (哑铃窄握俯卧撑).\nPrimary target metadata: triceps; supporting muscle group: chest; equipment: dumbbell.\nSource movement instructions: 从俯卧撑位置开始，双手并拢，直接放在肩膀下方。 每只手握住一个哑铃，将其放在地上。 弯曲肘部，使肘部靠近身体两侧，将身体降低到地面。 推动手掌以伸展手臂并返回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: push-up on lower arms (手肘下压俯卧撑).\nPrimary target metadata: triceps; supporting muscle group: chest; equipment: body weight.\nSource movement instructions: 从平板支撑位置开始，前臂放在地面上，肘部位于肩膀正下方。 调动你的核心力量，让你的身体从头到脚保持在一条直线上。 弯曲肘部，使胸部靠近地面，使胸部靠近地面。 在底部暂停片刻，然后将自己推回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "a0167b56557882be3e5b039ad2eb8294d195402cf5a598956369e7d622771f8e",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "0643",
+          "name": "overhead triceps stretch",
+          "name_zh": "过头三头肌拉伸"
+        },
+        {
+          "row": 1,
+          "id": "0660",
+          "name": "push-up close-grip off dumbbell",
+          "name_zh": "哑铃窄握俯卧撑"
+        },
+        {
+          "row": 2,
+          "id": "1467",
+          "name": "push-up on lower arms",
+          "name_zh": "手肘下压俯卧撑"
+        }
+      ]
+    },
+    {
+      "id": "auto_upper_arms_3123_0672_0717",
+      "category": "upper arms",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_upper_arms_3123_0672_0717.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_arms_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_push_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_back_2.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: resistance band seated biceps curl (阻力带坐姿弯举).\nPrimary target metadata: biceps; supporting muscle group: forearms; equipment: resistance band.\nSource movement instructions: 坐在椅子或长凳上，背部挺直，双脚平放在地面上。 反手握住阻力带，手掌朝上，手臂向下伸展到身体两侧。 保持上臂静止，呼气并将阻力带向上卷向肩膀。 在顶部暂停片刻，挤压你的二头肌。 吸气并慢慢降低阻力带回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: reverse dip (反向俯卧撑).\nPrimary target metadata: triceps; supporting muscle group: chest; equipment: body weight.\nSource movement instructions: 将自己定位在两个双杠之间，双臂完全伸展，身体伸直。 弯曲肘部降低身体，直到上臂与地面平行。 暂停片刻，然后伸直手臂，将自己推回起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: side push-up (侧推俯卧撑).\nPrimary target metadata: triceps; supporting muscle group: shoulders; equipment: body weight.\nSource movement instructions: 首先侧躺，双腿伸展并叠放在一起。 将下面的手放在肩膀正下方的地面上，手指指向前方。 用下面的手将身体抬离地面，保持双腿伸直，核心肌群参与。 将上臂伸向天花板，形成从头部到脚后跟的直线。 有控制地降低身体回到起始位置。 重复所需的重复次数，然后换边。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "035f7c57674f8fed4ae029275c6774f0917df0587c7d1bda2d06b9b51703ffc8",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "3123",
+          "name": "resistance band seated biceps curl",
+          "name_zh": "阻力带坐姿弯举"
+        },
+        {
+          "row": 1,
+          "id": "0672",
+          "name": "reverse dip",
+          "name_zh": "反向俯卧撑"
+        },
+        {
+          "row": 2,
+          "id": "0717",
+          "name": "side push-up",
+          "name_zh": "侧推俯卧撑"
+        }
+      ]
+    }
+  ]
+}

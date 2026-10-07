@@ -1,0 +1,62 @@
+{
+  "source_sha256": "515cf646d5356f08421624bd5445f59997db2f32db2dc41c861657f241c0344a",
+  "output_sha256": "deee798a6b97e7dd319aa34ef0e65d89cd1f289705ef07aba42ee627a4bb535b",
+  "translations": [
+    [
+      0,
+      0
+    ],
+    [
+      18,
+      0
+    ],
+    [
+      -6,
+      42
+    ]
+  ],
+  "uniform_padding": 24,
+  "feet_residual_before_uniform_resize": [
+    [
+      [
+        0,
+        0,
+        1.0
+      ],
+      [
+        0,
+        0,
+        0.933
+      ],
+      [
+        -2,
+        1,
+        0.881
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        1.0
+      ],
+      [
+        1,
+        0,
+        0.973
+      ],
+      [
+        2,
+        0,
+        0.894
+      ]
+    ]
+  ],
+  "frames": 4,
+  "durations": [
+    800,
+    380,
+    800,
+    380
+  ]
+}

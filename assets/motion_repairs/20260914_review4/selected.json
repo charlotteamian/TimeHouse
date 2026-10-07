@@ -1,0 +1,210 @@
+[
+  {
+    "id": "0259",
+    "name": "close-grip push-up",
+    "name_zh": "窄握俯卧撑",
+    "media": "raw:dataset_motion_0259",
+    "category": "upper arms",
+    "equipment": "body weight",
+    "target": "triceps",
+    "muscle_group": "chest",
+    "secondary_muscles": [
+      "chest",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "从高位平板支撑开始，双手并拢，位于肩膀正下方。",
+      "收紧核心，将身体降低到地面，保持肘部靠近身体两侧。",
+      "推动手掌以伸展手臂并返回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0286",
+    "name": "dumbbell alternate side press",
+    "name_zh": "哑铃交替侧平举",
+    "media": "raw:dataset_motion_0286",
+    "category": "shoulders",
+    "equipment": "dumbbell",
+    "target": "delts",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "core"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，双手各握一个哑铃，与肩同高。",
+      "将一个哑铃推过头顶，同时将另一个哑铃保持在与肩同高的位置。",
+      "将按下的哑铃放回肩部高度，同时将另一个哑铃压过头顶。",
+      "继续交替进行所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0283",
+    "name": "diamond push-up",
+    "name_zh": "钻石俯卧撑",
+    "media": "raw:dataset_motion_0283",
+    "category": "upper arms",
+    "equipment": "body weight",
+    "target": "triceps",
+    "muscle_group": "chest",
+    "secondary_muscles": [
+      "chest",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "从高位平板支撑开始，双手并拢，拇指和食指形成菱形。",
+      "让你的身体从头到脚保持一条直线，锻炼你的核心和臀部。",
+      "将胸部降低至双手形成的菱形，保持肘部靠近身体。",
+      "在底部暂停片刻，然后将自己推回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0287",
+    "name": "dumbbell arnold press v. 2",
+    "name_zh": "哑铃阿诺德推举（第二式）",
+    "media": "raw:dataset_motion_0287",
+    "category": "shoulders",
+    "equipment": "dumbbell",
+    "target": "delts",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "upper chest"
+    ],
+    "instructions_zh": [
+      "坐在有背部支撑的长凳上，双手各握一个哑铃，与肩同高，手掌朝向身体，肘部弯曲。",
+      "向上推哑铃，直到手臂完全伸展，手掌朝前。",
+      "抬起时旋转手腕，使手掌在动作的最高点朝前。",
+      "在最高点暂停片刻，然后慢慢将哑铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0658",
+    "name": "push-up (wall) v. 2",
+    "name_zh": "墙俯卧撑（第二式）",
+    "media": "raw:dataset_motion_0658",
+    "category": "chest",
+    "equipment": "body weight",
+    "target": "pectorals",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "面向墙壁站立，距离大约一臂距离。",
+      "将双手放在墙上，与肩同高，距离略宽于肩宽。",
+      "双脚向后退一步，保持与臀部同宽。",
+      "收紧核心肌群，保持身体从头到脚跟呈一条直线。",
+      "弯曲肘部，将胸部向墙壁降低，保持身体挺直。",
+      "暂停片刻，然后将自己推回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0288",
+    "name": "dumbbell around pullover",
+    "name_zh": "哑铃绕过下压",
+    "media": "raw:dataset_motion_0288",
+    "category": "chest",
+    "equipment": "dumbbell",
+    "target": "pectorals",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "latissimus dorsi"
+    ],
+    "instructions_zh": [
+      "平躺在长凳上，头放在一端，双脚牢牢踩在地上。",
+      "双手握住哑铃，将手臂伸直至胸部上方。",
+      "保持手臂伸直，以弧线动作慢慢将哑铃降低到脑后。",
+      "在底部停顿片刻，然后将哑铃举回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0871",
+    "name": "tuck crunch",
+    "name_zh": "蜷缩卷腹",
+    "media": "raw:dataset_motion_0871",
+    "category": "waist",
+    "equipment": "body weight",
+    "target": "abs",
+    "muscle_group": "hip flexors",
+    "secondary_muscles": [
+      "hip flexors"
+    ],
+    "instructions_zh": [
+      "平躺，膝盖弯曲，双脚平放在地上。",
+      "将双手放在脑后，肘部朝外。",
+      "收紧腹肌，将肩胛骨抬离地面，将膝盖靠近胸部，同时将上半身卷向膝盖。",
+      "在顶部停顿片刻，然后慢慢降低肩胛骨并将双腿伸展回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0290",
+    "name": "dumbbell bench seated press",
+    "name_zh": "哑铃坐姿卧推",
+    "media": "raw:dataset_motion_0290",
+    "category": "shoulders",
+    "equipment": "dumbbell",
+    "target": "delts",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "chest"
+    ],
+    "instructions_zh": [
+      "坐在长凳上，每只手各拿一个哑铃，放在大腿上。",
+      "向后倾斜，将哑铃放在胸部两侧，手掌朝前。",
+      "向上推哑铃，直到手臂完全伸展。",
+      "在最高点暂停片刻，然后慢慢将哑铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1368",
+    "name": "ankle circles",
+    "name_zh": "踝关节画圈",
+    "media": "raw:dataset_motion_1368",
+    "category": "lower legs",
+    "equipment": "body weight",
+    "target": "calves",
+    "muscle_group": "ankle stabilizers",
+    "secondary_muscles": [
+      "ankle stabilizers"
+    ],
+    "instructions_zh": [
+      "坐在地上，双腿在身前伸展。",
+      "将一条腿抬离地面，并以圆周运动旋转脚踝。",
+      "在一个方向上转所需的圈数，然后切换到另一个方向。",
+      "换另一条腿重复上述步骤。"
+    ]
+  },
+  {
+    "id": "0291",
+    "name": "dumbbell bench squat",
+    "name_zh": "哑铃卧姿深蹲",
+    "media": "raw:dataset_motion_0291",
+    "category": "upper legs",
+    "equipment": "dumbbell",
+    "target": "glutes",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "将哑铃放在长凳前的地面上。",
+      "背对长凳站立，双脚与肩同宽。",
+      "弯曲膝盖和臀部，将自己降低到长凳上，保持胸部挺直，背部挺直。",
+      "一旦你的臀部接触到长凳，就用脚后跟站起来，回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  }
+]

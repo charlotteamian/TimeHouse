@@ -1,0 +1,19 @@
+{
+  "status": "generated_after_quota_reset",
+  "last_error": "usage_limit_reached",
+  "resets_at": 1789301632,
+  "specs": [
+    {
+      "id": "1685",
+      "prompt": "Create a new exercise anatomy sprite sheet, square 2x2 grid of four equal cells, pure white, NO panel borders or writing. Same anatomical grayscale male adult, black shorts, coral quadriceps/glutes, 3/4 front view facing a little right. Same fixed camera and scale. Exercise is BODYWEIGHT SQUAT TO OVERHEAD REACH. In every cell the left and right bare feet MUST be identical in shape, spacing, position and ground height. Feet shoulder width, toes slightly out, flat planted soles. Use consistent local coordinates: left sole centered (40%,90%), right sole centered (60%,90%). Never auto-center the body as it lowers. Top-left: tall standing with both straight arms reaching overhead, fingertips BELOW 8% from top edge, full body comfortably in frame. Top-right: halfway squat, knees bend in line with toes, hips go back, both arms coming down forward. Bottom-left: comfortable full squat with thighs near horizontal, knees track toes, heels planted, arms reach forward for balance. Bottom-right: EXACT repeat of top-right halfway pose. Full straight spine, no rounded back, no knee collapse, no tiptoe rise, no jumping. This is one squat and rise with arms reaching overhead at standing. Ground contact never moves; ONLY joints articulate. Identical person, limbs and scale throughout, no gym equipment, no arrows, no motion trails, no objects leaking between cells."
+    },
+    {
+      "id": "0805",
+      "prompt": "Create a NEW scientific exercise anatomy sprite sheet, 2x2 four equal square cells on pure white, no borders, words or arrows. Grayscale anatomical adult male in black shorts, coral abs, black shoes, yellow/black nonelastic TRX suspension straps. Exercise: TRX STANDING ROLLOUT. True side view: man faces RIGHT; ceiling anchor is BEHIND him on the LEFT. Fixed ceiling wall bracket at local (15%,8%) in EVERY panel; both straps run from this same bracket to his hands. His feet are fixed together near local (42%,90%) in every cell. Same fixed camera and scale, full human and whole straps in view with margins. Top-left: near-upright standing plank, arms straight forward at shoulder height gripping handles, straps taut behind arms from upper left. Top-right: rigid body leans forward slightly around feet, straight arms raise toward overhead. Bottom-left: controlled further forward lean, arms nearly overhead aligned with torso, abs braced, spine neutral, hips do not sag; do not lean nearly horizontal. Bottom-right: EXACT repeat of top-right pose. Hands travel on an arc about fixed upper-left anchor; straps stay SAME LENGTH throughout, never slack, stretched or passed through his head. Toes planted at the same coordinates; heels may lift slightly as the body inclines. No walking or sliding feet. Show only a small wall/ceiling mounting bracket, NO big gym rack or moving wall. Anatomically correct shoulders, hands, hips, knees, four limbs, no doubled outlines or ghosts. Prioritize mechanically correct fixed anchor and foot contact over dramatic range."
+    }
+  ],
+  "final_outcomes": {
+    "1685": "approved after refinement and support registration",
+    "0805": "draft not approved"
+  }
+}

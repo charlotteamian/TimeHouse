@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "wave": 106,
+  "mode": "built-in-imagegen",
+  "batches": [
+    {
+      "id": "auto_upper_legs_3759_0597_0598",
+      "category": "upper legs",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_upper_legs_3759_0597_0598.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_legs_1.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_legs_back_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_1.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: lever seated good morning (坐姿挺身（杠杆）).\nPrimary target metadata: glutes; supporting muscle group: hamstrings; equipment: leverage machine.\nSource movement instructions: 调整座椅高度，使臀部略高于膝盖。 坐在机器上，背部靠在垫子上，双脚平放在脚踏板上。 抓住把手或座椅侧面以保持稳定性。 保持背部挺直，从臀部开始慢慢向前倾斜，直到上半身与地面平行。 暂停片刻，然后通过推动臀肌和腿筋慢慢回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: lever seated hip abduction (坐姿髋外展（杠杆）).\nPrimary target metadata: abductors; supporting muscle group: glutes; equipment: leverage machine.\nSource movement instructions: 调整座椅高度，使膝盖成 90 度角。 坐在机器上，背部靠在靠背上，双脚放在脚踏板上。 将手放在侧手柄上以保持稳定性。 启动外展肌并慢慢将双腿分开，远离身体中线。 动作结束时暂停片刻，然后慢慢将双腿放回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: lever seated hip adduction (坐姿髋内收（杠杆）).\nPrimary target metadata: adductors; supporting muscle group: hamstrings; equipment: leverage machine.\nSource movement instructions: 调整座椅高度并将自己放在机器上，背部靠在靠背上。 将脚放在脚踏板上并抓住手柄以保持稳定。 收紧内收肌，慢慢将双腿并拢，挤压大腿内侧。 在收缩高峰时暂停片刻，然后慢慢回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "b8d51b8de404bcd38282d29e3737001183bb4d0c668ab914f7a860d839c2a359",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "3759",
+          "name": "lever seated good morning",
+          "name_zh": "坐姿挺身（杠杆）"
+        },
+        {
+          "row": 1,
+          "id": "0597",
+          "name": "lever seated hip abduction",
+          "name_zh": "坐姿髋外展（杠杆）"
+        },
+        {
+          "row": 2,
+          "id": "0598",
+          "name": "lever seated hip adduction",
+          "name_zh": "坐姿髋内收（杠杆）"
+        }
+      ]
+    },
+    {
+      "id": "auto_upper_legs_0599_3013_3582",
+      "category": "upper legs",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_upper_legs_0599_3013_3582.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_legs_1.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_legs_back_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_1.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: lever seated leg curl (坐姿腿弯举（杠杆）).\nPrimary target metadata: hamstrings; supporting muscle group: calves; equipment: leverage machine.\nSource movement instructions: 调整机器以适合您的身体，然后坐在机器上，背部靠在靠背上。 将小腿放在带衬垫的杠杆下方，就在脚踝上方。 抓住机器两侧的手柄以提供支撑。 保持大腿不动，呼气并尽可能向上弯曲双腿。 挤压腿筋时，保持收缩位置短暂停顿。 吸气并缓慢地将控制杆降低回起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: low glute bridge on floor (地板臀桥（低臀）).\nPrimary target metadata: glutes; supporting muscle group: hamstrings; equipment: body weight.\nSource movement instructions: 平躺，膝盖弯曲，双脚平放在地上。 将手臂放在身体两侧，手掌朝下。 启动臀肌和核心肌群，然后将臀部抬离地面，直到身体从膝盖到肩膀形成一条直线。 在顶部暂停片刻，挤压臀部。 慢慢地将臀部放回起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: lunge with jump (弓步跳).\nPrimary target metadata: glutes; supporting muscle group: quadriceps; equipment: body weight.\nSource movement instructions: 首先站立，双脚分开与肩同宽。 右脚向前迈出一步，将身体降低至弓步位置。 右脚蹬地，跳到空中，在空中改变脚的位置。 左脚向前轻柔落地，并立即将身体降低至弓步位置。 继续在弓步和跳跃之间交替进行所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "36bee0ec936193f1efcfa10f31ff15ab4aaf637e82dd13d085c15cc179f29053",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "0599",
+          "name": "lever seated leg curl",
+          "name_zh": "坐姿腿弯举（杠杆）"
+        },
+        {
+          "row": 1,
+          "id": "3013",
+          "name": "low glute bridge on floor",
+          "name_zh": "地板臀桥（低臀）"
+        },
+        {
+          "row": 2,
+          "id": "3582",
+          "name": "lunge with jump",
+          "name_zh": "弓步跳"
+        }
+      ]
+    },
+    {
+      "id": "auto_upper_legs_0613_0624_1476",
+      "category": "upper legs",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_upper_legs_0613_0624_1476.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_legs_1.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_legs_back_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_1.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: lying (side) quads stretch (侧卧股四头肌拉伸).\nPrimary target metadata: quads; supporting muscle group: hamstrings; equipment: body weight.\nSource movement instructions: 侧躺，双腿伸直。 弯曲上面的那条腿，用手抓住脚踝或脚。 轻轻地将脚踝或脚拉向臀部，直到感觉到股四头肌有拉伸感。 保持拉伸 20-30 秒。 松开拉伸并在另一侧重复。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: march sit (wall) (靠墙静蹲交替抬腿).\nPrimary target metadata: glutes; supporting muscle group: quadriceps; equipment: body weight.\nSource movement instructions: 背靠墙站立，双脚分开与臀部同宽。 慢慢地将背部滑下墙壁，直到膝盖弯曲成 90 度角。 将右脚抬离地面，并将膝盖靠近胸部。 将右脚放低，将左脚抬离地面，将膝盖靠近胸部。 继续交替抬起右脚和左脚，达到所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: one leg squat (单腿深蹲).\nPrimary target metadata: glutes; supporting muscle group: quadriceps; equipment: body weight.\nSource movement instructions: 双脚分开与肩同宽站立。 向前伸出一条腿，使其离开地面。 弯曲站立的腿并降低身体，就像坐回椅子上一样。 保持挺胸、背部挺直。 推动脚后跟返回到起始位置。 换另一条腿重复上述步骤。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "6c8ccc68531238967bd7f504a9b30d4e03451e532f034f008ca014feffa012eb",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "0613",
+          "name": "lying (side) quads stretch",
+          "name_zh": "侧卧股四头肌拉伸"
+        },
+        {
+          "row": 1,
+          "id": "0624",
+          "name": "march sit (wall)",
+          "name_zh": "靠墙静蹲交替抬腿"
+        },
+        {
+          "row": 2,
+          "id": "1476",
+          "name": "one leg squat",
+          "name_zh": "单腿深蹲"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "batch": "20260914_review4",
+  "inspected": [
+    "0259",
+    "0286",
+    "0283",
+    "0287",
+    "0658",
+    "0288",
+    "0871",
+    "0290",
+    "1368",
+    "0291"
+  ],
+  "definition_updates": {
+    "0286": {
+      "name_zh": "哑铃交替肩上推举",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "triceps",
+        "core"
+      ],
+      "movement_patterns_zh": [
+        "推",
+        "垂直推",
+        "过顶伸展"
+      ],
+      "instructions_zh": [
+        "双脚站稳，双手各持一只哑铃在肩部两侧，掌心朝前，肘部位于手腕下方。",
+        "收紧腹部，一侧向头顶推起哑铃，另一侧保持在肩部；不后仰或耸肩借力。",
+        "控制回落到肩部，再换另一侧推起，左右交替，双脚全程不挪动。",
+        "肘部伸直但不猛烈锁死；每完成一侧推举计一次，左右次数保持均衡。"
+      ]
+    },
+    "0287": {
+      "name_zh": "哑铃坐姿阿诺德推举"
+    },
+    "0288": {
+      "name_zh": "哑铃仰卧上拉"
+    },
+    "0290": {
+      "name_zh": "哑铃坐姿肩上推举",
+      "instructions_zh": [
+        "坐在有稳定靠背的训练凳上，双脚踩实地面。",
+        "双手各持哑铃在肩部两侧，掌心朝前，肘部弯曲。",
+        "腹部收紧，背部保持自然贴近靠背，将哑铃向头顶推起。",
+        "控制降回肩部，不用后仰或弹起借力。"
+      ]
+    },
+    "0291": {
+      "name_zh": "哑铃触凳深蹲",
+      "instructions_zh": [
+        "双手各握一只哑铃垂在身体两侧，背对稳定长凳站立，双脚约与肩同宽。",
+        "髋膝同时屈曲，臀部向后下方移动，保持背部自然平直。",
+        "臀部轻触凳面后，用双脚稳定发力站起，不向后坐倒或松懈借力。",
+        "膝盖朝脚尖方向，哑铃始终握在手中，控制每次下降。"
+      ]
+    }
+  },
+  "sources": {
+    "0286": "https://www.muscleandfitness.com/exercise/workouts/shoulder-exercises/alternating-dumbbell-shoulder-press/",
+    "squat": "https://www.nasm.org/resource-center/blog/training/biomechanics-of-the-squat"
+  },
+  "validation": "passed",
+  "generation": {
+    "exercise": "exercise_bodyweight_squat",
+    "calls": 2,
+    "phase": "not_approved",
+    "imported": false,
+    "reason": "Far-foot residual 13 px while near foot remains within 2 px after one refinement; no single translation fixes both."
+  },
+  "newly_reviewed": [
+    "dataset_1324_0286"
+  ],
+  "pending": {
+    "0259": "待修图 · 窄握俯卧撑双手与脚趾位移不同步，无法整体对齐。",
+    "0283": "待修图 · 钻石俯卧撑手掌与脚趾不能同时固定，最低位整帧还存在上移。",
+    "0658": "待修图 · 与 0659 使用相同图片，双脚、双手和墙面仍未同时固定。",
+    "0871": "待修图 · 蜷缩卷腹卷起帧的支撑位置与身体比例变化较大，动作及固定视角需要继续核对。",
+    "1368": "待修图 · 踝关节画圈实际只示意部分往返弧线，缺少完整画圈方向，肌群着色也需核对。",
+    "0287": "待核逻辑 · 已纠正坐姿名称；图示需有靠背的稳定训练凳，额外器械条件、凳子和双脚固定点待完整复核。",
+    "0288": "待核逻辑 · 已纠正为哑铃仰卧上拉；需稳定训练凳，凳子和头脚固定点待完整复核。",
+    "0290": "待核逻辑 · 已纠正坐姿肩上推举名称及步骤；需有靠背的稳定训练凳，器械条件与支撑点待完整复核。",
+    "0291": "待核逻辑 · 已纠正触凳深蹲名称与持铃步骤；需稳定训练凳，坐下时凳子和双脚位置仍待复核。"
+  },
+  "registered_media": [
+    "0286"
+  ],
+  "image_generation_calls": 2,
+  "verification_summary": "build/review4-20260914/verification-summary.json",
+  "android_playback_visually_reviewed": true,
+  "completed_at": "2026-09-14T13:35:02.502126+08:00"
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "0276",
+    "path": "assets/motion_repairs/20260913_review2/drafts/0276.png",
+    "sha256": "c21356ec70e15228083a507d9f8674872e37be1d767ddf0d0a7575ed71a088f1",
+    "status": "not_approved",
+    "imported": false,
+    "tool": "built-in imagegen"
+  },
+  {
+    "id": "0805",
+    "path": "assets/motion_repairs/20260913_review2/drafts/0805-refined.png",
+    "sha256": "505da6f1fdecfcf9a18e9eaa6a5c489b839f88a26315bfb92e3401adec5cfb68",
+    "status": "not_approved",
+    "imported": false,
+    "tool": "built-in imagegen"
+  },
+  {
+    "id": "0805",
+    "path": "assets/motion_repairs/20260913_review2/drafts/0805.png",
+    "sha256": "b604497afab314148ba02cc80b45fcc98b2df91e5a99a6e3de366a9e0d65e4d4",
+    "status": "not_approved",
+    "imported": false,
+    "tool": "built-in imagegen"
+  },
+  {
+    "id": "0809",
+    "path": "assets/motion_repairs/20260913_review2/drafts/0809.png",
+    "sha256": "38aeed3164d949828bc1a042e1038054895f10fbc790015990c9422f4b7ea558",
+    "status": "not_approved",
+    "imported": false,
+    "tool": "built-in imagegen"
+  },
+  {
+    "id": "1685",
+    "path": "assets/motion_repairs/20260913_review2/drafts/1685.png",
+    "sha256": "060e90040c19a5bc725cb769293eb396cc1672e2dd94f42d2fa1892ed079a5bf",
+    "status": "not_approved",
+    "imported": false,
+    "tool": "built-in imagegen"
+  },
+  {
+    "id": "3013",
+    "path": "assets/motion_repairs/20260913_review2/drafts/3013.png",
+    "sha256": "1a37c870efd5ae7f560c528b85036aeef504522770f4ea9b28d2a4200e3fb2e5",
+    "status": "not_approved",
+    "imported": false,
+    "tool": "built-in imagegen"
+  }
+]

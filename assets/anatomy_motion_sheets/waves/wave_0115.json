@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "wave": 115,
+  "mode": "built-in-imagegen",
+  "batches": [
+    {
+      "id": "auto_waist_0972_0979_0981",
+      "category": "waist",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_waist_0972_0979_0981.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_1.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_arms_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_legs_back_2.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: band bicycle crunch (弹力带自行车卷腹).\nPrimary target metadata: abs; supporting muscle group: hip flexors; equipment: band.\nSource movement instructions: 平躺，双手放在脑后，膝盖弯曲。 将脚抬离地面，将右膝盖靠近胸部，同时扭转躯干，将左肘靠近右膝盖。 伸直右腿，同时将左膝靠近胸部，并扭转躯干，使右肘靠近左膝。 继续交替扭转运动，就像踩自行车一样，同时在整个运动过程中保持核心参与。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: band horizontal pallof press (弹力带水平帕洛夫推).\nPrimary target metadata: abs; supporting muscle group: obliques; equipment: band.\nSource movement instructions: 将带子固定在腰部高度的坚固锚点上。 垂直于锚点站立，双脚分开与肩同宽。 用双手抓住带子手柄并远离锚点以在带子中产生张力。 将双手放在胸前，保持肘部弯曲并靠近身体。 调动你的核心并保持稳定的姿势。 将手臂伸直至前方，将弹力带推离身体。 保持伸展姿势几秒钟，专注于保持核心紧张。 慢慢地将双手放回胸前，抵抗弹力带的拉力。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: band jack knife sit-up (弹力带跪姿卷腹).\nPrimary target metadata: abs; supporting muscle group: hip flexors; equipment: band.\nSource movement instructions: 平躺，双腿伸直，手臂伸过头顶，握住弹力带。 收紧腹肌，同时抬起双腿和上半身，将双手移向脚部。 在顶部停顿片刻，然后慢慢放下双腿和上半身回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "d335d57dea7639669ee773277436d6b234e209b73f3d15cc57b62bf4731303a4",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "0972",
+          "name": "band bicycle crunch",
+          "name_zh": "弹力带自行车卷腹"
+        },
+        {
+          "row": 1,
+          "id": "0979",
+          "name": "band horizontal pallof press",
+          "name_zh": "弹力带水平帕洛夫推"
+        },
+        {
+          "row": 2,
+          "id": "0981",
+          "name": "band jack knife sit-up",
+          "name_zh": "弹力带跪姿卷腹"
+        }
+      ]
+    },
+    {
+      "id": "auto_waist_0985_1002_0992",
+      "category": "waist",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_waist_0985_1002_0992.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_1.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_arms_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_legs_back_2.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: band kneeling twisting crunch (弹力带跪姿扭转卷腹).\nPrimary target metadata: abs; supporting muscle group: obliques; equipment: band.\nSource movement instructions: 将带子固定在腰部高度的坚固锚点上。 面向远离锚点的方向跪下，用双手握住弹力带，保持肘部弯曲并靠近身体两侧。 收紧腹肌，慢慢地将躯干扭向一侧，将双手移向另一侧的臀部。 暂停片刻，然后慢慢回到起始位置。 在另一侧重复。 继续交替进行所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: band lying straight leg raise (弹力带仰卧直腿抬高).\nPrimary target metadata: abs; supporting muscle group: hip flexors; equipment: band.\nSource movement instructions: 平躺，双腿伸直，双脚并拢。 将带子放在脚弓周围，并用手握住带子的末端。 收紧腹肌，将双腿抬离地面，直到它们垂直于地板。 在顶部暂停片刻，然后慢慢将双腿放回起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: band push sit-up (弹力带仰卧卷腹).\nPrimary target metadata: abs; supporting muscle group: shoulders; equipment: band.\nSource movement instructions: 将带子牢固地固定在稳定的锚点上。 平躺，膝盖弯曲，双脚平放在地上。 用双手握住弹力带，并将双臂伸向天花板。 收紧腹肌，慢慢将上半身抬离地面，向前卷曲，直到躯干呈 45 度角。 在顶部停顿片刻，然后慢慢将上半身放回起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "709089ec985f5660da667e29b44521bf577827194cd851ed799debb679f25a97",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "0985",
+          "name": "band kneeling twisting crunch",
+          "name_zh": "弹力带跪姿扭转卷腹"
+        },
+        {
+          "row": 1,
+          "id": "1002",
+          "name": "band lying straight leg raise",
+          "name_zh": "弹力带仰卧直腿抬高"
+        },
+        {
+          "row": 2,
+          "id": "0992",
+          "name": "band push sit-up",
+          "name_zh": "弹力带仰卧卷腹"
+        }
+      ]
+    },
+    {
+      "id": "auto_waist_1011_1005_1007",
+      "category": "waist",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_waist_1011_1005_1007.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_1.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_arms_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_legs_back_2.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: band seated twist (弹力带坐姿扭转).\nPrimary target metadata: abs; supporting muscle group: obliques; equipment: band.\nSource movement instructions: 坐在地上，双腿向前伸展，背部挺直。 将带子绕在腰上，并用双手握住两端。 收紧腹肌，慢慢将躯干扭向一侧，保持背部挺直，双脚着地。 扭转结束时暂停片刻，然后慢慢回到起始位置。 重复扭转到另一侧。 继续交替进行所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: band standing crunch (弹力带站立卷腹).\nPrimary target metadata: abs; supporting muscle group: obliques; equipment: band.\nSource movement instructions: 将带子固定在腰部高度的坚固锚点上。 背对锚点站立，双脚与肩同宽。 用双手握住弹力带并将其举至胸前，保持肘部弯曲并靠近身体。 收紧腹肌，慢慢向前挺胸，使胸部靠近膝盖。 在卷腹的最高点暂停片刻，然后慢慢回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: band standing twisting crunch (弹力带站立扭转卷腹).\nPrimary target metadata: abs; supporting muscle group: obliques; equipment: band.\nSource movement instructions: 双脚分开与肩同宽站立，将弹力带绕在上背部，穿过胸前。 用手握住带子的末端，保持肘部弯曲并靠近身体两侧。 收紧腹肌并将躯干向一侧扭转，将肘部移向另一侧的膝盖。 暂停片刻，然后回到起始位置。 在另一侧重复。 继续交替进行所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "71f2166eac1edfd7897eccada2c63e80bc16f0a594119075bcdefe1593bb93de",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "1011",
+          "name": "band seated twist",
+          "name_zh": "弹力带坐姿扭转"
+        },
+        {
+          "row": 1,
+          "id": "1005",
+          "name": "band standing crunch",
+          "name_zh": "弹力带站立卷腹"
+        },
+        {
+          "row": 2,
+          "id": "1007",
+          "name": "band standing twisting crunch",
+          "name_zh": "弹力带站立扭转卷腹"
+        }
+      ]
+    }
+  ]
+}

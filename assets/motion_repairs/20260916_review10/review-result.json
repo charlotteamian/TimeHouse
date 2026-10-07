@@ -1,0 +1,179 @@
+{
+  "batch": "20260916_review10",
+  "version": "1.2.15",
+  "version_code": 2026091602,
+  "apk_name": "时光屋-1.2.15-第十批复核与记录保存修复.apk",
+  "output": "build/review10-20260916",
+  "report": "docs/releases/2026-09-16-review-batch10.md",
+  "inspected": [
+    "0456",
+    "0318",
+    "0457",
+    "0319",
+    "0459",
+    "0320",
+    "0464",
+    "0321",
+    "0466",
+    "0322"
+  ],
+  "definition_updates": {
+    "0318": {
+      "name_zh": "哑铃上斜弯举（双臂同步）",
+      "muscle_group": "",
+      "movement_patterns_zh": [
+        "屈肘",
+        "辅助"
+      ],
+      "required_equipment_zh": [
+        "上斜训练凳"
+      ],
+      "instructions_zh": [
+        "将上斜训练凳调到约四十五至六十度，背部贴住靠背，双脚踩稳地面。",
+        "双手各持哑铃，掌心向前，双臂在身体两侧自然下垂；上臂不用放在凳面上。",
+        "肩部和上臂尽量保持原位，双臂同步屈肘，将哑铃举向肩部，不用摆动身体借力。",
+        "控制伸肘回到起点，不猛甩或强行锁肘；一次弯举和下放计一次。"
+      ]
+    },
+    "0320": {
+      "muscle_group": "",
+      "movement_patterns_zh": [
+        "屈肘",
+        "辅助"
+      ],
+      "required_equipment_zh": [
+        "上斜训练凳"
+      ],
+      "instructions_zh": [
+        "坐稳在上斜训练凳上，背部贴住靠背，双脚踩实地面，双手各握一个哑铃。",
+        "双臂自然垂在身体两侧，全程保持掌心相对的中立握法，手腕与前臂对齐。",
+        "上臂尽量保持原位，双臂同步屈肘将哑铃举向肩部，不抬肘或摆动躯干借力。",
+        "控制将哑铃沿原路径降回起点，不强行锁肘；一次弯举和下放计一次。"
+      ]
+    },
+    "0322": {
+      "name_zh": "哑铃上斜锤式弯举（另一示范）",
+      "muscle_group": "",
+      "movement_patterns_zh": [
+        "屈肘",
+        "辅助"
+      ],
+      "required_equipment_zh": [
+        "上斜训练凳"
+      ],
+      "instructions_zh": [
+        "坐稳在上斜训练凳上，背部贴住靠背，双脚踩实地面，双手各握一个哑铃。",
+        "双臂自然垂在身体两侧，全程保持掌心相对的中立握法，手腕与前臂对齐。",
+        "上臂尽量保持原位，双臂同步屈肘将哑铃举向肩部，不抬肘或摆动躯干借力。",
+        "控制将哑铃沿原路径降回起点，不强行锁肘；一次弯举和下放计一次。"
+      ]
+    },
+    "0319": {
+      "muscle_group": "",
+      "required_equipment_zh": [
+        "上斜训练凳"
+      ]
+    },
+    "0321": {
+      "required_equipment_zh": [
+        "上斜训练凳"
+      ],
+      "muscle_group": ""
+    },
+    "0456": {
+      "name_zh": "屈膝两头起",
+      "muscle_group": ""
+    },
+    "0457": {
+      "name_zh": "直腿两头起",
+      "muscle_group": ""
+    },
+    "0459": {
+      "name_zh": "凳上俯卧交替打腿",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "hamstrings",
+        "lower back"
+      ],
+      "required_equipment_zh": [
+        "平板训练凳"
+      ],
+      "movement_patterns_zh": [
+        "髋伸展",
+        "俯身稳定",
+        "辅助"
+      ],
+      "instructions_zh": [
+        "俯卧在稳固的平板训练凳上，让躯干与髋部获得支撑，双手抓稳凳边，双腿伸向凳外。",
+        "收紧臀部与腹部，保持躯干稳定，膝部自然微屈。",
+        "一条腿小幅抬高时另一条腿稍降，再交换双腿位置，避免摆腰或抬腿过高。",
+        "控制交替打腿，每侧各完成一次上抬与回落为一轮，凳子和上身保持稳定。"
+      ]
+    },
+    "0466": {
+      "name_zh": "吉龙达胸骨引体向上",
+      "muscle_group": "",
+      "required_equipment_zh": [
+        "单杠"
+      ]
+    }
+  },
+  "sources": {
+    "0318": "https://www.puregym.com/exercises/arms-and-shoulders/bicep-curl/incline-bicep-curls/",
+    "0320": "https://www.muscleandstrength.com/exercises/incline-hammer-curl.html",
+    "0322": "https://www.muscleandstrength.com/exercises/incline-hammer-curl.html",
+    "0459": "https://fitbod.me/exercises/prone-flutter-kicks",
+    "0457": "https://www.puregym.com/exercises/abs/v-sit-ups/",
+    "0321": "https://www.muscleandstrength.com/exercises/palms-in-incline-dumbbell-bench-press.html"
+  },
+  "review_candidates": [
+    "0318",
+    "0320",
+    "0322"
+  ],
+  "newly_reviewed": [
+    "dataset_1324_0318",
+    "dataset_1324_0320",
+    "dataset_1324_0322"
+  ],
+  "pending": {
+    "0456": "待修图 · 末帧左边缘残留另一面板的脚部碎片；躯干与骨盆接地位置随帧改变，尚不能确认干净完整的屈膝两头起循环。已纠正卷腹误名及主肌群。",
+    "0457": "待修图 · 实图是直腿两头起而非屈膝卷腹；末帧左边缘仍有其他面板碎片，顶部双腿重叠关系及落地衔接待重制核对。",
+    "0319": "待修图 · 脚和凳脚存在不同偏移及局部形态变化，最宽位双脚约偏移 -7/-8 px、凳脚约 -11 px，不能仅把主体居中当作修复；已补上斜凳条件。",
+    "0459": "待修图 · 原说明误为仰卧，已纠正为凳上俯卧交替打腿并补平板凳；现有循环反复展示同一条腿在上方，缺少左右腿交换阶段，未通过交替动作完整性。",
+    "0464": "待修图 · 转体时支撑手发生约 -26/+21 px 位移，脚部变化与其不同，循环也只展示一侧；需重制正确支撑与双侧转体阶段。",
+    "0321": "待核逻辑 · 凳和双脚偏移接近整体平移，但图中哑铃握法与中立握锤式推举的对应仍不够明确；先补上斜凳并纠正主肌群，保留未复核。",
+    "0466": "待修图 · 两端握点横移约 4/23 px，杠架形态也改变；顶点未清楚达到胸骨引体向上的变式要求，已纠正名称并补单杠条件。"
+  },
+  "registered_media": [
+    "0318",
+    "0320"
+  ],
+  "original_pose_repairs": [
+    "0318",
+    "0320"
+  ],
+  "generated_images_imported": 0,
+  "image_generation_calls": 0,
+  "initial_validation": "passed",
+  "validation": "passed",
+  "review_notes": {
+    "0318": "纠正上臂放在凳上的错误步骤并补上斜凳；原四帧仅作整数平移，双脚和两处凳脚残差不超过 1 px，背部支撑、双臂同步和旋后握法核对通过。",
+    "0320": "补上斜凳并明确全程中立握；原四帧仅作整数平移，双脚和两处凳脚残差为 0 px，屈肘路径与双侧计次核对通过。",
+    "0322": "实际示范为中立握锤式弯举，纠正内侧弯举误名与转掌文字；保留原图，双脚和两处凳脚位移为 0 px，靠背支撑和双臂同步核对通过。"
+  },
+  "android_playback_visually_reviewed": [
+    "0318",
+    "0320",
+    "0322"
+  ],
+  "additional_fix": {
+    "issue": "Legacy record cannot save 15 reps with blank planned sets; error is attached to wrong field",
+    "files": [
+      "app/src/main/java/com/restartday/fitness/app/WorkoutDoseEditor.java"
+    ],
+    "regression_runner": "scripts/qa_legacy_dose_save.py"
+  },
+  "completed_at": "2026-09-17T08:01:38.876697+08:00",
+  "verification_summary": "build/review10-20260916/verification-summary.json"
+}

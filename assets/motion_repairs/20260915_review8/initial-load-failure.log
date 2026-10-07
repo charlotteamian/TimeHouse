@@ -1,0 +1,10 @@
+PASS Both repaired candidates remain unreviewed during initial validation
+PASS Support requirements still invalidate stale personal approval
+PASS Shoulder raises target deltoids and remain accessory movements instead of presses
+PASS Scaption label and movement plane load correctly
+PASS Both raises use bilateral repetitions, not holds or per-side timing
+Traceback (most recent call last):
+  File "/Users/restartday/Documents/健身/scripts/qa_review_batch8.py", line 19, in <module>
+    check(all(row(x)['shoulder']=='MEDIUM' and row(x)['lower_back']=='LOW' for x in new),'Shoulder screening and standing low-back load load correctly')
+  File "<string>", line 91, in check
+AssertionError: Shoulder screening and standing low-back load load correctly

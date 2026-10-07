@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "wave": 33,
+  "mode": "built-in-imagegen",
+  "batches": [
+    {
+      "id": "auto_chest_1300_1299_1479",
+      "category": "chest",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_chest_1300_1299_1479.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_push_1.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_push_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_arms_2.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: lever decline chest press (杠杆下斜胸推).\nPrimary target metadata: pectorals; supporting muscle group: triceps; equipment: leverage machine.\nSource movement instructions: 将杠杆机的座椅高度和靠背调整到舒适的位置。 坐在机器上，背部靠在靠背上，双脚平放在地板上。 正手握住手柄，双手之间的距离略大于肩宽。 向前推动手柄并使其远离身体，直到双臂完全伸展。 慢慢地将手柄放回胸部，保持肘部稍微弯曲。 在底部暂停片刻，然后将手柄推回起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: lever incline chest press (杠杆上斜胸推).\nPrimary target metadata: pectorals; supporting muscle group: shoulders; equipment: leverage machine.\nSource movement instructions: 将杠杆机的座椅和靠背调整到舒适的位置。 坐在机器上，背部靠在靠背上，双脚平放在地板上。 正手握住手柄，双手之间的距离略大于肩宽。 向前推动手柄并使其远离身体，直到双臂完全伸展。 暂停片刻，然后慢慢弯曲肘部，将手柄放回到胸部。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: lever incline chest press v. 2 (斜板杠铃推胸（第二式）).\nPrimary target metadata: pectorals; supporting muscle group: triceps; equipment: leverage machine.\nSource movement instructions: 将杠杆机上的座椅高度和靠背角度调整到舒适的位置。 坐在机器上，背部靠在靠背上，双脚平放在地板上。 正手握住手柄，双手之间的距离略大于肩宽。 向前推动手柄并远离身体，直到手臂完全伸展，但不要锁定肘部。 在完全伸展的位置暂停片刻，然后慢慢弯曲肘部并将手柄放回胸部。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "a0eb486f6ce81d1c58ebde4530ca4d28b27544ae4fac1f8b5f2be3864686dc80",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "1300",
+          "name": "lever decline chest press",
+          "name_zh": "杠杆下斜胸推"
+        },
+        {
+          "row": 1,
+          "id": "1299",
+          "name": "lever incline chest press",
+          "name_zh": "杠杆上斜胸推"
+        },
+        {
+          "row": 2,
+          "id": "1479",
+          "name": "lever incline chest press v. 2",
+          "name_zh": "斜板杠铃推胸（第二式）"
+        }
+      ]
+    },
+    {
+      "id": "auto_chest_0596_3758_1301",
+      "category": "chest",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_chest_0596_3758_1301.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_push_1.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_push_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_arms_2.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: lever seated fly (坐姿飞鸟（杠杆）).\nPrimary target metadata: pectorals; supporting muscle group: deltoids; equipment: leverage machine.\nSource movement instructions: 调整座椅高度并将自己放在机器上，背部靠在垫子上。 旋前抓住手柄，并保持肘部稍微弯曲。 呼气并将手柄向前推，将它们放在胸前。 暂停片刻，挤压胸部肌肉。 吸气并慢慢回到起始位置，让胸部肌肉伸展。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: lever standing chest press (站姿胸推（杠杆）).\nPrimary target metadata: pectorals; supporting muscle group: shoulders; equipment: leverage machine.\nSource movement instructions: 调整座椅高度并将自己放在机器上，双脚平放在地面上。 正手握住手柄，并将双手置于胸部水平。 向前推动手柄，直到手臂完全伸展，保持肘部稍微弯曲。 暂停片刻，然后慢慢地将手柄拉回到胸部，在整个动作过程中保持控制。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: machine inner chest press (机器胸推（内胸）).\nPrimary target metadata: pectorals; supporting muscle group: triceps; equipment: leverage machine.\nSource movement instructions: 调整座椅高度，将自己放在机器上，背部平放在垫子上。 正手握住手柄，肘部呈 90 度角。 向前推动手柄，直到手臂完全伸展，运动过程中呼气。 动作结束时暂停片刻，然后慢慢回到起始位置，同时吸气。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "f98477a53d3cc1f4e89ca352dddc6fc73fa5136d8a06afffee9397f6b335effb",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "0596",
+          "name": "lever seated fly",
+          "name_zh": "坐姿飞鸟（杠杆）"
+        },
+        {
+          "row": 1,
+          "id": "3758",
+          "name": "lever standing chest press",
+          "name_zh": "站姿胸推（杠杆）"
+        },
+        {
+          "row": 2,
+          "id": "1301",
+          "name": "machine inner chest press",
+          "name_zh": "机器胸推（内胸）"
+        }
+      ]
+    },
+    {
+      "id": "auto_chest_1303_1304_1305",
+      "category": "chest",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_chest_1303_1304_1305.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_push_1.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_push_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_arms_2.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: medicine ball chest push from 3 point stance (三点站姿药球胸推).\nPrimary target metadata: pectorals; supporting muscle group: shoulders; equipment: medicine ball.\nSource movement instructions: 以三点姿势开始，一只手放在健身球上，另一只手放在地上。 伸展双腿并将身体摆成一条直线。 将胸部压向地面，同时保持背部挺直。 将药球推离身体，完全伸展手臂。 返回起始位置并重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: medicine ball chest push multiple response (多反应药球胸推).\nPrimary target metadata: pectorals; supporting muscle group: triceps; equipment: medicine ball.\nSource movement instructions: 双脚分开与肩同宽站立，将药球举至胸部水平。 向前伸展双臂，将药球推离胸部。 暂停片刻，然后慢慢地将健身球放回胸前。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: medicine ball chest push single response (单反应药球胸推).\nPrimary target metadata: pectorals; supporting muscle group: triceps; equipment: medicine ball.\nSource movement instructions: 双脚分开与肩同宽站立，将健身球保持在胸部水平。 向前伸展双臂，将药球推离胸部。 暂停片刻，然后慢慢地将健身球放回胸前。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "892b160d9b939def84972c9f68317a2ce8809e29b3aa35f6848586c65bb665fc",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "1303",
+          "name": "medicine ball chest push from 3 point stance",
+          "name_zh": "三点站姿药球胸推"
+        },
+        {
+          "row": 1,
+          "id": "1304",
+          "name": "medicine ball chest push multiple response",
+          "name_zh": "多反应药球胸推"
+        },
+        {
+          "row": 2,
+          "id": "1305",
+          "name": "medicine ball chest push single response",
+          "name_zh": "单反应药球胸推"
+        }
+      ]
+    }
+  ]
+}

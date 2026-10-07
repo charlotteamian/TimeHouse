@@ -1,0 +1,392 @@
+{
+  "version": 1,
+  "dataset_sha256": "a9880962a25da426b38ab672e9351ad9499796b0c5bd1a372b052387b29eb180",
+  "reviewed": [
+    {
+      "id": "dataset_1324_0293",
+      "name": "哑铃俯身划船",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "AI逐项复核（本轮）",
+      "media_sha256": "4b3155369e9af07898de4df08b1d6d84fee5d8a312ed3516652d0d04a52ba857",
+      "note": "名称、器械、文字和四帧姿势已逐项核对；示范为分步阶段图，非连续实拍。",
+      "source": "https://www.puregym.com/exercises/back/rows/dumbbell-bent-over-row/"
+    },
+    {
+      "id": "dataset_1324_0294",
+      "name": "哑铃弯举",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "AI逐项复核（本轮）",
+      "media_sha256": "19aa02fe576fb6615c93eb3dd7cd745424418fbd94c5a5d992942face0068942",
+      "note": "名称、器械、文字和四帧姿势已逐项核对；示范为分步阶段图，非连续实拍。",
+      "source": "https://www.mayoclinic.org/healthy-lifestyle/fitness/multimedia/biceps-curl/vid-20084675"
+    },
+    {
+      "id": "dataset_1324_1760",
+      "name": "哑铃杯式深蹲",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "AI逐项复核（本轮）",
+      "media_sha256": "dfbd65113895eb25dad6b2a6d18a92029b7849bae6075bf869d677ffc7f7b852",
+      "note": "名称、器械、文字和四帧姿势已逐项核对；示范为分步阶段图，非连续实拍。",
+      "source": "https://www.nasm.org/resource-center/exercise-library/goblet-squat"
+    },
+    {
+      "id": "dataset_1324_0662",
+      "name": "俯卧撑",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "AI逐项复核（本轮）",
+      "media_sha256": "2b21e3e514d3d5cad514b393599050f9478f021f49c26aec9793ae817ae6b3a8",
+      "note": "名称、器械、文字和四帧姿势已逐项核对；示范为分步阶段图，非连续实拍。",
+      "source": "https://www.nasm.org/resource-center/exercise-library/push-up"
+    },
+    {
+      "id": "dataset_1324_0334",
+      "name": "哑铃侧平举",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "AI逐项复核",
+      "media_sha256": "542db4401686fe6f47937073412a224fada9c388a692530fa0ebb9d98605f146",
+      "note": "已逐项核对名称、器械、目标肌群、文字步骤和四帧姿势；支撑点固定，保留原有播放时长。",
+      "source": "https://www.puregym.com/exercises/arms-and-shoulders/lateral-raises/dumbbell-lateral-raise/"
+    },
+    {
+      "id": "dataset_1324_0406",
+      "name": "哑铃耸肩",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "AI逐项复核",
+      "media_sha256": "47cd9308f72ef40d368bacd38135f1f03f1129c8671e5cdc04dd22964b72131f",
+      "note": "已逐项核对名称、器械、目标肌群、文字步骤和四帧姿势；支撑点固定，保留原有播放时长。",
+      "source": "https://www.puregym.com/exercises/back/shrugs/dumbbell-shrug/"
+    },
+    {
+      "id": "dataset_1324_0426",
+      "name": "哑铃站立过头推举",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "AI逐项复核",
+      "media_sha256": "9f4575ba09dd957d3f49c8cf65f1c627af6b23008f63ba0203672ce988078a5e",
+      "note": "已逐项核对名称、器械、目标肌群、文字步骤和四帧姿势；支撑点固定，保留原有播放时长。已将最高位原帧上移6像素，修正双脚一起下移的问题。 本批裁掉首帧底部1像素邻格串入，姿势区域不变。",
+      "source": "https://www.puregym.com/exercises/arms-and-shoulders/shoulder-press/dumbbell-shoulder-press/"
+    },
+    {
+      "id": "dataset_1324_0808",
+      "name": "悬挂带划船",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "AI逐项复核",
+      "media_sha256": "a6767e1b80d83d0864226138e71475dcc75d5304b6b39aed573966d9afc00c17",
+      "note": "已逐项核对名称、器械、目标肌群、文字步骤和四帧姿势；支撑点固定，保留原有播放时长。已局部对齐上方悬挂带和墙面固定点，人体与双脚像素保持原样。",
+      "source": "https://www.trxtraining.com/blogs/news/7-basic-movements"
+    },
+    {
+      "id": "dataset_1324_0300",
+      "name": "哑铃罗马尼亚硬拉",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "AI逐项复核",
+      "media_sha256": "058943d9ed9e254b7ed3709efd5edf51fdbb15769c1f42bbe944499f0cdbbbf5",
+      "source": "https://www.nasm.org/resource-center/exercise-library/dumbbell-romanian-deadlift",
+      "note": "逐项核对名称、器械、肌群、髋铰链步骤和四帧姿势；最低位原帧左移4像素、下移18像素，双脚支撑点已对齐。"
+    },
+    {
+      "id": "dataset_1324_0313",
+      "name": "哑铃锤式弯举",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "AI逐项复核",
+      "media_sha256": "adf1e98ddb17143feb17bd29a7f6d1d9dca2876b8918ddaf44685295fee77271",
+      "source": "https://www.puregym.com/exercises/arms-and-shoulders/bicep-curl/hammer-curls/",
+      "note": "逐项核对名称、器械、肌群、握法与四帧姿势；双脚固定，修正原步骤转掌朝前的错误，保持锤式中立握。"
+    },
+    {
+      "id": "dataset_1324_1685",
+      "name": "深蹲至头顶伸展",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "AI逐项复核",
+      "media_sha256": "deee798a6b97e7dd319aa34ef0e65d89cd1f289705ef07aba42ee627a4bb535b",
+      "source": "https://www.fitmetrics.ch/en/exercise/695299ee2c645-squat-with-overhead-reach",
+      "note": "重制后逐项核对名称、肌群、器械、文字和四帧姿势；固定双脚，对齐后的支撑点残差不超过2像素；手部完整，保留四帧分步播放。"
+    },
+    {
+      "id": "dataset_1324_0310",
+      "name": "哑铃前平举",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "AI逐项复核",
+      "media_sha256": "ddb33363cc39acfd36054aadad055b7fb8ba8d6b88cd2280c0a1cd37b46d3334",
+      "source": "https://www.puregym.com/exercises/arms-and-shoulders/front-raises/dumbbell-front-raise/",
+      "note": "已核对前平举的肩部发力、器械、步骤和完整四帧；双脚稳定，保留原图。"
+    },
+    {
+      "id": "dataset_1324_0383",
+      "name": "哑铃俯身反向飞鸟",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "AI逐项复核",
+      "media_sha256": "ccd05e22d52120a542bf5327f044baf726e994504de751667ea7100064bbe44e",
+      "source": "https://www.puregym.com/exercises/arms-and-shoulders/rear-delt-exercises/rear-delt-flyes/",
+      "note": "已核对肩后侧发力、俯身姿势、器械、步骤和完整四帧；双脚稳定，保留原图。"
+    },
+    {
+      "id": "dataset_1324_0430",
+      "name": "哑铃站姿单臂臂屈伸",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "AI逐项复核",
+      "media_sha256": "de00ed6713a3df0326f05277123c867cade5e4f2932526c889a8e52862bd1b08",
+      "source": "https://www.puregym.com/exercises/arms-and-shoulders/tricep-extension/overhead-tricep-extension/",
+      "note": "已对齐双脚，核对单臂屈伸路径和头后降铃；每侧分别练习，保持躯干稳定。"
+    },
+    {
+      "id": "dataset_1324_0285",
+      "name": "哑铃交替弯举",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "AI逐项复核",
+      "media_sha256": "e30871453287eb8bbc031bf7ef4d7e878b38c2fe0708d47698d3149678d17923",
+      "source": "https://www.mayoclinic.org/healthy-lifestyle/fitness/multimedia/biceps-curl/vid-20084675",
+      "note": "已对齐双脚并核对弯举路径；图示演示一侧，实际训练左右交替，另一手保持稳定。"
+    },
+    {
+      "id": "dataset_1324_0872",
+      "name": "反向卷腹",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "AI逐项复核",
+      "media_sha256": "6a79cc681d8456b13deddb68b19c446c18dc2a17066fa44758d64e4fdc24486a",
+      "source": "https://www.puregym.com/exercises/abs/reverse-crunches/",
+      "note": "已对齐头部、双手和垫子，核对卷骨盆的发力与顺序，避免用甩腿或颈部承重代偿。"
+    },
+    {
+      "id": "dataset_1324_0630",
+      "name": "登山跑",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "AI逐项复核",
+      "media_sha256": "d09935608c4faaad7880fba740ca183f149d208d94821b280d02bacd1cebda8e",
+      "source": "https://www.puregym.com/exercises/full-body/mountain-climbers/",
+      "note": "已对齐双手，核对提膝与回位顺序；图示演示一侧，实际训练左右交替。"
+    },
+    {
+      "id": "dataset_1324_3699",
+      "name": "交替拍肩",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "AI逐项复核",
+      "media_sha256": "17ddd08cf86326ba09fe1f91f09f11babf66f647e6e32a5747942ef111f1cb54",
+      "source": "https://www.nasm.org/resource-center/blog/training/the-plank-coaching-progressions-and-variations-for-every-client",
+      "note": "已对齐支撑手及双脚，核对触肩与回位顺序；图示演示一侧，实际训练左右交替，保持髋部稳定。"
+    },
+    {
+      "id": "dataset_1324_0286",
+      "name": "哑铃交替肩上推举",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "AI逐项复核",
+      "media_sha256": "c0670e891ffcca911b0bd3944a5d3357ad642668e004020727b588445b583359",
+      "source": "https://www.muscleandfitness.com/exercise/workouts/shoulder-exercises/alternating-dumbbell-shoulder-press/",
+      "note": "已核对交替推举路径和完整四帧，修正错译名称并对齐双脚；每完成一侧推举计一次，保持躯干稳定。"
+    },
+    {
+      "id": "dataset_1324_1427",
+      "name": "侧卧单腿髋外展",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "AI逐项复核",
+      "media_sha256": "31e4841fe356b4b430e49c4eae65afdaeecf60814e92cfa25ddf662398ae1e20",
+      "note": "逐项核对名称、器械、肌群、步骤、动作模式及左右各做计次；用整帧偏移修正固定点漂移，多个支撑点残差不超过 2 px，保留原四帧及 2.36 秒动态循环。",
+      "source": "https://www.acefitness.org/resources/everyone/exercise-library/38/side-lying-hip-abduction/"
+    },
+    {
+      "id": "dataset_1324_0298",
+      "name": "哑铃单臂交叉锤式弯举",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "AI逐项复核",
+      "media_sha256": "4742f170922e2cf996f2265151dcfb262e56626b3e1ebf5f5bf156c2c237b730",
+      "note": "逐项核对名称、器械、肌群、步骤、动作模式及左右各做计次；用整帧偏移修正固定点漂移，多个支撑点残差不超过 2 px，保留原四帧及 2.36 秒动态循环。",
+      "source": "https://www.muscleandfitness.com/exercise/workouts/arm-exercises/cross-body-dumbbell-hammer-curl/"
+    },
+    {
+      "id": "dataset_1324_0129",
+      "name": "屈膝凳上臂屈伸",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "AI逐项复核",
+      "media_sha256": "74bbb72c834c9fada479ae2e5729c643af7627915cfe043ff07fe5e325fcee1e",
+      "source": "https://www.nasm.org/resource-center/exercise-library/bench-dips",
+      "note": "已核对动作变式、肌群、步骤、计次和完整四帧；多个支撑点残差不超过 2 px，必需训练凳作为额外条件参与训练筛选，保留动态循环。"
+    },
+    {
+      "id": "dataset_1324_0304",
+      "name": "哑铃俯卧上斜凳耸肩",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "AI逐项复核",
+      "media_sha256": "cace38e632bf3134537bfd96414c1bdf07f8bd778df02a9fe165dc0282fa944d",
+      "source": "https://www.muscleandfitness.com/exercise/workouts/shoulder-exercises/incline-dumbbell-shrug/",
+      "note": "已核对动作变式、肌群、步骤、计次和完整四帧；多个支撑点残差不超过 2 px，必需训练凳作为额外条件参与训练筛选，保留动态循环。"
+    },
+    {
+      "id": "dataset_1324_0292",
+      "name": "哑铃单臂俯身划船",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "AI逐项复核",
+      "media_sha256": "62072bdb035faceaf92d124eb2fdec861fb46693efae184674f4cb2754f0f49b",
+      "source": "https://www.puregym.com/exercises/back/rows/single-arm-dumbbell-row/",
+      "note": "已核对动作变式、肌群、步骤、计次和完整四帧；多个支撑点残差不超过 2 px，必需训练凳作为额外条件参与训练筛选，保留动态循环。"
+    }
+  ],
+  "pending": [
+    {
+      "id": "dataset_1324_0289",
+      "note": "待核逻辑 · 卧推还需稳定卧推凳，当前器械筛选未单列支撑条件"
+    },
+    {
+      "id": "dataset_1324_0276",
+      "note": "待修图 · 死虫式头部与骨盆在不同帧发生不同方向位移，单次平移不能同时固定支撑点。 本轮重制草稿仍有多个支撑点漂移，尚未采用。"
+    },
+    {
+      "id": "dataset_1324_3013",
+      "note": "待修图 · 地板臀桥头部与双脚支撑点不同步漂移，暂未通过复核。 本轮重制草稿仍有多个支撑点漂移，尚未采用。"
+    },
+    {
+      "id": "dataset_1324_0805",
+      "note": "待修图 · 本轮重制已纠正朝向，但脚底与固定锚点仍不同步，精修后仍未通过，暂不替换现有图。"
+    },
+    {
+      "id": "dataset_1324_0809",
+      "note": "待修图 · 前脚与悬挂固定点不同步漂移，不能整体平移修正；已纠正后脚放入脚托的文字。 本轮重制草稿仍有多个支撑点漂移，尚未采用。"
+    },
+    {
+      "id": "dataset_1324_0806",
+      "note": "待核逻辑 · 图中实际为吊环俯卧撑，已纠正器械；现有步骤仍需对照吊环动作重新核对。"
+    },
+    {
+      "id": "dataset_1324_0807",
+      "note": "待核逻辑 · 图中实际为单杠悬垂举膝，已纠正器械；尚未完成逐帧支撑点复核。"
+    },
+    {
+      "id": "dataset_1324_0336",
+      "note": "待修图 · 哑铃前弓步进入下蹲后，支撑脚仍改变位置，需继续校正落地后的固定点。"
+    },
+    {
+      "id": "dataset_1324_1373",
+      "note": "待修图 · 提踵的墙面与前脚掌在不同帧的对应位置仍需核对与对齐，暂不通过复核。"
+    },
+    {
+      "id": "dataset_1324_2368",
+      "note": "待修图 · 分腿蹲的前脚与后脚支撑位置不同步变化，需分别对齐。"
+    },
+    {
+      "id": "dataset_1324_3769",
+      "note": "待修图 · 已纠正名称为交叉后撤弓步蹲；支撑脚与跨步的顺序、位置仍需继续核对。"
+    },
+    {
+      "id": "dataset_1324_3211",
+      "note": "待修图 · 跪姿俯卧撑最低位双手与膝盖位移不一致，暂不能整体对齐。"
+    },
+    {
+      "id": "dataset_1324_0659",
+      "note": "待修图 · 靠墙俯卧撑的双脚、双手和墙面不同时固定，需要修正支撑关系。"
+    },
+    {
+      "id": "dataset_1324_0274",
+      "note": "待修图 · 地板卷腹双脚与骨盆的位移不同步，不能仅平移一帧通过。"
+    },
+    {
+      "id": "dataset_1324_0006",
+      "note": "待修图 · 交替触踵的中间帧翻转了视角和垫子，需重制为固定视角。"
+    },
+    {
+      "id": "dataset_1324_0333",
+      "note": "待修图 · 哑铃臂屈伸上臂也在大幅前后摆动，未保持肘部支点固定。"
+    },
+    {
+      "id": "dataset_1324_3021",
+      "note": "待修图 · 肩胛俯卧撑被画成明显屈肘的普通俯卧撑，需修正为直臂肩胛运动。"
+    },
+    {
+      "id": "dataset_1324_0710",
+      "note": "待修图 · 站姿髋外展最高位幅度过大，支撑与骨盆控制未通过，需重画舒适幅度。"
+    },
+    {
+      "id": "dataset_1324_0259",
+      "note": "待修图 · 窄握俯卧撑双手与脚趾位移不同步，无法整体对齐。"
+    },
+    {
+      "id": "dataset_1324_0283",
+      "note": "待修图 · 钻石俯卧撑手掌与脚趾不能同时固定，最低位整帧还存在上移。"
+    },
+    {
+      "id": "dataset_1324_0658",
+      "note": "待修图 · 与 0659 使用相同图片，双脚、双手和墙面仍未同时固定。"
+    },
+    {
+      "id": "dataset_1324_0871",
+      "note": "待修图 · 蜷缩卷腹卷起帧的支撑位置与身体比例变化较大，动作及固定视角需要继续核对。"
+    },
+    {
+      "id": "dataset_1324_1368",
+      "note": "待修图 · 踝关节画圈实际只示意部分往返弧线，缺少完整画圈方向，肌群着色也需核对。"
+    },
+    {
+      "id": "dataset_1324_0287",
+      "note": "待核逻辑 · 已纠正坐姿名称；图示需有靠背的稳定训练凳，额外器械条件、凳子和双脚固定点待完整复核。"
+    },
+    {
+      "id": "dataset_1324_0288",
+      "note": "待核逻辑 · 已纠正为哑铃仰卧上拉；需稳定训练凳，凳子和头脚固定点待完整复核。"
+    },
+    {
+      "id": "dataset_1324_0290",
+      "note": "待核逻辑 · 已纠正坐姿肩上推举名称及步骤；需有靠背的稳定训练凳，器械条件与支撑点待完整复核。"
+    },
+    {
+      "id": "dataset_1324_0291",
+      "note": "待核逻辑 · 已纠正触凳深蹲名称与持铃步骤；需稳定训练凳，坐下时凳子和双脚位置仍待复核。"
+    },
+    {
+      "id": "dataset_1324_0001",
+      "note": "待核逻辑 · 已修复第三帧上浮 20 px、纠正仰卧起坐名称；四分之三变式的起止范围仍需匹配原始教练示范，图片修复不等于完整复核。"
+    },
+    {
+      "id": "dataset_1324_1428",
+      "note": "待修图 · 头部、双脚固定，但四帧仅显示手腕往返位置，未展示完整画圈，着色在上臂而非手腕前臂，需修复动作方向及着色。"
+    },
+    {
+      "id": "dataset_1324_0295",
+      "note": "待修图 · 已将 clean 纠正为翻举；接铃屈髋屈膝阶段不清晰、腿部比例与脚位变化，现有阶段图不足以核对翻举的发力与接铃逻辑。"
+    },
+    {
+      "id": "dataset_1324_3016",
+      "note": "待修图 · 卷起帧脚部和臀部位移分别约 (-13,-79) 与 (-21,-77) px，不能整帧平移同时固定。"
+    },
+    {
+      "id": "dataset_1324_0296",
+      "note": "待修图 · 已纠正为哑铃窄握卧推并补齐仰卧步骤；现图误画成坐姿过顶推举，动作方向及变式不符，需重制；还需训练凳条件。"
+    },
+    {
+      "id": "dataset_1324_0297",
+      "note": "待修图 · 已明确单臂计次；中间帧左右脚水平漂移相差约 6 px，凳脚形态也变化，需同时修复人和凳；额外训练凳条件待核对。"
+    },
+    {
+      "id": "dataset_1324_0002",
+      "note": "待修图 · 最大侧弯时双脚水平漂移分别约 -2 与 +11 px，不能用整帧平移同时固定。"
+    },
+    {
+      "id": "dataset_1324_0003",
+      "note": "待修图 · 自行车卷腹左右交替时骨盆与上背贴地区域不能稳定对应，侧向卷转和腿部交替仍需复核。"
+    },
+    {
+      "id": "dataset_1324_0299",
+      "note": "待修图 · 古巴推举原图底部残留其他帧内容，过顶帧人体比例与双脚位置变化；已纠正肩外旋步骤、模式和肩腰负荷。"
+    },
+    {
+      "id": "dataset_1324_0020",
+      "note": "待修图 · 已补平衡板为必需器械；板面随人体平移、站立脚与板支点关系仍需复核，不能当作普通无器械动作。"
+    },
+    {
+      "id": "dataset_1324_0301",
+      "note": "待修图 · 图示头高脚低，与下斜卧推头低脚高相反，凳脚与腿部漂移也不一致；需重制，已补下斜凳条件。"
+    },
+    {
+      "id": "dataset_1324_0302",
+      "note": "待修图 · 飞鸟图的远侧凳脚形态跨帧不同，虽然近侧凳脚与脚部平移接近，仍不能确认整个凳子固定；已补下斜凳条件。"
+    },
+    {
+      "id": "dataset_1324_0130",
+      "note": "待修图 · 凳上髋伸展的凳脚与脚部水平漂移相反，且图文变式仍需核对；已补平板训练凳条件。"
+    },
+    {
+      "id": "dataset_1324_0303",
+      "note": "待修图 · 下斜锤式推举中间帧近侧凳脚移 -22 px、远侧凳脚与脚部仅 -1 px，不能整体平移同时固定；已补下斜凳条件。"
+    },
+    {
+      "id": "dataset_1324_0137",
+      "note": "待修图 · 当前示范为凳上直腿臂屈伸，与 body-up 条目的具体变式尚未匹配；凳脚和脚部位移也不一致。"
+    }
+  ]
+}

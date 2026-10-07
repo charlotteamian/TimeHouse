@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "wave": 118,
+  "mode": "built-in-imagegen",
+  "batches": [
+    {
+      "id": "auto_waist_0221_0223_0226",
+      "category": "waist",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_waist_0221_0223_0226.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_1.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_arms_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_legs_back_2.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: cable side bend crunch (bosu ball) (绳索半圆平衡球侧弯卷腹).\nPrimary target metadata: abs; supporting muscle group: obliques; equipment: cable.\nSource movement instructions: 双脚分开与肩同宽站立，一只手握住电缆手柄。 将另一只手放在臀部上。 启动你的核心，慢慢向握住电缆的手侧弯，保持背部挺直。 在动作底部暂停片刻，然后慢慢回到起始位置。 重复所需的重复次数，然后换边。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: cable side crunch (绳索侧卷腹).\nPrimary target metadata: abs; supporting muscle group: obliques; equipment: cable.\nSource movement instructions: 将电缆手柄连接到低滑轮上并站在机器旁边。 用距离机器最远的手抓住手柄，并将另一只手放在臀部上。 双脚分开与肩同宽，膝盖稍微弯曲。 收紧腹肌，腰部向侧面弯曲，将肘部向下拉向臀部。 在底部停顿片刻，然后慢慢回到起始位置。 重复所需的重复次数，然后换边。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: cable standing crunch (绳索站姿卷腹).\nPrimary target metadata: abs; supporting muscle group: obliques; equipment: cable.\nSource movement instructions: 将电缆手柄连接到高滑轮上，并背对机器站立。 双手握住手柄并将其放在脑后，保持肘部弯曲。 双脚分开与肩同宽站立，膝盖稍微弯曲。 保持腹肌收紧，呼气，将躯干压向膝盖，将肘部拉向大腿。 在动作底部暂停片刻，然后慢慢回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "afebb7c39e8db1800f7cc93ce881bd117048f32ff4bb4a6776c318e5829bb247",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "0221",
+          "name": "cable side bend crunch (bosu ball)",
+          "name_zh": "绳索半圆平衡球侧弯卷腹"
+        },
+        {
+          "row": 1,
+          "id": "0223",
+          "name": "cable side crunch",
+          "name_zh": "绳索侧卷腹"
+        },
+        {
+          "row": 2,
+          "id": "0226",
+          "name": "cable standing crunch",
+          "name_zh": "绳索站姿卷腹"
+        }
+      ]
+    },
+    {
+      "id": "auto_waist_0874_0230_0242",
+      "category": "waist",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_waist_0874_0230_0242.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_1.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_arms_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_legs_back_2.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: cable standing crunch (with rope attachment) (绳索站姿卷腹（带绳索附件）).\nPrimary target metadata: abs; supporting muscle group: obliques; equipment: cable.\nSource movement instructions: 将一根绳子连接到胸部高度的缆绳机上。 背对机器站立，双脚与肩同宽。 双手握住绳子并将其放在脑后，保持肘部弯曲。 收紧腹肌，慢慢向前挤压躯干，使肘部靠近膝盖。 在卷腹的最高点暂停片刻，然后慢慢回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: cable standing lift (绳索站姿提拉).\nPrimary target metadata: abs; supporting muscle group: obliques; equipment: cable.\nSource movement instructions: 面对电缆机站立，双脚与肩同宽。 双手握住电缆手柄并将其置于腰部高度。 在整个练习过程中启动核心并保持背部挺直。 保持手臂伸直，呼气并将电缆手柄向另一侧的肩膀向上提起，同时旋转躯干。 在顶部暂停片刻，然后吸气并慢慢将拉索手柄放回起始位置。 重复所需的重复次数，然后换边。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: cable tuck reverse crunch (绳索卷腹（收腿）).\nPrimary target metadata: abs; supporting muscle group: hip flexors; equipment: cable.\nSource movement instructions: 将电缆连接到低滑轮上，然后面朝上躺在垫子上。 用双手握住电缆并将双臂伸直至胸部上方。 弯曲膝盖并抬起双腿，使膝盖靠近胸部。 同时，将骨盆向胸部弯曲，将臀部抬离地面。 在顶部暂停片刻，然后慢慢降低双腿和臀部回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "d1b84b967bf3abb0aa1f5fb04f84d3f387c249ee25458e671a84d7a790001381",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "0874",
+          "name": "cable standing crunch (with rope attachment)",
+          "name_zh": "绳索站姿卷腹（带绳索附件）"
+        },
+        {
+          "row": 1,
+          "id": "0230",
+          "name": "cable standing lift",
+          "name_zh": "绳索站姿提拉"
+        },
+        {
+          "row": 2,
+          "id": "0242",
+          "name": "cable tuck reverse crunch",
+          "name_zh": "绳索卷腹（收腿）"
+        }
+      ]
+    },
+    {
+      "id": "auto_waist_0243_0862_2963",
+      "category": "waist",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_waist_0243_0862_2963.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_1.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_arms_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_legs_back_2.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: cable twist (绳索扭转).\nPrimary target metadata: abs; supporting muscle group: obliques; equipment: cable.\nSource movement instructions: 双脚分开与肩同宽站立，面向绳索机。 双手握住电缆手柄于胸前，保持双臂略微弯曲。 启动你的核心并将你的躯干向右扭转，将电缆拉过你的身体。 动作结束时暂停片刻，感受腹肌和斜肌的收缩。 缓慢返回起始位置，抵抗绳索的拉力。 向左侧重复该动作。 继续交替进行所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: cable twist (up-down) (绳索上下扭转).\nPrimary target metadata: abs; supporting muscle group: obliques; equipment: cable.\nSource movement instructions: 双脚分开与肩同宽站立，面向绳索机。 双手握住电缆手柄于胸前，保持双臂略微弯曲。 启动你的核心并慢慢地将你的躯干旋转到一侧，保持你的臀部和腿部稳定。 旋转结束时暂停片刻，然后慢慢回到起始位置。 向另一侧重复旋转。 继续交替进行所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: captains chair straight leg raise (罗马椅直腿抬举).\nPrimary target metadata: abs; supporting muscle group: hip flexors; equipment: body weight.\nSource movement instructions: 坐在船长椅上，背部靠在靠背上，前臂放在扶手垫上。 保持上半身稳定，背部挺直。 收紧腹肌并将双腿抬起到身前，保持伸直。 继续抬起，直到双腿与地面平行或达到您可以舒适地达到的高度。 在顶部暂停片刻，然后慢慢将双腿放回起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "07bae6159b8080079a189353f55647e9a60323391bda59cb69a4677b6d7c2db9",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "0243",
+          "name": "cable twist",
+          "name_zh": "绳索扭转"
+        },
+        {
+          "row": 1,
+          "id": "0862",
+          "name": "cable twist (up-down)",
+          "name_zh": "绳索上下扭转"
+        },
+        {
+          "row": 2,
+          "id": "2963",
+          "name": "captains chair straight leg raise",
+          "name_zh": "罗马椅直腿抬举"
+        }
+      ]
+    }
+  ]
+}

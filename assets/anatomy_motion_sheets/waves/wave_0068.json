@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "wave": 68,
+  "mode": "built-in-imagegen",
+  "batches": [
+    {
+      "id": "auto_upper_arms_1633_1635_1723",
+      "category": "upper arms",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_upper_arms_1633_1635_1723.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_arms_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_push_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_back_2.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: cable one arm preacher curl (绳索单臂平板弯举).\nPrimary target metadata: biceps; supporting muscle group: forearms; equipment: cable.\nSource movement instructions: 调整绳索机，使牧师弯举垫处于胸部高度。 面对电缆机站立，双脚与肩同宽。 用手握住电缆手柄，并将上臂靠在牧师弯举垫上。 保持背部挺直，核心肌群参与。 慢慢地将电缆手柄卷向肩膀，保持上臂靠在垫子上。 在动作的最高点暂停片刻，挤压你的二头肌。 慢慢地将电缆手柄放回起始位置。 重复所需的重复次数。 交换手臂并重复练习。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: cable one arm reverse preacher curl (绳索单臂反平板弯举).\nPrimary target metadata: biceps; supporting muscle group: forearms; equipment: cable.\nSource movement instructions: 调整拉索机，使滑轮处于最低位置。 面对电缆机站立，双脚与肩同宽。 用反手抓住电缆手柄，并将上臂靠在牧师凳垫上。 在整个练习过程中保持背部挺直，核心肌群参与其中。 慢慢地将前臂向二头肌方向卷曲，保持上臂固定在垫子上。 在动作的最高点暂停片刻，挤压你的二头肌。 慢慢地将电缆手柄放回起始位置。 重复所需的重复次数。 交换手臂并重复练习。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: cable one arm tricep pushdown (绳索单臂肱三头肌下压).\nPrimary target metadata: triceps; supporting muscle group: forearms; equipment: cable.\nSource movement instructions: 面向缆绳机站立，并在胸部高度处安装直杆附件。 正手握住杠铃，然后后退以在绳索上产生张力。 将双脚分开与肩同宽，并稍微弯曲膝盖。 在整个练习过程中保持背部挺直并保持核心参与。 首先，手臂完全伸展并垂直于地板。 保持上臂静止，呼气并将杠铃向下推，直到手臂完全伸展。 暂停片刻，然后吸气，慢慢回到起始位置。 重复所需的重复次数，然后换臂。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "7e977194198ba55deb3c3bc4d2e077ff5c3a88d9b62f3e6801578d0f5009345b",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "1633",
+          "name": "cable one arm preacher curl",
+          "name_zh": "绳索单臂平板弯举"
+        },
+        {
+          "row": 1,
+          "id": "1635",
+          "name": "cable one arm reverse preacher curl",
+          "name_zh": "绳索单臂反平板弯举"
+        },
+        {
+          "row": 2,
+          "id": "1723",
+          "name": "cable one arm tricep pushdown",
+          "name_zh": "绳索单臂肱三头肌下压"
+        }
+      ]
+    },
+    {
+      "id": "auto_upper_arms_1636_1637_0194",
+      "category": "upper arms",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_upper_arms_1636_1637_0194.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_arms_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_push_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_back_2.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: cable overhead curl (绳索过头弯举).\nPrimary target metadata: biceps; supporting muscle group: forearms; equipment: cable.\nSource movement instructions: 将直杆连接到高滑轮电缆机上。 面向机器站立，双脚分开与肩同宽。 反手握住杠铃，双手与肩同宽。 保持肘部靠近身体两侧，上臂保持静止。 呼气并将杠铃向下卷向前额，保持上臂静止。 在动作底部暂停片刻，挤压二头肌。 吸气，慢慢地将杠铃返回到起始位置，充分伸展双臂。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: cable overhead curl on exercise ball (绳索过头弯举（健身球）).\nPrimary target metadata: biceps; supporting muscle group: forearms; equipment: cable.\nSource movement instructions: 坐在健身球上，用反手握住电缆手柄。 将手臂完全伸过头顶，保持肘部靠近耳朵。 慢慢地将电缆朝前额卷曲，保持上臂静止。 在动作底部暂停片刻，然后慢慢回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: cable overhead triceps extension (rope attachment) (绳索过头肱三头肌伸展（绳索附件）).\nPrimary target metadata: triceps; supporting muscle group: shoulders; equipment: cable.\nSource movement instructions: 将绳索连接到高处的缆绳机上。 背对机器站立，双脚与肩同宽。 双手抓住绳子，掌心相对，将双手举过头顶。 保持上臂靠近头部，肘部向前。 弯曲肘部，慢慢将绳子降低到头后。 暂停片刻，然后将手臂伸回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "b5a15eb2981edb12f31af188fbbb64ff97769b4f6a60c5d179628097fd72ce50",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "1636",
+          "name": "cable overhead curl",
+          "name_zh": "绳索过头弯举"
+        },
+        {
+          "row": 1,
+          "id": "1637",
+          "name": "cable overhead curl on exercise ball",
+          "name_zh": "绳索过头弯举（健身球）"
+        },
+        {
+          "row": 2,
+          "id": "0194",
+          "name": "cable overhead triceps extension (rope attachment)",
+          "name_zh": "绳索过头肱三头肌伸展（绳索附件）"
+        }
+      ]
+    },
+    {
+      "id": "auto_upper_arms_1638_0201_0200",
+      "category": "upper arms",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_upper_arms_1638_0201_0200.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_arms_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_push_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_back_2.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: cable pulldown bicep curl (绳索下拉弯举).\nPrimary target metadata: biceps; supporting muscle group: forearms; equipment: cable.\nSource movement instructions: 在最高设置下将直杆连接到电缆机上。 面向机器站立，双脚分开与肩同宽。 反手握住杠铃，双手与肩同宽。 保持肘部靠近身体两侧，上臂保持静止。 呼气，慢慢将杠铃向大腿方向卷曲，保持手腕伸直。 在动作底部暂停片刻，挤压二头肌。 吸气，慢慢地将杠铃返回到起始位置，充分伸展双臂。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: cable pushdown (绳索下压).\nPrimary target metadata: triceps; supporting muscle group: forearms; equipment: cable.\nSource movement instructions: 将直杆连接到高滑轮电缆机上。 面向机器站立，双脚分开与肩同宽，膝盖稍微弯曲。 正手握住杠铃，双手与肩同宽。 保持肘部靠近身体两侧，上臂保持静止。 呼气并将杠铃向下推，直到肘部完全伸展。 暂停片刻，然后吸气，慢慢地将杠铃返回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: cable pushdown (with rope attachment) (绳索下压（绳索附件）).\nPrimary target metadata: triceps; supporting muscle group: forearms; equipment: cable.\nSource movement instructions: 将绳索附件连接到缆绳机上的高滑轮上。 面向机器站立，双脚分开与肩同宽，膝盖稍微弯曲。 正手握住绳子，手掌相对。 在整个练习过程中，保持肘部靠近身体两侧，上臂保持静止。 呼气并伸展肘部将绳子向下推，直到手臂完全伸展。 暂停片刻，然后吸气，并让肘部弯曲，慢慢回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "4045b56e3a254188298d43e56fd1d5130ea189f277d629087a14949764079ac0",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "1638",
+          "name": "cable pulldown bicep curl",
+          "name_zh": "绳索下拉弯举"
+        },
+        {
+          "row": 1,
+          "id": "0201",
+          "name": "cable pushdown",
+          "name_zh": "绳索下压"
+        },
+        {
+          "row": 2,
+          "id": "0200",
+          "name": "cable pushdown (with rope attachment)",
+          "name_zh": "绳索下压（绳索附件）"
+        }
+      ]
+    }
+  ]
+}

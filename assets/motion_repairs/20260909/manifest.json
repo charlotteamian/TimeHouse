@@ -1,0 +1,232 @@
+[
+  {
+    "id": "0025",
+    "name": "杠铃卧推",
+    "source": "assets/motion_repairs/20260909/0025.png",
+    "asset": "app/src/main/res/raw/dataset_motion_0025.webp",
+    "offsets": [
+      [
+        0,
+        0
+      ],
+      [
+        -0.14,
+        0.04
+      ],
+      [
+        0.01,
+        -0.09
+      ]
+    ],
+    "frames": 4,
+    "duration": 2360,
+    "mode": "reviewed-keyframes-no-morph"
+  },
+  {
+    "id": "0201",
+    "name": "绳索下压",
+    "source": "assets/motion_repairs/20260909/0201.png",
+    "asset": "app/src/main/res/raw/dataset_motion_0201.webp",
+    "offsets": [
+      [
+        0,
+        0
+      ],
+      [
+        -0.04,
+        0.0
+      ],
+      [
+        -0.0,
+        -0.03
+      ]
+    ],
+    "frames": 4,
+    "duration": 2360,
+    "mode": "reviewed-keyframes-no-morph"
+  },
+  {
+    "id": "0289",
+    "name": "哑铃卧推",
+    "source": "assets/motion_repairs/20260909/0289.png",
+    "asset": "app/src/main/res/raw/dataset_motion_0289.webp",
+    "offsets": [
+      [
+        0,
+        0
+      ],
+      [
+        -2.29,
+        -0.03
+      ],
+      [
+        0.0,
+        -6.41
+      ]
+    ],
+    "frames": 4,
+    "duration": 2360,
+    "mode": "reviewed-keyframes-no-morph"
+  },
+  {
+    "id": "0294",
+    "name": "哑铃弯举",
+    "source": "assets/motion_repairs/20260909/0294.png",
+    "asset": "app/src/main/res/raw/dataset_motion_0294.webp",
+    "offsets": [
+      [
+        0,
+        0
+      ],
+      [
+        -0.01,
+        0.01
+      ],
+      [
+        0.0,
+        -0.24
+      ]
+    ],
+    "frames": 4,
+    "duration": 2360,
+    "mode": "reviewed-keyframes-no-morph"
+  },
+  {
+    "id": "0310",
+    "name": "哑铃前平举",
+    "source": "assets/motion_repairs/20260909/0310.png",
+    "asset": "app/src/main/res/raw/dataset_motion_0310.webp",
+    "offsets": [
+      [
+        0,
+        0
+      ],
+      [
+        -20.32,
+        0.03
+      ],
+      [
+        0.07,
+        -0.06
+      ]
+    ],
+    "frames": 4,
+    "duration": 2360,
+    "mode": "reviewed-keyframes-no-morph"
+  },
+  {
+    "id": "0334",
+    "name": "哑铃侧平举",
+    "source": "assets/motion_repairs/20260909/0334.png",
+    "asset": "app/src/main/res/raw/dataset_motion_0334.webp",
+    "offsets": [
+      [
+        0,
+        0
+      ],
+      [
+        -0.37,
+        0.01
+      ],
+      [
+        -0.0,
+        -0.3
+      ]
+    ],
+    "frames": 4,
+    "duration": 2360,
+    "mode": "reviewed-keyframes-no-morph"
+  },
+  {
+    "id": "0406",
+    "name": "哑铃耸肩",
+    "source": "assets/motion_repairs/20260909/0406.png",
+    "asset": "app/src/main/res/raw/dataset_motion_0406.webp",
+    "offsets": [
+      [
+        0,
+        0
+      ],
+      [
+        -0.11,
+        -0.03
+      ],
+      [
+        0.04,
+        -0.12
+      ]
+    ],
+    "frames": 4,
+    "duration": 2360,
+    "mode": "reviewed-keyframes-no-morph"
+  },
+  {
+    "id": "0662",
+    "name": "俯卧撑",
+    "source": "assets/motion_repairs/20260909/0662.png",
+    "asset": "app/src/main/res/raw/dataset_motion_0662.webp",
+    "offsets": [
+      [
+        0,
+        0
+      ],
+      [
+        1.56,
+        -0.04
+      ],
+      [
+        0.17,
+        -30.56
+      ]
+    ],
+    "frames": 4,
+    "duration": 2360,
+    "mode": "reviewed-keyframes-no-morph"
+  },
+  {
+    "id": "0293",
+    "name": "哑铃俯身划船",
+    "source": "assets/motion_repairs/20260909/0293.png",
+    "asset": "app/src/main/res/raw/dataset_motion_0293.webp",
+    "offsets": [
+      [
+        0,
+        0
+      ],
+      [
+        -0.37,
+        -0.02
+      ],
+      [
+        -0.07,
+        -0.11
+      ]
+    ],
+    "frames": 4,
+    "duration": 2360,
+    "mode": "reviewed-keyframes-no-morph"
+  },
+  {
+    "id": "0300",
+    "name": "哑铃硬拉",
+    "source": "assets/motion_repairs/20260909/0300.png",
+    "asset": "app/src/main/res/raw/dataset_motion_0300.webp",
+    "offsets": [
+      [
+        0,
+        0
+      ],
+      [
+        -0.04,
+        0.07
+      ],
+      [
+        -4.1,
+        -2.02
+      ]
+    ],
+    "frames": 4,
+    "duration": 2360,
+    "mode": "reviewed-keyframes-no-morph"
+  }
+]

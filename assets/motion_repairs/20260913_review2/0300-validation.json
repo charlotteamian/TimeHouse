@@ -1,0 +1,27 @@
+{
+  "source_sha256": "9169ebe24582be2062add46ff40520582001eae0bb940ab91343ecdda4d9bd90",
+  "output_sha256": "058943d9ed9e254b7ed3709efd5edf51fdbb15769c1f42bbe944499f0cdbbbf5",
+  "shift_frame_2": [
+    -4,
+    18
+  ],
+  "feet_displacements_after": [
+    [
+      0,
+      0,
+      0.944
+    ],
+    [
+      0,
+      0,
+      0.988
+    ]
+  ],
+  "frames": 4,
+  "durations": [
+    800,
+    380,
+    800,
+    380
+  ]
+}

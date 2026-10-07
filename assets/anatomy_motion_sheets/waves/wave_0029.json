@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "wave": 29,
+  "mode": "built-in-imagegen",
+  "batches": [
+    {
+      "id": "auto_chest_0342_1284_1285",
+      "category": "chest",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_chest_0342_1284_1285.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_push_1.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_push_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_arms_2.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: dumbbell lying one arm press v. 2 (哑铃平躺单臂推举（第二式）).\nPrimary target metadata: pectorals; supporting muscle group: triceps; equipment: dumbbell.\nSource movement instructions: 平躺在长凳上，背部支撑，双脚平放在地面上。 一只手握住哑铃，手掌朝向脚部。 将手臂伸向天花板，保持肘部稍微弯曲。 慢慢地将哑铃向胸部方向降低，保持肘部靠近身体。 在底部暂停片刻，然后将哑铃推回到起始位置。 重复所需的重复次数，然后换到另一只手臂。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: dumbbell lying pullover on exercise ball (哑铃球上拉下推).\nPrimary target metadata: pectorals; supporting muscle group: triceps; equipment: dumbbell.\nSource movement instructions: 坐在健身球上，向前滚动，直到上背部靠在球上。 双手握住哑铃，将手臂伸直至胸部上方。 慢慢地将哑铃放到脑后，同时保持手臂伸直。 暂停片刻，然后将哑铃举回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: dumbbell one arm bench fly (哑铃单臂卧推飞鸟).\nPrimary target metadata: pectorals; supporting muscle group: shoulders; equipment: dumbbell.\nSource movement instructions: 坐在平坦的长凳上，一只手拿着哑铃，将其放在大腿上方。 向后躺在长凳上，将哑铃压在大腿上。 用空着的那只手帮助将哑铃举至起始位置。 将哑铃握在肩膀正上方，手臂伸展，手掌朝内。 将哑铃以宽弧线向一侧放低，保持肘部轻微弯曲。 当手臂与地面平行时暂停，然后反向运动并将哑铃带回起始位置。 重复所需的重复次数，然后换臂重复。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "e64019a4de317269e8cc7d9ac90621b7aeaaf931d18ba75afd0a3c5760caddea",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "0342",
+          "name": "dumbbell lying one arm press v. 2",
+          "name_zh": "哑铃平躺单臂推举（第二式）"
+        },
+        {
+          "row": 1,
+          "id": "1284",
+          "name": "dumbbell lying pullover on exercise ball",
+          "name_zh": "哑铃球上拉下推"
+        },
+        {
+          "row": 2,
+          "id": "1285",
+          "name": "dumbbell one arm bench fly",
+          "name_zh": "哑铃单臂卧推飞鸟"
+        }
+      ]
+    },
+    {
+      "id": "auto_chest_1286_1287_1288",
+      "category": "chest",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_chest_1286_1287_1288.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_push_1.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_push_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_arms_2.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: dumbbell one arm chest fly on exercise ball (哑铃单臂胸飞鸟（球上）).\nPrimary target metadata: pectorals; supporting muscle group: shoulders; equipment: dumbbell.\nSource movement instructions: 坐在健身球上，一只手拿着哑铃，双脚平放在地上。 双脚向前走，滚动球，直到你的上背部受到球的支撑，并且你的头、脖子和肩膀离开球。 将手臂伸直，将哑铃举至胸部上方，手掌朝内。 慢慢地将哑铃向一侧放低，保持肘部轻微弯曲。 当手臂与地面平行时暂停片刻。 启动胸部肌肉，将哑铃拉回到起始位置。 重复所需的重复次数，然后换臂。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: dumbbell one arm decline chest press (哑铃单臂下斜胸推).\nPrimary target metadata: pectorals; supporting muscle group: triceps; equipment: dumbbell.\nSource movement instructions: 躺在下斜长凳上，一只手握住哑铃，放在胸前。 将双脚平放在地面上，并将背部压在长凳上。 伸展手臂，将哑铃推向天花板，充分伸展肘部。 在顶部停顿片刻，然后慢慢将哑铃放回起始位置。 重复所需的重复次数，然后换到另一只手臂。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: dumbbell one arm fly on exercise ball (哑铃单臂飞鸟（球上）).\nPrimary target metadata: pectorals; supporting muscle group: shoulders; equipment: dumbbell.\nSource movement instructions: 坐在健身球上，一只手拿着哑铃，双脚平放在地上。 双脚向前走，身体向下滚动，直到上背部靠在健身球上。 将手臂伸直，将哑铃举至胸部上方，手掌朝内。 慢慢地将哑铃向一侧放低，保持肘部轻微弯曲。 暂停片刻，然后挤压胸部肌肉，使哑铃回到起始位置。 重复所需的重复次数，然后换臂。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "04c7ccc32a046ff4c4605e9c21b6da0c959d2f445246b2e0b629001940e3df26",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "1286",
+          "name": "dumbbell one arm chest fly on exercise ball",
+          "name_zh": "哑铃单臂胸飞鸟（球上）"
+        },
+        {
+          "row": 1,
+          "id": "1287",
+          "name": "dumbbell one arm decline chest press",
+          "name_zh": "哑铃单臂下斜胸推"
+        },
+        {
+          "row": 2,
+          "id": "1288",
+          "name": "dumbbell one arm fly on exercise ball",
+          "name_zh": "哑铃单臂飞鸟（球上）"
+        }
+      ]
+    },
+    {
+      "id": "auto_chest_1289_1290_1291",
+      "category": "chest",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_chest_1289_1290_1291.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_push_1.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_push_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_arms_2.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: dumbbell one arm incline chest press (哑铃单臂上斜胸推).\nPrimary target metadata: pectorals; supporting muscle group: shoulders; equipment: dumbbell.\nSource movement instructions: 将上斜凳调整至 45 度角。 坐在长凳上，背部靠在垫子上，双脚平放在地面上。 一只手握住哑铃，正手握住，将其放在肩膀上。 将哑铃向上推离身体，完全伸展手臂。 在顶部停顿片刻，然后慢慢将哑铃放回起始位置。 重复所需的重复次数，然后换到另一只手臂。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: dumbbell one arm press on exercise ball (哑铃单臂推举（球上）).\nPrimary target metadata: pectorals; supporting muscle group: shoulders; equipment: dumbbell.\nSource movement instructions: 坐在健身球上，双脚平放在地上，膝盖弯曲成 90 度角。 一只手握住哑铃，将其置于与肩同高的位置，肘部弯曲，手掌朝前。 慢慢向上推哑铃，直到手臂完全伸展，同时保持核心收紧并在健身球上保持平衡。 在最高点暂停片刻，然后慢慢将哑铃放回起始位置。 重复所需的重复次数，然后换到另一只手臂。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: dumbbell one arm pullover on exercise ball (哑铃单臂拉下推（球上）).\nPrimary target metadata: pectorals; supporting muscle group: triceps; equipment: dumbbell.\nSource movement instructions: 坐在健身球上，双脚平放在地上，膝盖弯曲成 90 度角。 用一只手握住哑铃，将手臂伸直至胸部上方。 慢慢地将哑铃放到脑后，同时保持手臂伸直。 暂停片刻，然后将哑铃举回到起始位置。 重复所需的重复次数，然后换臂。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "91303a35c8aaed3c53cee046e4ac3650b07ceb22650a878e069abc5d58e7b6e9",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "1289",
+          "name": "dumbbell one arm incline chest press",
+          "name_zh": "哑铃单臂上斜胸推"
+        },
+        {
+          "row": 1,
+          "id": "1290",
+          "name": "dumbbell one arm press on exercise ball",
+          "name_zh": "哑铃单臂推举（球上）"
+        },
+        {
+          "row": 2,
+          "id": "1291",
+          "name": "dumbbell one arm pullover on exercise ball",
+          "name_zh": "哑铃单臂拉下推（球上）"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "path": "assets/motion_repairs/20260914_review4/squat-source.png",
+    "sha256": "732f0ead88dfb2ee6640bf98fa8f64876275623fe72af4e544f6f499cb86fed1",
+    "status": "not_approved",
+    "tool": "built-in imagegen",
+    "imported": false
+  },
+  {
+    "path": "assets/motion_repairs/20260914_review4/squat-refined.png",
+    "sha256": "99c05236e0bed99c16b60eae268a69c8b4ef23bce00bbb7413bed1349cae6ee9",
+    "status": "not_approved",
+    "tool": "built-in imagegen",
+    "imported": false
+  }
+]

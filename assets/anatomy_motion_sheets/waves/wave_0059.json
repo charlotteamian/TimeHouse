@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "wave": 59,
+  "mode": "built-in-imagegen",
+  "batches": [
+    {
+      "id": "auto_shoulders_1438_0552_0553",
+      "category": "shoulders",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_shoulders_1438_0552_0553.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_push_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_arms_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_back_2.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: kettlebell seated two arm military press (壶铃坐姿双臂军式推举).\nPrimary target metadata: delts; supporting muscle group: triceps; equipment: kettlebell.\nSource movement instructions: 坐在长凳上，背部挺直，双脚平放在地上。 每只手握住一个壶铃，与肩同高，手掌朝前。 完全伸展双臂，将壶铃压过头顶。 在顶部暂停片刻，然后慢慢将壶铃放回肩部水平。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: kettlebell two arm clean (壶铃双臂挂举).\nPrimary target metadata: delts; supporting muscle group: traps; equipment: kettlebell.\nSource movement instructions: 双脚分开与肩同宽站立，双手握住壶铃放在大腿前，手掌朝向自己。 稍微弯曲膝盖并铰接臀部，将壶铃降低到地面。 爆发性伸展臀部和膝盖，利用动量将壶铃拉向肩膀。 当壶铃达到肩膀高度时，旋转手腕，将壶铃放在架子上，肘部内收，壶铃放在前臂背面。 将壶铃放回起始位置，然后重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: kettlebell two arm military press (壶铃双臂军式推举).\nPrimary target metadata: delts; supporting muscle group: triceps; equipment: kettlebell.\nSource movement instructions: 双脚分开与肩同宽站立，双手各握一个壶铃，与肩同高，手掌朝前。 启动你的核心并将壶铃压过头顶，充分伸展你的手臂。 在顶部暂停片刻，然后慢慢将壶铃放回起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "5502f575ac75d7f937daf3b41e2c14832232aa5aedae37319d4dd21a6dbbe4c2",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "1438",
+          "name": "kettlebell seated two arm military press",
+          "name_zh": "壶铃坐姿双臂军式推举"
+        },
+        {
+          "row": 1,
+          "id": "0552",
+          "name": "kettlebell two arm clean",
+          "name_zh": "壶铃双臂挂举"
+        },
+        {
+          "row": 2,
+          "id": "0553",
+          "name": "kettlebell two arm military press",
+          "name_zh": "壶铃双臂军式推举"
+        }
+      ]
+    },
+    {
+      "id": "auto_shoulders_3237_2271_0584",
+      "category": "shoulders",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_shoulders_3237_2271_0584.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_push_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_arms_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_back_2.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: landmine lateral raise (地雷侧平举).\nPrimary target metadata: delts; supporting muscle group: traps; equipment: barbell.\nSource movement instructions: 站立，双脚分开与肩同宽，膝盖稍微弯曲。 正手握住杠铃，将其放在肩膀前面。 保持核心收紧并保持背部挺直，将杠铃向上举起并远离身体，将其提升至肩膀高度。 在顶部停顿片刻，然后慢慢将杠铃放回起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: left hook. boxing (左勾拳（拳击）).\nPrimary target metadata: delts; supporting muscle group: biceps; equipment: body weight.\nSource movement instructions: 双脚分开与肩同宽站立，膝盖稍微弯曲。 左手举起以保护脸部，右手握住下巴。 旋转臀部并以左脚为轴心，同时以出拳动作向前伸展左臂。 扭转你的躯干并调动你的核心肌肉以产生出拳的力量。 将手臂拉回到起始位置，然后重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: lever lateral raise (侧平举（杠杆）).\nPrimary target metadata: delts; supporting muscle group: traps; equipment: leverage machine.\nSource movement instructions: 调整座椅高度并将自己放在机器上，背部靠在垫子上。 正手握住手柄并保持手臂伸直。 呼气并将手臂向两侧抬起，直到与地板平行。 在顶部停顿片刻，然后吸气，慢慢将手臂放回起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "8c06dfeaedb3d9103a14f6038a1e03024e6912a7e74dbe9e30849d6a33407f04",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "3237",
+          "name": "landmine lateral raise",
+          "name_zh": "地雷侧平举"
+        },
+        {
+          "row": 1,
+          "id": "2271",
+          "name": "left hook. boxing",
+          "name_zh": "左勾拳（拳击）"
+        },
+        {
+          "row": 2,
+          "id": "0584",
+          "name": "lever lateral raise",
+          "name_zh": "侧平举（杠杆）"
+        }
+      ]
+    },
+    {
+      "id": "auto_shoulders_0587_0590_0602",
+      "category": "shoulders",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_shoulders_0587_0590_0602.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_push_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_arms_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_back_2.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: lever military press (杠铃军事推举).\nPrimary target metadata: delts; supporting muscle group: triceps; equipment: leverage machine.\nSource movement instructions: 调整座椅高度并将自己放在机器上，背部靠在靠背上。 正手握住手柄，双手之间的距离略大于肩宽。 向上推动手柄，直到手臂完全伸展，但不要锁住肘部。 在顶部暂停片刻，然后慢慢将手柄放回起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: lever one arm shoulder press (单臂肩推（杠杆）).\nPrimary target metadata: delts; supporting muscle group: triceps; equipment: leverage machine.\nSource movement instructions: 调整座椅高度并将自己放在机器上，背部靠在垫子上。 用一只手抓住杠杆手柄，并将肘部置于 90 度角。 向上按下控制杆，直到手臂完全伸过头顶。 在顶部暂停片刻，然后慢慢将控制杆放回起始位置。 重复所需的重复次数，然后换到另一只手臂。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: lever seated reverse fly (坐姿反向飞鸟（杠杆）).\nPrimary target metadata: delts; supporting muscle group: trapezius; equipment: leverage machine.\nSource movement instructions: 调整座椅高度，将自己放在机器上，胸部靠在垫子上，双脚平放在地板上。 正手握住手柄，并保持手臂稍微弯曲。 呼气并将肩胛骨挤压在一起，同时向后和向外拉动手柄，使其远离身体。 在收缩峰值时停顿片刻，然后吸气，慢慢回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "77f8648d87b3f5d075f5e8fe0f429288ecb6102f3b6ce38da035e7206d6f7843",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "0587",
+          "name": "lever military press",
+          "name_zh": "杠铃军事推举"
+        },
+        {
+          "row": 1,
+          "id": "0590",
+          "name": "lever one arm shoulder press",
+          "name_zh": "单臂肩推（杠杆）"
+        },
+        {
+          "row": 2,
+          "id": "0602",
+          "name": "lever seated reverse fly",
+          "name_zh": "坐姿反向飞鸟（杠杆）"
+        }
+      ]
+    }
+  ]
+}

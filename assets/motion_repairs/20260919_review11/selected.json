@@ -1,0 +1,218 @@
+[
+  {
+    "id": "0467",
+    "name": "gorilla chin",
+    "name_zh": "猩猩下巴",
+    "media": "raw:dataset_motion_0467",
+    "category": "waist",
+    "equipment": "body weight",
+    "target": "abs",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms",
+      "biceps"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，膝盖稍微弯曲。",
+      "正手握住引体向上杆，握距略宽于肩宽。",
+      "悬挂在杠上，双臂完全伸展，手掌背向自己。",
+      "收紧核心肌群，将身体拉向杠铃杆，将下巴置于杠铃上方。",
+      "在顶部停顿片刻，然后慢慢将身体放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0323",
+    "name": "dumbbell incline one arm lateral raise",
+    "name_zh": "哑铃上斜单臂侧平举",
+    "media": "raw:dataset_motion_0323",
+    "category": "shoulders",
+    "equipment": "dumbbell",
+    "target": "delts",
+    "muscle_group": "trapezius",
+    "secondary_muscles": [
+      "trapezius",
+      "triceps"
+    ],
+    "instructions_zh": [
+      "坐在上斜凳上，一只手拿着哑铃，将其放在大腿上。",
+      "身体前倾，将上臂靠在大腿内侧。",
+      "将哑铃举到一侧，保持手臂稍微弯曲，手掌朝下。",
+      "继续抬起，直到手臂与地板平行。",
+      "在最高点暂停片刻，然后慢慢将哑铃放回起始位置。",
+      "重复所需的重复次数，然后换到另一只手臂。"
+    ]
+  },
+  {
+    "id": "0469",
+    "name": "groin crunch",
+    "name_zh": "腹股沟卷腹",
+    "media": "raw:dataset_motion_0469",
+    "category": "waist",
+    "equipment": "body weight",
+    "target": "abs",
+    "muscle_group": "hip flexors",
+    "secondary_muscles": [
+      "hip flexors",
+      "inner thighs"
+    ],
+    "instructions_zh": [
+      "平躺，膝盖弯曲，双脚平放在地上。",
+      "将双手放在脑后，肘部朝外。",
+      "收紧腹肌，将双腿抬离地面，将膝盖靠近胸部。",
+      "在顶部暂停片刻，然后慢慢将双腿放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0324",
+    "name": "dumbbell incline palm-in press",
+    "name_zh": "哑铃上斜掌心向内推举",
+    "media": "raw:dataset_motion_0324",
+    "category": "chest",
+    "equipment": "dumbbell",
+    "target": "pectorals",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "triceps"
+    ],
+    "instructions_zh": [
+      "设置一个 45 度角的上斜凳。",
+      "坐在长凳上，双手各握一个哑铃，手掌相对。",
+      "将双脚牢牢踩在地面上，并保持背部挺直靠在长凳上。",
+      "从与肩同高的哑铃开始，肘部弯曲，手掌相对。",
+      "将哑铃向上推离身体，充分伸展手臂。",
+      "在最高点暂停片刻，然后慢慢将哑铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0471",
+    "name": "handstand push-up",
+    "name_zh": "倒立俯卧撑",
+    "media": "raw:dataset_motion_0471",
+    "category": "upper arms",
+    "equipment": "body weight",
+    "target": "triceps",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "chest",
+      "core"
+    ],
+    "instructions_zh": [
+      "找到一堵墙，背对墙，站在几英尺远的地方。",
+      "将双手放在地面上，与肩同宽，然后将脚踢到墙上，形成倒立姿势。",
+      "弯曲肘部，将头低向地面，保持身体呈一条直线。",
+      "用手推动并伸展双臂以返回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0325",
+    "name": "dumbbell incline raise",
+    "name_zh": "哑铃上斜推举",
+    "media": "raw:dataset_motion_0325",
+    "category": "shoulders",
+    "equipment": "dumbbell",
+    "target": "delts",
+    "muscle_group": "trapezius",
+    "secondary_muscles": [
+      "trapezius",
+      "triceps"
+    ],
+    "instructions_zh": [
+      "坐在上斜凳上，每只手各拿一个哑铃，放在大腿上。",
+      "向后靠在长凳上，将哑铃举至肩高，手掌朝前。",
+      "背部靠在长凳上，呼气并将哑铃举过头顶，充分伸展双臂。",
+      "在顶部停顿片刻，然后吸气，慢慢将哑铃放回肩部高度。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0472",
+    "name": "hanging leg raise",
+    "name_zh": "悬挂抬腿",
+    "media": "raw:dataset_motion_0472",
+    "category": "waist",
+    "equipment": "body weight",
+    "target": "abs",
+    "muscle_group": "hip flexors",
+    "secondary_muscles": [
+      "hip flexors"
+    ],
+    "instructions_zh": [
+      "悬挂在引体向上杆上，双臂完全伸展，手掌背向自己。",
+      "启动你的核心并将双腿抬起到你面前，保持伸直。",
+      "继续抬起，直到双腿与地面平行或达到您可以舒适地达到的高度。",
+      "在顶部暂停片刻，然后慢慢将双腿放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0326",
+    "name": "dumbbell incline rear lateral raise",
+    "name_zh": "哑铃上斜后侧平举",
+    "media": "raw:dataset_motion_0326",
+    "category": "shoulders",
+    "equipment": "dumbbell",
+    "target": "delts",
+    "muscle_group": "traps",
+    "secondary_muscles": [
+      "traps",
+      "rhomboids"
+    ],
+    "instructions_zh": [
+      "设置一个 45 度角的上斜凳。",
+      "坐在长凳上，胸部靠在靠背上，双手各握一个哑铃。",
+      "双臂伸直向下，手掌相对。",
+      "保持肘部轻微弯曲，将手臂向两侧抬起，直到与地面平行。",
+      "在顶部暂停片刻，然后慢慢将手臂放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0473",
+    "name": "hanging pike",
+    "name_zh": "悬挂劈叉",
+    "media": "raw:dataset_motion_0473",
+    "category": "waist",
+    "equipment": "body weight",
+    "target": "abs",
+    "muscle_group": "hip flexors",
+    "secondary_muscles": [
+      "hip flexors",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "悬挂在引体向上杆上，双臂完全伸展，手掌背向自己。",
+      "收紧核心肌群，将双腿向杠铃方向抬起，保持伸直。",
+      "继续抬起身体，直到身体形成“V”形，双腿与地面平行。",
+      "保持该姿势片刻，然后慢慢将双腿放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0327",
+    "name": "dumbbell incline row",
+    "name_zh": "哑铃上斜划船",
+    "media": "raw:dataset_motion_0327",
+    "category": "back",
+    "equipment": "dumbbell",
+    "target": "upper back",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "设置一个 45 度角的上斜凳。",
+      "双手各握一个哑铃，坐在长凳上，胸部靠在斜坡上。",
+      "充分伸展双臂，让哑铃从肩膀上垂直垂下。",
+      "将哑铃拉向胸部，将肩胛骨挤压在一起。",
+      "在最高点暂停片刻，然后慢慢将哑铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  }
+]

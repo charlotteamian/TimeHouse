@@ -1,0 +1,68 @@
+{
+  "batch": "20260914_review3",
+  "inspected": [
+    "3211",
+    "0659",
+    "0274",
+    "0006",
+    "0310",
+    "0333",
+    "0383",
+    "0430",
+    "0285",
+    "3021",
+    "0805",
+    "0809",
+    "0872",
+    "0710",
+    "3699",
+    "0630"
+  ],
+  "newly_reviewed": [
+    "0310",
+    "0383",
+    "0430",
+    "0285",
+    "0872",
+    "0630",
+    "3699"
+  ],
+  "registered_media": [
+    "0430",
+    "0285",
+    "0872",
+    "0630",
+    "3699"
+  ],
+  "unchanged_media": [
+    "0310",
+    "0383"
+  ],
+  "new_repair_queue": {
+    "3211": "待修图 · 跪姿俯卧撑最低位双手与膝盖位移不一致，暂不能整体对齐。",
+    "0659": "待修图 · 靠墙俯卧撑的双脚、双手和墙面不同时固定，需要修正支撑关系。",
+    "0274": "待修图 · 地板卷腹双脚与骨盆的位移不同步，不能仅平移一帧通过。",
+    "0006": "待修图 · 交替触踵的中间帧翻转了视角和垫子，需重制为固定视角。",
+    "0333": "待修图 · 哑铃臂屈伸上臂也在大幅前后摆动，未保持肘部支点固定。",
+    "3021": "待修图 · 肩胛俯卧撑被画成明显屈肘的普通俯卧撑，需修正为直臂肩胛运动。",
+    "0710": "待修图 · 站姿髋外展最高位幅度过大，支撑与骨盆控制未通过，需重画舒适幅度。"
+  },
+  "carryover_not_approved": [
+    "0805",
+    "0809"
+  ],
+  "sources": {
+    "0310": "https://www.puregym.com/exercises/arms-and-shoulders/front-raises/dumbbell-front-raise/",
+    "0383": "https://www.puregym.com/exercises/arms-and-shoulders/rear-delt-exercises/rear-delt-flyes/",
+    "0430": "https://www.puregym.com/exercises/arms-and-shoulders/tricep-extension/overhead-tricep-extension/",
+    "0285": "https://www.mayoclinic.org/healthy-lifestyle/fitness/multimedia/biceps-curl/vid-20084675",
+    "0872": "https://www.puregym.com/exercises/abs/reverse-crunches/",
+    "0630": "https://www.puregym.com/exercises/full-body/mountain-climbers/",
+    "3699": "https://www.nasm.org/resource-center/blog/training/the-plank-coaching-progressions-and-variations-for-every-client"
+  },
+  "image_generation_calls": 0,
+  "reviewed_total": 18,
+  "validation": "passed",
+  "verification_path": "build/review3-20260914/verification-summary.json",
+  "manual_playback_review": "Registered four-frame sheets and captured Android loops visually reviewed"
+}

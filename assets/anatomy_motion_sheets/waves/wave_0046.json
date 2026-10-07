@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "wave": 46,
+  "mode": "built-in-imagegen",
+  "batches": [
+    {
+      "id": "auto_lower_legs_2334_1392_1393",
+      "category": "lower legs",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_lower_legs_2334_1392_1393.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_legs_1.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_legs_back_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_1.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: sled lying calf press (雪橇卧式小腿推).\nPrimary target metadata: calves; supporting muscle group: hamstrings; equipment: sled machine.\nSource movement instructions: 将雪橇机调整至舒适的重量。 坐在雪橇机上，背部靠在垫子上，双脚放在平台上。 将脚趾和脚掌放在平台边缘，脚跟悬空。 伸展脚踝，将平台推离您，保持膝盖稍微弯曲。 继续用力，直到小腿完全收缩。 保持收缩一会儿，然后慢慢将平台放回起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: sled one leg calf press on leg press (雪橇单腿腿推小腿推).\nPrimary target metadata: calves; supporting muscle group: hamstrings; equipment: sled machine.\nSource movement instructions: 调整压腿机的座椅，使双脚踩在雪橇上时膝盖稍微弯曲。 坐在机器上，背部靠在靠背上，双脚放在雪橇上，与肩同宽。 将脚趾和脚掌放在雪橇上，保持脚跟离开。 伸展脚踝，保持膝盖稍微弯曲，将雪橇向前推。 在顶部停顿片刻，然后通过弯曲脚踝慢慢将雪橇放回原处。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: smith one leg floor calf raise (史密斯单腿地面小腿提踵).\nPrimary target metadata: calves; supporting muscle group: hamstrings; equipment: smith machine.\nSource movement instructions: 将自己放在史密斯机杆下方的地板上，背对机器。 将脚掌放在凸起的表面上，例如举重板或杠铃块。 将史密斯机杆放在小腿上，就在脚踝上方。 用手握住横杆以保持稳定。 伸展脚踝，将脚后跟抬离地面，抬起身体。 在动作的最高点暂停，然后慢慢降低脚跟回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "d703f7ee168ed3690df92e2f34c263d58490aae23e2d220cf176ed3266ab9dda",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "2334",
+          "name": "sled lying calf press",
+          "name_zh": "雪橇卧式小腿推"
+        },
+        {
+          "row": 1,
+          "id": "1392",
+          "name": "sled one leg calf press on leg press",
+          "name_zh": "雪橇单腿腿推小腿推"
+        },
+        {
+          "row": 2,
+          "id": "1393",
+          "name": "smith one leg floor calf raise",
+          "name_zh": "史密斯单腿地面小腿提踵"
+        }
+      ]
+    },
+    {
+      "id": "auto_lower_legs_0763_1394_1395",
+      "category": "lower legs",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_lower_legs_0763_1394_1395.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_legs_1.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_legs_back_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_1.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: smith reverse calf raises (史密斯反向小腿提踵).\nPrimary target metadata: calves; supporting muscle group: hamstrings; equipment: smith machine.\nSource movement instructions: 将史密斯机杆调整到略低于肩膀的高度。 面向杠铃站立，双脚分开与臀部同宽，脚趾向前。 将脚掌放在台阶或平台的边缘，脚后跟悬空。 握住杠铃以提供支撑，保持背部挺直，核心肌群参与。 尽可能高地抬高脚后跟，将身体重量转移到脚掌上。 在顶部停顿片刻，然后慢慢降低脚后跟回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: smith reverse calf raises (史密斯反向小腿提踵).\nPrimary target metadata: calves; supporting muscle group: hamstrings; equipment: smith machine.\nSource movement instructions: 将史密斯机杆调整到略低于肩膀的高度。 面向杠铃站立，双脚分开与臀部同宽，脚趾向前。 将脚掌放在台阶或平台的边缘，脚后跟悬空。 抓住横杆以获得支撑。 尽可能高地抬高脚跟，将身体抬起到脚趾上。 在顶部停顿片刻，然后慢慢降低脚后跟回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: smith seated one leg calf raise (史密斯坐姿单腿小腿提踵).\nPrimary target metadata: calves; supporting muscle group: hamstrings; equipment: smith machine.\nSource movement instructions: 坐在机器上，背部靠在垫子上，双脚放在脚踏板上。 将一条腿放在脚踏板上，另一条腿离开脚踏板。 使用小腿肌肉，尽可能高地抬高脚跟。 在顶部暂停片刻，然后慢慢将脚跟放回起始位置。 重复所需的重复次数，然后换腿并重复。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "35edb43be478900f88bc729c13882081b27ecf3206ca208a4dda07a6fecdcf80",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "0763",
+          "name": "smith reverse calf raises",
+          "name_zh": "史密斯反向小腿提踵"
+        },
+        {
+          "row": 1,
+          "id": "1394",
+          "name": "smith reverse calf raises",
+          "name_zh": "史密斯反向小腿提踵"
+        },
+        {
+          "row": 2,
+          "id": "1395",
+          "name": "smith seated one leg calf raise",
+          "name_zh": "史密斯坐姿单腿小腿提踵"
+        }
+      ]
+    },
+    {
+      "id": "auto_lower_legs_0773_1396_1490",
+      "category": "lower legs",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_lower_legs_0773_1396_1490.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_legs_1.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_legs_back_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_core_1.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: smith standing leg calf raise (史密斯站立小腿提踵).\nPrimary target metadata: calves; supporting muscle group: hamstrings; equipment: smith machine.\nSource movement instructions: 将史密斯机杆调整到一个高度，使您能够双脚平放在地面上且肩膀位于杆下方。 将自己置于杠铃下方，双脚分开与肩同宽，脚趾向前。 将双手放在横杆上以保持稳定。 收紧小腿，慢慢将脚跟抬离地面，将身体抬起到脚趾上。 在顶部停顿片刻，然后慢慢降低脚后跟回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: smith toe raise (史密斯脚尖提踵).\nPrimary target metadata: calves; supporting muscle group: ankles; equipment: smith machine.\nSource movement instructions: 将史密斯机杆调整到一个高度，让您可以舒适地站立，双脚平放在地面上。 将自己置于杠铃下方，肩膀位于杠铃正下方，双脚分开与肩同宽。 将脚掌放在升高的平台或重量板上，脚后跟悬在边缘。 正手握住杠铃，握距略宽于肩宽。 在整个练习过程中启动你的核心并保持背部挺直。 慢慢地尽可能高地抬起脚后跟，将身体重量转移到脚掌上。 在顶部停顿片刻，然后慢慢降低脚后跟回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: standing calf raise (on a staircase) (阶梯站姿提踵).\nPrimary target metadata: calves; supporting muscle group: ankles; equipment: body weight.\nSource movement instructions: 站在台阶或坚固平台的边缘，脚后跟悬垂，脚趾放在台阶上。 如果需要，抓住栏杆或墙壁以保持平衡。 慢慢地尽可能高地抬起脚后跟，将身体重量转移到脚掌上。 在顶部停顿片刻，然后慢慢降低脚后跟回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "373efe609f40cd4780b775faca2616c348184bada882a896e7895d6cd64da758",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "0773",
+          "name": "smith standing leg calf raise",
+          "name_zh": "史密斯站立小腿提踵"
+        },
+        {
+          "row": 1,
+          "id": "1396",
+          "name": "smith toe raise",
+          "name_zh": "史密斯脚尖提踵"
+        },
+        {
+          "row": 2,
+          "id": "1490",
+          "name": "standing calf raise (on a staircase)",
+          "name_zh": "阶梯站姿提踵"
+        }
+      ]
+    }
+  ]
+}

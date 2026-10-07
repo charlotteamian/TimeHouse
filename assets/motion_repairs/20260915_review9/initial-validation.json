@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "visually_reviewed": [
+    "0277",
+    "0312",
+    "0315",
+    "0317"
+  ],
+  "dataset_sha256": "11b14f763275cd957ef8f2b5ab308e4bdfad8779a84b6b6d4b88076baa321364",
+  "media_sha256": {
+    "0277": "30c7c5e8245f7713d653a9b67b439396983adf498de03ab90f8f468f3868d8e9",
+    "0312": "c12f7c2c5580275b63ea22bb8294a2206e5e990f577f224a5afb05fbf2bfc6cf",
+    "0315": "4e7dcf63f8ed3dde17b34e8009236f074c05bae94febac38a603bc16cf4db2cb",
+    "0317": "c0150695dffff85a7f21215d6075dd9907bbfce6f03516c0d813e26c325182f4"
+  },
+  "checks": 30,
+  "completed_at": "2026-09-15T12:49:50.406384+08:00",
+  "visual_notes": "Viewed all four saved Android playback contacts: visible low/mid/top/return poses, stable required supports, no obvious overlapping figures; 0317 fixed loop retains the original poses."
+}

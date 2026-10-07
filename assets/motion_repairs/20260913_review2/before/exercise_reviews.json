@@ -1,0 +1,116 @@
+{
+  "version": 1,
+  "dataset_sha256": "5f8d4de64f23a66c16096a940c3f8a6a5223d16daad28f8cbf3c0f5a2009edf8",
+  "reviewed": [
+    {
+      "id": "dataset_1324_0293",
+      "name": "哑铃俯身划船",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "AI逐项复核（本轮）",
+      "media_sha256": "4b3155369e9af07898de4df08b1d6d84fee5d8a312ed3516652d0d04a52ba857",
+      "note": "名称、器械、文字和四帧姿势已逐项核对；示范为分步阶段图，非连续实拍。",
+      "source": "https://www.puregym.com/exercises/back/rows/dumbbell-bent-over-row/"
+    },
+    {
+      "id": "dataset_1324_0294",
+      "name": "哑铃弯举",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "AI逐项复核（本轮）",
+      "media_sha256": "19aa02fe576fb6615c93eb3dd7cd745424418fbd94c5a5d992942face0068942",
+      "note": "名称、器械、文字和四帧姿势已逐项核对；示范为分步阶段图，非连续实拍。",
+      "source": "https://www.mayoclinic.org/healthy-lifestyle/fitness/multimedia/biceps-curl/vid-20084675"
+    },
+    {
+      "id": "dataset_1324_1760",
+      "name": "哑铃杯式深蹲",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "AI逐项复核（本轮）",
+      "media_sha256": "dfbd65113895eb25dad6b2a6d18a92029b7849bae6075bf869d677ffc7f7b852",
+      "note": "名称、器械、文字和四帧姿势已逐项核对；示范为分步阶段图，非连续实拍。",
+      "source": "https://www.nasm.org/resource-center/exercise-library/goblet-squat"
+    },
+    {
+      "id": "dataset_1324_0662",
+      "name": "俯卧撑",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "AI逐项复核（本轮）",
+      "media_sha256": "2b21e3e514d3d5cad514b393599050f9478f021f49c26aec9793ae817ae6b3a8",
+      "note": "名称、器械、文字和四帧姿势已逐项核对；示范为分步阶段图，非连续实拍。",
+      "source": "https://www.nasm.org/resource-center/exercise-library/push-up"
+    },
+    {
+      "id": "dataset_1324_0334",
+      "name": "哑铃侧平举",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "AI逐项复核",
+      "media_sha256": "542db4401686fe6f47937073412a224fada9c388a692530fa0ebb9d98605f146",
+      "note": "已逐项核对名称、器械、目标肌群、文字步骤和四帧姿势；支撑点固定，保留原有播放时长。",
+      "source": "https://www.puregym.com/exercises/arms-and-shoulders/lateral-raises/dumbbell-lateral-raise/"
+    },
+    {
+      "id": "dataset_1324_0406",
+      "name": "哑铃耸肩",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "AI逐项复核",
+      "media_sha256": "47cd9308f72ef40d368bacd38135f1f03f1129c8671e5cdc04dd22964b72131f",
+      "note": "已逐项核对名称、器械、目标肌群、文字步骤和四帧姿势；支撑点固定，保留原有播放时长。",
+      "source": "https://www.puregym.com/exercises/back/shrugs/dumbbell-shrug/"
+    },
+    {
+      "id": "dataset_1324_0426",
+      "name": "哑铃站立过头推举",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "AI逐项复核",
+      "media_sha256": "7b749452f71bd27ab4115ad570b03d71c880b6083e7bd598385bd70d23f13312",
+      "note": "已逐项核对名称、器械、目标肌群、文字步骤和四帧姿势；支撑点固定，保留原有播放时长。已将最高位原帧上移6像素，修正双脚一起下移的问题。",
+      "source": "https://www.puregym.com/exercises/arms-and-shoulders/shoulder-press/dumbbell-shoulder-press/"
+    },
+    {
+      "id": "dataset_1324_0808",
+      "name": "悬挂带划船",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "AI逐项复核",
+      "media_sha256": "a6767e1b80d83d0864226138e71475dcc75d5304b6b39aed573966d9afc00c17",
+      "note": "已逐项核对名称、器械、目标肌群、文字步骤和四帧姿势；支撑点固定，保留原有播放时长。已局部对齐上方悬挂带和墙面固定点，人体与双脚像素保持原样。",
+      "source": "https://www.trxtraining.com/blogs/news/7-basic-movements"
+    }
+  ],
+  "pending": [
+    {
+      "id": "dataset_1324_0300",
+      "note": "待核逻辑 · 硬拉名称与髋铰链示范的变式需要进一步核对"
+    },
+    {
+      "id": "dataset_1324_0289",
+      "note": "待核逻辑 · 卧推还需稳定卧推凳，当前器械筛选未单列支撑条件"
+    },
+    {
+      "id": "dataset_1324_0276",
+      "note": "待修图 · 死虫式头部与骨盆在不同帧发生不同方向位移，单次平移不能同时固定支撑点。"
+    },
+    {
+      "id": "dataset_1324_3013",
+      "note": "待修图 · 地板臀桥头部与双脚支撑点不同步漂移，暂未通过复核。"
+    },
+    {
+      "id": "dataset_1324_1685",
+      "note": "待修图 · 深蹲至头顶伸展的左右脚间距随帧变化，举手顶端贴边，需局部修正。"
+    },
+    {
+      "id": "dataset_1324_0805",
+      "note": "待修图 · 悬挂架与双脚不同步漂移；文字朝向与示范也需继续核对。已纠正为悬挂带器械。"
+    },
+    {
+      "id": "dataset_1324_0809",
+      "note": "待修图 · 前脚与悬挂固定点不同步漂移，不能整体平移修正；已纠正后脚放入脚托的文字。"
+    },
+    {
+      "id": "dataset_1324_0806",
+      "note": "待核逻辑 · 图中实际为吊环俯卧撑，已纠正器械；现有步骤仍需对照吊环动作重新核对。"
+    },
+    {
+      "id": "dataset_1324_0807",
+      "note": "待核逻辑 · 图中实际为单杠悬垂举膝，已纠正器械；尚未完成逐帧支撑点复核。"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "test_fixture_corrections": [
+    {
+      "runner": "qa_review_flow.py",
+      "reason": "1.2.14 quarantines old unreviewed drafts at load; old test expected start-time dialog."
+    },
+    {
+      "runner": "qa_review_edges.py",
+      "reason": "1.2.14 removes optional review scope; verify mandatory filtering despite legacy opt-outs after restart."
+    },
+    {
+      "runner": "qa_review_batch10_final.py",
+      "reason": "Wait for actual three-second COUNT_IN before asserting WORK."
+    },
+    {
+      "runner": "qa_user_fixes.py",
+      "reason": "Quote empty Base64 argument so the emulator can clear a field for negative validation tests."
+    },
+    {
+      "runner": "UiSnapshot.java",
+      "reason": "Expose field error and focus, and run real recommendation safety checks against loaded catalog."
+    }
+  ],
+  "app_change_scope": "WorkoutDoseEditor.java only; exercise source and media changes listed separately."
+}

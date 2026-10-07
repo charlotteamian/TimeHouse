@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "wave": 10,
+  "mode": "built-in-imagegen",
+  "batches": [
+    {
+      "id": "auto_back_3292_1332_1333",
+      "category": "back",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_back_3292_1332_1333.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_back_1.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_back_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_legs_back_2.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: elevator (电梯).\nPrimary target metadata: upper back; supporting muscle group: shoulders; equipment: body weight.\nSource movement instructions: 双脚分开与肩同宽站立，膝盖稍微弯曲。 将双手放在臀部或交叉放在胸前。 保持背部挺直，腰部慢慢向前弯曲，将上半身向地面降低。 在底部停顿片刻，然后慢慢抬起上半身回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: exercise ball alternating arm ups (健身球交替臂上举).\nPrimary target metadata: lats; supporting muscle group: shoulders; equipment: stability ball.\nSource movement instructions: 坐在稳定球上，双脚平放在地面上，背部挺直。 双手各握一个哑铃，手掌朝内，双臂在身体两侧向下伸展。 启动你的核心，慢慢地将一只手臂向肩膀抬起，保持肘部稍微弯曲。 在顶部暂停片刻，然后慢慢将手臂放回起始位置。 用另一只手臂重复该动作。 继续交替手臂进行所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: exercise ball back extension with arms extended (健身球背伸展（手臂伸直）).\nPrimary target metadata: spine; supporting muscle group: glutes; equipment: stability ball.\nSource movement instructions: 将稳定球放在地上，面朝下躺在上面，臀部放在球上，双脚靠在墙上以保持稳定。 将双臂伸直在身前，手掌朝下。 启动你的核心，慢慢地将上半身抬离球，保持背部挺直，颈部与脊柱成一直线。 在顶部停顿片刻，然后慢慢将上半身放回起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "02bbee56b2613b5033a2599177a0e41da0ebcb3641c314248e793e3dbeb32d57",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "3292",
+          "name": "elevator",
+          "name_zh": "电梯"
+        },
+        {
+          "row": 1,
+          "id": "1332",
+          "name": "exercise ball alternating arm ups",
+          "name_zh": "健身球交替臂上举"
+        },
+        {
+          "row": 2,
+          "id": "1333",
+          "name": "exercise ball back extension with arms extended",
+          "name_zh": "健身球背伸展（手臂伸直）"
+        }
+      ]
+    },
+    {
+      "id": "auto_back_1334_1335_1336",
+      "category": "back",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_back_1334_1335_1336.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_back_1.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_back_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_legs_back_2.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: exercise ball back extension with hands behind head (健身球背伸展（手放头后）).\nPrimary target metadata: spine; supporting muscle group: glutes; equipment: stability ball.\nSource movement instructions: 将稳定球放在地上，面朝下躺在上面，臀部放在球上。 将脚靠在墙壁或其他稳定的表面上以获得支撑。 双臂交叉于脑后，双手触碰后脑勺。 启动你的核心，慢慢地将你的上半身抬离球，伸展你的背部，直到你的身体从头部到臀部形成一条直线。 在动作的最高点暂停片刻，然后慢慢将上半身放回起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: exercise ball back extension with knees off ground (健身球背伸展（膝盖离地）).\nPrimary target metadata: spine; supporting muscle group: glutes; equipment: stability ball.\nSource movement instructions: 将稳定球放在地上，面朝下躺在上面，臀部放在球上，双脚靠在墙上以保持稳定。 将双手放在脑后或交叉在胸前。 启动你的核心，慢慢地将你的上半身抬离球，伸展你的背部，直到你的身体从头部到脚后跟形成一条直线。 在顶部停顿片刻，然后慢慢将上半身放回起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: exercise ball back extension with rotation (健身球背伸展（旋转）).\nPrimary target metadata: spine; supporting muscle group: glutes; equipment: stability ball.\nSource movement instructions: 首先，面朝下躺在稳定球上，臀部放在球上，双脚牢牢踩在地面上。 将双手放在脑后或交叉放在胸前。 启动你的核心，慢慢地将你的上半身抬离球，伸展你的背部，直到你的身体从头部到脚后跟形成一条直线。 在顶部停顿片刻，然后慢慢将躯干旋转到一侧，保持臀部和腿部稳定。 返回中心并重复旋转到另一侧。 将上半身放低至起始位置，然后重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "cc4ba902949df515378e004343f0f0d722b4feee27b125efd8cd4921a5d71f99",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "1334",
+          "name": "exercise ball back extension with hands behind head",
+          "name_zh": "健身球背伸展（手放头后）"
+        },
+        {
+          "row": 1,
+          "id": "1335",
+          "name": "exercise ball back extension with knees off ground",
+          "name_zh": "健身球背伸展（膝盖离地）"
+        },
+        {
+          "row": 2,
+          "id": "1336",
+          "name": "exercise ball back extension with rotation",
+          "name_zh": "健身球背伸展（旋转）"
+        }
+      ]
+    },
+    {
+      "id": "auto_back_1338_1339_1341",
+      "category": "back",
+      "destination": "assets/anatomy_motion_sheets/generated/sheet_auto_back_1338_1339_1341.png",
+      "references": [
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_back_1.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_back_2.png",
+        "/Users/restartday/Documents/健身/assets/motion_sheets/sheet_legs_back_2.png"
+      ],
+      "prompt": "Use case: scientific-educational\nAsset type: production source sheet for exercise animation start/end frames\nInput images: all supplied images are style and layout references only. Match their visual language very closely; do not edit or collage them.\nPrimary request: Create one new anatomical exercise motion sheet containing exactly three start/end pose pairs in a strict 3-row by 2-column grid. Each row is one exercise. The left cell is START and the right cell is END.\nCanvas/layout: landscape 3:2 ratio like the references; equal-size cells; very thin pale-gray center divider and row dividers; pure white background; generous consistent padding; no cropping; no captions or labels.\nSubject/style: use the same adult male anatomical fitness model across every cell, grayscale exposed-muscle medical illustration, realistic proportions, close-cropped dark hair, black shorts, barefoot. Equipment is matte black and gray; resistance bands may be muted green. Only the anatomically active primary target muscles are tinted muted coral red. Fine gray anatomical linework, clean educational rendering, soft minimal grounding shadow only.\nMovement interpretation: follow the exercise name and source movement instructions. The left cell shows the setup immediately before the active range of motion; the right cell shows the peak contraction, peak stretch, or defining end position. For unilateral or alternating movements, demonstrate one consistent side. If source metadata conflicts with established biomechanics, preserve the named movement and show the anatomically active muscles rather than coloring an incorrect muscle.\nScientific constraints: anatomically plausible joint positions and equipment interaction; exactly one complete body per cell; correct number of limbs, hands, and feet; matching identity, scale, viewpoint, equipment anchors, and camera within each pair; clearly different start and end range of motion.\nAvoid: any text, arrows, numbers, logos, watermark, labels, decorative background, gym room, extra props, helper people, extra limbs, floating equipment, cut-off body parts, skeletal X-ray look, blue muscles, glossy plastic skin, inconsistent camera, or mixed exercise poses.\n\nRow 1 exercise: exercise ball hug (健身球拥抱).\nPrimary target metadata: spine; supporting muscle group: shoulders; equipment: stability ball.\nSource movement instructions: 坐在稳定球上，双脚平放在地面上，背部挺直。 用双手握住稳定球，将其抱在靠近胸部的位置。 启动你的核心肌肉，慢慢向后倾斜，保持背部挺直，双脚踩在地上。 继续向后倾斜，直到感觉到背部肌肉伸展。 保持该姿势几秒钟，然后慢慢回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 2 exercise: exercise ball lat stretch (健身球背阔肌拉伸).\nPrimary target metadata: lats; supporting muscle group: shoulders; equipment: stability ball.\nSource movement instructions: 坐在稳定球上，双脚平放在地面上，背部挺直。 一只手握住哑铃，然后将手臂伸直至头顶。 慢慢地向另一侧倾斜，感受背阔肌的拉伸。 保持伸展动作 20-30 秒，然后回到起始位置。 在另一侧重复。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.\n\nRow 3 exercise: exercise ball lower back stretch (pyramid) (健身球下背部拉伸（金字塔）).\nPrimary target metadata: lats; supporting muscle group: glutes; equipment: stability ball.\nSource movement instructions: 坐在稳定球上，双脚平放在地面上，膝盖弯曲成 90 度角。 慢慢地向前移动你的脚，将球沿着你的背部滚动，直到你的下背部靠在球上。 将双手放在脑后或交叉放在胸前。 启动你的核心，慢慢地将你的上半身降低到地面，让你的下背部伸展到球上方。 保持伸展几秒钟，然后慢慢回到起始位置。 重复所需的重复次数。\nChoose the clearest instructional viewpoint for this movement. Keep the full body and all equipment visible. Make START and END biomechanically distinct while keeping camera, body identity, equipment anchors, grip points, and support points identical. Highlight only the anatomically active primary muscles in muted coral red.",
+      "prompt_sha256": "18f4f7cc44c10cab70aad19943e36cde2d5010b9a2f0c2de04890248cea5904d",
+      "exercises": [
+        {
+          "row": 0,
+          "id": "1338",
+          "name": "exercise ball hug",
+          "name_zh": "健身球拥抱"
+        },
+        {
+          "row": 1,
+          "id": "1339",
+          "name": "exercise ball lat stretch",
+          "name_zh": "健身球背阔肌拉伸"
+        },
+        {
+          "row": 2,
+          "id": "1341",
+          "name": "exercise ball lower back stretch (pyramid)",
+          "name_zh": "健身球下背部拉伸（金字塔）"
+        }
+      ]
+    }
+  ]
+}

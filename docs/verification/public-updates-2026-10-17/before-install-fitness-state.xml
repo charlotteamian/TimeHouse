@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="favorites"></string>
+    <string name="records">[{&quot;time&quot;:&quot;QA 00:01&quot;,&quot;title&quot;:&quot;QA 合成记录 · 公开更新保留验证&quot;,&quot;total&quot;:1,&quot;done&quot;:1,&quot;feel&quot;:&quot;QA 合成&quot;,&quot;pain&quot;:&quot;无&quot;,&quot;note&quot;:&quot;SYNTHETIC QA ONLY: no real workout or AI credential.&quot;,&quot;duration&quot;:&quot;1:00&quot;,&quot;epoch&quot;:1792221008204,&quot;startEpoch&quot;:1792220948204,&quot;timingNote&quot;:&quot;&quot;,&quot;metrics&quot;:{},&quot;details&quot;:[{&quot;id&quot;:&quot;qa_public_update&quot;,&quot;name&quot;:&quot;QA 合成动作&quot;,&quot;completed&quot;:1,&quot;finished&quot;:true,&quot;restAfter&quot;:75,&quot;weight&quot;:&quot;&quot;,&quot;original&quot;:&quot;✓ QA 合成动作 · 1:00 · 1 组&quot;}],&quot;items&quot;:[&quot;✓ QA 合成动作 · 1:00 · 1 组&quot;],&quot;itemStats&quot;:[&quot;qa_public_update|1|1&quot;]}]</string>
+    <string name="mediaOverrides">{}</string>
+    <string name="workoutDraft"></string>
+    <string name="deletedCategories"></string>
+    <string name="program"></string>
+    <string name="assessment"></string>
+    <string name="customIntensityOverrideV2"></string>
+    <string name="quickIntensityOverrideV2"></string>
+    <boolean name="reviewedOnlyV1" value="true" />
+    <string name="shoulderPain"></string>
+    <string name="aiSearchModel">gemini-3.5-flash</string>
+    <string name="kneePain"></string>
+    <string name="recipes">[]</string>
+    <string name="defaultIntensityV2">MEDIUM</string>
+    <boolean name="quickGentle" value="false" />
+    <int name="quickMinutes" value="8" />
+    <boolean name="aiEnabled" value="false" />
+    <string name="verified"></string>
+    <string name="customExercises">[]</string>
+    <string name="equipment">自重|弹力带|哑铃|固定器械|高位下拉器</string>
+    <string name="aiApiKey">qa-disabled-placeholder</string>
+    <string name="lowerBackPain"></string>
+    <string name="recentRecommendationsV1">[]</string>
+    <boolean name="voiceEnabled" value="false" />
+    <string name="nutritionProfile"></string>
+    <string name="intensity">MEDIUM</string>
+    <float name="paceFactor" value="1.0" />
+    <int name="durationMinutes" value="25" />
+    <string name="exerciseReviewsV1">{}</string>
+    <string name="aiSearchProvider">gemini</string>
+    <string name="pendingShares">[]</string>
+    <string name="foodLogs">{}</string>
+    <string name="aiModel">gemini-3.5-flash</string>
+    <string name="deletedExercises"></string>
+    <boolean name="programUseAi" value="true" />
+    <string name="aiSearchApiKey"></string>
+    <string name="aiSearchEndpoint"></string>
+</map>

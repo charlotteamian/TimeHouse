@@ -1,0 +1,12 @@
+[
+  "Legacy encrypted update credential and Keystore key are seeded",
+  "Settings exposes the update button",
+  "Settings explains that public updates need no account configuration",
+  "Settings has no credential configuration controls",
+  "Update check reaches a newer-version or latest-version result anonymously",
+  "Checking public updates does not request a credential",
+  "First launch deletes retired update preferences and Keystore key",
+  "Update checks and credential retirement preserve fitness preferences",
+  "Restart keeps public update controls without credential setup",
+  "Restart does not recreate retired credentials or alter fitness data"
+]

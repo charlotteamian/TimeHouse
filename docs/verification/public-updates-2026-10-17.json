@@ -1,0 +1,129 @@
+{
+  "date": "2026-10-17",
+  "local": {
+    "source_commit": "77240d200fe8fa725dee1c1728798782858b64fa",
+    "local_apk": {
+      "badging": "package: name='com.restartday.fitness' versionCode='2026101701' versionName='1.2.18' platformBuildVersionName='16' platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'",
+      "sha256": "144825e22080ea0e9b31dd50a27ea28f22402f92a05484e539c37861f913525b",
+      "bytes": 479885009,
+      "signer_sha256": "f97b8a406448cb301259189f833d7beb7985728929dd652d2c257e8d36a28997"
+    },
+    "domain_tests": "passed",
+    "update_policy_checks": 36,
+    "review_audit": {
+      "total": 1355,
+      "reviewed": 37
+    },
+    "ui_credential_migration_checks": [
+      "Legacy encrypted update credential and Keystore key are seeded",
+      "Settings exposes the update button",
+      "Settings explains that public updates need no account configuration",
+      "Settings has no credential configuration controls",
+      "Update check reaches a newer-version or latest-version result anonymously",
+      "Checking public updates does not request a credential",
+      "First launch deletes retired update preferences and Keystore key",
+      "Update checks and credential retirement preserve fitness preferences",
+      "Restart keeps public update controls without credential setup",
+      "Restart does not recreate retired credentials or alter fitness data"
+    ],
+    "device": "dedicated emulator-5578 Android 16 arm64 SDK36 (android-36.1 system image)",
+    "physical_phone": "not tested"
+  },
+  "public_release": {
+    "repository": "https://github.com/charlotteamian/TimeHouse",
+    "visibility": "public",
+    "anonymous_requests": {
+      "repo": 200,
+      "release": 200,
+      "update_json": 200,
+      "apk_range": 206,
+      "bytes_read": 32,
+      "asset_host": "release-assets.githubusercontent.com",
+      "authorization_header_sent": false
+    },
+    "release_url": "https://github.com/charlotteamian/TimeHouse/releases/tag/latest-build",
+    "update_metadata": {
+      "format_version": 1,
+      "package_name": "com.restartday.fitness",
+      "version_name": "1.2.18+5",
+      "version_code": 2026101706,
+      "apk_name": "timehouse-debug.apk",
+      "apk_asset_id": 649211994,
+      "apk_bytes": 479885009,
+      "apk_sha256": "3776783237417ac632fd3bf063fe09aa7b64cc04a2a6770dc0d8e4dccb735d67",
+      "commit": "77240d200fe8fa725dee1c1728798782858b64fa"
+    },
+    "github_digest_matches": true,
+    "actions": {
+      "run_id": 38992109920,
+      "url": "https://github.com/charlotteamian/TimeHouse/actions/runs/38992109920",
+      "conclusion": "success",
+      "head_sha": "77240d200fe8fa725dee1c1728798782858b64fa"
+    }
+  },
+  "exposure_review": {
+    "tracked_files_scanned": 6213,
+    "utf8_text_files_scanned": 988,
+    "concrete_credentials_or_private_key_found": false,
+    "health_record_fixture": "docs/archive/build-records/fixes-20260916/watch-ui/synced-record.json matches synthetic HealthFixture and qa_watch_metrics.py",
+    "history_scope": "10 commit file-path trees; all current text files and 3 locally available historical text blobs. Earlier 7 commits were checked by path metadata only."
+  },
+  "physical_phone_verified": false,
+  "native_install": {
+    "serial": "emulator-5578",
+    "checks": [
+      "Public release is newer than the installed baseline",
+      "Anonymous download, size, SHA-256, signer, version, provider and partial-file checks pass",
+      "Android installation permission is granted through its settings UI",
+      "Foreground activity belongs to the Android package installer",
+      "Fitness preference bytes and SHA-256 are identical immediately before and after installation",
+      "Synthetic workout record survives the public update",
+      "Disabled AI and its synthetic placeholder remain unchanged",
+      "Installed app anonymously confirms that it is the latest public release",
+      "Synthetic workout record survives the public update",
+      "Disabled AI and its synthetic placeholder remain unchanged",
+      "Updated app renders the synthetic workout record"
+    ],
+    "phase": "passed",
+    "original_fitness_state_existed": true,
+    "initial_version_code": 2026101701,
+    "download": {
+      "version_code": 2026101706,
+      "version_name": "1.2.18+5",
+      "bytes": 479885009,
+      "sha256": "3776783237417ac632fd3bf063fe09aa7b64cc04a2a6770dc0d8e4dccb735d67",
+      "asset": 649211994
+    },
+    "permission_already_allowed": false,
+    "installer_activity": "com.google.android.packageinstaller/com.android.packageinstaller.v2.ui.InstallLaunch",
+    "before-install": {
+      "exists": true,
+      "bytes": 2768,
+      "sha256": "02ca92ff0a86206dc00328e4f158e90b501076ae491ea53c56a401c925909b15",
+      "file": "before-install-fitness-state.xml"
+    },
+    "after-install": {
+      "exists": true,
+      "bytes": 2768,
+      "sha256": "02ca92ff0a86206dc00328e4f158e90b501076ae491ea53c56a401c925909b15",
+      "file": "after-install-fitness-state.xml"
+    },
+    "installed_version_code": 2026101706,
+    "preferences_byte_identical": true,
+    "original_fitness_preferences_restored": true,
+    "final_installed_version_code": 2026101706
+  },
+  "native_install_artifacts": "public-updates-2026-10-17/",
+  "release_settings_and_legacy_migration_checks": [
+    "Legacy encrypted update credential and Keystore key are seeded",
+    "Settings exposes the update button",
+    "Settings explains that public updates need no account configuration",
+    "Settings has no credential configuration controls",
+    "Update check reaches a newer-version or latest-version result anonymously",
+    "Checking public updates does not request a credential",
+    "First launch deletes retired update preferences and Keystore key",
+    "Update checks and credential retirement preserve fitness preferences",
+    "Restart keeps public update controls without credential setup",
+    "Restart does not recreate retired credentials or alter fitness data"
+  ]
+}

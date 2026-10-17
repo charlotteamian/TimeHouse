@@ -54,7 +54,8 @@ try:
     completed = False
     while time.monotonic() < deadline:
         labels = texts()
-        completed = any('当前已是最新版本' in value or '发现新版本' in value for value in labels)
+        completed = any('当前已是最新版本' in value or '发现新版本' in value
+                        or value.startswith('更新到 ') or value == '下载并安装' for value in labels)
         if completed:
             break
         time.sleep(.4)

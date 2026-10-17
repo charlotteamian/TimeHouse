@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-17",
+  "deleted": [
+    "build/ (APK, compilation outputs, dedicated QA emulator disk, temporary QA files)",
+    ".git/objects/pack/tmp_pack_JtyVbO (abandoned fetch temporary pack; no active fetch/index-pack)"
+  ],
+  "build_allocated_bytes_before": 7031033856,
+  "abandoned_pack_bytes": 148684799,
+  "project_allocated_bytes_before": 9957654528,
+  "project_allocated_bytes_after": 2774626304,
+  "signing_key_preserved_byte_identical": true,
+  "source_media_and_review_state_preserved": true,
+  "evidence": "docs/verification/public-updates-2026-10-17.json"
+}

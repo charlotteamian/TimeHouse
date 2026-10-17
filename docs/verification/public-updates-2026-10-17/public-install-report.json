@@ -1,0 +1,44 @@
+{
+  "serial": "emulator-5578",
+  "checks": [
+    "Public release is newer than the installed baseline",
+    "Anonymous download, size, SHA-256, signer, version, provider and partial-file checks pass",
+    "Android installation permission is granted through its settings UI",
+    "Foreground activity belongs to the Android package installer",
+    "Fitness preference bytes and SHA-256 are identical immediately before and after installation",
+    "Synthetic workout record survives the public update",
+    "Disabled AI and its synthetic placeholder remain unchanged",
+    "Installed app anonymously confirms that it is the latest public release",
+    "Synthetic workout record survives the public update",
+    "Disabled AI and its synthetic placeholder remain unchanged",
+    "Updated app renders the synthetic workout record"
+  ],
+  "phase": "passed",
+  "original_fitness_state_existed": true,
+  "initial_version_code": 2026101701,
+  "download": {
+    "version_code": 2026101706,
+    "version_name": "1.2.18+5",
+    "bytes": 479885009,
+    "sha256": "3776783237417ac632fd3bf063fe09aa7b64cc04a2a6770dc0d8e4dccb735d67",
+    "asset": 649211994
+  },
+  "permission_already_allowed": false,
+  "installer_activity": "com.google.android.packageinstaller/com.android.packageinstaller.v2.ui.InstallLaunch",
+  "before-install": {
+    "exists": true,
+    "bytes": 2768,
+    "sha256": "02ca92ff0a86206dc00328e4f158e90b501076ae491ea53c56a401c925909b15",
+    "file": "before-install-fitness-state.xml"
+  },
+  "after-install": {
+    "exists": true,
+    "bytes": 2768,
+    "sha256": "02ca92ff0a86206dc00328e4f158e90b501076ae491ea53c56a401c925909b15",
+    "file": "after-install-fitness-state.xml"
+  },
+  "installed_version_code": 2026101706,
+  "preferences_byte_identical": true,
+  "original_fitness_preferences_restored": true,
+  "final_installed_version_code": 2026101706
+}

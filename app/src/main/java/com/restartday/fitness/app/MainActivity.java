@@ -365,6 +365,7 @@ public final class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        LegacyUpdateCredentials.clear(this);
         loadBundledExerciseDataset();
         builtinRecipes.addAll(BuiltinRecipeLoader.load(this));
         mealPresets.addAll(QuickMealLoader.load(this));
@@ -4240,7 +4241,8 @@ public final class MainActivity extends Activity {
         String version;
         try { version = getPackageManager().getPackageInfo(getPackageName(), 0).versionName; }
         catch (Exception ignored) { version = "未知"; }
-        card.addView(text("当前版本 " + version + " · GitHub 私有项目", 13, Typeface.NORMAL, MUTED));
+        card.addView(text("当前版本 " + version, 13, Typeface.NORMAL, MUTED));
+        card.addView(text("直接检查和下载新版，无需登录或访问令牌。", 12, Typeface.NORMAL, MUTED));
         githubUpdateStatusView = text(githubUpdateStatus, 13, Typeface.NORMAL, MUTED);
         card.addView(githubUpdateStatusView);
         card.addView(space(8));
@@ -4260,67 +4262,7 @@ public final class MainActivity extends Activity {
             card.addView(button("安装已下载更新", BLUE, Color.WHITE,
                     v -> launchUpdateInstaller(pendingUpdateApk)), fullButton());
         }
-        String token = "";
-        try { token = new GitHubTokenStore(this).read(); }
-        catch (Exception ignored) { }
-        card.addView(space(6));
-        card.addView(text(token.isEmpty() ? "首次使用需配置私有项目的只读访问令牌。"
-                : "已配置访问令牌，仅用于读取私有更新。", 12, Typeface.NORMAL, MUTED));
-        Button configure = button("配置 GitHub 访问", GREEN_SOFT, GREEN, v -> configureGitHubAccess());
-        configure.setEnabled(!githubUpdateBusy);
-        card.addView(configure, fullButton());
-        if (!token.isEmpty()) {
-            Button clearToken = button("清除访问令牌", Color.rgb(236, 240, 234), INK, v -> {
-                try {
-                    new GitHubTokenStore(this).clear();
-                    setGitHubUpdateStatus("访问令牌已清除", false);
-                    renderSettings();
-                } catch (Exception ignored) {
-                    Toast.makeText(this, "未能清除访问令牌，请重试", Toast.LENGTH_LONG).show();
-                }
-            });
-            clearToken.setEnabled(!githubUpdateBusy);
-            card.addView(space(6));
-            card.addView(clearToken, fullButton());
-        }
         return card;
-    }
-
-    private void configureGitHubAccess() {
-        LinearLayout box = new LinearLayout(this);
-        box.setOrientation(LinearLayout.VERTICAL);
-        box.setPadding(dp(20), dp(10), dp(20), dp(10));
-        box.addView(text("使用 GitHub 的 Fine-grained token：只选择 TimeHouse 仓库，"
-                + "Repository permissions → Contents 设为 Read-only。令牌会加密保存在本机。",
-                14, Typeface.NORMAL, MUTED));
-        final EditText tokenInput = new EditText(this);
-        tokenInput.setSingleLine(true);
-        tokenInput.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PASSWORD);
-        tokenInput.setHint("粘贴只读访问令牌");
-        tokenInput.setContentDescription("GitHub 只读访问令牌");
-        box.addView(tokenInput);
-        AlertDialog dialog = new AlertDialog.Builder(this).setTitle("配置私有更新")
-                .setView(box).setNegativeButton("取消", null).setPositiveButton("保存", null)
-                .setNeutralButton("创建只读令牌", (d, which) -> openExternal(
-                        "https://github.com/settings/personal-access-tokens/new"
-                        + "?name=TimeHouse-Updates&target_name=charlotteamian&expires_in=90&contents=read"))
-                .create();
-        dialog.setOnShowListener(d -> dialog.getButton(AlertDialog.BUTTON_POSITIVE).setOnClickListener(v -> {
-            String token = tokenInput.getText().toString().trim();
-            if (!token.matches("(?:github_pat_|ghp_)[A-Za-z0-9_]{20,}")) {
-                tokenInput.setError("请填写有效的 GitHub 访问令牌");
-                return;
-            }
-            try {
-                new GitHubTokenStore(this).save(token);
-                dialog.dismiss();
-                setGitHubUpdateStatus("令牌已保存，可以检查更新", false);
-                renderSettings();
-            } catch (Exception ignored) {
-                tokenInput.setError("令牌未能加密保存，请重试");
-            }
-        }));
-        dialog.show();
     }
 
     private void setGitHubUpdateStatus(String status, boolean busy) {
@@ -4336,23 +4278,16 @@ public final class MainActivity extends Activity {
             Toast.makeText(this, "请先结束本次训练，再更新应用", Toast.LENGTH_LONG).show();
             return;
         }
-        final String token;
         final long installedCode;
         try {
-            token = new GitHubTokenStore(this).read();
             installedCode = getPackageManager().getPackageInfo(getPackageName(), 0).getLongVersionCode();
         } catch (Exception ignored) {
-            setGitHubUpdateStatus("请重新配置 GitHub 访问令牌", false);
-            configureGitHubAccess();
-            return;
-        }
-        if (token.isEmpty()) {
-            configureGitHubAccess();
+            setGitHubUpdateStatus("无法读取当前版本，请重新打开应用后再试", false);
             return;
         }
         setGitHubUpdateStatus("正在检查 GitHub 新版本…", true);
         renderSettings();
-        githubUpdater.check(token, new GitHubUpdater.CheckCallback() {
+        githubUpdater.check(new GitHubUpdater.CheckCallback() {
             @Override public void onRelease(GitHubUpdater.Release release) {
                 if (isFinishing() || isDestroyed()) return;
                 if (!GitHubUpdatePolicy.isNewer(release.versionCode, installedCode)) {
@@ -4366,7 +4301,7 @@ public final class MainActivity extends Activity {
                         .setMessage("安装包约 " + (release.bytes / 1024 / 1024) + " MB。下载后会校验文件和签名，"
                                 + "再打开系统安装界面。覆盖安装会保留现有记录。")
                         .setNegativeButton("稍后", null)
-                        .setPositiveButton("下载并安装", (dialog, which) -> downloadGitHubUpdate(token, release)).show();
+                        .setPositiveButton("下载并安装", (dialog, which) -> downloadGitHubUpdate(release)).show();
             }
             @Override public void onError(String message) {
                 if (isFinishing() || isDestroyed()) return;
@@ -4376,11 +4311,11 @@ public final class MainActivity extends Activity {
         });
     }
 
-    private void downloadGitHubUpdate(String token, GitHubUpdater.Release release) {
+    private void downloadGitHubUpdate(GitHubUpdater.Release release) {
         pendingUpdateApk = null;
         setGitHubUpdateStatus("正在下载更新…", true);
         if ("settings".equals(currentTab)) renderSettings();
-        githubUpdater.download(this, token, release, new GitHubUpdater.DownloadCallback() {
+        githubUpdater.download(this, release, new GitHubUpdater.DownloadCallback() {
             @Override public void onProgress(long bytes, long total) {
                 setGitHubUpdateStatus("正在下载 · " + (bytes * 100 / total) + "%（"
                         + (bytes / 1024 / 1024) + "/" + (total / 1024 / 1024) + " MB）", true);

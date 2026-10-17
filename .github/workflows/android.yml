@@ -118,7 +118,7 @@ jobs:
           print('Bundled data matches repository source')
           PY
 
-      - name: Update private latest build release
+      - name: Update public latest build release
         if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
         env:
           GH_TOKEN: ${{ github.token }}
@@ -135,7 +135,7 @@ jobs:
               f'时光屋 {version} 最新开发构建。\n\n'
               f'源码提交：`{commit}`。\n\n'
               f'[通过的检查与构建]({run})。\n\n'
-              '下载 `timehouse-debug.apk`，使用原有签名覆盖安装。'
+              '无需登录或访问令牌即可下载 `timehouse-debug.apk`，使用原有签名覆盖安装。'
               '本入口在每次 main 成功构建后更新；动作复核仍遵循人工证据流程。\n', encoding='utf-8')
           PY
           if gh release view latest-build >/dev/null 2>&1; then

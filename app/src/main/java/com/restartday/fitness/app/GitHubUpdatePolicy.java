@@ -28,9 +28,18 @@ final class GitHubUpdatePolicy {
                 || "objects.githubusercontent.com".equalsIgnoreCase(host);
     }
 
-    static boolean maySendToken(URI uri) {
+    static boolean isReleaseApi(URI uri) {
         return isTrustedDownload(uri) && "api.github.com".equalsIgnoreCase(uri.getHost())
                 && uri.getPath() != null && uri.getPath().startsWith(API_PREFIX);
+    }
+
+    static String httpError(int code, String remaining, String retryAfter) {
+        if (code == 429 || (code == 403 &&
+                ("0".equals(remaining) || (retryAfter != null && !retryAfter.trim().isEmpty())))) {
+            return "GitHub 请求过于频繁，请稍后重试";
+        }
+        if (code == 404) return "尚未找到公开版本或安装包正在更新，请稍后重新检查";
+        return "GitHub 更新服务暂不可用（" + code + "），请稍后重试";
     }
 
     static void validateMetadata(String packageName, long versionCode, String versionName,

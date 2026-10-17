@@ -1,65 +1,85 @@
 #!/usr/bin/env python3
-"""Emulator settings checks; restore preferences and never use a real API token."""
+"""Emulator public-update checks; restore fitness data and retire legacy credentials."""
 from pathlib import Path
 
 # Use the same read-only UI snapshot and state restoration helpers as existing QA.
 exec(Path('scripts/qa_today_flow.py').read_text().split('\nstop()\noriginal =')[0])
 
 
-def set_text(value):
-    result = adb('shell', 'am', 'instrument', '-w', '-e', 'setTextDesc',
-                 shlex.quote('GitHub 只读访问令牌'), '-e', 'setTextBase64',
-                 shlex.quote(base64.b64encode(value.encode()).decode()),
-                 'com.restartday.fitness.qa/.UiSnapshot').decode()
-    if 'textSet=1' not in result:
-        raise AssertionError('Token input could not be filled')
+def update_fixture(mode):
+    result = adb('shell', 'am', 'instrument', '-w', '-e', 'mode', mode,
+                 'com.restartday.fitness.qa/.GitHubUpdateFixture').decode()
+    if 'INSTRUMENTATION_CODE: -1' not in result or 'INSTRUMENTATION_RESULT: failure=' in result:
+        raise AssertionError('Update fixture failed: ' + result)
+    return result
+
+
+def no_credential_controls():
+    labels = texts()
+    return not any(label in labels for label in (
+        '配置私有更新', '配置 GitHub 访问', '配置访问令牌', '清除访问令牌', '保存访问令牌'))
+
+
+def optional_fitness_state():
+    result = subprocess.run([a.adb, '-s', a.serial, 'exec-out', 'run-as', pkg, 'cat',
+                             'shared_prefs/fitness_state.xml'], capture_output=True, timeout=30)
+    if result.returncode == 0:
+        return result.stdout
+    if b'No such file or directory' in result.stderr + result.stdout:
+        return None
+    raise AssertionError('Could not read fitness preferences: ' + result.stderr.decode(errors='replace'))
+
+
+def fitness_values():
+    root = ET.fromstring(optional_fitness_state() or b'<map />')
+    return {node.get('name'): node.text if node.tag == 'string' else node.get('value') for node in root}
 
 
 stop()
-original = adb('exec-out', 'run-as', pkg, 'cat', 'shared_prefs/fitness_state.xml')
-token_path = 'shared_prefs/github_updates.xml'
-saved_token = subprocess.run([a.adb, '-s', a.serial, 'exec-out', 'run-as', pkg, 'cat', token_path],
-                             capture_output=True).stdout
-fake_token = 'github_pat_' + 'invalid' * 12
+original = optional_fitness_state()
+baseline = fitness_values()
 try:
-    adb('shell', 'run-as', pkg, 'rm', '-f', token_path)
+    seeded = update_fixture('seed-legacy')
+    check('Retired encrypted credential fixture seeded' in seeded,
+          'Legacy encrypted update credential and Keystore key are seeded')
     launch()
     tap('设置')
     check('应用更新' in texts() and '检查更新' in texts(), 'Settings exposes the update button')
-    snapshot('settings-update')
+    check(any('无需登录或访问令牌' in value for value in texts()),
+          'Settings explains that public updates need no account configuration')
+    check(no_credential_controls(), 'Settings has no credential configuration controls')
+    snapshot('settings-public-update')
     tap('检查更新')
-    check('配置私有更新' in texts(), 'First check opens private-access configuration')
-    set_text('invalid')
-    tap('保存')
-    check('配置私有更新' in texts(), 'Malformed token does not close configuration')
-    set_text(fake_token)
-    tap('保存')
-    encrypted = adb('exec-out', 'run-as', pkg, 'cat', token_path)
-    check(fake_token.encode() not in encrypted and b'encrypted_token' in encrypted,
-          'Token is stored as ciphertext, without plaintext')
-    stop()
-    launch()
-    tap('设置')
-    check(any('已配置访问令牌' in value for value in texts()), 'Keystore token can be read after process restart')
-    tap('检查更新')
-    deadline = time.monotonic() + 45
+    deadline = time.monotonic() + 60
+    completed = False
     while time.monotonic() < deadline:
-        if any('令牌无效' in value for value in texts()):
+        labels = texts()
+        completed = any('当前已是最新版本' in value or '发现新版本' in value for value in labels)
+        if completed:
             break
         time.sleep(.4)
-    check(any('令牌无效' in value for value in texts()), 'GitHub authentication failure has an actionable message')
-    snapshot('authentication-error')
-    tap('清除访问令牌')
-    check(any('首次使用需配置' in value for value in texts()), 'Token can be removed without changing fitness data')
-    remaining = adb('exec-out', 'run-as', pkg, 'cat', token_path)
-    check(b'encrypted_token' not in remaining, 'Removing a token deletes its ciphertext')
-    snapshot('token-cleared')
+    check(completed, 'Update check reaches a newer-version or latest-version result anonymously')
+    check(no_credential_controls(), 'Checking public updates does not request a credential')
+    snapshot('anonymous-update-result')
+    if '稍后' in texts():
+        tap('稍后')
+    cleared = update_fixture('assert-legacy-cleared')
+    check('Retired credential preferences and key removed' in cleared,
+          'First launch deletes retired update preferences and Keystore key')
+    check(fitness_values() == baseline, 'Update checks and credential retirement preserve fitness preferences')
+    launch()
+    tap('设置')
+    check(no_credential_controls(), 'Restart keeps public update controls without credential setup')
+    snapshot('public-update-after-restart')
+    stop()
+    update_fixture('assert-legacy-cleared')
+    check(fitness_values() == baseline, 'Restart does not recreate retired credentials or alter fitness data')
 finally:
     stop()
-    if saved_token:
-        adb('shell', 'run-as', pkg, 'sh', '-c', shlex.quote('cat > ' + token_path), data=saved_token)
+    if original is None:
+        adb('shell', 'run-as', pkg, 'rm', '-f', 'shared_prefs/fitness_state.xml',
+            'shared_prefs/fitness_state.xml.bak')
     else:
-        adb('shell', 'run-as', pkg, 'rm', '-f', token_path)
-    write_state(original)
+        write_state(original)
     launch()
-    print('Original emulator preferences restored.', flush=True)
+    print('Original emulator fitness preferences restored; retired update credentials stay removed.', flush=True)

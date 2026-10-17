@@ -24,7 +24,7 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-/** Authenticated private Release downloads with size, hash, version and signer checks. */
+/** Public Release downloads with size, hash, version and signer checks. */
 final class GitHubUpdater {
     static final class Release {
         final long versionCode;
@@ -99,18 +99,18 @@ final class GitHubUpdater {
         if (!task.cancelled.get()) main.post(() -> { if (!task.cancelled.get()) action.run(); });
     }
 
-    void check(String token, CheckCallback callback) {
+    void check(CheckCallback callback) {
         Task task = begin();
         new Thread(() -> {
             try {
-                JSONObject release = json(task, api("tags/latest-build"), token, false);
+                JSONObject release = json(task, api("tags/latest-build"), false);
                 if (release.optBoolean("draft") || !"latest-build".equals(release.optString("tag_name"))) {
                     throw new UpdateException("新版本尚未发布，请稍后再试");
                 }
                 JSONArray assets = release.getJSONArray("assets");
                 JSONObject apk = asset(assets, GitHubUpdatePolicy.APK_NAME);
                 JSONObject metadataAsset = asset(assets, "update.json");
-                JSONObject metadata = json(task, api("assets/" + metadataAsset.getLong("id")), token, true);
+                JSONObject metadata = json(task, api("assets/" + metadataAsset.getLong("id")), true);
                 if (metadata.getInt("format_version") != 1 || !GitHubUpdatePolicy.APK_NAME.equals(metadata.getString("apk_name"))) {
                     throw new UpdateException("版本信息格式不支持，请联系项目维护者");
                 }
@@ -131,7 +131,7 @@ final class GitHubUpdater {
         }, "github-update-check").start();
     }
 
-    void download(Context context, String token, Release release, DownloadCallback callback) {
+    void download(Context context, Release release, DownloadCallback callback) {
         Task task = begin();
         Context app = context.getApplicationContext();
         new Thread(() -> {
@@ -153,7 +153,7 @@ final class GitHubUpdater {
                 if (apk.getParentFile().getUsableSpace() < release.bytes * 2 + 64L * 1024 * 1024) {
                     throw new UpdateException("手机空间不足，请至少预留 " + ((release.bytes * 2) / 1024 / 1024 + 64) + " MB 后重试");
                 }
-                HttpURLConnection connection = connect(task, api("assets/" + release.apkAssetId), token, true);
+                HttpURLConnection connection = connect(task, api("assets/" + release.apkAssetId), true);
                 long length = connection.getContentLengthLong();
                 MessageDigest digest = MessageDigest.getInstance("SHA-256");
                 long readBytes = 0;
@@ -244,8 +244,8 @@ final class GitHubUpdater {
         return URI.create("https://api.github.com" + GitHubUpdatePolicy.API_PREFIX + path);
     }
 
-    private JSONObject json(Task task, URI uri, String token, boolean binary) throws Exception {
-        HttpURLConnection connection = connect(task, uri, token, binary);
+    private JSONObject json(Task task, URI uri, boolean binary) throws Exception {
+        HttpURLConnection connection = connect(task, uri, binary);
         try (InputStream input = connection.getInputStream(); ByteArrayOutputStream output = new ByteArrayOutputStream()) {
             byte[] buffer = new byte[8192];
             int count;
@@ -260,7 +260,7 @@ final class GitHubUpdater {
         }
     }
 
-    private HttpURLConnection connect(Task task, URI uri, String token, boolean binary) throws Exception {
+    private HttpURLConnection connect(Task task, URI uri, boolean binary) throws Exception {
         URI currentUri = uri;
         for (int redirects = 0; redirects <= 5; redirects++) {
             task.checkCancelled();
@@ -273,8 +273,7 @@ final class GitHubUpdater {
             connection.setRequestProperty("Accept", binary ? "application/octet-stream" : "application/vnd.github+json");
             connection.setRequestProperty("User-Agent", "TimeHouse-Android-Updater");
             connection.setRequestProperty("Cache-Control", "no-cache");
-            if (GitHubUpdatePolicy.maySendToken(currentUri)) {
-                connection.setRequestProperty("Authorization", "Bearer " + token.trim());
+            if (GitHubUpdatePolicy.isReleaseApi(currentUri)) {
                 connection.setRequestProperty("X-GitHub-Api-Version", "2026-03-10");
             }
             int code;
@@ -293,13 +292,9 @@ final class GitHubUpdater {
                 continue;
             }
             String remaining = connection.getHeaderField("X-RateLimit-Remaining");
+            String retryAfter = connection.getHeaderField("Retry-After");
             connection.disconnect();
-            if (code == 401 || (code == 403 && !"0".equals(remaining))) {
-                throw new UpdateException("GitHub 令牌无效、已过期或没有读取权限，请重新配置");
-            }
-            if (code == 404) throw new UpdateException("未找到私有更新，请确认令牌已选择 TimeHouse 仓库及 Contents 只读权限");
-            if (code == 429 || "0".equals(remaining)) throw new UpdateException("GitHub 请求过于频繁，请稍后重试");
-            throw new UpdateException("GitHub 更新服务暂不可用（" + code + "），请稍后重试");
+            throw new UpdateException(GitHubUpdatePolicy.httpError(code, remaining, retryAfter));
         }
         throw new UpdateException("下载重定向过多，请稍后重试");
     }

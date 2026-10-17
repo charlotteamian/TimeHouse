@@ -7,6 +7,9 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.ParcelFileDescriptor;
+import android.security.keystore.KeyGenParameterSpec;
+import android.security.keystore.KeyProperties;
+import android.util.Base64;
 
 import org.json.JSONObject;
 
@@ -17,12 +20,17 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
+import java.security.KeyStore;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicReference;
+import javax.crypto.Cipher;
+import javax.crypto.KeyGenerator;
+import javax.crypto.SecretKey;
 
-/** Emulator-only integration fixture. The temporary API token is deleted before use. */
+/** Emulator-only public update integration and retired credential migration checks. */
 public final class GitHubUpdateFixture extends Instrumentation {
+    private static final String LEGACY_ALIAS = "fitness_github_update_token_v1";
     private String mode;
 
     @Override public void onCreate(Bundle arguments) {
@@ -43,12 +51,53 @@ public final class GitHubUpdateFixture extends Instrumentation {
         return method;
     }
 
+    private static void seedLegacyCredential(Context context) throws Exception {
+        KeyStore store = KeyStore.getInstance("AndroidKeyStore");
+        store.load(null);
+        if (!store.containsAlias(LEGACY_ALIAS)) {
+            KeyGenerator generator = KeyGenerator.getInstance(KeyProperties.KEY_ALGORITHM_AES, "AndroidKeyStore");
+            generator.init(new KeyGenParameterSpec.Builder(LEGACY_ALIAS,
+                    KeyProperties.PURPOSE_ENCRYPT | KeyProperties.PURPOSE_DECRYPT)
+                    .setBlockModes(KeyProperties.BLOCK_MODE_GCM)
+                    .setEncryptionPaddings(KeyProperties.ENCRYPTION_PADDING_NONE).build());
+            generator.generateKey();
+        }
+        Cipher cipher = Cipher.getInstance("AES/GCM/NoPadding");
+        cipher.init(Cipher.ENCRYPT_MODE, (SecretKey) store.getKey(LEGACY_ALIAS, null));
+        byte[] encrypted = cipher.doFinal("retired-credential-qa-only".getBytes(StandardCharsets.UTF_8));
+        if (!context.getSharedPreferences("github_updates", Context.MODE_PRIVATE).edit()
+                .putString("encrypted_token", Base64.encodeToString(encrypted, Base64.NO_WRAP))
+                .putString("iv", Base64.encodeToString(cipher.getIV(), Base64.NO_WRAP)).commit()) {
+            throw new AssertionError("Could not seed retired credential preferences");
+        }
+    }
+
+    private static void assertLegacyCleared(Context context) throws Exception {
+        if (!context.getSharedPreferences("github_updates", Context.MODE_PRIVATE).getAll().isEmpty()) {
+            throw new AssertionError("Retired credential preferences remain");
+        }
+        KeyStore store = KeyStore.getInstance("AndroidKeyStore");
+        store.load(null);
+        if (store.containsAlias(LEGACY_ALIAS)) throw new AssertionError("Retired credential key remains");
+    }
+
     @Override public void onStart() {
         Bundle result = new Bundle();
         Context context = getTargetContext();
-        File tokenFile = new File(context.getCacheDir(), ".github-qa-token");
         try {
             if (!"com.restartday.fitness".equals(context.getPackageName())) throw new AssertionError("Wrong target package");
+            if ("seed-legacy".equals(mode)) {
+                seedLegacyCredential(context);
+                result.putString("result", "Retired encrypted credential fixture seeded");
+                finish(Activity.RESULT_OK, result);
+                return;
+            }
+            if ("assert-legacy-cleared".equals(mode)) {
+                assertLegacyCleared(context);
+                result.putString("result", "Retired credential preferences and key removed");
+                finish(Activity.RESULT_OK, result);
+                return;
+            }
             ClassLoader loader = context.getClassLoader();
             Class<?> clientType = loader.loadClass("com.restartday.fitness.app.GitHubUpdater");
             Class<?> releaseType = loader.loadClass("com.restartday.fitness.app.GitHubUpdater$Release");
@@ -72,8 +121,6 @@ public final class GitHubUpdateFixture extends Instrumentation {
                 finish(Activity.RESULT_OK, result);
                 return;
             }
-            String token = Files.readString(tokenFile.toPath(), StandardCharsets.UTF_8).trim();
-            if (!tokenFile.delete()) throw new AssertionError("Temporary token was not deleted");
             Constructor<?> constructor = clientType.getDeclaredConstructor();
             constructor.setAccessible(true);
             Object client = constructor.newInstance();
@@ -87,7 +134,7 @@ public final class GitHubUpdateFixture extends Instrumentation {
                 checked.countDown();
                 return null;
             });
-            method(clientType, "check", String.class, checkType).invoke(client, token, checkCallback);
+            method(clientType, "check", checkType).invoke(client, checkCallback);
             if (!checked.await(60, TimeUnit.SECONDS) || failure.get() != null || release.get() == null) {
                 throw new AssertionError(failure.get() == null ? "Release lookup timed out" : failure.get());
             }
@@ -95,7 +142,12 @@ public final class GitHubUpdateFixture extends Instrumentation {
             long code = (Long) field(found, "versionCode");
             result.putLong("version_code", code);
             result.putString("version_name", (String) field(found, "versionName"));
-            Bundle status = new Bundle(); status.putString("phase", "Private release lookup passed"); sendStatus(1, status);
+            Bundle status = new Bundle(); status.putString("phase", "Anonymous public release lookup passed"); sendStatus(1, status);
+            if ("check".equals(mode)) {
+                result.putString("result", "Anonymous public release metadata lookup passed");
+                finish(Activity.RESULT_OK, result);
+                return;
+            }
             Class<?> downloadType = loader.loadClass("com.restartday.fitness.app.GitHubUpdater$DownloadCallback");
             CountDownLatch downloaded = new CountDownLatch(1);
             AtomicReference<File> ready = new AtomicReference<>();
@@ -124,8 +176,8 @@ public final class GitHubUpdateFixture extends Instrumentation {
                 }
                 return null;
             });
-            method(clientType, "download", Context.class, String.class, releaseType, downloadType)
-                    .invoke(client, context, token, found, downloadCallback);
+            method(clientType, "download", Context.class, releaseType, downloadType)
+                    .invoke(client, context, found, downloadCallback);
             if (!downloaded.await(12, TimeUnit.MINUTES) || ready.get() == null || failure.get() != null) {
                 method(clientType, "cancel").invoke(client);
                 throw new AssertionError(failure.get() == null ? "Download timed out" : failure.get());
@@ -156,13 +208,11 @@ public final class GitHubUpdateFixture extends Instrumentation {
             saved.put("bytes", field(found, "bytes")); saved.put("sha256", field(found, "sha256")); saved.put("asset", field(found, "apkAssetId"));
             Files.writeString(verified.toPath(), saved.toString());
             result.putLong("bytes", ready.get().length());
-            result.putString("result", "Private lookup, download, SHA-256, version, signing identity and read-only APK provider passed");
+            result.putString("result", "Anonymous lookup, download, SHA-256, version, signing identity and read-only APK provider passed");
             finish(Activity.RESULT_OK, result);
         } catch (Throwable error) {
             result.putString("failure", error.getClass().getSimpleName() + ": " + error.getMessage());
             finish(Activity.RESULT_CANCELED, result);
-        } finally {
-            tokenFile.delete();
         }
     }
 }

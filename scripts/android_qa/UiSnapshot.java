@@ -31,11 +31,14 @@ public final class UiSnapshot extends Instrumentation {
                 android.content.Context app = getContext().createPackageContext("com.restartday.fitness",
                         android.content.Context.CONTEXT_INCLUDE_CODE | android.content.Context.CONTEXT_IGNORE_SECURITY);
                 ClassLoader loader = app.getClassLoader();
+                Class<?> seedCatalog = loader.loadClass("com.restartday.fitness.domain.SeedExercises");
                 Class<?> catalog = loader.loadClass("com.restartday.fitness.app.ExerciseDatasetLoader");
                 Class<?> exercise = loader.loadClass("com.restartday.fitness.domain.Exercise");
                 Class<?> tempo = loader.loadClass("com.restartday.fitness.domain.ExerciseTempo");
-                java.util.List<?> exercises = (java.util.List<?>) catalog.getMethod("load", java.io.InputStream.class)
-                        .invoke(null, app.getAssets().open("exercises_1324.json"));
+                java.util.List<Object> exercises = new java.util.ArrayList<>(
+                        (java.util.List<?>) seedCatalog.getMethod("defaultExercises").invoke(null));
+                exercises.addAll((java.util.List<?>) catalog.getMethod("load", java.io.InputStream.class)
+                        .invoke(null, app.getAssets().open("exercises_1324.json")));
                 java.util.Set<String> wanted = new java.util.HashSet<>(java.util.Arrays.asList(catalogIds.split(",")));
                 org.json.JSONObject rows = new org.json.JSONObject();
                 for (Object item : exercises) {
@@ -46,7 +49,7 @@ public final class UiSnapshot extends Instrumentation {
                     row.put("equipment", new org.json.JSONArray((java.util.Collection<?>) exercise.getMethod("equipment").invoke(item)));
                     row.put("requiredEquipment", new org.json.JSONArray((java.util.Collection<?>) exercise.getMethod("requiredEquipment").invoke(item)));
                     org.json.JSONObject available = new org.json.JSONObject();
-                    for (String config : new String[]{"自重", "哑铃", "平板训练凳", "哑铃|平板训练凳", "哑铃|上斜训练凳", "哑铃|下斜训练凳", "直立靠背训练凳", "哑铃|直立靠背训练凳", "单杠", "双杠", "中立握引体架", "上斜训练凳", "带勾脚的下斜训练凳", "稳固踏台", "墙面", "稳固踏台|墙面"}) {
+                    for (String config : new String[]{"自重", "哑铃", "弹力带", "固定器械", "高位下拉器", "杠铃", "壶铃", "TRX 悬挂带", "神秘器械", "平板训练凳", "哑铃|平板训练凳", "哑铃|上斜训练凳", "哑铃|下斜训练凳", "直立靠背训练凳", "哑铃|直立靠背训练凳", "单杠", "双杠", "中立握引体架", "上斜训练凳", "带勾脚的下斜训练凳", "稳固踏台", "墙面", "稳固踏台|墙面"}) {
                         available.put(config, exercise.getMethod("hasAvailableEquipment", java.util.List.class).invoke(item, java.util.Arrays.asList(config.split("\\|"))));
                     }
                     row.put("available", available);

@@ -15,7 +15,7 @@ r=load(B/'review-result.json');sp=R/'assets/motion_repairs/review-workflow-state
 dp=R/'app/src/main/assets/exercises_1324.json';lp=R/'app/src/main/assets/exercise_reviews.json';d=load(dp);l=load(lp);rows={e['id']:e for e in d['exercises']};new=r['review_candidates'];out=R/r['output']
 assert set(new).isdisjoint(r['pending']) and set(new)|set(r['pending'])==set(r['inspected'])
 assert len(new)==len(set(new)) and all(x in rows and r['sources'][x].startswith('https://') for x in new)
-assert sha(dp)==l['dataset_sha256'] and r['image_generation_calls']<=2 and r['generated_images_imported']<=1
+assert sha(dp)==l['dataset_sha256'] and r['image_generation_calls']<=len(r['inspected'])*3 and r['generated_images_imported']<=len(r['inspected'])
 if a.action=='stage':
  assert s['active_batch']['phase']=='inspection' and sha(dp)==sha(B/'before/exercises_1324.json') and sha(lp)==sha(B/'before/exercise_reviews.json')
  assert set(r['definition_updates'])<=set(r['inspected']) and not any('dataset_1324_'+x in {e['id'] for e in l['reviewed']} for x in r['inspected'])

@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "validated_at": "2026-11-12T09:41:20.371978+08:00",
+  "emulator": "emulator-5554",
+  "checks": 13,
+  "visually_reviewed": [
+    "0378",
+    "0379"
+  ],
+  "dataset_sha256": "822b8e4c63ecd068f75640c253d327e6aceec3e77d3fb2cf9b030a4582251fc6",
+  "media_sha256": {
+    "0378": "86119905f73e3e780c3c9a7101df151383ba33af7023015e05e3abd7079f6eb7",
+    "0379": "558add378bfe4f6162ca504e5f19317115f58a8cc4aae94b14eced9a1d777d66"
+  }
+}

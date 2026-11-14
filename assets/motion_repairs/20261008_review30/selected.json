@@ -1,0 +1,213 @@
+[
+  {
+    "id": "1326",
+    "name": "chin-up",
+    "name_zh": "反手引体向上",
+    "media": "raw:dataset_motion_1326",
+    "category": "back",
+    "equipment": "body weight",
+    "target": "lats",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "悬挂在引体向上杆上，手掌朝向自己，双手与肩同宽。",
+      "启动核心肌群，将身体拉向杠铃杆，以胸部为主导。",
+      "继续拉，直到下巴位于杠铃上方。",
+      "在顶部停顿片刻，然后慢慢将身体放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0425",
+    "name": "dumbbell standing one arm reverse curl",
+    "name_zh": "哑铃站立单臂反握弯举",
+    "media": "raw:dataset_motion_0425",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "站直，双脚分开与肩同宽，一只手握住哑铃，正握。",
+      "保持手臂完全伸展并靠近身体，手掌朝下。",
+      "慢慢地将哑铃向上弯向肩膀，保持上臂静止。",
+      "在顶部停顿片刻，然后慢慢将哑铃放回起始位置。",
+      "重复所需的重复次数，然后换到另一只手臂。"
+    ]
+  },
+  {
+    "id": "1327",
+    "name": "close grip chin-up",
+    "name_zh": "窄握反手引体向上",
+    "media": "raw:dataset_motion_1327",
+    "category": "back",
+    "equipment": "body weight",
+    "target": "lats",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "抓住引体向上杆，手掌朝向自己，双手与肩同宽。",
+      "悬挂在杠上，双臂完全伸展，双脚离开地面。",
+      "收紧背部肌肉，将身体拉向杠铃杆，保持肘部靠近身体。",
+      "继续拉，直到下巴位于杠铃上方。",
+      "在顶部停顿片刻，然后慢慢将身体放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0427",
+    "name": "dumbbell standing palms in press",
+    "name_zh": "哑铃站立掌心向内推举",
+    "media": "raw:dataset_motion_0427",
+    "category": "shoulders",
+    "equipment": "dumbbell",
+    "target": "delts",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "chest"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，双手各握一个哑铃，与肩同高，手掌朝内。",
+      "保持核心收紧，背部挺直，向上推哑铃，直到手臂完全伸过头顶。",
+      "在最高点暂停片刻，然后慢慢将哑铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1346",
+    "name": "kneeling lat stretch",
+    "name_zh": "跪姿下拉拉伸",
+    "media": "raw:dataset_motion_1346",
+    "category": "back",
+    "equipment": "body weight",
+    "target": "lats",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "triceps"
+    ],
+    "instructions_zh": [
+      "跪在地上，膝盖分开与臀部同宽，脚趾向后。",
+      "将双臂伸过头顶，手指交叉。",
+      "保持背部挺直，慢慢向右侧倾斜，感受左侧背阔肌的拉伸。",
+      "保持伸展动作 20-30 秒，然后回到起始位置。",
+      "在左侧重复该拉伸动作，向左侧倾斜，感受右侧背阔肌的拉伸。",
+      "继续交替进行所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0428",
+    "name": "dumbbell standing preacher curl",
+    "name_zh": "哑铃站姿牧师凳弯举",
+    "media": "raw:dataset_motion_0428",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "站直，双脚分开与肩同宽，每只手各握一个哑铃，手掌朝前。",
+      "将上臂后部靠在牧师凳或上斜凳上，肘部稍微弯曲。",
+      "保持上臂静止，呼气并弯举哑铃，同时收缩二头肌。",
+      "继续举起哑铃，直到二头肌完全收缩并且哑铃与肩部齐平。",
+      "挤压二头肌时，保持收缩位置短暂停顿。",
+      "吸气并慢慢开始将哑铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1352",
+    "name": "lower back curl",
+    "name_zh": "下背部卷曲",
+    "media": "raw:dataset_motion_1352",
+    "category": "back",
+    "equipment": "body weight",
+    "target": "spine",
+    "muscle_group": "glutes",
+    "secondary_muscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "instructions_zh": [
+      "平躺，双腿伸直，双臂放在身体两侧。",
+      "收紧臀肌和腿筋，慢慢将上半身抬离地面，向上弯曲背部。",
+      "在顶部停顿片刻，然后慢慢将上半身放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0429",
+    "name": "dumbbell standing reverse curl",
+    "name_zh": "哑铃站立反握弯举",
+    "media": "raw:dataset_motion_0429",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "站直，双脚分开与肩同宽，双手各握一个哑铃，手掌朝向身体。",
+      "保持上臂静止，呼气并弯举哑铃，同时收缩二头肌。继续举重，直到二头肌完全收缩并且哑铃与肩部齐平。",
+      "挤压二头肌时，保持收缩位置短暂停顿。",
+      "吸气并慢慢开始将哑铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1355",
+    "name": "one arm against wall",
+    "name_zh": "单臂靠墙",
+    "media": "raw:dataset_motion_1355",
+    "category": "back",
+    "equipment": "body weight",
+    "target": "lats",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "triceps"
+    ],
+    "instructions_zh": [
+      "面向墙壁站立，双脚分开与肩同宽。",
+      "将一只手臂伸直到身前，将手掌靠在墙上。",
+      "启动你的核心，身体向前倾斜，保持手臂伸直，背部平坦。",
+      "用手掌慢慢推向墙壁，激活背阔肌。",
+      "保持该姿势几秒钟，然后松开并用另一只手臂重复该动作。"
+    ]
+  },
+  {
+    "id": "0431",
+    "name": "dumbbell step-up",
+    "name_zh": "哑铃台阶抬腿",
+    "media": "raw:dataset_motion_0431",
+    "category": "upper legs",
+    "equipment": "dumbbell",
+    "target": "glutes",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "站在长凳或台阶前，每只手各握一个哑铃，手掌朝向身体。",
+      "将右脚放在长凳或台阶上，确保整个脚与表面接触。",
+      "推动右脚跟，将身体抬起到长凳或台阶上，伸直右腿。",
+      "将左脚放在长凳或台阶上，完全直立。",
+      "左脚向后退一步，然后是右脚，回到起始位置。",
+      "重复所需的重复次数，然后换腿。"
+    ]
+  }
+]

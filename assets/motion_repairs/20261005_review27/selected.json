@@ -1,0 +1,214 @@
+[
+  {
+    "id": "0815",
+    "name": "triceps dips floor",
+    "name_zh": "地板三头肌下压",
+    "media": "raw:dataset_motion_0815",
+    "category": "upper arms",
+    "equipment": "body weight",
+    "target": "triceps",
+    "muscle_group": "chest",
+    "secondary_muscles": [
+      "chest",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "坐在椅子或长凳的边缘，双手放在臀部旁边，手指指向前方。",
+      "将你的屁股从椅子前面滑下来，双腿伸到你面前。",
+      "伸直手臂，保持肘部稍微弯曲，以保持三头肌和肘关节的张力。",
+      "慢慢弯曲你的肘部，将你的身体向地板降低，直到你的肘部成大约 90 度角。",
+      "一旦到达动作的底部，向下压入椅子以伸直肘部，返回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0409",
+    "name": "dumbbell single leg calf raise",
+    "name_zh": "哑铃单腿提踵",
+    "media": "raw:dataset_motion_0409",
+    "category": "lower legs",
+    "equipment": "dumbbell",
+    "target": "calves",
+    "muscle_group": "ankles",
+    "secondary_muscles": [
+      "ankles"
+    ],
+    "instructions_zh": [
+      "站在台阶或平台的边缘，脚后跟悬垂，脚趾放在台阶上。",
+      "一手握住哑铃，另一只手放在墙壁或栏杆上以获得支撑。",
+      "尽可能高地抬高脚跟，将身体抬起到脚趾上。",
+      "在顶部停顿片刻，然后慢慢将脚跟放回到台阶下方。",
+      "重复所需的重复次数，然后换另一条腿。"
+    ]
+  },
+  {
+    "id": "0816",
+    "name": "triceps press",
+    "name_zh": "三头肌推举",
+    "media": "raw:dataset_motion_0816",
+    "category": "upper arms",
+    "equipment": "body weight",
+    "target": "triceps",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，膝盖稍微弯曲。",
+      "将双臂伸直在身前，与地面平行。",
+      "弯曲肘部，将身体放低至地面，保持上臂靠近身体两侧。",
+      "在底部暂停片刻，然后将自己推回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0410",
+    "name": "dumbbell single leg split squat",
+    "name_zh": "哑铃单腿分腿蹲",
+    "media": "raw:dataset_motion_0410",
+    "category": "upper legs",
+    "equipment": "dumbbell",
+    "target": "quads",
+    "muscle_group": "glutes",
+    "secondary_muscles": [
+      "glutes",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，每只手各握一个哑铃。",
+      "一只脚向前迈出一步，调整双脚的位置，使前脚平放在地面上，后脚抬高在长凳或台阶上。",
+      "弯曲前膝盖和臀部，降低身体，保持后膝盖稍微弯曲，后脚跟离开地面。",
+      "继续降低，直到大腿前部与地面平行，然后通过前脚跟推回到起始位置。",
+      "重复所需的重复次数，然后换腿并重复。"
+    ]
+  },
+  {
+    "id": "0817",
+    "name": "triceps stretch",
+    "name_zh": "三头肌拉伸",
+    "media": "raw:dataset_motion_0817",
+    "category": "upper arms",
+    "equipment": "body weight",
+    "target": "triceps",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "站立或坐直，背部挺直。",
+      "将一只手臂伸过头顶，肘部弯曲。",
+      "将另一只手放在弯曲的肘部上，然后轻轻地将其拉向头部。",
+      "保持拉伸 15-30 秒，感受三头肌的轻微拉伸。",
+      "松开拉伸并在另一只手臂上重复。"
+    ]
+  },
+  {
+    "id": "0411",
+    "name": "dumbbell single leg squat",
+    "name_zh": "哑铃单腿蹲",
+    "media": "raw:dataset_motion_0411",
+    "category": "upper legs",
+    "equipment": "dumbbell",
+    "target": "glutes",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，每只手各握一个哑铃。",
+      "向前伸展一条腿，并在整个练习过程中保持其离开地面。",
+      "弯曲站立的腿并降低身体，就像坐回椅子上一样。",
+      "保持挺胸、背部挺直。",
+      "在底部停顿片刻，然后用脚跟推动回到起始位置。",
+      "重复所需的重复次数，然后换腿。"
+    ]
+  },
+  {
+    "id": "0826",
+    "name": "vertical leg raise (on parallel bars)",
+    "name_zh": "垂直抬腿（双杠上）",
+    "media": "raw:dataset_motion_0826",
+    "category": "waist",
+    "equipment": "body weight",
+    "target": "abs",
+    "muscle_group": "hip flexors",
+    "secondary_muscles": [
+      "hip flexors"
+    ],
+    "instructions_zh": [
+      "悬挂在双杠上，双臂完全伸展，身体伸直。",
+      "启动你的核心并将双腿抬起到你面前，保持伸直。",
+      "继续抬起，直到双腿与地面平行或稍高。",
+      "在顶部暂停片刻，然后慢慢将双腿放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0413",
+    "name": "dumbbell squat",
+    "name_zh": "哑铃深蹲",
+    "media": "raw:dataset_motion_0413",
+    "category": "upper legs",
+    "equipment": "dumbbell",
+    "target": "glutes",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，双手各握一个哑铃放在身体两侧。",
+      "保持胸部挺直，核心收紧，弯曲膝盖和臀部，降低身体，就像坐回椅子上一样。",
+      "继续降低，直到大腿与地面平行，或者尽可能低。",
+      "在底部停顿片刻，然后推动脚后跟回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0858",
+    "name": "wind sprints",
+    "name_zh": "风速冲刺",
+    "media": "raw:dataset_motion_0858",
+    "category": "waist",
+    "equipment": "body weight",
+    "target": "abs",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "找一个空地或跑道来进行练习。",
+      "首先站立，双脚分开与肩同宽。",
+      "开始尽可能快地跑步，挥动手臂并抬起膝盖。",
+      "继续冲刺特定的距离或时间。",
+      "休息并重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0414",
+    "name": "dumbbell standing alternate overhead press",
+    "name_zh": "哑铃站立交替过头推举",
+    "media": "raw:dataset_motion_0414",
+    "category": "shoulders",
+    "equipment": "dumbbell",
+    "target": "delts",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "core"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，双手各握一个哑铃，与肩同高，手掌朝前。",
+      "将一只哑铃举过头顶，完全伸展手臂。",
+      "将哑铃放低至肩部水平。",
+      "用另一只手臂重复上述步骤。",
+      "继续交替手臂进行所需的重复次数。"
+    ]
+  }
+]

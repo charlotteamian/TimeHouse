@@ -1,0 +1,256 @@
+{
+  "0372": {
+    "preacher_bench_left": {
+      "box": [
+        30,
+        290,
+        180,
+        455
+      ],
+      "frames": [
+        {
+          "frame": 1,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9861
+        },
+        {
+          "frame": 2,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9913
+        },
+        {
+          "frame": 3,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9861
+        }
+      ]
+    },
+    "preacher_bench_right_and_feet": {
+      "box": [
+        220,
+        290,
+        445,
+        465
+      ],
+      "frames": [
+        {
+          "frame": 1,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9687
+        },
+        {
+          "frame": 2,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9701
+        },
+        {
+          "frame": 3,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9687
+        }
+      ]
+    }
+  },
+  "0373": {
+    "bench_left_support": {
+      "box": [
+        30,
+        320,
+        175,
+        455
+      ],
+      "frames": [
+        {
+          "frame": 1,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9942
+        },
+        {
+          "frame": 2,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9887
+        },
+        {
+          "frame": 3,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9942
+        }
+      ]
+    },
+    "planted_feet_and_right_bench": {
+      "box": [
+        180,
+        290,
+        435,
+        465
+      ],
+      "frames": [
+        {
+          "frame": 1,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9871
+        },
+        {
+          "frame": 2,
+          "dx": -1,
+          "dy": 0,
+          "residual_px": 1.0,
+          "score": 0.9771
+        },
+        {
+          "frame": 3,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9871
+        }
+      ]
+    }
+  },
+  "0376": {
+    "left_planted_foot_and_calf": {
+      "box": [
+        170,
+        325,
+        235,
+        468
+      ],
+      "frames": [
+        {
+          "frame": 1,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9865
+        },
+        {
+          "frame": 2,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9896
+        },
+        {
+          "frame": 3,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9865
+        }
+      ]
+    },
+    "right_planted_foot_and_calf": {
+      "box": [
+        235,
+        325,
+        300,
+        468
+      ],
+      "frames": [
+        {
+          "frame": 1,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9876
+        },
+        {
+          "frame": 2,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.992
+        },
+        {
+          "frame": 3,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9876
+        }
+      ]
+    },
+    "head_and_chest": {
+      "box": [
+        195,
+        10,
+        275,
+        135
+      ],
+      "frames": [
+        {
+          "frame": 1,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.98
+        },
+        {
+          "frame": 2,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9702
+        },
+        {
+          "frame": 3,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.98
+        }
+      ]
+    },
+    "shorts_and_hips": {
+      "box": [
+        190,
+        200,
+        280,
+        275
+      ],
+      "frames": [
+        {
+          "frame": 1,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9739
+        },
+        {
+          "frame": 2,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9735
+        },
+        {
+          "frame": 3,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9739
+        }
+      ]
+    }
+  }
+}

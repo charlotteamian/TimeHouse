@@ -1,0 +1,446 @@
+{
+  "0368": {
+    "left_bench_support": {
+      "box": [
+        10,
+        285,
+        155,
+        455
+      ],
+      "frames": [
+        {
+          "frame": 1,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.996
+        },
+        {
+          "frame": 2,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9957
+        },
+        {
+          "frame": 3,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.996
+        }
+      ]
+    },
+    "right_bench_support": {
+      "box": [
+        345,
+        295,
+        465,
+        455
+      ],
+      "frames": [
+        {
+          "frame": 1,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9949
+        },
+        {
+          "frame": 2,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9946
+        },
+        {
+          "frame": 3,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9949
+        }
+      ]
+    }
+  },
+  "0651": {
+    "rack_left_base": {
+      "box": [
+        45,
+        320,
+        175,
+        465
+      ],
+      "frames": [
+        {
+          "frame": 1,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9933
+        },
+        {
+          "frame": 2,
+          "dx": 0,
+          "dy": -1,
+          "residual_px": 1.0,
+          "score": 0.9946
+        },
+        {
+          "frame": 3,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9933
+        }
+      ]
+    },
+    "rack_right_base": {
+      "box": [
+        305,
+        320,
+        435,
+        465
+      ],
+      "frames": [
+        {
+          "frame": 1,
+          "dx": 1,
+          "dy": 0,
+          "residual_px": 1.0,
+          "score": 0.9916
+        },
+        {
+          "frame": 2,
+          "dx": 0,
+          "dy": -1,
+          "residual_px": 1.0,
+          "score": 0.9918
+        },
+        {
+          "frame": 3,
+          "dx": 1,
+          "dy": 0,
+          "residual_px": 1.0,
+          "score": 0.9916
+        }
+      ]
+    },
+    "rack_left_top_outer": {
+      "box": [
+        45,
+        25,
+        150,
+        140
+      ],
+      "frames": [
+        {
+          "frame": 1,
+          "dx": -1,
+          "dy": 0,
+          "residual_px": 1.0,
+          "score": 0.9878
+        },
+        {
+          "frame": 2,
+          "dx": 0,
+          "dy": 2,
+          "residual_px": 2.0,
+          "score": 0.9922
+        },
+        {
+          "frame": 3,
+          "dx": -1,
+          "dy": 0,
+          "residual_px": 1.0,
+          "score": 0.9878
+        }
+      ]
+    },
+    "rack_right_top_outer": {
+      "box": [
+        330,
+        25,
+        435,
+        140
+      ],
+      "frames": [
+        {
+          "frame": 1,
+          "dx": 1,
+          "dy": 0,
+          "residual_px": 1.0,
+          "score": 0.9874
+        },
+        {
+          "frame": 2,
+          "dx": 0,
+          "dy": 2,
+          "residual_px": 2.0,
+          "score": 0.9865
+        },
+        {
+          "frame": 3,
+          "dx": 1,
+          "dy": 0,
+          "residual_px": 1.0,
+          "score": 0.9874
+        }
+      ]
+    }
+  },
+  "0369": {
+    "left_bench_support": {
+      "box": [
+        10,
+        285,
+        155,
+        455
+      ],
+      "frames": [
+        {
+          "frame": 1,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9901
+        },
+        {
+          "frame": 2,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9938
+        },
+        {
+          "frame": 3,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9901
+        }
+      ]
+    },
+    "right_bench_support": {
+      "box": [
+        345,
+        295,
+        465,
+        455
+      ],
+      "frames": [
+        {
+          "frame": 1,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9929
+        },
+        {
+          "frame": 2,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9922
+        },
+        {
+          "frame": 3,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9929
+        }
+      ]
+    }
+  },
+  "0652": {
+    "rack_left_top": {
+      "box": [
+        40,
+        5,
+        150,
+        120
+      ],
+      "frames": [
+        {
+          "frame": 1,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9974
+        },
+        {
+          "frame": 2,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9978
+        },
+        {
+          "frame": 3,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9974
+        }
+      ]
+    },
+    "rack_left_bottom": {
+      "box": [
+        40,
+        320,
+        150,
+        465
+      ],
+      "frames": [
+        {
+          "frame": 1,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9978
+        },
+        {
+          "frame": 2,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9982
+        },
+        {
+          "frame": 3,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9978
+        }
+      ]
+    },
+    "rack_right_bottom": {
+      "box": [
+        330,
+        320,
+        445,
+        465
+      ],
+      "frames": [
+        {
+          "frame": 1,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9981
+        },
+        {
+          "frame": 2,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9984
+        },
+        {
+          "frame": 3,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9981
+        }
+      ]
+    }
+  },
+  "0370": {
+    "left_planted_foot": {
+      "box": [
+        165,
+        350,
+        225,
+        470
+      ],
+      "frames": [
+        {
+          "frame": 1,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9777
+        },
+        {
+          "frame": 2,
+          "dx": 0,
+          "dy": 1,
+          "residual_px": 1.0,
+          "score": 0.9808
+        },
+        {
+          "frame": 3,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9777
+        }
+      ]
+    },
+    "right_planted_foot": {
+      "box": [
+        235,
+        350,
+        300,
+        470
+      ],
+      "frames": [
+        {
+          "frame": 1,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9904
+        },
+        {
+          "frame": 2,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9802
+        },
+        {
+          "frame": 3,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9904
+        }
+      ]
+    },
+    "lower_legs_stance": {
+      "box": [
+        165,
+        325,
+        300,
+        470
+      ],
+      "frames": [
+        {
+          "frame": 1,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9843
+        },
+        {
+          "frame": 2,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9779
+        },
+        {
+          "frame": 3,
+          "dx": 0,
+          "dy": 0,
+          "residual_px": 0.0,
+          "score": 0.9843
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,218 @@
+[
+  {
+    "id": "0691",
+    "name": "seated side crunch (wall)",
+    "name_zh": "坐姿侧卷腹（靠墙）",
+    "media": "raw:dataset_motion_0691",
+    "category": "waist",
+    "equipment": "body weight",
+    "target": "abs",
+    "muscle_group": "obliques",
+    "secondary_muscles": [
+      "obliques"
+    ],
+    "instructions_zh": [
+      "坐在地板上，背靠墙，双腿在身前伸展。",
+      "弯曲膝盖，将双脚平放在地板上，与臀部同宽。",
+      "将双手放在脑后，肘部朝外。",
+      "收紧腹肌并向一侧倾斜，将肘部靠近臀部。",
+      "暂停片刻，然后回到起始位置。",
+      "在另一侧重复。",
+      "继续交替进行所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0388",
+    "name": "dumbbell seated alternate press",
+    "name_zh": "哑铃坐姿交替推举",
+    "media": "raw:dataset_motion_0388",
+    "category": "shoulders",
+    "equipment": "dumbbell",
+    "target": "delts",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "chest"
+    ],
+    "instructions_zh": [
+      "坐在长凳上，双手各握一个哑铃，手掌朝前。",
+      "将哑铃举至肩部高度，肘部弯曲，手掌朝前。",
+      "将一只哑铃举过头顶，完全伸展手臂。",
+      "将哑铃放回至肩膀高度。",
+      "用另一只手臂重复上述步骤。",
+      "继续交替手臂进行所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0696",
+    "name": "self assisted inverse leg curl (on floor)",
+    "name_zh": "自助力反向腿弯举（地面）",
+    "media": "raw:dataset_motion_0696",
+    "category": "upper legs",
+    "equipment": "body weight",
+    "target": "hamstrings",
+    "muscle_group": "glutes",
+    "secondary_muscles": [
+      "glutes",
+      "calves"
+    ],
+    "instructions_zh": [
+      "平躺，双腿伸展，双臂放在身体两侧。",
+      "弯曲膝盖，将双脚平放在地面上，距离与臀部同宽。",
+      "将臀部抬离地面，锻炼臀肌和腿筋。",
+      "慢慢地将双腿向臀部弯曲，保持臀部抬起。",
+      "在顶部停顿片刻，然后慢慢将双腿伸展回起始位置。",
+      "将臀部放回地面。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0389",
+    "name": "dumbbell seated bench extension",
+    "name_zh": "哑铃坐姿卧推伸展",
+    "media": "raw:dataset_motion_0389",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "triceps",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "坐在长凳上，背部挺直，双脚平放在地上。",
+      "双手握住哑铃，将手臂伸直至头顶上方。",
+      "慢慢地将哑铃放到脑后，保持肘部靠近耳朵。",
+      "暂停片刻，然后将哑铃举回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0697",
+    "name": "self assisted inverse leg curl",
+    "name_zh": "自助力反向腿弯举",
+    "media": "raw:dataset_motion_0697",
+    "category": "upper legs",
+    "equipment": "body weight",
+    "target": "hamstrings",
+    "muscle_group": "glutes",
+    "secondary_muscles": [
+      "glutes",
+      "calves"
+    ],
+    "instructions_zh": [
+      "平躺在垫子或长凳上，双腿伸展。",
+      "将双手放在身体两侧或臀部下方以获得支撑。",
+      "弯曲膝盖，将脚抬离地面，将大腿靠近胸部。",
+      "在顶部暂停片刻，然后慢慢将双腿放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0390",
+    "name": "dumbbell seated biceps curl (on stability ball)",
+    "name_zh": "哑铃坐姿弯举（健身球上）",
+    "media": "raw:dataset_motion_0390",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "坐在稳定球上，双脚平放在地面上，背部挺直。",
+      "每只手握住一个哑铃，手掌朝前，双臂完全伸展。",
+      "保持上臂静止，呼气并弯举哑铃，同时收缩二头肌。",
+      "继续举起哑铃，直到二头肌完全收缩并且哑铃与肩部齐平。",
+      "挤压二头肌时，保持收缩位置短暂停顿。",
+      "吸气并慢慢开始将哑铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0699",
+    "name": "shoulder tap push-up",
+    "name_zh": "肩部轻拍俯卧撑",
+    "media": "raw:dataset_motion_0699",
+    "category": "chest",
+    "equipment": "body weight",
+    "target": "pectorals",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "core"
+    ],
+    "instructions_zh": [
+      "从高位平板支撑开始，双手分开略宽于肩宽，身体从头到脚跟呈一条直线。",
+      "弯曲肘部，使肘部靠近身体两侧，将身体降低到地面。",
+      "当你向后推时，将右手抬离地面并轻拍左肩。",
+      "将右手放回地面并重复俯卧撑，这次抬起左手并拍打右肩。",
+      "每次重复俯卧撑时，继续交替拍肩。",
+      "在整个练习过程中保持核心稳定并避免臀部过度旋转。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0391",
+    "name": "dumbbell seated curl",
+    "name_zh": "哑铃坐姿弯举",
+    "media": "raw:dataset_motion_0391",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "坐在长凳上，双脚平放在地面上，每只手各握一个哑铃，手掌朝前。",
+      "保持背部挺直，肘部靠近躯干。",
+      "呼气并将哑铃向上弯向肩膀，收缩二头肌。",
+      "在顶部停顿片刻，然后吸气，慢慢将哑铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0705",
+    "name": "side bridge v. 2",
+    "name_zh": "侧桥（第二式）",
+    "media": "raw:dataset_motion_0705",
+    "category": "waist",
+    "equipment": "body weight",
+    "target": "abs",
+    "muscle_group": "obliques",
+    "secondary_muscles": [
+      "obliques",
+      "glutes"
+    ],
+    "instructions_zh": [
+      "侧躺，双腿伸展并叠放在一起。",
+      "将前臂放在肩膀正下方的地面上，肘部弯曲成 90 度角。",
+      "启动你的核心并将臀部抬离地面，从头到脚形成一条直线。",
+      "保持此位置所需的时间。",
+      "将臀部放低至起始位置。",
+      "在另一侧重复。"
+    ]
+  },
+  {
+    "id": "0392",
+    "name": "dumbbell seated front raise",
+    "name_zh": "哑铃坐姿前平举",
+    "media": "raw:dataset_motion_0392",
+    "category": "shoulders",
+    "equipment": "dumbbell",
+    "target": "delts",
+    "muscle_group": "trapezius",
+    "secondary_muscles": [
+      "trapezius",
+      "biceps"
+    ],
+    "instructions_zh": [
+      "坐在长凳上，双脚平放在地上，每只手各拿一个哑铃，放在大腿上。",
+      "保持背部挺直，核心参与。",
+      "将哑铃举到身前，手掌朝下，直到与肩同高。",
+      "在顶部停顿片刻，然后慢慢将哑铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  }
+]

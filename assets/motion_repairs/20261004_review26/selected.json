@@ -1,0 +1,210 @@
+[
+  {
+    "id": "0795",
+    "name": "standing single leg curl",
+    "name_zh": "站姿单腿卷腹",
+    "media": "raw:dataset_motion_0795",
+    "category": "upper legs",
+    "equipment": "body weight",
+    "target": "hamstrings",
+    "muscle_group": "glutes",
+    "secondary_muscles": [
+      "glutes"
+    ],
+    "instructions_zh": [
+      "站立，双脚分开与臀部同宽，双手放在臀部。",
+      "将体重转移到左腿上，将右脚抬离地面，弯曲膝盖。",
+      "慢慢地将右脚跟卷向臀部，挤压腿筋。",
+      "在顶部暂停片刻，然后慢慢将右脚放回起始位置。",
+      "重复所需的重复次数，然后换腿。"
+    ]
+  },
+  {
+    "id": "0403",
+    "name": "dumbbell seated revers grip concentration curl",
+    "name_zh": "哑铃坐姿反握集中弯举",
+    "media": "raw:dataset_motion_0403",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "坐在长凳上，双脚平放在地上，一手握住哑铃，掌心朝上。",
+      "将肘部放在大腿内侧、膝盖上方。",
+      "保持上臂静止，呼气并将哑铃向肩膀弯曲。",
+      "在顶部暂停片刻，挤压你的二头肌。",
+      "吸气，慢慢将哑铃放回起始位置。",
+      "重复所需的重复次数，然后换臂。"
+    ]
+  },
+  {
+    "id": "0803",
+    "name": "superman push-up",
+    "name_zh": "超人俯卧撑",
+    "media": "raw:dataset_motion_0803",
+    "category": "chest",
+    "equipment": "body weight",
+    "target": "pectorals",
+    "muscle_group": "core",
+    "secondary_muscles": [
+      "core",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "从高位平板支撑开始，双手分开略宽于肩宽，双脚并拢。",
+      "收紧核心，将身体降低到地面，保持肘部靠近身体两侧。",
+      "当你降低身体时，同时将右臂和左腿抬离地面，笔直向外伸展。",
+      "在顶部暂停片刻，然后放下手臂和腿，同时将自己推回起始位置。",
+      "重复该动作，这次抬起左臂和右腿。",
+      "继续交替进行所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0404",
+    "name": "dumbbell seated shoulder press (parallel grip)",
+    "name_zh": "哑铃坐姿肩推（平行握）",
+    "media": "raw:dataset_motion_0404",
+    "category": "shoulders",
+    "equipment": "dumbbell",
+    "target": "delts",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "upper back"
+    ],
+    "instructions_zh": [
+      "坐在长凳上，双手各握一个哑铃，掌心向内。",
+      "将哑铃举至肩高，肘部弯曲，手掌朝前。",
+      "向上推哑铃，直到手臂完全伸过头顶。",
+      "在顶部停顿片刻，然后慢慢将哑铃放回肩部高度。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0812",
+    "name": "triceps dip (bench leg)",
+    "name_zh": "三头肌下压（凳腿式）",
+    "media": "raw:dataset_motion_0812",
+    "category": "upper arms",
+    "equipment": "body weight",
+    "target": "triceps",
+    "muscle_group": "chest",
+    "secondary_muscles": [
+      "chest",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "坐在长凳边缘，双手抓住边缘，手指指向前方。",
+      "双脚向前走，将臀部滑离长凳，然后伸直手臂。",
+      "弯曲肘部，将身体放低至地面，保持背部靠近长凳。",
+      "推动手掌以伸直手臂并返回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0405",
+    "name": "dumbbell seated shoulder press",
+    "name_zh": "哑铃坐姿肩推",
+    "media": "raw:dataset_motion_0405",
+    "category": "shoulders",
+    "equipment": "dumbbell",
+    "target": "delts",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "upper back"
+    ],
+    "instructions_zh": [
+      "坐在长凳上，每只手各拿一个哑铃，放在大腿上。",
+      "将哑铃举至肩高，手掌朝前。",
+      "向上推哑铃，直到手臂完全伸过头顶。",
+      "在顶部停顿片刻，然后慢慢将哑铃放回肩部高度。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0813",
+    "name": "triceps dip (between benches)",
+    "name_zh": "三头肌下压（双凳间）",
+    "media": "raw:dataset_motion_0813",
+    "category": "upper arms",
+    "equipment": "body weight",
+    "target": "triceps",
+    "muscle_group": "chest",
+    "secondary_muscles": [
+      "chest",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "坐在长凳上，双手抓住长凳边缘，手指指向前方。",
+      "将臀部滑离长凳，用手支撑体重。",
+      "弯曲肘部，将身体放低至地面，保持背部靠近长凳。",
+      "在底部暂停片刻，然后将自己推回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0407",
+    "name": "dumbbell side bend",
+    "name_zh": "哑铃侧弯",
+    "media": "raw:dataset_motion_0407",
+    "category": "waist",
+    "equipment": "dumbbell",
+    "target": "abs",
+    "muscle_group": "obliques",
+    "secondary_muscles": [
+      "obliques"
+    ],
+    "instructions_zh": [
+      "站直，双脚分开与肩同宽，一手握住哑铃，让它垂在身侧。",
+      "保持背部挺直，核心肌群参与，慢慢地将腰部向哑铃的另一侧侧弯，在舒适的范围内尽可能降低重量。",
+      "暂停片刻，然后慢慢回到起始位置。",
+      "重复所需的重复次数，然后换边重复。"
+    ]
+  },
+  {
+    "id": "0814",
+    "name": "triceps dip",
+    "name_zh": "三头肌下压",
+    "media": "raw:dataset_motion_0814",
+    "category": "upper arms",
+    "equipment": "body weight",
+    "target": "triceps",
+    "muscle_group": "chest",
+    "secondary_muscles": [
+      "chest",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "坐在长凳或椅子的边缘，双手抓住边缘，手指指向前方。",
+      "将臀部滑离长凳，用手支撑体重。",
+      "弯曲肘部，将身体放低至地面，保持背部靠近长凳。",
+      "在底部暂停片刻，然后将自己推回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0408",
+    "name": "dumbbell side lying one hand raise",
+    "name_zh": "哑铃侧卧单手举",
+    "media": "raw:dataset_motion_0408",
+    "category": "shoulders",
+    "equipment": "dumbbell",
+    "target": "delts",
+    "muscle_group": "trapezius",
+    "secondary_muscles": [
+      "trapezius",
+      "rhomboids"
+    ],
+    "instructions_zh": [
+      "侧躺，双腿伸直，用手臂支撑头部。",
+      "用你的上手握住哑铃，手掌朝下。",
+      "保持手臂伸直，将哑铃举至肩膀高度。",
+      "在顶部停顿片刻，然后慢慢将哑铃放回起始位置。",
+      "重复所需的重复次数，然后换边。"
+    ]
+  }
+]

@@ -1,0 +1,310 @@
+{
+  "batch": "20260925_review17",
+  "version": "1.2.22",
+  "version_code": 2026092501,
+  "apk_name": "时光屋-1.2.22-第十七批动作复核.apk",
+  "output": "build/review17-20260925",
+  "report": "docs/releases/2026-09-25-review-batch17.md",
+  "inspected": [
+    "0613",
+    "0356",
+    "0620",
+    "0358",
+    "0624",
+    "0359",
+    "0627",
+    "0360",
+    "0628",
+    "0361"
+  ],
+  "definition_updates": {
+    "0613": {
+      "name_zh": "侧卧单侧股四头肌拉伸",
+      "category": "upper legs",
+      "equipment": "body weight",
+      "target": "quads",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "hip flexors",
+        "glutes"
+      ],
+      "movement_patterns_zh": [
+        "下肢拉伸",
+        "髋伸展"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "侧卧在地面或训练垫上，下方手臂屈肘垫于头侧保持头颈中立，下方腿自然伸直贴垫稳定骨盆。",
+        "吸气屈曲上方腿膝关节，同侧手向后伸出稳稳握住上方脚背或踝关节前侧。",
+        "呼气轻柔将上方脚跟拉向臀部同时略微后伸髋部，避免腰椎反弓代偿，感受大腿前侧股四头肌明显牵伸。",
+        "控住伸展幅度片刻后缓缓放松回位；单侧完成规定次数后换另一侧。"
+      ]
+    },
+    "0356": {
+      "name_zh": "扶凳哑铃单臂侧平举",
+      "category": "shoulders",
+      "equipment": "dumbbell",
+      "target": "delts",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "traps",
+        "rotator cuff",
+        "forearms"
+      ],
+      "movement_patterns_zh": [
+        "外展",
+        "俯身稳定"
+      ],
+      "required_equipment_zh": [
+        "平板训练凳"
+      ],
+      "instructions_zh": [
+        "站在平板训练凳一侧，双脚与肩同宽稳踩地面，屈髋微微前倾躯干并将非训练手掌稳扶在凳面上保持身体固定。",
+        "训练手持哑铃掌心朝向身体自然垂于体侧下方，肩带下沉且肘关节保持微屈固定角度。",
+        "呼气由三角肌中束发力将训练侧手臂向身体正侧方平稳抬起，直到上臂与地面接近平行并短暂停顿。",
+        "吸气有控制地沿原弧线缓慢下放回起始悬垂位；单侧完成规定次数后换另一侧。"
+      ]
+    },
+    "0620": {
+      "name_zh": "平凳仰卧直腿举腿",
+      "category": "waist",
+      "equipment": "body weight",
+      "target": "abs",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "hip flexors",
+        "obliques"
+      ],
+      "movement_patterns_zh": [
+        "抗伸展",
+        "核心稳定"
+      ],
+      "required_equipment_zh": [
+        "平板训练凳"
+      ],
+      "instructions_zh": [
+        "仰卧在稳固的平板训练凳上，头、上背与腰臀贴实凳面，双手扶住凳垫边缘固定躯干，双腿并拢水平伸直。",
+        "呼气收紧腹直肌使下背部贴向凳垫，将伸直的双腿协同向上抬起。",
+        "抬至双腿与凳面约成90度垂直位置，在顶端短暂停顿并保持骨盆稳定。",
+        "吸气有控制地缓慢下放双腿回到接近水平高度，全程避免下腰腾空反弓；每次举腿与下放计一次。"
+      ]
+    },
+    "0358": {
+      "name_zh": "坐姿哑铃单臂反握腕弯举",
+      "category": "lower arms",
+      "equipment": "dumbbell",
+      "target": "forearms",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "wrist extensors"
+      ],
+      "movement_patterns_zh": [
+        "腕屈伸"
+      ],
+      "required_equipment_zh": [
+        "平板训练凳"
+      ],
+      "instructions_zh": [
+        "坐在稳固的平板训练凳上，双腿分开与肩同宽且双脚踩实地面，非训练侧前臂自然撑在同侧大腿上稳定上身。",
+        "训练手正握（掌心朝下）持一只哑铃，将该侧前臂贴稳于同侧大腿上，手腕顺势伸出膝盖前端悬空。",
+        "保持前臂贴紧大腿不动，吸气缓慢屈腕下放哑铃，再呼气由前臂伸肌发力向上抬起手背使腕部充分背伸。",
+        "在最高点短暂停顿感受前臂外侧肌群收缩后缓慢放回低位；单侧完成规定次数后换另一侧。"
+      ]
+    },
+    "0624": {
+      "name_zh": "靠墙半蹲交替抬腿",
+      "category": "upper legs",
+      "equipment": "body weight",
+      "target": "quads",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "glutes",
+        "hip flexors",
+        "calves"
+      ],
+      "movement_patterns_zh": [
+        "下肢稳定",
+        "下肢屈髋"
+      ],
+      "required_equipment_zh": [
+        "墙面"
+      ],
+      "instructions_zh": [
+        "背部紧贴稳固墙面站立，双脚向前迈出约一小步并踩稳地面，沿墙缓缓下滑至屈膝约90度且大腿大致平行地面。",
+        "收紧核心与臀部使整个上背和腰部紧贴墙面，双臂自然垂于体侧。",
+        "维持单侧腿稳踩地面与臀部高度不上下起伏，呼气主动抬起一侧膝盖朝向胸前并在顶端短暂停顿。",
+        "吸气有控制地将该脚放回地面踩实，随后交替抬起另一侧膝盖；左右交替分别计次或累计完成目标次数。"
+      ]
+    },
+    "0359": {
+      "name_zh": "扶凳坐姿哑铃单臂反向飞鸟",
+      "category": "shoulders",
+      "equipment": "dumbbell",
+      "target": "delts",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "traps",
+        "rhomboids"
+      ],
+      "movement_patterns_zh": [
+        "水平拉",
+        "俯身稳定"
+      ],
+      "required_equipment_zh": [
+        "平板训练凳"
+      ],
+      "instructions_zh": [
+        "跨坐或侧坐在稳固的平板训练凳上，双脚分开踩实地面，保持背部平直前倾约45度，非训练手撑住凳面稳定躯干。",
+        "训练手持哑铃掌心向内垂于腿侧下方，肩胛保持下沉，肘关节维持微屈固定角度。",
+        "呼气由三角肌后束与中斜方肌、菱形肌协同发力，将手臂向身体斜后外侧横向画弧抬起至与地面接近平行。",
+        "在最高点短暂停顿感受肩后束收缩后，吸气沿原弧线缓慢下放还原；单侧完成规定次数后换另一侧。"
+      ]
+    },
+    "0627": {
+      "name_zh": "正反混合握引体向上",
+      "category": "back",
+      "equipment": "body weight",
+      "target": "lats",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "upper back",
+        "biceps",
+        "forearms"
+      ],
+      "movement_patterns_zh": [
+        "垂直拉"
+      ],
+      "required_equipment_zh": [
+        "单杠"
+      ],
+      "instructions_zh": [
+        "双手略宽于肩分别以一只正握（掌心朝前）与一只反握（掌心朝向自己）抓牢高位单杠，全身直臂悬垂。",
+        "收紧核心并下沉肩胛骨，避免借助双腿甩动借力。",
+        "呼气由背阔肌、上背肌群与肱二头肌发力向上拉起身体，使下巴超过单杠并让胸口尽量贴近横杠。",
+        "在顶端短暂停顿后，吸气有控制地缓缓伸肘还原至直臂悬垂位（下一组或半程可交换正反手位置）；每次拉起与还原计一次。"
+      ]
+    },
+    "0360": {
+      "name_zh": "哑铃单臂站姿推举（第二式）",
+      "category": "shoulders",
+      "equipment": "dumbbell",
+      "target": "delts",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "triceps",
+        "traps",
+        "core"
+      ],
+      "movement_patterns_zh": [
+        "垂直推",
+        "站姿稳定"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "双脚与肩同宽站立，收紧核心与臀部避免腰椎反弓，训练手以掌心朝前握哑铃举于同侧肩上方，另一手臂垂于体侧。",
+        "吸气准备，维持肘部略在腕关节正下方。",
+        "呼气由三角肌前中束与肱三头肌发力将哑铃垂直向上推举过头顶至肘部接近伸直锁定。",
+        "在顶端短暂停顿后，吸气有控制地沿着垂直轨迹缓慢下放回肩侧起始位；单侧完成规定次数后换另一侧。"
+      ]
+    },
+    "0628": {
+      "name_zh": "弹力带侧向怪兽步",
+      "category": "upper legs",
+      "equipment": "resistance band",
+      "target": "glutes",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "abductors",
+        "quads",
+        "hamstrings"
+      ],
+      "movement_patterns_zh": [
+        "下肢外展",
+        "下肢稳定"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "将环形弹力带稳固套在双脚脚踝上方（或膝下），双脚分开呈四分之一半蹲姿态，双手扶髋且背部保持平直。",
+        "以臀中肌发力保持膝盖与脚尖朝前不内扣，先向一侧横向跨出一步维持弹力带张力。",
+        "控制支撑侧腿紧随跟步收回至半蹲初始间距，全程避免弹力带完全松弛或身体大幅上下晃动。",
+        "向同侧或左右交替横向迈步完成设定次数。"
+      ]
+    },
+    "0361": {
+      "name_zh": "哑铃单臂站姿推举",
+      "category": "shoulders",
+      "equipment": "dumbbell",
+      "target": "delts",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "triceps",
+        "traps",
+        "core"
+      ],
+      "movement_patterns_zh": [
+        "垂直推",
+        "站姿稳定"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "双脚与肩同宽踩稳地面，收紧核心与臀肌保持骨盆中立，训练手正握（掌心朝前）持一只哑铃停于同侧肩外侧，非训练手垂于体侧。",
+        "吸气稳定肩胛与躯干，防止推举时躯干向对侧侧倾。",
+        "呼气由三角肌前中束与肱三头肌协同发力将哑铃垂直推至头顶上方伸直位。",
+        "在顶部短暂停顿后，吸气有控制地缓慢下放回肩部起始位；单侧完成规定次数后换另一侧。"
+      ]
+    }
+  },
+  "sources": {
+    "0356": "https://exrx.net/WeightExercises/DeltoidLateral/DBSupportedOneArmLateralRaise",
+    "0620": "https://exrx.net/WeightExercises/RectusAbdominis/BWLyingLegHipRaise",
+    "0358": "https://exrx.net/WeightExercises/WristExtensors/DBOneArmReverseWristCurl",
+    "0359": "https://exrx.net/WeightExercises/DeltoidPosterior/DBSupportedOneArmRearLateralRaise"
+  },
+  "review_candidates": [
+    "0356",
+    "0620",
+    "0358",
+    "0359"
+  ],
+  "pending": {
+    "0613": "待修图 · 已规范为侧卧单侧股四头肌拉伸（含单侧标红纠偏与 4 步要点）；原图上身与底层直腿存在 5–6 px 独立尺度/偏移漂移，暂存待重制。",
+    "0624": "待修图 · 已将“靠墙静蹲交替抬腿”规范为“靠墙半蹲交替抬腿”，将主目标从误标的臀肌纠正为股四头肌并补齐墙面支持；原图第 2、3、4 帧为完全相同的抬膝静止姿势（既无过渡幅度变化也未交替另一侧抬腿），暂存待重制。",
+    "0627": "待修图 · 已规范正反混合握引体向上步骤并补齐单杠支撑；原图高位引体架顶横杠相对底座在拉起时向下压缩约 20 px，暂存待重制。",
+    "0360": "待修图 · 已规范哑铃单臂站姿推举（第二式）说明；原图第 3 帧为容纳举高哑铃将人体整体缩小约 15%（头部下移 29 px 而双脚仅下移 8 px），暂存待重制。",
+    "0628": "待修图 · 已将机械直译与误标器械纠正为“弹力带侧向怪兽步”（equipment=resistance band）；原图双脚同时向两侧对称滑动且无稳踩支点，暂存待重制。",
+    "0361": "待修图 · 已规范哑铃单臂站姿推举步骤；原图第 3 帧人物缩水约 15%，本批使用内置生图模型尝试 2 次重制均因第 3 帧头肩相对脚部竖直缩水 5–9 px（匹配分 0.8092）未达标，按规程暂不放行，后续改用局部锚定战略再重制。"
+  },
+  "registered_media": [
+    "0356",
+    "0620",
+    "0358",
+    "0359"
+  ],
+  "original_pose_repairs": [
+    "0356",
+    "0620",
+    "0358",
+    "0359"
+  ],
+  "generated_images_imported": 0,
+  "image_generation_calls": 2,
+  "review_notes": {
+    "0356": "将“哑铃单臂侧平举（带支撑）”规范为“扶凳哑铃单臂侧平举”，补齐平板训练凳与俯身稳定负荷标签；原四帧经 F2 整数平移 (0, +8) 配准后双脚及训练凳支点残差 0.0 px（匹配分 0.9904）。",
+    "0620": "将原名称“平板仰卧抬腿”规范为“平凳仰卧直腿举腿”，避免触发静态计时词库，并补齐平板训练凳支持；原四帧经整数平移（F1 +1,0；F2 0,+3）配准后平凳与头肩支点残差 ≤ 1.0 px（匹配分 ≥ 0.9799）。",
+    "0358": "纠正“哑铃单臂反握腕弯举”坐姿依托步骤并补齐平板训练凳支撑，保留单臂单侧计次属性；原四帧经清白并核对后平凳与右脚支点残差 0.0 px（匹配分 0.9934）。",
+    "0359": "纠正原英译中误译（reverse fly 应为反向飞鸟而非反握飞鸟）为“扶凳坐姿哑铃单臂反向飞鸟”，补齐平板训练凳与俯身稳定负荷标签；原四帧经整数平移（F1 +1,0；F2 0,+2）配准后双支点残差 ≤ 1.0 px（匹配分 ≥ 0.9845）。"
+  },
+  "initial_validation": "passed",
+  "newly_reviewed": [
+    "dataset_1324_0356",
+    "dataset_1324_0620",
+    "dataset_1324_0358",
+    "dataset_1324_0359"
+  ],
+  "android_playback_visually_reviewed": [
+    "0356",
+    "0620",
+    "0358",
+    "0359"
+  ]
+}

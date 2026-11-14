@@ -1,0 +1,217 @@
+[
+  {
+    "id": "0672",
+    "name": "reverse dip",
+    "name_zh": "反向俯卧撑",
+    "media": "raw:dataset_motion_0672",
+    "category": "upper arms",
+    "equipment": "body weight",
+    "target": "triceps",
+    "muscle_group": "chest",
+    "secondary_muscles": [
+      "chest",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "将自己定位在两个双杠之间，双臂完全伸展，身体伸直。",
+      "弯曲肘部降低身体，直到上臂与地面平行。",
+      "暂停片刻，然后伸直手臂，将自己推回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0377",
+    "name": "dumbbell rear delt row_shoulder",
+    "name_zh": "哑铃后三角划船",
+    "media": "raw:dataset_motion_0377",
+    "category": "shoulders",
+    "equipment": "dumbbell",
+    "target": "delts",
+    "muscle_group": "trapezius",
+    "secondary_muscles": [
+      "trapezius",
+      "rhomboids"
+    ],
+    "instructions_zh": [
+      "站立，双脚分开与肩同宽，膝盖稍微弯曲。",
+      "每只手握住一个哑铃，手掌朝向身体。",
+      "腰部向前弯曲，保持背部挺直，核心肌群参与。",
+      "将手臂伸直向下伸向地板，肘部稍微弯曲。",
+      "将哑铃向两侧举起，将肩胛骨挤压在一起。",
+      "在最高点暂停片刻，然后慢慢将哑铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0674",
+    "name": "reverse grip pull-up",
+    "name_zh": "反握引体向上",
+    "media": "raw:dataset_motion_0674",
+    "category": "back",
+    "equipment": "body weight",
+    "target": "lats",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "双手分开与肩同宽，反握抓住引体向上杆。",
+      "悬挂在杠上，双臂完全伸展，身体伸直。",
+      "调动背部肌肉，将身体拉向杠铃杆，以胸部为主导。",
+      "继续拉，直到下巴位于杠铃上方。",
+      "在顶部停顿片刻，然后慢慢将身体放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0378",
+    "name": "dumbbell rear fly",
+    "name_zh": "哑铃后飞鸟",
+    "media": "raw:dataset_motion_0378",
+    "category": "shoulders",
+    "equipment": "dumbbell",
+    "target": "delts",
+    "muscle_group": "trapezius",
+    "secondary_muscles": [
+      "trapezius",
+      "rhomboids"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，每只手各握一个哑铃。",
+      "稍微弯曲膝盖，髋部向前转动，保持背部挺直。",
+      "将双臂笔直向下伸向地面，手掌相对。",
+      "保持肘部轻微弯曲，将手臂向两侧抬起，并将肩胛骨挤压在一起。",
+      "在顶部暂停片刻，然后慢慢将手臂放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0677",
+    "name": "ring dips",
+    "name_zh": "环上俯卧撑",
+    "media": "raw:dataset_motion_0677",
+    "category": "upper arms",
+    "equipment": "body weight",
+    "target": "triceps",
+    "muscle_group": "chest",
+    "secondary_muscles": [
+      "chest",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "首先，将手臂完全伸展，身体伸直，挂在吊环上。",
+      "弯曲肘部，降低身体，直到肩膀低于肘部。",
+      "伸直手臂，将自己推回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0379",
+    "name": "dumbbell rear lateral raise (support head)",
+    "name_zh": "哑铃后侧平举（头靠支撑）",
+    "media": "raw:dataset_motion_0379",
+    "category": "shoulders",
+    "equipment": "dumbbell",
+    "target": "delts",
+    "muscle_group": "traps",
+    "secondary_muscles": [
+      "traps",
+      "rhomboids"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，每只手各握一个哑铃。",
+      "稍微弯曲膝盖，髋部向前转动，保持背部挺直。",
+      "将手臂向两侧举起，肘部保持轻微弯曲，直到与地面平行。",
+      "在顶部暂停片刻，然后慢慢将手臂放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0678",
+    "name": "rocky pull-up pulldown",
+    "name_zh": "岩石引体向上下拉",
+    "media": "raw:dataset_motion_0678",
+    "category": "back",
+    "equipment": "body weight",
+    "target": "lats",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "站在引体向上杆前，双脚分开与肩同宽。",
+      "向上伸手，正手握住杠铃，握距略宽于肩宽。",
+      "悬挂在杠上，双臂完全伸展，身体伸直。",
+      "调动背部肌肉，将身体拉向杠铃杆，以胸部为主导。",
+      "在顶部停顿片刻，然后慢慢将身体放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0380",
+    "name": "dumbbell rear lateral raise",
+    "name_zh": "哑铃后侧平举",
+    "media": "raw:dataset_motion_0380",
+    "category": "shoulders",
+    "equipment": "dumbbell",
+    "target": "delts",
+    "muscle_group": "traps",
+    "secondary_muscles": [
+      "traps",
+      "rhomboids"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，双手各握一个哑铃，手掌朝向身体。",
+      "稍微弯曲膝盖，髋部向前转动，保持背部挺直，核心参与。",
+      "将手臂向两侧举起，肘部保持轻微弯曲，直到与地板平行。",
+      "在顶部暂停片刻，然后慢慢将手臂放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0684",
+    "name": "run (equipment)",
+    "name_zh": "器械跑步",
+    "media": "raw:dataset_motion_0684",
+    "category": "cardio",
+    "equipment": "body weight",
+    "target": "cardiovascular system",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "首先站直，双脚分开与臀部同宽。",
+      "启动你的核心并保持上半身放松。",
+      "开始原地慢跑，将膝盖抬向胸部，然后轻轻落在脚掌上。",
+      "保持稳定的步伐并继续慢跑所需的时间或距离。",
+      "记住在整个练习过程中深呼吸并保持良好的姿势。"
+    ]
+  },
+  {
+    "id": "0381",
+    "name": "dumbbell rear lunge",
+    "name_zh": "哑铃后弓步",
+    "media": "raw:dataset_motion_0381",
+    "category": "upper legs",
+    "equipment": "dumbbell",
+    "target": "glutes",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，每只手各握一个哑铃。",
+      "右脚向后退一步，将身体降低至弓步位置。",
+      "弯曲左膝并降低身体，直到左大腿与地面平行。",
+      "暂停片刻，然后推动左脚跟回到起始位置。",
+      "在另一侧重复，左脚向后退一步。"
+    ]
+  }
+]

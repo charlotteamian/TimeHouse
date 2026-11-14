@@ -1,0 +1,1095 @@
+{
+  "0474": {
+    "source": "assets/motion_repairs/20260920_review12/0474-generated.png",
+    "anchors": {
+      "top_pullup_bar": {
+        "box": [
+          210,
+          20,
+          415,
+          80
+        ],
+        "max_residual_px": 0.0,
+        "min_match_score": 1.0,
+        "frames": [
+          {
+            "frame": 1,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          },
+          {
+            "frame": 2,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          },
+          {
+            "frame": 3,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          }
+        ]
+      },
+      "right_upright_post": {
+        "box": [
+          365,
+          80,
+          415,
+          455
+        ],
+        "max_residual_px": 0.0,
+        "min_match_score": 1.0,
+        "frames": [
+          {
+            "frame": 1,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          },
+          {
+            "frame": 2,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          },
+          {
+            "frame": 3,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          }
+        ]
+      },
+      "lower_rack_base": {
+        "box": [
+          315,
+          340,
+          442,
+          460
+        ],
+        "max_residual_px": 0.0,
+        "min_match_score": 1.0,
+        "frames": [
+          {
+            "frame": 1,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          },
+          {
+            "frame": 2,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          },
+          {
+            "frame": 3,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          }
+        ]
+      }
+    },
+    "passing_anchor_count": 3,
+    "passed": true
+  },
+  "0328": {
+    "source": "assets/motion_repairs/20260920_review12/0328-generated.png",
+    "anchors": {
+      "rear_bench_foot": {
+        "box": [
+          25,
+          360,
+          140,
+          455
+        ],
+        "max_residual_px": 0.0,
+        "min_match_score": 1.0,
+        "frames": [
+          {
+            "frame": 1,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          },
+          {
+            "frame": 2,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          },
+          {
+            "frame": 3,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          }
+        ]
+      },
+      "front_bench_leg": {
+        "box": [
+          280,
+          340,
+          365,
+          455
+        ],
+        "max_residual_px": 0.0,
+        "min_match_score": 1.0,
+        "frames": [
+          {
+            "frame": 1,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          },
+          {
+            "frame": 2,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          },
+          {
+            "frame": 3,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          }
+        ]
+      },
+      "planted_feet": {
+        "box": [
+          345,
+          380,
+          452,
+          472
+        ],
+        "max_residual_px": 0.0,
+        "min_match_score": 1.0,
+        "frames": [
+          {
+            "frame": 1,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          },
+          {
+            "frame": 2,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          },
+          {
+            "frame": 3,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          }
+        ]
+      }
+    },
+    "passing_anchor_count": 3,
+    "passed": true
+  },
+  "0475": {
+    "source": "assets/motion_repairs/20260920_review12/before/dataset_motion_0475.webp",
+    "anchors": {
+      "left_top_joint": {
+        "box": [
+          82,
+          11,
+          145,
+          85
+        ],
+        "max_residual_px": 0.0,
+        "min_match_score": 0.9813,
+        "frames": [
+          {
+            "frame": 1,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 0.9813
+          },
+          {
+            "frame": 2,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 0.9902
+          },
+          {
+            "frame": 3,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 0.9813
+          }
+        ]
+      },
+      "right_top_joint": {
+        "box": [
+          315,
+          18,
+          366,
+          110
+        ],
+        "max_residual_px": 0.0,
+        "min_match_score": 0.9907,
+        "frames": [
+          {
+            "frame": 1,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 0.9938
+          },
+          {
+            "frame": 2,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 0.9907
+          },
+          {
+            "frame": 3,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 0.9938
+          }
+        ]
+      },
+      "hands_bar": {
+        "box": [
+          140,
+          15,
+          290,
+          65
+        ],
+        "max_residual_px": 1.0,
+        "min_match_score": 0.9847,
+        "frames": [
+          {
+            "frame": 1,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 0.9926
+          },
+          {
+            "frame": 2,
+            "dx": -1,
+            "dy": 0,
+            "residual_px": 1.0,
+            "match_score": 0.9847
+          },
+          {
+            "frame": 3,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 0.9926
+          }
+        ]
+      }
+    },
+    "passing_anchor_count": 3,
+    "passed": true
+  },
+  "0329": {
+    "source": "assets/motion_repairs/20260920_review12/before/dataset_motion_0329.webp",
+    "anchors": {
+      "rear_bench_foot": {
+        "box": [
+          35,
+          360,
+          150,
+          425
+        ],
+        "max_residual_px": 0.0,
+        "min_match_score": 0.9907,
+        "frames": [
+          {
+            "frame": 1,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 0.9988
+          },
+          {
+            "frame": 2,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 0.9907
+          },
+          {
+            "frame": 3,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 0.9988
+          }
+        ]
+      },
+      "front_bench_base": {
+        "box": [
+          220,
+          405,
+          335,
+          455
+        ],
+        "max_residual_px": 0.0,
+        "min_match_score": 1.0,
+        "frames": [
+          {
+            "frame": 1,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          },
+          {
+            "frame": 2,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          },
+          {
+            "frame": 3,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          }
+        ]
+      },
+      "planted_legs_feet": {
+        "box": [
+          305,
+          355,
+          442,
+          462
+        ],
+        "max_residual_px": 0.0,
+        "min_match_score": 0.9923,
+        "frames": [
+          {
+            "frame": 1,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 0.9923
+          },
+          {
+            "frame": 2,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 0.9962
+          },
+          {
+            "frame": 3,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 0.9923
+          }
+        ]
+      }
+    },
+    "passing_anchor_count": 3,
+    "passed": true
+  },
+  "0476": {
+    "source": "assets/motion_repairs/20260920_review12/before/dataset_motion_0476.webp",
+    "anchors": {
+      "left_top_joint": {
+        "box": [
+          82,
+          5,
+          145,
+          80
+        ],
+        "max_residual_px": 0.0,
+        "min_match_score": 0.9951,
+        "frames": [
+          {
+            "frame": 1,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 0.9951
+          },
+          {
+            "frame": 2,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 0.9972
+          },
+          {
+            "frame": 3,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 0.9951
+          }
+        ]
+      },
+      "right_top_joint": {
+        "box": [
+          340,
+          15,
+          396,
+          110
+        ],
+        "max_residual_px": 1.0,
+        "min_match_score": 0.9833,
+        "frames": [
+          {
+            "frame": 1,
+            "dx": 1,
+            "dy": 0,
+            "residual_px": 1.0,
+            "match_score": 0.9833
+          },
+          {
+            "frame": 2,
+            "dx": 1,
+            "dy": 0,
+            "residual_px": 1.0,
+            "match_score": 0.9989
+          },
+          {
+            "frame": 3,
+            "dx": 1,
+            "dy": 0,
+            "residual_px": 1.0,
+            "match_score": 0.9833
+          }
+        ]
+      },
+      "hands_bar": {
+        "box": [
+          150,
+          15,
+          300,
+          70
+        ],
+        "max_residual_px": 0.0,
+        "min_match_score": 0.9835,
+        "frames": [
+          {
+            "frame": 1,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 0.9835
+          },
+          {
+            "frame": 2,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 0.9847
+          },
+          {
+            "frame": 3,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 0.9835
+          }
+        ]
+      }
+    },
+    "passing_anchor_count": 3,
+    "passed": true
+  },
+  "0330": {
+    "source": "assets/motion_repairs/20260920_review12/0330-generated.png",
+    "anchors": {
+      "rear_bench_foot": {
+        "box": [
+          330,
+          370,
+          430,
+          440
+        ],
+        "max_residual_px": 0.0,
+        "min_match_score": 1.0,
+        "frames": [
+          {
+            "frame": 1,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          },
+          {
+            "frame": 2,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          },
+          {
+            "frame": 3,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          }
+        ]
+      },
+      "front_bench_base": {
+        "box": [
+          115,
+          370,
+          225,
+          460
+        ],
+        "max_residual_px": 0.0,
+        "min_match_score": 1.0,
+        "frames": [
+          {
+            "frame": 1,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          },
+          {
+            "frame": 2,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          },
+          {
+            "frame": 3,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          }
+        ]
+      },
+      "planted_feet": {
+        "box": [
+          50,
+          385,
+          195,
+          465
+        ],
+        "max_residual_px": 0.0,
+        "min_match_score": 1.0,
+        "frames": [
+          {
+            "frame": 1,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          },
+          {
+            "frame": 2,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          },
+          {
+            "frame": 3,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          }
+        ]
+      }
+    },
+    "passing_anchor_count": 3,
+    "passed": true
+  },
+  "0484": {
+    "source": "assets/motion_repairs/20260920_review12/0484-generated.png",
+    "anchors": {
+      "head_floor": {
+        "box": [
+          22,
+          335,
+          92,
+          418
+        ],
+        "max_residual_px": 0.0,
+        "min_match_score": 1.0,
+        "frames": [
+          {
+            "frame": 1,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          },
+          {
+            "frame": 2,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          },
+          {
+            "frame": 3,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          }
+        ]
+      },
+      "resting_hand_floor": {
+        "box": [
+          180,
+          412,
+          340,
+          434
+        ],
+        "max_residual_px": 0.0,
+        "min_match_score": 0.9994,
+        "frames": [
+          {
+            "frame": 1,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          },
+          {
+            "frame": 2,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 0.9994
+          },
+          {
+            "frame": 3,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          }
+        ]
+      },
+      "planted_feet_floor": {
+        "box": [
+          386,
+          365,
+          456,
+          428
+        ],
+        "max_residual_px": 0.0,
+        "min_match_score": 1.0,
+        "frames": [
+          {
+            "frame": 1,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          },
+          {
+            "frame": 2,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          },
+          {
+            "frame": 3,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          }
+        ]
+      }
+    },
+    "passing_anchor_count": 3,
+    "passed": true
+  },
+  "0331": {
+    "source": "assets/motion_repairs/20260920_review12/before/dataset_motion_0331.webp",
+    "anchors": {
+      "rear_bench_strut": {
+        "box": [
+          81,
+          290,
+          215,
+          398
+        ],
+        "max_residual_px": 0.0,
+        "min_match_score": 0.9617,
+        "frames": [
+          {
+            "frame": 1,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 0.9617
+          },
+          {
+            "frame": 2,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 0.9863
+          },
+          {
+            "frame": 3,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 0.9617
+          }
+        ]
+      },
+      "front_bench_base": {
+        "box": [
+          225,
+          395,
+          345,
+          455
+        ],
+        "max_residual_px": 0.0,
+        "min_match_score": 1.0,
+        "frames": [
+          {
+            "frame": 1,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          },
+          {
+            "frame": 2,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          },
+          {
+            "frame": 3,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          }
+        ]
+      },
+      "left_foot": {
+        "box": [
+          245,
+          425,
+          315,
+          475
+        ],
+        "max_residual_px": 0.0,
+        "min_match_score": 1.0,
+        "frames": [
+          {
+            "frame": 1,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          },
+          {
+            "frame": 2,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          },
+          {
+            "frame": 3,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          }
+        ]
+      },
+      "right_leg_foot": {
+        "box": [
+          375,
+          345,
+          463,
+          470
+        ],
+        "max_residual_px": 0.0,
+        "min_match_score": 0.9996,
+        "frames": [
+          {
+            "frame": 1,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 0.9998
+          },
+          {
+            "frame": 2,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 0.9996
+          },
+          {
+            "frame": 3,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 0.9998
+          }
+        ]
+      }
+    },
+    "passing_anchor_count": 4,
+    "passed": true
+  },
+  "0488": {
+    "source": "assets/motion_repairs/20260920_review12/0488-generated.png",
+    "anchors": {
+      "front_base_foot": {
+        "box": [
+          65,
+          405,
+          155,
+          465
+        ],
+        "max_residual_px": 0.0,
+        "min_match_score": 1.0,
+        "frames": [
+          {
+            "frame": 1,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          },
+          {
+            "frame": 2,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          },
+          {
+            "frame": 3,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          }
+        ]
+      },
+      "rear_base_foot": {
+        "box": [
+          360,
+          410,
+          435,
+          465
+        ],
+        "max_residual_px": 0.0,
+        "min_match_score": 1.0,
+        "frames": [
+          {
+            "frame": 1,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          },
+          {
+            "frame": 2,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          },
+          {
+            "frame": 3,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          }
+        ]
+      },
+      "ankle_rollers_legs": {
+        "box": [
+          52,
+          235,
+          220,
+          445
+        ],
+        "max_residual_px": 0.0,
+        "min_match_score": 1.0,
+        "frames": [
+          {
+            "frame": 1,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          },
+          {
+            "frame": 2,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          },
+          {
+            "frame": 3,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          }
+        ]
+      }
+    },
+    "passing_anchor_count": 3,
+    "passed": true
+  },
+  "0332": {
+    "source": "assets/motion_repairs/20260920_review12/before/dataset_motion_0332.webp",
+    "anchors": {
+      "left_leg_foot": {
+        "box": [
+          170,
+          335,
+          232,
+          472
+        ],
+        "max_residual_px": 0.0,
+        "min_match_score": 1.0,
+        "frames": [
+          {
+            "frame": 1,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          },
+          {
+            "frame": 2,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          },
+          {
+            "frame": 3,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          }
+        ]
+      },
+      "right_foot": {
+        "box": [
+          255,
+          415,
+          305,
+          472
+        ],
+        "max_residual_px": 0.0,
+        "min_match_score": 1.0,
+        "frames": [
+          {
+            "frame": 1,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          },
+          {
+            "frame": 2,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          },
+          {
+            "frame": 3,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          }
+        ]
+      },
+      "shins_knees": {
+        "box": [
+          175,
+          335,
+          305,
+          472
+        ],
+        "max_residual_px": 0.0,
+        "min_match_score": 1.0,
+        "frames": [
+          {
+            "frame": 1,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          },
+          {
+            "frame": 2,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          },
+          {
+            "frame": 3,
+            "dx": 0,
+            "dy": 0,
+            "residual_px": 0.0,
+            "match_score": 1.0
+          }
+        ]
+      }
+    },
+    "passing_anchor_count": 3,
+    "passed": true
+  }
+}

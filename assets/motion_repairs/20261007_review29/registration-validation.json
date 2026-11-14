@@ -1,0 +1,50 @@
+{
+  "0420": {
+    "status": "passed",
+    "frames": 4,
+    "size": [
+      480,
+      480
+    ],
+    "durations_ms": [
+      800,
+      380,
+      800,
+      380
+    ],
+    "frame4_equals_frame2": true,
+    "max_anchor_residual_px": 0.0,
+    "min_anchor_match_score": 0.9892,
+    "foreground_pixels": [
+      49333,
+      51692,
+      52178,
+      51692
+    ],
+    "fg_preserved": true
+  },
+  "0422": {
+    "status": "passed",
+    "frames": 4,
+    "size": [
+      480,
+      480
+    ],
+    "durations_ms": [
+      800,
+      380,
+      800,
+      380
+    ],
+    "frame4_equals_frame2": true,
+    "max_anchor_residual_px": 2.0,
+    "min_anchor_match_score": 0.9717,
+    "foreground_pixels": [
+      58556,
+      59074,
+      57301,
+      59074
+    ],
+    "fg_preserved": true
+  }
+}

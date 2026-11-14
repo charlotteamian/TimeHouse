@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "validated_at": "2026-11-11T23:35:50.505026+08:00",
+  "emulator": "emulator-5554",
+  "checks": 37,
+  "visually_reviewed": [
+    "0474",
+    "0328",
+    "0475",
+    "0329",
+    "0476",
+    "0330",
+    "0484",
+    "0331",
+    "0488",
+    "0332"
+  ],
+  "dataset_sha256": "4e5157ca6b5385d895fcc6535e99ef007563a5c425661bcbc3afe0ac52bd96f8",
+  "media_sha256": {
+    "0474": "4f5835ba9040a2bba53ec0accea165a85d1087c54e9827e46de89027d53e4b8b",
+    "0328": "39a4d4dd2ebc9c8f069b303a3c966ec780ed974222be8bef78e8c41746955249",
+    "0475": "33c4b83a37626da784113c49469c7ede0ad27630ac096bc536260de03a0a427b",
+    "0329": "f118d1454095c425bdc31ccbe0b8bb7d1e58ec035407f85ea342125b93679b4b",
+    "0476": "563fe65caca59b78e617df124aa88a9a63bd58efe9d3cc1398915cf519b9cc1b",
+    "0330": "eb2c6afda63dd22d14f918e94994de755666f4db4b15aaa69309ec8d3aa8baee",
+    "0484": "ce75bf1de15348e44794945e22350a0cfa479e22cffa360c0525ede2578877ab",
+    "0331": "d8fc64f84a54c2a2d5e817c062cdb3e5320f53428232d2a1b8b75522bc265848",
+    "0488": "cb58734b7a3cdd9941699f3bf4371fdf48e0556dcdaa3b4c650473ee20d8fd01",
+    "0332": "8ac6807bc331d5f8ac31a57321d829ac6b61a1df55da4bb7584571c3c7018fd7"
+  }
+}

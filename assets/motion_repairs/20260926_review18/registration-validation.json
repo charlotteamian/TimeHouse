@@ -1,0 +1,146 @@
+{
+  "0362": {
+    "status": "passed",
+    "frames": 4,
+    "size": [
+      480,
+      480
+    ],
+    "durations_ms": [
+      800,
+      380,
+      800,
+      380
+    ],
+    "frame4_equals_frame2": true,
+    "max_anchor_residual_px": 1.0,
+    "min_anchor_match_score": 0.9709,
+    "foreground_pixels": [
+      51061,
+      50151,
+      49847,
+      50151
+    ],
+    "fg_preserved": true
+  },
+  "0635": {
+    "status": "passed",
+    "frames": 4,
+    "size": [
+      480,
+      480
+    ],
+    "durations_ms": [
+      800,
+      380,
+      800,
+      380
+    ],
+    "frame4_equals_frame2": true,
+    "max_anchor_residual_px": 1.0,
+    "min_anchor_match_score": 0.9603,
+    "foreground_pixels": [
+      42746,
+      53066,
+      55194,
+      53066
+    ],
+    "fg_preserved": true
+  },
+  "0364": {
+    "status": "passed",
+    "frames": 4,
+    "size": [
+      480,
+      480
+    ],
+    "durations_ms": [
+      800,
+      380,
+      800,
+      380
+    ],
+    "frame4_equals_frame2": true,
+    "max_anchor_residual_px": 0.0,
+    "min_anchor_match_score": 0.9805,
+    "foreground_pixels": [
+      69490,
+      69850,
+      70117,
+      69850
+    ],
+    "fg_preserved": true
+  },
+  "0638": {
+    "status": "passed",
+    "frames": 4,
+    "size": [
+      480,
+      480
+    ],
+    "durations_ms": [
+      800,
+      380,
+      800,
+      380
+    ],
+    "frame4_equals_frame2": true,
+    "max_anchor_residual_px": 1.0,
+    "min_anchor_match_score": 0.9868,
+    "foreground_pixels": [
+      56005,
+      55267,
+      49983,
+      55267
+    ],
+    "fg_preserved": true
+  },
+  "0365": {
+    "status": "passed",
+    "frames": 4,
+    "size": [
+      480,
+      480
+    ],
+    "durations_ms": [
+      800,
+      380,
+      800,
+      380
+    ],
+    "frame4_equals_frame2": true,
+    "max_anchor_residual_px": 1.41,
+    "min_anchor_match_score": 0.9818,
+    "foreground_pixels": [
+      68799,
+      69584,
+      70855,
+      69584
+    ],
+    "fg_preserved": true
+  },
+  "0366": {
+    "status": "passed",
+    "frames": 4,
+    "size": [
+      480,
+      480
+    ],
+    "durations_ms": [
+      800,
+      380,
+      800,
+      380
+    ],
+    "frame4_equals_frame2": true,
+    "max_anchor_residual_px": 1.0,
+    "min_anchor_match_score": 0.9835,
+    "foreground_pixels": [
+      72442,
+      71678,
+      73247,
+      71678
+    ],
+    "fg_preserved": true
+  }
+}

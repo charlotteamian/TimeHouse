@@ -1,0 +1,338 @@
+{
+  "batch": "20260920_review12",
+  "version": "1.2.17",
+  "version_code": 2026092001,
+  "apk_name": "时光屋-1.2.17-第十二批动作复核.apk",
+  "output": "build/review12-20260920",
+  "report": "docs/releases/2026-09-20-review-batch12.md",
+  "inspected": [
+    "0474",
+    "0328",
+    "0475",
+    "0329",
+    "0476",
+    "0330",
+    "0484",
+    "0331",
+    "0488",
+    "0332"
+  ],
+  "definition_updates": {
+    "0474": {
+      "name_zh": "悬挂直腿举腿提臀",
+      "target": "abs",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "obliques",
+        "hip flexors",
+        "forearms"
+      ],
+      "movement_patterns_zh": [
+        "核心屈曲",
+        "悬挂稳定"
+      ],
+      "required_equipment_zh": [
+        "单杠"
+      ],
+      "instructions_zh": [
+        "双手正握单杠，双臂完全伸直，肩带下沉稳定，双腿并拢自然垂直悬挂。",
+        "呼气收紧腹直肌与屈髋肌群，保持双膝伸直，先将双腿平稳抬至与地面平行的水平位。",
+        "继续卷动骨盆向上提臀，使伸直的双腿向单杠上方高抬并充分挤压腹直肌，避免大幅前后摆动借力。",
+        "吸气保持核心控制，将骨盆与双腿经水平位缓慢下放回垂直悬挂起点；每次高抬提臀并还原计一次。"
+      ]
+    },
+    "0328": {
+      "name_zh": "哑铃上斜直臂前锯肌推举",
+      "target": "serratus anterior",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "delts",
+        "upper chest",
+        "traps"
+      ],
+      "movement_patterns_zh": [
+        "上肢推",
+        "辅助"
+      ],
+      "required_equipment_zh": [
+        "上斜训练凳"
+      ],
+      "instructions_zh": [
+        "将上斜训练凳调节至约四十五度，仰卧躺稳，上背与臀部贴紧靠背，双脚全脚掌踩实地面。",
+        "双手各持一只哑铃，双臂完全伸直垂直举于上胸正上方，肘关节保持微屈固定不弯折。",
+        "呼气集中以侧肋前锯肌发力，保持双臂笔直，将肩胛骨与双肩向天花板方向前推顶起并微微离开靠背。",
+        "在最高点短暂停顿感受前锯肌收缩，吸气受控退回肩胛骨贴靠椅背的起始位；每次顶起与回落计一次。"
+      ]
+    },
+    "0475": {
+      "name_zh": "悬挂直腿举腿",
+      "target": "abs",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "hip flexors",
+        "obliques",
+        "forearms"
+      ],
+      "movement_patterns_zh": [
+        "核心屈曲",
+        "悬挂稳定"
+      ],
+      "required_equipment_zh": [
+        "单杠"
+      ],
+      "instructions_zh": [
+        "双手正握单杠，握距略宽于肩，双臂伸直，躯干与双腿并拢垂直悬挂。",
+        "呼气收紧下腹与核心，保持双膝伸直，带动双腿向身体前方平稳抬起。",
+        "继续上抬至双腿与地面平行呈直角位置，在顶点短暂停顿并保持躯干稳定不晃动。",
+        "吸气有控制地将双腿沿原轨迹缓慢下放回垂直悬挂起点；每次抬起与下放计一次。"
+      ]
+    },
+    "0329": {
+      "name_zh": "哑铃上斜耸肩",
+      "target": "traps",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "levator scapulae",
+        "upper back",
+        "forearms"
+      ],
+      "movement_patterns_zh": [
+        "上肢拉",
+        "辅助"
+      ],
+      "required_equipment_zh": [
+        "上斜训练凳"
+      ],
+      "instructions_zh": [
+        "将上斜训练凳调节至约四十五至六十度，坐稳后上背与臀部贴紧靠背，双脚踩稳地面。",
+        "双手各握一只哑铃自然垂于体侧，掌心相对，双臂保持伸直，肩带自然下沉。",
+        "保持肘部伸直不借力弯举，呼气由上斜方肌发力将双肩朝耳朵方向竖直向上提拉。",
+        "在最高点停顿一秒充分挤压斜方肌，吸气受控缓慢下放双肩回到起点；每次提肩与还原计一次。"
+      ]
+    },
+    "0476": {
+      "name_zh": "悬挂直腿转体举腿",
+      "target": "abs",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "obliques",
+        "hip flexors",
+        "forearms"
+      ],
+      "movement_patterns_zh": [
+        "核心屈曲",
+        "抗旋转",
+        "悬挂稳定"
+      ],
+      "required_equipment_zh": [
+        "单杠"
+      ],
+      "instructions_zh": [
+        "双手正握单杠，双臂完全伸直，肩带下沉稳定，双腿伸直并拢垂直悬挂。",
+        "收紧核心与下腹，保持双膝伸直将双腿向前抬起至接近水平高度。",
+        "维持双腿高度并收缩一侧腹斜肌，带动骨盆与并拢双腿向侧方微幅旋转挤压侧腹。",
+        "受控转回正中并平稳下放双腿回到垂直悬挂起点，再向另一侧交替进行；每次完整举腿转体并还原计一次。"
+      ]
+    },
+    "0330": {
+      "name_zh": "哑铃上斜仰卧臂屈伸",
+      "target": "triceps",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "forearms",
+        "delts"
+      ],
+      "movement_patterns_zh": [
+        "上肢推",
+        "过顶伸展",
+        "辅助"
+      ],
+      "required_equipment_zh": [
+        "上斜训练凳"
+      ],
+      "instructions_zh": [
+        "将上斜训练凳调节至约四十五度，仰卧躺稳，头背部与臀部贴紧靠背，双脚踩实地面。",
+        "双手对握各持一只哑铃，双臂向上伸直举于头顶上方，大臂保持贴近耳侧固定不动。",
+        "吸气仅在肘关节处屈曲，保持大臂垂直稳定，将哑铃有控制地向脑后下方缓慢下放至肱三头肌充分拉伸。",
+        "呼气收缩肱三头肌发力伸肘，将前臂与哑铃沿原轨迹推回过顶伸直位；每次下放与推起计一次。"
+      ]
+    },
+    "0484": {
+      "name_zh": "仰卧屈膝臀桥",
+      "target": "glutes",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "abs",
+        "hamstrings",
+        "lower back"
+      ],
+      "movement_patterns_zh": [
+        "髋铰链",
+        "核心稳定"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "仰卧在地面或训练垫上，双膝弯曲约九十度，双脚与髋同宽平踩地面，双臂平放于身体两侧掌心朝下。",
+        "呼气收紧臀大肌与腹直肌，维持骨盆微后倾与肋骨下沉，避免腰椎过度反弓代偿。",
+        "双脚脚跟稳踩地面发力向上顶起髋部，直至膝、髋、肩呈一条斜向直线。",
+        "在桥式顶点短暂停顿夹紧臀肌，吸气有控制地将臀部平缓放回地面起始位；每次抬起与下放计一次。"
+      ]
+    },
+    "0331": {
+      "name_zh": "哑铃上斜旋转飞鸟",
+      "target": "pectorals",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "delts",
+        "biceps"
+      ],
+      "movement_patterns_zh": [
+        "上肢推",
+        "辅助"
+      ],
+      "required_equipment_zh": [
+        "上斜训练凳"
+      ],
+      "instructions_zh": [
+        "将上斜训练凳调节至约三十至四十五度，仰卧躺稳，肩胛骨收紧贴实靠背，双脚踩稳地面。",
+        "双手各持一只哑铃推至上胸正上方，双肘微屈并保持角度固定，顶部掌心相对。",
+        "吸气以肩关节为轴向身体两侧呈宽弧线缓慢下放哑铃，同时自然外旋手腕使底部掌心朝前上方，直至胸肌充分拉伸。",
+        "呼气收缩上胸肌群，沿原弧线将哑铃向内上方抱回胸前起始位并在顶点挤压胸肌；每次展开与合拢计一次。"
+      ]
+    },
+    "0488": {
+      "name_zh": "罗马椅背屈伸",
+      "target": "lower back",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "glutes",
+        "hamstrings",
+        "spine"
+      ],
+      "movement_patterns_zh": [
+        "髋铰链",
+        "俯身稳定"
+      ],
+      "required_equipment_zh": [
+        "带勾脚的下斜训练凳"
+      ],
+      "instructions_zh": [
+        "俯卧在四十五度罗马椅（或带勾脚垫的背屈伸训练凳）上，双脚脚踝卡稳下方滚垫，髋部前侧贴靠护垫，双臂交叉抱于胸前。",
+        "保持脊柱自然中立挺直，吸气以髋关节为轴有控制地向前下方屈髋俯身，直至腘绳肌与下背感受适度拉伸。",
+        "呼气收缩臀大肌与竖脊肌，带动上半身平稳向上抬起，直至头、脊柱、髋与双腿恢复成一条四十五度直线。",
+        "在直线位置短暂停顿，严禁在顶部过度后仰反弓腰椎，随后受控进入下一次重复；每次俯身与抬起计一次。"
+      ]
+    },
+    "0332": {
+      "name_zh": "哑铃十字侧平举",
+      "target": "delts",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "traps",
+        "forearms"
+      ],
+      "movement_patterns_zh": [
+        "外展",
+        "站姿稳定"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "双脚分开与肩同宽站立，收紧核心与臀部保持躯干挺直，双手各持一只哑铃自然垂于大腿外侧。",
+        "保持肘关节伸直或微屈锁定、肩带下沉不耸肩，呼气由三角肌发力将双臂向身体两侧平举抬起。",
+        "抬至双臂与地面完全平行、与躯干呈十字形（T字形）时短暂停顿，感受三角肌中束持续收缩。",
+        "吸气有控制地将双臂沿原路径缓慢下放回体侧起始位；每次平举与下放计一次。"
+      ]
+    }
+  },
+  "sources": {
+    "0474": "https://exrx.net/WeightExercises/RectusAbdominis/BWHangingStraightLegHipRaise",
+    "0328": "https://exrx.net/WeightExercises/SerratusAnterior/DBInclineShoulderRaise",
+    "0475": "https://exrx.net/WeightExercises/HipFlexors/BWHangingStraightLegRaise",
+    "0329": "https://exrx.net/WeightExercises/TrapeziusUpper/DBShrug",
+    "0476": "https://exrx.net/WeightExercises/Obliques/BWHangingTwistingLegHipRaise",
+    "0330": "https://exrx.net/WeightExercises/Triceps/DBInclineTriExt",
+    "0484": "https://www.acefitness.org/resources/everyone/exercise-library/49/glute-bridge/",
+    "0331": "https://exrx.net/WeightExercises/PectoralClavicular/DBInclineFly",
+    "0488": "https://exrx.net/WeightExercises/ErectorSpinae/BBBentKneeGoodMorning",
+    "0332": "https://exrx.net/WeightExercises/DeltoidLateral/DBLateralRaise"
+  },
+  "review_candidates": [
+    "0474",
+    "0328",
+    "0475",
+    "0329",
+    "0476",
+    "0330",
+    "0484",
+    "0331",
+    "0488",
+    "0332"
+  ],
+  "newly_reviewed": [
+    "dataset_1324_0474",
+    "dataset_1324_0328",
+    "dataset_1324_0475",
+    "dataset_1324_0329",
+    "dataset_1324_0476",
+    "dataset_1324_0330",
+    "dataset_1324_0484",
+    "dataset_1324_0331",
+    "dataset_1324_0488",
+    "dataset_1324_0332"
+  ],
+  "pending": {},
+  "registered_media": [
+    "0474",
+    "0328",
+    "0475",
+    "0329",
+    "0476",
+    "0330",
+    "0484",
+    "0331",
+    "0488",
+    "0332"
+  ],
+  "original_pose_repairs": [
+    "0475",
+    "0329",
+    "0476",
+    "0331",
+    "0332"
+  ],
+  "remade_media": [
+    "0474",
+    "0328",
+    "0330",
+    "0484",
+    "0488"
+  ],
+  "generated_images_imported": 5,
+  "image_generation_calls": 11,
+  "initial_validation": "passed",
+  "validation": "pending",
+  "review_notes": {
+    "0474": "纠正悬挂直腿髋抬高为悬挂直腿举腿提臀，补齐单杠需求；重绘悬垂→水平举腿→高抬提臀→水平回落四帧闭环，单杠与底座三处固定支撑残差 0.0 px，匹配度 1.0。",
+    "0328": "纠正原图误绘为屈肘推举的问题，重绘仰卧上斜直臂前锯肌推举（直臂肩胛前送），补齐上斜训练凳条件与前锯肌主肌群；前后凳脚与双脚残差 0.0 px，匹配度 1.0。",
+    "0475": "核对悬挂直腿举腿，补齐单杠需求与核心屈曲模式；原四帧经整数平移校准后左右立柱顶角与双手握点残差 <= 1.0 px，匹配度 >= 0.9813。",
+    "0329": "核对哑铃上斜耸肩，补齐上斜训练凳条件與斜方肌主肌群；原四帧经整数平移与底座稳定后前后凳脚与双脚残差 0.0 px，匹配度 >= 0.9907。",
+    "0476": "纠正悬挂直腿转体髋抬高为悬挂直腿转体举腿，补齐单杠需求与抗旋转模式；原四帧经整数平移校准后左右立柱与双手握点残差 <= 1.0 px，匹配度 >= 0.9833。",
+    "0330": "纠正哑铃上斜三头肌伸展为哑铃上斜仰卧臂屈伸，补齐上斜训练凳条件；修复原图缺失中间过渡帧与顶部截断问题，前后凳脚与双脚残差 0.0 px，匹配度 1.0。",
+    "0484": "纠正屈膝臀抬高为仰卧屈膝臀桥，修正臀大肌为主肌群；重绘并锁定头肩、双手与双脚地面支撑，消除原图地面上移与右缘裁切，三处地面支撑残差 0.0 px，匹配度 >= 0.9994。",
+    "0331": "纠正哑铃上斜扭转飞鸟为哑铃上斜旋转飞鸟，补齐上斜训练凳条件；原四帧经整数平移校准后前后凳脚与双脚残差 0.0 px，匹配度 >= 0.9617。",
+    "0488": "纠正卧式超伸为罗马椅背屈伸，补齐带勾脚的下斜训练凳需求与下背主肌群；重绘标准四十五度中立位伸展并消除原图底边杂斑与头顶裁切，底座与滚垫残差 0.0 px，匹配度 1.0。",
+    "0332": "纠正哑铃铁十字为哑铃十字侧平举；原四帧整体下移恢复头顶白边并稳定下肢支撑，双脚与小腿三处支撑残差 0.0 px，匹配度 1.0。"
+  },
+  "android_playback_visually_reviewed": [
+    "0474",
+    "0328",
+    "0475",
+    "0329",
+    "0476",
+    "0330",
+    "0484",
+    "0331",
+    "0488",
+    "0332"
+  ]
+}

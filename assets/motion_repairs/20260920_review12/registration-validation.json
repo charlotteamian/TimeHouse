@@ -1,0 +1,332 @@
+{
+  "0474": {
+    "source": "assets/motion_repairs/20260920_review12/0474-generated.png",
+    "fg_bboxes": [
+      [
+        208,
+        26,
+        438,
+        465
+      ],
+      [
+        123,
+        26,
+        438,
+        458
+      ],
+      [
+        145,
+        26,
+        438,
+        458
+      ],
+      [
+        123,
+        26,
+        438,
+        458
+      ]
+    ],
+    "fg_preserved": true,
+    "frame4_equals_frame2": true,
+    "passing_anchor_count": 3,
+    "passed": true
+  },
+  "0328": {
+    "source": "assets/motion_repairs/20260920_review12/0328-generated.png",
+    "fg_bboxes": [
+      [
+        28,
+        24,
+        450,
+        471
+      ],
+      [
+        28,
+        16,
+        450,
+        471
+      ],
+      [
+        28,
+        10,
+        450,
+        471
+      ],
+      [
+        28,
+        16,
+        450,
+        471
+      ]
+    ],
+    "fg_preserved": true,
+    "frame4_equals_frame2": true,
+    "passing_anchor_count": 3,
+    "passed": true
+  },
+  "0475": {
+    "source": "assets/motion_repairs/20260920_review12/before/dataset_motion_0475.webp",
+    "fg_bboxes": [
+      [
+        88,
+        13,
+        363,
+        473
+      ],
+      [
+        87,
+        13,
+        368,
+        469
+      ],
+      [
+        88,
+        13,
+        416,
+        468
+      ],
+      [
+        87,
+        13,
+        368,
+        469
+      ]
+    ],
+    "fg_preserved": true,
+    "frame4_equals_frame2": true,
+    "passing_anchor_count": 3,
+    "passed": true
+  },
+  "0329": {
+    "source": "assets/motion_repairs/20260920_review12/before/dataset_motion_0329.webp",
+    "fg_bboxes": [
+      [
+        40,
+        8,
+        441,
+        459
+      ],
+      [
+        40,
+        7,
+        441,
+        459
+      ],
+      [
+        40,
+        6,
+        441,
+        459
+      ],
+      [
+        40,
+        7,
+        441,
+        459
+      ]
+    ],
+    "fg_preserved": true,
+    "frame4_equals_frame2": true,
+    "passing_anchor_count": 3,
+    "passed": true
+  },
+  "0476": {
+    "source": "assets/motion_repairs/20260920_review12/before/dataset_motion_0476.webp",
+    "fg_bboxes": [
+      [
+        87,
+        7,
+        393,
+        471
+      ],
+      [
+        87,
+        6,
+        400,
+        467
+      ],
+      [
+        88,
+        7,
+        419,
+        468
+      ],
+      [
+        87,
+        6,
+        400,
+        467
+      ]
+    ],
+    "fg_preserved": true,
+    "frame4_equals_frame2": true,
+    "passing_anchor_count": 3,
+    "passed": true
+  },
+  "0330": {
+    "source": "assets/motion_repairs/20260920_review12/0330-generated.png",
+    "fg_bboxes": [
+      [
+        54,
+        18,
+        427,
+        462
+      ],
+      [
+        54,
+        41,
+        445,
+        462
+      ],
+      [
+        54,
+        89,
+        432,
+        462
+      ],
+      [
+        54,
+        41,
+        445,
+        462
+      ]
+    ],
+    "fg_preserved": true,
+    "frame4_equals_frame2": true,
+    "passing_anchor_count": 3,
+    "passed": true
+  },
+  "0484": {
+    "source": "assets/motion_repairs/20260920_review12/0484-generated.png",
+    "fg_bboxes": [
+      [
+        25,
+        235,
+        455,
+        430
+      ],
+      [
+        25,
+        237,
+        455,
+        430
+      ],
+      [
+        25,
+        218,
+        455,
+        430
+      ],
+      [
+        25,
+        237,
+        455,
+        430
+      ]
+    ],
+    "fg_preserved": true,
+    "frame4_equals_frame2": true,
+    "passing_anchor_count": 3,
+    "passed": true
+  },
+  "0331": {
+    "source": "assets/motion_repairs/20260920_review12/before/dataset_motion_0331.webp",
+    "fg_bboxes": [
+      [
+        81,
+        10,
+        461,
+        473
+      ],
+      [
+        50,
+        131,
+        461,
+        473
+      ],
+      [
+        23,
+        127,
+        466,
+        473
+      ],
+      [
+        50,
+        131,
+        461,
+        473
+      ]
+    ],
+    "fg_preserved": true,
+    "frame4_equals_frame2": true,
+    "passing_anchor_count": 4,
+    "passed": true
+  },
+  "0488": {
+    "source": "assets/motion_repairs/20260920_review12/0488-generated.png",
+    "fg_bboxes": [
+      [
+        53,
+        166,
+        432,
+        463
+      ],
+      [
+        53,
+        112,
+        449,
+        463
+      ],
+      [
+        53,
+        25,
+        429,
+        463
+      ],
+      [
+        53,
+        112,
+        449,
+        463
+      ]
+    ],
+    "fg_preserved": true,
+    "frame4_equals_frame2": true,
+    "passing_anchor_count": 3,
+    "passed": true
+  },
+  "0332": {
+    "source": "assets/motion_repairs/20260920_review12/before/dataset_motion_0332.webp",
+    "fg_bboxes": [
+      [
+        143,
+        9,
+        334,
+        470
+      ],
+      [
+        70,
+        9,
+        418,
+        470
+      ],
+      [
+        36,
+        12,
+        443,
+        470
+      ],
+      [
+        70,
+        9,
+        418,
+        470
+      ]
+    ],
+    "fg_preserved": true,
+    "frame4_equals_frame2": true,
+    "passing_anchor_count": 3,
+    "passed": true
+  }
+}

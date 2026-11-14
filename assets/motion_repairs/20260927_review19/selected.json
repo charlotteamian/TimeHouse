@@ -1,0 +1,219 @@
+[
+  {
+    "id": "0642",
+    "name": "outside leg kick push-up",
+    "name_zh": "外腿踢俯卧撑",
+    "media": "raw:dataset_motion_0642",
+    "category": "upper legs",
+    "equipment": "body weight",
+    "target": "glutes",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "从俯卧撑位置开始，双手分开略宽于肩宽，双脚并拢。",
+      "弯曲肘部，将身体降低到地面，保持背部挺直，核心参与。",
+      "当你向后推时，将一条腿踢向一侧，完全伸展并启动臀部。",
+      "将腿恢复到起始位置并重复俯卧撑，每次重复时交替腿。",
+      "继续交替踢腿和俯卧撑，达到所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0367",
+    "name": "dumbbell over bench one arm wrist curl",
+    "name_zh": "哑铃过凳单臂腕弯举",
+    "media": "raw:dataset_motion_0367",
+    "category": "lower arms",
+    "equipment": "dumbbell",
+    "target": "forearms",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "坐在长凳上，双脚平放在地上，一手握住哑铃，掌心朝下。",
+      "将前臂放在长凳上，手腕悬在长凳边缘。",
+      "慢慢向上弯曲手腕，将哑铃拉向前臂。",
+      "在顶部停顿片刻，然后慢慢将哑铃放回起始位置。",
+      "重复所需的重复次数，然后换到另一只手臂。"
+    ]
+  },
+  {
+    "id": "0643",
+    "name": "overhead triceps stretch",
+    "name_zh": "过头三头肌拉伸",
+    "media": "raw:dataset_motion_0643",
+    "category": "upper arms",
+    "equipment": "body weight",
+    "target": "triceps",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "站立或坐直，双脚分开与肩同宽。",
+      "将一只手臂伸过头顶，弯曲肘部，使手伸向对面的肩胛骨。",
+      "用另一只手轻轻地将伸出的手臂的肘部拉向头部的另一侧，感受三头肌的拉伸。",
+      "保持拉伸 15-30 秒，然后放松。",
+      "在另一侧重复。"
+    ]
+  },
+  {
+    "id": "0368",
+    "name": "dumbbell over bench revers wrist curl",
+    "name_zh": "哑铃过凳反腕弯举",
+    "media": "raw:dataset_motion_0368",
+    "category": "lower arms",
+    "equipment": "dumbbell",
+    "target": "forearms",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "brachialis"
+    ],
+    "instructions_zh": [
+      "坐在长凳上，双脚平放在地上，双手各握一个哑铃，掌心朝下。",
+      "将前臂放在长凳上，让手腕悬在长凳边缘。",
+      "慢慢向上弯曲手腕，将哑铃拉向身体。",
+      "在顶部停顿片刻，然后慢慢将哑铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0651",
+    "name": "pull up (neutral grip)",
+    "name_zh": "中立握引体向上",
+    "media": "raw:dataset_motion_0651",
+    "category": "back",
+    "equipment": "body weight",
+    "target": "lats",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "用中立握法（手掌相对）悬挂在引体向上杆上，双臂完全伸展。",
+      "启动你的核心并将肩胛骨挤压在一起。",
+      "弯曲肘部并将肘部向下推向臀部，将身体向上拉向杠铃。",
+      "继续拉，直到下巴位于杠铃上方。",
+      "在顶部停顿片刻，然后有控制地慢慢将身体放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0369",
+    "name": "dumbbell over bench wrist curl",
+    "name_zh": "哑铃过凳腕弯举",
+    "media": "raw:dataset_motion_0369",
+    "category": "lower arms",
+    "equipment": "dumbbell",
+    "target": "forearms",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "brachialis"
+    ],
+    "instructions_zh": [
+      "坐在长凳上，前臂放在长凳上，手掌朝上，每只手各握一个哑铃。",
+      "让手腕悬在长凳边缘。",
+      "慢慢向上弯曲手腕，在动作的最高点挤压前臂。",
+      "暂停片刻，然后慢慢将手腕放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0652",
+    "name": "pull-up",
+    "name_zh": "正手引体向上",
+    "media": "raw:dataset_motion_0652",
+    "category": "back",
+    "equipment": "body weight",
+    "target": "lats",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "悬挂在引体向上杆上，手掌背向自己，手臂完全伸展。",
+      "启动你的核心并将肩胛骨挤压在一起。",
+      "弯曲肘部并将胸部拉向杠铃杆，将身体向上拉向杠铃杆。",
+      "在动作的最高点暂停，然后慢慢降低身体回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0370",
+    "name": "dumbbell peacher hammer curl",
+    "name_zh": "哑铃仰卧锤式弯举",
+    "media": "raw:dataset_motion_0370",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "站直，双手各持一个哑铃，手掌朝向躯干。",
+      "保持肘部靠近躯干，并旋转手掌，直到手掌朝前。",
+      "这将是您的起始位置。",
+      "现在，保持上臂静止，呼气并卷曲哑铃，同时收缩二头肌。",
+      "继续举重，直到二头肌完全收缩并且哑铃与肩部齐平。",
+      "挤压二头肌时，保持收缩位置短暂停顿。",
+      "然后，吸气并慢慢开始将哑铃放回起始位置。",
+      "重复建议的重复次数。"
+    ]
+  },
+  {
+    "id": "0661",
+    "name": "push-up inside leg kick",
+    "name_zh": "内腿踢俯卧撑",
+    "media": "raw:dataset_motion_0661",
+    "category": "upper legs",
+    "equipment": "body weight",
+    "target": "glutes",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves",
+      "core"
+    ],
+    "instructions_zh": [
+      "从俯卧撑位置开始，双手分开略宽于肩宽，双脚并拢。",
+      "弯曲肘部，将身体降低到地面，保持背部挺直，核心肌群参与。",
+      "当你向后推时，将一条腿抬离地面并将其踢向一侧，保持伸直。",
+      "将腿放下并重复俯卧撑，然后换另一条腿。",
+      "每次重复俯卧撑时继续交替踢腿。"
+    ]
+  },
+  {
+    "id": "0371",
+    "name": "dumbbell plyo squat",
+    "name_zh": "哑铃爆发深蹲",
+    "media": "raw:dataset_motion_0371",
+    "category": "upper legs",
+    "equipment": "dumbbell",
+    "target": "glutes",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，双手各握一个哑铃放在身体两侧。",
+      "弯曲膝盖并将臀部向后推，将身体降低至蹲姿。",
+      "当你到达深蹲底部时，向上爆发，跳离地面。",
+      "在空中时，快速改变双脚的位置，落地时另一只脚向前。",
+      "立即将身体放回蹲姿，然后重复跳跃，再次换脚。",
+      "每次跳跃时继续交替双脚的位置，达到所需的重复次数。"
+    ]
+  }
+]

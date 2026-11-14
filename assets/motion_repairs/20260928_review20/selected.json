@@ -1,0 +1,219 @@
+[
+  {
+    "id": "0664",
+    "name": "push-up to side plank",
+    "name_zh": "俯卧撑转侧平板",
+    "media": "raw:dataset_motion_0664",
+    "category": "waist",
+    "equipment": "body weight",
+    "target": "abs",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "chest",
+      "triceps"
+    ],
+    "instructions_zh": [
+      "从俯卧撑位置开始，双手分开与肩同宽，身体呈一条直线。",
+      "弯曲肘部，将身体降低到地面，保持核心参与。",
+      "推回到起始位置。",
+      "将体重转移到左手上，然后将身体向右旋转，将右臂举向天花板。",
+      "保持侧板姿势几秒钟，然后返回到起始位置。",
+      "在另一侧重复俯卧撑和侧板支撑。",
+      "继续交替进行所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0372",
+    "name": "dumbbell preacher curl",
+    "name_zh": "哑铃仰卧弯举",
+    "media": "raw:dataset_motion_0372",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "坐在牧师弯举凳上，上臂放在垫子上，胸部靠在垫子上。",
+      "每只手握住一个哑铃，手掌朝上，双臂完全伸展。",
+      "保持上臂静止，呼气并弯举哑铃，同时收缩二头肌。",
+      "继续举起哑铃，直到二头肌完全收缩并且哑铃与肩部齐平。",
+      "挤压二头肌时，保持收缩位置短暂停顿。",
+      "吸气并慢慢开始将哑铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0666",
+    "name": "raise single arm push-up",
+    "name_zh": "单臂推举俯卧撑",
+    "media": "raw:dataset_motion_0666",
+    "category": "chest",
+    "equipment": "body weight",
+    "target": "pectorals",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "shoulders",
+      "core"
+    ],
+    "instructions_zh": [
+      "从俯卧撑位置开始，双手分开略宽于肩宽，双脚并拢。",
+      "将一只手臂伸直至一侧，与地面平行。",
+      "弯曲肘部，将身体降低到地面，保持背部挺直，核心参与。",
+      "推回起始位置，使用胸部肌肉抬起身体。",
+      "另一只手臂伸出，重复上述动作。"
+    ]
+  },
+  {
+    "id": "0373",
+    "name": "dumbbell pronate-grip triceps extension",
+    "name_zh": "哑铃旋前握三头肌伸展",
+    "media": "raw:dataset_motion_0373",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "triceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "坐在长凳或椅子上，背部挺直，双脚平放在地面上。",
+      "双手握住哑铃，掌心朝下，双臂伸直举过头顶。",
+      "保持上臂靠近头部，肘部向前，弯曲肘部，慢慢将哑铃降低到脑后。",
+      "暂停片刻，然后将手臂伸回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0668",
+    "name": "rear decline bridge",
+    "name_zh": "后倾桥",
+    "media": "raw:dataset_motion_0668",
+    "category": "upper legs",
+    "equipment": "body weight",
+    "target": "glutes",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings",
+      "lower back"
+    ],
+    "instructions_zh": [
+      "仰卧，双脚平放在地上，膝盖弯曲。",
+      "将手臂放在身体两侧，手掌朝下。",
+      "收紧臀肌和腿筋，将臀部抬离地面，直到身体从膝盖到肩膀形成一条直线。",
+      "保持这个姿势几秒钟，然后慢慢地将臀部放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0374",
+    "name": "dumbbell prone incline curl",
+    "name_zh": "哑铃俯卧上斜弯举",
+    "media": "raw:dataset_motion_0374",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "将长凳调整至 45 度倾斜。",
+      "脸朝下躺在长凳上，胸部和腹部靠在长凳上。",
+      "每只手握住一个哑铃，手掌朝下，双臂完全伸展。",
+      "保持上臂静止，呼气并弯举哑铃，同时收缩二头肌。",
+      "继续举重，直到二头肌完全收缩并且哑铃与肩部齐平。",
+      "挤压二头肌时，保持收缩位置短暂停顿。",
+      "吸气并慢慢开始将哑铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0669",
+    "name": "rear deltoid stretch",
+    "name_zh": "后三角肌拉伸",
+    "media": "raw:dataset_motion_0669",
+    "category": "shoulders",
+    "equipment": "body weight",
+    "target": "delts",
+    "muscle_group": "trapezius",
+    "secondary_muscles": [
+      "trapezius",
+      "rhomboids"
+    ],
+    "instructions_zh": [
+      "站直，双脚分开与肩同宽。",
+      "将右臂伸过胸部，将左手放在右肘上。",
+      "轻轻地将右臂拉向左肩，感受右肩的拉伸。",
+      "保持拉伸 15-30 秒，然后放松。",
+      "在另一侧重复。"
+    ]
+  },
+  {
+    "id": "0375",
+    "name": "dumbbell pullover",
+    "name_zh": "哑铃拉下推",
+    "media": "raw:dataset_motion_0375",
+    "category": "chest",
+    "equipment": "dumbbell",
+    "target": "pectorals",
+    "muscle_group": "latissimus dorsi",
+    "secondary_muscles": [
+      "latissimus dorsi",
+      "triceps"
+    ],
+    "instructions_zh": [
+      "平躺在长凳上，头放在一端，双脚放在地板上。",
+      "双手握住哑铃，将手臂伸直至胸部上方。",
+      "保持肘部轻微弯曲，慢慢地将哑铃放到脑后，直到感觉胸部和肩膀有拉伸感。",
+      "暂停片刻，然后将哑铃举回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0670",
+    "name": "rear pull-up",
+    "name_zh": "后拉引体向上",
+    "media": "raw:dataset_motion_0670",
+    "category": "back",
+    "equipment": "body weight",
+    "target": "lats",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "正手握住引体向上杆，握距略宽于肩宽。",
+      "悬挂在杠上，双臂完全伸展，身体伸直。",
+      "收紧背部肌肉，将身体拉向杠铃杆，保持肘部靠近身体。",
+      "继续拉，直到下巴位于杠铃上方。",
+      "在顶部停顿片刻，然后慢慢将身体放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0376",
+    "name": "dumbbell raise",
+    "name_zh": "哑铃侧平举",
+    "media": "raw:dataset_motion_0376",
+    "category": "shoulders",
+    "equipment": "dumbbell",
+    "target": "delts",
+    "muscle_group": "traps",
+    "secondary_muscles": [
+      "traps",
+      "rhomboids"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，双手各握一个哑铃，手掌朝向身体。",
+      "保持背部挺直并启动核心肌群。",
+      "将手臂向两侧抬起，直到与地板平行，保持肘部稍微弯曲。",
+      "在顶部暂停片刻，然后慢慢将手臂放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  }
+]

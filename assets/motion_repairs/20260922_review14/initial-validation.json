@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "validated_at": "2026-11-12T00:34:02.443659+08:00",
+  "emulator": "emulator-5554",
+  "checks": 28,
+  "visually_reviewed": [
+    "0341",
+    "0342",
+    "0496",
+    "0343",
+    "0497",
+    "0344",
+    "0498"
+  ],
+  "dataset_sha256": "69c03964c46972da7ac1f7ecfc993b43d49a2d09ecb00b6caa0a7251c8dab2e6",
+  "media_sha256": {
+    "0341": "30ba246e2663e29bd100207105485e085aa0abb8216b89f80e13763a802f7dd5",
+    "0342": "66ada6df0a66f9ff4ea0cd3a13650018f21cd2d799611f94863b202015f03163",
+    "0496": "a99ba3f6967ddb3945a92c0b686e9a82c38ac703246050d906e29427337bdb31",
+    "0343": "d31bc1ccafa9203206fb3add365dd6c495dc83d777a35c3204abf11e5d225644",
+    "0497": "a2831d6e9f8ed28b60d293303fb2da5d4278b387a43cf63da986c971790f4bfb",
+    "0344": "71d04715bf616aec4adeaaa717ae20d5ae409010fab0c19669f3755193ab5b87",
+    "0498": "8806435f2c2dd8b58030be537999e1d08328be76aafa1ed57c8ab8411ee266fe"
+  }
+}

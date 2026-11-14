@@ -1,0 +1,26 @@
+{
+  "1327": {
+    "status": "passed",
+    "frames": 4,
+    "size": [
+      480,
+      480
+    ],
+    "durations_ms": [
+      800,
+      380,
+      800,
+      380
+    ],
+    "frame4_equals_frame2": true,
+    "max_anchor_residual_px": 1.0,
+    "min_anchor_match_score": 0.9803,
+    "foreground_pixels": [
+      54529,
+      54120,
+      51874,
+      54120
+    ],
+    "fg_preserved": true
+  }
+}

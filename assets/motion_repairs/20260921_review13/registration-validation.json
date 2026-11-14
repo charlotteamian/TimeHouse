@@ -1,0 +1,122 @@
+{
+  "0335": {
+    "status": "passed",
+    "frames": 4,
+    "size": [
+      480,
+      480
+    ],
+    "durations_ms": [
+      800,
+      380,
+      800,
+      380
+    ],
+    "frame4_equals_frame2": true,
+    "max_anchor_residual_px": 0.0,
+    "min_anchor_match_score": 1.0,
+    "foreground_pixels": [
+      39905,
+      41657,
+      36430,
+      41657
+    ],
+    "fg_preserved": true
+  },
+  "0490": {
+    "status": "passed",
+    "frames": 4,
+    "size": [
+      480,
+      480
+    ],
+    "durations_ms": [
+      800,
+      380,
+      800,
+      380
+    ],
+    "frame4_equals_frame2": true,
+    "max_anchor_residual_px": 0.0,
+    "min_anchor_match_score": 1.0,
+    "foreground_pixels": [
+      42314,
+      40772,
+      38147,
+      40772
+    ],
+    "fg_preserved": true
+  },
+  "0337": {
+    "status": "passed",
+    "frames": 4,
+    "size": [
+      480,
+      480
+    ],
+    "durations_ms": [
+      800,
+      380,
+      800,
+      380
+    ],
+    "frame4_equals_frame2": true,
+    "max_anchor_residual_px": 0.0,
+    "min_anchor_match_score": 1.0,
+    "foreground_pixels": [
+      51088,
+      48901,
+      48259,
+      48901
+    ],
+    "fg_preserved": true
+  },
+  "0491": {
+    "status": "passed",
+    "frames": 4,
+    "size": [
+      480,
+      480
+    ],
+    "durations_ms": [
+      800,
+      380,
+      800,
+      380
+    ],
+    "frame4_equals_frame2": true,
+    "max_anchor_residual_px": 0.0,
+    "min_anchor_match_score": 1.0,
+    "foreground_pixels": [
+      52411,
+      51602,
+      56379,
+      51602
+    ],
+    "fg_preserved": true
+  },
+  "0338": {
+    "status": "passed",
+    "frames": 4,
+    "size": [
+      480,
+      480
+    ],
+    "durations_ms": [
+      800,
+      380,
+      800,
+      380
+    ],
+    "frame4_equals_frame2": true,
+    "max_anchor_residual_px": 0.0,
+    "min_anchor_match_score": 1.0,
+    "foreground_pixels": [
+      57623,
+      55560,
+      50326,
+      55560
+    ],
+    "fg_preserved": true
+  }
+}

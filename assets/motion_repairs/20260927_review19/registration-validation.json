@@ -1,0 +1,122 @@
+{
+  "0368": {
+    "status": "passed",
+    "frames": 4,
+    "size": [
+      480,
+      480
+    ],
+    "durations_ms": [
+      800,
+      380,
+      800,
+      380
+    ],
+    "frame4_equals_frame2": true,
+    "max_anchor_residual_px": 0.0,
+    "min_anchor_match_score": 0.9946,
+    "foreground_pixels": [
+      69590,
+      68955,
+      72204,
+      68955
+    ],
+    "fg_preserved": true
+  },
+  "0651": {
+    "status": "passed",
+    "frames": 4,
+    "size": [
+      480,
+      480
+    ],
+    "durations_ms": [
+      800,
+      380,
+      800,
+      380
+    ],
+    "frame4_equals_frame2": true,
+    "max_anchor_residual_px": 2.0,
+    "min_anchor_match_score": 0.9865,
+    "foreground_pixels": [
+      44073,
+      45211,
+      43028,
+      45211
+    ],
+    "fg_preserved": true
+  },
+  "0369": {
+    "status": "passed",
+    "frames": 4,
+    "size": [
+      480,
+      480
+    ],
+    "durations_ms": [
+      800,
+      380,
+      800,
+      380
+    ],
+    "frame4_equals_frame2": true,
+    "max_anchor_residual_px": 0.0,
+    "min_anchor_match_score": 0.9901,
+    "foreground_pixels": [
+      78566,
+      79563,
+      82427,
+      79563
+    ],
+    "fg_preserved": true
+  },
+  "0652": {
+    "status": "passed",
+    "frames": 4,
+    "size": [
+      480,
+      480
+    ],
+    "durations_ms": [
+      800,
+      380,
+      800,
+      380
+    ],
+    "frame4_equals_frame2": true,
+    "max_anchor_residual_px": 0.0,
+    "min_anchor_match_score": 0.9974,
+    "foreground_pixels": [
+      36821,
+      35204,
+      35237,
+      35204
+    ],
+    "fg_preserved": true
+  },
+  "0370": {
+    "status": "passed",
+    "frames": 4,
+    "size": [
+      480,
+      480
+    ],
+    "durations_ms": [
+      800,
+      380,
+      800,
+      380
+    ],
+    "frame4_equals_frame2": true,
+    "max_anchor_residual_px": 1.0,
+    "min_anchor_match_score": 0.9777,
+    "foreground_pixels": [
+      40403,
+      38117,
+      38812,
+      38117
+    ],
+    "fg_preserved": true
+  }
+}

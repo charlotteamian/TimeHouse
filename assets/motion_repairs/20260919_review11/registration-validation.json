@@ -1,124 +1,332 @@
 {
-  "0326": {
-    "source_sha256": "2c451c037411aa7823c1411b12d50c07f42c598b41d03d8de8ff340bc7995812",
-    "output_sha256": "08ebf0f6c53c71ee3f3b4e66c2071cd357ba9fbe698942b14b760bb1e0e0fa4f",
-    "translations": [
+  "0467": {
+    "source": "assets/motion_repairs/20260919_review11/0467-generated.png",
+    "fg_bboxes": [
       [
-        0,
-        0
+        76,
+        11,
+        406,
+        473
       ],
       [
-        0,
-        0
+        76,
+        11,
+        406,
+        473
       ],
       [
-        0,
-        16
+        76,
+        4,
+        406,
+        473
       ],
       [
-        0,
-        0
+        76,
+        11,
+        406,
+        473
       ]
     ],
-    "frames": 4,
-    "durations": [
-      800,
-      380,
-      800,
-      380
+    "fg_preserved": true,
+    "frame4_equals_frame2": true,
+    "passing_anchor_count": 4,
+    "passed": true
+  },
+  "0323": {
+    "source": "assets/motion_repairs/20260910_720/0323.png",
+    "fg_bboxes": [
+      [
+        39,
+        45,
+        432,
+        450
+      ],
+      [
+        39,
+        46,
+        432,
+        450
+      ],
+      [
+        39,
+        46,
+        432,
+        449
+      ],
+      [
+        39,
+        46,
+        432,
+        450
+      ]
     ],
-    "foreground_pixels_preserved": true,
-    "anchors": [
-      {
-        "box": [
-          20,
-          375,
-          75,
-          445
-        ],
-        "residual": [
-          [
-            0,
-            0,
-            1.0
-          ],
-          [
-            0,
-            0,
-            0.99
-          ],
-          [
-            0,
-            0,
-            0.995
-          ],
-          [
-            0,
-            0,
-            0.99
-          ]
-        ]
-      },
-      {
-        "box": [
-          370,
-          400,
-          450,
-          450
-        ],
-        "residual": [
-          [
-            0,
-            0,
-            1.0
-          ],
-          [
-            0,
-            0,
-            0.963
-          ],
-          [
-            0,
-            0,
-            0.994
-          ],
-          [
-            0,
-            0,
-            0.963
-          ]
-        ]
-      },
-      {
-        "box": [
-          275,
-          375,
-          335,
-          455
-        ],
-        "residual": [
-          [
-            0,
-            0,
-            1.0
-          ],
-          [
-            0,
-            0,
-            0.998
-          ],
-          [
-            0,
-            0,
-            0.99
-          ],
-          [
-            0,
-            0,
-            0.998
-          ]
-        ]
-      }
-    ]
+    "fg_preserved": true,
+    "frame4_equals_frame2": true,
+    "passing_anchor_count": 4,
+    "passed": true
+  },
+  "0469": {
+    "source": "assets/motion_repairs/20260919_review11/0469-generated.png",
+    "fg_bboxes": [
+      [
+        4,
+        190,
+        471,
+        387
+      ],
+      [
+        24,
+        190,
+        471,
+        384
+      ],
+      [
+        79,
+        190,
+        471,
+        386
+      ],
+      [
+        24,
+        190,
+        471,
+        384
+      ]
+    ],
+    "fg_preserved": true,
+    "frame4_equals_frame2": true,
+    "passing_anchor_count": 3,
+    "passed": true
+  },
+  "0324": {
+    "source": "assets/motion_repairs/20260910_720/0324.png",
+    "fg_bboxes": [
+      [
+        59,
+        73,
+        427,
+        464
+      ],
+      [
+        59,
+        84,
+        427,
+        464
+      ],
+      [
+        59,
+        5,
+        427,
+        464
+      ],
+      [
+        59,
+        84,
+        427,
+        464
+      ]
+    ],
+    "fg_preserved": true,
+    "frame4_equals_frame2": true,
+    "passing_anchor_count": 4,
+    "passed": true
+  },
+  "0471": {
+    "source": "assets/motion_repairs/20260919_review11/0471-generated.png",
+    "fg_bboxes": [
+      [
+        137,
+        12,
+        356,
+        434
+      ],
+      [
+        137,
+        12,
+        356,
+        434
+      ],
+      [
+        137,
+        12,
+        364,
+        434
+      ],
+      [
+        137,
+        12,
+        356,
+        434
+      ]
+    ],
+    "fg_preserved": true,
+    "frame4_equals_frame2": true,
+    "passing_anchor_count": 4,
+    "passed": true
+  },
+  "0325": {
+    "source": "assets/motion_repairs/20260919_review11/0325-generated.png",
+    "fg_bboxes": [
+      [
+        80,
+        98,
+        371,
+        466
+      ],
+      [
+        80,
+        73,
+        370,
+        466
+      ],
+      [
+        80,
+        10,
+        370,
+        466
+      ],
+      [
+        80,
+        73,
+        370,
+        466
+      ]
+    ],
+    "fg_preserved": true,
+    "frame4_equals_frame2": true,
+    "passing_anchor_count": 4,
+    "passed": true
+  },
+  "0472": {
+    "source": "assets/motion_repairs/20260910_720/0472.png",
+    "fg_bboxes": [
+      [
+        86,
+        6,
+        394,
+        464
+      ],
+      [
+        86,
+        6,
+        394,
+        462
+      ],
+      [
+        86,
+        6,
+        394,
+        460
+      ],
+      [
+        86,
+        6,
+        394,
+        462
+      ]
+    ],
+    "fg_preserved": true,
+    "frame4_equals_frame2": true,
+    "passing_anchor_count": 4,
+    "passed": true
+  },
+  "0326": {
+    "source": "assets/motion_repairs/20260910_720/0326.png",
+    "fg_bboxes": [
+      [
+        38,
+        30,
+        373,
+        462
+      ],
+      [
+        37,
+        29,
+        451,
+        462
+      ],
+      [
+        19,
+        36,
+        474,
+        462
+      ],
+      [
+        37,
+        29,
+        451,
+        462
+      ]
+    ],
+    "fg_preserved": true,
+    "frame4_equals_frame2": true,
+    "passing_anchor_count": 3,
+    "passed": true
+  },
+  "0473": {
+    "source": "assets/motion_repairs/20260919_review11/0473-generated.png",
+    "fg_bboxes": [
+      [
+        77,
+        12,
+        407,
+        459
+      ],
+      [
+        77,
+        12,
+        407,
+        459
+      ],
+      [
+        77,
+        12,
+        407,
+        459
+      ],
+      [
+        77,
+        12,
+        407,
+        459
+      ]
+    ],
+    "fg_preserved": true,
+    "frame4_equals_frame2": true,
+    "passing_anchor_count": 4,
+    "passed": true
+  },
+  "0327": {
+    "source": "assets/motion_repairs/20260910_720/0327.png",
+    "fg_bboxes": [
+      [
+        30,
+        55,
+        443,
+        411
+      ],
+      [
+        29,
+        54,
+        443,
+        411
+      ],
+      [
+        29,
+        54,
+        441,
+        411
+      ],
+      [
+        29,
+        54,
+        443,
+        411
+      ]
+    ],
+    "fg_preserved": true,
+    "frame4_equals_frame2": true,
+    "passing_anchor_count": 3,
+    "passed": true
   }
 }

@@ -1,0 +1,98 @@
+{
+  "0356": {
+    "status": "passed",
+    "frames": 4,
+    "size": [
+      480,
+      480
+    ],
+    "durations_ms": [
+      800,
+      380,
+      800,
+      380
+    ],
+    "frame4_equals_frame2": true,
+    "max_anchor_residual_px": 0.0,
+    "min_anchor_match_score": 0.9904,
+    "foreground_pixels": [
+      52983,
+      56330,
+      55780,
+      56330
+    ],
+    "fg_preserved": true
+  },
+  "0620": {
+    "status": "passed",
+    "frames": 4,
+    "size": [
+      480,
+      480
+    ],
+    "durations_ms": [
+      800,
+      380,
+      800,
+      380
+    ],
+    "frame4_equals_frame2": true,
+    "max_anchor_residual_px": 1.0,
+    "min_anchor_match_score": 0.9799,
+    "foreground_pixels": [
+      38980,
+      40813,
+      42768,
+      40813
+    ],
+    "fg_preserved": true
+  },
+  "0358": {
+    "status": "passed",
+    "frames": 4,
+    "size": [
+      480,
+      480
+    ],
+    "durations_ms": [
+      800,
+      380,
+      800,
+      380
+    ],
+    "frame4_equals_frame2": true,
+    "max_anchor_residual_px": 0.0,
+    "min_anchor_match_score": 0.9934,
+    "foreground_pixels": [
+      69874,
+      68646,
+      65753,
+      68646
+    ],
+    "fg_preserved": true
+  },
+  "0359": {
+    "status": "passed",
+    "frames": 4,
+    "size": [
+      480,
+      480
+    ],
+    "durations_ms": [
+      800,
+      380,
+      800,
+      380
+    ],
+    "frame4_equals_frame2": true,
+    "max_anchor_residual_px": 1.0,
+    "min_anchor_match_score": 0.9845,
+    "foreground_pixels": [
+      71807,
+      76072,
+      78010,
+      76072
+    ],
+    "fg_preserved": true
+  }
+}

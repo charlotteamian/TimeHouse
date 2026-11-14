@@ -1,0 +1,214 @@
+[
+  {
+    "id": "1512",
+    "name": "all fours squad stretch",
+    "name_zh": "四肢着地臀桥拉伸",
+    "media": "raw:dataset_motion_1512",
+    "category": "upper legs",
+    "equipment": "body weight",
+    "target": "quads",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings",
+      "glutes"
+    ],
+    "instructions_zh": [
+      "从四肢着地开始，双手直接放在肩膀下方，膝盖直接放在臀部下方。",
+      "将一条腿向后伸直，保持膝盖弯曲和脚弯曲。",
+      "慢慢地将臀部降低到地面，感觉股四头肌的伸展。",
+      "保持这个姿势20-30秒。",
+      "换腿并在另一侧重复拉伸。"
+    ]
+  },
+  {
+    "id": "1381",
+    "name": "dumbbell seated one leg calf raise - palm up",
+    "name_zh": "哑铃坐姿单腿提踵 - 掌心向上",
+    "media": "raw:dataset_motion_1381",
+    "category": "lower legs",
+    "equipment": "dumbbell",
+    "target": "calves",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings",
+      "glutes"
+    ],
+    "instructions_zh": [
+      "坐在长凳或椅子上，背部挺直，双脚平放在地面上。",
+      "一只手握住哑铃，将其放在大腿上方，掌心朝上。",
+      "将一条腿抬离地面并将其延伸到您面前，保持膝盖稍微弯曲。",
+      "通过脚掌推动，尽可能高地抬起脚后跟。",
+      "在顶部停顿片刻，然后慢慢降低脚跟。",
+      "重复所需的重复次数，然后换腿并重复。"
+    ]
+  },
+  {
+    "id": "1548",
+    "name": "chair leg extended stretch",
+    "name_zh": "椅子腿伸展",
+    "media": "raw:dataset_motion_1548",
+    "category": "upper legs",
+    "equipment": "body weight",
+    "target": "quads",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "坐在椅子边缘，背部挺直，双脚平放在地面上。",
+      "将一只腿伸直在身前，脚跟保持在地面上。",
+      "稍微向前倾，感受股四头肌的拉伸。",
+      "保持这个姿势20-30秒。",
+      "换腿并重复拉伸。"
+    ]
+  },
+  {
+    "id": "1382",
+    "name": "exercise ball on the wall calf raise",
+    "name_zh": "健身球靠墙提踵",
+    "media": "raw:dataset_motion_1382",
+    "category": "lower legs",
+    "equipment": "dumbbell",
+    "target": "calves",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings",
+      "quadriceps"
+    ],
+    "instructions_zh": [
+      "背靠墙站立，将健身球放在下背部和墙壁之间。",
+      "双脚分开与肩同宽，脚趾指向前方。",
+      "每只手握住一个哑铃，双臂伸向身体两侧。",
+      "将脚跟抬离地面，将身体重量转移到脚掌上。",
+      "在顶部停顿片刻，然后慢慢降低脚后跟回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1576",
+    "name": "leg up hamstring stretch",
+    "name_zh": "腿抬腘绳肌拉伸",
+    "media": "raw:dataset_motion_1576",
+    "category": "upper legs",
+    "equipment": "body weight",
+    "target": "hamstrings",
+    "muscle_group": "glutes",
+    "secondary_muscles": [
+      "glutes"
+    ],
+    "instructions_zh": [
+      "平躺，双腿伸展。",
+      "弯曲一侧膝盖，将其靠近胸部，握住大腿或小腿。",
+      "尽可能伸直腿，同时保持腿抬高。",
+      "保持拉伸 20-30 秒。",
+      "换另一条腿重复上述步骤。"
+    ]
+  },
+  {
+    "id": "1414",
+    "name": "dumbbell one arm reverse preacher curl",
+    "name_zh": "哑铃单臂反握仰卧弯举",
+    "media": "raw:dataset_motion_1414",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "坐在牧师凳上，胸部靠在垫子上，手臂伸出长凳边缘，反握哑铃。",
+      "慢慢降低哑铃，直到手臂完全伸展。",
+      "将哑铃向后弯向肩膀，保持上臂静止。",
+      "在动作的最高点挤压二头肌，然后慢慢将哑铃放回起始位置。",
+      "重复所需的重复次数，然后换臂。"
+    ]
+  },
+  {
+    "id": "1585",
+    "name": "runners stretch",
+    "name_zh": "跑者拉伸",
+    "media": "raw:dataset_motion_1585",
+    "category": "upper legs",
+    "equipment": "body weight",
+    "target": "hamstrings",
+    "muscle_group": "calves",
+    "secondary_muscles": [
+      "calves",
+      "quadriceps"
+    ],
+    "instructions_zh": [
+      "双脚分开与臀部同宽站立。",
+      "右脚向前迈出一步，保持左脚踩地。",
+      "弯曲右膝，降低身体，保持左腿伸直。",
+      "将双手放在右大腿上以获得支撑。",
+      "保持拉伸 20-30 秒，然后换边重复。"
+    ]
+  },
+  {
+    "id": "1415",
+    "name": "dumbbell one arm seated neutral wrist curl",
+    "name_zh": "哑铃单臂坐姿中立腕弯举",
+    "media": "raw:dataset_motion_1415",
+    "category": "lower arms",
+    "equipment": "dumbbell",
+    "target": "forearms",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "brachialis"
+    ],
+    "instructions_zh": [
+      "坐在长凳上，双脚平放在地上，一手握住哑铃，掌心朝上。",
+      "将前臂放在大腿上，让手腕悬在边缘。",
+      "保持前臂静止，尽可能向上弯曲手腕。",
+      "在顶部暂停片刻，然后慢慢将手腕放回起始位置。",
+      "重复所需的重复次数，然后换另一只手。"
+    ]
+  },
+  {
+    "id": "1587",
+    "name": "seated wide angle pose sequence",
+    "name_zh": "坐姿宽角体式序列",
+    "media": "raw:dataset_motion_1587",
+    "category": "upper legs",
+    "equipment": "body weight",
+    "target": "hamstrings",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "calves"
+    ],
+    "instructions_zh": [
+      "坐在地上，双腿大角度伸展。",
+      "弯曲你的脚并锻炼你的股四头肌。",
+      "将双手放在身后的地面上以获得支撑。",
+      "保持背部挺直，从臀部向前倾。",
+      "继续向前倾斜，直到感觉到腿筋被拉伸。",
+      "保持这个姿势几个呼吸。",
+      "慢慢释放拉伸并返回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1437",
+    "name": "dumbbell finger curls",
+    "name_zh": "哑铃指弯举",
+    "media": "raw:dataset_motion_1437",
+    "category": "lower arms",
+    "equipment": "dumbbell",
+    "target": "forearms",
+    "muscle_group": "wrist flexors",
+    "secondary_muscles": [
+      "wrist flexors",
+      "wrist extensors"
+    ],
+    "instructions_zh": [
+      "坐在长凳或椅子上，双脚平放在地上，背部挺直。",
+      "一只手握住哑铃，反手握住，将前臂放在大腿上，手掌朝上。",
+      "让哑铃向下滚动到指尖，然后弯曲手指将其卷起。",
+      "重复所需的重复次数，然后换另一只手。"
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "batch": "20261023_review45",
+  "expected_checks": 10,
+  "expected_reviewed_after_approve": 133,
+  "candidate_id": "1665",
+  "candidate_required_equipment": [
+    "平板训练凳"
+  ],
+  "expected_per_side_ids": [
+    "1663",
+    "1665"
+  ]
+}

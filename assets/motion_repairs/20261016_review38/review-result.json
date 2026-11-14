@@ -1,0 +1,295 @@
+{
+  "batch": "20261016_review38",
+  "version": "1.2.43",
+  "version_code": 2026101601,
+  "apk_name": "时光屋-1.2.43-第三十八批动作复核.apk",
+  "output": "build/review38-20261016",
+  "report": "docs/releases/2026-10-16-review-batch38.md",
+  "inspected": [
+    "1489",
+    "1329",
+    "1490",
+    "1330",
+    "1494",
+    "1331",
+    "1495",
+    "1379",
+    "1511",
+    "1380"
+  ],
+  "definition_updates": {
+    "1489": {
+      "name_zh": "扶架西斯深蹲",
+      "category": "upper legs",
+      "equipment": "body weight",
+      "target": "quads",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "calves",
+        "glutes"
+      ],
+      "movement_patterns_zh": [
+        "下肢",
+        "伸膝"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "站在固定立架一侧，一手轻扶稳立柱维持身体后仰平衡，双脚约与肩同宽踩稳地面。",
+        "收紧腹部核心使大腿前侧至肩颈尽量呈一条直斜线固定不折髋。",
+        "吸气主动顺势垫起脚跟并向前下方屈膝，带着整体挺直的骨盆与躯干稳步向后下方蹲坐拉伸股四头肌。",
+        "在自身膝踝舒适控制最低点短暂停顿后，呼气由股四头肌发力蹬回直立位置；每次起落计一次。"
+      ]
+    },
+    "1329": {
+      "name_zh": "哑铃俯身旋握划船",
+      "category": "back",
+      "equipment": "dumbbell",
+      "target": "upper back",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "biceps",
+        "forearms"
+      ],
+      "movement_patterns_zh": [
+        "拉",
+        "俯身划船"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "双脚与肩同宽站直、双手各持一只哑铃垂于身前，屈膝保持弹性后将髋向后折叠俯身约45度、保持脊柱平直。",
+        "初始双臂自然下垂于肩前下方（掌心朝前或向大腿内侧对握预备）。",
+        "呼气由上背菱形肌与斜方肌中下束、背阔肌发力贴紧体侧提拉双肘向斜后上方划起，随上升顺畅外旋前臂使掌心略转向外侧或对握挤压肩胛。",
+        "在顶峰收缩停顿片刻后，吸气逆序缓慢旋回起始正握下放双臂；每次拉放计一次。"
+      ]
+    },
+    "1490": {
+      "name_zh": "阶梯扶栏双脚站姿提踵",
+      "category": "lower legs",
+      "equipment": "body weight",
+      "target": "calves",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "ankles",
+        "feet"
+      ],
+      "movement_patterns_zh": [
+        "下肢",
+        "双侧提踵"
+      ],
+      "required_equipment_zh": [
+        "稳固踏台"
+      ],
+      "instructions_zh": [
+        "站在稳固踏台或台阶前沿使双脚前脚掌踩实台面、脚后跟自然悬出外缘，一手轻扶旁侧稳固护栏维持平衡。",
+        "挺直腰背收紧核心，膝关节保持接近伸直但微留弹性。",
+        "吸气先有控制地充分下沉双侧脚后跟感受小腿跟腱与腓肠肌拉长，随后呼气踩稳前脚掌尽力垂直向上顶高脚跟。",
+        "在最高点短暂停顿收紧小腿后，吸气缓慢下放至低位；每次提放计一次。"
+      ]
+    },
+    "1330": {
+      "name_zh": "单手扶上斜凳哑铃反握单臂划船",
+      "category": "back",
+      "equipment": "dumbbell",
+      "target": "upper back",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "biceps",
+        "shoulders"
+      ],
+      "movement_patterns_zh": [
+        "拉",
+        "单侧稳定"
+      ],
+      "required_equipment_zh": [
+        "上斜训练凳"
+      ],
+      "instructions_zh": [
+        "将上斜训练凳调整至约45度并站在旁侧，对侧膝轻跪上斜凳尾垫、同侧手平扶凳面稳住脊柱平直与骨盆平衡，另一只脚踩实地面。",
+        "工作手采用反握（掌心朝前/上方方向握持或对贴握）持一只哑铃垂于肩下方。",
+        "呼气紧贴体侧向臀腰后上方顺畅发力拉起肘关节至背部充分挤压（注意不耸肩及不大幅转腰代偿）。",
+        "在顶端停顿片刻后，吸气控制速率缓缓下放回垂悬位；单侧完成规定次数后换手。"
+      ]
+    },
+    "1494": {
+      "name_zh": "坐姿屈膝合掌开髋蝴蝶式",
+      "category": "upper legs",
+      "equipment": "body weight",
+      "target": "adductors",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "hamstrings",
+        "hip flexors"
+      ],
+      "movement_patterns_zh": [
+        "拉伸",
+        "开髋"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "坐在地板或训练垫上，先伸直双腿再缓缓屈曲双膝，将两脚脚底板自然对合拢并向会阴近端轻收。",
+        "双手自然抓握脚踝或双脚外缘，坐直拉长脊柱并主动下沉双肩。",
+        "呼气借助大腿内侧柔顺放松有控制地将两侧膝盖温和向地面下方轻轻按展开启，感受内收肌与髋关节深层舒展。",
+        "保持平稳呼吸牵伸或小幅温和起落开合完成规定组/次数后缓缓收合双腿伸直还原。"
+      ]
+    },
+    "1331": {
+      "name_zh": "上斜俯卧哑铃双臂反握划船",
+      "category": "back",
+      "equipment": "dumbbell",
+      "target": "upper back",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "biceps",
+        "forearms"
+      ],
+      "movement_patterns_zh": [
+        "拉",
+        "俯身划船"
+      ],
+      "required_equipment_zh": [
+        "上斜训练凳"
+      ],
+      "instructions_zh": [
+        "将上斜训练凳调至约45度角，胸腹面向下趴稳凳背、双脚向后分开前脚掌稳踩地面、双手采用反握法（掌心向前上方）各持一只哑铃垂悬于凳侧下方。",
+        "保持胸部贴实靠背、颈肩自然下沉不猛甩抬颈。",
+        "呼气由上背菱形肌与斜方肌中下束主导收缩，将双肘贴近体侧向斜后上方拉起哑铃至背部收紧。",
+        "在顶峰挤压肩胛片刻后，吸气控制速率缓缓伸臂放回垂悬起始位；每次拉放计一次。"
+      ]
+    },
+    "1495": {
+      "name_zh": "单侧仰卧转体斜腹卷腹",
+      "category": "waist",
+      "equipment": "body weight",
+      "target": "abs",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "obliques"
+      ],
+      "movement_patterns_zh": [
+        "核心",
+        "核心旋转"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "仰卧在训练垫上，双膝弯曲约90度、双脚全脚掌踩稳地面，双手轻扶耳侧或交叉置胸前。",
+        "贴稳下腰背不猛扯颈部前拉。",
+        "呼气收紧腹直肌与侧腹斜肌，顺势卷抬上背肩胛离地并将一侧肩部向对侧膝盖方向温和旋拧抬起。",
+        "在顶端收缩腹斜肌停顿一拍后，吸气有控制地缓缓落回垫面并交替卷向另一侧；按每侧交替规定次数执行。"
+      ]
+    },
+    "1379": {
+      "name_zh": "坐姿踏台双腿哑铃提踵",
+      "category": "lower legs",
+      "equipment": "dumbbell",
+      "target": "calves",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "hamstrings",
+        "ankles"
+      ],
+      "movement_patterns_zh": [
+        "下肢",
+        "双侧提踵"
+      ],
+      "required_equipment_zh": [
+        "平板训练凳",
+        "稳固踏台"
+      ],
+      "instructions_zh": [
+        "坐在稳固的平板训练凳前沿，将双脚前脚掌稳踩上前方稳固踏台前沿、脚跟悬垂台边外侧，双手持竖直握住哑铃轻压稳于双膝大腿前上端。",
+        "挺直躯干保持稳重重心向下施于前掌。",
+        "吸气充分下沉双脚后跟牵伸小腿后侧，随后呼气踩稳前脚掌尽力垂直抬高脚跟挤压腓肠肌与比目鱼肌。",
+        "在最高点停顿片刻后控制缓缓落回低位；每次抬放计一次。"
+      ]
+    },
+    "1511": {
+      "name_zh": "单侧站姿前迈步屈髋腘绳肌拉伸",
+      "category": "upper legs",
+      "equipment": "body weight",
+      "target": "hamstrings",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "glutes",
+        "calves"
+      ],
+      "movement_patterns_zh": [
+        "拉伸",
+        "髋铰链"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "双脚与肩同宽直立站稳，待拉伸侧脚向前迈出一小步并以脚后跟着地、前腿充分伸直且脚尖向上自然回勾（后腿膝可微屈维持支撑平衡）。",
+        "收紧核心维持下背部自然平直不圆背弯腰。",
+        "呼气以髋关节为轴主动向后推臀并慢慢前俯上身（双手顺前胫向下轻扶接近脚尖方向），感受前侧伸直腿大腿后侧腘绳肌充分牵伸。",
+        "平稳呼吸维持舒适拉伸感20至30秒后回正起身；按侧完成规定次数后换另一条腿。"
+      ]
+    },
+    "1380": {
+      "name_zh": "坐姿单腿踏台锤握哑铃提踵",
+      "category": "lower legs",
+      "equipment": "dumbbell",
+      "target": "calves",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "hamstrings",
+        "glutes"
+      ],
+      "movement_patterns_zh": [
+        "下肢",
+        "单侧提踵"
+      ],
+      "required_equipment_zh": [
+        "平板训练凳",
+        "稳固踏台"
+      ],
+      "instructions_zh": [
+        "坐在稳固的平板训练凳前沿，将工作侧脚前脚掌稳踩上前方稳固踏台前沿（脚跟自然悬空），另一侧腿向前方直腿抬平悬稳不碰地，双手以锤式竖握共持一只哑铃竖压于工作大腿前上方。",
+        "挺直腰背收紧核心保持骨盆水平稳坐不动。",
+        "吸气充分下放工作脚跟牵伸小腿肌群，随后呼气踩实前脚掌发力尽力垂直抬高脚跟挤压小腿至高点。",
+        "在顶端收缩短暂停顿后有控制地缓缓下放回位；单侧完成规定次数后换另一条腿。"
+      ]
+    }
+  },
+  "sources": {
+    "1331": "https://exrx.net/WeightExercises/BackGeneral/DBInclineRow",
+    "1380": "https://exrx.net/WeightExercises/Soleus/DBSeatedCalfRaise"
+  },
+  "review_candidates": [
+    "1331",
+    "1380"
+  ],
+  "pending": {
+    "1489": "待修图 · **彻底纠正原上游严重错译“坐姿推举”**（英文为 sissy squat 扶架后仰股四头肌西斯深蹲）为扶架西斯深蹲并修正下肢伸膝要点；原图左支架偏移 `dx=-2/+2` 而地面双脚偏移 `dx=-13/-32, dy=-20`，暂存待重制。",
+    "1329": "待修图 · 已规范哑铃俯身旋握划船步骤与俯身下背负重提示；原图第 1、2 帧头部偏移（`dx=+22/-13`）与地面双脚偏移（`dx=+19/0`）不一致，暂存待重制。",
+    "1490": "待修图 · 已补充 `稳固踏台` 必需器械与护栏辅助平衡提示；原图楼梯与护栏对齐时（`+15,0 / 0,+1`）第 1 帧上身发生 `4.12 px` 横向偏滑（`torso_upper sc0=0.8734`），暂存待重制。",
+    "1330": "待修图 · 已更名为单手扶上斜凳哑铃反握单臂划船（清除易混淆“卧推”字样与“支撑”静态误判词），补 `上斜训练凳` 与单臂计次；原图经 `(+19,0)/(0,+10)` 配准后凳足稳合（`>=0.9676`）但第 1 帧头部前倾错位达 `3.16 px`（`head_face sc0=0.9260`），暂存待重制。",
+    "1494": "待修图 · 已补充内收肌开髋步骤（保留 `adductors -> 大腿内收肌群`）；原图 F0 直腿坐至 F1/F2 屈膝蝴蝶坐身位与双手变化无法配准，暂存待重制。",
+    "1495": "待修图 · 已去除序号括号并规范为单侧仰卧转体斜腹卷腹（触发单侧计次）；原图骨盆（`dx=+7/+2`）与足部（`dx=+1, dy=+21`）发生异步滑移，暂存待重制。",
+    "1379": "待修图 · 已补全图中坐姿用 `平板训练凳` 与前脚用 `稳固踏台` 双重必需支撑器械；原图 F2 踏台块（`best_sc=0.9205`）与长凳/头部垂向分离 `4–5 px`（`head dy=+12` 对 `bench dy=+7`），暂存待重制。",
+    "1511": "待修图 · 已补充前迈脚后跟着地与核心防圆背要点（触发单侧计次）；原图前后脚三帧横纵跳移达 `14–35 px`，暂存待重制。"
+  },
+  "registered_media": [
+    "1331",
+    "1380"
+  ],
+  "original_pose_repairs": [
+    "1331",
+    "1380"
+  ],
+  "generated_images_imported": 0,
+  "image_generation_calls": 0,
+  "quota_exhausted_reset_at": "2026-11-12T05:37:04Z",
+  "review_notes": {
+    "1331": "剥离原译中“卧推”误导命名并规范为上斜俯卧哑铃双臂反握划船，补充 `上斜训练凳` 必需支撑与上背／二头／前臂标签；原图 F1 经 `(+2,0)`、F2 经 `(0,+1)` 纯整数平移配准后长凳左支架、右脚掌、双脚尖与头部四大支点残差全 `<= 1.0 px`（匹配分 `>= 0.9631`），无边界裁断，2.36 秒循环。",
+    "1380": "清理原命名中英文横杠并依据图中平凳、脚底踏台及单腿锤握哑铃特征规范为坐姿单腿踏台锤握哑铃提踵（补全 `平板训练凳 + 稳固踏台` 双必需支持与单腿分段计次）；原图无需任何平移缩放原地即实现平凳左右脚、踏台底座、髋腹与头部五大固定支点 `0.0 px` 精确对齐（匹配分 `>= 0.9646`），零裁切。"
+  },
+  "initial_validation": "passed",
+  "newly_reviewed": [
+    "dataset_1324_1331",
+    "dataset_1324_1380"
+  ],
+  "android_playback_visually_reviewed": [
+    "1331",
+    "1380"
+  ]
+}

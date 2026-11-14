@@ -1,0 +1,20 @@
+{
+  "batch": "20261025_review47",
+  "expected_checks": 13,
+  "expected_reviewed_after_approve": 136,
+  "candidate_ids": [
+    "1671",
+    "1673"
+  ],
+  "candidate_required_equipment": {
+    "1671": [],
+    "1673": [
+      "瑜伽球"
+    ]
+  },
+  "expected_per_side_ids": [
+    "1671",
+    "1672",
+    "1673"
+  ]
+}

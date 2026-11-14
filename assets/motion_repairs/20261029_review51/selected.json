@@ -1,0 +1,213 @@
+[
+  {
+    "id": "3204",
+    "name": "arms overhead full sit-up (male)",
+    "name_zh": "双臂过头全仰卧卷腹（男）",
+    "media": "raw:dataset_motion_3204",
+    "category": "waist",
+    "equipment": "body weight",
+    "target": "abs",
+    "muscle_group": "hip flexors",
+    "secondary_muscles": [
+      "hip flexors",
+      "lower back"
+    ],
+    "instructions_zh": [
+      "平躺，膝盖弯曲，双脚平放在地上。",
+      "将手臂伸过头顶，保持伸直。",
+      "收紧腹肌，慢慢将上半身抬离地面，向前卷曲直到躯干直立。",
+      "在顶部停顿片刻，然后慢慢将上半身放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1737",
+    "name": "dumbbell seated bent over triceps extension",
+    "name_zh": "哑铃坐姿俯身三头肌伸展",
+    "media": "raw:dataset_motion_1737",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "triceps",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "back"
+    ],
+    "instructions_zh": [
+      "坐在长凳上，双脚平放在地上，每只手各握一个哑铃。",
+      "腰部向前弯曲，保持背部挺直，头部抬起。",
+      "将手臂向后伸直，保持肘部靠近头部。",
+      "暂停片刻，然后慢慢将哑铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3212",
+    "name": "basic toe touch (male)",
+    "name_zh": "基础前屈触膝（男）",
+    "media": "raw:dataset_motion_3212",
+    "category": "upper legs",
+    "equipment": "body weight",
+    "target": "glutes",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，双臂放在身体两侧。",
+      "腰部向前弯曲，保持背部挺直，膝盖稍微弯曲。",
+      "双手向下伸向脚趾，尽可能保持双腿伸直。",
+      "在底部停顿片刻，然后慢慢回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1738",
+    "name": "dumbbell seated reverse grip one arm overhead tricep extension",
+    "name_zh": "哑铃坐姿反握单臂过头三头肌伸展",
+    "media": "raw:dataset_motion_1738",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "triceps",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "坐在长凳上，背部挺直，双脚平放在地上。",
+      "反手握住哑铃，将手臂伸直至头顶。",
+      "弯曲肘部，将哑铃降低到头后，保持上臂静止。",
+      "暂停片刻，然后将手臂伸回起始位置。",
+      "重复所需的重复次数，然后换臂。"
+    ]
+  },
+  {
+    "id": "3213",
+    "name": "side-to-side toe touch (male)",
+    "name_zh": "侧向脚尖触地（男）",
+    "media": "raw:dataset_motion_3213",
+    "category": "waist",
+    "equipment": "body weight",
+    "target": "abs",
+    "muscle_group": "obliques",
+    "secondary_muscles": [
+      "obliques",
+      "hip flexors"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，双臂向两侧伸展。",
+      "腰部向右弯曲，将右手伸向右脚，同时保持左手向一侧延伸。",
+      "返回起始位置，然后腰部向左弯曲，将左手伸向左脚，同时保持右手向侧面延伸。",
+      "重复左右弯曲动作达到所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1739",
+    "name": "dumbbell standing alternating tricep kickback",
+    "name_zh": "哑铃站立交替三头肌后推",
+    "media": "raw:dataset_motion_1739",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "triceps",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，每只手各握一个哑铃。",
+      "稍微弯曲膝盖，髋部向前转动，保持背部挺直。",
+      "双臂向后伸直，保持肘部靠近身体。",
+      "在最高点暂停片刻，然后慢慢将哑铃放回起始位置。",
+      "用另一只手臂重复上述动作，每次重复时交替进行。"
+    ]
+  },
+  {
+    "id": "3214",
+    "name": "arms apart circular toe touch (male)",
+    "name_zh": "双臂展开圆圈脚尖触碰（男）",
+    "media": "raw:dataset_motion_3214",
+    "category": "upper legs",
+    "equipment": "body weight",
+    "target": "glutes",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings",
+      "quadriceps",
+      "calves"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，双臂向两侧伸展。",
+      "保持双腿伸直，腰部向前弯曲，右手向下伸向脚趾。",
+      "当你向下伸展时，同时将左腿在身后伸直，保持平衡。",
+      "返回起始位置，重复该动作，左手伸向脚趾，右腿在身后抬起。",
+      "继续交替进行所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1740",
+    "name": "dumbbell standing bent over one arm triceps extension",
+    "name_zh": "哑铃站立俯身单臂三头肌伸展",
+    "media": "raw:dataset_motion_1740",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "triceps",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "back"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，一只手握住哑铃。",
+      "腰部向前弯曲，保持背部挺直并与地面平行。",
+      "将手臂向后伸直，保持肘部靠近身体。",
+      "慢慢地将哑铃放回起始位置。",
+      "重复所需的重复次数，然后换臂。"
+    ]
+  },
+  {
+    "id": "3215",
+    "name": "hands reversed clasped circular toe touch (male)",
+    "name_zh": "双手反握交握圆圈触脚趾（男）",
+    "media": "raw:dataset_motion_3215",
+    "category": "upper legs",
+    "equipment": "body weight",
+    "target": "glutes",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings",
+      "quadriceps",
+      "calves"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，双臂向两侧伸展。",
+      "腰部向前弯曲，保持背部挺直，膝盖稍微弯曲。",
+      "双手向下伸，并在腿后将它们握在一起。",
+      "慢慢地将双手举过头顶，做圆周运动，保持双腿伸直。",
+      "继续圆周运动，直到双手触及脚趾。",
+      "反转动作并将双手放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1741",
+    "name": "dumbbell standing bent over two arm triceps extension",
+    "name_zh": "哑铃站立俯身双臂三头肌伸展",
+    "media": "raw:dataset_motion_1741",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "triceps",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "back"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，每只手各握一个哑铃。",
+      "腰部向前弯曲，保持背部挺直，膝盖稍微弯曲。",
+      "双臂向后伸直，保持肘部靠近身体。",
+      "慢慢地将哑铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  }
+]

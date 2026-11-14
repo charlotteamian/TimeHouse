@@ -1,0 +1,11 @@
+{
+  "batch_id": "20261026_review48",
+  "status": "passed",
+  "serial": "emulator-5554",
+  "apk": "build/timehouse-debug.apk",
+  "checks": 16,
+  "visually_reviewed": [],
+  "dataset_sha256": "3b0ba05112b3ecdede51602fb1a971c991d919827030e7de5304562e7ac3912d",
+  "media_sha256": {},
+  "notes": "Inspected contact-1.jpg, contact-2.jpg, anchor grids, and multi-anchor diff measurements; all ten deferred to pending with updated definitions, primary equipment fixes (3156 dumbbell, 3158 cable), and required supports while verifying all 16 emulator checks."
+}

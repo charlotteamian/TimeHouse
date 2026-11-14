@@ -1,0 +1,234 @@
+#!/usr/bin/env python3
+"""Author Batch 37 (20261015_review37) metadata updates, review notes, and QA spec."""
+import hashlib
+import json
+from pathlib import Path
+
+B = Path(__file__).resolve().parent
+R = B.parents[2]
+
+
+def sha(p: Path) -> str:
+    return hashlib.sha256(p.read_bytes()).hexdigest()
+
+
+def main():
+    inspected = ["1468", "1292", "1471", "1293", "1472", "1294", "1473", "1295", "1476", "1328"]
+    review_candidates = []
+
+    definition_updates = {
+        "1468": {
+            "name_zh": "单侧反撑螃蟹转体触脚",
+            "category": "waist",
+            "equipment": "body weight",
+            "target": "abs",
+            "muscle_group": "",
+            "secondary_muscles": ["obliques", "hip flexors"],
+            "movement_patterns_zh": ["核心旋转", "核心控制"],
+            "required_equipment_zh": [],
+            "instructions_zh": [
+                "屈膝坐于地面，双脚全脚掌平踩地，双手放于体后地上（指尖朝向臀脚方向），先由臀臂轻轻发力将臀部略微抬离地面呈稳定反撑位。",
+                "收紧腹部核心稳住下肢与肩带平衡。",
+                "呼气保持一侧手掌与对侧脚跟稳踩地面，同时抬起对侧直腿向前上方踢伸并以另一只手斜向伸出轻触对侧脚尖。",
+                "有控制地放落手脚回到预备反撑姿并交替向另一侧重复；按左右交替每侧规定次数执行。",
+            ],
+        },
+        "1292": {
+            "name_zh": "坐瑜伽球单腿平举哑铃飞鸟",
+            "category": "chest",
+            "equipment": "dumbbell",
+            "target": "pectorals",
+            "muscle_group": "",
+            "secondary_muscles": ["shoulders", "triceps"],
+            "movement_patterns_zh": ["水平推", "单侧稳定"],
+            "required_equipment_zh": ["瑜伽球"],
+            "instructions_zh": [
+                "直背稳坐在瑜伽球中央、双手各持一只哑铃，将一侧脚掌稳踩地面、另一侧腿向前方伸直平举离地维持核心稳定。",
+                "保持躯干略挺直并使双手掌心相对将哑铃轻举至胸前上方（手肘微屈保持固定缓冲）。",
+                "吸气保持骨盆居中球体不偏晃，向体侧缓缓展开双臂成大弧线至大臂接近水平、胸大肌充分拉伸。",
+                "呼气由胸大肌主导夹胸拉回胸前正中；每完成规定单侧腿保持次数后换伸另一条腿。",
+            ],
+        },
+        "1471": {
+            "name_zh": "站姿直腿前爬毛毛虫",
+            "category": "waist",
+            "equipment": "body weight",
+            "target": "abs",
+            "muscle_group": "",
+            "secondary_muscles": ["shoulders", "hamstrings"],
+            "movement_patterns_zh": ["核心控制", "髋铰链"],
+            "required_equipment_zh": [],
+            "instructions_zh": [
+                "双脚约与髋同宽站直，收紧核心顺势屈髋俯身向下将双手落放双脚前方地面（双腿保持尽量伸直或膝微留弹性缓冲）。",
+                "双手轮流向前稳定爬行迈出，保持腹部紧绷控制骨盆少晃动，直至双手行至双肩正下方呈标准直臂高俯撑一条直线姿。",
+                "在远端直臂高俯撑位收腹稳停一拍后，保持下肢尽量伸直、双手逐步向双脚方向爬回。",
+                "顺势发力起立站直回到起始位；每次前爬与还原站起计一次。",
+            ],
+        },
+        "1293": {
+            "name_zh": "健身球仰斜双臂哑铃推举",
+            "category": "chest",
+            "equipment": "dumbbell",
+            "target": "pectorals",
+            "muscle_group": "",
+            "secondary_muscles": ["shoulders", "triceps", "core"],
+            "movement_patterns_zh": ["推", "核心稳定"],
+            "required_equipment_zh": ["瑜伽球"],
+            "instructions_zh": [
+                "坐在瑜伽球上双手各持一只哑铃，双脚前移滚躺至中上背与肩胛稳靠球面、双膝约90度且全脚掌稳踩地面。",
+                "收紧腹臀核心维持球面静止不滚动，将哑铃举于胸肩两侧、掌心朝前方。",
+                "呼气由胸大肌、三角肌与肱三头肌协同发力向上微内收推举哑铃至臂接近伸直。",
+                "在顶端短暂停顿后，吸气控制肌肉张力缓缓放落回到胸肩两侧起推位；每次推回计一次。",
+            ],
+        },
+        "1472": {
+            "name_zh": "站姿双脚前向纵跳",
+            "category": "upper legs",
+            "equipment": "body weight",
+            "target": "quads",
+            "muscle_group": "",
+            "secondary_muscles": ["calves", "hamstrings", "glutes"],
+            "movement_patterns_zh": ["下肢", "爆发跳"],
+            "required_equipment_zh": [],
+            "instructions_zh": [
+                "双脚约与肩同宽站在平整地面，双臂自然垂于体侧，目视前方预留安全落地空间。",
+                "吸气迅速向后摆臂同时屈髋屈膝轻蹲下蓄力（膝盖对齐脚尖方向不内扣）。",
+                "呼气双臂积极向前上方甩动并配合髋、膝、踝协同发力蹬地向前上方跃起。",
+                "以前脚掌顺接全脚掌轻柔屈膝缓冲着地稳住重心；每次起跳稳落计一次。",
+            ],
+        },
+        "1294": {
+            "name_zh": "瑜伽球仰卧哑铃直臂上拉挺髋",
+            "category": "chest",
+            "equipment": "dumbbell",
+            "target": "pectorals",
+            "muscle_group": "",
+            "secondary_muscles": ["triceps", "shoulders", "core", "glutes"],
+            "movement_patterns_zh": ["肩伸展", "过顶伸展", "髋铰链"],
+            "required_equipment_zh": ["瑜伽球"],
+            "instructions_zh": [
+                "背靠稳固瑜伽球仰卧并使双脚踩实地面、初始臀部略收低或与肩背成准备姿，双手叠掌托住一只哑铃一端举于胸口正上方（手肘保留微屈缓冲）。",
+                "吸气保持肩背靠稳球面、核心绷紧，控制哑铃沿头后下方画出大弧线缓缓下放至胸廓与背阔充分伸展。",
+                "呼气由胸肌与背阔肌收缩发力沿原弧线将哑铃拉回胸上方，并顺势发力收紧臀部主动挺髋抬升至肩髋膝平直一条线。",
+                "稍作停顿后再有控制地略降骨盆配合下放动作进入下一次循环；每次拉推挺髋计一次。",
+            ],
+        },
+        "1473": {
+            "name_zh": "站姿双脚后向纵跳",
+            "category": "upper legs",
+            "equipment": "body weight",
+            "target": "quads",
+            "muscle_group": "",
+            "secondary_muscles": ["hamstrings", "glutes", "calves"],
+            "movement_patterns_zh": ["下肢", "爆发跳"],
+            "required_equipment_zh": [],
+            "instructions_zh": [
+                "确认身后地面安全开阔无杂物后双脚与肩同宽站稳、双膝保留弹性微屈、双手自然屈臂备摆。",
+                "收紧腹部核心避免落点时腰部后仰失衡。",
+                "呼气双臂略向后上发力引导同时双腿蹬伸小幅稳控向后跃起离地。",
+                "以前脚掌先行柔顺着地同时屈髋屈膝减震稳停；每次后跳稳落计一次。",
+            ],
+        },
+        "1295": {
+            "name_zh": "健身球仰靠哑铃直臂上拉",
+            "category": "chest",
+            "equipment": "dumbbell",
+            "target": "pectorals",
+            "muscle_group": "",
+            "secondary_muscles": ["triceps", "lats"],
+            "movement_patterns_zh": ["肩伸展", "过顶伸展", "核心稳定"],
+            "required_equipment_zh": ["瑜伽球"],
+            "instructions_zh": [
+                "坐在瑜伽球上双手共同持住一只哑铃一端并向前步移滚躺至上背与肩胛稳靠球面、臀部收紧抬平与膝成直角、双脚踩实地面。",
+                "保持双肘微屈缓冲不锁死并锁定肋骨内收，将哑铃举于胸前正上方。",
+                "吸气以肩关节为轴沿头顶后下方画出弧线缓慢放低哑铃至大臂接近与地面平行、胸阔充分拉伸。",
+                "呼气由胸大肌、背阔肌与前锯肌协同收缩沿原弧线拉回胸上方；每次下放拉回计一次。",
+            ],
+        },
+        "1476": {
+            "name_zh": "徒手单腿手枪深蹲",
+            "category": "upper legs",
+            "equipment": "body weight",
+            "target": "glutes",
+            "muscle_group": "",
+            "secondary_muscles": ["quadriceps", "hamstrings", "calves"],
+            "movement_patterns_zh": ["下肢", "单侧稳定"],
+            "required_equipment_zh": [],
+            "instructions_zh": [
+                "双脚与肩同宽直立站稳，将非训练腿向前下方尽量伸直抬离地面，双臂平举伸直身前协助平衡重心。",
+                "挺胸收紧核心，确保支撑脚脚底（尤其足跟与外缘）全程踩实地面、支撑膝对齐脚尖不向内扣。",
+                "吸气有控制地屈髋屈膝缓慢下蹲至大腿与地面平行或自身活动度最低稳控位（前抬腿尽量伸直悬空不触地）。",
+                "呼气发力由臀腿稳定肌协同发力踩实地面蹬伸直立；每侧完成规定次数后换另一条腿。",
+            ],
+        },
+        "1328": {
+            "name_zh": "平凳俯卧哑铃三角肌后束划船",
+            "category": "back",
+            "equipment": "dumbbell",
+            "target": "upper back",
+            "muscle_group": "",
+            "secondary_muscles": ["shoulders", "biceps"],
+            "movement_patterns_zh": ["拉", "俯身划船"],
+            "required_equipment_zh": ["平板训练凳"],
+            "instructions_zh": [
+                "面朝下俯卧贴实于稳固的平板训练凳上，双腿向后自然伸直以双脚前掌点地辅助稳住身体，双手各持一只哑铃垂于凳侧下方、掌心向内。",
+                "收紧下背与核心使胸腹部贴稳凳面，保持颈椎自然中立不猛抬头。",
+                "呼气由上背菱形肌、斜方肌中下束及三角肌后束协同主导将双肘向外斜上方打开并垂直向侧上方拉高哑铃至上臂与肩平齐。",
+                "在顶端挤压上背与后束停顿片刻后，吸气控制下放回垂悬起始位；每次拉放计一次。",
+            ],
+        },
+    }
+
+    sources = {}
+    review_notes = {}
+
+    pending = {
+        "1468": "待修图 · 已补充单侧反撑转体与核心旋转要点（触发单侧计次）；原图三帧间撑地手（`best_sc=0.9545, dx=+4`）与踩地脚（`best_sc=0.903–0.911, dx=-10`）存在 `14–15 px` 异步滑动及头部微偏，暂存待重制。",
+        "1292": "待修图 · 已清除“悬”相关风险字眼改名为坐瑜伽球单腿平举哑铃飞鸟（补 `瑜伽球` 并保留单腿计次）；原图虽球体与踩地脚较稳（`>=0.9798`），但 F2 头部下沉达 `2 px`（`head sc0=0.9036, best_sc=0.9559`）未过 `>=0.96` 门槛，暂存待重制。",
+        "1471": "待修图 · 已将表述从易混淆静态用语调整为直臂高俯撑爬行毛毛虫；原图全身于地面前后爬行移动，暂存待重制。",
+        "1293": "待修图 · 已补充 `瑜伽球` 必需支持与核心稳定筛查；原图 F2 球面相对 F0 明显升浮位移且头部随背抬高发生异步重定位，暂存待重制。",
+        "1472": "待修图 · 已规范立定前向纵跳发力与落地缓冲要点；原图三帧人像腾空跨幅跃迁且空间位置横跳，暂存待重制。",
+        "1294": "待修图 · 已彻底纠正原上游严重错译“哑铃拉下推髋部伸展（球上）”为瑜伽球仰卧哑铃直臂上拉挺髋（补 `瑜伽球` 与过顶肩负／髋铰链）；原图伴随挺髋动作球体向左大幅滚移压缩，暂存待重制。",
+        "1473": "待修图 · 已规范站姿后向纵跳落点防失衡要点；原图腾空后跃三帧身位大幅前后跳跃、足尖与上身比例不一致，暂存待重制。",
+        "1295": "待修图 · 已纠正原上游严重错译“拉下推”为健身球仰靠哑铃直臂上拉（补 `瑜伽球` 与 `lats` 背阔肌）；原图第 2 帧球体明显滚动抬升（`x` 与 `y` 双移位），暂存待重制。",
+        "1476": "待修图 · 已规范徒手单腿手枪深蹲下肢与足底支撑要求（保持单腿逐侧计次）；原图第 1、2 帧支撑脚底平移 `dx=+23/+7, dy=+7/+20` 漂移，暂存待重制。",
+        "1328": "待修图 · 已补充 `平板训练凳` 支持并避免“平板”静态触发词；原图第 1 帧虽长凳左侧固定，但长凳右脚（`sc0=0.9344, best=(2,0)`）与头部（`res=2.24 px`）向右拉伸 `2 px`，未全支点达 `>=0.96`，暂存待重制。",
+    }
+
+    result = {
+        "batch": "20261015_review37",
+        "version": "1.2.42",
+        "version_code": 2026101501,
+        "apk_name": "时光屋-1.2.42-第三十七批动作复核.apk",
+        "output": "build/review37-20261015",
+        "report": "docs/releases/2026-10-15-review-batch37.md",
+        "inspected": inspected,
+        "definition_updates": definition_updates,
+        "sources": sources,
+        "review_candidates": review_candidates,
+        "pending": pending,
+        "registered_media": review_candidates,
+        "original_pose_repairs": review_candidates,
+        "generated_images_imported": 0,
+        "image_generation_calls": 0,
+        "quota_exhausted_reset_at": "2026-11-12T05:37:04Z",
+        "review_notes": review_notes,
+    }
+    (B / "review-result.json").write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n")
+
+    code_files = sorted(R.glob("app/src/main/java/**/*.java"))
+    baseline = {str(p.relative_to(R)): sha(p) for p in code_files}
+    (B / "code-baseline.json").write_text(json.dumps(baseline, ensure_ascii=False, indent=2) + "\n")
+
+    qa_spec = {
+        "batch": "20261015_review37",
+        "expected_checks": 16,
+        "review_candidates": review_candidates,
+        "deferred_candidates": list(pending.keys()),
+    }
+    (B / "qa-spec.json").write_text(json.dumps(qa_spec, ensure_ascii=False, indent=2) + "\n")
+    print("Authored review-result.json, code-baseline.json, and qa-spec.json for 20261015_review37")
+
+
+if __name__ == "__main__":
+    main()

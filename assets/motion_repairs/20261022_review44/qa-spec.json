@@ -1,0 +1,10 @@
+{
+  "batch": "20261022_review44",
+  "expected_checks": 10,
+  "expected_reviewed_after_approve": 132,
+  "candidate_id": "1659",
+  "candidate_required_equipment": [
+    "瑜伽球"
+  ],
+  "expected_per_side_ids": []
+}

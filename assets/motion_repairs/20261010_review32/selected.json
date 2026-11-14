@@ -1,0 +1,217 @@
+[
+  {
+    "id": "1366",
+    "name": "upward facing dog",
+    "name_zh": "上犬式",
+    "media": "raw:dataset_motion_1366",
+    "category": "back",
+    "equipment": "body weight",
+    "target": "spine",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "chest"
+    ],
+    "instructions_zh": [
+      "脸朝下躺在地板上，双腿伸到身后。",
+      "将双手放在下肋骨旁边的地板上，手指指向前方。",
+      "双手用力按在地板上，伸直手臂，将躯干和大腿抬离地面。",
+      "向后和向下转动肩膀，打开胸部，将目光转向天花板。",
+      "保持这个姿势几次呼吸，然后慢慢将身体放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0438",
+    "name": "dumbbell w-press",
+    "name_zh": "哑铃双外旋推举",
+    "media": "raw:dataset_motion_0438",
+    "category": "shoulders",
+    "equipment": "dumbbell",
+    "target": "delts",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "chest"
+    ],
+    "instructions_zh": [
+      "坐在长凳上，双手各握一个哑铃，手掌朝前。",
+      "将哑铃举至肩高，肘部弯曲，手掌朝前。",
+      "向上推哑铃，直到手臂完全伸过头顶。",
+      "将哑铃放低至肩部高度。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1367",
+    "name": "wide grip rear pull-up",
+    "name_zh": "宽握反向引体向上",
+    "media": "raw:dataset_motion_1367",
+    "category": "back",
+    "equipment": "body weight",
+    "target": "lats",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "正手宽握抓住引体向上杆，双手间距略宽于肩宽。",
+      "悬挂在杠上，双臂完全伸展，身体伸直。",
+      "调动背部肌肉，将身体拉向杠铃杆，以胸部为主导。",
+      "继续拉，直到下巴位于杠铃上方。",
+      "在顶部停顿片刻，然后慢慢将身体放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0439",
+    "name": "dumbbell zottman curl",
+    "name_zh": "哑铃佐特曼卷",
+    "media": "raw:dataset_motion_0439",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "站直，双手各持一个哑铃，手掌朝向身体。",
+      "保持肘部靠近躯干，并旋转手掌以面向前方。",
+      "将哑铃举至肩膀处，同时保持上臂静止。",
+      "在动作的最高点，旋转手腕，使手掌背向身体。",
+      "慢慢地将哑铃放回起始位置，将手掌旋转回面向身体。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1374",
+    "name": "box jump down with one leg stabilization",
+    "name_zh": "单腿稳定箱跳下",
+    "media": "raw:dataset_motion_1374",
+    "category": "lower legs",
+    "equipment": "body weight",
+    "target": "calves",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "glutes"
+    ],
+    "instructions_zh": [
+      "站在盒子或平台前，双脚分开与肩同宽。",
+      "弯曲膝盖，跳到盒子上，一只脚轻轻落地，另一只脚悬在盒子边缘。",
+      "将脚踩在盒子上，将自己稳定在盒子上，同时保持另一只脚离开地面。",
+      "保持这个姿势几秒钟，锻炼小腿肌肉以保持平衡。",
+      "将放在盒子上的脚慢慢放下，回到起始位置。",
+      "用另一条腿重复该练习。"
+    ]
+  },
+  {
+    "id": "0660",
+    "name": "push-up close-grip off dumbbell",
+    "name_zh": "哑铃窄握俯卧撑",
+    "media": "raw:dataset_motion_0660",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "triceps",
+    "muscle_group": "chest",
+    "secondary_muscles": [
+      "chest",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "从俯卧撑位置开始，双手并拢，直接放在肩膀下方。",
+      "每只手握住一个哑铃，将其放在地上。",
+      "弯曲肘部，使肘部靠近身体两侧，将身体降低到地面。",
+      "推动手掌以伸展手臂并返回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1377",
+    "name": "calf stretch with hands against wall",
+    "name_zh": "手扶墙小腿伸展",
+    "media": "raw:dataset_motion_1377",
+    "category": "lower legs",
+    "equipment": "body weight",
+    "target": "calves",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings"
+    ],
+    "instructions_zh": [
+      "面向墙壁站立，双脚分开与臀部同宽。",
+      "将双手靠在墙上，与肩同高。",
+      "右脚向后退一步，保持脚后跟着地，腿伸直。",
+      "弯曲左膝并向前倾斜，保持后腿伸直，脚后跟着地。",
+      "保持拉伸 20-30 秒。",
+      "换腿并重复拉伸。"
+    ]
+  },
+  {
+    "id": "0727",
+    "name": "single leg calf raise (on a dumbbell)",
+    "name_zh": "单腿哑铃提踵",
+    "media": "raw:dataset_motion_0727",
+    "category": "lower legs",
+    "equipment": "dumbbell",
+    "target": "calves",
+    "muscle_group": "ankles",
+    "secondary_muscles": [
+      "ankles",
+      "feet"
+    ],
+    "instructions_zh": [
+      "双脚分开与臀部同宽站立，一只手握住哑铃。",
+      "将一只脚抬离地面并用另一只脚保持平衡。",
+      "使用小腿肌肉，慢慢地将脚跟抬高，尽可能高。",
+      "在顶部停顿片刻，然后慢慢降低脚跟。",
+      "重复所需的重复次数，然后换另一条腿。"
+    ]
+  },
+  {
+    "id": "1386",
+    "name": "one leg donkey calf raise",
+    "name_zh": "单腿驴式小腿抬举",
+    "media": "raw:dataset_motion_1386",
+    "category": "lower legs",
+    "equipment": "body weight",
+    "target": "calves",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings",
+      "glutes"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，脚趾指向前方。",
+      "将双手放在稳定的表面上以获得支撑，例如墙壁或酒吧。",
+      "将一条腿抬离地面，保持膝盖稍微弯曲。",
+      "使用小腿肌肉，尽可能高地抬高脚跟。",
+      "在顶部停顿片刻，然后慢慢降低脚跟。",
+      "重复所需的重复次数，然后换腿。"
+    ]
+  },
+  {
+    "id": "0777",
+    "name": "spell caster",
+    "name_zh": "巫师式",
+    "media": "raw:dataset_motion_0777",
+    "category": "waist",
+    "equipment": "dumbbell",
+    "target": "abs",
+    "muscle_group": "obliques",
+    "secondary_muscles": [
+      "obliques",
+      "lower back"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，一只手握住哑铃。",
+      "稍微弯曲膝盖，腰部向前转动，保持背部挺直。",
+      "将哑铃伸向另一只脚的手臂，同时旋转躯干。",
+      "返回起始位置并在另一侧重复。",
+      "继续交替进行所需的重复次数。"
+    ]
+  }
+]

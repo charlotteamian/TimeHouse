@@ -1,0 +1,226 @@
+#!/usr/bin/env python3
+"""Author Batch 45 review updates, pending notes, sources, code baseline, and QA spec."""
+from pathlib import Path
+import json
+import hashlib
+
+B = Path(__file__).resolve().parent
+R = B.parents[2]
+BATCH_ID = "20261023_review45"
+VERSION = "1.2.50"
+VERSION_CODE = 2026102301
+
+inspected = ["2363", "1661", "2398", "1662", "2400", "1663", "2429", "1664", "2462", "1665"]
+review_candidates = ["1665"]
+registered_media = ["1665"]
+
+definition_updates = {
+    "2363": {
+        "name_zh": "高双杠宽握前倾臂屈伸",
+        "category": "chest",
+        "equipment": "body weight",
+        "target": "pectorals",
+        "muscle_group": "pectorals",
+        "secondary_muscles": ["triceps", "shoulders"],
+        "required_equipment_zh": ["双杠"],
+        "instructions_zh": [
+            "双手宽距正握紧抓高双杠横杆并伸直双臂腾空起姿，双腿屈膝交叉置于身后。",
+            "上身略向前倾以聚焦胸大肌下束，吸气屈肘有控制地缓慢下放身体至上臂接近水平。",
+            "在低位略作停顿后呼气发力伸臂向上推回高位起始姿。",
+        ],
+    },
+    "1661": {
+        "name_zh": "平凳仰卧垂臂哑铃弯举",
+        "category": "upper arms",
+        "equipment": "dumbbell",
+        "target": "biceps",
+        "muscle_group": "biceps",
+        "secondary_muscles": ["forearms"],
+        "required_equipment_zh": ["平板训练凳"],
+        "instructions_zh": [
+            "平躺在平板训练凳上，肩背与后脑稳妥贴靠凳面，双脚分开平踩地面维持下盘稳固。",
+            "双手掌心朝上反握哑铃将双臂斜垂于凳两侧下方充分拉长肱二头肌。",
+            "保持大臂稳固定位，呼气发力向前上方弯举哑铃至肩胸高度，停顿后吸气缓慢放回。",
+        ],
+    },
+    "2398": {
+        "name_zh": "跪姿窄距俯卧撑",
+        "category": "upper arms",
+        "equipment": "body weight",
+        "target": "triceps",
+        "muscle_group": "triceps",
+        "secondary_muscles": ["chest", "shoulders"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双膝跪地与髋同宽、小腿交叠微抬，双手窄距压于胸肩正下方地面，指尖朝前保持躯干呈斜直线。",
+            "收紧核心并让手肘顺着身体两侧向后贴收，吸气屈肘放低胸口至接近地面。",
+            "呼气集中肱三头肌与胸肩力量发力伸直双臂推回高位起姿。",
+        ],
+    },
+    "1662": {
+        "name_zh": "平凳仰卧宽握外展哑铃弯举",
+        "category": "upper arms",
+        "equipment": "dumbbell",
+        "target": "biceps",
+        "muscle_group": "biceps",
+        "secondary_muscles": ["forearms"],
+        "required_equipment_zh": ["平板训练凳"],
+        "instructions_zh": [
+            "平躺在平板训练凳上，双脚分开踩实地面，双手反握哑铃并略向外侧外展垂放于体侧。",
+            "保持上臂角度稳固不动，呼气沿微外旋弧线向上弯举哑铃至胸侧肩前。",
+            "顶峰略作停顿后吸气有控制地放回外展伸直起始位。",
+        ],
+    },
+    "2400": {
+        "name_zh": "龙门架低位绳索俯卧腿弯举",
+        "category": "upper legs",
+        "equipment": "body weight",
+        "target": "hamstrings",
+        "muscle_group": "hamstrings",
+        "secondary_muscles": ["glutes", "calves"],
+        "required_equipment_zh": ["平板训练凳", "龙门架绳索"],
+        "instructions_zh": [
+            "将滑轮绳索调至最低位并穿妥踝带于双脚脚踝，随后在滑轮前方俯卧在平板训练凳上，双手稳握凳沿。",
+            "双腿向滑轮侧伸直预备，保持骨盆稳贴凳面并呼气收缩腘绳肌发力将小腿向臀部弯起。",
+            "顶部停顿感受大腿后侧收紧后吸气有控制地放回伸直位。",
+        ],
+    },
+    "1663": {
+        "name_zh": "牧师凳坐姿单臂锤式哑铃弯举",
+        "category": "upper arms",
+        "equipment": "dumbbell",
+        "target": "biceps",
+        "muscle_group": "biceps",
+        "secondary_muscles": ["forearms"],
+        "required_equipment_zh": ["牧师凳"],
+        "instructions_zh": [
+            "稳坐在牧师凳上，双脚平踩地面，非工作手轻扶于凳面或对侧膝上稳定身体。",
+            "工作臂后侧贴靠在牧师凳斜垫上，掌心朝内锤握哑铃并将手臂自然下垂伸直。",
+            "保持上臂贴垫不动，呼气发力弯举哑铃至接近肩前，顶点停顿后缓慢放回并完成组次后换臂。",
+        ],
+    },
+    "2429": {
+        "name_zh": "仰卧屈膝起背卷腹",
+        "category": "waist",
+        "equipment": "body weight",
+        "target": "abs",
+        "muscle_group": "abs",
+        "secondary_muscles": ["hip flexors"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "仰卧于地面并屈膝将双脚平踩地面，双手轻托头后耳侧、双肘向外打开。",
+            "下背轻贴地面后呼气收紧腹直肌，带动头肩及上背部向上卷起至约四十五度角。",
+            "顶部短暂停顿感受腹部收紧后吸气缓慢放回贴近地面位置。",
+        ],
+    },
+    "1664": {
+        "name_zh": "站姿高举位哑铃弯举",
+        "category": "upper arms",
+        "equipment": "dumbbell",
+        "target": "biceps",
+        "muscle_group": "biceps",
+        "secondary_muscles": ["forearms"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚与髋或与肩同宽直立站稳，双手掌心朝前各握一只哑铃垂放体侧。",
+            "保持核心收紧且大臂稳贴躯干（末端略前抬以冲顶），呼气向上弯举哑铃至接近耳肩高度。",
+            "顶点停顿感受肱二头肌充分挤压后吸气有控制地放回垂直起姿。",
+        ],
+    },
+    "2462": {
+        "name_zh": "单杠前倾直杆臂屈伸",
+        "category": "chest",
+        "equipment": "body weight",
+        "target": "pectorals",
+        "muscle_group": "pectorals",
+        "secondary_muscles": ["triceps", "shoulders"],
+        "required_equipment_zh": ["单杠"],
+        "instructions_zh": [
+            "双手掌心朝下正握紧抓单杠与肩同宽或略宽，双臂伸直将身体撑举于横杠上方，双膝微屈并交叉脚踝。",
+            "上身略向前倾，吸气屈肘缓慢放低胸口贴近横杠上方，控制肩肘不要过度外展。",
+            "下探到位后呼气发力伸直双臂推起回到高位起始姿。",
+        ],
+    },
+    "1665": {
+        "name_zh": "平凳俯卧单臂哑铃弯举",
+        "category": "upper arms",
+        "equipment": "dumbbell",
+        "target": "biceps",
+        "muscle_group": "biceps",
+        "secondary_muscles": ["forearms"],
+        "required_equipment_zh": ["平板训练凳"],
+        "instructions_zh": [
+            "俯卧趴贴在平板训练凳上，双腿向后分立以脚尖稳踩地面，非工作手轻握凳垫前缘固定躯干。",
+            "工作手掌心朝前或微旋反握一只哑铃，使大臂稳定垂直垂向地面充分伸直。",
+            "保持肩部与上臂稳定不动，呼气集中肱二头肌发力向上弯举哑铃靠向胸肩前方。",
+            "顶峰略作停顿后吸气沿垂直线缓慢下放回到伸直垂臂位，完成规定次数后换另一侧手臂。",
+        ],
+    },
+}
+
+pending = {
+    "2363": "待修图 · F0 头部触及上边界 7 px 且高双杠支脚与头部跨帧位置跳变（bottom F0 (-9,0) sc0=0.5450），已补充双杠并清除悬浮字样，待重制。",
+    "1661": "待修图 · 经 F1 (+2,0)、F2 (0,+22) 对齐长凳和头部后 F2 双脚匹配仍仅为 0.9292（< 0.96，脚踝与凳腿不同步），已补充平板训练凳，待重制。",
+    "2398": "待修图 · 跪姿窄距俯卧撑过程双膝与上身沿地斜向位移（bottom sc0=0.1963/0.5245），已消除括号杂项，待重制。",
+    "1662": "待修图 · 仰卧宽握弯举长凳左右支脚、双脚与头部存在 5-12 px 各自偏移（head F0 sc0=0.2162），已补充平板训练凳，待重制。",
+    "2400": "待修图 · 原图仅有 2 帧不满足 4 帧循环，已修正名与补充平板训练凳 + 龙门架绳索必需器械，待重制。",
+    "1663": "待修图 · 彻底纠正上游严重错译“哑铃单臂仰卧弯举”为牧师凳坐姿单臂锤式哑铃弯举并补全牧师凳，实测 F1 (-9,0) 后斜凳右脚（0.9107）与头顶（0.8875）仍不同步，待重制。",
+    "2429": "待修图 · F0/F2 脚趾触及右边界 3 px 且卷腹过程上身中心左移，待重制。",
+    "1664": "待修图 · 经 F1 (+20,0)、F2 (0,+4) 对齐双脚后 F2 头顶产生 4 px 垂向落差（head_crown sc0=0.5983 < 0.96），待重制。",
+    "2462": "待修图 · 彻底纠正上游错译“直杆胸推”及文字误导双杠为单杠前倾直杆臂屈伸，实测横杠高度在 F2 跳变 -10 px 且右底座匹配 0.9056 < 0.96，待重制。",
+}
+
+sources = {
+    "1665": "https://raw.githubusercontent.com/exercemus/exercises/minified/exercises.json#dumbbell_one_arm_prone_curl"
+}
+
+review_notes = {
+    "1665": "来源为 exercemus/exercises 公开动作库 1665（dumbbell one arm prone curl）。核正平凳俯卧单臂哑铃弯举名称、平板训练凳必需器械、肱二头肌与单臂计数；经 F2 (0, +20) 纯整数垂直平移配准并锁定 800/380/800/380 ms 四帧循环（F4=F2），纯白背景零边界截断，平凳左腿、右支撑脚、踩地脚尖、骨盆与面部五大锚点对齐残差 0.00 px（最低匹配分 0.9882）。"
+}
+
+before_reviews = json.loads((B / "before/exercise_reviews.json").read_text())
+reviewed_count = len(before_reviews["reviewed"]) + len(review_candidates)
+
+review_result = {
+    "batch": BATCH_ID,
+    "version": VERSION,
+    "version_code": VERSION_CODE,
+    "output": "build/review45-20261023",
+    "inspected": inspected,
+    "review_candidates": review_candidates,
+    "registered_media": registered_media,
+    "definition_updates": definition_updates,
+    "pending": pending,
+    "sources": sources,
+    "review_notes": review_notes,
+    "image_generation_calls": 0,
+    "generated_images_imported": 0,
+}
+(B / "review-result.json").write_text(json.dumps(review_result, ensure_ascii=False, indent=2) + "\n")
+
+code_paths = [
+    "app/src/main/java",
+    "scripts/validate_exercise_dataset.sh",
+    "scripts/build_android_debug.sh",
+]
+baseline = {}
+for rel in code_paths:
+    p = R / rel
+    if p.is_file():
+        baseline[rel] = hashlib.sha256(p.read_bytes()).hexdigest()
+    else:
+        for f in sorted(p.rglob("*")):
+            if f.is_file():
+                baseline[str(f.relative_to(R))] = hashlib.sha256(f.read_bytes()).hexdigest()
+(B / "code-baseline.json").write_text(json.dumps(baseline, ensure_ascii=False, indent=2) + "\n")
+
+qa_spec = {
+    "batch": BATCH_ID,
+    "expected_checks": 10,
+    "expected_reviewed_after_approve": reviewed_count,
+    "candidate_id": "1665",
+    "candidate_required_equipment": ["平板训练凳"],
+    "expected_per_side_ids": ["1663", "1665"],
+}
+(B / "qa-spec.json").write_text(json.dumps(qa_spec, ensure_ascii=False, indent=2) + "\n")
+print(f"Authored review-result.json, code-baseline.json, and qa-spec.json for {BATCH_ID}")

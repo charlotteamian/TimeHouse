@@ -1,0 +1,216 @@
+[
+  {
+    "id": "2466",
+    "name": "bridge - mountain climber (cross body)",
+    "name_zh": "桥式登山跑（交叉）",
+    "media": "raw:dataset_motion_2466",
+    "category": "waist",
+    "equipment": "body weight",
+    "target": "abs",
+    "muscle_group": "glutes",
+    "secondary_muscles": [
+      "glutes",
+      "quadriceps",
+      "hamstrings",
+      "shoulders",
+      "triceps"
+    ],
+    "instructions_zh": [
+      "从高平板支撑位置开始，双手直接放在肩膀下方，身体呈一条直线。",
+      "启动你的核心并将右脚抬离地面，将右膝移向左肘。",
+      "将右脚放回到起始位置，然后将左脚朝向右肘重复该动作。",
+      "继续交替两侧，以受控的速度移动。",
+      "保持臀部水平，避免臀部抬得太高或下垂得太低。",
+      "在整个练习过程中保持稳定的呼吸模式。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1666",
+    "name": "dumbbell one arm prone hammer curl",
+    "name_zh": "哑铃单臂俯卧锤式弯举",
+    "media": "raw:dataset_motion_1666",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "面朝下躺在平坦的长凳上，一只手拿着哑铃，手掌面向身体，手臂完全伸展。",
+      "保持上臂静止，将哑铃向肩膀弯曲，收缩二头肌。",
+      "在最高点暂停片刻，然后慢慢将哑铃放回起始位置。",
+      "重复所需的重复次数，然后换臂。"
+    ]
+  },
+  {
+    "id": "2567",
+    "name": "seated piriformis stretch",
+    "name_zh": "坐姿梨状肌拉伸",
+    "media": "raw:dataset_motion_2567",
+    "category": "upper legs",
+    "equipment": "body weight",
+    "target": "glutes",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings"
+    ],
+    "instructions_zh": [
+      "坐在地上，双腿在身前伸展。",
+      "弯曲右膝，将右脚放在左膝外侧。",
+      "将左肘放在右膝外侧，轻轻地将躯干向右扭转。",
+      "保持拉伸 20-30 秒，然后换边重复。"
+    ]
+  },
+  {
+    "id": "1667",
+    "name": "dumbbell one arm reverse spider curl",
+    "name_zh": "哑铃单臂反握蜘蛛弯举",
+    "media": "raw:dataset_motion_1667",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "站直，一只手握住哑铃，手掌朝下，手臂完全伸展。",
+      "保持上臂静止，弯曲肘部，将哑铃向肩膀方向卷曲。",
+      "在最高点暂停片刻，然后慢慢将哑铃放回起始位置。",
+      "重复所需的重复次数，然后换臂。"
+    ]
+  },
+  {
+    "id": "2571",
+    "name": "rocking frog stretch",
+    "name_zh": "青蛙式摇摆拉伸",
+    "media": "raw:dataset_motion_2571",
+    "category": "upper legs",
+    "equipment": "body weight",
+    "target": "glutes",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings",
+      "quadriceps"
+    ],
+    "instructions_zh": [
+      "首先跪在地上，膝盖分开与臀部同宽。",
+      "将双手放在身前的地面上以获得支撑。",
+      "慢慢向前倾，将重心转移到双手上，并将双腿伸到身后。",
+      "当你将臀部向后推向天花板时，保持背部挺直并收紧臀部。",
+      "保持这个姿势几秒钟，感受臀部的拉伸。",
+      "弯曲膝盖并降低臀部，慢慢回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1668",
+    "name": "dumbbell one arm seated bicep curl on exercise ball",
+    "name_zh": "哑铃单臂坐姿弯举（球上）",
+    "media": "raw:dataset_motion_1668",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "坐在健身球上，双脚平放在地上，背部挺直。",
+      "一只手握住哑铃，手掌朝上，手臂完全伸展。",
+      "保持上臂静止，通过收缩二头肌将哑铃向肩膀弯曲。",
+      "在最高点暂停片刻，然后慢慢将哑铃放回起始位置。",
+      "重复所需的重复次数，然后换臂。"
+    ]
+  },
+  {
+    "id": "2801",
+    "name": "twisted leg raise (female)",
+    "name_zh": "扭转抬腿（女）",
+    "media": "raw:dataset_motion_2801",
+    "category": "waist",
+    "equipment": "body weight",
+    "target": "abs",
+    "muscle_group": "obliques",
+    "secondary_muscles": [
+      "obliques",
+      "hip flexors"
+    ],
+    "instructions_zh": [
+      "平躺，双腿伸展，双臂放在身体两侧。",
+      "弯曲膝盖，将双腿抬离地面，将它们拉向胸部。",
+      "当你抬起双腿时，将臀部扭向一侧，将膝盖移向另一侧的肩膀。",
+      "在顶部暂停片刻，然后慢慢将双腿放回起始位置。",
+      "重复这个动作，这次将臀部扭到另一侧。",
+      "继续交替进行所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1669",
+    "name": "dumbbell one arm seated hammer curl",
+    "name_zh": "哑铃单臂坐姿锤式弯举",
+    "media": "raw:dataset_motion_1669",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "坐在长凳上，背部挺直，双脚平放在地上。",
+      "一只手握住哑铃，保持中立握姿（手掌相对）。",
+      "将肘部放在大腿内侧、膝盖上方。",
+      "保持上臂静止，呼气并将哑铃向上弯向肩膀。",
+      "在顶部暂停片刻，挤压你的二头肌。",
+      "吸气，慢慢将哑铃放回起始位置。",
+      "重复所需的重复次数，然后换臂。"
+    ]
+  },
+  {
+    "id": "2802",
+    "name": "twisted leg raise",
+    "name_zh": "扭转抬腿",
+    "media": "raw:dataset_motion_2802",
+    "category": "waist",
+    "equipment": "body weight",
+    "target": "abs",
+    "muscle_group": "obliques",
+    "secondary_muscles": [
+      "obliques",
+      "hip flexors"
+    ],
+    "instructions_zh": [
+      "平躺，双腿伸展，双臂放在身体两侧。",
+      "将双手放在臀部下方以获得支撑。",
+      "收紧腹肌，将双腿抬离地面，保持伸直。",
+      "当你抬起双腿时，将臀部扭向一侧，将双腿拉向对面的肩膀。",
+      "在顶部暂停片刻，然后慢慢将双腿放回起始位置。",
+      "重复这个动作，这次将臀部扭到另一侧。",
+      "继续交替进行所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1670",
+    "name": "dumbbell one arm standing curl",
+    "name_zh": "哑铃单臂站姿弯举",
+    "media": "raw:dataset_motion_1670",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "站直，一手握哑铃，手掌朝前，手臂完全伸展。",
+      "保持上臂静止，呼气并向上弯曲重量，同时收缩二头肌。",
+      "继续举起哑铃，直到二头肌完全收缩并且哑铃与肩部齐平。",
+      "挤压二头肌时，保持收缩位置短暂停顿。",
+      "吸气，慢慢将哑铃放回起始位置。",
+      "重复所需的重复次数，然后换臂。"
+    ]
+  }
+]

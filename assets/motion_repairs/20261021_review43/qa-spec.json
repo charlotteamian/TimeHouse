@@ -1,0 +1,13 @@
+{
+  "batch": "20261021_review43",
+  "expected_checks": 16,
+  "expected_reviewed_after_approve": 131,
+  "expected_per_side_ids": [
+    "1773",
+    "1774",
+    "1652",
+    "1775",
+    "1653",
+    "2271"
+  ]
+}

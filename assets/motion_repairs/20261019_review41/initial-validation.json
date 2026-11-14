@@ -1,0 +1,17 @@
+{
+  "batch_id": "20261019_review41",
+  "status": "passed",
+  "serial": "emulator-5554",
+  "apk": "build/timehouse-debug.apk",
+  "checks": 13,
+  "visually_reviewed": [
+    "1764",
+    "1624"
+  ],
+  "dataset_sha256": "3973e04c0f03468585ffe7c56b6c8e4cbba5c9e2272361c0faa3067844966d96",
+  "media_sha256": {
+    "1764": "9423f8bee80a0a5b35a49826d89cc7626fcc8782de418f20ce88479e5c41c782",
+    "1624": "81c366471911ac08177a73985525c293c0b8eb28f2e0ba167f14949ca1764ee8"
+  },
+  "notes": "Inspected fixed contact-fixed-1.jpg and Android emulator playback strips 1764-playback-contact.jpg & 1624-playback-contact.jpg; pure white background, smooth full-range loops, rock-solid rack/bench anchors."
+}

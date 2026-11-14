@@ -1,0 +1,231 @@
+#!/usr/bin/env python3
+"""Author Batch 53 review updates, pending notes, code baseline, and QA spec (0 candidates; 10 deferred)."""
+from pathlib import Path
+import json
+import hashlib
+
+B = Path(__file__).resolve().parent
+R = B.parents[2]
+BATCH_ID = "20261031_review53"
+VERSION = "1.2.58"
+VERSION_CODE = 2026103101
+
+inspected = ["3221", "2133", "3222", "2136", "3223", "2137", "3224", "2143", "3231", "2188"]
+review_candidates = []
+registered_media = []
+
+definition_updates = {
+    "3221": {
+        "name_zh": "自重前平举半蹲",
+        "category": "upper legs",
+        "equipment": "body weight",
+        "target": "quadriceps",
+        "muscle_group": "",
+        "secondary_muscles": ["hamstrings", "glutes"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚分开略与肩同宽自然站直，核心轻收、抬头挺胸，双手自然垂于体侧。",
+            "屈髋屈膝向后下坐至半蹲及平行半深蹲幅度，同时双臂顺势向前平举伸直以平衡重心，双膝随脚尖方向打开。",
+            "全程维持脊柱中立与脚跟稳踩地面，感受股四头肌前侧受控发力承载负荷。",
+            "在蹲低底位短暂控制后，双腿蹬地伸膝伸髋站直并放下双臂归位，重复规定次数。",
+        ],
+    },
+    "2133": {
+        "name_zh": "哑铃农夫行走",
+        "category": "upper legs",
+        "equipment": "dumbbell",
+        "target": "quads",
+        "muscle_group": "",
+        "secondary_muscles": ["calves", "forearms", "core"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚与髋同宽站直，双手对握各持一只较重哑铃自然垂于体侧，肩胛下沉微后收、核心绷紧。",
+            "维持躯干直立不左右晃动，双眼平视前方，交替稳健迈出受控小步向前行走。",
+            "行走过程中避免耸肩或含胸驼背，靠下肢肌群与握力核心协同稳定完成规定步数或距离。",
+            "停步后稳住双脚，再有控制地屈髋屈膝将哑铃安全放回地面或起始持握位。",
+        ],
+    },
+    "3222": {
+        "name_zh": "自重半蹲跳",
+        "category": "cardio",
+        "equipment": "body weight",
+        "target": "cardiovascular system",
+        "muscle_group": "quadriceps",
+        "secondary_muscles": ["hamstrings", "calves"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚分开与肩同宽直立，核心收紧、双手轻收于胸腹前或自然垂放。",
+            "屈膝推进臀部下坐至半蹲蓄力位，背部延展平直、膝盖对齐脚尖。",
+            "随即下肢爆发蹬地向上高跳，双臂自然向后或上摆配合腾空、全身充分伸展。",
+            "前脚掌过渡全脚掌屈膝缓冲轻柔落地，顺势衔接下一次半蹲起跳，重复规定次数。",
+        ],
+    },
+    "2136": {
+        "name_zh": "哑铃站姿古巴推举",
+        "category": "shoulders",
+        "equipment": "dumbbell",
+        "target": "delts",
+        "muscle_group": "",
+        "secondary_muscles": ["triceps", "upper back"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚分开与肩同宽站直，双手正握各持一只轻量哑铃先屈肘外展上提，使大臂水平略近肩高、小臂自然下垂或前指。",
+            "稳住上臂与核心位置不变，肩袖外旋带动前臂向上翻转至掌心朝前、双哑铃举立于耳侧高度。",
+            "随后肩部三角肌发力沿垂直轨迹向上推举哑铃至双臂接近伸直的头顶高位。",
+            "按原轨迹有控制地下放回耳侧再内旋下翻前臂归位，重复规定次数。",
+        ],
+    },
+    "3223": {
+        "name_zh": "自重星形跳",
+        "category": "cardio",
+        "equipment": "body weight",
+        "target": "cardiovascular system",
+        "muscle_group": "quadriceps",
+        "secondary_muscles": ["hamstrings", "calves"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚并拢或略宽站立，核心收紧、双臂自然置于体侧。",
+            "微屈膝盖下肢蓄力蹬地爆发向上跳起。",
+            "在空中尽量向斜上方大幅张开双臂并向两侧外展双腿，使四肢呈大字星形伸展。",
+            "随重力回落前迅速收拢双脚与手臂，前脚掌轻柔着地屈膝缓冲，连续完成规定次数。",
+        ],
+    },
+    "2137": {
+        "name_zh": "靠背凳坐姿哑铃阿诺德推举",
+        "category": "shoulders",
+        "equipment": "dumbbell",
+        "target": "delts",
+        "muscle_group": "",
+        "secondary_muscles": ["triceps", "upper chest"],
+        "required_equipment_zh": ["直立靠背训练凳"],
+        "instructions_zh": [
+            "坐姿于直立靠背训练凳上，腰背轻贴靠垫、双脚分开踩实地面，双手反握各持哑铃举于胸肩前方、掌心朝向自己。",
+            "呼气推举启动时一边向两侧打开双肘、外旋前臂使掌心逐渐转向正前方，一边顺势向上推举。",
+            "持续推举至哑铃来到头顶上方双臂接近伸直的位置，注意不要耸肩或过度顶腰。",
+            "吸气原轨迹受控下放并同步内旋手腕，将哑铃收回掌心朝向胸前的起始位，重复规定次数。",
+        ],
+    },
+    "3224": {
+        "name_zh": "原地开合跳",
+        "category": "cardio",
+        "equipment": "body weight",
+        "target": "cardiovascular system",
+        "muscle_group": "quadriceps",
+        "secondary_muscles": ["calves", "shoulders"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚并拢自然站立，核心收紧、双臂垂放于大腿两侧。",
+            "前脚掌轻快发力向上原地小跳，同时双脚向两侧开步分开并双臂划弧向头顶上方合击或高举。",
+            "双脚微屈膝缓冲落地后立刻再次跳起，顺势并拢双腿并将双臂划弧放回体侧。",
+            "全程维持均匀呼吸与弹性节奏，避免膝盖内扣，重复规定次数或时长。",
+        ],
+    },
+    "2143": {
+        "name_zh": "站姿哑铃环绕举",
+        "category": "shoulders",
+        "equipment": "dumbbell",
+        "target": "delts",
+        "muscle_group": "",
+        "secondary_muscles": ["triceps", "forearms"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚分开与肩同宽直立站稳，核心收紧，双手各持一只较轻哑铃微屈肘向两侧水平展开至与肩同高。",
+            "稳住肩胛下沉与肘部微屈角度，先将双臂沿水平弧线向前下方合拢归至身前持哑铃位置，再从体前顺势上举过头顶。",
+            "在最高点短暂停顿感受三角肌全方位收缩后，再沿两侧外侧大弧线缓慢下放回到侧平举起始位。",
+            "全程控制动作节奏不借惯性摇晃躯干，按规定次数完成循环。",
+        ],
+    },
+    "3231": {
+        "name_zh": "站姿俯身双触脚趾",
+        "category": "back",
+        "equipment": "body weight",
+        "target": "spine",
+        "muscle_group": "hamstrings",
+        "secondary_muscles": ["glutes"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚宽距或略宽于肩站立，膝盖解锁微屈、核心轻收，双臂向体侧水平展开。",
+            "维持背部延展平直先屈髋前倾俯身，同时双臂维持打开与肩平线随躯干向下推进。",
+            "继续顺势深屈髋向前向下俯身，双臂向内下方合拢用指尖轻触双脚脚趾前方，感受腘绳肌与脊柱后侧充分拉伸。",
+            "发力伸髋有控制地缓慢拉起躯干直立并重新展开双臂归位，重复规定次数。",
+        ],
+    },
+    "2188": {
+        "name_zh": "平凳坐姿哑铃颈后臂屈伸",
+        "category": "upper arms",
+        "equipment": "dumbbell",
+        "target": "triceps",
+        "muscle_group": "",
+        "secondary_muscles": ["shoulders"],
+        "required_equipment_zh": ["平板训练凳"],
+        "instructions_zh": [
+            "坐稳于平板训练凳一端或中段，双脚分开踩实地面、腰背挺直、核心收紧。",
+            "双手交叠托握一只哑铃顶部内片将其直臂举至头顶正上方，双上臂夹近耳侧、肘尖朝前且固定位置不动。",
+            "吸气时仅靠屈肘有控制地将哑铃缓慢下放至脑后，直到肱三头肌充分拉伸。",
+            "呼气集中肱三头肌发力伸直双肘推回头顶高举起始位，重复规定次数。",
+        ],
+    },
+}
+
+pending = {
+    "3221": "待修图 · 已去“（男）”更名为自重前平举半蹲（核正下肢股四头肌主训与去重字段）；原图下蹲全程臀腿膝屈曲并伴随双脚跨步移位(F1(+26,+1) bs=0.9479, F2(+13,+20) bs=0.9362)，待重制。",
+    "2133": "待修图 · 已规范为哑铃农夫行走（去除误标的小腿主训，仅保留股四头肌主训）；原图 F1 跨步整身偏移(+16,0)但裤腿摆步变形(shorts bs=0.8540)，F2 换步变形(shorts bs=0.8228)，待重制。",
+    "3222": "待修图 · 已去“（男）”更名为自重半蹲跳并去重股四头肌字段；原图 F0 底端存在 x=479 截断与相邻帧黑发残影溢出(bottom=49)，F2 顶缘 y=0 截断(top=50)且全身腾空大移位，待重制。",
+    "2136": "待修图 · 已去括号规范为哑铃站姿古巴推举（去除误标入主训的肱三头肌）；原图 F2 为塞入高举哑铃整体等比缩小导致跨点垂直拉伸失配(head(+13) vs chest/shorts(-28) vs feet(+3)，head bs=0.7589)，待重制。",
+    "3223": "待修图 · 已去“（男）”更名为自重星形跳并去重股四头肌字段；原图 F0 触底 y=479(bottom=23)、F2 触顶 y=0(top=26) 双端截断且腾空大字跳动全身漂移，待重制。",
+    "2137": "待修图 · 已规范为靠背凳坐姿哑铃阿诺德推举（补全直立靠背训练凳并去除误标入主训的肱三头肌）；原图 F0 凳脚触底 y=479(bottom=8)、F2 哑铃触顶 y=0 截断(top=18)且各帧构图位移，待重制。",
+    "3224": "待修图 · 纠正严重错译“跳箱（男）”为原地开合跳（去重股四头肌字段）；原图跳跃全程头部大幅垂移(-22/-28 px)而短裤位移不一(-7/-21 px)伴随缩放失配，待重制。",
+    "2143": "待修图 · 已规范为站姿哑铃环绕举（去除误标入主训的肱三头肌）；原图 F2 为纳入过顶双臂整体缩小导致上下肢垂直错位(head(+20) vs chest(-24) vs shorts(-17) vs feet(+3)，head bs=0.7860)，待重制。",
+    "3231": "待修图 · 纠正生硬错译“两脚触碰（男）”为站姿俯身双触脚趾（核正脊柱+腘绳肌主训）；原图俯身阶段双脚随视角收拢大幅独立横偏(right_foot(-32,-7) vs left_foot(-8,-6))，待重制。",
+    "2188": "待修图 · 已规范为平凳坐姿哑铃颈后臂屈伸（补全平板训练凳、纠正误标的肩部主训为肱三头肌）；原图虽凳腿在 F1(+6,0)/F2(0,+17) 对齐(>=0.98)，但头部与上躯在屈臂后明显前仰偏转(F2 face_tight 偏(0,+14) bs=0.8098、chest bs=0.8916 < 0.96)，待重制。",
+}
+
+sources = {}
+review_notes = {}
+
+before_reviews = json.loads((B / "before/exercise_reviews.json").read_text())
+reviewed_count = len(before_reviews["reviewed"]) + len(review_candidates)
+
+review_result = {
+    "batch": BATCH_ID,
+    "version": VERSION,
+    "version_code": VERSION_CODE,
+    "output": "build/review53-20261031",
+    "inspected": inspected,
+    "review_candidates": review_candidates,
+    "registered_media": registered_media,
+    "definition_updates": definition_updates,
+    "pending": pending,
+    "sources": sources,
+    "review_notes": review_notes,
+    "image_generation_calls": 0,
+    "generated_images_imported": 0,
+}
+(B / "review-result.json").write_text(json.dumps(review_result, ensure_ascii=False, indent=2) + "\n")
+
+code_paths = [
+    "app/src/main/java",
+    "scripts/validate_exercise_dataset.sh",
+    "scripts/build_android_debug.sh",
+]
+baseline = {}
+for rel in code_paths:
+    p = R / rel
+    if p.is_file():
+        baseline[rel] = hashlib.sha256(p.read_bytes()).hexdigest()
+    else:
+        for f in sorted(p.rglob("*")):
+            if f.is_file():
+                baseline[str(f.relative_to(R))] = hashlib.sha256(f.read_bytes()).hexdigest()
+(B / "code-baseline.json").write_text(json.dumps(baseline, ensure_ascii=False, indent=2) + "\n")
+
+qa_spec = {
+    "batch": BATCH_ID,
+    "expected_checks": 16,
+    "expected_reviewed_after_approve": reviewed_count,
+    "candidate_ids": [],
+    "candidate_required_equipment": {},
+    "expected_per_side_ids": [],
+}
+(B / "qa-spec.json").write_text(json.dumps(qa_spec, ensure_ascii=False, indent=2) + "\n")
+print(f"Authored review-result.json, code-baseline.json, and qa-spec.json for {BATCH_ID}")

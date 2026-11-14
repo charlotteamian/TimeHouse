@@ -1,0 +1,224 @@
+[
+  {
+    "id": "1604",
+    "name": "world greatest stretch",
+    "name_zh": "世界最伟大拉伸",
+    "media": "raw:dataset_motion_1604",
+    "category": "upper legs",
+    "equipment": "body weight",
+    "target": "hamstrings",
+    "muscle_group": "glutes",
+    "secondary_muscles": [
+      "glutes",
+      "quadriceps",
+      "calves"
+    ],
+    "instructions_zh": [
+      "从弓步位置开始，右脚向前，左脚向后。",
+      "将双手放在右脚两侧的地面上。",
+      "将左膝降低到地面并伸展右腿，保持右脚平放在地面上。",
+      "向右旋转你的躯干，将你的右臂伸向天花板。",
+      "保持这个姿势几秒钟，然后回到起始位置。",
+      "换边并重复拉伸，左脚向前。"
+    ]
+  },
+  {
+    "id": "1441",
+    "name": "dumbbell over bench one arm reverse wrist curl",
+    "name_zh": "哑铃过凳单臂反腕弯举",
+    "media": "raw:dataset_motion_1441",
+    "category": "lower arms",
+    "equipment": "dumbbell",
+    "target": "forearms",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "brachialis"
+    ],
+    "instructions_zh": [
+      "坐在长凳上，双脚平放在地上，一手握住哑铃，掌心朝下。",
+      "将前臂放在长凳上，手腕悬在长凳边缘。",
+      "慢慢向上弯曲手腕，将哑铃拉向前臂。",
+      "在顶部停顿片刻，然后慢慢将哑铃放回起始位置。",
+      "重复所需的重复次数，然后换到另一只手臂。"
+    ]
+  },
+  {
+    "id": "1686",
+    "name": "squat to overhead reach with twist",
+    "name_zh": "深蹲至头顶伸展转体",
+    "media": "raw:dataset_motion_1686",
+    "category": "upper legs",
+    "equipment": "body weight",
+    "target": "quads",
+    "muscle_group": "glutes",
+    "secondary_muscles": [
+      "glutes",
+      "hamstrings",
+      "core"
+    ],
+    "instructions_zh": [
+      "站立，双脚分开与肩同宽，脚趾稍微外翻。",
+      "弯曲膝盖并将臀部向后推，将身体降低至蹲姿。",
+      "当你从深蹲中站起来时，将手臂举过头顶并将躯干扭转到一侧。",
+      "返回起始位置并重复下蹲，这次将躯干扭转到另一侧。",
+      "每次深蹲重复时继续交替进行。"
+    ]
+  },
+  {
+    "id": "1459",
+    "name": "dumbbell romanian deadlift",
+    "name_zh": "哑铃罗马尼亚硬拉",
+    "media": "raw:dataset_motion_1459",
+    "category": "upper legs",
+    "equipment": "dumbbell",
+    "target": "glutes",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings",
+      "lower back"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，双手各握一个哑铃，正握。",
+      "保持背部挺直，核心收紧，以臀部为铰链，将哑铃向地面降低，让膝盖稍微弯曲。",
+      "降低哑铃，直到感觉到腿筋拉伸，然后推动脚后跟并收紧臀肌，回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1687",
+    "name": "posterior step to overhead reach",
+    "name_zh": "后退至过头伸展",
+    "media": "raw:dataset_motion_1687",
+    "category": "waist",
+    "equipment": "body weight",
+    "target": "abs",
+    "muscle_group": "glutes",
+    "secondary_muscles": [
+      "glutes",
+      "hamstrings",
+      "quadriceps",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "站立，双脚分开与臀部同宽，双臂放在身体两侧。",
+      "右脚向后退一步，用脚掌着地。",
+      "弯曲左膝并将身体降低至弓步位置。",
+      "当你降低弓步时，同时将手臂举过头顶。",
+      "在弓步底部暂停片刻，然后通过推动左脚跟并将右脚向前拉回到起始位置。",
+      "在另一侧重复该动作，左脚向后退一步并弯曲右膝盖。",
+      "继续交替进行所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1617",
+    "name": "dumbbell decline one arm hammer press",
+    "name_zh": "哑铃下斜单臂锤式推举",
+    "media": "raw:dataset_motion_1617",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "triceps",
+    "muscle_group": "chest",
+    "secondary_muscles": [
+      "chest",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "躺在下斜长凳上，一只手握住哑铃，放在胸前。",
+      "将手臂伸直向上，保持肘部稍微弯曲。",
+      "将哑铃向肩膀方向降低，保持肘部靠近身体。",
+      "将哑铃推回到起始位置。",
+      "重复所需的重复次数，然后换臂。"
+    ]
+  },
+  {
+    "id": "1688",
+    "name": "lunge with twist",
+    "name_zh": "弓步扭转",
+    "media": "raw:dataset_motion_1688",
+    "category": "waist",
+    "equipment": "body weight",
+    "target": "abs",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "glutes",
+      "hamstrings"
+    ],
+    "instructions_zh": [
+      "首先站立，双脚分开与肩同宽。",
+      "右脚向前迈出一步，将身体降低至弓步位置。",
+      "当你弓步时，将你的躯干向右扭转，将你的左肘拉向你的右膝盖。",
+      "暂停片刻，然后回到起始位置。",
+      "在另一侧重复，左脚向前迈出，并将躯干向左扭转。",
+      "继续交替进行所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1618",
+    "name": "dumbbell incline hammer press on exercise ball",
+    "name_zh": "哑铃球上斜锤式推举",
+    "media": "raw:dataset_motion_1618",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "triceps",
+    "muscle_group": "chest",
+    "secondary_muscles": [
+      "chest",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "坐在健身球上，双手各握一个哑铃，手掌相对。",
+      "双脚向前走，身体沿着球滚动，直到头部、颈部和上背部得到球的支撑。",
+      "将哑铃保持在与肩同高的位置，肘部弯曲并指向两侧。",
+      "将哑铃向上并稍微向内推，保持手掌相对。",
+      "充分伸展双臂，在动作的最高点挤压三头肌。",
+      "慢慢地将哑铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1689",
+    "name": "push and pull bodyweight",
+    "name_zh": "推拉自重",
+    "media": "raw:dataset_motion_1689",
+    "category": "chest",
+    "equipment": "body weight",
+    "target": "pectorals",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "deltoids"
+    ],
+    "instructions_zh": [
+      "从俯卧撑位置开始，双手分开略宽于肩宽，身体呈一条直线。",
+      "弯曲肘部，将胸部压向地面，保持身体伸直。",
+      "推动手掌以伸展手臂并返回到起始位置。",
+      "从俯卧撑位置开始，弯曲肘部，将胸部拉向地面，保持身体伸直。",
+      "推动手掌以伸展手臂并返回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1619",
+    "name": "dumbbell incline one arm hammer press",
+    "name_zh": "哑铃上斜单臂锤式推举",
+    "media": "raw:dataset_motion_1619",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "triceps",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "chest"
+    ],
+    "instructions_zh": [
+      "坐在上斜凳上，一只手拿着哑铃，放在大腿上。",
+      "向后靠在长凳上，用大腿帮助将哑铃举至肩膀高度。",
+      "旋转手腕，使手掌朝内，朝向身体。",
+      "将哑铃向上推离身体，完全伸展手臂。",
+      "在顶部停顿片刻，然后慢慢将哑铃放回起始位置。",
+      "重复所需的重复次数，然后换臂。"
+    ]
+  }
+]

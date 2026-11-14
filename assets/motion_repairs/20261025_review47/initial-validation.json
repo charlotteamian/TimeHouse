@@ -1,0 +1,17 @@
+{
+  "batch_id": "20261025_review47",
+  "status": "passed",
+  "serial": "emulator-5554",
+  "apk": "build/timehouse-debug.apk",
+  "checks": 13,
+  "visually_reviewed": [
+    "1671",
+    "1673"
+  ],
+  "dataset_sha256": "b297fec935bbf61299e692e086d428dd4c74e2051c7ae7b60da1ef4da0832502",
+  "media_sha256": {
+    "1671": "974b3f20d4b6115bdd1341253a801d4557df47748e52248b066d34b5c757b34c",
+    "1673": "ba4fcd665b7900a68b02d80072d58be9622107fda45e2f9b9469a6db14fe0091"
+  },
+  "notes": "Inspected fixed contact-fixed-1.jpg and emulator playback strips 1671-playback-contact.jpg & 1673-playback-contact.jpg; pure white background, smooth loops, rock-solid standing/ball/feet/head anchors."
+}

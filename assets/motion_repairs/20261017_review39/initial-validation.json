@@ -1,0 +1,15 @@
+{
+  "batch_id": "20261017_review39",
+  "status": "passed",
+  "serial": "emulator-5554",
+  "apk": "build/timehouse-debug.apk",
+  "checks": 10,
+  "visually_reviewed": [
+    "1415"
+  ],
+  "notes": "Inspected fixed contact-fixed-1.jpg and emulator playback contact sheet 1415-playback-contact.jpg; pure white background, smooth neutral wrist curl arc, all four bench/feet/head anchors stationary.",
+  "dataset_sha256": "b0d45d040745036cf68d0226d66870b2c3ef23f2808a03ed09cadc938d56ade0",
+  "media_sha256": {
+    "1415": "a91be9c0867bdd6d84c2de3e4db2675fd785a9cdef4c8c08e5a2adf682af326e"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "batch_id": "20261030_review52",
+  "status": "passed",
+  "serial": "emulator-5554",
+  "apk": "build/timehouse-debug.apk",
+  "checks": 10,
+  "visually_reviewed": [
+    "1743"
+  ],
+  "dataset_sha256": "45c9582d16726ce2e5a11d054218757c7b13a231803a0c732111efcd75c26ac3",
+  "media_sha256": {
+    "1743": "b3e527f2f33b32c70868c131fcb4b242be07ca0e908d536b680bf92706c0a451"
+  },
+  "notes": "Verified 1743 playback frames on Android 12 emulator (1.00 px max residual, 0.9693 min anchor match score) and deferred 9 items with corrected metadata across 10 emulator checks."
+}

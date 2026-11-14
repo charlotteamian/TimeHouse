@@ -1,0 +1,209 @@
+[
+  {
+    "id": "3168",
+    "name": "bodyweight squatting row",
+    "name_zh": "自重深蹲划船",
+    "media": "raw:dataset_motion_3168",
+    "category": "back",
+    "equipment": "body weight",
+    "target": "upper back",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，伸直手臂抓住坚固的物体或悬挂训练器。",
+      "将身体降低至蹲姿，保持背部挺直，膝盖位于脚趾后面。",
+      "从蹲姿开始，将身体向上拉向物体或悬挂训练器，将肩胛骨挤压在一起。",
+      "在顶部停顿片刻，然后慢慢将身体放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1732",
+    "name": "dumbbell forward lunge triceps extension",
+    "name_zh": "哑铃前弓步三头肌伸展",
+    "media": "raw:dataset_motion_1732",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "triceps",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "core"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，每只手各握一个哑铃。",
+      "右脚向前迈出一步，将身体降低至弓步位置。",
+      "保持背部挺直，挺胸。",
+      "将手臂伸直过头顶，保持肘部靠近耳朵。",
+      "弯曲肘部，将哑铃降低到脑后。",
+      "暂停片刻，然后伸直手臂回到起始位置。",
+      "重复该动作达到所需的重复次数，然后换腿并重复。"
+    ]
+  },
+  {
+    "id": "3193",
+    "name": "glute-ham raise",
+    "name_zh": "臀腿抬高",
+    "media": "raw:dataset_motion_3193",
+    "category": "upper legs",
+    "equipment": "body weight",
+    "target": "hamstrings",
+    "muscle_group": "glutes",
+    "secondary_muscles": [
+      "glutes",
+      "lower back"
+    ],
+    "instructions_zh": [
+      "调整臀肌提升机以适合您的身体。",
+      "将自己面朝下放在机器上，固定脚踝。",
+      "将双手放在胸前或交叉在胸前。",
+      "调动腿筋和臀肌，将上半身抬向天花板。",
+      "继续抬起，直到身体从头部到脚后跟成一条直线。",
+      "在顶部停顿片刻，然后慢慢将身体放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1733",
+    "name": "dumbbell incline two arm extension",
+    "name_zh": "哑铃上斜双臂伸展",
+    "media": "raw:dataset_motion_1733",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "triceps",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "坐在上斜凳上，每只手各拿一个哑铃，放在大腿上。",
+      "慢慢地躺在长凳上，保持哑铃靠近胸部。",
+      "完全躺下后，将手臂伸向天花板，保持肘部稍微弯曲。",
+      "在顶部停顿片刻，然后慢慢将哑铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3201",
+    "name": "quarter sit-up",
+    "name_zh": "四分之一仰卧起坐",
+    "media": "raw:dataset_motion_3201",
+    "category": "waist",
+    "equipment": "body weight",
+    "target": "abs",
+    "muscle_group": "hip flexors",
+    "secondary_muscles": [
+      "hip flexors"
+    ],
+    "instructions_zh": [
+      "平躺，膝盖弯曲，双脚平放在地上。",
+      "将双手放在脑后，肘部朝外。",
+      "收紧腹肌，慢慢将上半身抬离地面，向前卷曲，直到躯干呈 45 度角。",
+      "在顶部停顿片刻，然后慢慢将上半身放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1734",
+    "name": "dumbbell kickbacks on exercise ball",
+    "name_zh": "哑铃球上后推",
+    "media": "raw:dataset_motion_1734",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "triceps",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "back"
+    ],
+    "instructions_zh": [
+      "坐在健身球上，双脚平放在地上，背部挺直。",
+      "双手各握一个哑铃，掌心向内，手臂弯曲成 90 度角。",
+      "将手臂向后伸直，在动作的最高点挤压三头肌。",
+      "暂停片刻，然后慢慢将哑铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3202",
+    "name": "half sit-up (male)",
+    "name_zh": "半仰卧起坐（男）",
+    "media": "raw:dataset_motion_3202",
+    "category": "waist",
+    "equipment": "body weight",
+    "target": "abs",
+    "muscle_group": "hip flexors",
+    "secondary_muscles": [
+      "hip flexors"
+    ],
+    "instructions_zh": [
+      "平躺，膝盖弯曲，双脚平放在地上。",
+      "将双手放在脑后，肘部朝外。",
+      "收紧腹肌，慢慢将上半身抬离地面，向前卷曲，直到躯干呈 45 度角。",
+      "在顶部停顿片刻，然后慢慢将上半身放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1735",
+    "name": "dumbbell lying single extension",
+    "name_zh": "哑铃平躺单臂伸展",
+    "media": "raw:dataset_motion_1735",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "triceps",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "平躺在长凳上，一只手拿着哑铃，手臂完全伸展到胸部上方。",
+      "以受控的方式将哑铃降低到前额，保持上臂静止。",
+      "在动作底部短暂暂停，然后将手臂伸展回起始位置。",
+      "重复所需的重复次数，然后换臂。"
+    ]
+  },
+  {
+    "id": "3203",
+    "name": "prisoner half sit-up (male)",
+    "name_zh": "囚徒半仰卧起坐（男）",
+    "media": "raw:dataset_motion_3203",
+    "category": "waist",
+    "equipment": "body weight",
+    "target": "abs",
+    "muscle_group": "hip flexors",
+    "secondary_muscles": [
+      "hip flexors"
+    ],
+    "instructions_zh": [
+      "平躺，膝盖弯曲，双脚平放在地上。",
+      "将双手放在脑后，肘部朝外。",
+      "收紧腹肌，慢慢将上半身抬离地面，向前卷曲，直到躯干呈 45 度角。",
+      "在顶部停顿片刻，然后慢慢将上半身放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1736",
+    "name": "dumbbell one arm french press on exercise ball",
+    "name_zh": "哑铃单臂法式推举（球上）",
+    "media": "raw:dataset_motion_1736",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "triceps",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "坐在健身球上，双脚平放在地上，背部挺直。",
+      "一只手握住哑铃，手掌朝上，肘部弯曲成 90 度角。",
+      "将手臂伸向天花板，保持肘部不动。",
+      "慢慢地将哑铃放回起始位置。",
+      "重复所需的重复次数，然后换臂。"
+    ]
+  }
+]

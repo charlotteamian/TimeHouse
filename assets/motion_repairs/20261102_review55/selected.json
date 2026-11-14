@@ -1,0 +1,225 @@
+[
+  {
+    "id": "3292",
+    "name": "elevator",
+    "name_zh": "电梯",
+    "media": "raw:dataset_motion_3292",
+    "category": "back",
+    "equipment": "body weight",
+    "target": "upper back",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "trapezius"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，膝盖稍微弯曲。",
+      "将双手放在臀部或交叉放在胸前。",
+      "保持背部挺直，腰部慢慢向前弯曲，将上半身向地面降低。",
+      "在底部停顿片刻，然后慢慢抬起上半身回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2321",
+    "name": "dumbbell standing inner biceps curl v. 2",
+    "name_zh": "哑铃站立内侧弯举（第二式）",
+    "media": "raw:dataset_motion_2321",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "站直，双手各持一个哑铃，手掌朝向躯干。",
+      "保持肘部靠近躯干，并旋转手掌，直到手掌朝前。",
+      "保持上臂不动，弯曲哑铃，同时收缩二头肌。",
+      "继续举重，直到二头肌完全收缩并且哑铃与肩部齐平。",
+      "挤压二头肌时，保持收缩位置短暂停顿。",
+      "吸气时慢慢开始将哑铃放回起始位置。",
+      "重复建议的重复次数。"
+    ]
+  },
+  {
+    "id": "3293",
+    "name": "archer pull up",
+    "name_zh": "弓箭手引体向上",
+    "media": "raw:dataset_motion_3293",
+    "category": "back",
+    "equipment": "body weight",
+    "target": "lats",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "首先，用正手握法悬挂在引体向上杆上，握距略宽于肩宽。",
+      "启动你的核心并将肩胛骨向下拉和向后拉。",
+      "当你站起来时，弯曲一只手臂并将肘部移向身体一侧，同时保持另一只手臂伸直。",
+      "继续拉，直到下巴位于杠铃上方并且弯曲的手臂完全弯曲。",
+      "有控制地放低自己，伸直弯曲的手臂并在另一侧重复该动作。",
+      "每次重复时交替进行。"
+    ]
+  },
+  {
+    "id": "2327",
+    "name": "dumbbell reverse grip row (female)",
+    "name_zh": "哑铃反握划船（女）",
+    "media": "raw:dataset_motion_2327",
+    "category": "back",
+    "equipment": "dumbbell",
+    "target": "upper back",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "站立，双脚分开与肩同宽，膝盖稍微弯曲。",
+      "双手各握一个哑铃，正手握握，手掌朝向身体。",
+      "腰部向前弯曲，保持背部挺直，核心肌群参与。",
+      "让你的手臂伸直垂下，完全伸展，肘部稍微弯曲。",
+      "将哑铃拉向胸部，将肩胛骨挤压在一起。",
+      "在顶部停顿片刻，然后慢慢将哑铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3294",
+    "name": "archer push up",
+    "name_zh": "弓箭手俯卧撑",
+    "media": "raw:dataset_motion_3294",
+    "category": "chest",
+    "equipment": "body weight",
+    "target": "pectorals",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "shoulders",
+      "core"
+    ],
+    "instructions_zh": [
+      "从俯卧撑位置开始，双手分开略宽于肩宽。",
+      "将一只手臂伸直至一侧，与地面平行。",
+      "弯曲肘部降低身体，保持背部挺直，核心参与。",
+      "推回到起始位置。",
+      "在另一侧重复上述步骤，将另一只手臂伸出到一侧。",
+      "继续交替进行所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2397",
+    "name": "dumbbell scott press",
+    "name_zh": "哑铃斯科特推举",
+    "media": "raw:dataset_motion_2397",
+    "category": "shoulders",
+    "equipment": "dumbbell",
+    "target": "delts",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "chest"
+    ],
+    "instructions_zh": [
+      "坐在长凳上，双手各握一个哑铃，手掌朝前。",
+      "将哑铃举至肩部高度，肘部弯曲，手掌朝前。",
+      "向上推哑铃，直到手臂完全伸展。",
+      "在最高点暂停片刻，然后慢慢将哑铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3295",
+    "name": "front lever reps",
+    "name_zh": "前水平支撑次数",
+    "media": "raw:dataset_motion_3295",
+    "category": "back",
+    "equipment": "body weight",
+    "target": "upper back",
+    "muscle_group": "core",
+    "secondary_muscles": [
+      "core",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "正手握住引体向上杆，手掌背向自己。",
+      "启动你的核心并将肩胛骨向下拉和向后拉。",
+      "保持身体挺直，抬起双腿直至与地面平行。",
+      "尽可能长时间地保持这个姿势，目标是 10-20 秒。",
+      "慢慢地将双腿放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2401",
+    "name": "dumbbell biceps curl (with arm blaster)",
+    "name_zh": "哑铃弯举（带臂力器）",
+    "media": "raw:dataset_motion_2401",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "站直，双手各持一个哑铃，手掌朝前。",
+      "保持肘部靠近躯干，上臂保持静止。",
+      "呼气并弯举哑铃，同时收缩二头肌。",
+      "继续举重，直到二头肌完全收缩并且哑铃与肩部齐平。",
+      "挤压二头肌时，保持收缩位置短暂停顿。",
+      "吸气并慢慢开始将哑铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3296",
+    "name": "front lever",
+    "name_zh": "前水平支撑",
+    "media": "raw:dataset_motion_3296",
+    "category": "waist",
+    "equipment": "body weight",
+    "target": "abs",
+    "muscle_group": "lats",
+    "secondary_muscles": [
+      "lats",
+      "shoulders",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "首先，用正手握法悬挂在引体向上杆上，双手与肩同宽。",
+      "启动你的核心并将肩胛骨向下拉和向后拉。",
+      "弯曲膝盖并将其向胸部靠拢。",
+      "同时，抬起双腿并将其伸直在您面前，保持身体与地面平行。",
+      "尽可能长时间地保持此位置，以达到完全前杆位置。",
+      "要释放，请慢慢降低双腿并返回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2402",
+    "name": "dumbbell hammer curls (with arm blaster)",
+    "name_zh": "哑铃锤式弯举（带臂膀器）",
+    "media": "raw:dataset_motion_2402",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "站直，双手各持一个哑铃，手掌朝向躯干。",
+      "保持肘部靠近躯干，并旋转手掌，直到手掌朝前。",
+      "这将是您的起始位置。",
+      "现在，保持上臂不动，呼气并卷曲哑铃，同时收缩二头肌。",
+      "继续举重，直到二头肌完全收缩并且哑铃与肩部齐平。",
+      "挤压二头肌时，保持收缩位置短暂停顿。",
+      "然后，吸气并慢慢开始将哑铃放回起始位置。",
+      "重复建议的重复次数。"
+    ]
+  }
+]

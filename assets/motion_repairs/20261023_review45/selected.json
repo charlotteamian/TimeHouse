@@ -1,0 +1,209 @@
+[
+  {
+    "id": "2363",
+    "name": "wide-grip chest dip on high parallel bars",
+    "name_zh": "宽握胸下压（高双杠）",
+    "media": "raw:dataset_motion_2363",
+    "category": "chest",
+    "equipment": "body weight",
+    "target": "pectorals",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "将自己置于双杠上，双臂完全伸展，身体悬浮在空中。",
+      "稍微向前倾，弯曲肘部降低身体，直到胸部位于杠铃上方。",
+      "暂停片刻，然后伸直手臂，将自己推回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1661",
+    "name": "dumbbell lying supine biceps curl",
+    "name_zh": "哑铃平躺仰卧弯举",
+    "media": "raw:dataset_motion_1661",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "平躺在长凳上，背部和头部得到支撑，双脚平放在地面上。",
+      "每只手握住一个哑铃，手掌朝上，双臂完全伸展。",
+      "保持上臂静止，呼气并弯举哑铃，同时收缩二头肌。",
+      "继续举重，直到二头肌完全收缩并且哑铃与肩部齐平。",
+      "挤压二头肌时，保持收缩位置短暂停顿。",
+      "吸气并慢慢开始将哑铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2398",
+    "name": "close-grip push-up (on knees)",
+    "name_zh": "窄握俯卧撑（跪姿）",
+    "media": "raw:dataset_motion_2398",
+    "category": "upper arms",
+    "equipment": "body weight",
+    "target": "triceps",
+    "muscle_group": "chest",
+    "secondary_muscles": [
+      "chest",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "首先双手和膝盖着地，双手与肩同宽，膝盖与臀部同宽。",
+      "弯曲肘部，将上身压向地面，使其靠近身体两侧。",
+      "当你的胸部刚好高于地面时，暂停片刻。",
+      "推动手掌以伸直手臂并返回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1662",
+    "name": "dumbbell lying wide curl",
+    "name_zh": "哑铃平躺宽握弯举",
+    "media": "raw:dataset_motion_1662",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "平躺在长凳上，双手各握一个哑铃，手掌朝上，双臂完全伸展。",
+      "保持上臂静止，呼气并弯举哑铃，同时收缩二头肌。",
+      "继续举重，直到二头肌完全收缩并且哑铃与肩部齐平。",
+      "挤压二头肌时，保持收缩位置短暂停顿。",
+      "吸气并慢慢开始将哑铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2400",
+    "name": "inverse leg curl (on pull-up cable machine)",
+    "name_zh": "反向腿弯举（绳索机）",
+    "media": "raw:dataset_motion_2400",
+    "category": "upper legs",
+    "equipment": "body weight",
+    "target": "hamstrings",
+    "muscle_group": "glutes",
+    "secondary_muscles": [
+      "glutes",
+      "calves"
+    ],
+    "instructions_zh": [
+      "调整缆绳机，使踝带处于最低设置。",
+      "面朝下躺在长凳上，双腿伸展，脚踝带固定在脚上。",
+      "握住长凳的把手以保持稳定。",
+      "弯曲膝盖，将双腿向臀部弯曲，挤压腿筋。",
+      "在动作的最高点暂停片刻，然后慢慢将双腿放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1663",
+    "name": "dumbbell one arm hammer preacher curl",
+    "name_zh": "哑铃单臂仰卧弯举",
+    "media": "raw:dataset_motion_1663",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "坐在牧师凳上，一只手拿着哑铃，上臂放在垫子上。",
+      "以中立握法握住哑铃（手掌朝向身体）。",
+      "保持上臂静止，呼气并将哑铃向上弯向肩膀。",
+      "在顶部暂停片刻，挤压你的二头肌。",
+      "吸气，慢慢将哑铃放回起始位置。",
+      "重复所需的重复次数，然后换臂。"
+    ]
+  },
+  {
+    "id": "2429",
+    "name": "frog crunch",
+    "name_zh": "青蛙卷腹",
+    "media": "raw:dataset_motion_2429",
+    "category": "waist",
+    "equipment": "body weight",
+    "target": "abs",
+    "muscle_group": "hip flexors",
+    "secondary_muscles": [
+      "hip flexors"
+    ],
+    "instructions_zh": [
+      "平躺，膝盖弯曲，双脚平放在地上。",
+      "将双手放在脑后，肘部朝外。",
+      "收紧腹肌，将上半身抬离地面，向前卷曲直到躯干呈 45 度角。",
+      "在顶部停顿片刻，然后慢慢将上半身放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1664",
+    "name": "dumbbell high curl",
+    "name_zh": "哑铃高弯举",
+    "media": "raw:dataset_motion_1664",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "站直，双手各持一个哑铃，手掌朝前。",
+      "保持上臂静止，将哑铃尽可能高地卷起，同时收缩二头肌。",
+      "在最高点暂停片刻，然后慢慢将哑铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2462",
+    "name": "chest dip on straight bar",
+    "name_zh": "直杆胸推",
+    "media": "raw:dataset_motion_2462",
+    "category": "chest",
+    "equipment": "body weight",
+    "target": "pectorals",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "手掌朝下，双臂完全伸展，抓住双杠。",
+      "弯曲膝盖并交叉脚踝。",
+      "弯曲手臂，降低身体，直到肩膀低于肘部。",
+      "伸直手臂，将自己推回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1665",
+    "name": "dumbbell one arm prone curl",
+    "name_zh": "哑铃单臂俯卧弯举",
+    "media": "raw:dataset_motion_1665",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "脸朝下躺在平坦的长凳上，一只手握住哑铃，掌心朝下。",
+      "完全伸展你的手臂，让它垂直垂向地板。",
+      "保持上臂静止，通过收缩二头肌将哑铃向上卷曲至肩膀。",
+      "在顶部停顿片刻，然后慢慢将哑铃放回起始位置。",
+      "重复所需的重复次数，然后换臂。"
+    ]
+  }
+]

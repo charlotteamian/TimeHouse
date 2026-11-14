@@ -1,0 +1,14 @@
+{
+  "batch": "20261020_review42",
+  "expected_checks": 10,
+  "expected_reviewed_after_approve": 131,
+  "candidate_id": "1647",
+  "candidate_required_equipment": [
+    "牧师凳"
+  ],
+  "expected_per_side_ids": [
+    "1769",
+    "1770",
+    "1649"
+  ]
+}

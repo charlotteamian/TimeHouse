@@ -1,0 +1,238 @@
+#!/usr/bin/env python3
+"""Author Batch 31 (20261009_review31) metadata updates, review notes, and QA spec."""
+import hashlib
+import json
+from pathlib import Path
+
+B = Path(__file__).resolve().parent
+R = B.parents[2]
+
+
+def sha(p: Path) -> str:
+    return hashlib.sha256(p.read_bytes()).hexdigest()
+
+
+def main():
+    inspected = ["1358", "0432", "1362", "0433", "1363", "0434", "1364", "0436", "1365", "0437"]
+    review_candidates = ["0433"]
+
+    definition_updates = {
+        "1358": {
+            "name_zh": "侧卧扶杆侧展腿抬伸",
+            "category": "back",
+            "equipment": "body weight",
+            "target": "lats",
+            "muscle_group": "",
+            "secondary_muscles": ["obliques", "glutes"],
+            "movement_patterns_zh": ["侧卧稳定", "外展"],
+            "required_equipment_zh": [],
+            "instructions_zh": [
+                "侧卧在训练垫上，下侧前臂曲肘垂直地面撑稳肩部，上方手臂过顶伸直握稳固定立杆。",
+                "收紧侧腹与臀部维持躯干稳定在冠状面内不向后倾倒。",
+                "将上侧腿屈膝踩稳地面辅助固定骨盆后，呼气有控制地将下方伸直腿略微向上抬离垫面。",
+                "在侧展位置短暂停留感受背阔肌与侧腰协同张力后缓慢放落；每侧完成规定次数后换侧。",
+            ],
+        },
+        "0432": {
+            "name_zh": "哑铃直膝硬拉",
+            "category": "upper legs",
+            "equipment": "dumbbell",
+            "target": "hamstrings",
+            "muscle_group": "",
+            "secondary_muscles": ["glutes", "lower back"],
+            "movement_patterns_zh": ["髋铰链", "后链拉"],
+            "required_equipment_zh": [],
+            "instructions_zh": [
+                "双脚约与髋同宽站直，双手正握各持一只哑铃垂于大腿前侧，双膝保持固定微屈缓冲不随下放继续深蹲。",
+                "挺胸沉肩收紧核心，保持脊柱全程自然平直中立。",
+                "吸气主动向后推臀屈髋，使哑铃紧贴大腿与胫骨前方直线滑降至小腿中上部、腘绳肌充分拉紧为止。",
+                "呼气由腘绳肌与臀大肌协同收缩积极向前推髋拉回直立位；每次屈伸髋计一次。",
+            ],
+        },
+        "1362": {
+            "name_zh": "俯卧斯芬克斯式撑伸",
+            "category": "back",
+            "equipment": "body weight",
+            "target": "lower back",
+            "muscle_group": "",
+            "secondary_muscles": ["glutes", "hamstrings"],
+            "movement_patterns_zh": ["脊柱伸展"],
+            "required_equipment_zh": [],
+            "instructions_zh": [
+                "俯卧在训练垫上，双腿自然伸直向后铺平，前臂平贴垫面、双肘略收于肩前下方。",
+                "微收下颌目光看向垫前方维持颈椎延长，沉肩远离双耳。",
+                "呼气由竖脊肌配合手臂轻推垫面柔和向上挺起胸椎与上胸离开地面，保持耻骨与骨盆贴垫不猛折腰椎。",
+                "在舒适伸展位置控制呼吸略作停留后，吸气缓慢放落上身回到俯卧起始位；每次起落计一次。",
+            ],
+        },
+        "0433": {
+            "name_zh": "平凳仰卧哑铃直臂上拉",
+            "category": "chest",
+            "equipment": "dumbbell",
+            "target": "pectorals",
+            "muscle_group": "",
+            "secondary_muscles": ["lats", "triceps", "serratus anterior"],
+            "movement_patterns_zh": ["肩伸展", "过顶伸展"],
+            "required_equipment_zh": ["平板训练凳"],
+            "instructions_zh": [
+                "仰卧在稳固的平板训练凳上，头部与背部贴实凳面、双脚分开平踩地面维持稳定，双手叠掌托住一只哑铃内侧片端垂直举于胸口上方。",
+                "锁定双肘微留缓冲（近似直臂但不锁死关节），收紧核心防止肋骨过度上翻。",
+                "吸气保持肘角基本不变，缓慢以肩为轴将哑铃沿头顶方向向后下方画出大弧线降落至大臂与地面接近平行、胸阔与背阔充分伸展。",
+                "呼气由胸大肌、背阔肌与前锯肌协同发力沿原弧线将哑铃拉回胸口正上方；每次下放与拉回计一次。",
+            ],
+        },
+        "1363": {
+            "name_zh": "坐姿后撑脊柱伸展",
+            "category": "back",
+            "equipment": "body weight",
+            "target": "spine",
+            "muscle_group": "",
+            "secondary_muscles": ["hamstrings", "glutes"],
+            "movement_patterns_zh": ["脊柱伸展"],
+            "required_equipment_zh": [],
+            "instructions_zh": [
+                "坐在地上或训练垫上，双腿在身前自然伸直并拢、双手伸直撑于臀部斜后方地面、指尖朝后。",
+                "下沉双肩收紧核心，顺势轻推掌根挺胸向上打开胸腔。",
+                "呼气有控制地略微抬头后展胸椎感受脊柱伸展与胸肩打开，避免颈椎过度后仰。",
+                "吸气慢慢回正中立坐姿再进行下一次伸展；每次开合伸展计一次。",
+            ],
+        },
+        "0434": {
+            "name_zh": "哑铃直腿硬拉",
+            "category": "upper legs",
+            "equipment": "dumbbell",
+            "target": "hamstrings",
+            "muscle_group": "",
+            "secondary_muscles": ["glutes", "lower back"],
+            "movement_patterns_zh": ["髋铰链", "后链拉"],
+            "required_equipment_zh": [],
+            "instructions_zh": [
+                "双脚约与髋同宽站直，双手正握各持一只哑铃垂于大腿前侧、双腿尽量伸直（仅膝窝保留极微缓冲而不锁死）。",
+                "收紧腹部核心与上背肩胛，保持脊柱平直中立不圆背。",
+                "吸气屈髋向后推臀俯身下放哑铃贴近小腿前侧滑动，直至大腿后侧腘绳肌获得明显拉伸感。",
+                "呼气收缩腘绳肌与臀部发力向前伸髋拉起躯干回到直立起始位；每次俯身拉起计一次。",
+            ],
+        },
+        "1364": {
+            "name_zh": "站姿骨盆倾斜",
+            "category": "waist",
+            "equipment": "body weight",
+            "target": "abs",
+            "muscle_group": "",
+            "secondary_muscles": ["lower back", "glutes"],
+            "movement_patterns_zh": ["核心控制", "站姿稳定"],
+            "required_equipment_zh": [],
+            "instructions_zh": [
+                "双脚与髋同宽直立站稳，双膝微留缓冲，双手轻叉于髂棘髋侧感知骨盆活动方向。",
+                "放松双肩保持上胸静止稳定不前后大幅倾倒。",
+                "呼气集中收紧下腹肌与臀肌向上轻轻后倾卷动骨盆（让腰曲略变平顺）。",
+                "吸气有控制地温和恢复中立或微前倾位后再次平稳重复骨盆卷动控制；每次倾回计一次。",
+            ],
+        },
+        "0436": {
+            "name_zh": "平凳仰卧哑铃泰特臂屈伸",
+            "category": "upper arms",
+            "equipment": "dumbbell",
+            "target": "triceps",
+            "muscle_group": "",
+            "secondary_muscles": ["chest", "shoulders"],
+            "movement_patterns_zh": ["伸肘", "水平推"],
+            "required_equipment_zh": ["平板训练凳"],
+            "instructions_zh": [
+                "仰卧在稳固的平板训练凳上，双脚稳踩地面、肩背贴实凳面，双手正握各持一只哑铃垂直举于胸口上方、肘尖朝向两侧。",
+                "锁定上臂角度基本稳停于体侧上方不前后移位。",
+                "吸气缓慢向外侧屈肘将两只哑铃一并斜向落向胸口中央（哑铃近侧相触前轻轻点停胸上上方），充分拉伸肱三头肌。",
+                "呼气保持大臂稳定由肱三头肌集中发力推直双肘将哑铃推回胸前上方垂直位；每次下放与推起计一次。",
+            ],
+        },
+        "1365": {
+            "name_zh": "站姿交掌上举背阔上背拉伸",
+            "category": "back",
+            "equipment": "body weight",
+            "target": "upper back",
+            "muscle_group": "",
+            "secondary_muscles": ["lats", "shoulders"],
+            "movement_patterns_zh": ["拉伸", "过顶伸展"],
+            "required_equipment_zh": [],
+            "instructions_zh": [
+                "双脚与肩同宽自然直立，双手在胸前十指相扣并将掌心朝外反转，双臂伸直前推略向前撑开上背肩胛间隙。",
+                "沉肩收紧腹部避免下腰向前顶出反弓。",
+                "呼气保持掌心向外前推延伸感，缓慢将伸直双臂自前平位置举高过头顶延伸背部与背阔肌上缘。",
+                "在舒适拉伸高度平稳呼吸牵伸15至20秒后缓缓放松回落；按组重复完成。",
+            ],
+        },
+        "0437": {
+            "name_zh": "哑铃直立划船",
+            "category": "shoulders",
+            "equipment": "dumbbell",
+            "target": "delts",
+            "muscle_group": "",
+            "secondary_muscles": ["traps", "biceps", "core"],
+            "movement_patterns_zh": ["垂直拉", "站姿稳定"],
+            "required_equipment_zh": [],
+            "instructions_zh": [
+                "双脚与肩同宽自然站直，双手正握（掌心朝向大腿）各持一只哑铃垂于身前，沉肩挺胸收紧核心。",
+                "保持背部平直稳定，避免下背借助惯性甩腰提拉。",
+                "呼气由三角肌前中束与斜方肌上束主动发力、以双肘向斜上方领导贴近身体前侧垂直提拉哑铃至接近锁骨胸上高（肘略高于腕）。",
+                "在顶点短暂停顿后，吸气沿原近身路径缓慢有控制地放回大腿前垂悬起始位；每次提拉与下放计一次。",
+            ],
+        },
+    }
+
+    sources = {
+        "0433": "https://exrx.net/WeightExercises/PectoralSternal/DBPullover",
+    }
+
+    review_notes = {
+        "0433": "纠正原上游严重错译（dumbbell straight arm pullover 原被译作“哑铃直臂下拉”）为平凳仰卧哑铃直臂上拉（使用“平凳”避开“平板”静态词库，并补齐必需支撑器械 `平板训练凳` 及胸大肌／背阔肌／肱三头／前锯肌协同标签）；原图第 1 帧经 `(+1, 0)`、第 2 帧经 `(+2, +35)` 纯整数平移配准后平凳左支腿、右支腿与双脚三固定支点残差 `≤ 1.0 px`（匹配分 `≥ 0.9741`），无顶底边缘截断。",
+    }
+
+    pending = {
+        "1358": "待修图 · 已规范为侧卧扶杆侧展腿抬伸；原图经 F1 `(+1, 0)`、F2 `(-1, +42)` 配准后支撑立杆顶部（`pole_top sc=0.9491 / 0.9542`）与头部面廓（`head_and_face sc=0.9414 / 0.9444`）仍未达 `≥ 0.96` 匹配门槛，暂存待重制。",
+        "0432": "待修图 · 已纠正主目标为 `hamstrings`（腘绳肌）并规范直膝髋铰链要点；原图三帧双脚位置各自跳移超 `40 px` 且小腿比例发生变化（`feet sc=0.9563 / 0.8825`），暂存待重制。",
+        "1362": "待修图 · 已规范为俯卧斯芬克斯式撑伸并设主目标 `lower back`；原图第 0、2 帧右脚触右缘 `x=479`、第 1 帧头肩触左缘 `x=0` 且身体位置横跳，暂存待重制。",
+        "1363": "待修图 · 已规范坐姿后撑脊柱伸展四步要点；原图第 0、2 帧脚尖触右缘 `x=479`、第 1 帧手撑触左缘 `x=0`，暂存待重制。",
+        "0434": "待修图 · 已纠正主目标为 `hamstrings`（腘绳肌）并规范直腿硬拉要点；原图三帧双脚横向与纵向跳移达 `19–48 px`（`feet sc=0.9421 / 0.8538`），暂存待重制。",
+        "1364": "待修图 · 已将分类与主目标纠正为 `waist / abs`（核心骨盆卷动控制）并清除错写的推墙动作描述；原图第 1、2 帧膝部（`-10/-9`）与头部（`-6/-5`, `head F2 sc=0.9148`）之间发生 `4 px` 水平摇摆错位，暂存待重制。",
+        "0436": "待修图 · 已纠正原步骤错写的“坐在平坦的长凳上”（实图为平凳仰卧双哑铃对落胸前）为平凳仰卧哑铃泰特臂屈伸并补 `平板训练凳`；原图第 0 帧触底（y=479）、第 2 帧上方哑铃被顶缘裁断（y=0），暂存待重制。",
+        "1365": "待修图 · 已纠正“挤压肩胛骨”这一与伸展上背相反的错误要点；原图第 0 帧触底（y=479）、第 2 帧手尖被顶缘裁断（y=0）且站位横跳，暂存待重制。",
+        "0437": "待修图 · 已规范哑铃直立划船四步要点与核心／站姿稳定负荷；原图第 1 帧左移 `21 px` 且第 2 帧双脚（`+2`）对齐时头部出现明显变形错位（`head sc=0.8775`），暂存待重制。",
+    }
+
+    result = {
+        "batch": "20261009_review31",
+        "version": "1.2.36",
+        "version_code": 2026100901,
+        "apk_name": "时光屋-1.2.36-第三十一批动作复核.apk",
+        "output": "build/review31-20261009",
+        "report": "docs/releases/2026-10-09-review-batch31.md",
+        "inspected": inspected,
+        "definition_updates": definition_updates,
+        "sources": sources,
+        "review_candidates": review_candidates,
+        "pending": pending,
+        "registered_media": review_candidates,
+        "original_pose_repairs": review_candidates,
+        "generated_images_imported": 0,
+        "image_generation_calls": 0,
+        "quota_exhausted_reset_at": "2026-11-12T05:37:04Z",
+        "review_notes": review_notes,
+    }
+    (B / "review-result.json").write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n")
+
+    code_files = sorted(R.glob("app/src/main/java/**/*.java"))
+    baseline = {str(p.relative_to(R)): sha(p) for p in code_files}
+    (B / "code-baseline.json").write_text(json.dumps(baseline, ensure_ascii=False, indent=2) + "\n")
+
+    qa_spec = {
+        "batch": "20261009_review31",
+        "expected_checks": 10,
+        "review_candidates": review_candidates,
+        "deferred_candidates": list(pending.keys()),
+    }
+    (B / "qa-spec.json").write_text(json.dumps(qa_spec, ensure_ascii=False, indent=2) + "\n")
+    print("Authored review-result.json, code-baseline.json, and qa-spec.json for 20261009_review31")
+
+
+if __name__ == "__main__":
+    main()

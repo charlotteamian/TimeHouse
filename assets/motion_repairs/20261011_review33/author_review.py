@@ -1,0 +1,239 @@
+#!/usr/bin/env python3
+"""Author Batch 33 (20261011_review33) metadata updates, review notes, and QA spec."""
+import hashlib
+import json
+from pathlib import Path
+
+B = Path(__file__).resolve().parent
+R = B.parents[2]
+
+
+def sha(p: Path) -> str:
+    return hashlib.sha256(p.read_bytes()).hexdigest()
+
+
+def main():
+    inspected = ["1387", "0863", "1390", "0864", "1397", "1201", "1398", "1274", "1399", "1276"]
+    review_candidates = ["0864", "1390"]
+
+    definition_updates = {
+        "1387": {
+            "name_zh": "单腿扶墙地板提踵",
+            "category": "lower legs",
+            "equipment": "body weight",
+            "target": "calves",
+            "muscle_group": "",
+            "secondary_muscles": ["ankles", "feet"],
+            "movement_patterns_zh": ["下肢", "单侧提踵"],
+            "required_equipment_zh": ["墙面"],
+            "instructions_zh": [
+                "面对墙面或稳固立柱保持约半臂站距，双手平扶墙面与胸肩等高维持身体平衡。",
+                "将非训练侧腿屈膝略微抬离地面，由工作腿前脚掌平踩稳于地板之上。",
+                "呼气保持工作腿膝窝微留缓冲，由小腿肌发力踩稳前脚掌尽力垂直抬高脚跟。",
+                "在顶峰收缩短暂停顿后有控制地缓缓下放脚跟回贴地板；每侧完成规定次数后换另一条腿。",
+            ],
+        },
+        "0863": {
+            "name_zh": "单侧平凳侧卧哑铃肩外旋",
+            "category": "shoulders",
+            "equipment": "dumbbell",
+            "target": "delts",
+            "muscle_group": "",
+            "secondary_muscles": ["rotator cuff", "triceps"],
+            "movement_patterns_zh": ["肩外旋", "核心稳定"],
+            "required_equipment_zh": ["平板训练凳"],
+            "instructions_zh": [
+                "侧卧在稳固的平板训练凳上，下方手臂曲肘轻枕于头侧或凳端维持头颈稳定，工作侧上臂贴紧体侧肋旁并屈肘约90度，持轻重量哑铃悬于身前（掌心朝向躯干或下方）。",
+                "收紧核心与臀腿交叠稳住躯干不前后翻转。",
+                "呼气锁稳上臂位置紧贴肋侧不变，由肩袖肌群与三角肌后束引导前臂以肘为轴柔和向上外旋抬起至前臂接近垂直位置。",
+                "在顶点短暂停顿后，吸气控制肌肉张力缓缓下放还原；每侧完成规定次数后换边。",
+            ],
+        },
+        "1390": {
+            "name_zh": "坐姿单腿平凳小腿拉伸",
+            "category": "lower legs",
+            "equipment": "body weight",
+            "target": "calves",
+            "muscle_group": "",
+            "secondary_muscles": ["hamstrings", "ankles"],
+            "movement_patterns_zh": ["拉伸", "下肢"],
+            "required_equipment_zh": ["平板训练凳"],
+            "instructions_zh": [
+                "稳坐在平板训练凳前沿，一侧腿屈膝全脚掌平踩稳地面，另一侧腿向前方充分伸直仅以脚后跟着地、脚尖自然回勾。",
+                "挺直脊背收紧核心，双手扶稳凳边维持骨盆平稳。",
+                "呼气保持前伸腿膝盖伸直与腰背平直，以髋关节为轴温和向伸直腿一侧微微前倾上身，感受后侧小腿腓肠肌清晰舒展牵伸。",
+                "在舒适牵伸位保持平稳呼吸后缓步直起躯干回正；每侧完成规定次或组后换另一条腿。",
+            ],
+        },
+        "0864": {
+            "name_zh": "哑铃直立肩外旋",
+            "category": "shoulders",
+            "equipment": "dumbbell",
+            "target": "delts",
+            "muscle_group": "",
+            "secondary_muscles": ["rotator cuff", "trapezius"],
+            "movement_patterns_zh": ["肩外旋", "站姿稳定"],
+            "required_equipment_zh": [],
+            "instructions_zh": [
+                "双脚与肩同宽直立站稳，双手各持一只轻中重量哑铃自然垂于体侧、掌心朝向大腿外侧。",
+                "挺胸沉肩收紧腹部核心，保持下背平直稳定不借腰后仰。",
+                "呼气由三角肌发力向两侧平举哑铃至大臂与地面平行（手肘保持微屈外展位），随后保持上臂高度与手肘位置不变，由肩袖肌群与三角肌后束发力将前臂向上外旋至接近垂直高点。",
+                "在顶点短暂停顿后，吸气沿原轨迹逆序缓缓下旋前臂并落回体侧起始位；每次完整外旋还原计一次。",
+            ],
+        },
+        "1397": {
+            "name_zh": "双脚站姿小腿提踵",
+            "category": "lower legs",
+            "equipment": "body weight",
+            "target": "calves",
+            "muscle_group": "",
+            "secondary_muscles": ["ankles", "feet"],
+            "movement_patterns_zh": ["下肢", "双侧提踵"],
+            "required_equipment_zh": [],
+            "instructions_zh": [
+                "双脚约与肩同宽直立于平坦地面，脚尖朝正前方，双手自然垂放体侧维持平衡。",
+                "挺胸收紧核心维持身体正直不前俯或摇晃。",
+                "呼气由小腿腓肠肌与比目鱼肌发力推前脚掌用力将双侧脚跟一并垂直抬离地面至最高点。",
+                "在最高点短暂停顿收缩后，吸气有控制地缓缓下放双脚跟轻回地面；每次抬放计一次。",
+            ],
+        },
+        "1201": {
+            "name_zh": "哑铃波比推举跳",
+            "category": "cardio",
+            "equipment": "dumbbell",
+            "target": "cardiovascular system",
+            "muscle_group": "",
+            "secondary_muscles": ["quadriceps", "hamstrings", "calves", "shoulders", "triceps", "core"],
+            "movement_patterns_zh": ["心肺", "复合全身"],
+            "required_equipment_zh": [],
+            "instructions_zh": [
+                "双脚与肩同宽站立，双手各紧握一只防滚六角哑铃垂于体侧。",
+                "下蹲屈髋将两只哑铃稳定支撑置于双脚前侧地面，随后快速向后跳蹬双脚呈直臂俯撑姿并完成一次稳控俯卧撑。",
+                "双脚发力前跳收回哑铃后侧呈稳固低蹲位，顺势蹬腿站直并将哑铃顺畅翻提至肩前。",
+                "呼气接续发力将哑铃稳健推举过头顶至双臂伸直，再降回肩前与体侧进入下一次连贯循环；每次完整动作计一次。",
+            ],
+        },
+        "1398": {
+            "name_zh": "单侧扶墙后迈步小腿拉伸",
+            "category": "lower legs",
+            "equipment": "body weight",
+            "target": "calves",
+            "muscle_group": "",
+            "secondary_muscles": ["hamstrings", "ankles"],
+            "movement_patterns_zh": ["拉伸", "下肢"],
+            "required_equipment_zh": ["墙面"],
+            "instructions_zh": [
+                "面对墙面站立约一臂距离，双手伸直平扶墙面与胸肩等高。",
+                "一侧脚向后方退开一步踩稳，保持后腿膝关节伸直且后脚跟尽量紧压地面。",
+                "呼气稳步屈曲前侧膝盖并配合屈肘使上身温和前倾压向墙面，感受后侧小腿深层拉伸。",
+                "保持平稳呼吸牵伸20至30秒后回正起身；按侧完成后换另一条腿。",
+            ],
+        },
+        "1274": {
+            "name_zh": "哑铃支点深距俯卧撑",
+            "category": "chest",
+            "equipment": "dumbbell",
+            "target": "pectorals",
+            "muscle_group": "",
+            "secondary_muscles": ["triceps", "shoulders", "core"],
+            "movement_patterns_zh": ["推", "水平推"],
+            "required_equipment_zh": [],
+            "instructions_zh": [
+                "将两只防滚哑铃按略宽于肩距平稳放于地面，双手紧握哑铃手柄伸直支撑起身体呈俯卧撑直线姿态。",
+                "收紧腹臀核心维持腰背平直不下塌。",
+                "吸气屈肘沿斜后方有控制地充分下放胸口，利用哑铃垫高增大行程使胸口温和低于双手高度充分伸展胸肌。",
+                "呼气由胸大肌、三角肌前束与肱三头肌协同推撑哑铃发力回到伸直起点；每次起落计一次。",
+            ],
+        },
+        "1399": {
+            "name_zh": "平凳直腿地面臂屈伸",
+            "category": "upper arms",
+            "equipment": "body weight",
+            "target": "triceps",
+            "muscle_group": "",
+            "secondary_muscles": ["chest", "shoulders"],
+            "movement_patterns_zh": ["推", "水平推"],
+            "required_equipment_zh": ["平板训练凳"],
+            "instructions_zh": [
+                "背对稳固的平板训练凳坐在地面前沿，双手向后平搭反握撑稳凳沿（指尖朝前）、双腿向正前方充分伸直仅以脚后跟着地。",
+                "保持腰背靠近训练凳前缘，呼气先以双手发力撑直双臂将臀部轻轻推离地面悬稳于凳前。",
+                "吸气缓慢向正后方屈肘放低躯干，感受肱三头肌发力拉长至上臂接近平行地面后略前停。",
+                "呼气由肱三头肌集中发力蹬掌伸直手臂将身体推回直臂高度；每次降落与撑起计一次。",
+            ],
+        },
+        "1276": {
+            "name_zh": "带勾脚下斜哑铃单臂飞鸟",
+            "category": "chest",
+            "equipment": "dumbbell",
+            "target": "pectorals",
+            "muscle_group": "",
+            "secondary_muscles": ["shoulders", "core"],
+            "movement_patterns_zh": ["水平推", "核心稳定"],
+            "required_equipment_zh": ["带勾脚的下斜训练凳"],
+            "instructions_zh": [
+                "双脚稳稳勾卡在带勾脚的下斜训练凳滚轴垫内，平稳向后仰卧于下斜凳面、工作手单手持一只哑铃垂直举于胸前上方（掌心向内），另一手轻搭腹侧辅助稳定骨盆。",
+                "锁定工作肘部始终保留微屈缓冲角，防止肘关节超伸受压。",
+                "吸气控制重心由工作臂沿宽广弧线缓慢向体侧斜下方展开打开，直至胸大肌感到充分伸展。",
+                "呼气由工作侧胸大肌主导收缩拉动哑铃沿原弧线收回胸口正上方；单臂完成规定次数后换手。",
+            ],
+        },
+    }
+
+    sources = {
+        "0864": "https://exrx.net/WeightExercises/Infraspinatus/DBUprightShoulderExternalRotation",
+        "1390": "https://exrx.net/Stretches/Gastrocnemius/Seated",
+    }
+
+    review_notes = {
+        "0864": "核验哑铃直立肩外旋四步要点与三角肌／肩袖／斜方肌标签；原图 4 帧（F3=F1，2.36 秒）无需缩放平移，原地即实现双脚（`score >= 0.9793`）、膝胫（`>= 0.9724`）、骨盆中线（`>= 0.9609`）与头部（`>= 0.9701`）四支点高精度对齐（残差 `<= 1.0 px`），四面零边缘裁切。",
+        "1390": "清理原命名冗余括号并规范为坐姿单腿平凳小腿拉伸（明确 `平板训练凳` 必需支持与单腿分段计次特性）；原图第 1 帧经 `(-1, -1)`、第 2 帧经 `(-1, +2)` 纯整数平移配准后平凳左右脚、地面支脚及伸出脚后跟四大固定锚点残差均 `<= 1.0 px`（匹配分 `>= 0.9720`），无边界裁切。",
+    }
+
+    pending = {
+        "1387": "待修图 · 已补充 `墙面` 支持并规范单腿扶墙地板提踵（触发单腿计次）；原图墙面（`dx=-3, dy=-3` / `+1, +2`）与地面前掌（`dx=+5, dy=-2` / `+4, -4`）存在 `8 px` 不同步漂移，暂存待重制。",
+        "0863": "待修图 · 已补充 `平板训练凳` 支持与单侧肩外旋要点；原图经 F1 `(-6, 0)`、F2 `(0, -12)` 配准后虽凳面重合（`>= 0.9719`），但第 2 帧下肢脚踝（`sc=0.9518`）与头部面廓（`sc=0.9394 / best=0.9518`）略低于 `>= 0.96` 严苛门槛，暂存待重制。",
+        "1397": "待修图 · 已规范为双脚站姿小腿提踵；原图第 1 帧前掌平移 `dx=+24` 而头部仅 `+20`（`4 px` 异步偏斜，`toes sc=0.9049`），暂存待重制。",
+        "1201": "待修图 · 已纠正哑铃支撑起跳推举描述并保留心肺与全身综合指标；原图第 2 帧上方哑铃触 `y=0`、脚尖触 `y=479` 裁切，且俯卧撑与站立比例跳变，暂存待重制。",
+        "1398": "待修图 · 已补充 `墙面` 必需支持与单侧后迈步拉伸要点；原图第 0、1 帧发顶紧贴 `y=0` 被连续裁断，暂存待重制。",
+        "1274": "待修图 · 已补充地置哑铃垫高支点描述并清除“高平板支撑”误文及重复句；原图第 1 帧哑铃平移 `dx=+31` 与双脚 `dx=+10` 存在 `21 px` 错位拉伸，暂存待重制。",
+        "1399": "待修图 · 已彻底纠正原上游严重错译“地板俯卧撑”（实图为背靠长凳坐地屈伸臂）为平凳直腿地面臂屈伸并补充 `平板训练凳`；原图第 2 帧长凳（`dy=+33, dx=+7`）与脚跟（`dy=+27, dx=+3`）存在 `6 px` 异步错位（`sc=0.92`），暂存待重制。",
+        "1276": "待修图 · 已依据图中带勾脚滚轴凳补充 `带勾脚的下斜训练凳` 并保留单臂计次；原图第 1 帧凳左腿（`dx=-27`）与凳右腿（`dx=-10`）存在 `17 px` 透视缩放拉伸，暂存待重制。",
+    }
+
+    result = {
+        "batch": "20261011_review33",
+        "version": "1.2.38",
+        "version_code": 2026101101,
+        "apk_name": "时光屋-1.2.38-第三十三批动作复核.apk",
+        "output": "build/review33-20261011",
+        "report": "docs/releases/2026-10-11-review-batch33.md",
+        "inspected": inspected,
+        "definition_updates": definition_updates,
+        "sources": sources,
+        "review_candidates": review_candidates,
+        "pending": pending,
+        "registered_media": review_candidates,
+        "original_pose_repairs": review_candidates,
+        "generated_images_imported": 0,
+        "image_generation_calls": 0,
+        "quota_exhausted_reset_at": "2026-11-12T05:37:04Z",
+        "review_notes": review_notes,
+    }
+    (B / "review-result.json").write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n")
+
+    code_files = sorted(R.glob("app/src/main/java/**/*.java"))
+    baseline = {str(p.relative_to(R)): sha(p) for p in code_files}
+    (B / "code-baseline.json").write_text(json.dumps(baseline, ensure_ascii=False, indent=2) + "\n")
+
+    qa_spec = {
+        "batch": "20261011_review33",
+        "expected_checks": 13,
+        "review_candidates": review_candidates,
+        "deferred_candidates": list(pending.keys()),
+    }
+    (B / "qa-spec.json").write_text(json.dumps(qa_spec, ensure_ascii=False, indent=2) + "\n")
+    print("Authored review-result.json, code-baseline.json, and qa-spec.json for 20261011_review33")
+
+
+if __name__ == "__main__":
+    main()

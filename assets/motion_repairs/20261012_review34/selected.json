@@ -1,0 +1,220 @@
+[
+  {
+    "id": "1401",
+    "name": "muscle-up (on vertical bar)",
+    "name_zh": "垂直杆引体向上",
+    "media": "raw:dataset_motion_1401",
+    "category": "back",
+    "equipment": "body weight",
+    "target": "lats",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "triceps",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "首先悬挂在垂直杆上，手掌背对自己，手臂完全伸展。",
+      "启动核心肌群，将身体拉向杠铃杆，以胸部为主导。",
+      "当你站起来时，稍微向后倾斜，并将肘部移向身体两侧。",
+      "继续拉，直到胸部到达杠铃并且肘部完全弯曲。",
+      "在最高点暂停片刻，然后慢慢降低回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1277",
+    "name": "dumbbell fly on exercise ball",
+    "name_zh": "哑铃球上飞鸟",
+    "media": "raw:dataset_motion_1277",
+    "category": "chest",
+    "equipment": "dumbbell",
+    "target": "pectorals",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "triceps"
+    ],
+    "instructions_zh": [
+      "坐在健身球上，每只手各握一个哑铃。",
+      "双脚向前走，身体向下滚动，直到头部、颈部和上背部得到球的支撑。",
+      "将双臂伸直至胸部上方，手掌相对。",
+      "稍微弯曲肘部，将手臂以宽弧线向两侧放低，直到感觉到胸部有拉伸感。",
+      "暂停片刻，然后反向运动并挤压胸部肌肉，同时将​​哑铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1403",
+    "name": "neck side stretch",
+    "name_zh": "颈部侧伸展",
+    "media": "raw:dataset_motion_1403",
+    "category": "neck",
+    "equipment": "body weight",
+    "target": "levator scapulae",
+    "muscle_group": "trapezius",
+    "secondary_muscles": [
+      "trapezius",
+      "sternocleidomastoid"
+    ],
+    "instructions_zh": [
+      "站直或坐直，肩膀放松。",
+      "将头向一侧倾斜，将耳朵靠近肩膀。",
+      "保持拉伸 15-30 秒。",
+      "在另一侧重复。",
+      "每侧进行 2-4 组。"
+    ]
+  },
+  {
+    "id": "1278",
+    "name": "dumbbell incline fly on exercise ball",
+    "name_zh": "哑铃球上斜飞鸟",
+    "media": "raw:dataset_motion_1278",
+    "category": "chest",
+    "equipment": "dumbbell",
+    "target": "pectorals",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "设置一个 45 度角的上斜凳。",
+      "坐在健身球上，向前滚动，直到上背部靠在倾斜的长凳上。",
+      "双手各握一个哑铃，手掌相对，双臂伸至胸部上方。",
+      "将哑铃以宽弧线向两侧放低，直到感觉到胸部有拉伸感。",
+      "暂停片刻，然后挤压胸部肌肉，使哑铃回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1405",
+    "name": "back pec stretch",
+    "name_zh": "背部胸肌拉伸",
+    "media": "raw:dataset_motion_1405",
+    "category": "back",
+    "equipment": "body weight",
+    "target": "lats",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "chest"
+    ],
+    "instructions_zh": [
+      "站直，双脚分开与肩同宽。",
+      "将双臂伸直在身前，与地面平行。",
+      "双臂交叉在身体前方，右臂放在左臂上方。",
+      "手指交叉，手掌旋转远离身体。",
+      "慢慢抬起手臂并远离身体，感觉背部和胸部有拉伸感。",
+      "保持拉伸 15-30 秒，然后放松。",
+      "在另一侧重复。"
+    ]
+  },
+  {
+    "id": "1279",
+    "name": "dumbbell incline one arm fly",
+    "name_zh": "哑铃上斜单臂飞鸟",
+    "media": "raw:dataset_motion_1279",
+    "category": "chest",
+    "equipment": "dumbbell",
+    "target": "pectorals",
+    "muscle_group": "deltoids",
+    "secondary_muscles": [
+      "deltoids",
+      "triceps"
+    ],
+    "instructions_zh": [
+      "将倾斜凳调整至 30-45 度角。",
+      "坐在长凳上，一只手拿着哑铃，将其放在大腿上。",
+      "向后躺在长凳上，双脚平放在地面上。",
+      "握住哑铃，手臂伸直越过胸部。",
+      "将哑铃以宽弧线向一侧放低，保持肘部轻微弯曲。",
+      "当手臂与地面平行时暂停，然后反向运动，使哑铃回到起始位置。",
+      "重复所需的重复次数，然后换臂。"
+    ]
+  },
+  {
+    "id": "1407",
+    "name": "calf push stretch with hands against wall",
+    "name_zh": "手扶墙小腿推伸展",
+    "media": "raw:dataset_motion_1407",
+    "category": "lower legs",
+    "equipment": "body weight",
+    "target": "calves",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings"
+    ],
+    "instructions_zh": [
+      "面向墙壁站立，双脚分开与臀部同宽。",
+      "将双手靠在墙上，与肩同高。",
+      "一只脚向后退一步，脚跟保持在地面上，腿伸直。",
+      "稍微弯曲前膝盖并向前倾斜，感觉小腿有拉伸感。",
+      "保持拉伸 20-30 秒。",
+      "换腿并重复拉伸。"
+    ]
+  },
+  {
+    "id": "1280",
+    "name": "dumbbell incline one arm fly on exercise ball",
+    "name_zh": "哑铃球上斜单臂飞鸟",
+    "media": "raw:dataset_motion_1280",
+    "category": "chest",
+    "equipment": "dumbbell",
+    "target": "pectorals",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "坐在健身球上，一只手拿着哑铃。",
+      "双脚向前走，身体向下滚动，直到头部、颈部和上背部得到球的支撑。",
+      "握住哑铃，手臂伸直越过胸部，手掌朝内。",
+      "慢慢地将哑铃向一侧放低，保持肘部轻微弯曲。",
+      "当手臂与地面平行时暂停片刻。",
+      "启动胸部肌肉，将哑铃拉回到起始位置。",
+      "重复所需的重复次数，然后换臂。"
+    ]
+  },
+  {
+    "id": "1418",
+    "name": "hug keens to chest",
+    "name_zh": "抱膝贴胸",
+    "media": "raw:dataset_motion_1418",
+    "category": "upper legs",
+    "equipment": "body weight",
+    "target": "glutes",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings",
+      "quadriceps"
+    ],
+    "instructions_zh": [
+      "首先站立，双脚分开与肩同宽。",
+      "弯曲膝盖并将身体降低至蹲姿。",
+      "当你蹲下时，将膝盖抬向胸部，并用手臂抱住它们。",
+      "保持这个姿势一会儿，然后慢慢回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1281",
+    "name": "dumbbell incline one arm press",
+    "name_zh": "哑铃上斜单臂推举",
+    "media": "raw:dataset_motion_1281",
+    "category": "chest",
+    "equipment": "dumbbell",
+    "target": "pectorals",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "triceps"
+    ],
+    "instructions_zh": [
+      "坐在上斜凳上，一只手拿着哑铃，放在大腿上。",
+      "仰卧在长凳上，将哑铃置于与肩同高的位置，手掌朝前。",
+      "将哑铃向上并稍微向内推，充分伸展手臂。",
+      "在最高点暂停片刻，然后慢慢将哑铃放回起始位置。",
+      "重复所需的重复次数，然后换到另一只手臂。"
+    ]
+  }
+]

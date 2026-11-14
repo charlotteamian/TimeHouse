@@ -1,0 +1,290 @@
+{
+  "batch": "20261017_review39",
+  "version": "1.2.44",
+  "version_code": 2026101701,
+  "apk_name": "时光屋-1.2.44-第三十九批动作复核.apk",
+  "output": "build/review39-20261017",
+  "report": "docs/releases/2026-10-17-review-batch39.md",
+  "inspected": [
+    "1512",
+    "1381",
+    "1548",
+    "1382",
+    "1576",
+    "1414",
+    "1585",
+    "1415",
+    "1587",
+    "1437"
+  ],
+  "definition_updates": {
+    "1512": {
+      "name_zh": "单侧四足跪撑股四头肌拉伸",
+      "category": "upper legs",
+      "equipment": "body weight",
+      "target": "quads",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "hamstrings",
+        "glutes"
+      ],
+      "movement_patterns_zh": [
+        "拉伸",
+        "核心控制"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "四足跪撑于训练垫上，双手压实位于肩正下方、双膝与髋同宽着地。",
+        "收紧核心维持腰背自然平直不塌腰。",
+        "呼气将待拉伸侧膝盖顺势向后微移并以脚背勾向臀部屈膝抬脚，同时轻缓向后坐压骨盆感受大腿前侧股四头肌充分伸展。",
+        "保持平稳呼吸牵伸15至25秒后回正；每侧完成规定次或组后换另一条腿。"
+      ]
+    },
+    "1381": {
+      "name_zh": "坐姿单腿踏台仰掌哑铃提踵",
+      "category": "lower legs",
+      "equipment": "dumbbell",
+      "target": "calves",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "hamstrings",
+        "glutes"
+      ],
+      "movement_patterns_zh": [
+        "下肢",
+        "单侧提踵"
+      ],
+      "required_equipment_zh": [
+        "平板训练凳",
+        "稳固踏台"
+      ],
+      "instructions_zh": [
+        "坐在稳固的平板训练凳前沿，将工作腿前脚掌稳踩上前方稳固踏台前沿（脚跟自然悬空），另一腿向前下方直腿抬平悬稳不碰地，一手仰掌正握（掌心朝上）将一只哑铃平压于工作侧大腿上方并可轻扶稳。",
+        "挺直躯干收紧核心保持骨盆水平不偏斜。",
+        "吸气充分下放工作脚跟牵伸小腿肌群，随后呼气踩实前脚掌发力垂直顶高脚跟挤压小腿至高点。",
+        "在最高点略停顿后控制缓缓落回低位；单侧完成规定次数后换另一条腿。"
+      ]
+    },
+    "1548": {
+      "name_zh": "单腿坐凳伸直抬脚跟伸展",
+      "category": "upper legs",
+      "equipment": "body weight",
+      "target": "quads",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "hamstrings",
+        "calves"
+      ],
+      "movement_patterns_zh": [
+        "拉伸",
+        "下肢"
+      ],
+      "required_equipment_zh": [
+        "平板训练凳"
+      ],
+      "instructions_zh": [
+        "坐在平板训练凳前沿，一侧膝盖弯曲踩实地面维持坐姿稳定，另一条腿向前方伸直仅以脚跟轻点地面、脚尖回勾。",
+        "挺直腰背双手扶稳凳边保持核心稳定。",
+        "呼气保持前伸腿充分伸直收紧股四头肌并配合上身极微前倾感受腿部前伸牵拉控制。",
+        "平稳呼吸维持15至20秒后缓缓收回；每侧完成后换另一条腿。"
+      ]
+    },
+    "1382": {
+      "name_zh": "背靠墙瑜伽球哑铃站姿提踵",
+      "category": "lower legs",
+      "equipment": "dumbbell",
+      "target": "calves",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "hamstrings",
+        "quadriceps"
+      ],
+      "movement_patterns_zh": [
+        "下肢",
+        "双侧提踵"
+      ],
+      "required_equipment_zh": [
+        "瑜伽球",
+        "墙面"
+      ],
+      "instructions_zh": [
+        "背对墙面站立，将瑜伽球稳夹于中下背部与墙面之间略微靠稳、双脚与肩同宽踩稳地面，双手各持一只哑铃垂于体侧。",
+        "收紧核心保持身体平稳靠紧瑜伽球上下直行不前后晃动。",
+        "呼气踩稳前脚掌尽力将双侧脚跟一并垂直顶高离地挤压小腿肌群。",
+        "在最高点停顿片刻后有控制地缓缓降回地面；每次提放计一次。"
+      ]
+    },
+    "1576": {
+      "name_zh": "单腿仰卧抱腿伸膝腘绳肌拉伸",
+      "category": "upper legs",
+      "equipment": "body weight",
+      "target": "hamstrings",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "glutes"
+      ],
+      "movement_patterns_zh": [
+        "拉伸",
+        "下肢"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "仰卧在训练垫上，一侧腿保持伸直平铺贴地、另一侧膝盖向胸口收起并用双手环握大腿后侧或小腿辅助固定。",
+        "放松双肩贴实垫面防止骨盆离开地面卷起。",
+        "呼气逐渐向上伸直抬起侧膝关节使脚底朝向天花板方向（根据自身柔韧控制在无刺痛位置），充分感受大腿后侧腘绳肌舒展。",
+        "保持均匀呼吸15至30秒后缓缓屈膝落腿；每侧完成后换另一条腿。"
+      ]
+    },
+    "1414": {
+      "name_zh": "牧师凳哑铃单臂反握弯举",
+      "category": "upper arms",
+      "equipment": "dumbbell",
+      "target": "biceps",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "forearms"
+      ],
+      "movement_patterns_zh": [
+        "肘屈曲",
+        "单侧稳定"
+      ],
+      "required_equipment_zh": [
+        "牧师凳"
+      ],
+      "instructions_zh": [
+        "坐在牧师凳上将胸上缘贴稳斜垫后背沿，工作侧腋窝至上臂后侧贴实牧师凳斜垫，单手采用反握法（手背朝前方或手心朝外下旋）握稳一只哑铃、非工作手轻扶垫上沿辅助平衡。",
+        "控制手肘贴实斜垫不动且腕关节保留中立刚性不反折。",
+        "呼气由前臂肱桡肌、肱肌与肱二头肌协同发力向上弯举哑铃至前臂接近垂直高点。",
+        "在顶点短暂停顿后，吸气沿原路径缓慢伸直还原至接近伸直但不锁肘；单臂完成规定次数后换手。"
+      ]
+    },
+    "1585": {
+      "name_zh": "单侧弓步压腿跑者腘绳肌拉伸",
+      "category": "upper legs",
+      "equipment": "body weight",
+      "target": "hamstrings",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "calves",
+        "quadriceps"
+      ],
+      "movement_patterns_zh": [
+        "拉伸",
+        "下肢"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "双脚与臀同宽直立，一侧脚向前迈出呈稳固长弓步、前膝屈曲约90度（双手轻撑前侧大腿上方稳定重心）、后腿充分伸直向后延展且后脚跟尽量贴近地面。",
+        "保持脊柱长伸中立不塌腰。",
+        "呼气温和下压重心感受后侧股后链与前侧髋腘拉伸。",
+        "平稳呼吸维持20至30秒后收步起身；每侧完成后换另一条腿。"
+      ]
+    },
+    "1415": {
+      "name_zh": "平凳坐姿哑铃单臂中立腕弯举",
+      "category": "lower arms",
+      "equipment": "dumbbell",
+      "target": "forearms",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "biceps",
+        "brachialis"
+      ],
+      "movement_patterns_zh": [
+        "腕屈曲",
+        "单侧稳定"
+      ],
+      "required_equipment_zh": [
+        "平板训练凳"
+      ],
+      "instructions_zh": [
+        "稳坐在平板训练凳前沿，双脚分开平踩稳地面、非工作手轻搭对侧膝腿维持上身稳定，工作侧前臂稳固平靠贴紧同侧大腿面上、使腕关节自然悬伸至膝盖前方并采用对握中立位（拇指朝上、掌心朝向内侧）单手持一只哑铃。",
+        "保持肩背微前倾固定不动、工作肘部与前臂全程紧贴大腿面不抬离。",
+        "呼气仅以腕关节为轴由前臂屈肌主导发力将哑铃向大臂前上方平稳屈腕抬起至最高点。",
+        "在顶峰收缩前臂停顿片刻后，吸气控制速率缓慢下放至腕部轻伸低位；单臂完成规定次数后换另一只手。"
+      ]
+    },
+    "1587": {
+      "name_zh": "地面坐姿宽距分腿前屈拉伸",
+      "category": "upper legs",
+      "equipment": "body weight",
+      "target": "hamstrings",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "quadriceps",
+        "calves"
+      ],
+      "movement_patterns_zh": [
+        "拉伸",
+        "髋铰链"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "坐在地面或训练垫上，双腿在身前尽量向左右大角度伸直分开、脚尖自然朝上方回勾、双手先轻触膝前或腿外侧地面协助坐直脊柱。",
+        "微收腹部激活股四头肌并保持下背挺拔不猛圆腰。",
+        "呼气以髋关节折叠为轴带动直背温和向前下方俯身同时双手顺前地面柔和延伸。",
+        "在舒适牵伸位保持均匀呼吸20至30秒后缓缓推回直坐位；按组重复完成。"
+      ]
+    },
+    "1437": {
+      "name_zh": "平凳坐姿单手哑铃指弯举",
+      "category": "lower arms",
+      "equipment": "dumbbell",
+      "target": "forearms",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "wrist flexors",
+        "wrist extensors"
+      ],
+      "movement_patterns_zh": [
+        "抓握卷指",
+        "单侧稳定"
+      ],
+      "required_equipment_zh": [
+        "平板训练凳"
+      ],
+      "instructions_zh": [
+        "稳坐在平板训练凳前沿，双脚平踩地面、非工作手轻扶另一侧大腿保持稳重，工作侧前臂仰掌平贴靠稳同侧大腿前部使手腕及手掌略探出膝端（掌心朝上）。",
+        "保持前臂及大臂紧贴腿面稳住不动。",
+        "吸气缓慢有控制地逐指略微放松令哑铃顺指肚滑落至末端手指钩住处，随后呼气集中由指屈肌与腕屈肌发力用力卷紧手指并顺势略向上小幅卷腕。",
+        "在最高点停顿挤紧前臂后缓慢再放落滚指；单手完成规定次数后换手。"
+      ]
+    }
+  },
+  "sources": {
+    "1415": "https://exrx.net/WeightExercises/Brachioradialis/DBSeatedHammerWristCurl"
+  },
+  "review_candidates": [
+    "1415"
+  ],
+  "pending": {
+    "1512": "待修图 · **彻底纠正原上游严重错译“四肢着地臀桥拉伸”**（英文 all fours squad/quad stretch 为跪姿股四头肌拉伸）为单侧四足跪撑股四头肌拉伸并触发单侧；原图手支撑（`dx=+4/+3`）与下肢跪撑脚（`dx=+25, dy=-26/+35`）不同步漂移，暂存待重制。",
+    "1381": "待修图 · 去掉英文横杠并依实图平凳、踏台及仰掌单腿特征规范为坐姿单腿踏台仰掌哑铃提踵（补全 `平板训练凳 + 稳固踏台`）；原图经 F1 `(-5,0)`、F2 `(0,+14)` 配准后 `bench_br` 发生 `2 px` 横偏且 `shorts_torso` 仅 `0.9117`，暂存待重制。",
+    "1548": "待修图 · 补充 `平板训练凳` 必需支持与单腿分段计次（保留实图股四头肌前侧拉伸／等长激活目标）；原图第 1、2 帧椅子支脚与地面左足大幅滑移 `~30 px`，暂存待重制。",
+    "1382": "待修图 · 依实图同时依赖墙面抵压瑜伽球及手持双哑铃特征补充 `瑜伽球 + 墙面` 双重必需器械；原图 F1 球及头部偏移 `dx=+3` 而足尖 `dy=-3/-5`（`toes best_sc=0.8759`），暂存待重制。",
+    "1576": "待修图 · 规范单腿仰卧抱腿伸膝腘绳肌拉伸步骤与单腿计次；原图仰卧头部至脚踝随腿举整体比例略缩放且重心偏离，暂存待重制。",
+    "1414": "待修图 · **彻底纠正原上游严重错译“仰卧弯举”**（英文 preacher curl 为牧师凳弯举）为牧师凳哑铃单臂反握弯举，补 `牧师凳` 支持；原图第 0、1 帧头发顶贴 `y=0` 裁切且 F2 头部（`sc=0.85–0.88`）对牧师凳底座不同步，暂存待重制。",
+    "1585": "待修图 · 规范单侧弓步压腿跑者腘绳肌拉伸与单侧计次；原图第 0 帧并脚立起切入第 1、2 帧长弓步足位大幅变化，暂存待重制。",
+    "1587": "待修图 · 规范地面坐姿宽距分腿前屈拉伸步骤（并修正“锻炼你的股四头肌”生硬表达）；原图三帧坐姿双腿开角、足位及视角产生移位，暂存待重制。",
+    "1437": "待修图 · 补充 `平板训练凳` 必需支持与单手分段计次（更名平凳坐姿单手哑铃指弯举）；原图 F1/F2 长凳右脚（`0.929`）与头部（`dy=+9` 对凳 `dy=+12`）未达同步对齐且动作幅度混入抬前臂，暂存待重制。"
+  },
+  "registered_media": [
+    "1415"
+  ],
+  "original_pose_repairs": [
+    "1415"
+  ],
+  "generated_images_imported": 0,
+  "image_generation_calls": 0,
+  "quota_exhausted_reset_at": "2026-11-12T05:37:04Z",
+  "review_notes": {
+    "1415": "纠正原步骤误写中立握为“掌心朝上”为规范对握中立位并补全 `平板训练凳` 必需支撑与单臂分段计次（更名平凳坐姿哑铃单臂中立腕弯举）；原图 4 帧（F3=F1，2.36 秒）无需任何缩放平移，原地即实现平凳左右支脚、双脚掌与头部四大固定锚点精确重合（残差 `<= 1.0 px`，匹配分 `>= 0.9729`），四面零裁切。"
+  },
+  "initial_validation": "passed",
+  "newly_reviewed": [
+    "dataset_1324_1415"
+  ],
+  "android_playback_visually_reviewed": [
+    "1415"
+  ]
+}

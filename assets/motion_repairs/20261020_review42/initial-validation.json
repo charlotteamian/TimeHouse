@@ -1,0 +1,15 @@
+{
+  "batch_id": "20261020_review42",
+  "status": "passed",
+  "serial": "emulator-5554",
+  "apk": "build/timehouse-debug.apk",
+  "checks": 10,
+  "visually_reviewed": [
+    "1647"
+  ],
+  "dataset_sha256": "c06719b09f6143fb86cbb39c89029c897d374db00c7d1ff125f2d21ba0845e61",
+  "media_sha256": {
+    "1647": "75a79264e79956db914ab45e17968d282b519c0e2ebe8878945b62e77f024f24"
+  },
+  "notes": "Inspected fixed contact-fixed-1.jpg and emulator playback contact sheet 1647-playback-contact.jpg; pure white background, smooth preacher curl motion, all five bench/feet/head anchors stationary."
+}

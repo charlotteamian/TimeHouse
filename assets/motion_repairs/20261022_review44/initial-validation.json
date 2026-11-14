@@ -1,0 +1,15 @@
+{
+  "batch_id": "20261022_review44",
+  "status": "passed",
+  "serial": "emulator-5554",
+  "apk": "build/timehouse-debug.apk",
+  "checks": 10,
+  "visually_reviewed": [
+    "1659"
+  ],
+  "dataset_sha256": "642bdc586702198440c81afa9d236eb36c3c10e934eb0e1aa945920adfd0b829",
+  "media_sha256": {
+    "1659": "8166c06ec4b37ffcb4c7fd67f2f1016c9baa525f6975d18e0bf28d19acba9569"
+  },
+  "notes": "Inspected fixed contact-fixed-1.jpg and emulator playback contact sheet 1659-playback-contact.jpg; pure white background, smooth bilateral hammer curl loop, zero border contact, all ball/feet/head anchors stationary."
+}

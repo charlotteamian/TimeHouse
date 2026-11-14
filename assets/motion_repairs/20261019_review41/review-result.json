@@ -1,0 +1,245 @@
+{
+  "batch": "20261019_review41",
+  "version": "1.2.46",
+  "version_code": 2026101901,
+  "output": "build/review41-20261019",
+  "inspected": [
+    "1753",
+    "1620",
+    "1759",
+    "1621",
+    "1761",
+    "1622",
+    "1763",
+    "1623",
+    "1764",
+    "1624"
+  ],
+  "review_candidates": [
+    "1764",
+    "1624"
+  ],
+  "registered_media": [
+    "1764",
+    "1624"
+  ],
+  "definition_updates": {
+    "1753": {
+      "name_zh": "平凳坐姿反手直腿臂屈伸",
+      "category": "upper arms",
+      "equipment": "body weight",
+      "target": "triceps",
+      "muscle_group": "triceps",
+      "secondary_muscles": [
+        "chest",
+        "shoulders"
+      ],
+      "required_equipment_zh": [
+        "平板训练凳"
+      ],
+      "instructions_zh": [
+        "坐姿反手抓握平板训练凳前沿，手指朝向身体前方，双腿向前伸直以脚跟着地。",
+        "将臀部前移离开凳面保持身体受控稳定，呼气屈肘缓慢下放身体至上臂接近与地面平行。",
+        "随后发力伸直双臂将身体推回高位起始姿，注意肩部下沉不要耸肩。"
+      ]
+    },
+    "1620": {
+      "name_zh": "瑜伽球上斜仰卧单臂锤式哑铃推举",
+      "category": "upper arms",
+      "equipment": "dumbbell",
+      "target": "triceps",
+      "muscle_group": "triceps",
+      "secondary_muscles": [
+        "shoulders",
+        "chest"
+      ],
+      "required_equipment_zh": [
+        "瑜伽球"
+      ],
+      "instructions_zh": [
+        "先坐在瑜伽球上单手锤握哑铃，双脚前移带动背部滚动至肩颈与上背部稳靠球面成上斜位。",
+        "非工作手置于体侧稳定骨盆，工作臂掌心朝内弯曲约 90 度位于胸肩一侧。",
+        "呼气将哑铃向上垂直推至手臂伸直，吸气有控制地放回起始位，完成目标次数后换臂。"
+      ]
+    },
+    "1759": {
+      "name_zh": "单侧自重手枪深蹲",
+      "category": "upper legs",
+      "equipment": "body weight",
+      "target": "glutes",
+      "muscle_group": "glutes",
+      "secondary_muscles": [
+        "quadriceps",
+        "hamstrings",
+        "calves"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "单脚稳踩地面站立，双臂向前平举维持重心，另一条腿抬起向前伸直离开地面。",
+        "支撑侧顺势屈膝后推臀部有控制地下蹲，保持挺胸直背。",
+        "下蹲至大腿接近水平或自身可控最低位略作停顿，随后发力蹬地起立，换腿重复。"
+      ]
+    },
+    "1621": {
+      "name_zh": "瑜伽球坐姿单臂锤式哑铃推举",
+      "category": "upper arms",
+      "equipment": "dumbbell",
+      "target": "triceps",
+      "muscle_group": "triceps",
+      "secondary_muscles": [
+        "shoulders",
+        "chest"
+      ],
+      "required_equipment_zh": [
+        "瑜伽球"
+      ],
+      "instructions_zh": [
+        "稳坐在瑜伽球中央，双脚分开平踩地面保持核心挺直，非工作手轻叉腰侧维持平衡。",
+        "工作手掌心朝内锤握哑铃举至肩侧预备位，肘部略微靠前。",
+        "呼气集中肱三头肌与肩前束力量向上推至手臂伸直，吸气受控下放并在完成后换臂。"
+      ]
+    },
+    "1761": {
+      "name_zh": "单杠直臂收腹斜侧提膝",
+      "category": "waist",
+      "equipment": "body weight",
+      "target": "abs",
+      "muscle_group": "abs",
+      "secondary_muscles": [
+        "obliques"
+      ],
+      "required_equipment_zh": [
+        "单杠"
+      ],
+      "instructions_zh": [
+        "双手正握紧抓单杠，双臂伸直并拢双腿垂放于地面上方。",
+        "呼气收紧腹斜肌与下腹，屈髋屈膝向一侧斜上方抬起双膝接近胸侧。",
+        "顶点停顿片刻后缓慢受控放回起始位，再向另一侧交替斜向提膝。"
+      ]
+    },
+    "1622": {
+      "name_zh": "平凳坐姿单臂反握哑铃推举",
+      "category": "chest",
+      "equipment": "dumbbell",
+      "target": "pectorals",
+      "muscle_group": "pectorals",
+      "secondary_muscles": [
+        "triceps",
+        "shoulders"
+      ],
+      "required_equipment_zh": [
+        "平板训练凳"
+      ],
+      "instructions_zh": [
+        "稳坐在平板训练凳上，双脚分开平踩地面，非工作手轻搭于同侧大腿上。",
+        "工作手掌心朝向身体反握一只哑铃举至胸肩前方，手肘靠近躯干。",
+        "呼气向上推起至手臂接近完全伸直，顶点停顿后缓慢放回肩前位，完成次数后换边。"
+      ]
+    },
+    "1763": {
+      "name_zh": "与肩同宽正握单杠引体向上",
+      "category": "back",
+      "equipment": "body weight",
+      "target": "lats",
+      "muscle_group": "lats",
+      "secondary_muscles": [
+        "biceps",
+        "forearms"
+      ],
+      "required_equipment_zh": [
+        "单杠"
+      ],
+      "instructions_zh": [
+        "双手与肩同宽正握紧抓单杠，双臂完全伸直使身体自然垂落预备。",
+        "沉肩启动背阔肌发力将身体向上拉起，直至下巴清晰越过横杠上方。",
+        "在最高点短暂停顿后有控制地伸臂缓慢下放回到起始位。"
+      ]
+    },
+    "1623": {
+      "name_zh": "上斜训练凳对握哑铃卧推",
+      "category": "upper arms",
+      "equipment": "dumbbell",
+      "target": "triceps",
+      "muscle_group": "triceps",
+      "secondary_muscles": [
+        "chest",
+        "shoulders"
+      ],
+      "required_equipment_zh": [
+        "上斜训练凳"
+      ],
+      "instructions_zh": [
+        "靠坐在约四十五度的上斜训练凳上，双脚分开平踩地面稳定重心。",
+        "双手掌心相对对握一对哑铃于胸肩上方，吸气屈肘贴身缓慢下放至胸侧。",
+        "在底部略作停顿后呼气向上推回起始高位并保持关节微屈可控。"
+      ]
+    },
+    "1764": {
+      "name_zh": "单杠直臂屈膝提髋卷腹",
+      "category": "waist",
+      "equipment": "body weight",
+      "target": "abs",
+      "muscle_group": "abs",
+      "secondary_muscles": [
+        "hip flexors",
+        "lower back"
+      ],
+      "required_equipment_zh": [
+        "单杠"
+      ],
+      "instructions_zh": [
+        "双手与肩同宽正握紧抓单杠，双臂伸直、双腿并拢自然垂落于下方。",
+        "呼气收紧核心与下腹，顺势屈髋屈膝并微卷骨盆向上抬起双腿至大腿高于水平。",
+        "顶部停顿片刻后有控制地缓慢伸髋下放回起始位，避免借助摆动惯性。"
+      ]
+    },
+    "1624": {
+      "name_zh": "平凳仰卧掌朝前哑铃卧推",
+      "category": "chest",
+      "equipment": "dumbbell",
+      "target": "pectorals",
+      "muscle_group": "pectorals",
+      "secondary_muscles": [
+        "triceps",
+        "shoulders"
+      ],
+      "required_equipment_zh": [
+        "平板训练凳"
+      ],
+      "instructions_zh": [
+        "仰卧在平板训练凳上，双脚分开平踩地面，双手掌心朝向脚部正握一对哑铃举至胸肩上方为起姿。",
+        "收紧肩胛并吸气屈肘有控制地下放哑铃至胸侧位置。",
+        "在底部略有停顿后呼气集中胸大肌推起双臂回到高位锁定。"
+      ]
+    }
+  },
+  "pending": {
+    "1753": "待修图 · 彻底纠正原上游严重错译“三凳俯卧撑”为平凳坐姿反手直腿臂屈伸并补充平板训练凳，实测长凳高度与躯干跨帧大幅位移（bottom sc0=0.2728/0.3265），待重制。",
+    "1620": "待修图 · 经 F2 (0,+11) 垂直平移后瑜伽球（-3,-1）与双脚（+1,+1）仍不同向偏移（max_res=3.61 px，head sc0=0.8714），已补充瑜伽球必需器械，待重制。",
+    "1759": "待修图 · 单腿下蹲重定位支撑脚踝与足底位置（bottom sc0=0.0244/0.3329），已修订名称、肌群及单侧计数，待重制。",
+    "1621": "待修图 · F2 瑜伽球（0,+13）、双脚（-1,+7）与头部（+1,+22）产生超过 15 px 独立移位，已补充瑜伽球必需器械与单臂资料，待重制。",
+    "1761": "待修图 · 经 F1 (+11,0) 对齐门框后单杠横杆及双手与架体底座仍存在 -2 px 水平偏差（bar_hands sc0=0.9057 < 0.96，rack_base_left F2 sc0=0.9421），已修订单杠与避静态词资料，待重制。",
+    "1622": "待修图 · F0 双脚裁底 62 px 且 F2 顶举哑铃被顶部严重裁切 62 px（y=0），已补充平板训练凳与单臂资料，待重制。",
+    "1763": "待修图 · 门框底脚宽窄变化且顶部单杠横杆跨帧垂向跳跃（bar_hands F0 dy=-7、F2 dy=+8，rack_base_right sc0=0.9021），已修订单杠正握引体资料，待重制。",
+    "1623": "待修图 · 上斜训练凳前后支脚与头部跨帧发生独立偏移（bench_foot_l F0 +19 vs bench_foot_r F2 +6 vs head F2 +12,+9），已修正重字笔误并补充上斜训练凳，待重制。"
+  },
+  "sources": {
+    "1764": "https://raw.githubusercontent.com/exercemus/exercises/minified/exercises.json#hanging_leg_hip_raise",
+    "1624": "https://raw.githubusercontent.com/exercemus/exercises/minified/exercises.json#dumbbell_reverse_bench_press"
+  },
+  "review_notes": {
+    "1764": "来源为 exercemus/exercises 公开动作库 1764（hanging leg hip raise）。纠偏动作描述避免误判静态保持并补全单杠必需器械，锁定 800/380/800/380 ms 四帧循环（F4=F2），纯白背景无边缘截断，单杠左右底座、抓杠双手与头部四大锚点原地 0.00 px 零漂移（最低匹配分 0.9977）。",
+    "1624": "来源为 exercemus/exercises 公开动作库 1624（dumbbell reverse bench press）。核正掌朝前哑铃卧推名称、步骤及平板训练凳必需器械，经 F2 (0,+19) 纯整数垂直平移配准并锁定 800/380/800/380 ms 四帧循环（F4=F2），纯白背景无边缘截断，平凳左右脚、双脚、髋腿与头部五大锚点残差均 ≤ 1.41 px（匹配分 ≥ 0.9664）。"
+  },
+  "image_generation_calls": 0,
+  "generated_images_imported": 0,
+  "initial_validation": "passed",
+  "newly_reviewed": [
+    "dataset_1324_1764",
+    "dataset_1324_1624"
+  ],
+  "android_playback_visually_reviewed": [
+    "1764",
+    "1624"
+  ]
+}

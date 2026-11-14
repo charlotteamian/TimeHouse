@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "validated_at": "2026-11-12T22:15:25.865358+08:00",
+  "emulator": "emulator-5554",
+  "checks": 10,
+  "visually_reviewed": [
+    "0433"
+  ],
+  "dataset_sha256": "b0aaddcf94c8357ee615f0afa3abaac66a5f72fe6fa0c31225250e95617ccea6",
+  "media_sha256": {
+    "0433": "b7c80390a8a30b3d2ff3daf49ca05c835a55948d8bf634688547c6d9e60da200"
+  },
+  "playback_contact": "build/review31-20261009/batch/0433-playback-contact.jpg"
+}

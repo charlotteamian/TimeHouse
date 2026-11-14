@@ -1,0 +1,219 @@
+[
+  {
+    "id": "3161",
+    "name": "bodyweight standing one arm row (with towel)",
+    "name_zh": "自重站立单臂划船（毛巾辅助）",
+    "media": "raw:dataset_motion_3161",
+    "category": "back",
+    "equipment": "body weight",
+    "target": "upper back",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，膝盖微曲，单手握住毛巾。",
+      "臀部向前弯曲，保持背部挺直，核心肌群参与。",
+      "将毛巾拉向胸部，将肩胛骨挤压在一起。",
+      "在顶部停顿片刻，然后慢慢将毛巾放回起始位置。",
+      "重复所需的重复次数，然后换到另一只手臂。"
+    ]
+  },
+  {
+    "id": "1684",
+    "name": "dumbbell step up single leg balance with bicep curl",
+    "name_zh": "哑铃单腿台阶平衡（弯举）",
+    "media": "raw:dataset_motion_1684",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "biceps",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "glutes",
+      "hamstrings"
+    ],
+    "instructions_zh": [
+      "站在台阶或平台前，每只手各握一个哑铃，手掌朝向身体。",
+      "将右脚放在台阶上，确保整个脚与表面接触。",
+      "启动核心并推动右脚跟，将身体抬起到台阶上，将左膝抬向胸部。",
+      "在动作的最高点，弯曲肘部并将哑铃拉向肩膀，进行二头肌弯举。",
+      "将哑铃放回原处，同时将左脚放回地面。",
+      "在另一侧重复该动作，左脚向上并弯举哑铃。",
+      "继续交替进行所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3162",
+    "name": "bodyweight standing one arm row",
+    "name_zh": "自重站立单臂划船",
+    "media": "raw:dataset_motion_3162",
+    "category": "back",
+    "equipment": "body weight",
+    "target": "upper back",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，膝盖稍微弯曲，一手握住哑铃。",
+      "臀部向前弯曲，保持背部挺直，核心肌群参与。",
+      "让哑铃垂直悬挂在您面前，手臂完全伸展。",
+      "将哑铃向上拉向胸部，保持肘部靠近身体。",
+      "在动作的最高点将肩胛骨挤压在一起。",
+      "将哑铃放回起始位置。",
+      "重复所需的重复次数，然后换边。"
+    ]
+  },
+  {
+    "id": "1700",
+    "name": "dumbbell push press",
+    "name_zh": "哑铃借力推举",
+    "media": "raw:dataset_motion_1700",
+    "category": "shoulders",
+    "equipment": "dumbbell",
+    "target": "delts",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "core"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，双手各握一个哑铃，与肩同高。",
+      "稍微弯曲膝盖，身体下沉，然后爆发性伸展双腿，将哑铃压过头顶。",
+      "在动作的最高点锁定手臂，然后将哑铃放回肩部水平。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3165",
+    "name": "bodyweight standing row (with towel)",
+    "name_zh": "自重站立划船（毛巾辅助）",
+    "media": "raw:dataset_motion_3165",
+    "category": "back",
+    "equipment": "body weight",
+    "target": "upper back",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，双手握住毛巾放在身前。",
+      "稍微弯曲膝盖，髋部向前转动，保持背部挺直。",
+      "将毛巾拉向胸部，将肩胛骨挤压在一起。",
+      "在最高点停顿片刻，然后慢慢释放张力，回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1729",
+    "name": "dumbbell lying alternate extension",
+    "name_zh": "哑铃平躺交替伸展",
+    "media": "raw:dataset_motion_1729",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "triceps",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "平躺在长凳上，双手各握一个哑铃，手掌相对。",
+      "将手臂伸直越过胸部，保持肘部轻微弯曲。",
+      "将一个哑铃朝头部方向放下，肘部弯曲，同时保持另一只手臂伸展。",
+      "在底部停顿片刻，然后将哑铃举回到起始位置。",
+      "用另一只手臂重复上述动作，交替进行所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3166",
+    "name": "bodyweight standing row",
+    "name_zh": "自重站立划船",
+    "media": "raw:dataset_motion_3166",
+    "category": "back",
+    "equipment": "body weight",
+    "target": "upper back",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "站立，双脚分开与肩同宽，膝盖稍微弯曲。",
+      "正手握住杆或手柄，手掌朝下。",
+      "保持背部挺直，核心参与。",
+      "将杠铃或手柄拉向身体，将肩胛骨挤压在一起。",
+      "在动作的最高点停顿片刻。",
+      "慢慢释放并伸展双臂回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1730",
+    "name": "dumbbell seated bent over alternate kickback",
+    "name_zh": "哑铃坐姿俯身交替后推",
+    "media": "raw:dataset_motion_1730",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "triceps",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "back"
+    ],
+    "instructions_zh": [
+      "坐在长凳上，双手各握一个哑铃，手掌朝内。",
+      "腰部向前弯曲，保持背部挺直并与地面平行。",
+      "将一只手臂向后伸直，保持靠近身体，直到手臂完全伸展。",
+      "暂停片刻，然后慢慢将哑铃放回起始位置。",
+      "用另一只手臂重复上述步骤。",
+      "继续交替手臂进行所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3167",
+    "name": "bodyweight squatting row (with towel)",
+    "name_zh": "自重深蹲划船（毛巾辅助）",
+    "media": "raw:dataset_motion_3167",
+    "category": "back",
+    "equipment": "body weight",
+    "target": "upper back",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，手掌朝下，将毛巾放在身前。",
+      "弯曲膝盖，将身体降低至蹲姿，保持背部挺直，挺胸。",
+      "当你下蹲时，同时将毛巾拉向胸部，将肩胛骨挤压在一起。",
+      "在深蹲底部停顿片刻，然后慢慢回到起始位置，同时伸展双臂。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1731",
+    "name": "dumbbell close grip press",
+    "name_zh": "哑铃窄握推举",
+    "media": "raw:dataset_motion_1731",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "triceps",
+    "muscle_group": "chest",
+    "secondary_muscles": [
+      "chest",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "坐在平坦的长凳上，每只手各拿一个哑铃，放在大腿上。",
+      "用你的大腿帮助举起哑铃，一次举起一个哑铃，这样你就可以将它们保持在与肩同宽的位置。",
+      "一旦与肩同宽，向前旋转手腕，使手掌背向自己。这将是您的起始位置。",
+      "当你吸气时，慢慢地将哑铃降低到你的身边，直到它们与你的胸部齐平。",
+      "呼气时，用三头肌将哑铃举回到起始位置。确保只使用三头肌，不要使用前臂或二头肌来帮助举起哑铃。",
+      "在收缩位置第二次暂停后，重复该动作达到规定的重复次数。"
+    ]
+  }
+]

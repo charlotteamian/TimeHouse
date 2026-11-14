@@ -1,0 +1,10 @@
+{
+  "batch": "20261028_review50",
+  "expected_checks": 16,
+  "expected_reviewed_after_approve": 137,
+  "expected_per_side_ids": [
+    "1732",
+    "1735",
+    "1736"
+  ]
+}

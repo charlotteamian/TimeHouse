@@ -1,0 +1,218 @@
+[
+  {
+    "id": "1387",
+    "name": "one leg floor calf raise",
+    "name_zh": "单腿地板小腿抬举",
+    "media": "raw:dataset_motion_1387",
+    "category": "lower legs",
+    "equipment": "body weight",
+    "target": "calves",
+    "muscle_group": "ankles",
+    "secondary_muscles": [
+      "ankles",
+      "feet"
+    ],
+    "instructions_zh": [
+      "双脚分开与臀部同宽站立，双手放在墙壁或坚固的物体上以保持平衡。",
+      "将一只脚抬离地面并用另一只脚保持平衡。",
+      "慢慢地将脚跟抬离地面，将身体抬起到脚掌上。",
+      "在顶部暂停片刻，然后慢慢将脚跟放回起始位置。",
+      "重复所需的重复次数，然后换腿并重复。"
+    ]
+  },
+  {
+    "id": "0863",
+    "name": "dumbbell lying external shoulder rotation",
+    "name_zh": "哑铃平躺外旋肩",
+    "media": "raw:dataset_motion_0863",
+    "category": "shoulders",
+    "equipment": "dumbbell",
+    "target": "delts",
+    "muscle_group": "rotator cuff",
+    "secondary_muscles": [
+      "rotator cuff",
+      "triceps"
+    ],
+    "instructions_zh": [
+      "侧躺在平坦的长凳上，上臂靠在身体两侧，肘部弯曲 90 度。",
+      "手中握住哑铃，手掌朝下。",
+      "保持上臂靠在身体两侧，尽可能缓慢地向上旋转前臂。",
+      "在顶部暂停片刻，然后慢慢将前臂放回起始位置。",
+      "重复所需的重复次数，然后换边。"
+    ]
+  },
+  {
+    "id": "1390",
+    "name": "seated calf stretch (male)",
+    "name_zh": "坐姿小腿拉伸（男）",
+    "media": "raw:dataset_motion_1390",
+    "category": "lower legs",
+    "equipment": "body weight",
+    "target": "calves",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings"
+    ],
+    "instructions_zh": [
+      "坐在椅子或长凳的边缘，双脚平放在地面上。",
+      "将一只腿伸直在身前，脚跟保持在地面上。",
+      "稍微向前倾，感受小腿肌肉的拉伸。",
+      "保持拉伸 20-30 秒。",
+      "换腿并重复拉伸。"
+    ]
+  },
+  {
+    "id": "0864",
+    "name": "dumbbell upright shoulder external rotation",
+    "name_zh": "哑铃直立肩外旋",
+    "media": "raw:dataset_motion_0864",
+    "category": "shoulders",
+    "equipment": "dumbbell",
+    "target": "delts",
+    "muscle_group": "rotator cuff",
+    "secondary_muscles": [
+      "rotator cuff",
+      "trapezius"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，双手各握一个哑铃，手掌朝向身体。",
+      "将手臂向两侧抬起，直到与地面平行，保持肘部稍微弯曲。",
+      "向外旋转手臂，将哑铃举向头部，同时保持肘部处于同一位置。",
+      "在最高点暂停片刻，然后慢慢将哑铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1397",
+    "name": "standing calves",
+    "name_zh": "站姿小腿",
+    "media": "raw:dataset_motion_1397",
+    "category": "lower legs",
+    "equipment": "body weight",
+    "target": "calves",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings",
+      "glutes"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，脚趾指向前方。",
+      "将脚后跟抬离地面，尽可能高，用脚趾站立。",
+      "保持该姿势片刻，然后慢慢降低脚跟回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1201",
+    "name": "dumbbell burpee",
+    "name_zh": "哑铃波比跳",
+    "media": "raw:dataset_motion_1201",
+    "category": "cardio",
+    "equipment": "dumbbell",
+    "target": "cardiovascular system",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves",
+      "shoulders",
+      "triceps",
+      "core"
+    ],
+    "instructions_zh": [
+      "从站立位置开始，双脚分开与肩同宽，每只手各拿一个哑铃。",
+      "将身体降低至蹲姿，将哑铃放在您面前的地面上。",
+      "将双脚踢回到俯卧撑位置，保持身体呈一条直线。",
+      "进行俯卧撑，弯曲肘部并将胸部降低到地面。",
+      "将脚向后跳向双手，以蹲姿着地。",
+      "爆发性地站起来，将哑铃从地上举起，放到肩膀上。",
+      "将哑铃举过头顶，充分伸展手臂。",
+      "将哑铃放回到肩膀上，然后重复整个序列，达到所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1398",
+    "name": "standing calves calf stretch",
+    "name_zh": "站姿小腿拉伸",
+    "media": "raw:dataset_motion_1398",
+    "category": "lower legs",
+    "equipment": "body weight",
+    "target": "calves",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings",
+      "glutes"
+    ],
+    "instructions_zh": [
+      "面朝墙壁或坚固物体站立，距离大约一臂远。",
+      "将手放在与肩同高的墙壁或物体上。",
+      "一只脚向后退一步，保持脚跟平放在地面上。",
+      "稍微弯曲前膝盖并向前倾斜，保持后腿伸直。",
+      "您应该感觉到小腿肌肉有拉伸感。",
+      "保持拉伸 20-30 秒。",
+      "在另一条腿上重复。"
+    ]
+  },
+  {
+    "id": "1274",
+    "name": "deep push up",
+    "name_zh": "深俯卧撑",
+    "media": "raw:dataset_motion_1274",
+    "category": "chest",
+    "equipment": "dumbbell",
+    "target": "pectorals",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "从高平板支撑位置开始，双手分开略宽于肩宽，身体呈一条直线。",
+      "弯曲肘部，使胸部靠近地面，使胸部靠近地面。",
+      "推动手掌以伸展手臂并返回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1399",
+    "name": "bench dip on floor",
+    "name_zh": "地板俯卧撑",
+    "media": "raw:dataset_motion_1399",
+    "category": "upper arms",
+    "equipment": "body weight",
+    "target": "triceps",
+    "muscle_group": "chest",
+    "secondary_muscles": [
+      "chest",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "坐在长凳或椅子的边缘，双手抓住边缘，手指指向前方。",
+      "将臀部滑离长凳，用手支撑体重。",
+      "弯曲肘部降低身体，直到上臂与地板平行。",
+      "伸直手臂，将自己推回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1276",
+    "name": "dumbbell decline one arm fly",
+    "name_zh": "哑铃下斜单臂飞鸟",
+    "media": "raw:dataset_motion_1276",
+    "category": "chest",
+    "equipment": "dumbbell",
+    "target": "pectorals",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "躺在斜凳上，一只手拿着哑铃，将其放在大腿上。",
+      "用大腿帮助举起哑铃，将其举至与肩同宽，手掌朝向躯干。",
+      "旋转手腕，使手掌朝前。",
+      "吸气时，将哑铃慢慢降低到一侧，直到感觉到胸部有拉伸感。",
+      "呼气并使用胸部肌肉将哑铃拉回到起始位置。",
+      "重复所需的重复次数，然后换臂。"
+    ]
+  }
+]

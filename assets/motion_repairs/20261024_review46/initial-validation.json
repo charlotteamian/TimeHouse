@@ -1,0 +1,15 @@
+{
+  "batch_id": "20261024_review46",
+  "status": "passed",
+  "serial": "emulator-5554",
+  "apk": "build/timehouse-debug.apk",
+  "checks": 10,
+  "visually_reviewed": [
+    "1669"
+  ],
+  "dataset_sha256": "34d149c2f663186e27d430721143f2b3550ae2f4c59d3be509565f62e0398ada",
+  "media_sha256": {
+    "1669": "8f47df569b2bd26014e565d12c35107dd94b2dd1c11791991abfe8ccca70012c"
+  },
+  "notes": "Inspected fixed contact-fixed-1.jpg and emulator playback contact sheet 1669-playback-contact.jpg; pure white background, smooth one-arm seated hammer curl loop, all six bench/feet/head anchors stationary."
+}

@@ -1,0 +1,214 @@
+[
+  {
+    "id": "3221",
+    "name": "half knee bends (male)",
+    "name_zh": "半膝弯（男）",
+    "media": "raw:dataset_motion_3221",
+    "category": "cardio",
+    "equipment": "body weight",
+    "target": "cardiovascular system",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "glutes"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立。",
+      "弯曲膝盖并降低身体，就像坐回椅子上一样。",
+      "保持挺胸，将体重放在脚后跟上。",
+      "在底部停顿片刻，然后推动脚后跟回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2133",
+    "name": "farmers walk",
+    "name_zh": "农夫行走",
+    "media": "raw:dataset_motion_2133",
+    "category": "upper legs",
+    "equipment": "dumbbell",
+    "target": "quads",
+    "muscle_group": "calves",
+    "secondary_muscles": [
+      "calves",
+      "forearms",
+      "core"
+    ],
+    "instructions_zh": [
+      "站直，双手各握一个哑铃，手掌朝向身体两侧。",
+      "保持背部挺直，肩膀向后。",
+      "向前迈出小步，控制住，保持直立姿势。",
+      "继续步行所需的距离或时间。",
+      "最后，停止行走并小心地将哑铃降低到身体两侧。"
+    ]
+  },
+  {
+    "id": "3222",
+    "name": "semi squat jump (male)",
+    "name_zh": "半蹲跳（男）",
+    "media": "raw:dataset_motion_3222",
+    "category": "cardio",
+    "equipment": "body weight",
+    "target": "cardiovascular system",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立。",
+      "弯曲膝盖并将身体降低至蹲姿。",
+      "爆发性跳跃，伸展臀部和膝盖，同时摆动手臂以获得动力。",
+      "脚掌轻轻落地，然后立即进入下一个重复动作。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2136",
+    "name": "dumbbell cuban press v. 2",
+    "name_zh": "哑铃古巴推举（第二式）",
+    "media": "raw:dataset_motion_2136",
+    "category": "shoulders",
+    "equipment": "dumbbell",
+    "target": "delts",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "upper back"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，双手各握一个哑铃，与肩同高，手掌朝下。",
+      "保持核心收紧，背部挺直，将哑铃垂直推过头顶，直到手臂完全伸展。",
+      "旋转手腕，使手掌朝前。",
+      "将哑铃放回至肩膀高度，将手腕旋转回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3223",
+    "name": "star jump (male)",
+    "name_zh": "星跳（男）",
+    "media": "raw:dataset_motion_3223",
+    "category": "cardio",
+    "equipment": "body weight",
+    "target": "cardiovascular system",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，双臂放在身体两侧。",
+      "稍微弯曲膝盖并爆发性地跳起来。",
+      "跳跃时，张开双腿，将手臂向两侧伸展，与身体形成星形。",
+      "膝盖轻轻弯曲，脚掌轻轻着地。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2137",
+    "name": "dumbbell arnold press",
+    "name_zh": "哑铃阿诺德推举",
+    "media": "raw:dataset_motion_2137",
+    "category": "shoulders",
+    "equipment": "dumbbell",
+    "target": "delts",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "upper chest"
+    ],
+    "instructions_zh": [
+      "坐在有背部支撑的长凳上，双手各握一个哑铃，与肩同高，手掌朝向身体，肘部弯曲。",
+      "向上推哑铃，直到手臂完全伸展，手掌朝前。",
+      "抬起时旋转手腕，使手掌在动作的最高点朝前。",
+      "在最高点暂停片刻，然后慢慢将哑铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3224",
+    "name": "jack jump (male)",
+    "name_zh": "跳箱（男）",
+    "media": "raw:dataset_motion_3224",
+    "category": "cardio",
+    "equipment": "body weight",
+    "target": "cardiovascular system",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "calves"
+    ],
+    "instructions_zh": [
+      "双脚并拢站立，双臂放在身体两侧。",
+      "跳起来，分开双脚，将手臂举过头顶。",
+      "当你落地时，迅速跳回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2143",
+    "name": "dumbbell standing around world",
+    "name_zh": "哑铃站立绕圈",
+    "media": "raw:dataset_motion_2143",
+    "category": "shoulders",
+    "equipment": "dumbbell",
+    "target": "delts",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，每只手各握一个哑铃。",
+      "将手臂伸直至两侧，与肩同高，手掌朝下。",
+      "保持手臂伸直，慢慢地以圆周运动旋转手臂，将哑铃放在身体前面，然后举过头顶。",
+      "继续圆周运动，将哑铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3231",
+    "name": "two toe touch (male)",
+    "name_zh": "两脚触碰（男）",
+    "media": "raw:dataset_motion_3231",
+    "category": "back",
+    "equipment": "body weight",
+    "target": "spine",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings",
+      "glutes"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，双臂向两侧伸展。",
+      "腰部向前弯曲，保持背部挺直，膝盖稍微弯曲。",
+      "双手向下伸向脚趾，保持双腿伸直。",
+      "在底部停顿片刻，然后慢慢回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2188",
+    "name": "dumbbell seated triceps extension",
+    "name_zh": "哑铃坐姿三头肌伸展",
+    "media": "raw:dataset_motion_2188",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "triceps",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "坐在长凳上，背部挺直，双脚平放在地上。",
+      "双手握住哑铃，双臂伸直举过头顶。",
+      "弯曲肘部，将哑铃放在脑后，保持上臂靠近耳朵。",
+      "暂停片刻，然后伸直手臂，回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  }
+]

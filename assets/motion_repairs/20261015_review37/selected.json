@@ -1,0 +1,222 @@
+[
+  {
+    "id": "1468",
+    "name": "crab twist toe touch",
+    "name_zh": "螃蟹扭腰触脚",
+    "media": "raw:dataset_motion_1468",
+    "category": "waist",
+    "equipment": "body weight",
+    "target": "abs",
+    "muscle_group": "obliques",
+    "secondary_muscles": [
+      "obliques",
+      "hip flexors"
+    ],
+    "instructions_zh": [
+      "首先坐在地上，膝盖弯曲，双脚平放在地板上。",
+      "将双手放在身后，手指指向脚部，并将臀部抬离地面。",
+      "将一条腿伸直到您面前，同时将另一只手伸向脚趾。",
+      "返回起始位置并在另一侧重复。",
+      "继续交替进行所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1292",
+    "name": "dumbbell one leg fly on exercise ball",
+    "name_zh": "哑铃单腿飞鸟（球上）",
+    "media": "raw:dataset_motion_1292",
+    "category": "chest",
+    "equipment": "dumbbell",
+    "target": "pectorals",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "triceps"
+    ],
+    "instructions_zh": [
+      "坐在健身球上，双手各握一个哑铃，手掌相对。",
+      "将一只脚放在地面上，并将另一条腿伸直到您面前。",
+      "稍微向前倾，将手臂向两侧伸出，保持肘部轻微弯曲。",
+      "慢慢地将哑铃向两侧放低，感觉胸部有拉伸感。",
+      "在底部暂停片刻，然后挤压胸部肌肉，使哑铃回到起始位置。",
+      "重复所需的重复次数，然后换腿并重复。"
+    ]
+  },
+  {
+    "id": "1471",
+    "name": "inchworm",
+    "name_zh": "毛毛虫爬行",
+    "media": "raw:dataset_motion_1471",
+    "category": "waist",
+    "equipment": "body weight",
+    "target": "abs",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "hamstrings"
+    ],
+    "instructions_zh": [
+      "从站立位置开始，双脚分开与臀部同宽。",
+      "腰部向前弯曲，双手放在身前的地面上。",
+      "双手向前移动，直到处于高位平板支撑位置，身体从头到脚成一条直线。",
+      "暂停片刻，然后将双手移回双脚，尽可能保持双腿伸直。",
+      "一旦你的手到达你的脚，站回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1293",
+    "name": "dumbbell press on exercise ball",
+    "name_zh": "哑铃推举（球上）",
+    "media": "raw:dataset_motion_1293",
+    "category": "chest",
+    "equipment": "dumbbell",
+    "target": "pectorals",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "triceps"
+    ],
+    "instructions_zh": [
+      "坐在健身球上，双脚平放在地上，双手各握哑铃，放在大腿上。",
+      "慢慢地向前移动双脚，滚动健身球，直到下背部受到球的支撑并且膝盖呈 90 度角。",
+      "将哑铃举至肩高，手掌朝前。",
+      "向上推哑铃，直到手臂完全伸展。",
+      "在最高点暂停片刻，然后慢慢将哑铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1472",
+    "name": "forward jump",
+    "name_zh": "向前跳",
+    "media": "raw:dataset_motion_1472",
+    "category": "upper legs",
+    "equipment": "body weight",
+    "target": "quads",
+    "muscle_group": "calves",
+    "secondary_muscles": [
+      "calves",
+      "hamstrings",
+      "glutes"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立。",
+      "弯曲膝盖并将身体降低至蹲姿。",
+      "向后摆动手臂以获得动力。",
+      "爆发性地向前跳跃，伸展臀部、膝盖和脚踝。",
+      "脚掌轻轻落地，然后立即进入下一个跳跃。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1294",
+    "name": "dumbbell pullover hip extension on exercise ball",
+    "name_zh": "哑铃拉下推髋部伸展（球上）",
+    "media": "raw:dataset_motion_1294",
+    "category": "chest",
+    "equipment": "dumbbell",
+    "target": "pectorals",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "shoulders",
+      "core"
+    ],
+    "instructions_zh": [
+      "坐在健身球上，双脚平放在地面上，哑铃放在大腿上。",
+      "慢慢地向前移动你的脚，将健身球沿着你的背部滚动，直到你的头部、颈部和上背部得到球的支撑。",
+      "双手握住哑铃，将手臂伸直至胸部上方，肘部保持轻微弯曲。",
+      "将哑铃放在脑后，保持手臂伸直并保持控制。",
+      "暂停片刻，然后将哑铃举回到起始位置。",
+      "在保持双臂伸展的同时，将臀部抬离地面，挤压臀肌并启动核心肌群。",
+      "将臀部放低至起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1473",
+    "name": "backward jump",
+    "name_zh": "后跳",
+    "media": "raw:dataset_motion_1473",
+    "category": "upper legs",
+    "equipment": "body weight",
+    "target": "quads",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings",
+      "glutes",
+      "calves"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立。",
+      "稍微弯曲膝盖，向后跳跃，用双脚蹬地。",
+      "脚掌轻轻着地，弯曲膝盖以吸收冲击力。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1295",
+    "name": "dumbbell pullover on exercise ball",
+    "name_zh": "哑铃拉下推（球上）",
+    "media": "raw:dataset_motion_1295",
+    "category": "chest",
+    "equipment": "dumbbell",
+    "target": "pectorals",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "latissimus dorsi"
+    ],
+    "instructions_zh": [
+      "坐在健身球上，双手握住哑铃，置于胸前，双臂伸展。",
+      "慢慢地将哑铃放到脑后，同时保持手臂伸直。",
+      "暂停片刻，然后将哑铃举回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1476",
+    "name": "one leg squat",
+    "name_zh": "单腿深蹲",
+    "media": "raw:dataset_motion_1476",
+    "category": "upper legs",
+    "equipment": "body weight",
+    "target": "glutes",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立。",
+      "向前伸出一条腿，使其离开地面。",
+      "弯曲站立的腿并降低身体，就像坐回椅子上一样。",
+      "保持挺胸、背部挺直。",
+      "推动脚后跟返回到起始位置。",
+      "换另一条腿重复上述步骤。"
+    ]
+  },
+  {
+    "id": "1328",
+    "name": "dumbbell lying rear delt row",
+    "name_zh": "哑铃平躺后三角划船",
+    "media": "raw:dataset_motion_1328",
+    "category": "back",
+    "equipment": "dumbbell",
+    "target": "upper back",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "biceps"
+    ],
+    "instructions_zh": [
+      "脸朝下躺在平坦的长凳上，每只手各握一个哑铃，手掌朝内。",
+      "将手臂伸直向下伸向地板，肘部保持轻微弯曲。",
+      "调动背部肌肉，将哑铃举向胸部，将肩胛骨挤压在一起。",
+      "在顶部停顿片刻，然后慢慢将哑铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  }
+]

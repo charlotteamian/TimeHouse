@@ -1,0 +1,219 @@
+#!/usr/bin/env python3
+"""Author Batch 51 review updates, pending notes, sources, code baseline, and QA spec (all 10 deferred)."""
+from pathlib import Path
+import json
+import hashlib
+
+B = Path(__file__).resolve().parent
+R = B.parents[2]
+BATCH_ID = "20261029_review51"
+VERSION = "1.2.56"
+VERSION_CODE = 2026102901
+
+inspected = ["3204", "1737", "3212", "1738", "3213", "1739", "3214", "1740", "3215", "1741"]
+review_candidates = []
+registered_media = []
+
+definition_updates = {
+    "3204": {
+        "name_zh": "直臂过顶全仰卧起坐",
+        "category": "waist",
+        "equipment": "body weight",
+        "target": "abs",
+        "muscle_group": "",
+        "secondary_muscles": ["hip flexors", "lower back"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "仰卧于平坦地面或瑜伽垫上，双膝弯曲约 90 度、双脚分开平踩地面，双臂伸直向头顶后方平举延伸。",
+            "收紧腹部核心，呼气顺势保持双臂伸直前带，卷曲起肩背与整段躯干坐直并举臂过顶。",
+            "在坐起顶点略作控制后，吸气有控制地逐节向后缓慢仰躺回直臂起始位，重复规定次数。",
+        ],
+    },
+    "1737": {
+        "name_zh": "平凳坐姿俯身双臂哑铃臂屈伸",
+        "category": "upper arms",
+        "equipment": "dumbbell",
+        "target": "triceps",
+        "muscle_group": "triceps",
+        "secondary_muscles": ["shoulders"],
+        "required_equipment_zh": ["平板训练凳"],
+        "instructions_zh": [
+            "端坐在稳固的平板训练凳边缘，双脚分开平踩地面，双手对握各持一只哑铃置于脑后上方、屈髋微俯身。",
+            "保持上臂稳定靠近头部两侧、肘尖朝上方固定不动，核心收紧、背部挺直。",
+            "呼气集中肱三头肌发力向上推伸直双前臂至哑铃举过头顶斜上方。",
+            "在顶点略作停顿后吸气缓慢屈肘沿原轨下放回脑后拉伸位，重复规定次数。",
+        ],
+    },
+    "3212": {
+        "name_zh": "站姿直腿俯身触脚趾",
+        "category": "upper legs",
+        "equipment": "body weight",
+        "target": "glutes",
+        "muscle_group": "hamstrings",
+        "secondary_muscles": ["calves"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚分开与髋或肩同宽直立站稳，双臂自然垂于体侧，膝盖保持微屈解锁不过度反弓。",
+            "保持背部平直或顺势从髋部折髋向前俯身，将臀部微向后推并将双手垂直向下伸向脚趾前侧。",
+            "在腘绳肌与臀后侧感到明显拉伸的位置短暂停顿，随后呼气蹬地伸髋站起回到直立起始位，重复规定次数。",
+        ],
+    },
+    "1738": {
+        "name_zh": "平凳坐姿反握单臂过顶哑铃臂屈伸",
+        "category": "upper arms",
+        "equipment": "dumbbell",
+        "target": "triceps",
+        "muscle_group": "triceps",
+        "secondary_muscles": ["shoulders"],
+        "required_equipment_zh": ["平板训练凳"],
+        "instructions_zh": [
+            "端坐在稳固的平板训练凳上，双脚分开平踩地面，躯干挺直、非工作手轻扶同侧大腿维持稳定。",
+            "工作侧单手正/反握一只哑铃举过头顶至手臂伸直，保持上臂靠近耳侧竖直固定不动。",
+            "吸气有控制地屈肘将哑铃向脑后下方低放至肱三头肌充分拉伸。",
+            "呼气集中肱三头肌发力伸肘推回过顶垂直起始位，完成规定次数后换臂练习。",
+        ],
+    },
+    "3213": {
+        "name_zh": "宽距左右侧屈交替触脚趾",
+        "category": "waist",
+        "equipment": "body weight",
+        "target": "abs",
+        "muscle_group": "obliques",
+        "secondary_muscles": ["hip flexors"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚宽距分开站稳，双臂向身体两侧平举伸展成一字形、核心轻收。",
+            "保持下肢稳定，呼气向一侧俯身旋转，将对侧手向下斜伸触向同/对侧脚面，另一臂顺势向斜上方延伸。",
+            "吸气发力起身回中立伸展位，再交替向相反方向侧屈触脚，左右交替完成规定次数。",
+        ],
+    },
+    "1739": {
+        "name_zh": "站姿俯身交替哑铃后屈伸",
+        "category": "upper arms",
+        "equipment": "dumbbell",
+        "target": "triceps",
+        "muscle_group": "triceps",
+        "secondary_muscles": ["shoulders"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚分开与肩同宽站立，微屈膝并屈髋俯身使背部平直，双手对握各持一只哑铃并将大臂抬平夹近躯干侧面。",
+            "保持非工作侧哑铃于体侧预备位固定不动，呼气时单侧向后上方伸直前臂挤压肱三头肌。",
+            "在后伸顶峰短暂停顿后吸气缓慢屈肘放回预备位，随后换另一侧手臂交替后伸重复。",
+        ],
+    },
+    "3214": {
+        "name_zh": "单腿单臂交替前屈触脚趾",
+        "category": "upper legs",
+        "equipment": "body weight",
+        "target": "glutes",
+        "muscle_group": "hamstrings",
+        "secondary_muscles": ["quadriceps", "calves"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚分开站稳，双臂向两侧平展伸直预备、核心收紧。",
+            "一侧站立腿膝关节微屈踩稳地面，屈髋向前俯身并将对侧直腿顺势向后上方高抬延伸，同时同/对侧手垂直下探触向接地脚尖附近。",
+            "控制骨盆正对地面后发力伸髋站起恢复双脚直立展臂位，随后换对侧站立腿交替重复，或单侧完成规定次数后换边。",
+        ],
+    },
+    "1740": {
+        "name_zh": "扶膝俯身单臂哑铃后屈伸",
+        "category": "upper arms",
+        "equipment": "dumbbell",
+        "target": "triceps",
+        "muscle_group": "triceps",
+        "secondary_muscles": ["shoulders"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚分开与肩同宽微屈膝站立，屈髋俯身保持背部挺直，非工作手轻扶同侧膝盖前侧稳定躯干。",
+            "工作手对握一只哑铃，将上臂抬高贴近躯干并固定上臂角度不变。",
+            "呼气集中肱三头肌发力向后伸直前臂，直到与躯干接近水平并在顶点短暂收紧。",
+            "吸气缓慢受控屈肘放回下垂屈臂位，完成一侧规定次数后换臂练习。",
+        ],
+    },
+    "3215": {
+        "name_zh": "站姿背后交叉臂俯身绕圈触脚趾",
+        "category": "upper legs",
+        "equipment": "body weight",
+        "target": "glutes",
+        "muscle_group": "hamstrings",
+        "secondary_muscles": ["quadriceps", "calves"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚宽于肩站稳、双臂向两侧平举展开预备，核心收紧。",
+            "微屈膝并折髋俯身，将双臂顺势向背后伸展并环绕交握拉伸，随后沿前方弧线向下伸直双臂触向双脚之间地面或脚趾。",
+            "短暂停顿后发力蹬地伸髋站起并还原展臂起始站姿，重复规定次数。",
+        ],
+    },
+    "1741": {
+        "name_zh": "站姿俯身双臂哑铃后屈伸",
+        "category": "upper arms",
+        "equipment": "dumbbell",
+        "target": "triceps",
+        "muscle_group": "triceps",
+        "secondary_muscles": ["shoulders"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚分开与肩同宽站立，微屈膝后屈髋俯身使背部平直，双手对握各持一只哑铃并将双侧大臂夹近躯干侧面。",
+            "保持上臂稳固不动，呼气时双臂同时发力向后上方伸直前臂，挤压双侧肱三头肌。",
+            "在顶峰位置短暂停顿后吸气缓慢屈肘放回预备垂臂位置，重复规定次数。",
+        ],
+    },
+}
+
+pending = {
+    "3204": "待修图 · 已去“（男）”更名为直臂过顶全仰卧起坐（核正腹肌主训并去重 hip flexors）；原图 F0 右缘(x=479)、F1/F3 左缘(x=0)双端贴边截断并见底部边缘残影，且坐起全程全身位移，待重制。",
+    "1737": "待修图 · 纠正原步骤误写的“向后伸直”为平凳坐姿俯身双臂哑铃臂屈伸（过顶前上方伸肘，核正肱三头肌主训与平板训练凳）；原图 F0 触底 y=479、F2 触顶 y=0 截断，且 F1/F2 头部与凳脚错位 5–10 px，待重制。",
+    "3212": "待修图 · 纠正错译“触膝”与“（男）”为站姿直腿俯身触脚趾（核正臀肌/腘绳肌主训并去重）；原图折髋俯身全过程头与双脚位置及重心跨帧大幅位移(head sc0=0.0000/0.0078)，待重制。",
+    "1738": "待修图 · 已定名为平凳坐姿反握单臂过顶哑铃臂屈伸（补全平板训练凳、肱三头肌主训与单侧计次）；原图 F0 哑铃触顶 y=0 且 F1 整体左偏 40 px，经 [(0,+2),(+40,+2),(0,+3),(+40,+2)] 配准平凳与双脚后 F1 面部仍独立偏移(-1,+2) px(res=2.24, sc0=0.7368)，待重制。",
+    "3213": "待修图 · 已去“（男）”并更名为宽距左右侧屈交替触脚趾（核正腹肌/腹斜肌主训）；原图 F1/F2 左脚相对右脚独立偏移达 +32 px 导致站距错位，待重制。",
+    "1739": "待修图 · 已规范为站姿俯身交替哑铃后屈伸（核正肱三头肌主训）；原图 F1 头部偏移(+20,+1)而双脚仅偏移(+8/+11,0)（差 9–12 px），F2 头部静止而双脚向左偏 -5..-10 px，待重制。",
+    "3214": "待修图 · 已去“（男）”并定名为单腿单臂交替前屈触脚趾（核正单侧计次及臀肌/腘绳肌主训）；原图单腿平衡交替全程支点脚左右漂移 -21..+8 px 且头部大幅升降，待重制。",
+    "1740": "待修图 · 已定名为扶膝俯身单臂哑铃后屈伸（核正肱三头肌主训、清除未汉化 back 字段并激活单侧计次）；原图 F2(0,0)极稳(min_sc0=0.9951)，但 F1 头部与近脚偏(-1,0)而扶膝手与远脚在(0,0)（hand_on_knee sc0=0.9198），无法同步突破 0.96，待重制。",
+    "3215": "待修图 · 已去“（男）”并定名为站姿背后交叉臂俯身绕圈触脚趾（核正臀肌/腘绳肌主训）；原图俯身绕圈全程双脚横向错位 -11..+32 px 且垂直高度显著变化，待重制。",
+    "1741": "待修图 · 已规范为站姿俯身双臂哑铃后屈伸（核正肱三头肌主训并清除未汉化 back 字段）；原图 F1(+1,0)虽稳，但 F2 头部偏(-2..3,+4..+5)而膝脚仅偏(0,+3)（(0,+3)时头部 res=3.16 px, sc0=0.8350；(-2,+4)时双脚 res=2.24 px, sc0=0.6088），待重制。",
+}
+
+before_reviews = json.loads((B / "before/exercise_reviews.json").read_text())
+reviewed_count = len(before_reviews["reviewed"])
+
+review_result = {
+    "batch": BATCH_ID,
+    "version": VERSION,
+    "version_code": VERSION_CODE,
+    "output": "build/review51-20261029",
+    "inspected": inspected,
+    "review_candidates": review_candidates,
+    "registered_media": registered_media,
+    "definition_updates": definition_updates,
+    "pending": pending,
+    "sources": {},
+    "review_notes": {},
+    "image_generation_calls": 0,
+    "generated_images_imported": 0,
+}
+(B / "review-result.json").write_text(json.dumps(review_result, ensure_ascii=False, indent=2) + "\n")
+
+code_paths = [
+    "app/src/main/java",
+    "scripts/validate_exercise_dataset.sh",
+    "scripts/build_android_debug.sh",
+]
+baseline = {}
+for rel in code_paths:
+    p = R / rel
+    if p.is_file():
+        baseline[rel] = hashlib.sha256(p.read_bytes()).hexdigest()
+    else:
+        for f in sorted(p.rglob("*")):
+            if f.is_file():
+                baseline[str(f.relative_to(R))] = hashlib.sha256(f.read_bytes()).hexdigest()
+(B / "code-baseline.json").write_text(json.dumps(baseline, ensure_ascii=False, indent=2) + "\n")
+
+qa_spec = {
+    "batch": BATCH_ID,
+    "expected_checks": 16,
+    "expected_reviewed_after_approve": reviewed_count,
+    "expected_per_side_ids": ["1738", "3214", "1740"],
+}
+(B / "qa-spec.json").write_text(json.dumps(qa_spec, ensure_ascii=False, indent=2) + "\n")
+print(f"Authored review-result.json, code-baseline.json, and qa-spec.json for {BATCH_ID}")

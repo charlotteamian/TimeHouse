@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "validated_at": "2026-11-12T22:53:47.235459+08:00",
+  "emulator": "emulator-5554",
+  "checks": 16,
+  "visually_reviewed": [],
+  "dataset_sha256": "40011f12a4039654d487ec9e625f4ad17472d0c6f65d40c95dcb3e60a038a3d4",
+  "media_sha256": {}
+}

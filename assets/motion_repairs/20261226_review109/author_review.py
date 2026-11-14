@@ -1,0 +1,234 @@
+#!/usr/bin/env python3
+"""Author Batch 109 review updates, pending notes, code baseline, and QA spec (0 candidates; 10 deferred)."""
+from pathlib import Path
+import json
+import hashlib
+
+B = Path(__file__).resolve().parent
+R = B.parents[2]
+BATCH_ID = "20261226_review109"
+VERSION = "1.2.114"
+VERSION_CODE = 2026122601
+
+inspected = ["1302", "1303", "1304", "1305", "1307", "1308", "1309", "1310", "1312", "1313"]
+review_candidates = []
+registered_media = []
+
+definition_updates = {
+    "1302": {
+        "name_zh": "站姿药球胸前推传",
+        "category": "chest",
+        "equipment": "medicine ball",
+        "target": "pectorals",
+        "muscle_group": "",
+        "secondary_muscles": ["shoulders", "triceps"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "面对坚固墙壁或训练搭档站立，双脚与肩同宽微屈膝，双手抱持药球收于胸口正前方。",
+            "挺胸沉肩锁紧核心，微屈髋蓄力准备。",
+            "呼气胸大肌与上肢爆发性协同发力，双臂向前爆发伸展将药球向正前方直线强力推出。",
+            "待球反弹回弹后顺势屈肘缓冲接球收回至胸前起始位，按计划重复。",
+        ],
+    },
+    "1303": {
+        "name_zh": "三点撑地单手药球推胸",
+        "category": "chest",
+        "equipment": "medicine ball",
+        "target": "pectorals",
+        "muscle_group": "",
+        "secondary_muscles": ["shoulders", "triceps", "core"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "采用三点撑地姿态准备：双脚分立踩实地面，非工作手手掌稳固撑地，工作手单手按压在药球上方，身体从头到脚保持平直。",
+            "吸气屈肘下沉胸部，核心与肩胛肌群发力维持骨盆与躯干水平不旋转。",
+            "呼气胸大肌与肱三头肌爆发性发力推击，将药球向前推出并充分伸展工作侧手臂。",
+            "受控收回药球复位恢复三点撑地起始位，单侧完成计划次数后换边重复。",
+        ],
+    },
+    "1304": {
+        "name_zh": "站姿药球连续推胸",
+        "category": "chest",
+        "equipment": "medicine ball",
+        "target": "pectorals",
+        "muscle_group": "",
+        "secondary_muscles": ["triceps", "shoulders"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "面对坚固墙壁站立，双脚与肩同宽微屈膝，双手将药球持于胸口水平位置。",
+            "挺胸沉肩收腹，屈髋微蓄力准备。",
+            "呼气胸大肌与上肢爆发性发力，双臂向前迅速推出药球。",
+            "回接后顺势缓冲并连续不停顿地衔接下一次推胸发力，保持流畅节奏完成计划次数。",
+        ],
+    },
+    "1305": {
+        "name_zh": "站姿药球单次推胸",
+        "category": "chest",
+        "equipment": "medicine ball",
+        "target": "pectorals",
+        "muscle_group": "",
+        "secondary_muscles": ["triceps", "shoulders"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "面对坚固墙壁站立，双脚与肩同宽微屈膝，双手将药球抱持于胸前中心位置。",
+            "挺胸沉肩锁死核心，做好单次最大发力蓄力准备。",
+            "呼气胸大肌全力爆发发力，双臂将药球向正前方直线强力推出。",
+            "收回接稳后彻底停顿 1 秒重整发力姿态，再进行下一次单次推掷，按计划重复。",
+        ],
+    },
+    "1307": {
+        "name_zh": "半圆平衡球俯卧撑",
+        "category": "chest",
+        "equipment": "bosu ball",
+        "target": "pectorals",
+        "muscle_group": "",
+        "secondary_muscles": ["triceps", "shoulders", "core"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "将半圆平衡球球面向下、平板面朝上放置于防滑地面，双手稳固握持半圆平衡球外沿两侧。",
+            "双腿向后伸直并拢前脚掌撑地，核心与臀部收紧保持身体平直。",
+            "吸气核心稳定对抗球面晃动，受控屈肘下放胸部靠近平衡球表面，双肘微内收。",
+            "呼气胸大肌与肱三头肌强力推起身体恢复至起始支撑位，按计划重复。",
+        ],
+    },
+    "1308": {
+        "name_zh": "史密斯平凳宽握卧推",
+        "category": "chest",
+        "equipment": "smith machine",
+        "target": "pectorals",
+        "muscle_group": "",
+        "secondary_muscles": ["triceps", "shoulders"],
+        "required_equipment_zh": ["平板训练凳"],
+        "instructions_zh": [
+            "将平板训练凳水平摆放在史密斯机正中下方，仰卧躺实凳面使杠铃杆位于中胸正上方，双脚平踩地面。",
+            "采用宽于肩宽约 1.5 倍的宽握距正握杠铃杆，沉肩收胛锁紧核心并解锁安全挂钩。",
+            "吸气受控屈肘，沿着固定导轨将杠铃平稳下放至轻触胸骨中线位置，手腕保持中立。",
+            "呼气胸大肌强力收缩将杠铃垂直推起至双臂伸直微屈肘，按计划重复并在结束后锁回安全挂钩。",
+        ],
+    },
+    "1309": {
+        "name_zh": "史密斯下斜凳宽握卧推",
+        "category": "chest",
+        "equipment": "smith machine",
+        "target": "pectorals",
+        "muscle_group": "",
+        "secondary_muscles": ["triceps", "shoulders"],
+        "required_equipment_zh": ["带勾脚的下斜训练凳"],
+        "instructions_zh": [
+            "将带勾脚的下斜训练凳放置在史密斯机中央下方，双脚牢固卡入勾脚海绵滚筒后仰卧躺稳。",
+            "采用宽于肩宽的宽握距正握杠铃杆，沉肩收紧核心并解锁挂钩使杠铃位于下胸正上方。",
+            "吸气受控屈肘外展，将杠铃平稳下放至下胸部位置，保持肘腕垂直对齐。",
+            "呼气胸大肌下束强力收缩将杠铃推起回至起始高位，按计划重复并在结束后锁回安全挂钩。",
+        ],
+    },
+    "1310": {
+        "name_zh": "负重跳落窄宽交替俯卧撑",
+        "category": "chest",
+        "equipment": "weighted",
+        "target": "pectorals",
+        "muscle_group": "",
+        "secondary_muscles": ["triceps", "shoulders"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "背部稳固负重背心或杠铃片，采用双手与肩同宽的窄距俯卧撑高支位撑地，核心与臀肌全程收紧。",
+            "吸气屈肘下沉胸部至贴近地面，随后呼气胸大肌爆发性全力推地使双手短暂腾空离地。",
+            "在腾空瞬间迅速将双手向外横向展开落地成宽距俯卧撑姿态，顺势屈肘缓冲并下压到底。",
+            "再次爆发推地腾空将双手收拢恢复至窄距起始撑地位，在宽窄距之间交替连续完成计划次数。",
+        ],
+    },
+    "1312": {
+        "name_zh": "站姿前跨步药球推抛",
+        "category": "chest",
+        "equipment": "medicine ball",
+        "target": "pectorals",
+        "muscle_group": "",
+        "secondary_muscles": ["triceps", "shoulders", "core"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚与肩同宽站立，双手抱持药球置于胸口前方，挺胸沉肩锁紧核心。",
+            "向前迈出单侧弓箭步踏稳重心，顺势调动胸大肌与上肢爆发性发力将药球向正前方大力推出。",
+            "在球脱手后顺步前移接回反弹或下落的药球并缓冲屈膝卸力。",
+            "收回后换对侧腿前跨，左右交替流畅完成全部计划次数。",
+        ],
+    },
+    "1313": {
+        "name_zh": "器械坐姿胸托单臂划船",
+        "category": "back",
+        "equipment": "leverage machine",
+        "target": "upper back",
+        "muscle_group": "",
+        "secondary_muscles": ["biceps", "forearms", "lats"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "调整坐垫与胸托高度后面向器械坐稳，胸部紧贴前方胸托垫，双脚踩实踏板。",
+            "工作侧单手正握拉柄伸直手臂充分牵拉肩胛骨，躯干稳固贴紧靠垫不左右扭腰代偿。",
+            "呼气上背斜方肌中下束与菱形肌主导发力，单臂沿弧线将拉柄向体侧后方拉起并内收挤压肩胛。",
+            "在终点顶峰收缩挤压背部停顿 1 秒，吸气匀速受控伸臂放回起始位，单侧完成计划次数后换边重复。",
+        ],
+    },
+}
+
+pending = {
+    "1302": "待修图 · 规范药球传球为站姿药球胸前推传；原素材为仅 2 帧的实景健身房照片而非 4 帧解剖风格循环图，待重制。",
+    "1303": "待修图 · 规范三点撑地单手药球推胸并激活单侧计次；原动图仅 2 帧且右缘药球被裁切、带地面透视线，待重制为标准 4 帧循环图。",
+    "1304": "待修图 · 消除多反应直译规范为站姿药球连续推胸；原动图 10 帧且前 3 帧近似静止，待重制为标准 4 帧循环图。",
+    "1305": "待修图 · 消除单反应直译规范为站姿药球单次推胸；原动图 10 帧且帧率不合规，待重制为标准 4 帧循环图。",
+    "1307": "待修图 · 保留纯中文半圆平衡球俯卧撑命名；原图 4 帧存在第 1 帧平衡球位移及四边触边裁切问题，待重制合规四帧。",
+    "1308": "待修图 · 规范平凳宽握卧推并补全平板训练凳支持器械；原动图 10 帧且四边机架裁切，待重制为标准 4 帧循环图。",
+    "1309": "待修图 · 规范下斜凳宽握卧推并补全带勾脚的下斜训练凳支持器械；原动图仅 2 帧且器械边缘裁切，待重制为标准 4 帧循环图。",
+    "1310": "待修图 · 消除窄宽交替落撑错译规范为负重跳落窄宽交替俯卧撑；原图仅 2 帧且底边存在额外裁切头部杂影，待重制。",
+    "1312": "待修图 · 消除跑动释放直译规范为站姿前跨步药球推抛；原动图仅 2 帧且缺乏完整回收过渡，待重制为标准 4 帧循环图。",
+    "1313": "待修图 · 规范单侧杠杆划船为器械坐姿胸托单臂划船并校准上背主训肌群；原动图仅 2 帧且右缘配重片裁切，待重制。",
+}
+
+sources = {}
+review_notes = {}
+
+before_reviews = json.loads((B / "before/exercise_reviews.json").read_text())
+reviewed_count = len(before_reviews["reviewed"]) + len(review_candidates)
+
+review_result = {
+    "batch": BATCH_ID,
+    "version": VERSION,
+    "version_code": VERSION_CODE,
+    "output": "build/review109-20261226",
+    "inspected": inspected,
+    "review_candidates": review_candidates,
+    "registered_media": registered_media,
+    "definition_updates": definition_updates,
+    "pending": pending,
+    "sources": sources,
+    "review_notes": review_notes,
+    "image_generation_calls": 0,
+    "generated_images_imported": 0,
+}
+(B / "review-result.json").write_text(json.dumps(review_result, ensure_ascii=False, indent=2) + "\n")
+
+code_paths = [
+    "app/src/main/java",
+    "scripts/validate_exercise_dataset.sh",
+    "scripts/build_android_debug.sh",
+]
+baseline = {}
+for rel in code_paths:
+    p = R / rel
+    if p.is_file():
+        baseline[rel] = hashlib.sha256(p.read_bytes()).hexdigest()
+    else:
+        for f in sorted(p.rglob("*")):
+            if f.is_file():
+                baseline[str(f.relative_to(R))] = hashlib.sha256(f.read_bytes()).hexdigest()
+(B / "code-baseline.json").write_text(json.dumps(baseline, ensure_ascii=False, indent=2) + "\n")
+
+qa_spec = {
+    "batch": BATCH_ID,
+    "expected_checks": 16,
+    "expected_reviewed_after_approve": reviewed_count,
+    "candidate_ids": [],
+    "candidate_required_equipment": {
+        "1308": ["平板训练凳"],
+        "1309": ["带勾脚的下斜训练凳"],
+    },
+    "expected_per_side_ids": ["1303", "1313"],
+}
+(B / "qa-spec.json").write_text(json.dumps(qa_spec, ensure_ascii=False, indent=2) + "\n")
+print(f"Authored review-result.json, code-baseline.json, and qa-spec.json for {BATCH_ID}")

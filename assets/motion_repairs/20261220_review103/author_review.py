@@ -1,0 +1,231 @@
+#!/usr/bin/env python3
+"""Author Batch 103 review updates, pending notes, code baseline, and QA spec (0 candidates; 10 deferred)."""
+from pathlib import Path
+import json
+import hashlib
+
+B = Path(__file__).resolve().parent
+R = B.parents[2]
+BATCH_ID = "20261220_review103"
+VERSION = "1.2.108"
+VERSION_CODE = 2026122001
+
+inspected = ["0983", "0984", "0985", "0986", "0987", "0988", "0989", "0990", "0991", "0992"]
+review_candidates = []
+registered_media = []
+
+definition_updates = {
+    "0983": {
+        "name_zh": "跪姿弹力带单臂下拉",
+        "category": "back",
+        "equipment": "band",
+        "target": "lats",
+        "muscle_group": "",
+        "secondary_muscles": ["biceps", "rhomboids"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "将弹力带一端固定在头顶上方高位锚点上，单膝或双膝跪在垫上，同侧或对侧手反握把手或带端。",
+            "单臂向斜上方充分伸展拉开背阔肌，挺胸沉肩，核心微紧维持躯干竖直稳定。",
+            "呼气主要由背阔肌集中收缩发力，屈肘顺畅将弹力带向下平稳拉向胸口体侧，肘尖主动内收靠近肋骨。",
+            "在下拉最低点顶峰收紧背阔肌停顿 1 秒，吸气匀速受控放慢手臂回弹至起始高位拉伸位，按计划完成单侧后换边重复。",
+        ],
+    },
+    "0984": {
+        "name_zh": "弹力带仰卧髋内旋",
+        "category": "upper legs",
+        "equipment": "band",
+        "target": "glutes",
+        "muscle_group": "",
+        "secondary_muscles": ["hamstrings", "quadriceps"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "仰卧在训练垫上，将阻力带套在双脚前脚掌或膝关节外侧，屈膝将双脚平踩地面或提拉靠近髋部。",
+            "下背部紧贴地面，保持骨盆中立稳定，深吸气蓄力准备。",
+            "呼气主要由臀部深层外展外旋肌群强力收缩发力，双膝克服弹力带阻力向外侧平稳展开，双脚脚内侧保持触地稳定。",
+            "在膝盖展开最宽点顶峰收缩挤压臀肌停顿 1 秒，吸气匀速受控让双膝缓慢并拢回至起始位，按计划重复。",
+        ],
+    },
+    "0985": {
+        "name_zh": "跪姿弹力带转体卷腹",
+        "category": "waist",
+        "equipment": "band",
+        "target": "abs",
+        "muscle_group": "",
+        "secondary_muscles": ["obliques"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "将弹力带固定在身后或侧后方腰胸高度锚点，双膝跪在训练垫上，双手全握弹力带收于耳后或胸前。",
+            "大腿与地面保持垂直，骨盆保持稳定中立不大幅晃动摆动。",
+            "呼气主要由腹直肌与腹斜肌协同强力向心收缩发力，向前下方卷屈躯干并受控侧向旋转，肘部向对侧大腿靠近。",
+            "在卷腹最深顶点顶峰收缩挤压腹肌停顿 1 秒，吸气匀速受控展开躯干回至跪立起始位，左右交替按计划重复。",
+        ],
+    },
+    "0986": {
+        "name_zh": "站姿弹力带单臂过头弯举",
+        "category": "upper arms",
+        "equipment": "band",
+        "target": "biceps",
+        "muscle_group": "",
+        "secondary_muscles": ["forearms", "shoulders"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚与肩同宽站立，单脚踩住弹力带底端，单手反握上方把手将大臂高举过头，肘部朝向天花板。",
+            "挺胸沉肩收腹，大臂在头侧垂直固定作为转动轴心，手腕保持中立锁死。",
+            "呼气主要由肱二头肌集中收缩发力，屈肘将前臂向肩膀后下方平稳弯举卷曲。",
+            "在弯举顶点顶峰收缩挤压二头肌停顿 1 秒，吸气匀速受控向上伸直前臂放回至过头起始位，按计划完成单侧后换边重复。",
+        ],
+    },
+    "0987": {
+        "name_zh": "弹力带单臂单腿分腿蹲",
+        "category": "upper legs",
+        "equipment": "band",
+        "target": "quads",
+        "muscle_group": "",
+        "secondary_muscles": ["glutes", "hamstrings"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "前后分腿站立，前脚平踩地面踩住弹力带中段，后脚脚尖点地或后脚脚背搭在后方矮凳上维持平衡。",
+            "单手持弹力带把手垂直提拉于体侧，另一手叉腰或前伸维持平衡，挺胸收紧核心。",
+            "吸气屈膝下蹲，躯干保持平直中立，前腿下蹲至大腿与地面接近平行，后膝下沉接近地面。",
+            "呼气主要由前腿股四头肌与臀大肌强力蹬地发力，垂直推起身体回至起始直立分腿位，在顶点顶峰收缩 1 秒，按计划完成单侧后换边重复。",
+        ],
+    },
+    "0988": {
+        "name_zh": "站姿弹力带单臂低位划船",
+        "category": "back",
+        "equipment": "band",
+        "target": "upper back",
+        "muscle_group": "",
+        "secondary_muscles": ["biceps", "shoulders"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "将弹力带固定在低位或腰部高度锚点，面对锚点微屈膝站立或前后弓步站立。",
+            "单手对握把手向前伸直手臂拉紧弹力带，上身挺胸微俯身保持脊柱平直中立。",
+            "呼气主要由上背肌群与背阔肌集中收缩发力，屈肘将把手平稳向腰侧后方拉动，主动后缩肩胛骨。",
+            "在划船顶点顶峰收缩挤压背部停顿 1 秒，吸气匀速受控放慢手臂向前伸展回至起始拉伸位，按计划完成单侧后换边重复。",
+        ],
+    },
+    "0989": {
+        "name_zh": "站姿弹力带单臂转体推胸",
+        "category": "chest",
+        "equipment": "band",
+        "target": "pectorals",
+        "muscle_group": "",
+        "secondary_muscles": ["shoulders", "triceps"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "将弹力带固定在胸部高度锚点，背向或斜背向锚点站立，前后分腿站立维持身体下盘稳固。",
+            "单手正握把手置于同侧胸前，大臂微张约 45 度，挺胸沉肩锁死核心。",
+            "呼气主要由胸大肌强力向心收缩发力，顺畅将把手向前水平推挤伸展，同时躯干微向对侧受控旋转协同发力。",
+            "在推胸最远顶点顶峰收缩挤压胸肌停顿 1 秒，吸气维持张力匀速受控收回手柄至胸侧起始位，按计划完成单侧后换边重复。",
+        ],
+    },
+    "0990": {
+        "name_zh": "坐姿弹力带单臂转体划船",
+        "category": "back",
+        "equipment": "band",
+        "target": "upper back",
+        "muscle_group": "",
+        "secondary_muscles": ["biceps", "shoulders"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "端坐在平凳或地面上，双腿前伸踩住弹力带中段或将弹力带固定在前方低位锚点上。",
+            "单手握住把手向前平伸拉紧弹力带，挺胸沉肩，背部挺直中立。",
+            "呼气主要由上背肌群与背阔肌发力，屈肘将把手平稳拉向身体同侧肋骨旁，同时上半身受控向拉手侧微转增加收缩幅度。",
+            "在划船顶点顶峰收缩挤压背肌停顿 1 秒，吸气匀速受控放回手臂至起始拉伸位，按计划完成单侧后换边重复。",
+        ],
+    },
+    "0991": {
+        "name_zh": "站姿弹力带俯身跨下伸髋",
+        "category": "upper legs",
+        "equipment": "band",
+        "target": "glutes",
+        "muscle_group": "",
+        "secondary_muscles": ["hamstrings", "lower back"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "将弹力带固定在身后地面低位锚点上，背对锚点站立，双脚与肩同宽跨过弹力带，双手全握把手穿过双腿之间拉紧。",
+            "向前迈步使弹力带产生初始拉力，双膝微屈，挺胸收紧核心背部平直。",
+            "吸气主要由屈髋铰链主导，臀部向后推送，躯干前倾俯身至与地面约 45 度，感受臀肌与大腿后侧充分拉伸。",
+            "呼气由臀大肌强力向心收缩发力，驱动髋关节前推挺髋直立，在站立顶点顶峰强力夹紧臀肌停顿 1 秒，按计划重复。",
+        ],
+    },
+    "0992": {
+        "name_zh": "弹力带仰卧推举起坐",
+        "category": "waist",
+        "equipment": "band",
+        "target": "abs",
+        "muscle_group": "",
+        "secondary_muscles": ["shoulders", "chest"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "仰卧在训练垫上，双膝弯曲约 90 度，双脚平踩地面，将弹力带从后背穿过并由双手正握带端置于胸前。",
+            "深吸气蓄力准备，核心肌群紧缩收紧。",
+            "呼气主要由腹直肌强力收缩发力，向上向前卷起上半身成坐姿，同时双手顺畅向上推举弹力带过头伸直手臂。",
+            "在坐姿推举顶点顶峰收缩挤压腹部停顿 1 秒，吸气匀速受控放慢下放下身与手臂回至平躺起始位，按计划重复。",
+        ],
+    },
+}
+
+pending = {
+    "0983": "待修图 · 规范跪姿单臂下拉姿态为跪姿弹力带单臂下拉；原动图帧时长不合规且背景杂色，待重制为标准 4 帧循环图。",
+    "0984": "待修图 · 规范仰卧髋展动作命名为弹力带仰卧髋内旋；原动图帧时长不合规且背景杂色，待重制为标准 4 帧循环图。",
+    "0985": "待修图 · 消除扭转卷腹直译规范为跪姿弹力带转体卷腹；原动图帧时长不合规且背景杂色，待重制为标准 4 帧循环图。",
+    "0986": "待修图 · 规范单臂弯举动作命名为站姿弹力带单臂过头弯举；原动图帧时长不合规且背景杂色，待重制为标准 4 帧循环图。",
+    "0987": "待修图 · 规范单腿分腿蹲动作为弹力带单臂单腿分腿蹲；原动图帧时长不合规且背景杂色，待重制为标准 4 帧循环图。",
+    "0988": "待修图 · 消除低划船直译规范为站姿弹力带单臂低位划船；原动图帧时长不合规且背景杂色，待重制为标准 4 帧循环图。",
+    "0989": "待修图 · 消除扭转胸推直译规范为站姿弹力带单臂转体推胸；原动图帧时长不合规且背景杂色，待重制为标准 4 帧循环图。",
+    "0990": "待修图 · 规范坐姿单臂划船为坐姿弹力带单臂转体划船；原动图帧时长不合规且背景杂色，待重制为标准 4 帧循环图。",
+    "0991": "待修图 · 纠正拉伸严重错译规范为站姿弹力带俯身跨下伸髋；原动图帧时长不合规且背景杂色，待重制为标准 4 帧循环图。",
+    "0992": "待修图 · 消除卷腹直译规范为弹力带仰卧推举起坐；原动图帧时长不合规且背景杂色，待重制为标准 4 帧循环图。",
+}
+
+sources = {}
+review_notes = {}
+
+before_reviews = json.loads((B / "before/exercise_reviews.json").read_text())
+reviewed_count = len(before_reviews["reviewed"]) + len(review_candidates)
+
+review_result = {
+    "batch": BATCH_ID,
+    "version": VERSION,
+    "version_code": VERSION_CODE,
+    "output": "build/review103-20261220",
+    "inspected": inspected,
+    "review_candidates": review_candidates,
+    "registered_media": registered_media,
+    "definition_updates": definition_updates,
+    "pending": pending,
+    "sources": sources,
+    "review_notes": review_notes,
+    "image_generation_calls": 0,
+    "generated_images_imported": 0,
+}
+(B / "review-result.json").write_text(json.dumps(review_result, ensure_ascii=False, indent=2) + "\n")
+
+code_paths = [
+    "app/src/main/java",
+    "scripts/validate_exercise_dataset.sh",
+    "scripts/build_android_debug.sh",
+]
+baseline = {}
+for rel in code_paths:
+    p = R / rel
+    if p.is_file():
+        baseline[rel] = hashlib.sha256(p.read_bytes()).hexdigest()
+    else:
+        for f in sorted(p.rglob("*")):
+            if f.is_file():
+                baseline[str(f.relative_to(R))] = hashlib.sha256(f.read_bytes()).hexdigest()
+(B / "code-baseline.json").write_text(json.dumps(baseline, ensure_ascii=False, indent=2) + "\n")
+
+qa_spec = {
+    "batch": BATCH_ID,
+    "expected_checks": 16,
+    "expected_reviewed_after_approve": reviewed_count,
+    "candidate_ids": [],
+    "candidate_required_equipment": {},
+    "expected_per_side_ids": ["0983", "0986", "0987", "0988", "0989", "0990"],
+}
+(B / "qa-spec.json").write_text(json.dumps(qa_spec, ensure_ascii=False, indent=2) + "\n")
+print(f"Authored review-result.json, code-baseline.json, and qa-spec.json for {BATCH_ID}")

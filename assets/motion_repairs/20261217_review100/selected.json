@@ -1,0 +1,217 @@
+[
+  {
+    "id": "0849",
+    "name": "weighted seated twist (on stability ball)",
+    "name_zh": "负重坐姿扭转（健身球上）",
+    "media": "raw:dataset_motion_0849",
+    "category": "waist",
+    "equipment": "weighted",
+    "target": "abs",
+    "muscle_group": "obliques",
+    "secondary_muscles": [
+      "obliques",
+      "lower back"
+    ],
+    "instructions_zh": [
+      "坐在稳定球上，双脚平放在地面上，膝盖弯曲成 90 度角。",
+      "双手靠近胸部握住杠铃片或哑铃。",
+      "启动你的核心并慢慢地将你的躯干旋转到一侧，保持臀部稳定。",
+      "旋转结束时暂停片刻，然后慢慢回到起始位置。",
+      "重复旋转到另一侧。",
+      "继续交替进行所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0850",
+    "name": "weighted side bend (on stability ball)",
+    "name_zh": "负重侧弯（健身球上）",
+    "media": "raw:dataset_motion_0850",
+    "category": "waist",
+    "equipment": "weighted",
+    "target": "abs",
+    "muscle_group": "obliques",
+    "secondary_muscles": [
+      "obliques",
+      "lower back"
+    ],
+    "instructions_zh": [
+      "坐在稳定球上，双脚分开与肩同宽，平放在地面上。",
+      "一只手握住重物，另一只手放在臀部上。",
+      "启动你的核心，慢慢向受重侧侧弯，保持背部挺直。",
+      "在底部停顿片刻，然后慢慢回到起始位置。",
+      "重复所需的重复次数，然后换边。"
+    ]
+  },
+  {
+    "id": "0851",
+    "name": "weighted sissy squat",
+    "name_zh": "负重坐姿深蹲",
+    "media": "raw:dataset_motion_0851",
+    "category": "upper legs",
+    "equipment": "weighted",
+    "target": "quads",
+    "muscle_group": "glutes",
+    "secondary_muscles": [
+      "glutes",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，脚趾稍微向外。",
+      "用双手将重物放在胸前，或将杠铃放在上背部。",
+      "保持挺胸，核心收紧，弯曲膝盖和臀部，慢慢降低身体。",
+      "继续降低，直到大腿与地面平行或尽可能低。",
+      "在底部停顿片刻，然后推动脚后跟回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0852",
+    "name": "weighted squat",
+    "name_zh": "负重深蹲",
+    "media": "raw:dataset_motion_0852",
+    "category": "upper legs",
+    "equipment": "weighted",
+    "target": "glutes",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，脚趾稍微向外。",
+      "将重物放在胸前或肩膀上。",
+      "收紧核心并保持挺胸，同时降低臀部和向后倾斜，就像坐在椅子上一样。",
+      "降低直到大腿与地面平行，或者尽可能降低到您能舒服的高度。",
+      "推动脚后跟站起来，在顶部挤压臀部。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0853",
+    "name": "weighted standing curl",
+    "name_zh": "负重站姿弯举",
+    "media": "raw:dataset_motion_0853",
+    "category": "upper arms",
+    "equipment": "weighted",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，双手各握一个哑铃，手掌朝前。",
+      "保持肘部靠近躯干，并在将哑铃弯举至肩部水平时呼气。",
+      "在顶部暂停片刻，然后吸气，慢慢将重量放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0854",
+    "name": "weighted standing hand squeeze",
+    "name_zh": "负重站姿握力",
+    "media": "raw:dataset_motion_0854",
+    "category": "lower arms",
+    "equipment": "weighted",
+    "target": "forearms",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "triceps"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，每只手各握一个重物。",
+      "将双臂伸直在身前，手掌相对。",
+      "尽可能用力将双手握在一起，用力接触前臂。",
+      "按住挤压几秒钟，然后松开。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0856",
+    "name": "weighted svend press",
+    "name_zh": "负重斯文德推举",
+    "media": "raw:dataset_motion_0856",
+    "category": "chest",
+    "equipment": "weighted",
+    "target": "pectorals",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "triceps"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，双手将杠铃片放在胸前。",
+      "保持肘部稍微弯曲，手掌相对。",
+      "将配重板直接压在您面前，完全伸展双臂。",
+      "动作结束时暂停片刻，然后慢慢将配重板放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0857",
+    "name": "wheel rollerout",
+    "name_zh": "轮式滚出",
+    "media": "raw:dataset_motion_0857",
+    "category": "waist",
+    "equipment": "wheel roller",
+    "target": "abs",
+    "muscle_group": "lower back",
+    "secondary_muscles": [
+      "lower back"
+    ],
+    "instructions_zh": [
+      "跪在地板上，将滚轮放在您面前。",
+      "将双手放在滚轮的手柄上，并将手臂伸直至前方。",
+      "调动你的核心肌肉，慢慢向前滚动轮子，保持背部挺直，腹肌紧张。",
+      "继续向前滚动，直到身体完全伸展并且手臂举过头顶。",
+      "暂停片刻，然后慢慢地将轮子向膝盖方向滚动，保持控制并保持腹肌接合。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0859",
+    "name": "wrist rollerer",
+    "name_zh": "手腕滚轮",
+    "media": "raw:dataset_motion_0859",
+    "category": "lower arms",
+    "equipment": "weighted",
+    "target": "forearms",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "triceps"
+    ],
+    "instructions_zh": [
+      "将重物固定在绳子或杆的一端。",
+      "用双手握住绳子或杆的另一端，手掌朝下。",
+      "双脚分开与肩同宽站立，双臂完全伸展在身前。",
+      "弯曲手腕，慢慢地将重物向上滚动到手上。",
+      "在顶部暂停片刻，然后慢慢将重量放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0860",
+    "name": "cable kickback",
+    "name_zh": "绳索后推",
+    "media": "raw:dataset_motion_0860",
+    "category": "upper arms",
+    "equipment": "cable",
+    "target": "triceps",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "面向缆绳机站立，双脚与肩同宽。",
+      "用右手握住电缆手柄并后退以在电缆中产生张力。",
+      "稍微弯曲膝盖，髋部向前转动，保持背部挺直。",
+      "保持上臂靠近身体，肘部弯曲成 90 度角。",
+      "向后伸展前臂，完全伸直手臂。",
+      "暂停片刻，然后慢慢回到起始位置。",
+      "重复所需的重复次数，然后换边。"
+    ]
+  }
+]

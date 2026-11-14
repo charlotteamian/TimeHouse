@@ -1,0 +1,216 @@
+[
+  {
+    "id": "1644",
+    "name": "cable squatting curl",
+    "name_zh": "绳索深蹲弯举",
+    "media": "raw:dataset_motion_1644",
+    "category": "upper arms",
+    "equipment": "cable",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "将电缆手柄连接到电缆机器上的最低设置。",
+      "面向机器站立，双脚分开与肩同宽。",
+      "反手握住电缆手柄，手掌朝上，手臂完全伸展。",
+      "将身体降低至蹲姿，保持背部挺直，膝盖位于脚趾后面。",
+      "当你蹲下时，将电缆手柄卷向肩膀，保持肘部靠近身体两侧。",
+      "在弯举的顶部暂停片刻，挤压二头肌。",
+      "慢慢地将电缆手柄放回起始位置，完全伸展双臂。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1645",
+    "name": "cable two arm curl on incline bench",
+    "name_zh": "绳索斜板双臂弯举",
+    "media": "raw:dataset_motion_1645",
+    "category": "upper arms",
+    "equipment": "cable",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "坐在倾斜的长凳上，背部靠在垫子上，双脚平放在地面上。",
+      "反手握住电缆手柄，手掌朝上，手臂完全伸展。",
+      "保持上臂静止，呼气并将手柄向肩膀弯曲，同时收缩二头肌。",
+      "在动作的最高点暂停片刻，挤压你的二头肌。",
+      "吸气，慢慢将手柄放回起始位置，充分伸展双臂。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1682",
+    "name": "ez bar seated close grip concentration curl",
+    "name_zh": "曲杆坐姿窄握集中弯举",
+    "media": "raw:dataset_motion_1682",
+    "category": "upper arms",
+    "equipment": "ez barbell",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "坐在长凳上，双脚平放在地面上，反手握住 EZ 杠铃。",
+      "将肘部放在大腿内侧、膝盖上方。",
+      "将杠铃向上弯向肩膀，同时保持上臂静止。",
+      "在动作的最高点挤压二头肌，然后慢慢将杠铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1683",
+    "name": "smith machine bicep curl",
+    "name_zh": "史密斯器械弯举",
+    "media": "raw:dataset_motion_1683",
+    "category": "upper arms",
+    "equipment": "smith machine",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "将史密斯机杆的高度调整到腰部水平。",
+      "面对史密斯机站立，双脚与肩同宽。",
+      "反手握住杠铃，双手间距略大于肩宽。",
+      "保持肘部靠近身体两侧，上臂保持静止。",
+      "呼气并将杠铃向上卷向肩膀，收缩二头肌。",
+      "在动作的最高点暂停片刻，挤压你的二头肌。",
+      "吸气并慢慢将杠铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1701",
+    "name": "medicine ball close grip push up",
+    "name_zh": "药球窄握俯卧撑",
+    "media": "raw:dataset_motion_1701",
+    "category": "upper arms",
+    "equipment": "medicine ball",
+    "target": "triceps",
+    "muscle_group": "chest",
+    "secondary_muscles": [
+      "chest",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "从高平板支撑位置开始，双手放在健身球上，距离与肩同宽。",
+      "弯曲肘部，使肘部靠近身体两侧，将身体降低到地面。",
+      "推回起始位置，完全伸展双臂。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1705",
+    "name": "squat on bosu ball",
+    "name_zh": "博苏球深蹲",
+    "media": "raw:dataset_motion_1705",
+    "category": "upper legs",
+    "equipment": "bosu ball",
+    "target": "quads",
+    "muscle_group": "glutes",
+    "secondary_muscles": [
+      "glutes",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "将博苏球平放在地上。",
+      "双脚分开与肩同宽站立，将自己放在博苏球的顶部。",
+      "弯曲膝盖和臀部，降低身体，就像坐回椅子上一样。",
+      "保持挺胸，将体重放在脚后跟上。",
+      "降低身体直到大腿与地面平行。",
+      "暂停片刻，然后用力推动脚后跟，回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1707",
+    "name": "prone twist on stability ball",
+    "name_zh": "球上俯卧扭转",
+    "media": "raw:dataset_motion_1707",
+    "category": "waist",
+    "equipment": "stability ball",
+    "target": "abs",
+    "muscle_group": "obliques",
+    "secondary_muscles": [
+      "obliques",
+      "lower back"
+    ],
+    "instructions_zh": [
+      "首先，面朝下躺在稳定球上，双脚分开与肩同宽，脚趾接触地面。",
+      "将双手放在脑后或交叉放在胸前。",
+      "启动核心肌肉，慢慢将上半身抬离球，保持背部挺直。",
+      "将躯干旋转到一侧，使肩膀靠近臀部。在整个运动过程中保持臀部和腿部稳定。",
+      "暂停片刻，然后回到起始位置。",
+      "重复旋转到另一侧。",
+      "继续交替进行所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1708",
+    "name": "assisted lying calves stretch",
+    "name_zh": "辅助仰卧小腿拉伸",
+    "media": "raw:dataset_motion_1708",
+    "category": "lower legs",
+    "equipment": "assisted",
+    "target": "calves",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings"
+    ],
+    "instructions_zh": [
+      "仰卧，双腿伸展。",
+      "弯曲一侧膝盖，将脚平放在地上。",
+      "用手或毛巾轻轻地将脚趾拉向身体，感受小腿的拉伸。",
+      "保持拉伸 20-30 秒。",
+      "松开拉伸并在另一条腿上重复。"
+    ]
+  },
+  {
+    "id": "1709",
+    "name": "assisted lying glutes stretch",
+    "name_zh": "辅助仰卧臀部拉伸",
+    "media": "raw:dataset_motion_1709",
+    "category": "upper legs",
+    "equipment": "assisted",
+    "target": "glutes",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings"
+    ],
+    "instructions_zh": [
+      "仰卧，双腿伸展。",
+      "弯曲右膝盖，将右脚踝放在左大腿上，就在膝盖上方。",
+      "用双手抓住左大腿，轻轻地将其拉向胸部。",
+      "保持拉伸 20-30 秒。",
+      "松开并在另一侧重复。"
+    ]
+  },
+  {
+    "id": "1710",
+    "name": "assisted lying gluteus and piriformis stretch",
+    "name_zh": "辅助仰卧臀中肌与梨状肌拉伸",
+    "media": "raw:dataset_motion_1710",
+    "category": "upper legs",
+    "equipment": "assisted",
+    "target": "glutes",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings"
+    ],
+    "instructions_zh": [
+      "仰卧，双腿伸展。",
+      "弯曲右膝盖，将右脚踝放在左大腿上，就在膝盖上方。",
+      "用双手抓住左大腿，轻轻地将其拉向胸部。",
+      "保持拉伸 20-30 秒。",
+      "松开拉伸并在另一侧重复。"
+    ]
+  }
+]

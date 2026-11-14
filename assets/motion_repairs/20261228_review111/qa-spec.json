@@ -1,0 +1,28 @@
+{
+  "batch": "20261228_review111",
+  "expected_checks": 16,
+  "expected_reviewed_after_approve": 138,
+  "candidate_ids": [],
+  "candidate_required_equipment": {
+    "1332": [
+      "瑜伽球"
+    ],
+    "1333": [
+      "墙面"
+    ],
+    "1334": [
+      "墙面"
+    ],
+    "1335": [
+      "墙面"
+    ],
+    "1339": [
+      "瑜伽球"
+    ]
+  },
+  "expected_per_side_ids": [
+    "1332",
+    "1339",
+    "1342"
+  ]
+}

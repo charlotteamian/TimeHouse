@@ -1,0 +1,18 @@
+{
+  "batch": "20261226_review109",
+  "expected_checks": 16,
+  "expected_reviewed_after_approve": 138,
+  "candidate_ids": [],
+  "candidate_required_equipment": {
+    "1308": [
+      "平板训练凳"
+    ],
+    "1309": [
+      "带勾脚的下斜训练凳"
+    ]
+  },
+  "expected_per_side_ids": [
+    "1303",
+    "1313"
+  ]
+}

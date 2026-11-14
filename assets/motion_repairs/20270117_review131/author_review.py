@@ -1,0 +1,236 @@
+#!/usr/bin/env python3
+"""Author Batch 131 review updates, candidate verification metadata, code baseline, and QA spec (1 candidate: 3144; 9 deferred)."""
+from pathlib import Path
+import json
+import hashlib
+
+B = Path(__file__).resolve().parent
+R = B.parents[2]
+BATCH_ID = "20270117_review131"
+VERSION = "1.2.136"
+VERSION_CODE = 2027011701
+
+inspected = ["3144", "3194", "3195", "3200", "3235", "3236", "3237", "3281", "3286", "3290"]
+review_candidates = ["3144"]
+registered_media = []
+
+definition_updates = {
+    "3144": {
+        "name_zh": "阻力带坐姿直背划船",
+        "category": "back",
+        "equipment": "resistance band",
+        "target": "upper back",
+        "muscle_group": "",
+        "secondary_muscles": ["biceps", "shoulders"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "坐在训练垫或地板上，双腿向前自然伸出且双膝微屈，将单根阻力带中段稳固套绕在双侧足弓中段。",
+            "双手分握阻力带两端，手臂向前伸直对准双脚方向，躯干坐直微收核心并略微挺胸。",
+            "呼气沉肩并主动内收双侧肩胛骨，带动双肘贴近体侧向后发力拉动，将双手拉至腰肋两侧。",
+            "在顶峰收缩位略作停顿并充分挤压中上背与背阔肌。",
+            "吸气并有控制地抵抗阻力带回弹，缓慢伸直双臂回到起始位，按匀速节奏重复规定次数。",
+        ],
+    },
+    "3194": {
+        "name_zh": "弗兰肯斯坦杠铃前平举深蹲",
+        "category": "upper legs",
+        "equipment": "barbell",
+        "target": "glutes",
+        "muscle_group": "",
+        "secondary_muscles": ["quadriceps", "hamstrings", "calves"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚分开约与肩同宽站立，将杠铃搁稳在前束三角肌与锁骨窝上方，双臂向前水平伸直不抓杠（以肩架托举杠身）。",
+            "核心收紧并维持上背直立挺胸，视线平视前方以防杠铃前滚滑落。",
+            "吸气屈髋屈膝垂直向下下蹲，直至大腿接近与地面平行或至自身柔韧度允许的最低可控深度。",
+            "在底端略作停顿稳定重心，随后呼气全脚掌发力尤其是脚后跟蹬地垂直站起回高位（膝微屈不锁死）。",
+            "按规定次数完成训练。",
+        ],
+    },
+    "3195": {
+        "name_zh": "固定器械俯卧双上单下腿弯举",
+        "category": "upper legs",
+        "equipment": "leverage machine",
+        "target": "hamstrings",
+        "muscle_group": "",
+        "secondary_muscles": ["glutes"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "调节俯卧腿弯举机滚筒位置，俯卧贴稳在倾斜垫面上，使脚踝后侧紧抵下方圆筒垫、膝关节对准转轴。",
+            "双手握紧器械前侧或两侧扶手以固定骨盆与上身躯干不代偿翘起。",
+            "呼气集中双侧腘绳肌发力屈膝，同时将滚筒向臀部方向弯举拉起至最高点。",
+            "在顶端收缩略作停顿后撤去一侧腿发力，改由单腿顺势有控制地缓慢下放重物回起始伸腿位（或双腿交替完成单侧控制离心），按计划交替完成规定次数。",
+        ],
+    },
+    "3200": {
+        "name_zh": "固定器械三角把俯身划船",
+        "category": "back",
+        "equipment": "leverage machine",
+        "target": "upper back",
+        "muscle_group": "",
+        "secondary_muscles": ["biceps", "forearms"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "面对固定器械低位绳索塔架站立，双脚与肩同宽且双膝微屈，屈髋俯身使背部挺直斜向前倾。",
+            "双手对握抓住三角握把，双臂顺着绳索方向向前下方自然伸直拉紧配重。",
+            "呼气先收紧肩胛骨，随后屈肘将三角把贴着体侧拉向下腹胸肋下方，挤压上背与中背肌群。",
+            "在拉回顶端略作停顿充分收缩，随后吸气控制缓慢回放至双臂伸直位，重复规定次数。",
+        ],
+    },
+    "3235": {
+        "name_zh": "平凳俯卧龙门架绳索反助腿弯举",
+        "category": "upper legs",
+        "equipment": "cable",
+        "target": "hamstrings",
+        "muscle_group": "",
+        "secondary_muscles": ["glutes", "calves"],
+        "required_equipment_zh": ["平板训练凳"],
+        "instructions_zh": [
+            "将平凳置于龙门架低位滑轮前方，在双踝处固定脚踝绑带并连接低位绳索。",
+            "俯卧在平凳上使膝盖边缘略微探出凳端、双腿向绳索方向伸直，双手握稳平凳前侧边缘固定上身。",
+            "呼气发力弯曲双膝，克服绳索阻力将双侧脚跟向臀大肌方向勾起弯举。",
+            "在最高收缩位略作停顿并充分挤压腘绳肌，随后吸气有控制地缓慢放回双腿伸直起始位，重复规定次数。",
+        ],
+    },
+    "3236": {
+        "name_zh": "跪姿阻力带臀前推",
+        "category": "upper legs",
+        "equipment": "resistance band",
+        "target": "glutes",
+        "muscle_group": "",
+        "secondary_muscles": ["hamstrings", "quadriceps"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "将环形阻力带套在大腿膝盖略上方，双膝分开约与髋同宽跪在软垫上，小腿与足背贴地、双手叉腰稳定核心。",
+            "吸气时双膝始终稳贴地面，屈髋向后缓慢坐沉臀部靠近脚跟位置、上身自然微前倾拉长臀肌。",
+            "呼气调动臀大肌发力同时轻微外抵阻力带，向前上方有力伸髋挺直骨盆至大腿与躯干呈直线直立。",
+            "在直立顶端略作停顿并主动夹紧臀部（全程双膝不离开地面、不反弓腰椎），按规定次数重复。",
+        ],
+    },
+    "3237": {
+        "name_zh": "地雷管单臂站姿侧平举",
+        "category": "shoulders",
+        "equipment": "barbell",
+        "target": "delts",
+        "muscle_group": "",
+        "secondary_muscles": ["traps", "upper back"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "将杠铃一端稳固插入地雷管支点底座，侧对地雷管站立（双脚约与肩同宽或微宽、膝微屈，工作臂处于远离底座的一侧）。",
+            "以远侧手单手斜握举起地雷管另一端杠铃套筒置于身前髋肩侧前方，非工作手自然叉腰或轻搭体侧稳定核心。",
+            "呼气时由工作侧三角肌发力，以近似直臂弧线将杠铃末端向身体外侧上方推举抬起至约肩平或略高于肩高度。",
+            "在最高点略作停顿控制，随后吸气匀速缓慢回落回起始身前位，单臂完成规定次数后转身换另一臂重复。",
+        ],
+    },
+    "3281": {
+        "name_zh": "史密斯机全蹲",
+        "category": "upper legs",
+        "equipment": "smith machine",
+        "target": "glutes",
+        "muscle_group": "",
+        "secondary_muscles": ["quadriceps", "hamstrings", "calves"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "调节史密斯机杠铃挂钩至齐肩高度，走入杠下将杠铃安放于斜方肌上背并用双手比肩略宽正握杠身。",
+            "旋转解锁杠铃并将双脚略与肩同宽或小外八稳踩地面，挺胸收腹建立核心张力。",
+            "吸气屈髋屈膝垂直控制下蹲至全蹲底位（大腿低于或接近低于水平面，在脊柱中立前提下尽量充分下沉）。",
+            "在最低点略作停顿，随后呼气全脚掌发力（重点脚跟蹬地）垂直推起站回高位（膝微屈不锁死），重复次数后旋锁回架。",
+        ],
+    },
+    "3286": {
+        "name_zh": "单杠负重双力臂",
+        "category": "back",
+        "equipment": "weighted",
+        "target": "lats",
+        "muscle_group": "",
+        "secondary_muscles": ["biceps", "triceps", "shoulders", "chest"],
+        "required_equipment_zh": ["单杠"],
+        "instructions_zh": [
+            "系好负重腰带并悬挂配重片，面对高单杠站立并以略宽于肩的正手位（掌心朝前或微扣腕假握）抓牢单杠。",
+            "双臂伸直挂于杠下并收紧核心，随后发力以胸背爆发性地高拉身体向上靠近单杠上方。",
+            "当胸口越过杠高时迅速前扣手腕、顺势翻转双肘至杠铃上方完成过渡转换。",
+            "顺接发力伸直双臂向上推起身体成高位杠上撑直，随即有控制地先后屈肘落低转肘并缓慢下放回挂杠起始位，重复规定次数。",
+        ],
+    },
+    "3290": {
+        "name_zh": "单杠负重单臂引体向上",
+        "category": "back",
+        "equipment": "weighted",
+        "target": "lats",
+        "muscle_group": "",
+        "secondary_muscles": ["biceps", "forearms"],
+        "required_equipment_zh": ["单杠"],
+        "instructions_zh": [
+            "系妥负重腰带并加挂适当配重，单手以正握或微侧握姿势抓牢高单杠，双腿垂下且非工作侧手臂自然收放于体侧或背后不借力抓杠。",
+            "启动核心与工作侧肩胛下沉固定，避免身体剧烈扭转摆荡。",
+            "呼气集中单侧背阔肌与肱二头肌发力，屈肘将身体稳步向上垂直拉向握杠侧手部。",
+            "拉至下颌接近或高于单杠水平后略作停顿，随后吸气控制缓慢下放回单臂伸直挂杠位，完成规定次数后换另一臂重复。",
+        ],
+    },
+}
+
+pending = {
+    "3194": "待修图 · 清除“保持”触发词并补全前平举肩扛杠铃说明（弗兰肯斯坦杠铃前平举深蹲）；原资源为仅 2 帧的红墙实拍健身房照片（bg0=[248,249,242]、0px 留白），不符合纯白底 4 帧解剖规范，待重绘。",
+    "3195": "待修图 · 纠正原步骤误抄“坐靠靠背”为俯卧腿弯举机实景步骤并清除“（杠杆）/支撑/保持”；原动图 10 帧且左右边距 L:14, R:13<15，待重制为标准 4 帧循环图。",
+    "3200": "待修图 · 纠正原步骤误写“调整座椅高度”为站姿俯身拉船、去除拉丁字母“V”与“（杠杆）/保持”；原动图仅 2 帧且 L:14, R:12<15，待重制。",
+    "3235": "待修图 · 纠正“缆绳机/腿筋/长凳”、补充 required_equipment_zh=[\"平板训练凳\"] 并清除“保持”；原 10 帧动图 L:14, R:12<15 且每帧最底缘均有截断器械碎片残影，待重制。",
+    "3236": "待修图 · 去除（female）错标与“抬膝离开地面”错误物理描述并消除“保持”；原 4 帧图底色偏灰（bg0=[253,253,253]）、T:12, B:13<15，且第 3 帧跪膝人物整条小腿悬空离地翘起（y>=370 IoU=0.4748<0.96），待重制。",
+    "3237": "待修图 · 纠正“地雷”机翻为地雷管、补充“单臂”以启用 perSide 并清除“保持”（地雷管单臂站姿侧平举）；原动图仅 2 帧且左右边距 L:14, R:12<15，待重制。",
+    "3281": "待修图 · 清除“保持”并规范深蹲深度细节（史密斯机全蹲）；原动图仅 2 帧且左右边距 L:14, R:14<15，待重制为标准 4 帧循环图。",
+    "3286": "待修图 · 纠正“负重肌上”直译与错误手掌翻握步骤、补充 required_equipment_zh=[\"单杠\"] 并清除“保持/悬挂”；原动图仅 2 帧且 T:14, B:14<15，待重制。",
+    "3290": "待修图 · 补充“单臂”以启用 perSide、补充 required_equipment_zh=[\"单杠\"] 并明确非工作臂位置与换边（单杠负重单臂引体向上）；原动图仅 2 帧且 T:12, B:14<15，待重制。",
+}
+
+sources = {
+    "3144": "https://spotebi.com/exercise-guide/"
+}
+review_notes = {
+    "3144": "核准 `3144`（`resistance band seated straight back row` -> `阻力带坐姿直背划船`）：经逐帧查验 480x480 原生 4 帧往返循环图（800/380/800/380 ms，总长 2.36s，第 2 帧与第 4 帧像素零差异 max_diff=0），纯白背景（corners=[255,255,255]）、四周边距充裕（L>=36, R>=43, T>=67, B=89，全项>=15px）、脚跟与坐骨地面锚定稳定（y>=390 IoU=1.0000，足部与臀部底线偏移<=1px），红色解剖标注重现背阔肌与中上背协调收紧，绿色阻力带清晰套住双足中段无残影无裁切；并消除原步骤“保持”静态词（参考 Spotebi 阻力带坐姿划船指南）。"
+}
+
+before_reviews = json.loads((B / "before/exercise_reviews.json").read_text())
+reviewed_count = len(before_reviews["reviewed"]) + len(review_candidates)
+
+review_result = {
+    "batch": BATCH_ID,
+    "version": VERSION,
+    "version_code": VERSION_CODE,
+    "output": "build/review131-20270117",
+    "inspected": inspected,
+    "review_candidates": review_candidates,
+    "registered_media": registered_media,
+    "definition_updates": definition_updates,
+    "pending": pending,
+    "sources": sources,
+    "review_notes": review_notes,
+    "image_generation_calls": 0,
+    "generated_images_imported": 0,
+}
+(B / "review-result.json").write_text(json.dumps(review_result, ensure_ascii=False, indent=2) + "\n")
+
+code_paths = [
+    "app/src/main/java",
+    "scripts/validate_exercise_dataset.sh",
+    "scripts/build_android_debug.sh",
+]
+baseline = {}
+for rel in code_paths:
+    p = R / rel
+    if p.is_file():
+        baseline[rel] = hashlib.sha256(p.read_bytes()).hexdigest()
+    else:
+        for f in sorted(p.rglob("*")):
+            if f.is_file():
+                baseline[str(f.relative_to(R))] = hashlib.sha256(f.read_bytes()).hexdigest()
+(B / "code-baseline.json").write_text(json.dumps(baseline, ensure_ascii=False, indent=2) + "\n")
+
+qa_spec = {
+    "batch": BATCH_ID,
+    "expected_checks": 18,
+    "expected_reviewed_after_approve": reviewed_count,
+    "candidate_ids": ["3144"],
+    "candidate_required_equipment": {"3144": []},
+    "expected_per_side_ids": ["3237", "3290"],
+}
+(B / "qa-spec.json").write_text(json.dumps(qa_spec, ensure_ascii=False, indent=2) + "\n")
+print(f"Authored review-result.json, code-baseline.json, and qa-spec.json for {BATCH_ID}")

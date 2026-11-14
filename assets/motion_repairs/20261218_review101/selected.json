@@ -1,0 +1,213 @@
+[
+  {
+    "id": "0861",
+    "name": "cable seated row",
+    "name_zh": "绳索坐姿划船",
+    "media": "raw:dataset_motion_0861",
+    "category": "back",
+    "equipment": "cable",
+    "target": "upper back",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "坐在电缆划船机上，双脚平放在脚踏板上，膝盖稍微弯曲。",
+      "正手握住手柄，保持背部挺直，肩膀放松。",
+      "将手柄拉向身体，将肩胛骨挤压在一起。",
+      "在动作的最高点暂停片刻，然后慢慢松开手柄回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0862",
+    "name": "cable twist (up-down)",
+    "name_zh": "绳索上下扭转",
+    "media": "raw:dataset_motion_0862",
+    "category": "waist",
+    "equipment": "cable",
+    "target": "abs",
+    "muscle_group": "obliques",
+    "secondary_muscles": [
+      "obliques",
+      "lower back"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，面向绳索机。",
+      "双手握住电缆手柄于胸前，保持双臂略微弯曲。",
+      "启动你的核心并慢慢地将你的躯干旋转到一侧，保持你的臀部和腿部稳定。",
+      "旋转结束时暂停片刻，然后慢慢回到起始位置。",
+      "向另一侧重复旋转。",
+      "继续交替进行所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0866",
+    "name": "weighted hanging leg-hip raise",
+    "name_zh": "负重悬挂抬腿髋",
+    "media": "raw:dataset_motion_0866",
+    "category": "waist",
+    "equipment": "weighted",
+    "target": "abs",
+    "muscle_group": "hip flexors",
+    "secondary_muscles": [
+      "hip flexors",
+      "lower back"
+    ],
+    "instructions_zh": [
+      "悬挂在引体向上杆上，双臂完全伸展，手掌背向自己。",
+      "启动你的核心并将双腿抬起到你面前，保持伸直。",
+      "继续抬起，直到双腿与地面平行或稍高。",
+      "在顶部暂停片刻，然后慢慢将双腿放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0868",
+    "name": "cable curl",
+    "name_zh": "绳索弯举",
+    "media": "raw:dataset_motion_0868",
+    "category": "upper arms",
+    "equipment": "cable",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "面对电缆机站立，双脚与肩同宽。",
+      "用手握住电缆附件，手掌朝上。",
+      "保持肘部靠近身体两侧，上臂保持静止。",
+      "呼气并将电缆附件卷向肩膀，收缩二头肌。",
+      "在动作的最高点暂停片刻，挤压你的二头肌。",
+      "吸气并缓慢地将电缆附件放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0869",
+    "name": "lever shoulder press v. 2",
+    "name_zh": "肩推（第二式）（杠杆）",
+    "media": "raw:dataset_motion_0869",
+    "category": "shoulders",
+    "equipment": "leverage machine",
+    "target": "delts",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "chest"
+    ],
+    "instructions_zh": [
+      "将杠杆机的座椅高度和靠背调整到舒适的位置。",
+      "坐在机器上，背部靠在靠背上，双脚平放在地板上。",
+      "正手握住机器的手柄，握距略宽于肩宽。",
+      "向上和向前推动手柄，直到手臂完全伸展，但未锁定。",
+      "在顶部暂停片刻，然后慢慢将手柄放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0873",
+    "name": "cable reverse crunch",
+    "name_zh": "绳索反向卷腹",
+    "media": "raw:dataset_motion_0873",
+    "category": "waist",
+    "equipment": "cable",
+    "target": "abs",
+    "muscle_group": "hip flexors",
+    "secondary_muscles": [
+      "hip flexors"
+    ],
+    "instructions_zh": [
+      "将电缆连接到低滑轮上，然后面朝上躺在垫子上。",
+      "用双手握住电缆，并将双臂伸向天花板。",
+      "弯曲膝盖并抬起双腿，使大腿靠近胸部。",
+      "在保持上半身稳定的同时，将骨盆向胸部弯曲，将臀部抬离垫子。",
+      "在顶部暂停片刻，然后慢慢将臀部放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0874",
+    "name": "cable standing crunch (with rope attachment)",
+    "name_zh": "绳索站姿卷腹（带绳索附件）",
+    "media": "raw:dataset_motion_0874",
+    "category": "waist",
+    "equipment": "cable",
+    "target": "abs",
+    "muscle_group": "obliques",
+    "secondary_muscles": [
+      "obliques"
+    ],
+    "instructions_zh": [
+      "将一根绳子连接到胸部高度的缆绳机上。",
+      "背对机器站立，双脚与肩同宽。",
+      "双手握住绳子并将其放在脑后，保持肘部弯曲。",
+      "收紧腹肌，慢慢向前挤压躯干，使肘部靠近膝盖。",
+      "在卷腹的最高点暂停片刻，然后慢慢回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0968",
+    "name": "band alternating biceps curl",
+    "name_zh": "弹力带交替弯举",
+    "media": "raw:dataset_motion_0968",
+    "category": "upper arms",
+    "equipment": "band",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，反手握住弹力带，手掌朝上。",
+      "保持肘部靠近身体两侧，慢慢地将一只手臂向肩膀弯曲，在顶部挤压二头肌。",
+      "将手臂放回起始位置，然后用另一只手臂重复此动作。",
+      "继续交替手臂进行所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0969",
+    "name": "band alternating v-up",
+    "name_zh": "弹力带交替屈体卷腹",
+    "media": "raw:dataset_motion_0969",
+    "category": "waist",
+    "equipment": "band",
+    "target": "abs",
+    "muscle_group": "hip flexors",
+    "secondary_muscles": [
+      "hip flexors"
+    ],
+    "instructions_zh": [
+      "平躺，双腿伸直，手臂伸过头顶，握住弹力带。",
+      "收紧腹肌，同时将双腿和上半身抬离地面，将双手伸向脚趾。",
+      "当你降低双腿和上半身时，交换双腿的位置，将一条腿交叉在另一条腿上。",
+      "重复该动作，每次重复时交替变换双腿的位置。",
+      "继续进行所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0970",
+    "name": "band assisted pull-up",
+    "name_zh": "弹力带辅助引体向上",
+    "media": "raw:dataset_motion_0970",
+    "category": "back",
+    "equipment": "band",
+    "target": "lats",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "将弹力带固定在上拉杆或坚固的锚点上。",
+      "踏上弹力带，手掌背向自己，握住杠铃，双手之间的距离略宽于肩宽。",
+      "双臂完全伸展，保持核心收紧，肩膀向下并向后倾斜。",
+      "将肩胛骨挤压在一起并将肘部向下推向臀部，将身体向上拉向杠铃杆。",
+      "继续拉，直到下巴高于杠铃，然后慢慢降低回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  }
+]

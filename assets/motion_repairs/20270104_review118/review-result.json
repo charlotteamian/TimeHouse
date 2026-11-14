@@ -1,0 +1,220 @@
+{
+  "batch": "20270104_review118",
+  "version": "1.2.123",
+  "version_code": 2027010401,
+  "output": "build/review118-20270104",
+  "inspected": [
+    "1479",
+    "1496",
+    "1545",
+    "1559",
+    "1560",
+    "1564",
+    "1582",
+    "1599",
+    "1614",
+    "1615"
+  ],
+  "review_candidates": [],
+  "registered_media": [],
+  "definition_updates": {
+    "1479": {
+      "name_zh": "器械坐姿上斜推胸第二式",
+      "category": "chest",
+      "equipment": "leverage machine",
+      "target": "pectorals",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "triceps",
+        "shoulders"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "调整坐垫与斜板靠背高度后坐稳，使上胸与推胸手柄保持同一发力水平线，后背贴实靠垫、双脚踩稳地面。",
+        "采用正握略宽于肩握住两侧推柄，沉肩挺胸并稳固肩胛带贴靠背。",
+        "呼气胸大肌上束主导发力沿斜上方轨道向前推出双臂至接近伸直（保留肘部微屈不锁死）。",
+        "顶端收缩停顿片刻后吸气缓慢受控屈肘退回至胸侧充分拉伸位，按计划重复。"
+      ]
+    },
+    "1496": {
+      "name_zh": "站姿双持重锤斜向挥砸",
+      "category": "waist",
+      "equipment": "hammer",
+      "target": "abs",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "forearms",
+        "shoulders"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "面对砸击轮胎或防震目标区比肩略宽站立，一手握紧重锤手柄末端、另一手靠上握持柄身。",
+        "微屈膝收紧核心，顺势转身向肩上方斜向举起大锤蓄力。",
+        "呼气调动核心腹斜肌、背阔肌与上肢协同转髋收腹，顺着对角轨迹爆发性地将重锤向下砸向地面或轮胎目标。",
+        "砸击后顺势收稳回提重锤（换侧握柄对称挥砸或按计划重复全部次数）。"
+      ]
+    },
+    "1545": {
+      "name_zh": "站姿杠铃泽赫全深蹲",
+      "category": "upper legs",
+      "equipment": "barbell",
+      "target": "glutes",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "quadriceps",
+        "hamstrings",
+        "calves",
+        "core"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "站在杠铃前稳固出杠，将横杆卡放在曲肘内侧窝处、双手紧扣胸前护稳并维持前臂立起、双脚略宽于肩站立。",
+        "深吸气挺直上胸并绷紧整个核心，避免含胸前趴。",
+        "控制屈髋向后下沉同时弯曲双膝沿脚尖方向深蹲至臀部接近小腿或大腿低于水平深度，手肘内侧自然落在膝内侧上方。",
+        "呼气臀腿共同驱动全脚掌发力稳步蹬直站起还原，按计划重复。"
+      ]
+    },
+    "1559": {
+      "name_zh": "瑜伽球撑脚单侧屈髋拉伸",
+      "category": "upper legs",
+      "equipment": "stability ball",
+      "target": "glutes",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "quadriceps",
+        "hamstrings"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "将瑜伽球放在防滑地面上，单膝跪于地面、另一侧前脚稳踩在瑜伽球正上方、双手扶稳前侧大腿上方或膝前助平衡。",
+        "挺胸直立骨盆保持正对前方，后腿小腿贴地伸向后方并收紧臀部。",
+        "呼气顺控将骨盆温和向前下方推送靠近瑜伽球，同时可控后腿膝盖适度推离地面伸直以加深后侧髋屈肌伸展感。",
+        "在明显拉伸处保持平稳深呼吸停顿数秒后温和收回，单侧完成后换腿重复。"
+      ]
+    },
+    "1560": {
+      "name_zh": "瑜伽球仰靠伸腿腘绳肌拉伸",
+      "category": "upper legs",
+      "equipment": "stability ball",
+      "target": "hamstrings",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "glutes",
+        "lower back"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "坐在瑜伽球中央，双脚平踩地面、双膝呈九十度弯曲、双手扶于髋侧辅助平衡。",
+        "双脚稳步缓缓向前迈步并顺势滚球让中上背部仰靠在球面上，随后向前伸直双腿以脚跟着地。",
+        "呼气轻微压低臀胯靠近地面并控制伸直双膝，感受大腿后侧腘绳肌得到明显牵拉延展。",
+        "停留平稳呼吸数秒后屈膝发力借助双腿顺畅收回坐姿起始位，按计划重复。"
+      ]
+    },
+    "1564": {
+      "name_zh": "俯卧绳带单侧股四头肌与髋屈肌拉伸",
+      "category": "upper legs",
+      "equipment": "rope",
+      "target": "quads",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "hamstrings",
+        "glutes"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "俯卧趴在训练垫或防滑地面上，双腿自然向后伸直，将拉伸带绕套在工作侧单脚背或脚踝处。",
+        "工作侧手或双手越过肩背握稳拉伸带前端，保持髋前侧紧贴地面、下腰放松不反弓。",
+        "呼气轻柔向前拉动拉伸带，引导工作侧小腿屈膝向臀部方向靠拢，充分牵拉大腿前侧股四头肌与髋屈肌。",
+        "维持舒适拉伸感平稳呼吸数秒后温和放回小腿，单侧完成后换腿重复。"
+      ]
+    },
+    "1582": {
+      "name_zh": "仰卧绳带直腿单腿腘绳肌拉伸",
+      "category": "upper legs",
+      "equipment": "rope",
+      "target": "hamstrings",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "calves",
+        "glutes"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "仰卧于训练垫上，非工作腿全程保持伸直并轻贴地面，将拉伸绳或带套在工作侧单脚前脚掌底、双手握紧带两端。",
+        "维持骨盆与下背部贴稳地面不动，工作腿膝盖保持自然伸直、脚尖温和回勾。",
+        "呼气用手缓慢向上往胸口方向牵拉工作腿至大腿后侧明显牵张感，避免对侧腿翘起代偿。",
+        "在终点停留温和深呼吸数秒后缓慢下放工作腿回地面，单腿完成后换边重复。"
+      ]
+    },
+    "1599": {
+      "name_zh": "站姿双脚踩带俯身腘绳肌拉伸",
+      "category": "upper legs",
+      "equipment": "rope",
+      "target": "hamstrings",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "calves"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "直立站姿，将拉伸带或弹力带下段平铺于地面，双脚并拢或微宽前脚掌踩实拉伸带并双手紧握带子两端。",
+        "挺胸收腹保持脊柱中立延长、双膝维持自然直立（避免过度超伸锁膝）。",
+        "呼气保持腰背平直顺着髋关节折叠缓慢向后退臀俯身，双手沿腿前自然向下轻带张力并感受大腿后侧与小腿深层拉伸。",
+        "在清晰舒适牵拉位停留片刻并温和呼吸后，收臀立回直立起势位，按计划重复。"
+      ]
+    },
+    "1614": {
+      "name_zh": "器械坐姿牧师凳弯举第二式",
+      "category": "upper arms",
+      "equipment": "leverage machine",
+      "target": "biceps",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "forearms"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "调整牧师凳二头弯举机座椅高度，坐稳后使腋窝舒适卡靠斜垫上缘、双脚稳踩地面、胸贴支撑靠垫。",
+        "采用反握（掌心朝上）略窄或与肩同宽抓紧斜杆推把，双上臂整面贴牢斜垫并在底端接近伸直。",
+        "呼气保持大臂固定紧贴垫面不动，靠肱二头肌收缩发力向上弯举拉把靠近上胸位置。",
+        "顶端挤压二头肌停顿 1 秒，吸气缓慢受控下放回底端预拉位，按计划重复。"
+      ]
+    },
+    "1615": {
+      "name_zh": "器械坐姿锤握牧师凳弯举",
+      "category": "upper arms",
+      "equipment": "leverage machine",
+      "target": "biceps",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "forearms"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "调好牧师凳弯举器械座椅高度，使大臂后侧完全平贴斜托垫面、胸口贴靠靠垫并双脚踩稳地面。",
+        "双手以锤式对握（掌心相对）握牢竖直对握把手，前臂自然向下方展开伸直建立起始拉伸。",
+        "呼气保持肘关节与上臂压实垫面不动，由肱二头肌与肱肌发力向上弯起握把至肩膀前上方。",
+        "顶峰略停收缩后吸气受控缓慢下放还原，按计划重复。"
+      ]
+    }
+  },
+  "pending": {
+    "1479": "待修图 · 纠正将杠杆器械错译成杠铃并去括号为器械坐姿上斜推胸第二式；原动图仅 2 帧，待重制为标准 4 帧循环图。",
+    "1496": "待修图 · 补全严重残缺两字名称为站姿双持重锤斜向挥砸；原动图仅 2 帧且左上方重锤贴边裁切，待重制为标准 4 帧循环图。",
+    "1545": "待修图 · 规范译名为站姿杠铃泽赫全深蹲；原动图仅 2 帧，待重制为标准 4 帧循环图。",
+    "1559": "待修图 · 规范为瑜伽球撑脚单侧屈髋拉伸并激活单侧计次；原图 4 帧第 3 帧瑜伽球右滑与整体上漂，待重制。",
+    "1560": "待修图 · 规范为瑜伽球仰靠伸腿腘绳肌拉伸；原图 4 帧第 3 帧脚尖右缘触边（R:0）且球与双脚上漂 49 像素，待重制。",
+    "1564": "待修图 · 纠正原站姿扶物步骤与俯卧实拍不符为俯卧绳带单侧股四头肌与髋屈肌拉伸并激活单侧计次；原素材为仅 2 帧的满屏实景照片，待重制为 4 帧解剖循环图。",
+    "1582": "待修图 · 消除直译规范为仰卧绳带直腿单腿腘绳肌拉伸并激活单侧计次；原动图仅 2 帧，待重制为标准 4 帧循环图。",
+    "1599": "待修图 · 规范并纠正步骤中换另一条腿误写为站姿双脚踩带俯身腘绳肌拉伸（实为双脚同时踩带）；原动图仅 2 帧，待重制为标准 4 帧循环图。",
+    "1614": "待修图 · 去括号规范为器械坐姿牧师凳弯举第二式；原动图仅 2 帧，待重制为标准 4 帧循环图。",
+    "1615": "待修图 · 纠正严重将牧师凳二头弯举错译为前臂弯举为器械坐姿锤握牧师凳弯举；原动图 10 帧且帧率与循环节奏不合规，待重制为标准 4 帧循环图。"
+  },
+  "sources": {},
+  "review_notes": {},
+  "image_generation_calls": 0,
+  "generated_images_imported": 0,
+  "initial_validation": "passed",
+  "newly_reviewed": [],
+  "android_playback_visually_reviewed": []
+}

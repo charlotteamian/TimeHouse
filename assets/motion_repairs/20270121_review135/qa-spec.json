@@ -1,0 +1,10 @@
+{
+  "batch": "20270121_review135",
+  "expected_checks": 20,
+  "expected_reviewed_after_approve": 142,
+  "candidate_ids": [],
+  "candidate_required_equipment": {},
+  "expected_per_side_ids": [
+    "exercise_one_arm_dumbbell_row"
+  ]
+}

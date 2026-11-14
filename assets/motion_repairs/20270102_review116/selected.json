@@ -1,0 +1,238 @@
+[
+  {
+    "id": "1420",
+    "name": "kneeling jump squat",
+    "name_zh": "跪姿跳跃深蹲",
+    "media": "raw:dataset_motion_1420",
+    "category": "upper legs",
+    "equipment": "barbell",
+    "target": "glutes",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "首先跪在地上，双脚分开与臀部同宽，脚趾向前。",
+      "将杠铃放在上背部，将其放在肩膀上。",
+      "启动你的核心和臀部，然后爆发性地跳到空中，伸展你的臀部和膝盖。",
+      "跳跃时，用脚趾推动并充分伸展脚踝、膝盖和臀部。",
+      "轻轻地回到地面，弯曲膝盖以吸收冲击力。",
+      "立即进入下一个重复，重复跳蹲动作。"
+    ]
+  },
+  {
+    "id": "1425",
+    "name": "sled 45 degrees one leg press",
+    "name_zh": "雪橇45度单腿推",
+    "media": "raw:dataset_motion_1425",
+    "category": "upper legs",
+    "equipment": "sled machine",
+    "target": "glutes",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "将雪橇机调整至 45 度角。",
+      "坐在雪橇机上，背部靠在垫子上，双脚放在踏板上。",
+      "将一只脚放在踏板上并伸展腿，将雪橇推离您。",
+      "慢慢弯曲膝盖，将雪橇放回起始位置。",
+      "换另一条腿重复上述步骤。",
+      "继续交替双腿达到所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1426",
+    "name": "smith seated wrist curl",
+    "name_zh": "史密斯坐姿腕弯举",
+    "media": "raw:dataset_motion_1426",
+    "category": "lower arms",
+    "equipment": "smith machine",
+    "target": "forearms",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "brachialis"
+    ],
+    "instructions_zh": [
+      "坐在史密斯机前的长凳上，双脚平放在地面上。",
+      "反握抓住杠铃，双手与肩同宽。",
+      "将前臂放在大腿上，让手腕悬垂。",
+      "慢慢向上弯曲手腕，将杠铃拉向前臂。",
+      "在顶部停顿片刻，然后慢慢将杠铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1431",
+    "name": "assisted standing chin-up",
+    "name_zh": "辅助站姿反手引体向上",
+    "media": "raw:dataset_motion_1431",
+    "category": "back",
+    "equipment": "leverage machine",
+    "target": "lats",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "将机器调整至您所需的辅助级别。",
+      "站在脚踏板上，正手握住手柄，握距略宽于肩宽。",
+      "保持挺胸、肩膀向后，收紧核心肌群，并稍微弯曲膝盖。",
+      "弯曲肘部并将肘部向身体两侧压低，将身体向上拉。",
+      "继续拉，直到下巴位于杠铃上方。",
+      "在顶部停顿片刻，然后慢慢将身体放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1432",
+    "name": "assisted standing pull-up",
+    "name_zh": "辅助站姿引体向上",
+    "media": "raw:dataset_motion_1432",
+    "category": "back",
+    "equipment": "leverage machine",
+    "target": "lats",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "将机器调整至您所需的体重和高度设置。",
+      "面向机器站立，双脚分开与肩同宽。",
+      "正手握住手柄，握距略宽于肩宽。",
+      "启动你的背阔肌和二头肌，并将自己拉向手柄。",
+      "在顶部暂停片刻，挤压背部肌肉。",
+      "慢慢地将自己放回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1433",
+    "name": "smith front squat (clean grip)",
+    "name_zh": "史密斯前蹲（干净握）",
+    "media": "raw:dataset_motion_1433",
+    "category": "upper legs",
+    "equipment": "smith machine",
+    "target": "glutes",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves",
+      "core"
+    ],
+    "instructions_zh": [
+      "将杠铃置于肩高的史密斯机上。",
+      "面向杠铃站立，双脚与肩同宽。",
+      "正手握住杠铃，握距略宽于肩宽。",
+      "后退一步，将杠铃放在前肩上，放在锁骨和三角肌上。",
+      "保持挺胸、背部挺直、核心收紧。",
+      "弯曲膝盖和臀部，降低身体，就像坐回椅子上一样。",
+      "继续降低，直到大腿与地面平行或略低于地面。",
+      "暂停片刻，然后用力推动脚后跟，回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1434",
+    "name": "smith low bar squat",
+    "name_zh": "史密斯高杠深蹲",
+    "media": "raw:dataset_motion_1434",
+    "category": "upper legs",
+    "equipment": "smith machine",
+    "target": "glutes",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "将史密斯机与杠铃设置在一个高度，以便您可以将其舒适地放在上背部。",
+      "站立，双脚分开与肩同宽，脚趾稍微向外转动。",
+      "走到杠铃下方，将其放在上背部上方，将其放在斜方肌上。",
+      "双手握住杠铃，距离略大于肩宽。",
+      "伸直双腿并从架子上退后，将杠铃松开。",
+      "深呼吸并支撑你的核心。",
+      "通过向后推臀部并弯曲膝盖来开始深蹲。",
+      "降低身体，直到大腿与地面平行或稍低于地面。",
+      "在整个动作过程中保持挺胸、背部挺直。",
+      "通过脚后跟站起来，伸展臀部和膝盖。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1435",
+    "name": "barbell low bar squat",
+    "name_zh": "杠铃低杠深蹲",
+    "media": "raw:dataset_motion_1435",
+    "category": "upper legs",
+    "equipment": "barbell",
+    "target": "glutes",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，杠铃放在上背部。",
+      "保持挺胸，核心收紧，弯曲膝盖并向后推臀部，慢慢降低身体。",
+      "继续降低，直到大腿与地面平行或略低于地面。",
+      "暂停片刻，然后用力推动脚后跟，回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1436",
+    "name": "barbell high bar squat",
+    "name_zh": "杠铃高杠深蹲",
+    "media": "raw:dataset_motion_1436",
+    "category": "upper legs",
+    "equipment": "barbell",
+    "target": "glutes",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves",
+      "core"
+    ],
+    "instructions_zh": [
+      "站立，双脚分开与肩同宽，脚趾稍微向外。",
+      "将杠铃放在上背部，放在斜方肌上。",
+      "当你开始蹲下时，启动你的核心并保持胸部挺直，将臀部向后推并弯曲膝盖。",
+      "放低身体，直到大腿与地面平行，或者尽可能低到您能舒服的高度。",
+      "通过脚后跟站起来，伸展臀部和膝盖。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1438",
+    "name": "kettlebell seated two arm military press",
+    "name_zh": "壶铃坐姿双臂军式推举",
+    "media": "raw:dataset_motion_1438",
+    "category": "shoulders",
+    "equipment": "kettlebell",
+    "target": "delts",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "upper back"
+    ],
+    "instructions_zh": [
+      "坐在长凳上，背部挺直，双脚平放在地上。",
+      "每只手握住一个壶铃，与肩同高，手掌朝前。",
+      "完全伸展双臂，将壶铃压过头顶。",
+      "在顶部暂停片刻，然后慢慢将壶铃放回肩部水平。",
+      "重复所需的重复次数。"
+    ]
+  }
+]

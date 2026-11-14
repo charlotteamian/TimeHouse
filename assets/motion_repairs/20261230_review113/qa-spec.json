@@ -1,0 +1,17 @@
+{
+  "batch": "20261230_review113",
+  "expected_checks": 16,
+  "expected_reviewed_after_approve": 138,
+  "candidate_ids": [],
+  "candidate_required_equipment": {
+    "1371": [
+      "平板训练凳",
+      "稳固踏台"
+    ]
+  },
+  "expected_per_side_ids": [
+    "1356",
+    "1360",
+    "1376"
+  ]
+}

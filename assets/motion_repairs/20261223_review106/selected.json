@@ -1,0 +1,218 @@
+[
+  {
+    "id": "1015",
+    "name": "band vertical pallof press",
+    "name_zh": "弹力带垂直帕洛夫推",
+    "media": "raw:dataset_motion_1015",
+    "category": "waist",
+    "equipment": "band",
+    "target": "abs",
+    "muscle_group": "obliques",
+    "secondary_muscles": [
+      "obliques",
+      "glutes"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，将弹力带缠绕在胸部高度的坚固物体上。",
+      "用双手握住弹力带并远离锚点，在弹力带中产生张力。",
+      "使自己垂直于锚点，一侧面向弹力带。",
+      "将双臂伸直在身前，保持双手与胸同高。",
+      "收紧核心肌群，将弹力带压离胸部，充分伸展手臂。",
+      "保持该姿势几秒钟，然后慢慢将弹力带拉回到胸部。",
+      "重复所需的重复次数，然后换边。"
+    ]
+  },
+  {
+    "id": "1016",
+    "name": "band wrist curl",
+    "name_zh": "弹力带腕弯举",
+    "media": "raw:dataset_motion_1016",
+    "category": "lower arms",
+    "equipment": "band",
+    "target": "forearms",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "triceps"
+    ],
+    "instructions_zh": [
+      "坐在长凳或椅子上，双脚平放在地面上。",
+      "双手握住弹力带，手掌朝上，前臂放在大腿上。",
+      "慢慢向上弯曲手腕，挤压前臂。",
+      "在顶部暂停片刻，然后慢慢将手腕放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1017",
+    "name": "band y-raise",
+    "name_zh": "弹力带斜上举",
+    "media": "raw:dataset_motion_1017",
+    "category": "shoulders",
+    "equipment": "band",
+    "target": "delts",
+    "muscle_group": "traps",
+    "secondary_muscles": [
+      "traps",
+      "rhomboids"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，将弹力带放在大腿前面，手掌朝内。",
+      "保持双臂伸直，将其向上举至两侧，与身体形成“Y”形。",
+      "在动作的最高点将肩胛骨挤压在一起。",
+      "慢慢地将手臂放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1018",
+    "name": "band shrug",
+    "name_zh": "弹力带耸肩",
+    "media": "raw:dataset_motion_1018",
+    "category": "back",
+    "equipment": "band",
+    "target": "traps",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，将弹力带放在脚下，用手握住两端。",
+      "保持手臂伸直并放松，让弹力带悬挂在大腿前面。",
+      "向上耸肩，尽可能高地举起弹力带，以启动斜方肌。",
+      "保持收缩一会儿，然后慢慢将肩膀放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1022",
+    "name": "band standing rear delt row",
+    "name_zh": "弹力带站姿后三角划船",
+    "media": "raw:dataset_motion_1022",
+    "category": "shoulders",
+    "equipment": "band",
+    "target": "delts",
+    "muscle_group": "trapezius",
+    "secondary_muscles": [
+      "trapezius",
+      "rhomboids",
+      "biceps"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，将弹力带放在脚下。",
+      "双手握住弹力带手柄，手掌相对，双臂向前伸展。",
+      "稍微弯曲膝盖，髋部向前转动，保持背部挺直。",
+      "将弹力带拉向胸部，将肩胛骨挤压在一起。",
+      "在最高点停顿片刻，然后慢慢释放张力，回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1023",
+    "name": "band straight back stiff leg deadlift",
+    "name_zh": "弹力带直背直腿硬拉",
+    "media": "raw:dataset_motion_1023",
+    "category": "upper legs",
+    "equipment": "band",
+    "target": "glutes",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings",
+      "lower back"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，将弹力带绕在大腿上。",
+      "用双手将弹力带放在大腿前面，手掌朝向身体。",
+      "保持背部挺直，膝盖稍微弯曲，铰接臀部并将弹力带降低到地面。",
+      "当你降低弹力带时，感受腿筋的拉伸。",
+      "启动臀肌和腿筋，将身体抬回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1253",
+    "name": "lever donkey calf raise",
+    "name_zh": "杠杆背卧小腿抬高",
+    "media": "raw:dataset_motion_1253",
+    "category": "lower legs",
+    "equipment": "leverage machine",
+    "target": "calves",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings",
+      "glutes"
+    ],
+    "instructions_zh": [
+      "将杠杆机调节至适合您身体的高度。",
+      "面向机器定位，脚趾放在脚踏平台上，脚后跟悬在边缘。",
+      "将手放在手柄或支撑杆上以保持稳定性。",
+      "用脚掌收紧小腿并尽可能高地抬起脚后跟。",
+      "在顶部停顿片刻，然后慢慢降低脚后跟回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1254",
+    "name": "band bench press",
+    "name_zh": "弹力带卧推",
+    "media": "raw:dataset_motion_1254",
+    "category": "chest",
+    "equipment": "band",
+    "target": "pectorals",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "平躺在长凳上，双脚平放在地上，背部紧贴长凳。",
+      "正手握住带子手柄，间距略宽于肩宽。",
+      "充分伸展双臂，将弹力带推离胸部。",
+      "慢慢将弹力带放回到胸部，保持肘部呈 90 度角。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1255",
+    "name": "barbell decline pullover",
+    "name_zh": "杠铃下斜下拉",
+    "media": "raw:dataset_motion_1255",
+    "category": "chest",
+    "equipment": "barbell",
+    "target": "pectorals",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "躺在倾斜的长凳上，头部低于臀部，双脚固定。",
+      "旋前握住杠铃（手掌背向自己），双手之间的距离略宽于肩宽。",
+      "将手臂伸至胸部上方，保持肘部轻微弯曲。",
+      "以弧线动作将杠铃降低到头后，感受胸部和肩膀的伸展。",
+      "暂停片刻，然后反向动作将杠铃恢复到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1256",
+    "name": "barbell reverse grip decline bench press",
+    "name_zh": "杠铃反手下斜卧推",
+    "media": "raw:dataset_motion_1256",
+    "category": "chest",
+    "equipment": "barbell",
+    "target": "pectorals",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "躺在倾斜的长凳上，双脚固定，头部低于臀部。",
+      "反握抓住杠铃，握距略宽于肩宽。",
+      "松开杠铃，慢慢将其降低到胸部，保持肘部内收。",
+      "在底部停顿片刻，然后将杠铃推回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  }
+]

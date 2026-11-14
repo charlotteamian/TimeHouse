@@ -1,0 +1,224 @@
+[
+  {
+    "id": "2371",
+    "name": "weighted russian twist v. 2",
+    "name_zh": "负重俄罗斯转体（第二式）",
+    "media": "raw:dataset_motion_2371",
+    "category": "waist",
+    "equipment": "weighted",
+    "target": "abs",
+    "muscle_group": "obliques",
+    "secondary_muscles": [
+      "obliques",
+      "lower back"
+    ],
+    "instructions_zh": [
+      "坐在地上，膝盖弯曲，双脚平放在地板上。",
+      "用双手将重物放在胸前。",
+      "稍微向后倾斜以锻炼核心肌肉。",
+      "将躯干向右扭转，将重量移至身体右侧。",
+      "暂停片刻，然后将躯干向左扭转，将重量移向身体的左侧。",
+      "继续交替进行所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2399",
+    "name": "cable seated twist",
+    "name_zh": "绳索坐姿扭转",
+    "media": "raw:dataset_motion_2399",
+    "category": "waist",
+    "equipment": "cable",
+    "target": "abs",
+    "muscle_group": "obliques",
+    "secondary_muscles": [
+      "obliques"
+    ],
+    "instructions_zh": [
+      "坐在缆绳机上，双脚平放在地面上，膝盖稍微弯曲。",
+      "双手握住电缆手柄，并将双臂伸直至身前。",
+      "保持核心参与，慢慢地将躯干旋转到一侧，将电缆拉过身体。",
+      "在动作范围结束时暂停片刻，然后慢慢旋转回到起始位置。",
+      "在另一侧重复。",
+      "继续交替进行所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2404",
+    "name": "ez-bar biceps curl (with arm blaster)",
+    "name_zh": "曲杆弯举（臂力器辅助）",
+    "media": "raw:dataset_motion_2404",
+    "category": "upper arms",
+    "equipment": "ez barbell",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "站直，双脚分开与肩同宽，反手握住 ez 杠铃，手掌朝上。",
+      "将上臂靠在手臂冲击波上，在整个练习过程中保持静止。",
+      "保持肘部靠近身体，呼气并将杠铃向上弯向肩膀。",
+      "在顶部暂停片刻，挤压你的二头肌。",
+      "吸气，慢慢将杠铃放回起始位置，充分伸展双臂。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2405",
+    "name": "cable triceps pushdown (v-bar) (with arm blaster)",
+    "name_zh": "绳索三头肌下压（三角把手）（带臂力器）",
+    "media": "raw:dataset_motion_2405",
+    "category": "upper arms",
+    "equipment": "cable",
+    "target": "triceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "在最高设置下将 V 形杆附件连接到电缆机上。",
+      "面对电缆机站立，双脚与肩同宽。",
+      "正手握住 V 形杆，手掌朝下，双手与肩同宽。",
+      "在整个练习过程中，保持肘部靠近身体两侧，上臂保持静止。",
+      "收紧三头肌并呼气，同时向下推 V 形杆，直到手臂完全伸展。",
+      "在动作的底部暂停片刻，挤压你的三头肌。",
+      "吸气，同时缓慢地将 V 形杆返回到起始位置，保持控制。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2406",
+    "name": "cable reverse grip triceps pushdown (sz-bar) (with arm blaster)",
+    "name_zh": "绳索反握下压（曲杆）（带臂力器）",
+    "media": "raw:dataset_motion_2406",
+    "category": "upper arms",
+    "equipment": "cable",
+    "target": "triceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "在最高设置下将直杆连接到电缆机上。",
+      "面对电缆机站立，双脚与肩同宽。",
+      "反手握住杠铃，手掌朝上，双手与肩同宽。",
+      "在整个练习过程中，保持肘部靠近身体两侧，上臂保持静止。",
+      "启动你的三头肌，慢慢地向下推杠铃，直到你的手臂完全伸展。",
+      "在底部暂停片刻，然后慢慢地将杠铃返回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2407",
+    "name": "barbell biceps curl (with arm blaster)",
+    "name_zh": "杠铃弯举（带臂膀器）",
+    "media": "raw:dataset_motion_2407",
+    "category": "upper arms",
+    "equipment": "barbell",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "站直，双脚分开与肩同宽，反手握住杠铃，手掌朝上。",
+      "将上臂靠在手臂冲击波上，保持肘部靠近躯干。",
+      "保持上臂静止，呼气并弯举哑铃，同时收缩二头肌。",
+      "继续举起杠铃，直到二头肌完全收缩并且杠铃与肩部齐平。",
+      "挤压二头肌时，保持收缩位置短暂停顿。",
+      "吸气并慢慢开始将杠铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2414",
+    "name": "barbell standing concentration curl",
+    "name_zh": "杠铃站立集中弯举",
+    "media": "raw:dataset_motion_2414",
+    "category": "upper arms",
+    "equipment": "barbell",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，一手握住杠铃，掌心朝上。",
+      "将另一只手放在大腿上以获得支撑。",
+      "保持上臂静止，呼气并将重量向上弯向肩膀。",
+      "在顶部暂停片刻，挤压你的二头肌。",
+      "吸气并慢慢将重量放回起始位置。",
+      "重复所需的重复次数，然后换臂。"
+    ]
+  },
+  {
+    "id": "2432",
+    "name": "ez-bar close-grip bench press",
+    "name_zh": "曲杆窄握卧推",
+    "media": "raw:dataset_motion_2432",
+    "category": "upper arms",
+    "equipment": "ez barbell",
+    "target": "triceps",
+    "muscle_group": "chest",
+    "secondary_muscles": [
+      "chest",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "平躺在长凳上，双脚平放在地上，背部紧贴长凳。",
+      "紧握杠铃，双手与肩同宽，掌心向前。",
+      "将杠铃从架子上提起，并将其直接放在胸部上方，双臂完全伸展。",
+      "慢慢地将杠铃降低到胸部，保持肘部靠近身体。",
+      "当杠铃触及胸部时暂停片刻。",
+      "将杠铃推回到起始位置，完全伸展双臂。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2459",
+    "name": "tire flip",
+    "name_zh": "翻轮胎",
+    "media": "raw:dataset_motion_2459",
+    "category": "upper legs",
+    "equipment": "tire",
+    "target": "glutes",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings",
+      "quadriceps",
+      "core"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，面向轮胎。",
+      "弯曲膝盖并以臀部为铰链，降低至蹲姿。",
+      "向下伸手，用双手抓住轮胎的底部边缘，手指朝向您。",
+      "调动你的臀部和腿部肌肉，并爆发性地推动你的腿，将轮胎抬离地面。",
+      "当轮胎翻转时，用上半身的力量引导轮胎并保持控制。",
+      "轮胎完全翻转后，迅速后退并重置姿势。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2464",
+    "name": "cable thibaudeau kayak row",
+    "name_zh": "蒂博多皮划艇式绳索划船",
+    "media": "raw:dataset_motion_2464",
+    "category": "back",
+    "equipment": "cable",
+    "target": "lats",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "rhomboids",
+      "rear deltoids"
+    ],
+    "instructions_zh": [
+      "将电缆手柄连接到低滑轮上，面向机器坐着，双脚平放在地板上。",
+      "用右手抓住手柄，完全伸展手臂，保持肘部轻微弯曲。",
+      "从臀部开始向前倾斜，保持背部挺直并收紧腹肌。",
+      "缩回肩胛骨并弯曲肘部，将手柄拉向躯干，保持手臂靠近身体。",
+      "在动作的最高点挤压背部肌肉，然后慢慢回到起始位置。",
+      "重复所需的重复次数，然后换边并用左臂执行。"
+    ]
+  }
+]

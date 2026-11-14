@@ -1,0 +1,222 @@
+[
+  {
+    "id": "2611",
+    "name": "lever horizontal one leg press",
+    "name_zh": "杠杆水平单腿推",
+    "media": "raw:dataset_motion_2611",
+    "category": "upper legs",
+    "equipment": "leverage machine",
+    "target": "glutes",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "调整机器座椅，使双脚放在踏板上时膝盖呈 90 度角。",
+      "坐在机器上，背部靠在靠背上，双脚与肩同宽放在踏板上。",
+      "将手放在机器的手柄或侧面以保持稳定性。",
+      "伸展腿，使背部紧靠靠背，将踏板推离身体。",
+      "在完全伸展位置暂停片刻，然后慢慢弯曲腿回到起始位置。",
+      "重复所需的重复次数，然后换腿。"
+    ]
+  },
+  {
+    "id": "2612",
+    "name": "jump rope",
+    "name_zh": "跳绳",
+    "media": "raw:dataset_motion_2612",
+    "category": "cardio",
+    "equipment": "rope",
+    "target": "cardiovascular system",
+    "muscle_group": "calves",
+    "secondary_muscles": [
+      "calves",
+      "quadriceps",
+      "hamstrings",
+      "glutes"
+    ],
+    "instructions_zh": [
+      "双手握住跳绳的手柄，掌心向内。",
+      "站立，双脚分开与肩同宽，膝盖稍微弯曲。",
+      "将绳子甩过头顶，当绳子靠近你的脚时跳过它。",
+      "轻轻地用脚掌着地，当绳子再次绕回时重复跳跃。",
+      "继续跳跃所需的持续时间或重复次数。"
+    ]
+  },
+  {
+    "id": "2616",
+    "name": "cable lateral pulldown with v-bar",
+    "name_zh": "绳索下拉 三角把手",
+    "media": "raw:dataset_motion_2616",
+    "category": "back",
+    "equipment": "cable",
+    "target": "lats",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "坐在电缆下拉机上，用正手抓住 V 形杆附件。",
+      "调整护膝，使大腿固定在其下方。",
+      "保持背部挺直并稍微向后倾斜。",
+      "将 V 形杆向下拉至上胸部，同时保持肘部靠近身体。",
+      "在动作底部挤压背部肌肉。",
+      "慢慢地将 v 形杆返回到起始位置，然后重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2736",
+    "name": "lever reverse grip lateral pulldown",
+    "name_zh": "反握下拉（杠杆）",
+    "media": "raw:dataset_motion_2736",
+    "category": "back",
+    "equipment": "leverage machine",
+    "target": "lats",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "rhomboids",
+      "rear deltoids"
+    ],
+    "instructions_zh": [
+      "调整座椅高度，将自己放在机器上，膝盖位于垫子下方，双脚平放在地面上。",
+      "正手握住手柄，握距略宽于肩宽。",
+      "坐直，挺胸，肩膀向后，保持下背部轻微的拱形。",
+      "将手柄向下拉向胸部，用肘部引导并将肩胛骨挤压在一起。",
+      "在动作底部暂停片刻，然后慢慢松开手柄回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2741",
+    "name": "ez-barbell standing wide grip biceps curl",
+    "name_zh": "曲杆站立宽握弯举",
+    "media": "raw:dataset_motion_2741",
+    "category": "upper arms",
+    "equipment": "ez barbell",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "站直，双脚分开与肩同宽，反手握住杠铃，双手分开比肩宽。",
+      "在整个运动过程中，保持肘部靠近躯干，上臂保持静止。",
+      "收缩二头肌，将杠铃向上弯向肩膀。",
+      "在顶部停顿片刻，然后慢慢将杠铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2798",
+    "name": "barbell squat jump step rear lunge",
+    "name_zh": "杠铃深蹲跳后箭步蹲",
+    "media": "raw:dataset_motion_2798",
+    "category": "upper legs",
+    "equipment": "barbell",
+    "target": "quads",
+    "muscle_group": "glutes",
+    "secondary_muscles": [
+      "glutes",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "首先，双脚分开与肩同宽站立，将杠铃放在上背部。",
+      "弯曲膝盖并将臀部向后推，将身体降低至蹲姿。",
+      "向上爆炸，尽可能高地跳离地面。",
+      "双脚轻轻落地，然后立即单腿向后退一步，形成反向弓步。",
+      "降低身体，直到大腿前侧与地面平行，保持背部挺直。",
+      "推动前脚跟以返回到起始位置。",
+      "在另一条腿上重复跳跃和弓步序列。",
+      "继续交替双腿达到所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2799",
+    "name": "barbell sitted alternate leg raise",
+    "name_zh": "杠铃坐姿交替抬腿",
+    "media": "raw:dataset_motion_2799",
+    "category": "waist",
+    "equipment": "barbell",
+    "target": "abs",
+    "muscle_group": "hip flexors",
+    "secondary_muscles": [
+      "hip flexors"
+    ],
+    "instructions_zh": [
+      "坐在长凳上，背部挺直，将杠铃放在大腿上。",
+      "保持双腿伸直，将一条腿尽可能高地抬起，同时将另一条腿放在地上。",
+      "将抬起的腿放回原位，然后换另一条腿重复上述步骤。",
+      "继续交替双腿达到所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2800",
+    "name": "barbell sitted alternate leg raise (female)",
+    "name_zh": "杠铃坐姿单腿抬腿（女）",
+    "media": "raw:dataset_motion_2800",
+    "category": "waist",
+    "equipment": "barbell",
+    "target": "abs",
+    "muscle_group": "hip flexors",
+    "secondary_muscles": [
+      "hip flexors",
+      "quadriceps"
+    ],
+    "instructions_zh": [
+      "坐在长凳上，背部挺直，将杠铃放在大腿上。",
+      "将双手放在长凳两侧以获得支撑。",
+      "保持双腿伸直，将一条腿尽可能抬高，同时保持与地面平行。",
+      "将腿放回原位，然后换另一条腿重复此动作。",
+      "继续交替双腿达到所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2810",
+    "name": "barbell split squat v. 2",
+    "name_zh": "杠铃分腿蹲（第二式）",
+    "media": "raw:dataset_motion_2810",
+    "category": "upper legs",
+    "equipment": "barbell",
+    "target": "quads",
+    "muscle_group": "glutes",
+    "secondary_muscles": [
+      "glutes",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "首先，双脚分开与肩同宽站立，将杠铃放在上背部。",
+      "右脚向前迈出一大步，保持躯干直立。",
+      "弯曲膝盖和臀部，降低身体，直到右大腿与地面平行。",
+      "暂停片刻，然后推动右脚跟回到起始位置。",
+      "左腿向前重复此动作，达到所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2987",
+    "name": "weighted close grip chin-up on dip cage",
+    "name_zh": "负重窄握引体向上（吊环架）",
+    "media": "raw:dataset_motion_2987",
+    "category": "back",
+    "equipment": "weighted",
+    "target": "lats",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "站在俯卧撑前面，用反握抓住双杠，双手与肩同宽。",
+      "悬挂在杠上，双臂完全伸展，双脚离开地面，身体伸直。",
+      "收紧背部肌肉，将身体拉向杠铃，保持肘部靠近身体两侧。",
+      "继续拉，直到下巴高于杠铃，然后暂停片刻。",
+      "慢慢地将身体放回起始位置，充分伸展双臂。",
+      "重复所需的重复次数。"
+    ]
+  }
+]

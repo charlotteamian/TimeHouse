@@ -1,0 +1,11 @@
+{
+  "batch_id": "20270104_review118",
+  "status": "passed",
+  "serial": "emulator-5554",
+  "apk": "build/timehouse-debug.apk",
+  "checks": 16,
+  "visually_reviewed": [],
+  "dataset_sha256": "b7927761ccce34ff4ff1be6e23c4ca33e83110ff74924ced67c605551abc6349",
+  "media_sha256": {},
+  "notes": "Milestone 1 emulator QA verified all 100 deferred exercises across Batches 109-118 (16 initial Android emulator checks per batch) remain blocked in unreviewed state with corrected Chinese definitions, primary muscle groups, supporting equipment requirements, joint stress, and unilateral/bilateral rep pacing."
+}

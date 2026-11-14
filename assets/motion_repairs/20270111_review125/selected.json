@@ -1,0 +1,227 @@
+[
+  {
+    "id": "2138",
+    "name": "stationary bike run v. 3",
+    "name_zh": "固定自行车跑（第三式）",
+    "media": "raw:dataset_motion_2138",
+    "category": "cardio",
+    "equipment": "stationary bike",
+    "target": "cardiovascular system",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "调整座椅高度和位置以确保正确对齐。",
+      "将脚放在踏板上，并用带子（如果有）将其固定。",
+      "以舒适的速度开始踩踏板。",
+      "保持稳定的节奏并根据需要增加阻力。",
+      "调动核心肌肉以保持稳定性和正确的姿势。",
+      "继续踩踏板达到所需的锻炼时间。",
+      "逐渐减小阻力并减速，然后完全停止。",
+      "锻炼后伸展双腿并放松。"
+    ]
+  },
+  {
+    "id": "2139",
+    "name": "hands bike",
+    "name_zh": "双手单车",
+    "media": "raw:dataset_motion_2139",
+    "category": "chest",
+    "equipment": "upper body ergometer",
+    "target": "pectorals",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "将座椅高度和车把位置调整至舒适的水平。",
+      "坐在测力计上，背部挺直，双脚放在踏板上。",
+      "双手抓住手柄，并将手臂呈 90 度角。",
+      "开始用手踩踏板，以受控的动作推拉手柄。",
+      "继续踩踏所需的持续时间或重复次数。"
+    ]
+  },
+  {
+    "id": "2141",
+    "name": "walk elliptical cross trainer",
+    "name_zh": "椭圆机行走",
+    "media": "raw:dataset_motion_2141",
+    "category": "cardio",
+    "equipment": "elliptical machine",
+    "target": "cardiovascular system",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "glutes",
+      "calves"
+    ],
+    "instructions_zh": [
+      "将椭圆机的阻力水平和倾斜度调整到您想要的设置。",
+      "踩上机器的踏板并轻轻握住手柄。",
+      "首先用脚向下压，然后将手柄拉向身体。",
+      "继续这个动作，交替推和拉，以模拟行走或跑步动作。",
+      "在整个练习过程中保持稳定的步伐并保持核心参与。",
+      "继续进行有氧运动所需的持续时间。",
+      "下车前逐渐降低机器的强度和速度。"
+    ]
+  },
+  {
+    "id": "2142",
+    "name": "ski ergometer",
+    "name_zh": "滑雪划船机",
+    "media": "raw:dataset_motion_2142",
+    "category": "upper arms",
+    "equipment": "skierg machine",
+    "target": "triceps",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "将座椅高度和脚踏板调整到舒适的位置。",
+      "正手握住手柄，手掌朝下。",
+      "坐直，双脚平放在脚踏板上。",
+      "将手臂伸直在身前，保持肘部稍微弯曲。",
+      "收紧三头肌并将手柄向下推向大腿。",
+      "在底部停顿片刻，然后慢慢回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2144",
+    "name": "cable seated chest press",
+    "name_zh": "绳索坐姿胸推",
+    "media": "raw:dataset_motion_2144",
+    "category": "chest",
+    "equipment": "cable",
+    "target": "pectorals",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "triceps"
+    ],
+    "instructions_zh": [
+      "将座椅高度和电缆手柄调整至舒适的位置。",
+      "坐在长凳上，背部挺直，双脚平放在地板上。",
+      "正手握住电缆手柄，与肩同高。",
+      "向前推动手柄并使其远离身体，充分伸展双臂。",
+      "暂停片刻，然后慢慢将手柄放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2186",
+    "name": "ez barbell decline triceps extension",
+    "name_zh": "曲杆下斜三头肌伸展",
+    "media": "raw:dataset_motion_2186",
+    "category": "upper arms",
+    "equipment": "ez barbell",
+    "target": "triceps",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "躺在倾斜的长凳上，头低于脚，双脚固定。",
+      "正手握住 ez 杠铃，双手与肩同宽。",
+      "充分伸展双臂，保持肘部靠近头部。",
+      "将杠铃慢慢降低到前额，弯曲肘部。",
+      "暂停片刻，然后将手臂伸回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2187",
+    "name": "barbell reverse close-grip bench press",
+    "name_zh": "杠铃反手窄握卧推",
+    "media": "raw:dataset_motion_2187",
+    "category": "upper arms",
+    "equipment": "barbell",
+    "target": "triceps",
+    "muscle_group": "chest",
+    "secondary_muscles": [
+      "chest",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "平躺在长凳上，双脚平放在地上，背部紧贴长凳。",
+      "反握抓住杠铃，双手与肩同宽。",
+      "将杠铃从架子上提起，并将其直接放在胸部上方，双臂完全伸展。",
+      "慢慢地将杠铃向胸部降低，保持肘部靠近身体。",
+      "当杠铃位于胸部正上方时，暂停片刻。",
+      "将杠铃推回到起始位置，完全伸展双臂。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2202",
+    "name": "roller hip stretch",
+    "name_zh": "滚轮臀部拉伸",
+    "media": "raw:dataset_motion_2202",
+    "category": "upper legs",
+    "equipment": "roller",
+    "target": "glutes",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings",
+      "quadriceps"
+    ],
+    "instructions_zh": [
+      "首先坐在地上，双腿在身前伸展。",
+      "将滚轮放在臀部下方、膝盖上方。",
+      "向后倾斜，双手放在身后的地面上以获得支撑。",
+      "收紧臀部，慢慢向前滚动滚轮，弯曲膝盖并将其拉向胸部。",
+      "动作结束时暂停片刻，感受臀部的拉伸。",
+      "慢慢地将滚轮滚回起始位置，伸展双腿。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2203",
+    "name": "roller seated shoulder flexor depresor retractor",
+    "name_zh": "滚轮坐姿肩前屈下压",
+    "media": "raw:dataset_motion_2203",
+    "category": "chest",
+    "equipment": "roller",
+    "target": "pectorals",
+    "muscle_group": "deltoids",
+    "secondary_muscles": [
+      "deltoids",
+      "triceps"
+    ],
+    "instructions_zh": [
+      "坐在平坦的表面上，双腿在身前伸展。",
+      "双手握住滚轮，掌心朝下，将其放在大腿上。",
+      "稍微向前倾，将滚轮滚离身体，将手臂伸直在身前。",
+      "暂停片刻，然后慢慢将滚轮向身体方向滚动，弯曲手臂，将滚轮拉回到大腿处。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2204",
+    "name": "roller body saw",
+    "name_zh": "滚轮身体锯",
+    "media": "raw:dataset_motion_2204",
+    "category": "waist",
+    "equipment": "roller",
+    "target": "abs",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "triceps",
+      "core"
+    ],
+    "instructions_zh": [
+      "从平板支撑位置开始，前臂放在滚轴上，身体呈一条直线。",
+      "启动你的核心并缓慢向前滚动滚轮，在保持控制的同时尽可能地伸展你的身体。",
+      "在最远点暂停片刻，然后慢慢地将滚轮滚回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  }
+]

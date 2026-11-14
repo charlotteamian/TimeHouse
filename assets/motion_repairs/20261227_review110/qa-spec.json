@@ -1,0 +1,24 @@
+{
+  "batch": "20261227_review110",
+  "expected_checks": 16,
+  "expected_reviewed_after_approve": 138,
+  "candidate_ids": [],
+  "candidate_required_equipment": {
+    "1314": [
+      "墙面"
+    ],
+    "1316": [
+      "平板训练凳"
+    ],
+    "1317": [
+      "上斜训练凳"
+    ],
+    "1318": [
+      "上斜训练凳"
+    ],
+    "1322": [
+      "上斜训练凳"
+    ]
+  },
+  "expected_per_side_ids": []
+}

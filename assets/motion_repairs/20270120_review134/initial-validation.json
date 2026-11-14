@@ -1,0 +1,15 @@
+{
+  "batch_id": "20270120_review134",
+  "status": "passed",
+  "serial": "emulator-5554",
+  "apk": "build/timehouse-debug.apk",
+  "checks": 15,
+  "visually_reviewed": [
+    "0260"
+  ],
+  "dataset_sha256": "d1b9e3860d3a56a3756172763288858ee8573812c50b0fd79022554be9682f92",
+  "media_sha256": {
+    "0260": "ac7c594b46fd3dc07114b70153dec403975ee75bd5a77b26895494ad7521e63b"
+  },
+  "notes": "Verified Batch 134 candidate 0260 live 4-frame anatomical cocoons playback frames on Android emulator (y=320..321 sacrum <=1px, F2==F4 max_diff=0, corners=[255,255,255], min_b=35) and verified all 6 deferred legacy entries stay blocked by mandatory 1.2.14 review gate across 15 initial checks."
+}

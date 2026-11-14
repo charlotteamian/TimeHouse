@@ -1,0 +1,223 @@
+[
+  {
+    "id": "2297",
+    "name": "stability ball crunch (full range hands behind head)",
+    "name_zh": "健身球卷腹（双手后脑全幅）",
+    "media": "raw:dataset_motion_2297",
+    "category": "waist",
+    "equipment": "stability ball",
+    "target": "abs",
+    "muscle_group": "hip flexors",
+    "secondary_muscles": [
+      "hip flexors"
+    ],
+    "instructions_zh": [
+      "坐在稳定球上，双脚平放在地面上，膝盖弯曲成 90 度角。",
+      "将双手放在脑后，肘部朝外。",
+      "收紧腹肌，慢慢向前弯曲上半身，使胸部靠近膝盖。",
+      "在顶部停顿片刻，然后慢慢降低上半身回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2311",
+    "name": "walking on stepmill",
+    "name_zh": "台阶机行走",
+    "media": "raw:dataset_motion_2311",
+    "category": "cardio",
+    "equipment": "stepmill machine",
+    "target": "cardiovascular system",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "glutes",
+      "calves"
+    ],
+    "instructions_zh": [
+      "将步进机调整到舒适的水平。",
+      "走上机器，将双手放在扶手上以获得支撑。",
+      "开始行走时，将一只脚放在台阶上，然后将另一只脚放在台阶上，双腿交替。",
+      "保持直立姿势并锻炼核心肌肉。",
+      "继续步行所需的时间或距离。",
+      "当您对锻炼感到更加舒适时，逐渐增加强度或速度。",
+      "完成练习后记得冷静下来并伸展身体。"
+    ]
+  },
+  {
+    "id": "2315",
+    "name": "lever rotary calf",
+    "name_zh": "旋转小腿（杠杆）",
+    "media": "raw:dataset_motion_2315",
+    "category": "lower legs",
+    "equipment": "leverage machine",
+    "target": "calves",
+    "muscle_group": "soleus",
+    "secondary_muscles": [
+      "soleus",
+      "ankle stabilizers"
+    ],
+    "instructions_zh": [
+      "调整座椅高度，使膝盖稍微弯曲，双脚平放在踏板上。",
+      "将脚趾放在踏板上，脚跟悬在踏板边缘。",
+      "抓住机器的手柄或侧面以保持稳定性。",
+      "用脚掌推动，尽可能高地抬高脚后跟。",
+      "在顶部停顿片刻，然后慢慢降低脚后跟回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2318",
+    "name": "lever shoulder press v. 3",
+    "name_zh": "肩推（第三式）（杠杆）",
+    "media": "raw:dataset_motion_2318",
+    "category": "shoulders",
+    "equipment": "leverage machine",
+    "target": "delts",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "chest"
+    ],
+    "instructions_zh": [
+      "将杠杆机的座椅高度和靠背调整到舒适的位置。",
+      "坐在机器上，背部靠在靠背上，双脚平放在地板上。",
+      "正手握住机器的手柄，握距略宽于肩宽。",
+      "向上和向前推动手柄，直到手臂完全伸展，但未锁定。",
+      "在顶部暂停片刻，然后慢慢将手柄放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2328",
+    "name": "narrow push-up on exercise ball",
+    "name_zh": "窄握球上俯卧撑",
+    "media": "raw:dataset_motion_2328",
+    "category": "upper arms",
+    "equipment": "stability ball",
+    "target": "triceps",
+    "muscle_group": "chest",
+    "secondary_muscles": [
+      "chest",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "将稳定球放在地面上，将自己置于俯卧撑位置，双手放在球上，距离略窄于肩宽。",
+      "调动你的核心力量，让你的身体从头到脚保持在一条直线上。",
+      "弯曲肘部，使胸部靠近球，使胸部靠近球。",
+      "在底部暂停片刻，然后伸直手臂将自己推回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2330",
+    "name": "cable lat pulldown full range of motion",
+    "name_zh": "绳索下拉全范围",
+    "media": "raw:dataset_motion_2330",
+    "category": "back",
+    "equipment": "cable",
+    "target": "lats",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "rhomboids",
+      "rear deltoids"
+    ],
+    "instructions_zh": [
+      "坐在高位下拉机上，膝盖位于护垫下方。",
+      "正手握住电缆杆，握距略宽于肩宽。",
+      "稍微向后倾斜，挺胸，保持下背部轻微的拱形。",
+      "将杠铃向下拉至上胸部，将肩胛骨挤压在一起。",
+      "在动作底部暂停片刻，然后慢慢松开杠铃回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2331",
+    "name": "cycle cross trainer",
+    "name_zh": "动感单车",
+    "media": "raw:dataset_motion_2331",
+    "category": "cardio",
+    "equipment": "leverage machine",
+    "target": "cardiovascular system",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "glutes"
+    ],
+    "instructions_zh": [
+      "调整座椅高度并将自己放在自行车交叉训练机上。",
+      "将脚放在踏板上并抓住车把。",
+      "开始以平稳且受控的动作踩踏。",
+      "保持稳定的步伐并根据需要增加阻力。",
+      "继续踩踏您的有氧运动所需的持续时间。"
+    ]
+  },
+  {
+    "id": "2334",
+    "name": "sled lying calf press",
+    "name_zh": "雪橇卧式小腿推",
+    "media": "raw:dataset_motion_2334",
+    "category": "lower legs",
+    "equipment": "sled machine",
+    "target": "calves",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings",
+      "glutes"
+    ],
+    "instructions_zh": [
+      "将雪橇机调整至舒适的重量。",
+      "坐在雪橇机上，背部靠在垫子上，双脚放在平台上。",
+      "将脚趾和脚掌放在平台边缘，脚跟悬空。",
+      "伸展脚踝，将平台推离您，保持膝盖稍微弯曲。",
+      "继续用力，直到小腿完全收缩。",
+      "保持收缩一会儿，然后慢慢将平台放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2335",
+    "name": "lever seated calf press",
+    "name_zh": "坐姿小腿推压（杠杆）",
+    "media": "raw:dataset_motion_2335",
+    "category": "lower legs",
+    "equipment": "leverage machine",
+    "target": "calves",
+    "muscle_group": "soleus",
+    "secondary_muscles": [
+      "soleus",
+      "hamstrings"
+    ],
+    "instructions_zh": [
+      "调整机器的座椅，使您的肩膀与杠杆垫对齐。",
+      "将脚趾放在平台的下部，并将膝盖放在杠杆垫下方。",
+      "抓住座椅两侧的把手以保持稳定性。",
+      "伸展脚踝，将杠杆垫压下，尽可能高地抬起脚后跟。",
+      "在动作的最高点暂停片刻，然后慢慢降低脚跟回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2364",
+    "name": "assisted wide-grip chest dip (kneeling)",
+    "name_zh": "辅助宽握胸下压（跪姿）",
+    "media": "raw:dataset_motion_2364",
+    "category": "chest",
+    "equipment": "leverage machine",
+    "target": "pectorals",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "将机器调整到您想要的高度，并将膝盖固定在垫子上。",
+      "宽握手柄并保持肘部稍微弯曲。",
+      "弯曲肘部降低身体，直到上臂与地板平行。",
+      "伸展双臂，将自己推回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  }
+]

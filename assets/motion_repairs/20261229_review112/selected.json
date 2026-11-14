@@ -1,0 +1,223 @@
+[
+  {
+    "id": "1343",
+    "name": "exercise ball prone leg raise",
+    "name_zh": "健身球俯卧抬腿",
+    "media": "raw:dataset_motion_1343",
+    "category": "back",
+    "equipment": "stability ball",
+    "target": "spine",
+    "muscle_group": "abdominals",
+    "secondary_muscles": [
+      "abdominals",
+      "glutes"
+    ],
+    "instructions_zh": [
+      "面朝下躺在垫子上，双腿伸展，脚趾放在稳定球上。",
+      "将双手放在地上，与肩同宽，锻炼核心肌肉。",
+      "保持双腿伸直，慢慢将它们抬离地面，用下背部和臀部将它们尽可能抬高。",
+      "在顶部暂停片刻，然后慢慢将双腿放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1344",
+    "name": "ez bar reverse grip bent over row",
+    "name_zh": "曲杆反握俯身划船",
+    "media": "raw:dataset_motion_1344",
+    "category": "back",
+    "equipment": "ez barbell",
+    "target": "upper back",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "站立，双脚分开与肩同宽，膝盖稍微弯曲。",
+      "反手握住 ez 杠铃，手掌朝上，双手与肩同宽。",
+      "臀部向前弯曲，保持背部挺直，挺胸，直到躯干几乎与地板平行。",
+      "将 ez 杠铃拉向下胸部，将肩胛骨挤压在一起。",
+      "在顶部暂停片刻，然后慢慢将 ez 杠铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1345",
+    "name": "kettlebell two arm row",
+    "name_zh": "壶铃双臂划船",
+    "media": "raw:dataset_motion_1345",
+    "category": "back",
+    "equipment": "kettlebell",
+    "target": "upper back",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，膝盖稍微弯曲，双手各握一个壶铃，手掌朝向身体。",
+      "臀部向前弯曲，保持背部挺直，核心肌群参与。",
+      "将壶铃拉向胸部，将肩胛骨挤压在一起。",
+      "在顶部暂停片刻，然后慢慢将壶铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1347",
+    "name": "lever one arm lateral wide pulldown",
+    "name_zh": "单臂宽握下拉（杠杆）",
+    "media": "raw:dataset_motion_1347",
+    "category": "back",
+    "equipment": "leverage machine",
+    "target": "lats",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "rhomboids",
+      "rear deltoids"
+    ],
+    "instructions_zh": [
+      "调整座椅高度，将自己放在机器上，胸部靠在垫子上，双脚平放在地板上。",
+      "正手握住手柄，完全伸展手臂，保持肘部轻微弯曲。",
+      "将手柄向下拉，穿过身体向对面的臀部方向拉，在动作底部挤压背阔肌。",
+      "慢慢地将手柄返回到起始位置，完全伸展手臂。",
+      "重复所需的重复次数，然后换边。"
+    ]
+  },
+  {
+    "id": "1348",
+    "name": "lever reverse grip vertical row",
+    "name_zh": "反握垂直划船（杠杆）",
+    "media": "raw:dataset_motion_1348",
+    "category": "back",
+    "equipment": "leverage machine",
+    "target": "upper back",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "调整座椅高度和踏板位置以确保正确对齐。",
+      "坐在机器上，胸部靠在垫子上，双脚平放在踏板上。",
+      "反手握住手柄，手掌朝上。",
+      "保持背部挺直并启动核心肌群。",
+      "将手柄拉向胸部，将肩胛骨挤压在一起。",
+      "在动作的最高点停顿片刻，然后慢慢松开并伸展手臂回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1349",
+    "name": "lever reverse t-bar row",
+    "name_zh": "反向丁字杠划船（器械）",
+    "media": "raw:dataset_motion_1349",
+    "category": "back",
+    "equipment": "leverage machine",
+    "target": "upper back",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "调整杠杆机上的座椅高度和踏板位置。",
+      "坐在机器上，胸部靠在垫子上，双脚平放在踏板上。",
+      "正手握住手柄，握距略宽于肩宽。",
+      "保持背部挺直并启动核心肌群。",
+      "将手柄拉向胸部，将肩胛骨挤压在一起。",
+      "在动作的最高点停顿片刻，然后慢慢松开并伸展手臂回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1350",
+    "name": "lever seated row",
+    "name_zh": "坐姿划船（杠杆）",
+    "media": "raw:dataset_motion_1350",
+    "category": "back",
+    "equipment": "leverage machine",
+    "target": "upper back",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "将座椅高度和脚踏板调整到舒适的位置。",
+      "坐在机器上，胸部靠在垫子上，双脚放在脚踏板上。",
+      "正手握住手柄，距离与肩同宽。",
+      "保持背部挺直，核心肌群参与。",
+      "将手柄拉向身体，将肩胛骨挤压在一起。",
+      "在动作的最高点停顿片刻。",
+      "慢慢松开手柄并返回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1351",
+    "name": "lever t-bar reverse grip row",
+    "name_zh": "反握丁字杠划船（器械）",
+    "media": "raw:dataset_motion_1351",
+    "category": "back",
+    "equipment": "leverage machine",
+    "target": "upper back",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "调整座椅高度，将自己放在机器上，胸部靠在垫子上，双脚平放在地板上。",
+      "正手握住手柄，握距略宽于肩宽。",
+      "保持背部挺直并启动核心肌群。",
+      "将手柄拉向胸部，将肩胛骨挤压在一起。",
+      "在动作的最高点停顿片刻，然后慢慢松开并伸展手臂回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1353",
+    "name": "medicine ball catch and overhead throw",
+    "name_zh": "药球接抛头顶",
+    "media": "raw:dataset_motion_1353",
+    "category": "back",
+    "equipment": "medicine ball",
+    "target": "lats",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "core"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，双手握住健身球，与胸部齐平。",
+      "稍微弯曲膝盖并启动核心。",
+      "将身体降低至蹲姿，保持背部挺直、挺胸。",
+      "爆发性伸展臀部和腿部，同时将药球扔过头顶。",
+      "在动作的最高点释放球并在下降的过程中接住它。",
+      "将身体放回蹲姿，然后重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1354",
+    "name": "medicine ball overhead slam",
+    "name_zh": "药球头顶砸地",
+    "media": "raw:dataset_motion_1354",
+    "category": "back",
+    "equipment": "medicine ball",
+    "target": "upper back",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "core"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，双手握住药球举过头顶。",
+      "启动你的核心并保持背部挺直。",
+      "稍微弯曲膝盖，用力将药球摔到你面前的地面上。",
+      "当你击球时，用你的整个身体来产生力量，包括你的肩膀和核心。",
+      "接住球的弹跳并重复所需的重复次数。"
+    ]
+  }
+]

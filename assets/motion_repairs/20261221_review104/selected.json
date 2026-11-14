@@ -1,0 +1,215 @@
+[
+  {
+    "id": "0993",
+    "name": "band reverse fly",
+    "name_zh": "弹力带反向飞鸟",
+    "media": "raw:dataset_motion_0993",
+    "category": "shoulders",
+    "equipment": "band",
+    "target": "delts",
+    "muscle_group": "upper back",
+    "secondary_muscles": [
+      "upper back",
+      "trapezius"
+    ],
+    "instructions_zh": [
+      "将带子固定在胸部高度的固定物体上。",
+      "双脚分开与肩同宽站立，双手握住弹力带放在身前。",
+      "保持手臂伸直并将其向两侧抬起，直到与地面平行。",
+      "在动作的最高点将肩胛骨挤压在一起。",
+      "慢慢地将手臂放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0994",
+    "name": "band reverse wrist curl",
+    "name_zh": "弹力带反向腕弯举",
+    "media": "raw:dataset_motion_0994",
+    "category": "lower arms",
+    "equipment": "band",
+    "target": "forearms",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "坐在长凳或椅子上，双脚平放在地面上。",
+      "正手握住弹力带，手掌朝下，然后将其缠绕在手指上。",
+      "将前臂放在大腿上，手腕悬在边缘上。",
+      "慢慢向上弯曲手腕，挤压前臂。",
+      "在顶部暂停片刻，然后慢慢将手腕放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0996",
+    "name": "band seated hip internal rotation",
+    "name_zh": "弹力带坐姿髋内旋",
+    "media": "raw:dataset_motion_0996",
+    "category": "upper legs",
+    "equipment": "band",
+    "target": "glutes",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings",
+      "quadriceps"
+    ],
+    "instructions_zh": [
+      "坐在椅子或长凳上，背部挺直，双脚平放在地面上。",
+      "在大腿周围、膝盖上方放置一条阻力带。",
+      "保持膝盖弯曲 90 度，双脚分开与肩同宽。",
+      "收紧臀肌，慢慢向外旋转膝盖，克服弹力带的阻力。",
+      "动作结束时暂停片刻，然后慢慢回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0997",
+    "name": "band shoulder press",
+    "name_zh": "弹力带肩推",
+    "media": "raw:dataset_motion_0997",
+    "category": "shoulders",
+    "equipment": "band",
+    "target": "delts",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "upper back"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，将弹力带放在脚下。",
+      "手掌朝前握住弹力带，将双手举至肩高，肘部弯曲。",
+      "将弹力带压过头顶，充分伸展双臂。",
+      "在顶部暂停片刻，然后慢慢将阻力带降低至肩部高度。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0998",
+    "name": "band side triceps extension",
+    "name_zh": "弹力带侧三头肌伸展",
+    "media": "raw:dataset_motion_0998",
+    "category": "upper arms",
+    "equipment": "band",
+    "target": "triceps",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，双手握住弹力带，掌心朝下。",
+      "将手臂伸直至两侧，保持与地面平行。",
+      "慢慢弯曲肘部，将双手放在肩膀上，保持上臂不动。",
+      "暂停片刻，然后慢慢将手臂伸回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0999",
+    "name": "band single leg calf raise",
+    "name_zh": "弹力带单腿提踵",
+    "media": "raw:dataset_motion_0999",
+    "category": "lower legs",
+    "equipment": "band",
+    "target": "calves",
+    "muscle_group": "ankles",
+    "secondary_muscles": [
+      "ankles",
+      "feet"
+    ],
+    "instructions_zh": [
+      "双脚分开站立，与臀部同宽，将弹力带绕在左脚掌上。",
+      "如果需要，请抓住一个稳定的物体以保持平衡。",
+      "慢慢地将左脚跟抬离地面，将身体重量转移到脚掌上。",
+      "在顶部暂停片刻，然后慢慢将左脚跟放回起始位置。",
+      "重复所需的重复次数，然后换右腿。"
+    ]
+  },
+  {
+    "id": "1000",
+    "name": "band single leg reverse calf raise",
+    "name_zh": "弹力带单腿反向提踵",
+    "media": "raw:dataset_motion_1000",
+    "category": "lower legs",
+    "equipment": "band",
+    "target": "calves",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings",
+      "glutes"
+    ],
+    "instructions_zh": [
+      "双脚分开站立，与臀部同宽，将弹力带放在脚掌周围。",
+      "抓住稳定的物体以保持平衡。",
+      "慢慢地将脚跟抬离地面，将身体重量转移到脚掌上。",
+      "在顶部暂停片刻，然后慢慢将脚跟放回起始位置。",
+      "重复所需的重复次数，然后换另一条腿。"
+    ]
+  },
+  {
+    "id": "1001",
+    "name": "band single leg split squat",
+    "name_zh": "弹力带单腿分腿蹲",
+    "media": "raw:dataset_motion_1001",
+    "category": "upper legs",
+    "equipment": "band",
+    "target": "quads",
+    "muscle_group": "glutes",
+    "secondary_muscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "instructions_zh": [
+      "双脚分开站立，与臀部同宽，将阻力带绕在脚踝上。",
+      "右脚向前迈一大步，左脚向后退一小步。",
+      "弯曲膝盖并降低身体，直到右大腿与地面平行，保持左膝盖略高于地面。",
+      "推动右脚跟回到起始位置。",
+      "在另一侧重复。"
+    ]
+  },
+  {
+    "id": "1002",
+    "name": "band lying straight leg raise",
+    "name_zh": "弹力带仰卧直腿抬高",
+    "media": "raw:dataset_motion_1002",
+    "category": "waist",
+    "equipment": "band",
+    "target": "abs",
+    "muscle_group": "hip flexors",
+    "secondary_muscles": [
+      "hip flexors"
+    ],
+    "instructions_zh": [
+      "平躺，双腿伸直，双脚并拢。",
+      "将带子放在脚弓周围，并用手握住带子的末端。",
+      "收紧腹肌，将双腿抬离地面，直到它们垂直于地板。",
+      "在顶部暂停片刻，然后慢慢将双腿放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1003",
+    "name": "band squat row",
+    "name_zh": "弹力带深蹲划船",
+    "media": "raw:dataset_motion_1003",
+    "category": "upper legs",
+    "equipment": "band",
+    "target": "glutes",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings",
+      "quadriceps",
+      "back"
+    ],
+    "instructions_zh": [
+      "将带子固定在腰部高度的坚固锚点上。",
+      "面向锚点站立，双脚分开与肩同宽。",
+      "双手握住弹力带手柄，手掌相对，双臂向前伸展。",
+      "弯曲膝盖并蹲下，保持背部挺直，挺胸。",
+      "从蹲姿开始，将弹力带手柄拉向身体，将肩胛骨挤压在一起。",
+      "在最高点停顿片刻，然后慢慢释放张力，回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  }
+]

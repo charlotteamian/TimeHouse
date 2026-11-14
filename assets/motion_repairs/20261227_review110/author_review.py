@@ -1,0 +1,237 @@
+#!/usr/bin/env python3
+"""Author Batch 110 review updates, pending notes, code baseline, and QA spec (0 candidates; 10 deferred)."""
+from pathlib import Path
+import json
+import hashlib
+
+B = Path(__file__).resolve().parent
+R = B.parents[2]
+BATCH_ID = "20261227_review110"
+VERSION = "1.2.115"
+VERSION_CODE = 2026122701
+
+inspected = ["1314", "1316", "1317", "1318", "1319", "1320", "1321", "1322", "1323", "1324"]
+review_candidates = []
+registered_media = []
+
+definition_updates = {
+    "1314": {
+        "name_zh": "靠墙瑜伽球背屈伸",
+        "category": "back",
+        "equipment": "stability ball",
+        "target": "spine",
+        "muscle_group": "",
+        "secondary_muscles": ["glutes", "hamstrings"],
+        "required_equipment_zh": ["墙面"],
+        "instructions_zh": [
+            "将瑜伽球放在防滑地面上，俯身将髋部与下腹部压靠在球面上，双脚向后伸直并脚掌踩实墙面底部。",
+            "双手交叉贴于胸前或轻放于耳侧，先向下放松俯身拉伸下背竖脊肌。",
+            "呼气核心与下背竖脊肌主导发力，缓慢抬起上半身伸展脊柱至头、躯干与双腿呈一条直线，避免过度反弓腰椎。",
+            "在顶端受控停顿片刻，吸气缓慢下放上半身回到起始屈髋位，按计划重复。",
+        ],
+    },
+    "1316": {
+        "name_zh": "平凳仰卧杠铃屈臂拉背",
+        "category": "back",
+        "equipment": "barbell",
+        "target": "lats",
+        "muscle_group": "",
+        "secondary_muscles": ["triceps", "chest"],
+        "required_equipment_zh": ["平板训练凳"],
+        "instructions_zh": [
+            "仰卧在平板训练凳上，头部靠近凳端，双脚全掌踩实地面以稳定骨盆。",
+            "正握与肩同宽举起杠铃置于胸廓正上方，双肘保持固定微屈角度。",
+            "吸气沉肩锁紧核心，大臂沿弧线缓慢向头顶后方下放，充分牵拉背阔肌至大臂接近与地面平行。",
+            "呼气背阔肌发力带动大臂原路拉回胸口正上方起始位，全程保持肘角稳定，按计划重复。",
+        ],
+    },
+    "1317": {
+        "name_zh": "上斜训练凳俯卧反握杠铃划船",
+        "category": "back",
+        "equipment": "barbell",
+        "target": "upper back",
+        "muscle_group": "",
+        "secondary_muscles": ["biceps", "forearms"],
+        "required_equipment_zh": ["上斜训练凳"],
+        "instructions_zh": [
+            "将上斜训练凳调整至约 45 度角，俯身趴靠于靠背垫上，前胸贴稳靠垫、双脚蹬地保持下肢稳固。",
+            "采用反握（掌心朝前上方）略宽于肩握住杠铃，双臂自然下垂于训练凳前下方。",
+            "呼气上背菱形肌与斜方肌中下束协同发力，贴近身体将杠铃向上腹部方向拉起并挤压肩胛骨。",
+            "在终点顶峰停顿片刻，吸气匀速受控下放杠铃回到手臂自然伸直位，按计划重复。",
+        ],
+    },
+    "1318": {
+        "name_zh": "上斜训练凳坐姿绳索划船",
+        "category": "back",
+        "equipment": "cable",
+        "target": "upper back",
+        "muscle_group": "",
+        "secondary_muscles": ["biceps", "rear deltoids"],
+        "required_equipment_zh": ["上斜训练凳"],
+        "instructions_zh": [
+            "将上斜训练凳面对龙门架低位滑轮放置，面向滑轮塔坐在上斜凳座垫上，双脚踩实地面并微前倾躯干。",
+            "双手握住连接于低滑轮的划船把手，双臂向斜前方充分伸展拉紧配重。",
+            "保持脊柱中立收紧核心，呼气先沉肩后收肩胛，弯曲双肘将把手稳步拉向胸部下沿。",
+            "在背部完全收缩位停顿 1 秒，吸气缓慢受控伸臂还原张力至起始位，按计划重复。",
+        ],
+    },
+    "1319": {
+        "name_zh": "站姿龙门架绳索旋腕划船",
+        "category": "back",
+        "equipment": "cable",
+        "target": "upper back",
+        "muscle_group": "",
+        "secondary_muscles": ["biceps", "forearms"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "将双把手连接于腰腹高度的龙门架滑轮上，面向滑轮塔分脚或微弓箭步站稳。",
+            "初始采用掌心朝下正握双把手并向后退一步建立预张力，双臂伸直保持背部挺直。",
+            "呼气上背肌群发力向腹部拉回把手，随拉动同步外旋前臂使终点呈掌心朝上的反握姿态并夹紧肩胛。",
+            "吸气缓慢内旋前臂并伸直手臂放回掌心朝下起始位，按计划重复。",
+        ],
+    },
+    "1320": {
+        "name_zh": "坐姿龙门架分体双柄划船",
+        "category": "back",
+        "equipment": "cable",
+        "target": "upper back",
+        "muscle_group": "",
+        "secondary_muscles": ["biceps", "forearms"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "面向低位划船滑轮坐稳，双脚踏实踏板并保持双膝微屈、脊柱直立。",
+            "双手分别握住分体绳索双拉柄两端并向前伸直双臂，维持上背适度拉伸感。",
+            "呼气沉肩屈肘向两侧肋骨方向拉回双柄，同时向后下方收紧挤压两侧肩胛骨。",
+            "在末端收缩位停顿片刻，吸气匀速受控伸臂还原张力至起始位，按计划重复。",
+        ],
+    },
+    "1321": {
+        "name_zh": "坐姿龙门架高位长绳划船",
+        "category": "back",
+        "equipment": "cable",
+        "target": "upper back",
+        "muscle_group": "",
+        "secondary_muscles": ["biceps", "forearms"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "在坐姿划船台上将长绳把手改接至高位滑轮，面朝滑轮塔坐稳并将双脚蹬稳前踏板。",
+            "双手锤式对握长绳两端向斜上方伸直手臂，保持核心收紧且躯干仅微后仰。",
+            "呼气上背与三角肌后束协同发力，将长绳顺着斜下方轨迹拉向胸上端外侧并充分挤压肩胛。",
+            "在收缩末端停顿片刻，吸气控制重物匀速放回斜上方伸直位，按计划重复。",
+        ],
+    },
+    "1322": {
+        "name_zh": "上斜训练凳俯卧长绳划船",
+        "category": "back",
+        "equipment": "cable",
+        "target": "upper back",
+        "muscle_group": "",
+        "secondary_muscles": ["biceps", "shoulders"],
+        "required_equipment_zh": ["上斜训练凳"],
+        "instructions_zh": [
+            "将约 45 度上斜训练凳置于龙门架低滑轮前侧，面对滑轮方向俯身趴卧在靠背垫上，前脚掌抵实地面。",
+            "双手锤式对握连接于低位滑轮的长绳两端，双臂朝向斜下方充分伸展建立拉背张力。",
+            "呼气维持前胸稳贴靠垫，上背斜方肌与菱形肌主导发力屈肘将长绳向体侧及上腹外侧拉起。",
+            "在顶端充分挤压上背肌群并停顿片刻，吸气受控伸臂放回起始位，按计划重复。",
+        ],
+    },
+    "1323": {
+        "name_zh": "坐姿龙门架长绳划船",
+        "category": "back",
+        "equipment": "cable",
+        "target": "upper back",
+        "muscle_group": "",
+        "secondary_muscles": ["biceps", "forearms"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "坐在坐姿划船凳上，双脚平踩前方脚踏板，双膝微屈、脊柱保持中立挺拔。",
+            "双手对握连接于低滑轮的双股编织长绳两端，双臂水平前伸使肩胛轻微前引拉伸。",
+            "呼气先沉肩再屈肘将长绳向腹部与下胸之间拉回，双肘贴近体侧后移并挤压两侧肩胛骨。",
+            "在收缩末端停顿 1 秒，吸气缓慢受控释放配重伸直双臂还原，按计划重复。",
+        ],
+    },
+    "1324": {
+        "name_zh": "站姿龙门架直杆高位划船",
+        "category": "back",
+        "equipment": "cable",
+        "target": "upper back",
+        "muscle_group": "",
+        "secondary_muscles": ["biceps", "shoulders"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "将直杆把手连接至胸高位置的龙门架滑轮上，面向器械站立，双脚与肩同宽微屈膝。",
+            "正握略宽于肩握住直杆后退一步建立张力，挺胸收腹保持躯干稳定直立。",
+            "呼气上背与后束协同发力，保持前臂与绳索轨迹一致将直杆平拉向上胸部位置并夹紧肩胛。",
+            "在终点收缩位停顿片刻，吸气缓慢受控放回双臂前伸位，按计划重复。",
+        ],
+    },
+}
+
+pending = {
+    "1314": "待修图 · 规范球上背伸为靠墙瑜伽球背屈伸并补全墙面支持器械；原图虽为 4 帧，但右侧固定墙面在第 3 帧水平偏移 2 像素（wall IoU=0.8457<0.96），待重制锁死墙面锚点。",
+    "1316": "待修图 · 纠正屈臂下拉误译为平凳仰卧杠铃屈臂拉背并补全平板训练凳支持器械；原动图仅 2 帧，待重制为标准 4 帧循环图。",
+    "1317": "待修图 · 规范俯卧反握杠铃划船并纠正步骤中掌心朝下错译，补全上斜训练凳支持器械；原动图仅 2 帧，待重制为标准 4 帧循环图。",
+    "1318": "待修图 · 消除上斜卧推划船机器错译规范为上斜训练凳坐姿绳索划船并补全上斜训练凳支持器械；原动图仅 2 帧，待重制为标准 4 帧循环图。",
+    "1319": "待修图 · 消除掌旋转划船直译规范为站姿龙门架绳索旋腕划船；原动图 10 帧且帧率与循环节奏不合规，待重制为标准 4 帧循环图。",
+    "1320": "待修图 · 消除交叉划船直译规范为坐姿龙门架分体双柄划船；原动图 10 帧且前 3 帧近似静止，待重制为标准 4 帧循环图。",
+    "1321": "待修图 · 规范高位坐姿划船为坐姿龙门架高位长绳划船；原动图仅 2 帧且缺乏中间过渡帧，待重制为标准 4 帧循环图。",
+    "1322": "待修图 · 规范斜板划船并纠正步骤中坐姿误写为上斜训练凳俯卧长绳划船（补全上斜训练凳支持器械）；原动图 10 帧且帧率不合规，待重制为标准 4 帧循环图。",
+    "1323": "待修图 · 规范长绳划船为坐姿龙门架长绳划船；原动图 10 帧且帧率与循环节奏不合规，待重制为标准 4 帧循环图。",
+    "1324": "待修图 · 规范高位划船为站姿龙门架直杆高位划船；原动图 10 帧且帧率与循环节奏不合规，待重制为标准 4 帧循环图。",
+}
+
+sources = {}
+review_notes = {}
+
+before_reviews = json.loads((B / "before/exercise_reviews.json").read_text())
+reviewed_count = len(before_reviews["reviewed"]) + len(review_candidates)
+
+review_result = {
+    "batch": BATCH_ID,
+    "version": VERSION,
+    "version_code": VERSION_CODE,
+    "output": "build/review110-20261227",
+    "inspected": inspected,
+    "review_candidates": review_candidates,
+    "registered_media": registered_media,
+    "definition_updates": definition_updates,
+    "pending": pending,
+    "sources": sources,
+    "review_notes": review_notes,
+    "image_generation_calls": 0,
+    "generated_images_imported": 0,
+}
+(B / "review-result.json").write_text(json.dumps(review_result, ensure_ascii=False, indent=2) + "\n")
+
+code_paths = [
+    "app/src/main/java",
+    "scripts/validate_exercise_dataset.sh",
+    "scripts/build_android_debug.sh",
+]
+baseline = {}
+for rel in code_paths:
+    p = R / rel
+    if p.is_file():
+        baseline[rel] = hashlib.sha256(p.read_bytes()).hexdigest()
+    else:
+        for f in sorted(p.rglob("*")):
+            if f.is_file():
+                baseline[str(f.relative_to(R))] = hashlib.sha256(f.read_bytes()).hexdigest()
+(B / "code-baseline.json").write_text(json.dumps(baseline, ensure_ascii=False, indent=2) + "\n")
+
+qa_spec = {
+    "batch": BATCH_ID,
+    "expected_checks": 16,
+    "expected_reviewed_after_approve": reviewed_count,
+    "candidate_ids": [],
+    "candidate_required_equipment": {
+        "1314": ["墙面"],
+        "1316": ["平板训练凳"],
+        "1317": ["上斜训练凳"],
+        "1318": ["上斜训练凳"],
+        "1322": ["上斜训练凳"],
+    },
+    "expected_per_side_ids": [],
+}
+(B / "qa-spec.json").write_text(json.dumps(qa_spec, ensure_ascii=False, indent=2) + "\n")
+print(f"Authored review-result.json, code-baseline.json, and qa-spec.json for {BATCH_ID}")

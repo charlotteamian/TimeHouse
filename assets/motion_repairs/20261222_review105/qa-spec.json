@@ -1,0 +1,12 @@
+{
+  "batch": "20261222_review105",
+  "expected_checks": 16,
+  "expected_reviewed_after_approve": 138,
+  "candidate_ids": [],
+  "candidate_required_equipment": {
+    "1008": [
+      "稳固踏台"
+    ]
+  },
+  "expected_per_side_ids": []
+}

@@ -1,0 +1,227 @@
+[
+  {
+    "id": "3305",
+    "name": "barbell thruster",
+    "name_zh": "杠铃推举",
+    "media": "raw:dataset_motion_3305",
+    "category": "shoulders",
+    "equipment": "barbell",
+    "target": "delts",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "glutes",
+      "hamstrings",
+      "core"
+    ],
+    "instructions_zh": [
+      "首先，双脚分开与肩同宽站立，正手握住杠铃，与肩同高。",
+      "弯曲膝盖并将臀部向后推，降低至蹲姿。",
+      "当你到达深蹲底部时，爆发性地通过脚后跟站起来，同时将杠铃压过头顶。",
+      "当你回到深蹲位置时，将杠铃降低到肩膀高度。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3312",
+    "name": "weighted muscle up (on bar)",
+    "name_zh": "负重肌上（杠上）",
+    "media": "raw:dataset_motion_3312",
+    "category": "back",
+    "equipment": "weighted",
+    "target": "lats",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "triceps",
+      "shoulders",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "首先悬挂在引体向上杆上，手掌背向自己，双手之间的距离略大于肩宽。",
+      "启动你的核心并将肩胛骨向下拉和向后拉。",
+      "弯曲肘部，将胸部拉向杠铃杆，保持身体挺直。",
+      "当你的胸部到达杠铃时，用手向下推并将肘部向后推，将身体提升到杠铃上方。",
+      "在动作的最高点暂停，然后慢慢降低回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3313",
+    "name": "weighted straight bar dip",
+    "name_zh": "负重直杠下压",
+    "media": "raw:dataset_motion_3313",
+    "category": "chest",
+    "equipment": "weighted",
+    "target": "pectorals",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "将自己置于双杠之间，双臂完全伸展，身体伸直。",
+      "弯曲肘部降低身体，直到上臂与地面平行。",
+      "暂停片刻，然后伸直手臂，将自己推回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3562",
+    "name": "barbell glute bridge two legs on bench (male)",
+    "name_zh": "杠铃臀桥双腿放凳（男）",
+    "media": "raw:dataset_motion_3562",
+    "category": "upper legs",
+    "equipment": "barbell",
+    "target": "glutes",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings",
+      "core"
+    ],
+    "instructions_zh": [
+      "首先坐在长凳边缘，上背部靠在长凳上，双脚平放在地面上，与臀部同宽。",
+      "将杠铃放在臀部上，用双手牢牢握住它。",
+      "锻炼臀肌和核心肌肉，然后用脚后跟将臀部抬离长凳，形成从膝盖到肩膀的一条直线。",
+      "在顶部暂停片刻，挤压臀部。",
+      "慢慢地将臀部放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3563",
+    "name": "cable one arm pulldown",
+    "name_zh": "绳索单臂下拉",
+    "media": "raw:dataset_motion_3563",
+    "category": "back",
+    "equipment": "cable",
+    "target": "lats",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "将单个手柄连接到高滑轮电缆机上。",
+      "面向机器站立，双脚分开与肩同宽。",
+      "正手握住手柄并完全伸展手臂。",
+      "保持背部挺直，核心肌群参与。",
+      "将手柄向一侧拉，同时保持肘部靠近身体。",
+      "在动作底部暂停片刻，挤压背阔肌。",
+      "慢慢松开手柄回到起始位置。",
+      "重复所需的重复次数。",
+      "换边并用另一只手臂重复练习。"
+    ]
+  },
+  {
+    "id": "3641",
+    "name": "weighted kneeling step with swing",
+    "name_zh": "负重跪姿摆动步",
+    "media": "raw:dataset_motion_3641",
+    "category": "shoulders",
+    "equipment": "weighted",
+    "target": "delts",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "core"
+    ],
+    "instructions_zh": [
+      "从跪姿开始，膝盖分开与臀部同宽，背部挺直。",
+      "每只手各握一个重物，双臂在身前笔直向下伸展。",
+      "启动你的核心肌群，将重物向上举过头顶，保持手臂伸直。",
+      "将重量放回起始位置，然后重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3642",
+    "name": "weighted stretch lunge",
+    "name_zh": "负重拉伸弓步",
+    "media": "raw:dataset_motion_3642",
+    "category": "upper legs",
+    "equipment": "weighted",
+    "target": "glutes",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立。",
+      "右脚向前迈出一步，保持背部挺直。",
+      "弯曲膝盖降低身体，直到右大腿与地面平行。",
+      "推动右脚跟回到起始位置。",
+      "左腿重复上述动作。",
+      "继续交替双腿达到所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3643",
+    "name": "weighted cossack squats (male)",
+    "name_zh": "负重哥萨克深蹲（男）",
+    "media": "raw:dataset_motion_3643",
+    "category": "upper legs",
+    "equipment": "weighted",
+    "target": "glutes",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "站立时双脚分开比肩宽，脚趾稍微向外。",
+      "用双手将重物放在胸前。",
+      "将您的体重转移到一侧，并通过弯曲您转移一侧的膝盖来降低身体，同时保持另一条腿伸直。",
+      "尽可能降低身体高度，同时保持平衡并挺胸。",
+      "推动弯曲腿的脚跟以返回到起始位置。",
+      "在另一侧重复，双腿之间交替。"
+    ]
+  },
+  {
+    "id": "3644",
+    "name": "weighted lunge with swing",
+    "name_zh": "负重摆动弓步",
+    "media": "raw:dataset_motion_3644",
+    "category": "upper legs",
+    "equipment": "weighted",
+    "target": "glutes",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，每只手各握一个重物。",
+      "右脚向前迈出一步，将身体降低至弓步位置。",
+      "当你向前冲时，向前和向上摆动重物，保持手臂伸直。",
+      "用右脚推出并返回到起始位置，将重物向下摆动。",
+      "用左脚重复上述动作，并继续交替双腿，完成所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3666",
+    "name": "walking on incline treadmill",
+    "name_zh": "斜坡跑步机行走",
+    "media": "raw:dataset_motion_3666",
+    "category": "cardio",
+    "equipment": "leverage machine",
+    "target": "cardiovascular system",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "将跑步机的倾斜度调整到您想要的强度。",
+      "站在跑步机上，双脚分开与肩同宽。",
+      "开始以舒适的步伐行走，确保保持正确的姿势。",
+      "在整个练习过程中，调动核心肌肉并保持背部挺直。",
+      "继续在倾斜跑步机上行走，完成有氧运动所需的时间。",
+      "逐渐降低跑步机的坡度和速度，使其冷却后再停止。"
+    ]
+  }
+]

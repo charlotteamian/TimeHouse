@@ -1,0 +1,15 @@
+{
+  "batch_id": "20270111_review125",
+  "status": "passed",
+  "serial": "emulator-5554",
+  "apk": "build/timehouse-debug.apk",
+  "checks": 19,
+  "visually_reviewed": [
+    "2138"
+  ],
+  "dataset_sha256": "8e1a76649c263e4a9f7960cad85e4e934fcfea664a5a223c9e95863acd215c60",
+  "media_sha256": {
+    "2138": "74720f3d29f25ed243d37ce16aa13359aad0f2d892e5ea4d9fde217f5a4cba7a"
+  },
+  "notes": "Verified Batch 125 candidate 2138 live cyclic pedaling playback frames on Android 12 emulator (y>=370 IoU(F1,F3)=0.9754, zero clipping, decodedAnimations=1) and verified all 9 deferred Batch 125 entries stay blocked by mandatory 1.2.14 review gate across 19 initial checks."
+}

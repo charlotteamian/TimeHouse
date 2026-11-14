@@ -1,0 +1,219 @@
+[
+  {
+    "id": "1325",
+    "name": "cable wide grip rear pulldown behind neck",
+    "name_zh": "绳索宽握后颈下压",
+    "media": "raw:dataset_motion_1325",
+    "category": "back",
+    "equipment": "cable",
+    "target": "lats",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "rhomboids",
+      "rear deltoids"
+    ],
+    "instructions_zh": [
+      "调整缆绳机，使下拉杆位于您头部上方的高度。",
+      "坐在座椅上，用宽的正手握法抓住下拉杆。",
+      "稍微向后倾斜时，保持背部挺直，挺胸。",
+      "将杠铃向下拉至上胸部，将肩胛骨挤压在一起。",
+      "在动作底部暂停片刻，然后慢慢将杠铃释放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1332",
+    "name": "exercise ball alternating arm ups",
+    "name_zh": "健身球交替臂上举",
+    "media": "raw:dataset_motion_1332",
+    "category": "back",
+    "equipment": "stability ball",
+    "target": "lats",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "core"
+    ],
+    "instructions_zh": [
+      "坐在稳定球上，双脚平放在地面上，背部挺直。",
+      "双手各握一个哑铃，手掌朝内，双臂在身体两侧向下伸展。",
+      "启动你的核心，慢慢地将一只手臂向肩膀抬起，保持肘部稍微弯曲。",
+      "在顶部暂停片刻，然后慢慢将手臂放回起始位置。",
+      "用另一只手臂重复该动作。",
+      "继续交替手臂进行所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1333",
+    "name": "exercise ball back extension with arms extended",
+    "name_zh": "健身球背伸展（手臂伸直）",
+    "media": "raw:dataset_motion_1333",
+    "category": "back",
+    "equipment": "stability ball",
+    "target": "spine",
+    "muscle_group": "glutes",
+    "secondary_muscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "instructions_zh": [
+      "将稳定球放在地上，面朝下躺在上面，臀部放在球上，双脚靠在墙上以保持稳定。",
+      "将双臂伸直在身前，手掌朝下。",
+      "启动你的核心，慢慢地将上半身抬离球，保持背部挺直，颈部与脊柱成一直线。",
+      "在顶部停顿片刻，然后慢慢将上半身放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1334",
+    "name": "exercise ball back extension with hands behind head",
+    "name_zh": "健身球背伸展（手放头后）",
+    "media": "raw:dataset_motion_1334",
+    "category": "back",
+    "equipment": "stability ball",
+    "target": "spine",
+    "muscle_group": "glutes",
+    "secondary_muscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "instructions_zh": [
+      "将稳定球放在地上，面朝下躺在上面，臀部放在球上。",
+      "将脚靠在墙壁或其他稳定的表面上以获得支撑。",
+      "双臂交叉于脑后，双手触碰后脑勺。",
+      "启动你的核心，慢慢地将你的上半身抬离球，伸展你的背部，直到你的身体从头部到臀部形成一条直线。",
+      "在动作的最高点暂停片刻，然后慢慢将上半身放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1335",
+    "name": "exercise ball back extension with knees off ground",
+    "name_zh": "健身球背伸展（膝盖离地）",
+    "media": "raw:dataset_motion_1335",
+    "category": "back",
+    "equipment": "stability ball",
+    "target": "spine",
+    "muscle_group": "glutes",
+    "secondary_muscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "instructions_zh": [
+      "将稳定球放在地上，面朝下躺在上面，臀部放在球上，双脚靠在墙上以保持稳定。",
+      "将双手放在脑后或交叉在胸前。",
+      "启动你的核心，慢慢地将你的上半身抬离球，伸展你的背部，直到你的身体从头部到脚后跟形成一条直线。",
+      "在顶部停顿片刻，然后慢慢将上半身放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1336",
+    "name": "exercise ball back extension with rotation",
+    "name_zh": "健身球背伸展（旋转）",
+    "media": "raw:dataset_motion_1336",
+    "category": "back",
+    "equipment": "stability ball",
+    "target": "spine",
+    "muscle_group": "glutes",
+    "secondary_muscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "instructions_zh": [
+      "首先，面朝下躺在稳定球上，臀部放在球上，双脚牢牢踩在地面上。",
+      "将双手放在脑后或交叉放在胸前。",
+      "启动你的核心，慢慢地将你的上半身抬离球，伸展你的背部，直到你的身体从头部到脚后跟形成一条直线。",
+      "在顶部停顿片刻，然后慢慢将躯干旋转到一侧，保持臀部和腿部稳定。",
+      "返回中心并重复旋转到另一侧。",
+      "将上半身放低至起始位置，然后重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1338",
+    "name": "exercise ball hug",
+    "name_zh": "健身球拥抱",
+    "media": "raw:dataset_motion_1338",
+    "category": "back",
+    "equipment": "stability ball",
+    "target": "spine",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "chest"
+    ],
+    "instructions_zh": [
+      "坐在稳定球上，双脚平放在地面上，背部挺直。",
+      "用双手握住稳定球，将其抱在靠近胸部的位置。",
+      "启动你的核心肌肉，慢慢向后倾斜，保持背部挺直，双脚踩在地上。",
+      "继续向后倾斜，直到感觉到背部肌肉伸展。",
+      "保持该姿势几秒钟，然后慢慢回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1339",
+    "name": "exercise ball lat stretch",
+    "name_zh": "健身球背阔肌拉伸",
+    "media": "raw:dataset_motion_1339",
+    "category": "back",
+    "equipment": "stability ball",
+    "target": "lats",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "triceps"
+    ],
+    "instructions_zh": [
+      "坐在稳定球上，双脚平放在地面上，背部挺直。",
+      "一只手握住哑铃，然后将手臂伸直至头顶。",
+      "慢慢地向另一侧倾斜，感受背阔肌的拉伸。",
+      "保持伸展动作 20-30 秒，然后回到起始位置。",
+      "在另一侧重复。"
+    ]
+  },
+  {
+    "id": "1341",
+    "name": "exercise ball lower back stretch (pyramid)",
+    "name_zh": "健身球下背部拉伸（金字塔）",
+    "media": "raw:dataset_motion_1341",
+    "category": "back",
+    "equipment": "stability ball",
+    "target": "lats",
+    "muscle_group": "glutes",
+    "secondary_muscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "instructions_zh": [
+      "坐在稳定球上，双脚平放在地面上，膝盖弯曲成 90 度角。",
+      "慢慢地向前移动你的脚，将球沿着你的背部滚动，直到你的下背部靠在球上。",
+      "将双手放在脑后或交叉放在胸前。",
+      "启动你的核心，慢慢地将你的上半身降低到地面，让你的下背部伸展到球上方。",
+      "保持伸展几秒钟，然后慢慢回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1342",
+    "name": "exercise ball lying side lat stretch",
+    "name_zh": "健身球侧卧背阔肌拉伸",
+    "media": "raw:dataset_motion_1342",
+    "category": "back",
+    "equipment": "stability ball",
+    "target": "lats",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "triceps"
+    ],
+    "instructions_zh": [
+      "侧躺，双腿伸展，头部由稳定球支撑。",
+      "将上臂放在球上以保持稳定性。",
+      "将上臂举过头顶，让躯干稍微旋转。",
+      "感受身体一侧背阔肌的拉伸。",
+      "保持拉伸 20-30 秒，然后换边重复。"
+    ]
+  }
+]

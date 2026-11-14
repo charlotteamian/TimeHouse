@@ -1,0 +1,225 @@
+[
+  {
+    "id": "3006",
+    "name": "resistance band seated hip abduction",
+    "name_zh": "阻力带坐姿髋外展",
+    "media": "raw:dataset_motion_3006",
+    "category": "upper legs",
+    "equipment": "resistance band",
+    "target": "abductors",
+    "muscle_group": "glutes",
+    "secondary_muscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "instructions_zh": [
+      "坐在椅子或长凳上，背部挺直，双脚平放在地面上。",
+      "将阻力带缠绕在大腿上，就在膝盖上方。",
+      "将双手放在椅子或长凳的两侧以获得支撑。",
+      "启动外展肌（大腿外侧肌肉），并克服弹力带的阻力，慢慢将膝盖分开。",
+      "动作结束时暂停片刻，然后慢慢将膝盖放回一起。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3007",
+    "name": "resistance band leg extension",
+    "name_zh": "阻力带腿伸展",
+    "media": "raw:dataset_motion_3007",
+    "category": "upper legs",
+    "equipment": "resistance band",
+    "target": "quads",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings"
+    ],
+    "instructions_zh": [
+      "将阻力带固定在坚固的锚点上，并将其固定在脚踝上。",
+      "面向锚点站立，双脚分开与肩同宽。",
+      "保持核心参与并保持上半身稳定，将腿伸直到身前。",
+      "在顶部暂停片刻，然后慢慢地将腿放回起始位置。",
+      "重复所需的重复次数，然后换腿。"
+    ]
+  },
+  {
+    "id": "3010",
+    "name": "ez bar lying bent arms pullover",
+    "name_zh": "曲杆仰卧弯臂下拉",
+    "media": "raw:dataset_motion_3010",
+    "category": "back",
+    "equipment": "ez barbell",
+    "target": "lats",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "chest"
+    ],
+    "instructions_zh": [
+      "平躺在长凳上，头放在一端，双脚放在地板上。",
+      "旋前握住 EZ 杠铃（手掌背向您），双手与肩同宽。",
+      "将手臂伸直至胸部上方，保持肘部轻微弯曲。",
+      "以弧线动作将杠铃降低到头后，保持肘部轻微弯曲。",
+      "暂停片刻，然后通过反向弧线运动将杠铃返回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3017",
+    "name": "barbell pendlay row",
+    "name_zh": "杠铃潘德利划船",
+    "media": "raw:dataset_motion_3017",
+    "category": "back",
+    "equipment": "barbell",
+    "target": "upper back",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，膝盖稍微弯曲。",
+      "臀部向前弯曲，保持背部挺直，挺胸。",
+      "正手握住杠铃，握距略宽于肩宽。",
+      "将杠铃拉向上腹部，将肩胛骨挤压在一起。",
+      "将杠铃降低回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3116",
+    "name": "band fixed back underhand pulldown",
+    "name_zh": "弹力带固定背反手下拉",
+    "media": "raw:dataset_motion_3116",
+    "category": "back",
+    "equipment": "band",
+    "target": "lats",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "rhomboids",
+      "rear deltoids"
+    ],
+    "instructions_zh": [
+      "将带子固定在头顶上方坚固的锚点上。",
+      "面向锚点站立，双脚分开与肩同宽。",
+      "反手握住弹力带，双手间距略宽于肩宽。",
+      "后退一步，在弹力带上产生张力，保持手臂完全伸展。",
+      "启动你的核心并将肩胛骨挤压在一起。",
+      "将弹力带向下拉向胸部，用肘部引导。",
+      "在动作的底部暂停片刻，感受背阔肌的收缩。",
+      "慢慢释放带子的张力并返回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3117",
+    "name": "band fixed back close grip pulldown",
+    "name_zh": "弹力带固定背窄握下拉",
+    "media": "raw:dataset_motion_3117",
+    "category": "back",
+    "equipment": "band",
+    "target": "lats",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "将弹力带固定在您上方的固定点上，例如上拉杆或坚固的横梁。",
+      "坐在面向乐队的长凳或椅子上，双脚平放在地上，膝盖弯曲。",
+      "紧紧握住弹力带，手掌朝向您。",
+      "保持背部挺直并启动核心肌群。",
+      "将弹力带向下拉向胸部，将肩胛骨挤压在一起。",
+      "在动作的底部暂停片刻，感受背阔肌的收缩。",
+      "慢慢地将弹力带释放回起始位置，在整个运动过程中保持控制。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3122",
+    "name": "resistance band seated shoulder press",
+    "name_zh": "阻力带坐姿肩推",
+    "media": "raw:dataset_motion_3122",
+    "category": "shoulders",
+    "equipment": "resistance band",
+    "target": "delts",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "upper back"
+    ],
+    "instructions_zh": [
+      "坐在椅子或长凳上，背部挺直，双脚平放在地面上。",
+      "双手握住阻力带，手掌朝前，将其拉至肩部水平。",
+      "将弹力带压过头顶，充分伸展双臂。",
+      "在顶部停顿片刻，然后慢慢将弹力带降低至肩部水平。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3123",
+    "name": "resistance band seated biceps curl",
+    "name_zh": "阻力带坐姿弯举",
+    "media": "raw:dataset_motion_3123",
+    "category": "upper arms",
+    "equipment": "resistance band",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "坐在椅子或长凳上，背部挺直，双脚平放在地面上。",
+      "反手握住阻力带，手掌朝上，手臂向下伸展到身体两侧。",
+      "保持上臂静止，呼气并将阻力带向上卷向肩膀。",
+      "在顶部暂停片刻，挤压你的二头肌。",
+      "吸气并慢慢降低阻力带回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3124",
+    "name": "resistance band seated chest press",
+    "name_zh": "阻力带坐姿胸推",
+    "media": "raw:dataset_motion_3124",
+    "category": "chest",
+    "equipment": "resistance band",
+    "target": "pectorals",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "triceps"
+    ],
+    "instructions_zh": [
+      "坐在椅子或长凳上，背部挺直，双脚平放在地面上。",
+      "每只手握住阻力带手柄，手掌朝下，肘部弯曲成 90 度角。",
+      "向前伸展双臂，将阻力带推离胸部。",
+      "动作结束时暂停片刻，然后慢慢回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3142",
+    "name": "smith sumo squat",
+    "name_zh": "史密斯宽距深蹲",
+    "media": "raw:dataset_motion_3142",
+    "category": "upper legs",
+    "equipment": "smith machine",
+    "target": "glutes",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "将杠铃置于臀部高度的史密斯机上。",
+      "站立，双脚分开比肩宽，脚趾朝外。",
+      "将自己置于杠铃下方，将其放在上背部和肩膀上。",
+      "当你将身体降低到蹲姿时，收紧核心并保持挺胸，将臀部向后推并弯曲膝盖。",
+      "放低身体，直到大腿与地面平行，或者尽可能低到您能舒服的高度。",
+      "在底部停顿片刻，然后推动脚后跟回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  }
+]

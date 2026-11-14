@@ -1,0 +1,11 @@
+{
+  "batch_id": "20270109_review123",
+  "status": "passed",
+  "serial": "emulator-5554",
+  "apk": "build/timehouse-debug.apk",
+  "checks": 16,
+  "visually_reviewed": [],
+  "dataset_sha256": "8e1a76649c263e4a9f7960cad85e4e934fcfea664a5a223c9e95863acd215c60",
+  "media_sha256": {},
+  "notes": "Verified all 10 deferred Batch 123 entries on Android 12 emulator (triceps, incline/flat/ball supports, 1745 dumbbell correction, perSide on 1723/1727/1745, mandatory 1.2.14 review gate across 16 checks)."
+}

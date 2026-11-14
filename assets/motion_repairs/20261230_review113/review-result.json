@@ -1,0 +1,219 @@
+{
+  "batch": "20261230_review113",
+  "version": "1.2.118",
+  "version_code": 2026123001,
+  "output": "build/review113-20261230",
+  "inspected": [
+    "1356",
+    "1359",
+    "1360",
+    "1361",
+    "1369",
+    "1370",
+    "1371",
+    "1372",
+    "1375",
+    "1376"
+  ],
+  "review_candidates": [],
+  "registered_media": [],
+  "definition_updates": {
+    "1356": {
+      "name_zh": "器械坐姿单臂高位划船",
+      "category": "back",
+      "equipment": "leverage machine",
+      "target": "upper back",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "biceps",
+        "shoulders"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "调整坐垫高度面对机器胸垫坐稳，双脚平踩地面、非工作侧手轻握稳固定手柄。",
+        "工作侧单手正对握住高位下拉/斜向划船把手，伸直手臂沿斜上方充分展开肩胛。",
+        "呼气沉肩调动上背肌群与菱形肌主导发力，将把手向胸肩外侧后拉并夹紧工作侧肩胛。",
+        "终点收缩停顿片刻后吸气缓慢伸臂复位，单侧完成计划次数后换边重复。"
+      ]
+    },
+    "1359": {
+      "name_zh": "史密斯机正握俯身划船",
+      "category": "back",
+      "equipment": "smith machine",
+      "target": "upper back",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "biceps",
+        "forearms"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "将史密斯机横杆挂稳在约膝高位置，站在杠杆后侧，双脚与肩同宽微屈膝、转开锁钩。",
+        "保持脊柱中立挺胸收腹，屈髋俯身至躯干接近水平或前倾约 45 至 60 度，正握略宽于肩握住横杆。",
+        "呼气上背斜方肌中下束与菱形肌主导发力，沿垂直轨道将横杆拉向下胸与上腹交界处并挤压肩胛骨。",
+        "顶端停顿片刻后吸气匀速受控放回手臂自然下垂位，按计划重复。"
+      ]
+    },
+    "1360": {
+      "name_zh": "史密斯机俯身单臂划船",
+      "category": "back",
+      "equipment": "smith machine",
+      "target": "upper back",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "biceps",
+        "forearms"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "将史密斯横杆置于适中低位，面对横杆方向分脚屈膝稳定站姿，转解锁扣。",
+        "非工作侧手扶稳大腿前侧维持核心抗旋，工作侧单手正握横杆中段偏一侧并顺势俯身。",
+        "呼气沉肩屈肘贴近体侧将横杆沿立柱垂直向上拉至腰肋旁，顶峰收紧工作侧上背肌群。",
+        "吸气缓慢受控伸臂下放复位，单侧完成计划次数后换边重复。"
+      ]
+    },
+    "1361": {
+      "name_zh": "史密斯机反握俯身划船",
+      "category": "back",
+      "equipment": "smith machine",
+      "target": "upper back",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "biceps",
+        "forearms"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "将史密斯机横杆放置约膝高卡槽，站在横杆后侧双脚与肩同宽踩实地面，转开安全锁扣。",
+        "保持核心收紧背部挺直，屈髋俯身并用反握（掌心朝前）与肩同宽握住横杆。",
+        "呼气调动上背与背阔肌发力，双肘贴近体侧沿直轨将横杆拉向上腹部并挤压肩胛。",
+        "在收缩末端停顿片刻，吸气匀速下放横杆至双臂伸直，按计划重复。"
+      ]
+    },
+    "1369": {
+      "name_zh": "弹力带双脚踩带站姿提踵",
+      "category": "lower legs",
+      "equipment": "band",
+      "target": "calves",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "ankles",
+        "feet"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "双脚与肩同宽平踩住环形弹力带下段，双手紧抓弹力带两端上提拉紧贴靠体侧，保持躯干直立。",
+        "微收腹维持核心与膝关节稳定，前脚掌踩实地面。",
+        "呼气小腿三头肌发力向上踮起双脚后跟至最高处，对抗弹力带向下拉力。",
+        "顶端收缩停顿 1 秒后吸气缓慢受控下放脚跟轻触地面，按计划重复。"
+      ]
+    },
+    "1370": {
+      "name_zh": "踩杠铃前掌站姿提踵",
+      "category": "lower legs",
+      "equipment": "barbell",
+      "target": "calves",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "hamstrings"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "将装好平稳杠铃片的杠铃置于地面稳固不滚动，单手轻扶深蹲架立柱或墙面维持身体平衡。",
+        "双脚前脚掌踩上杠铃杆中段，让后脚跟自然悬空下沉靠近地面以充分拉伸小腿。",
+        "呼气小腿腓肠肌与比目鱼肌强力收缩，发力推起后脚跟踮高至顶峰位置。",
+        "停顿挤压小腿后吸气缓慢受控下沉还原，按计划重复。"
+      ]
+    },
+    "1371": {
+      "name_zh": "平凳坐姿踏台杠铃提踵",
+      "category": "lower legs",
+      "equipment": "barbell",
+      "target": "calves",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "hamstrings"
+      ],
+      "required_equipment_zh": [
+        "平板训练凳",
+        "稳固踏台"
+      ],
+      "instructions_zh": [
+        "在平板训练凳前放置矮踏台或稳固垫块，坐直并将双脚前掌踩在踏台边缘使脚跟悬空。",
+        "将裹好保护垫的杠铃横放于大腿靠近膝盖上方，双手稳扶杠铃防止滑落。",
+        "先控制脚跟缓慢下放至低于踏台平面充分拉伸小腿，随后呼气尽力向上踮高脚跟顶起负重。",
+        "在顶点收缩停顿片刻，吸气匀速下放还原，按计划重复。"
+      ]
+    },
+    "1372": {
+      "name_zh": "站姿负重杠铃提踵",
+      "category": "lower legs",
+      "equipment": "barbell",
+      "target": "calves",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "hamstrings",
+        "glutes"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "将杠铃稳定扛于上背部斜方肌处，双脚与肩同宽站立于平坦防滑地面，核心收紧、躯干直立。",
+        "保持双膝微屈放松或自然直立不前后借力晃动。",
+        "呼气仅靠踝关节跖屈向上踮起双脚后跟至最高位置，感受小腿紧绷发力。",
+        "在顶峰停顿片刻后吸气缓慢受控下放脚跟回贴地面，按计划重复。"
+      ]
+    },
+    "1375": {
+      "name_zh": "站姿龙门架绳索提踵",
+      "category": "lower legs",
+      "equipment": "cable",
+      "target": "calves",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "hamstrings",
+        "glutes"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "将直杆或双把连接在龙门架最底端滑轮，面对滑轮站稳并双手正握把手垂于髋前建立预张力。",
+        "双脚与肩同宽踏实地面，收紧核心保持上身挺拔固定不前后摇摆。",
+        "呼气小腿肌群集中发力，向上推起双侧脚后跟高高踮起离开地面。",
+        "顶端收缩停顿片刻，吸气缓慢受控下放脚跟还原贴地，按计划重复。"
+      ]
+    },
+    "1376": {
+      "name_zh": "站姿龙门架绳索单腿提踵",
+      "category": "lower legs",
+      "equipment": "cable",
+      "target": "calves",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "ankles",
+        "feet"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "将踝带扣于龙门架最底端滑轮并套稳在工作侧脚踝上，面对器械单手扶握机架保持平衡。",
+        "对侧腿微微屈膝向后抬离地面，工作侧腿直立前脚掌踏实地面承受全身重与绳索向下阻力。",
+        "呼气单侧小腿强力收缩向上踮高脚跟至最高处，全程避免借髋跳跃。",
+        "顶峰停顿片刻后吸气受控缓慢落跟还原，单侧完成计划次数后换腿重复。"
+      ]
+    }
+  },
+  "pending": {
+    "1356": "待修图 · 纠正原名严重错译高侧平举为器械坐姿单臂高位划船并保留单侧计次；原动图仅 2 帧，待重制为标准 4 帧循环图。",
+    "1359": "待修图 · 规范名称为史密斯机正握俯身划船；原动图仅 2 帧，待重制为标准 4 帧循环图。",
+    "1360": "待修图 · 规范名称为史密斯机俯身单臂划船并保持单侧计次；原动图仅 2 帧，待重制为标准 4 帧循环图。",
+    "1361": "待修图 · 规范名称为史密斯机反握俯身划船；原动图仅 2 帧，待重制为标准 4 帧循环图。",
+    "1369": "待修图 · 去括号规范为弹力带双脚踩带站姿提踵；原图 4 帧第 3 帧前脚掌与地面整体悬空上漂 11 像素，待重制锁死前掌贴地基准。",
+    "1370": "待修图 · 规范名称为踩杠铃前掌站姿提踵；原动图 10 帧且支架相对地面上下漂移 17 像素，待重制为标准 4 帧循环图。",
+    "1371": "待修图 · 规范为平凳坐姿踏台杠铃提踵并补全平板训练凳与稳固踏台支持器械；原素材为仅 2 帧的满屏实景照片，待重制为标准 4 帧解剖循环图。",
+    "1372": "待修图 · 规范名称为站姿负重杠铃提踵；原动图 10 帧且帧率不合规，待重制为标准 4 帧循环图。",
+    "1375": "待修图 · 规范为站姿龙门架绳索提踵并统一说明为双手直握低滑轮把手；原动图 10 帧且帧率不合规，待重制为标准 4 帧循环图。",
+    "1376": "待修图 · 规范为站姿龙门架绳索单腿提踵并保留单侧计次；原动图仅 2 帧，待重制为标准 4 帧循环图。"
+  },
+  "sources": {},
+  "review_notes": {},
+  "image_generation_calls": 0,
+  "generated_images_imported": 0
+}

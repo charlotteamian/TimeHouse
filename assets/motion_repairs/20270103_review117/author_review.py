@@ -1,0 +1,233 @@
+#!/usr/bin/env python3
+"""Author Batch 117 review updates, pending notes, code baseline, and QA spec (0 candidates; 10 deferred)."""
+from pathlib import Path
+import json
+import hashlib
+
+B = Path(__file__).resolve().parent
+R = B.parents[2]
+BATCH_ID = "20270103_review117"
+VERSION = "1.2.122"
+VERSION_CODE = 2027010301
+
+inspected = ["1439", "1451", "1452", "1456", "1457", "1458", "1461", "1462", "1463", "1464"]
+review_candidates = []
+registered_media = []
+
+definition_updates = {
+    "1439": {
+        "name_zh": "器械坐姿胸托耸肩第二式",
+        "category": "back",
+        "equipment": "leverage machine",
+        "target": "traps",
+        "muscle_group": "",
+        "secondary_muscles": ["shoulders", "forearms"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "调整坐垫高度并面对胸垫坐稳，前胸紧靠前方胸托垫、双脚踩稳地面保持稳定。",
+            "双手对握低位或无助力感旁侧把手，双臂自然伸直下垂令肩带充分下沉。",
+            "保持肘部伸直不动，呼气靠斜方肌上束集中收缩发力将双肩垂直向上高高耸起靠近耳朵。",
+            "在顶点收缩停顿片刻，吸气缓慢受控沉肩放回起始拉伸位，按计划重复。",
+        ],
+    },
+    "1451": {
+        "name_zh": "器械坐姿臂屈伸下压",
+        "category": "upper arms",
+        "equipment": "leverage machine",
+        "target": "triceps",
+        "muscle_group": "",
+        "secondary_muscles": ["chest", "shoulders"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "调整坐垫高度使坐下时双脚平踩地面、双膝约呈九十度且肩高适配两旁推把高度。",
+            "双手抓握坐姿臂屈伸两侧握把，挺胸沉肩贴稳靠背，屈肘将上臂收近体侧做下压准备。",
+            "呼气肱三头肌发力将握把垂直向下压推至双臂接近完全伸直（避免完全锁死肘关节或过度耸肩）。",
+            "在底端停顿挤压肱三头肌片刻后吸气受控屈肘上抬还原至大臂约水平位，按计划重复。",
+        ],
+    },
+    "1452": {
+        "name_zh": "器械坐姿卷腹",
+        "category": "waist",
+        "equipment": "leverage machine",
+        "target": "abs",
+        "muscle_group": "",
+        "secondary_muscles": ["obliques"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "坐于卷腹训练器械座椅上，调节坐高与卡脚垫使下背轻靠垫面、双脚勾稳前下方滚垫。",
+            "双手抓握座椅旁固定把手或肩上把手保持稳定，下背自然紧贴靠背准备。",
+            "呼气以腹直肌主导发力向下前方弯曲脊柱做卷腹收缩，感受肋骨向骨盆方向靠拢。",
+            "在完全卷缩位停顿挤压腹部片刻，吸气匀速控制抵抗配重缓慢回正躯干，按计划重复。",
+        ],
+    },
+    "1456": {
+        "name_zh": "站姿窄握杠铃推举",
+        "category": "shoulders",
+        "equipment": "barbell",
+        "target": "delts",
+        "muscle_group": "",
+        "secondary_muscles": ["triceps", "upper back"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚与肩同宽站实地面，正握窄距（双手略窄于肩或与肩同宽）握住杠铃并稳置锁骨与前肩上方，双肘朝前微收。",
+            "臀腿与核心收紧锁住腰椎中立位，防止借力反弓下腰。",
+            "呼气三角肌前中束与肱三头肌发力将杠铃垂直推过头顶至双臂充分伸直、头部略向前探迎回平衡重心。",
+            "在顶端短暂控制后吸气缓慢下放杠铃回锁骨高度，按计划重复。",
+        ],
+    },
+    "1457": {
+        "name_zh": "站姿宽握杠铃推举",
+        "category": "shoulders",
+        "equipment": "barbell",
+        "target": "delts",
+        "muscle_group": "",
+        "secondary_muscles": ["triceps", "upper back"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚与肩同宽踩稳地面，正握宽距（双手明显宽于肩宽）抓稳杠铃置回上胸与前肩上方。",
+            "吸气收紧核心与臀部稳定骨盆，小臂基本垂直地面准备。",
+            "呼气三角肌整体发力将杠铃直线推举过头顶至双臂伸直且双肩稳定下沉不耸肩。",
+            "吸气均匀控制速度将杠铃下放回前肩水平高度，按计划重复。",
+        ],
+    },
+    "1458": {
+        "name_zh": "平凳坐姿曲杆杠铃弯举",
+        "category": "upper arms",
+        "equipment": "ez barbell",
+        "target": "biceps",
+        "muscle_group": "",
+        "secondary_muscles": ["forearms"],
+        "required_equipment_zh": ["平板训练凳"],
+        "instructions_zh": [
+            "坐在平板训练凳前端，双脚稳踩地面并自然分开，采用反握（掌心朝上）与肩同宽握住曲杆杠铃下斜握位。",
+            "挺胸坐直使大臂紧贴躯干两侧固定，先将前臂控制放低接近大腿前侧充分拉长肱二头肌。",
+            "呼气保持大臂与肩关节固定不动，靠肱二头肌发力将曲杆杠铃向上弯举卷至胸前高度。",
+            "顶端停顿挤压二头肌片刻后吸气缓慢下放伸展前臂还原，按计划重复。",
+        ],
+    },
+    "1461": {
+        "name_zh": "站姿杠铃全深蹲背面视角",
+        "category": "upper legs",
+        "equipment": "barbell",
+        "target": "glutes",
+        "muscle_group": "",
+        "secondary_muscles": ["quadriceps", "hamstrings", "calves", "core"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "从深蹲架取杠将杠铃稳扛于上背部斜方肌上方，双脚与肩同宽或略宽站立、脚尖微向外展约十五度。",
+            "深吸气收紧核心肌群并稳住躯干刚性，双膝朝脚尖指向展开准备。",
+            "顺控屈髋屈膝深度下蹲至髋部低于膝关节水平或安全舒适深度，同时保持脊柱中立与脚掌全踏实地面。",
+            "呼气通过臀腿发力推动全脚掌向上站直回起始位，按计划重复。",
+        ],
+    },
+    "1462": {
+        "name_zh": "站姿杠铃全深蹲侧面视角",
+        "category": "upper legs",
+        "equipment": "barbell",
+        "target": "glutes",
+        "muscle_group": "",
+        "secondary_muscles": ["quadriceps", "hamstrings", "calves", "core"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "将杠铃稳固放在上背部斜方肌处，出杠后退一步双脚与肩同宽站稳，挺胸锁紧核心。",
+            "深吸气，启动核心张力保持背部平坦中立与足底重心稳贴中足位置。",
+            "吸气向后坐髋并同步弯曲双膝受控深蹲到底部深度位，令杠铃轨迹近似垂直中足落下。",
+            "呼气臀肌与股四头肌同步发力平稳蹬直下肢起身还原，按计划重复。",
+        ],
+    },
+    "1463": {
+        "name_zh": "四十五度斜卧雪橇倒蹬侧面视角",
+        "category": "upper legs",
+        "equipment": "sled machine",
+        "target": "glutes",
+        "muscle_group": "",
+        "secondary_muscles": ["quadriceps", "hamstrings", "calves"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "坐稳于四十五度斜卧倒蹬机上，腰背与臀部全贴靠背并握紧座椅两侧安全手把。",
+            "双脚与肩同宽全脚掌踩牢踏板中央，先推起并拨开安全锁定杆，保持膝盖微屈不锁死。",
+            "吸气控制弯曲双膝与髋部缓慢下放踏板至大腿靠近胸部且臀腰不翘离靠垫。",
+            "呼气用全脚掌发力蹬推踏板还原伸直位置，全部次数结束后锁回安全杆。",
+        ],
+    },
+    "1464": {
+        "name_zh": "四十五度斜卧雪橇倒蹬背面视角",
+        "category": "upper legs",
+        "equipment": "sled machine",
+        "target": "glutes",
+        "muscle_group": "",
+        "secondary_muscles": ["quadriceps", "hamstrings", "calves"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "坐在四十五度斜卧倒蹬机上调好起步靠背位置，臀背严密贴稳靠垫、双手抓紧旁侧固定握把。",
+            "双脚与肩同宽踩稳倒蹬大踏板并用脚掌发力微推打开安全卡扣。",
+            "吸气缓慢屈膝收腿下放重物，注意双膝保持与脚尖对齐不向内扣。",
+            "呼气驱动臀腿肌群推升踏板回到双膝接近伸直位（保留微屈不锁膝），按计划重复。",
+        ],
+    },
+}
+
+pending = {
+    "1439": "待修图 · 去括号并纠正步骤中背部靠垫错写为器械坐姿胸托耸肩第二式；原动图 10 帧且帧率与循环节奏不合规，待重制为标准 4 帧循环图。",
+    "1451": "待修图 · 纠正严重错译坐姿俯卧撑为器械坐姿臂屈伸下压；原动图仅 2 帧且第 1 帧底边存在裁切残留脚影，待重制为标准 4 帧循环图。",
+    "1452": "待修图 · 去括号规范为器械坐姿卷腹并修正卷腹屈曲步骤；原动图仅 2 帧，待重制为标准 4 帧循环图。",
+    "1456": "待修图 · 纠正生硬直译为站姿窄握杠铃推举；原动图 10 帧且第 3 帧存在杠铃与头部变形伪影，待重制为标准 4 帧循环图。",
+    "1457": "待修图 · 纠正生硬直译为站姿宽握杠铃推举；原动图 10 帧且第 4 帧杠铃杆严重弯曲变形，待重制为标准 4 帧循环图。",
+    "1458": "待修图 · 规范名称为平凳坐姿曲杆杠铃弯举并清除步骤中英文缩写，补全平板训练凳支持器械；原动图仅 2 帧，待重制为标准 4 帧循环图。",
+    "1461": "待修图 · 去括号规范为站姿杠铃全深蹲背面视角；原动图仅 2 帧且画幅顶部出现接缝穿帮断脚残影，待重制为标准 4 帧循环图。",
+    "1462": "待修图 · 去括号规范为站姿杠铃全深蹲侧面视角；原动图仅 2 帧，待重制为标准 4 帧循环图。",
+    "1463": "待修图 · 消除度数符号与括号规范为四十五度斜卧雪橇倒蹬侧面视角；原动图仅 2 帧，待重制为标准 4 帧循环图。",
+    "1464": "待修图 · 消除编码乱码与括号规范为四十五度斜卧雪橇倒蹬背面视角；原动图仅 2 帧，待重制为标准 4 帧循环图。",
+}
+
+sources = {}
+review_notes = {}
+
+before_reviews = json.loads((B / "before/exercise_reviews.json").read_text())
+reviewed_count = len(before_reviews["reviewed"]) + len(review_candidates)
+
+review_result = {
+    "batch": BATCH_ID,
+    "version": VERSION,
+    "version_code": VERSION_CODE,
+    "output": "build/review117-20270103",
+    "inspected": inspected,
+    "review_candidates": review_candidates,
+    "registered_media": registered_media,
+    "definition_updates": definition_updates,
+    "pending": pending,
+    "sources": sources,
+    "review_notes": review_notes,
+    "image_generation_calls": 0,
+    "generated_images_imported": 0,
+}
+(B / "review-result.json").write_text(json.dumps(review_result, ensure_ascii=False, indent=2) + "\n")
+
+code_paths = [
+    "app/src/main/java",
+    "scripts/validate_exercise_dataset.sh",
+    "scripts/build_android_debug.sh",
+]
+baseline = {}
+for rel in code_paths:
+    p = R / rel
+    if p.is_file():
+        baseline[rel] = hashlib.sha256(p.read_bytes()).hexdigest()
+    else:
+        for f in sorted(p.rglob("*")):
+            if f.is_file():
+                baseline[str(f.relative_to(R))] = hashlib.sha256(f.read_bytes()).hexdigest()
+(B / "code-baseline.json").write_text(json.dumps(baseline, ensure_ascii=False, indent=2) + "\n")
+
+qa_spec = {
+    "batch": BATCH_ID,
+    "expected_checks": 16,
+    "expected_reviewed_after_approve": reviewed_count,
+    "candidate_ids": [],
+    "candidate_required_equipment": {
+        "1458": ["平板训练凳"],
+    },
+    "expected_per_side_ids": [],
+}
+(B / "qa-spec.json").write_text(json.dumps(qa_spec, ensure_ascii=False, indent=2) + "\n")
+print(f"Authored review-result.json, code-baseline.json, and qa-spec.json for {BATCH_ID}")

@@ -1,0 +1,214 @@
+[
+  {
+    "id": "0971",
+    "name": "band assisted wheel rollerout",
+    "name_zh": "弹力带辅助滚轮前滚",
+    "media": "raw:dataset_motion_0971",
+    "category": "waist",
+    "equipment": "band",
+    "target": "abs",
+    "muscle_group": "lower back",
+    "secondary_muscles": [
+      "lower back"
+    ],
+    "instructions_zh": [
+      "跪在地板上，双手握住弹力带的手柄，手掌朝下。",
+      "将弹力带放在您面前的地面上，双手分开与肩同宽。",
+      "启动你的核心并缓慢地向前滚动轮子，在保持控制的同时尽可能地伸展你的身体。",
+      "在最远点暂停片刻，然后慢慢地将轮子向膝盖方向滚动，回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0972",
+    "name": "band bicycle crunch",
+    "name_zh": "弹力带自行车卷腹",
+    "media": "raw:dataset_motion_0972",
+    "category": "waist",
+    "equipment": "band",
+    "target": "abs",
+    "muscle_group": "hip flexors",
+    "secondary_muscles": [
+      "hip flexors",
+      "obliques"
+    ],
+    "instructions_zh": [
+      "平躺，双手放在脑后，膝盖弯曲。",
+      "将脚抬离地面，将右膝盖靠近胸部，同时扭转躯干，将左肘靠近右膝盖。",
+      "伸直右腿，同时将左膝靠近胸部，并扭转躯干，使右肘靠近左膝。",
+      "继续交替扭转运动，就像踩自行车一样，同时在整个运动过程中保持核心参与。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0974",
+    "name": "band close-grip pulldown",
+    "name_zh": "弹力带窄握下拉",
+    "media": "raw:dataset_motion_0974",
+    "category": "back",
+    "equipment": "band",
+    "target": "lats",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "将弹力带固定在较高的锚点上，例如上拉杆或坚固的横梁。",
+      "面向锚点站立，用反手抓住弹力带，双手与肩同宽。",
+      "后退一步，在弹力带上产生张力，双脚分开与臀部同宽。",
+      "当你将弹力带向下拉向胸部时，收紧你的核心并保持背部挺直，将肩胛骨挤压在一起。",
+      "在动作底部暂停片刻，然后慢慢松开弹力带回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0975",
+    "name": "band close-grip push-up",
+    "name_zh": "弹力带窄握俯卧撑",
+    "media": "raw:dataset_motion_0975",
+    "category": "upper arms",
+    "equipment": "band",
+    "target": "triceps",
+    "muscle_group": "chest",
+    "secondary_muscles": [
+      "chest",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "将一条带子绕在你的上臂上，就在肘部上方。",
+      "采取俯卧撑姿势，双手直接放在肩膀下方，身体从头到脚跟呈一条直线。",
+      "弯曲肘部，将胸部降低到地面，保持肘部靠近身体两侧。",
+      "推动手掌以伸展手臂并返回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0976",
+    "name": "band concentration curl",
+    "name_zh": "弹力带集中弯举",
+    "media": "raw:dataset_motion_0976",
+    "category": "upper arms",
+    "equipment": "band",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "坐在长凳或椅子上，双腿分开，双脚平放在地上。",
+      "用手握住带子的一端，用脚踩在另一端上，同时将脚放在同一侧。",
+      "稍微向前倾，将肘部放在大腿内侧，膝盖上方。",
+      "手掌朝上，慢慢地将手向肩膀弯曲，保持上臂静止。",
+      "在顶部暂停片刻，然后慢慢将手放回起始位置。",
+      "重复所需的重复次数，然后换边。"
+    ]
+  },
+  {
+    "id": "0977",
+    "name": "band front lateral raise",
+    "name_zh": "弹力带前平举",
+    "media": "raw:dataset_motion_0977",
+    "category": "shoulders",
+    "equipment": "band",
+    "target": "delts",
+    "muscle_group": "traps",
+    "secondary_muscles": [
+      "traps",
+      "upper back"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，将弹力带放在大腿前面，手掌朝下。",
+      "保持双臂伸直，将弹力带举到身前，直到双臂与地面平行。",
+      "在顶部暂停片刻，然后慢慢将弹力带放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0978",
+    "name": "band front raise",
+    "name_zh": "弹力带前平举",
+    "media": "raw:dataset_motion_0978",
+    "category": "shoulders",
+    "equipment": "band",
+    "target": "delts",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "upper back"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，将弹力带放在大腿前面，手掌朝下。",
+      "保持手臂伸直，慢慢向前举起，直到与地面平行。",
+      "在顶部暂停片刻，然后慢慢将手臂放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0979",
+    "name": "band horizontal pallof press",
+    "name_zh": "弹力带水平帕洛夫推",
+    "media": "raw:dataset_motion_0979",
+    "category": "waist",
+    "equipment": "band",
+    "target": "abs",
+    "muscle_group": "obliques",
+    "secondary_muscles": [
+      "obliques",
+      "glutes"
+    ],
+    "instructions_zh": [
+      "将带子固定在腰部高度的坚固锚点上。",
+      "垂直于锚点站立，双脚分开与肩同宽。",
+      "用双手抓住带子手柄并远离锚点以在带子中产生张力。",
+      "将双手放在胸前，保持肘部弯曲并靠近身体。",
+      "调动你的核心并保持稳定的姿势。",
+      "将手臂伸直至前方，将弹力带推离身体。",
+      "保持伸展姿势几秒钟，专注于保持核心紧张。",
+      "慢慢地将双手放回胸前，抵抗弹力带的拉力。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0980",
+    "name": "band bent-over hip extension",
+    "name_zh": "弹力带俯身臀推",
+    "media": "raw:dataset_motion_0980",
+    "category": "upper legs",
+    "equipment": "band",
+    "target": "glutes",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings",
+      "lower back"
+    ],
+    "instructions_zh": [
+      "将带子固定在脚踝高度的坚固锚点上。",
+      "背对锚点站立，双脚与肩同宽。",
+      "向后退一步，在弹力带上产生张力，保持膝盖稍微弯曲。",
+      "铰接臀部并向前倾斜，保持脊柱中立。",
+      "将右腿向后伸直，在顶部挤压臀部。",
+      "将右腿放回原位，然后换左腿重复此动作。",
+      "继续交替双腿达到所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0981",
+    "name": "band jack knife sit-up",
+    "name_zh": "弹力带跪姿卷腹",
+    "media": "raw:dataset_motion_0981",
+    "category": "waist",
+    "equipment": "band",
+    "target": "abs",
+    "muscle_group": "hip flexors",
+    "secondary_muscles": [
+      "hip flexors"
+    ],
+    "instructions_zh": [
+      "平躺，双腿伸直，手臂伸过头顶，握住弹力带。",
+      "收紧腹肌，同时抬起双腿和上半身，将双手移向脚部。",
+      "在顶部停顿片刻，然后慢慢放下双腿和上半身回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  }
+]

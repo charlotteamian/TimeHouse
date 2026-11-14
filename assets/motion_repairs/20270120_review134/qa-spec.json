@@ -1,0 +1,12 @@
+{
+  "batch": "20270120_review134",
+  "expected_checks": 15,
+  "expected_reviewed_after_approve": 142,
+  "candidate_ids": [
+    "0260"
+  ],
+  "candidate_required_equipment": {
+    "0260": []
+  },
+  "expected_per_side_ids": []
+}

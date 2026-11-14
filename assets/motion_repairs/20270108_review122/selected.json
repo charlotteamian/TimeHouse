@@ -1,0 +1,216 @@
+[
+  {
+    "id": "1712",
+    "name": "assisted side lying adductor stretch",
+    "name_zh": "辅助侧卧内收肌拉伸",
+    "media": "raw:dataset_motion_1712",
+    "category": "upper legs",
+    "equipment": "assisted",
+    "target": "adductors",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings",
+      "glutes"
+    ],
+    "instructions_zh": [
+      "侧躺，双腿伸直并叠放在一起。",
+      "稍微弯曲下面的腿以保持稳定。",
+      "将上脚放在稳定的表面上，例如长凳或台阶上。",
+      "保持上腿伸直，慢慢将其降低到地面，感觉大腿内侧有拉伸感。",
+      "保持拉伸 20-30 秒。",
+      "返回起始位置并在另一侧重复。"
+    ]
+  },
+  {
+    "id": "1713",
+    "name": "assisted prone lying quads stretch",
+    "name_zh": "辅助俯卧股四头肌拉伸",
+    "media": "raw:dataset_motion_1713",
+    "category": "upper legs",
+    "equipment": "assisted",
+    "target": "quads",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings",
+      "glutes"
+    ],
+    "instructions_zh": [
+      "脸朝下躺在地上，双腿伸直。",
+      "弯曲左膝，用左手向后抓住左脚或脚踝。",
+      "轻轻地将左脚拉向臀肌，感受左股四头肌的拉伸。",
+      "保持拉伸 20-30 秒，然后放松。",
+      "右腿重复上述动作。"
+    ]
+  },
+  {
+    "id": "1714",
+    "name": "assisted prone rectus femoris stretch",
+    "name_zh": "辅助俯卧股直肌拉伸",
+    "media": "raw:dataset_motion_1714",
+    "category": "waist",
+    "equipment": "assisted",
+    "target": "abs",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps"
+    ],
+    "instructions_zh": [
+      "脸朝下躺在地上，双腿伸直。",
+      "弯曲右膝，用右手向后伸抓住右脚或脚踝。",
+      "轻轻地将右脚或脚踝拉向臀部，感受右大腿前部的拉伸。",
+      "保持拉伸 20-30 秒。",
+      "松开并在另一侧重复。"
+    ]
+  },
+  {
+    "id": "1716",
+    "name": "assisted seated pectoralis major stretch with stability ball",
+    "name_zh": "辅助坐姿胸大肌拉伸（带稳定球）",
+    "media": "raw:dataset_motion_1716",
+    "category": "chest",
+    "equipment": "assisted",
+    "target": "pectorals",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "triceps"
+    ],
+    "instructions_zh": [
+      "坐在稳定球上，双脚平放在地面上，背部挺直。",
+      "双手握住稳定球，并将双臂伸直至身前。",
+      "慢慢地将稳定球降低到胸部，感受胸肌的拉伸。",
+      "保持伸展几秒钟，然后慢慢回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1717",
+    "name": "cable squat row (with rope attachment)",
+    "name_zh": "绳索深蹲划船（带绳索附件）",
+    "media": "raw:dataset_motion_1717",
+    "category": "back",
+    "equipment": "cable",
+    "target": "lats",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "rhomboids",
+      "rear deltoids"
+    ],
+    "instructions_zh": [
+      "将绳子连接到腰部高度的缆绳机上。",
+      "面对电缆机站立，双脚与肩同宽。",
+      "弯曲膝盖，将身体降低至蹲姿，保持背部挺直，挺胸。",
+      "正手握住绳子，双手与肩同宽。",
+      "收紧核心并将绳子拉向身体，将肩胛骨挤压在一起。",
+      "保持肘部靠近身体并继续拉，直到双手到达胸部。",
+      "在动作的最高点停顿片刻，然后慢慢松开绳子，并将手臂伸回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1718",
+    "name": "barbell seated close grip behind neck triceps extension",
+    "name_zh": "杠铃坐姿窄握颈后三头肌伸展",
+    "media": "raw:dataset_motion_1718",
+    "category": "upper arms",
+    "equipment": "barbell",
+    "target": "triceps",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "坐在长凳上，背部挺直，双脚平放在地上。",
+      "紧紧抓住颈后的杠铃，手掌朝前。",
+      "保持肘部靠近头部，慢慢将杠铃放低至脑后。",
+      "暂停片刻，然后将手臂伸回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1719",
+    "name": "barbell incline close grip bench press",
+    "name_zh": "杠铃上斜窄握卧推",
+    "media": "raw:dataset_motion_1719",
+    "category": "upper arms",
+    "equipment": "barbell",
+    "target": "triceps",
+    "muscle_group": "chest",
+    "secondary_muscles": [
+      "chest",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "设置一个 45 度角的上斜凳。",
+      "躺在长凳上，双脚平放在地上。",
+      "紧紧握住杠铃，握距略窄于肩宽。",
+      "松开杠铃并将其缓慢降低至胸部，保持肘部靠近身体。",
+      "当杠铃触及胸部时暂停片刻。",
+      "将杠铃推回到起始位置，完全伸展双臂。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1720",
+    "name": "barbell lying back of the head tricep extension",
+    "name_zh": "杠铃仰卧后脑三头肌伸展",
+    "media": "raw:dataset_motion_1720",
+    "category": "upper arms",
+    "equipment": "barbell",
+    "target": "triceps",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "平躺在长凳上，双脚平放在地上，头放在长凳的末端。",
+      "正手握住杠铃，双手与肩同宽，将手臂伸直至胸部上方。",
+      "保持上臂静止，弯曲肘部，慢慢将杠铃降低到脑后。",
+      "暂停片刻，然后将手臂伸回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1721",
+    "name": "barbell reverse grip skullcrusher",
+    "name_zh": "杠铃反手顶压弯举",
+    "media": "raw:dataset_motion_1721",
+    "category": "upper arms",
+    "equipment": "barbell",
+    "target": "triceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "平躺在长凳上，双脚平放在地上，头放在长凳的末端。",
+      "反握握住杠铃，手掌朝向脸部，双手与肩同宽。",
+      "将手臂伸直越过胸部，保持肘部内收和手腕伸直。",
+      "弯曲肘部，慢慢将杠铃降低到前额，保持上臂静止。",
+      "在底部停顿片刻，然后将手臂伸回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1722",
+    "name": "cable high pulley overhead tricep extension",
+    "name_zh": "绳索高拉过头肱三头肌伸展",
+    "media": "raw:dataset_motion_1722",
+    "category": "upper arms",
+    "equipment": "cable",
+    "target": "triceps",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "将绳子连接到高滑轮上，背对机器站立。",
+      "双手抓住绳子，并将双臂伸过头顶。",
+      "保持肘部靠近头部，上臂保持静止。",
+      "弯曲肘部，慢慢将绳子降低到头后。",
+      "暂停片刻，然后将手臂伸回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  }
+]

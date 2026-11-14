@@ -1,0 +1,227 @@
+[
+  {
+    "id": "1439",
+    "name": "lever gripless shrug v. 2",
+    "name_zh": "杠杆无握力耸肩（第二式）",
+    "media": "raw:dataset_motion_1439",
+    "category": "back",
+    "equipment": "leverage machine",
+    "target": "traps",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "调整座椅高度并将自己放在机器上，背部靠在垫子上。",
+      "正手握住手柄或杆，保持手臂伸直。",
+      "保持背部挺直，将肩膀尽可能高地抬向耳朵。",
+      "保持收缩一会儿，然后慢慢将肩膀放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1451",
+    "name": "lever seated dip",
+    "name_zh": "坐姿俯卧撑（杠杆）",
+    "media": "raw:dataset_motion_1451",
+    "category": "upper arms",
+    "equipment": "leverage machine",
+    "target": "triceps",
+    "muscle_group": "chest",
+    "secondary_muscles": [
+      "chest",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "调整座椅高度，使双脚平放在地面上，膝盖呈 90 度角。",
+      "手掌朝下，抓住杠杆机的手柄，双臂完全伸展。",
+      "弯曲肘部，慢慢降低身体，直到上臂与地面平行。",
+      "暂停片刻，然后伸直手臂，将自己推回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1452",
+    "name": "lever seated crunch",
+    "name_zh": "坐姿卷腹（杠杆）",
+    "media": "raw:dataset_motion_1452",
+    "category": "waist",
+    "equipment": "leverage machine",
+    "target": "abs",
+    "muscle_group": "obliques",
+    "secondary_muscles": [
+      "obliques"
+    ],
+    "instructions_zh": [
+      "坐在杠杆机上，背部靠在垫子上，双脚平放在地板上。",
+      "抓住手柄或将手放在侧垫上以获得支撑。",
+      "收紧腹肌并慢慢向后倾斜，让垫子随着您一起移动。",
+      "一旦你的上半身呈 45 度角，收缩腹肌并向前卷腹，使胸部靠近膝盖。",
+      "在顶部停顿片刻，然后慢慢松开并返回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1456",
+    "name": "barbell standing close grip military press",
+    "name_zh": "杠铃站立窄握军式推举",
+    "media": "raw:dataset_motion_1456",
+    "category": "shoulders",
+    "equipment": "barbell",
+    "target": "delts",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "upper back"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，正手握住杠铃，双手距离略小于肩宽。",
+      "将杠铃举至肩膀高度，保持肘部靠近身体。",
+      "将杠铃推过头顶，充分伸展双臂。",
+      "将杠铃降低回肩部高度。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1457",
+    "name": "barbell standing wide military press",
+    "name_zh": "杠铃站立宽握军式推举",
+    "media": "raw:dataset_motion_1457",
+    "category": "shoulders",
+    "equipment": "barbell",
+    "target": "delts",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "upper back"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，正手握杠铃，握距略宽于肩。",
+      "将杠铃举至肩膀高度，保持肘部稍微位于杠铃前方。",
+      "将杠铃推过头顶，充分伸展双臂。",
+      "将杠铃降低回肩部高度，然后重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1458",
+    "name": "ez barbell seated curls",
+    "name_zh": "曲杆坐姿弯举",
+    "media": "raw:dataset_motion_1458",
+    "category": "upper arms",
+    "equipment": "ez barbell",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "坐在长凳上，双脚平放在地上，背部挺直。",
+      "反手握住 ez 杠铃，手掌朝上，双手与肩同宽。",
+      "将上臂放在大腿上，让 ez 杠铃垂在您面前。",
+      "保持上臂静止，呼气并将杠铃向上卷曲至肩膀。",
+      "在顶部暂停片刻，挤压你的二头肌。",
+      "吸气并缓慢地将 ez 杠铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1461",
+    "name": "barbell full squat (back pov)",
+    "name_zh": "杠铃全蹲（后视）",
+    "media": "raw:dataset_motion_1461",
+    "category": "upper legs",
+    "equipment": "barbell",
+    "target": "glutes",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves",
+      "core"
+    ],
+    "instructions_zh": [
+      "站立，双脚分开与肩同宽，脚趾稍微向外。",
+      "将杠铃放在上背部，将其放在斜方肌或三角肌后束上。",
+      "当你开始降低身体时，启动你的核心并保持胸部挺直。",
+      "弯曲膝盖和臀部，向后和向下推臀部，就像坐在椅子上一样。",
+      "降低身体，直到大腿与地面平行或稍低于地面。",
+      "保持膝盖与脚趾对齐，并将重量放在脚后跟上。",
+      "通过脚后跟站起来，伸展臀部和膝盖。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1462",
+    "name": "barbell full squat (side pov)",
+    "name_zh": "杠铃全蹲（侧视）",
+    "media": "raw:dataset_motion_1462",
+    "category": "upper legs",
+    "equipment": "barbell",
+    "target": "glutes",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves",
+      "core"
+    ],
+    "instructions_zh": [
+      "站立，双脚分开与肩同宽，脚趾稍微向外。",
+      "将杠铃放在上背部，将其放在斜方肌或三角肌后束上。",
+      "当你开始降低身体时，启动你的核心并保持胸部挺直。",
+      "弯曲膝盖和臀部，向后和向下推臀部，就像坐在椅子上一样。",
+      "降低身体，直到大腿与地面平行或稍低于地面。",
+      "保持膝盖与脚趾对齐，并将重量放在脚后跟上。",
+      "通过脚后跟站起来，伸展臀部和膝盖。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1463",
+    "name": "sled 45° leg press (side pov)",
+    "name_zh": "雪橇45度腿推（侧视）",
+    "media": "raw:dataset_motion_1463",
+    "category": "upper legs",
+    "equipment": "sled machine",
+    "target": "glutes",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "调整雪橇机的座椅，使双脚放在踏板上时膝盖呈90度角。",
+      "坐在雪橇机上，背部平放在靠背上，双脚与肩同宽放在踏板上。",
+      "握住座椅两侧的把手以保持稳定性。",
+      "推动脚踏板以伸展双腿，将其完全伸直。",
+      "在顶部停顿片刻，然后慢慢弯曲膝盖，将踏板放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1464",
+    "name": "sled 45в° leg press (back pov)",
+    "name_zh": "雪橇45度腿推（后视）",
+    "media": "raw:dataset_motion_1464",
+    "category": "upper legs",
+    "equipment": "sled machine",
+    "target": "glutes",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "调整雪橇机的座椅，使膝盖成45度角。",
+      "坐在雪橇机上，背部靠在靠背上，双脚与肩同宽放在踏板上。",
+      "握住座椅两侧的把手以保持稳定性。",
+      "伸展双腿，将脚踏板推离身体，脚后跟保持在脚踏板上。",
+      "在完全伸展的位置暂停片刻。",
+      "慢慢弯曲膝盖，将踏板放回到身体的方向，控制动作。",
+      "重复所需的重复次数。"
+    ]
+  }
+]

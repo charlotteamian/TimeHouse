@@ -1,0 +1,232 @@
+[
+  {
+    "id": "0774",
+    "name": "smith standing military press",
+    "name_zh": "史密斯站立军姿推",
+    "media": "raw:dataset_motion_0774",
+    "category": "shoulders",
+    "equipment": "smith machine",
+    "target": "delts",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "upper back"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，膝盖稍微弯曲。",
+      "正手握住杠铃，握距略宽于肩宽。",
+      "将杠铃从架子上提起，并将其降至与肩同高，手掌朝前。",
+      "向上推杠铃，直到手臂完全伸过头顶。",
+      "在顶部停顿片刻，然后慢慢将杠铃放回至肩部水平。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0775",
+    "name": "smith upright row",
+    "name_zh": "史密斯直立划船",
+    "media": "raw:dataset_motion_0775",
+    "category": "shoulders",
+    "equipment": "smith machine",
+    "target": "delts",
+    "muscle_group": "traps",
+    "secondary_muscles": [
+      "traps",
+      "biceps"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，面向史密斯机。",
+      "正手握住杠铃，双手间距略宽于肩宽。",
+      "保持背部挺直，核心肌群参与。",
+      "将杠铃拉向下巴，用肘部引导。",
+      "在顶部停顿片刻，然后慢慢将杠铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0776",
+    "name": "snatch pull",
+    "name_zh": "抓举拉",
+    "media": "raw:dataset_motion_0776",
+    "category": "upper legs",
+    "equipment": "barbell",
+    "target": "quads",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings",
+      "glutes",
+      "calves"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，杠铃放在你面前的地面上。",
+      "弯曲膝盖并以臀部为铰链，降低至下蹲位置，用正手握住杠铃。",
+      "当你通过脚后跟将杠铃抬离地面时，保持背部挺直，挺胸，伸展臀部和膝盖。",
+      "当杠铃到达臀部水平时，爆发性地将其向上拉，耸肩并将肘部向两侧拉高。",
+      "当杠铃到达最高点时，迅速落到杠铃下方，将自己拉成深蹲位置。",
+      "双臂完全伸展，膝盖弯曲，将杠铃举过头顶。",
+      "伸展臀部和膝盖站起来，将杠铃保持在头顶上方。",
+      "通过反向运动将杠铃降低回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0786",
+    "name": "squat jerk",
+    "name_zh": "深蹲挺举",
+    "media": "raw:dataset_motion_0786",
+    "category": "upper legs",
+    "equipment": "barbell",
+    "target": "quads",
+    "muscle_group": "glutes",
+    "secondary_muscles": [
+      "glutes",
+      "hamstrings",
+      "calves",
+      "core"
+    ],
+    "instructions_zh": [
+      "首先将杠铃放在肩膀上，双脚分开与肩同宽。",
+      "将身体降低至蹲姿，保持挺胸，膝盖位于脚趾上方。",
+      "当你到达深蹲底部时，爆发性地用腿发力，并将杠铃推过头顶。",
+      "当杠铃到达最高点时，迅速落入分体位置，一脚向前，一脚向后。",
+      "双臂完全伸展，后膝盖稍微接触地面，将杠铃举过头顶。",
+      "从分开的位置站起来，将双脚重新并拢。",
+      "将杠铃放回肩膀处，然后重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0788",
+    "name": "standing behind neck press",
+    "name_zh": "站立颈后推举",
+    "media": "raw:dataset_motion_0788",
+    "category": "shoulders",
+    "equipment": "barbell",
+    "target": "delts",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "upper back"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，用正手握法将杠铃握在颈后。",
+      "保持背部挺直，核心参与。",
+      "伸展手臂，充分伸展肘部，将杠铃推过头顶。",
+      "在顶部停顿片刻，然后慢慢将杠铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0796",
+    "name": "standing wheel rollerout",
+    "name_zh": "站姿滚轮前滚",
+    "media": "raw:dataset_motion_0796",
+    "category": "waist",
+    "equipment": "wheel roller",
+    "target": "abs",
+    "muscle_group": "lower back",
+    "secondary_muscles": [
+      "lower back",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "首先，站直，双脚分开与肩同宽，滚轮位于您的前方。",
+      "弯腰，慢慢向前滚动轮子，保持背部挺直，核心肌群参与。",
+      "继续向前滚动，直到感觉到腹肌拉伸并且身体尽可能伸展。",
+      "暂停片刻，然后慢慢地将轮子向身体方向滚动，回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0798",
+    "name": "stationary bike walk",
+    "name_zh": "固定自行车步行",
+    "media": "raw:dataset_motion_0798",
+    "category": "cardio",
+    "equipment": "leverage machine",
+    "target": "cardiovascular system",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "调整固定自行车上的座椅高度和位置，以确保正确对齐。",
+      "将脚放在踏板上，并用带子（如果有）将其固定。",
+      "以舒适的速度开始踩踏，保持背部挺直，核心参与。",
+      "保持稳定的节奏，并根据需要增加阻力水平。",
+      "继续踩踏您的有氧运动所需的持续时间。",
+      "通过逐渐降低步速和阻力水平来冷静下来。",
+      "锻炼后伸展腿部肌肉，以防止紧绷并促进恢复。"
+    ]
+  },
+  {
+    "id": "0811",
+    "name": "trap bar deadlift",
+    "name_zh": "六角杠硬拉",
+    "media": "raw:dataset_motion_0811",
+    "category": "upper legs",
+    "equipment": "trap bar",
+    "target": "glutes",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings",
+      "quadriceps",
+      "lower back"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，将陷阱杆放在你面前的地面上。",
+      "弯曲臀部和膝盖，降低身体高度，并用正手握住陷阱杆的手柄。",
+      "当你开始通过伸展臀部和膝盖将陷阱杆抬离地面时，保持背部挺直，挺胸。",
+      "当你举起时，专注于通过脚后跟发力，并在运动的最高点挤压臀部。",
+      "弯曲臀部和膝盖，将陷阱杆放回地面，在整个运动过程中保持背部挺直。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0818",
+    "name": "twin handle parallel grip lat pulldown",
+    "name_zh": "双柄平行握拉下",
+    "media": "raw:dataset_motion_0818",
+    "category": "back",
+    "equipment": "cable",
+    "target": "lats",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "rhomboids",
+      "rear deltoids"
+    ],
+    "instructions_zh": [
+      "调整座椅高度并将自己面向电缆机。",
+      "正手握住手柄，双手与肩同宽。",
+      "坐下来，将大腿放在大腿垫下方，保持双脚平放在地板上。",
+      "稍微向后倾斜，挺胸，保持脊柱中立。",
+      "将手柄向下拉至上胸部，将肩胛骨挤压在一起。",
+      "在动作的底部暂停片刻，感受背阔肌的收缩。",
+      "慢慢松开手柄并返回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0830",
+    "name": "weighted bench dip",
+    "name_zh": "负重凳俯卧撑",
+    "media": "raw:dataset_motion_0830",
+    "category": "upper arms",
+    "equipment": "weighted",
+    "target": "triceps",
+    "muscle_group": "chest",
+    "secondary_muscles": [
+      "chest",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "坐在长凳上，双手抓住边缘，手指指向前方。",
+      "将臀部滑离长凳，用手支撑体重。",
+      "弯曲肘部降低身体，直到上臂与地板平行。",
+      "伸直手臂，将自己推回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  }
+]

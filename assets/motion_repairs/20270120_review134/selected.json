@@ -1,0 +1,155 @@
+[
+  {
+    "id": "0001",
+    "name": "3/4 sit-up",
+    "name_zh": "四分之三仰卧起坐",
+    "media": "raw:dataset_motion_0001",
+    "category": "waist",
+    "equipment": "body weight",
+    "target": "abs",
+    "muscle_group": "",
+    "secondary_muscles": [
+      "hip flexors",
+      "lower back"
+    ],
+    "instructions_zh": [
+      "平躺，膝盖弯曲，双脚平放在地上。",
+      "将双手放在脑后，肘部朝外。",
+      "收紧腹肌，慢慢将上半身抬离地面，向前卷曲，直到躯干呈 45 度角。",
+      "在顶部停顿片刻，然后慢慢将上半身放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0260",
+    "name": "cocoons",
+    "name_zh": "仰卧收腹",
+    "media": "raw:dataset_motion_0260",
+    "category": "waist",
+    "equipment": "body weight",
+    "target": "abs",
+    "muscle_group": "",
+    "secondary_muscles": [
+      "hip flexors",
+      "lower back"
+    ],
+    "instructions_zh": [
+      "仰卧，双臂向头顶方向伸展，双腿伸直并略微离地。",
+      "收紧腹部，屈膝向胸前收拢，同时卷起肩胛骨，双手向脚踝方向伸出。",
+      "保持颈部自然，不拉扯膝盖；缓慢展开手臂和双腿回到起始位。"
+    ]
+  },
+  {
+    "id": "0289",
+    "name": "dumbbell bench press",
+    "name_zh": "哑铃卧推",
+    "media": "raw:dataset_motion_0289",
+    "category": "chest",
+    "equipment": "dumbbell",
+    "target": "pectorals",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "平躺在长凳上，双脚平放在地上，背部紧贴长凳。",
+      "双手各握一个哑铃，手掌朝前，双臂伸至胸部上方。",
+      "慢慢地将哑铃降低到胸部两侧，保持肘部呈 90 度角。",
+      "暂停片刻，然后将哑铃推回起始位置，完全伸展双臂。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0316",
+    "name": "dumbbell incline breeding",
+    "name_zh": "哑铃上斜卧推（另一示范）",
+    "media": "raw:dataset_motion_0316",
+    "category": "chest",
+    "equipment": "dumbbell",
+    "target": "pectorals",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "triceps"
+    ],
+    "instructions_zh": [
+      "设置一个 45 度角的上斜凳。",
+      "坐在长凳上，背部靠在垫子上，双脚平放在地面上。",
+      "双手各握一个哑铃，正手握握，手掌朝前。",
+      "首先，双臂完全伸展，垂直于地面。",
+      "慢慢地将哑铃降低到胸部两侧，保持肘部呈 90 度角。",
+      "在底部暂停片刻，然后将哑铃推回到起始位置。",
+      "重复所需的重复次数。"
+    ],
+    "required_equipment_zh": [
+      "上斜训练凳"
+    ]
+  },
+  {
+    "id": "0321",
+    "name": "dumbbell incline hammer press",
+    "name_zh": "哑铃上斜锤式推举",
+    "media": "raw:dataset_motion_0321",
+    "category": "chest",
+    "equipment": "dumbbell",
+    "target": "pectorals",
+    "muscle_group": "",
+    "secondary_muscles": [
+      "shoulders",
+      "triceps"
+    ],
+    "instructions_zh": [
+      "将上斜凳设置成 45 度角，坐在上面，双手各握一个哑铃，放在大腿上。",
+      "仰卧在长凳上，将哑铃置于与肩同高的位置，手掌相对。",
+      "将哑铃向上推离身体，直到手臂完全伸展。",
+      "在顶部停顿片刻，然后慢慢将哑铃放回起始位置。",
+      "重复所需的重复次数。"
+    ],
+    "required_equipment_zh": [
+      "上斜训练凳"
+    ]
+  },
+  {
+    "id": "0806",
+    "name": "suspended push-up",
+    "name_zh": "吊环俯卧撑",
+    "media": "raw:dataset_motion_0806",
+    "category": "chest",
+    "equipment": "gymnastic rings",
+    "target": "pectorals",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "shoulders",
+      "core"
+    ],
+    "instructions_zh": [
+      "找到一个悬挂训练器并将其调整到合适的高度。",
+      "背对锚点站立，并用正手握住手柄。",
+      "双脚向前走，身体向前倾斜，直到悬架训练器支撑您的体重。",
+      "保持身体从头到脚跟伸直，核心部位收紧，胸部朝手柄方向降低。",
+      "推动你的胸部和手臂回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0807",
+    "name": "suspended reverse crunch",
+    "name_zh": "单杠悬垂举膝",
+    "media": "raw:dataset_motion_0807",
+    "category": "waist",
+    "equipment": "pull-up bar",
+    "target": "abs",
+    "muscle_group": "hip flexors",
+    "secondary_muscles": [
+      "hip flexors"
+    ],
+    "instructions_zh": [
+      "悬挂在引体向上杆上，双臂完全伸展，手掌背向自己。",
+      "收紧核心肌群，将膝盖抬向胸部，将骨盆卷向胸腔。",
+      "在顶部暂停片刻，然后慢慢将膝盖放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  }
+]

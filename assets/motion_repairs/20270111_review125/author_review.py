@@ -1,0 +1,234 @@
+#!/usr/bin/env python3
+"""Author Batch 125 review updates, pending notes, sources, code baseline, and QA spec (2138 candidate; 9 deferred)."""
+from pathlib import Path
+import json
+import hashlib
+
+B = Path(__file__).resolve().parent
+R = B.parents[2]
+BATCH_ID = "20270111_review125"
+VERSION = "1.2.130"
+VERSION_CODE = 2027011101
+
+inspected = ["2138", "2139", "2141", "2142", "2144", "2186", "2187", "2202", "2203", "2204"]
+review_candidates = ["2138"]
+registered_media = []
+
+definition_updates = {
+    "2138": {
+        "name_zh": "固定动感单车骑行",
+        "category": "cardio",
+        "equipment": "stationary bike",
+        "target": "cardiovascular system",
+        "muscle_group": "",
+        "secondary_muscles": ["quadriceps", "hamstrings", "calves"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "根据身高将车座高度调节至约与髋骨平齐（蹬到最低点时膝微屈约二三十度不锁死），再调好车把前后与舒适高度。",
+            "坐稳车座并用脚套或骑行鞋固定双脚前脚掌，上身自然微前倾，双手轻扶车把且双肩下沉不耸肩。",
+            "收紧核心稳定骨盆，先轻阻力热身随后按训练需要调节阻力旋钮，双腿随曲柄圆周流畅交替画圆踩踏（下踩、后刮、上提连续发力）。",
+            "按预定节奏与时长完成骑行后，逐步调低阻力缓停下车并拉伸下肢放松。",
+        ],
+    },
+    "2139": {
+        "name_zh": "上肢功率车推拉摇臂",
+        "category": "chest",
+        "equipment": "upper body ergometer",
+        "target": "pectorals",
+        "muscle_group": "",
+        "secondary_muscles": ["triceps", "shoulders"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "将上肢功率车座椅前后调至手臂伸出微屈握柄的合适距离，稳坐后双脚踩实脚踏底座并收紧核心挺直躯干。",
+            "双手对握双侧手摇曲柄手柄，双肩下沉不代偿耸肩、手腕顺直。",
+            "以胸肌、三角肌前束及肱三头肌协同发力，顺时针匀速交替推拉转动双侧摇柄完成连续圆周摇臂。",
+            "按目标时长或圈数完成训练后放慢转速稳停放松。",
+        ],
+    },
+    "2141": {
+        "name_zh": "椭圆机平稳踩踏练习",
+        "category": "cardio",
+        "equipment": "elliptical machine",
+        "target": "cardiovascular system",
+        "muscle_group": "",
+        "secondary_muscles": ["quadriceps", "hamstrings", "glutes", "calves"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "扶稳固定把手后先后踩上椭圆机两侧脚踏板，再根据需要设定恰当阻力与坡度。",
+            "双手轻握两侧联动扶手柄，脊柱自然直立、目视前方且核心适度收紧稳定躯干。",
+            "全脚掌平稳踩贴踏板，顺椭圆形轨迹协调发力带动上下肢推拉协同连续运转。",
+            "按计划持续有氧训练后逐渐减速至踏板平稳停稳再下机。",
+        ],
+    },
+    "2142": {
+        "name_zh": "坐姿滑雪训练机双臂下压",
+        "category": "upper arms",
+        "equipment": "skierg machine",
+        "target": "triceps",
+        "muscle_group": "",
+        "secondary_muscles": ["shoulders", "forearms"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "坐稳在带有滑轨长拉绳的坐姿滑雪拉臂器座椅上，双脚踩实前方脚蹬并挺直躯干。",
+            "双手正握或对握前方斜上引出的双侧手柄，双臂沿斜前上方伸出且手肘微屈。",
+            "呼气集中肱三头肌与胸背前下方联动发力，将双侧手柄顺弧线向下压拉至大腿两侧附近。",
+            "顶端挤压微停后吸气受控回放至前上方预拉位，按规范节奏重复。",
+        ],
+    },
+    "2144": {
+        "name_zh": "直立靠背凳坐姿龙门架胸推",
+        "category": "chest",
+        "equipment": "cable",
+        "target": "pectorals",
+        "muscle_group": "",
+        "secondary_muscles": ["shoulders", "triceps"],
+        "required_equipment_zh": ["直立靠背训练凳"],
+        "instructions_zh": [
+            "将直立靠背训练凳正中摆放在龙门架双侧滑轮之间，将双侧滑轮调至约与胸部同高并坐稳、肩背臀紧靠直立靠背且双脚踩实地面。",
+            "双手正握双侧拉力手柄置于胸侧外方，手肘略低于肩水平以保护肩关节。",
+            "呼气集中胸大肌收缩将双手柄向前内上方推聚至胸前接近伸直（手肘微屈不锁死）。",
+            "停顿收紧胸肌后吸气缓慢控制外展屈肘放回胸侧充分拉伸位，按计划重复。",
+        ],
+    },
+    "2186": {
+        "name_zh": "下斜凳仰卧曲杆杠铃臂屈伸",
+        "category": "upper arms",
+        "equipment": "ez barbell",
+        "target": "triceps",
+        "muscle_group": "",
+        "secondary_muscles": ["shoulders"],
+        "required_equipment_zh": ["带勾脚的下斜训练凳"],
+        "instructions_zh": [
+            "先将双脚踝稳妥勾卡在带勾脚的下斜训练凳上端滚筒内，再缓慢仰躺于下斜凳面上使头部低于髋部、头背紧靠垫面。",
+            "双手与肩同宽或略窄正握曲杆杠铃推至胸部斜上方（使大臂垂直或略向头顶后倾斜固定）。",
+            "吸气固定上臂角度不变，缓慢屈肘控制曲杆沿弧线放向额头或头顶上方附近。",
+            "呼气集中肱三头肌发力向上伸直肘部还原至起始位，按受控节奏重复。",
+        ],
+    },
+    "2187": {
+        "name_zh": "平凳仰卧杠铃反握窄距卧推",
+        "category": "upper arms",
+        "equipment": "barbell",
+        "target": "triceps",
+        "muscle_group": "",
+        "secondary_muscles": ["chest", "shoulders"],
+        "required_equipment_zh": ["平板训练凳"],
+        "instructions_zh": [
+            "仰卧在平凳卧推架上，双脚分开踩实地面、肩胛微收下沉紧贴凳面。",
+            "双手与肩同宽或略窄采用掌心朝向头侧的反握方式握紧杠铃并安全取杠移至下胸正上方。",
+            "吸气将双肘贴向体侧斜下方，缓慢受控下放杠铃至接近下胸沿上方。",
+            "呼气集中肱三头肌与上胸协同发力沿着弧线向上推起还原，按计划完成次数后挂回架上。",
+        ],
+    },
+    "2202": {
+        "name_zh": "仰坐滚轴屈膝臀部拉伸",
+        "category": "upper legs",
+        "equipment": "roller",
+        "target": "glutes",
+        "muscle_group": "",
+        "secondary_muscles": ["hamstrings", "quadriceps"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "坐在平坦地面上并将泡沫轴横垫在臀肌下方与大腿上缘处，双腿向前伸出、双手后撑地面稳住躯干并微后仰。",
+            "呼气慢慢向前滑动身体的同时温和屈曲双膝拉近胸前，使泡沫轴围绕臀大肌外上缘缓缓滚压牵拉。",
+            "在臀部柔和伸展或紧张点处停顿呼吸感受数秒。",
+            "吸气缓慢伸直双腿向后滚回起始位置，按可控节奏重复。",
+        ],
+    },
+    "2203": {
+        "name_zh": "长坐姿滚轮前推伸展",
+        "category": "chest",
+        "equipment": "roller",
+        "target": "pectorals",
+        "muscle_group": "",
+        "secondary_muscles": ["deltoids", "triceps"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "坐在瑜伽垫上双腿向前伸直并拢呈长坐姿，双手正握紧健腹轮手柄并将轮体轻放于大腿上方前缘。",
+            "呼气挺胸收腹使肩带自然前伸，同时双手顺势向前下压并随躯干适度前倾将滚轮沿腿侧及垫面前推。",
+            "至肩胸前方及侧躯干感到柔和拉伸且可控的最前点略作停顿。",
+            "吸气慢慢屈收手臂回拉滚轮并顺势直立躯干还原至大腿起始位，按计划重复。",
+        ],
+    },
+    "2204": {
+        "name_zh": "俯身滚轮前后身体锯",
+        "category": "waist",
+        "equipment": "roller",
+        "target": "abs",
+        "muscle_group": "",
+        "secondary_muscles": ["shoulders", "triceps", "core"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "俯身面对地面摆出高撑起始姿势，双手紧握放在胸肩正下方的健腹轮手柄、双臂伸直，双腿向后并拢以前脚掌踩实垫面。",
+            "收紧核心、臀肌与前锯肌锁住腰椎不塌腰，缓慢向前滚动健腹轮带动身体呈锯齿状整体向前移出。",
+            "控制前移至腹核心绷紧且能稳定回拉的最远端短暂停顿。",
+            "呼气收腹发力向后回滚将轮拉回至肩臂正下方起始位，按均匀节律完成次数。",
+        ],
+    },
+}
+
+pending = {
+    "2139": "待修图 · 规范上肢功率车摇臂并清除原步骤“保持”字样（更名为上肢功率车推拉摇臂）；原动图 10 帧且上下边距 T:14, B:12<15（右下角有微小边缘黑点），待重制为标准 4 帧循环图。",
+    "2141": "待修图 · 去除“保持”避免触发静态计次并规范为椭圆机平稳踩踏练习；原动图仅 2 帧且上下边距 T:14, B:14<15，待重制为标准 4 帧循环图。",
+    "2142": "待修图 · 规范坐姿滑雪训练机三头肌下压并明确滑轨座椅（坐姿滑雪训练机双臂下压）；原动图 10 帧（L:14, R:13<15）且第 4 帧人物视角突变为背对背面角度，待重制。",
+    "2144": "待修图 · 补全直立靠背训练凳支持器械并规范为直立靠背凳坐姿龙门架胸推；原动图仅 2 帧且左右边距 L:14, R:14<15，待重制。",
+    "2186": "待修图 · 补全带勾脚的下斜训练凳支持器械、去除步骤英文 ez 为下斜凳仰卧曲杆杠铃臂屈伸；原动图仅 2 帧且左右边距 L:14, R:14<15，待重制。",
+    "2187": "待修图 · 补全平板训练凳支持器械并避免平凳触发静态计时（规范为平凳仰卧杠铃反握窄距卧推）；原动图仅 2 帧且 L:14, R:14<15，待重制。",
+    "2202": "待修图 · 消除原步骤“支撑”字样并规范为仰坐滚轴屈膝臀部拉伸；原动图 10 帧（L:14, R:14<15）且第 3 帧出现双腿严重透明重影与切碎畸变伪影，待重制。",
+    "2203": "待修图 · 依据原图长坐推轮实景重写动作步骤并规范为长坐姿滚轮前推伸展；原动图仅 2 帧且 L:14, R:14<15，待重制。",
+    "2204": "待修图 · 清除原步骤“平板支撑/保持”错误触发词（实为动态前移回拉训练，规范为俯身滚轮前后身体锯）；原动图仅 2 帧且 L:14, R:14<15，待重制。",
+}
+
+sources = {
+    "2138": "https://workoutlabs.com/exercise-guide/"
+}
+review_notes = {
+    "2138": "核准 `2138`（`stationary bike run v. 3` -> `固定动感单车骑行`）：经逐帧检验 480x480 原生 4 帧等距循环骑行图（590/590/590/590 ms，总长 2.36s，连续 360 度圆周踩踏周期），纯白背景（bg0=[255,255,255]）、四周边距充裕（L:96, R:76, T:33, B:59）、车架与上肢高度锚定（最大漂移<=1px，y>=370 IoU(F1,F3)=0.9754，y>=395 IoU(F1,F2)=0.9756），无杂点与裁切，红色解剖标注准确对应股四头肌与小腿协同有氧；已去除名称“(第三式)”括号并校准车座与踩踏步骤（参考 WorkoutLabs 动感单车指南）。"
+}
+
+before_reviews = json.loads((B / "before/exercise_reviews.json").read_text())
+reviewed_count = len(before_reviews["reviewed"]) + len(review_candidates)
+
+review_result = {
+    "batch": BATCH_ID,
+    "version": VERSION,
+    "version_code": VERSION_CODE,
+    "output": "build/review125-20270111",
+    "inspected": inspected,
+    "review_candidates": review_candidates,
+    "registered_media": registered_media,
+    "definition_updates": definition_updates,
+    "pending": pending,
+    "sources": sources,
+    "review_notes": review_notes,
+    "image_generation_calls": 0,
+    "generated_images_imported": 0,
+}
+(B / "review-result.json").write_text(json.dumps(review_result, ensure_ascii=False, indent=2) + "\n")
+
+code_paths = [
+    "app/src/main/java",
+    "scripts/validate_exercise_dataset.sh",
+    "scripts/build_android_debug.sh",
+]
+baseline = {}
+for rel in code_paths:
+    p = R / rel
+    if p.is_file():
+        baseline[rel] = hashlib.sha256(p.read_bytes()).hexdigest()
+    else:
+        for f in sorted(p.rglob("*")):
+            if f.is_file():
+                baseline[str(f.relative_to(R))] = hashlib.sha256(f.read_bytes()).hexdigest()
+(B / "code-baseline.json").write_text(json.dumps(baseline, ensure_ascii=False, indent=2) + "\n")
+
+qa_spec = {
+    "batch": BATCH_ID,
+    "expected_checks": 19,
+    "expected_reviewed_after_approve": reviewed_count,
+    "candidate_ids": ["2138"],
+    "candidate_required_equipment": {"2138": []},
+    "expected_per_side_ids": [],
+}
+(B / "qa-spec.json").write_text(json.dumps(qa_spec, ensure_ascii=False, indent=2) + "\n")
+print(f"Authored review-result.json, code-baseline.json, and qa-spec.json for {BATCH_ID}")

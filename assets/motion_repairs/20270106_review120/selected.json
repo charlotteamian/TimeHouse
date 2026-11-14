@@ -1,0 +1,228 @@
+[
+  {
+    "id": "1634",
+    "name": "cable lying bicep curl",
+    "name_zh": "绳索仰卧弯举",
+    "media": "raw:dataset_motion_1634",
+    "category": "upper arms",
+    "equipment": "cable",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "将直杆连接到低滑轮电缆机上。",
+      "面朝上躺在平坦的长凳上，双脚平放在地上。",
+      "反手握住杠铃，双手与肩同宽。",
+      "充分伸展双臂，保持肘部靠近身体两侧。",
+      "保持上臂静止，呼气并将杠铃向上弯向肩膀。",
+      "在顶部暂停片刻，挤压你的二头肌。",
+      "吸气，慢慢将杠铃放回起始位置，充分伸展双臂。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1635",
+    "name": "cable one arm reverse preacher curl",
+    "name_zh": "绳索单臂反平板弯举",
+    "media": "raw:dataset_motion_1635",
+    "category": "upper arms",
+    "equipment": "cable",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "调整拉索机，使滑轮处于最低位置。",
+      "面对电缆机站立，双脚与肩同宽。",
+      "用反手抓住电缆手柄，并将上臂靠在牧师凳垫上。",
+      "在整个练习过程中保持背部挺直，核心肌群参与其中。",
+      "慢慢地将前臂向二头肌方向卷曲，保持上臂固定在垫子上。",
+      "在动作的最高点暂停片刻，挤压你的二头肌。",
+      "慢慢地将电缆手柄放回起始位置。",
+      "重复所需的重复次数。",
+      "交换手臂并重复练习。"
+    ]
+  },
+  {
+    "id": "1636",
+    "name": "cable overhead curl",
+    "name_zh": "绳索过头弯举",
+    "media": "raw:dataset_motion_1636",
+    "category": "upper arms",
+    "equipment": "cable",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "将直杆连接到高滑轮电缆机上。",
+      "面向机器站立，双脚分开与肩同宽。",
+      "反手握住杠铃，双手与肩同宽。",
+      "保持肘部靠近身体两侧，上臂保持静止。",
+      "呼气并将杠铃向下卷向前额，保持上臂静止。",
+      "在动作底部暂停片刻，挤压二头肌。",
+      "吸气，慢慢地将杠铃返回到起始位置，充分伸展双臂。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1637",
+    "name": "cable overhead curl on exercise ball",
+    "name_zh": "绳索过头弯举（健身球）",
+    "media": "raw:dataset_motion_1637",
+    "category": "upper arms",
+    "equipment": "cable",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "坐在健身球上，用反手握住电缆手柄。",
+      "将手臂完全伸过头顶，保持肘部靠近耳朵。",
+      "慢慢地将电缆朝前额卷曲，保持上臂静止。",
+      "在动作底部暂停片刻，然后慢慢回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1638",
+    "name": "cable pulldown bicep curl",
+    "name_zh": "绳索下拉弯举",
+    "media": "raw:dataset_motion_1638",
+    "category": "upper arms",
+    "equipment": "cable",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "在最高设置下将直杆连接到电缆机上。",
+      "面向机器站立，双脚分开与肩同宽。",
+      "反手握住杠铃，双手与肩同宽。",
+      "保持肘部靠近身体两侧，上臂保持静止。",
+      "呼气，慢慢将杠铃向大腿方向卷曲，保持手腕伸直。",
+      "在动作底部暂停片刻，挤压二头肌。",
+      "吸气，慢慢地将杠铃返回到起始位置，充分伸展双臂。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1639",
+    "name": "cable rope hammer preacher curl",
+    "name_zh": "绳索锤式凳上弯举",
+    "media": "raw:dataset_motion_1639",
+    "category": "upper arms",
+    "equipment": "cable",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "将绳索附件连接到低滑轮缆绳机上。",
+      "面向机器站立，双脚分开与肩同宽。",
+      "以中立握法（手掌相对）抓住绳子。",
+      "将上臂靠在牧师凳垫上，保持肘部稍微弯曲。",
+      "保持上臂静止，呼气并通过收缩二头肌将绳子卷向肩膀。",
+      "挤压二头肌时，保持收缩位置短暂停顿。",
+      "吸气，慢慢将绳子放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1640",
+    "name": "cable rope one arm hammer preacher curl",
+    "name_zh": "绳索单臂锤式凳上弯举",
+    "media": "raw:dataset_motion_1640",
+    "category": "upper arms",
+    "equipment": "cable",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "将绳索手柄连接到低滑轮电缆机器上。",
+      "面向机器站立，双脚分开与肩同宽。",
+      "反手握住绳索手柄，手掌朝上。",
+      "将上臂靠在牧师凳垫上，保持肘部稍微弯曲。",
+      "在整个练习过程中保持背部挺直，核心肌群参与其中。",
+      "慢慢地将绳索手柄卷向肩膀，保持上臂静止。",
+      "在动作的最高点挤压二头肌，然后慢慢将绳柄放回起始位置。",
+      "重复所需的重复次数，然后换臂。"
+    ]
+  },
+  {
+    "id": "1641",
+    "name": "cable seated curl",
+    "name_zh": "绳索坐姿弯举",
+    "media": "raw:dataset_motion_1641",
+    "category": "upper arms",
+    "equipment": "cable",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "坐在缆绳机上，双脚平放在地面上，背部挺直。",
+      "反手抓住电缆附件，手掌朝上，双臂完全伸展。",
+      "保持上臂静止，呼气并将电缆附件卷向肩膀，收缩二头肌。",
+      "在动作的最高点暂停片刻，挤压你的二头肌。",
+      "吸气并慢慢将电缆附件放回起始位置，充分伸展双臂。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1642",
+    "name": "cable seated one arm concentration curl",
+    "name_zh": "绳索坐姿单臂集中弯举",
+    "media": "raw:dataset_motion_1642",
+    "category": "upper arms",
+    "equipment": "cable",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "坐在长凳上，双脚平放在地板上，背部挺直。",
+      "用一只手握住电缆手柄，并将肘部放在大腿内侧、膝盖上方。",
+      "呼气时，保持上臂静止并将电缆手柄向肩膀卷曲。",
+      "在动作的最高点暂停片刻，挤压你的二头肌。",
+      "吸气时慢慢将电缆手柄放回起始位置。",
+      "重复所需的重复次数，然后换臂。"
+    ]
+  },
+  {
+    "id": "1643",
+    "name": "cable seated overhead curl",
+    "name_zh": "绳索坐姿过头弯举",
+    "media": "raw:dataset_motion_1643",
+    "category": "upper arms",
+    "equipment": "cable",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "坐在长凳上，面向电缆机，双脚平放在地面上。",
+      "用手握住电缆附件，手掌朝上，双手与肩同宽。",
+      "保持上臂不动，肘部靠近身体两侧。",
+      "呼气并将电缆附件卷向肩膀，收缩二头肌。",
+      "在动作的最高点暂停片刻，挤压你的二头肌。",
+      "吸气并慢慢将电缆附件放回起始位置，充分伸展双臂。",
+      "重复所需的重复次数。"
+    ]
+  }
+]

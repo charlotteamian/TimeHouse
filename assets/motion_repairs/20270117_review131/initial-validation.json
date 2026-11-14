@@ -1,0 +1,15 @@
+{
+  "batch_id": "20270117_review131",
+  "status": "passed",
+  "serial": "emulator-5554",
+  "apk": "build/timehouse-debug.apk",
+  "checks": 18,
+  "visually_reviewed": [
+    "3144"
+  ],
+  "dataset_sha256": "76fe30abaa9c9c1866b5bece419ab90a9880417ddf90a4270b1f35e2d55db589",
+  "media_sha256": {
+    "3144": "3f23b63cba30c2cecb3b614d7b457a36d3228832904ee09f9574b0ce732a5f51"
+  },
+  "notes": "Verified Batch 131 candidate 3144 live 4-frame anatomical row playback frames on Android emulator (y>=390 IoU=1.0000, F2==F4 max_diff=0, zero clipping) and verified all 9 deferred Batch 131 entries stay blocked by mandatory 1.2.14 review gate across 18 initial checks."
+}

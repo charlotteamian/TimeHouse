@@ -1,0 +1,214 @@
+[
+  {
+    "id": "0832",
+    "name": "weighted crunch",
+    "name_zh": "负重卷腹",
+    "media": "raw:dataset_motion_0832",
+    "category": "waist",
+    "equipment": "weighted",
+    "target": "abs",
+    "muscle_group": "obliques",
+    "secondary_muscles": [
+      "obliques"
+    ],
+    "instructions_zh": [
+      "平躺，膝盖弯曲，双脚平放在地上。",
+      "将杠铃片或哑铃放在胸前。",
+      "收紧腹肌，将上半身抬离地面，向前卷曲，直到肩胛骨离开地面。",
+      "在顶部停顿片刻，然后慢慢将上半身放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0833",
+    "name": "weighted donkey calf raise",
+    "name_zh": "负重坐姿小腿抬升",
+    "media": "raw:dataset_motion_0833",
+    "category": "lower legs",
+    "equipment": "weighted",
+    "target": "calves",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings",
+      "glutes"
+    ],
+    "instructions_zh": [
+      "站在一个升高的平台上，脚趾放在边缘，脚后跟悬垂。",
+      "抓住一个稳定的物体作为支撑。",
+      "伸展脚踝，将脚后跟尽可能抬高。",
+      "在顶部停顿片刻，然后慢慢降低脚后跟回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0834",
+    "name": "weighted front raise",
+    "name_zh": "负重前平举",
+    "media": "raw:dataset_motion_0834",
+    "category": "shoulders",
+    "equipment": "weighted",
+    "target": "delts",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，双手各握一个哑铃，手掌朝向大腿。",
+      "保持双臂伸直，呼气并将哑铃举至身前，直至与肩齐平。",
+      "在顶部停顿片刻，然后吸气，慢慢将哑铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0835",
+    "name": "weighted hyperextension (on stability ball)",
+    "name_zh": "负重超伸（健身球上）",
+    "media": "raw:dataset_motion_0835",
+    "category": "back",
+    "equipment": "weighted",
+    "target": "spine",
+    "muscle_group": "glutes",
+    "secondary_muscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "instructions_zh": [
+      "将自己面朝下放在稳定球上，臀部放在球上，双脚靠在墙上以保持稳定。",
+      "将双手放在脑后或交叉放在胸前。",
+      "启动你的核心，慢慢地将你的上半身抬离球，伸展你的背部，直到你的身体形成一条直线。",
+      "在顶部停顿片刻，然后慢慢将上半身放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0840",
+    "name": "weighted overhead crunch (on stability ball)",
+    "name_zh": "负重仰卧卷腹（健身球上）",
+    "media": "raw:dataset_motion_0840",
+    "category": "waist",
+    "equipment": "weighted",
+    "target": "abs",
+    "muscle_group": "obliques",
+    "secondary_muscles": [
+      "obliques",
+      "lower back"
+    ],
+    "instructions_zh": [
+      "坐在稳定球上，双脚平放在地面上，膝盖弯曲成 90 度角。",
+      "双手握住杠铃片或哑铃，并将手臂伸过头顶。",
+      "收紧腹肌，慢慢向前弯曲躯干，使胸部靠近膝盖。",
+      "在顶部暂停片刻，然后慢慢将躯干放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0841",
+    "name": "weighted pull-up",
+    "name_zh": "负重引体向上",
+    "media": "raw:dataset_motion_0841",
+    "category": "back",
+    "equipment": "weighted",
+    "target": "lats",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "正手握住引体向上杆，握距略宽于肩宽。",
+      "悬挂在杠上，双臂完全伸展，身体伸直。",
+      "收紧背部肌肉，将身体拉向杠铃杆，保持肘部靠近身体。",
+      "继续拉，直到下巴位于杠铃上方。",
+      "在顶部停顿片刻，然后慢慢将身体放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0844",
+    "name": "weighted round arm",
+    "name_zh": "负重圆臂",
+    "media": "raw:dataset_motion_0844",
+    "category": "shoulders",
+    "equipment": "weighted",
+    "target": "delts",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "upper back"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，每只手各握一个哑铃。",
+      "稍微弯曲膝盖，髋部向前转动，保持背部挺直。",
+      "将手臂向两侧举起，肘部保持轻微弯曲。",
+      "继续举起手臂，直到它们与地面平行。",
+      "在顶部暂停片刻，然后慢慢将手臂放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0845",
+    "name": "weighted russian twist (legs up)",
+    "name_zh": "负重俄罗斯转体（腿抬）",
+    "media": "raw:dataset_motion_0845",
+    "category": "waist",
+    "equipment": "weighted",
+    "target": "abs",
+    "muscle_group": "obliques",
+    "secondary_muscles": [
+      "obliques",
+      "hip flexors"
+    ],
+    "instructions_zh": [
+      "坐在地上，膝盖弯曲，双脚离开地面，保持双腿并拢。",
+      "用双手将重物放在胸前，保持肘部稍微弯曲。",
+      "稍微向后倾斜以锻炼核心肌肉。",
+      "将躯干向右扭转，将重量移向右侧地面。",
+      "暂停片刻，然后将躯干向左扭转，将重量转移到左侧地面。",
+      "继续交替进行所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0846",
+    "name": "weighted russian twist",
+    "name_zh": "负重俄罗斯转体",
+    "media": "raw:dataset_motion_0846",
+    "category": "waist",
+    "equipment": "weighted",
+    "target": "abs",
+    "muscle_group": "obliques",
+    "secondary_muscles": [
+      "obliques",
+      "lower back"
+    ],
+    "instructions_zh": [
+      "坐在地上，膝盖弯曲，双脚平放在地板上。",
+      "双手握住重物球或健身球放在胸前。",
+      "稍微向后倾斜，保持背部挺直，核心肌群参与。",
+      "慢慢地将你的躯干向右扭转，将重物或药球拉向右侧的地板。",
+      "暂停片刻，然后将躯干向左扭转，将重物或健身球拉向左侧的地板。",
+      "继续交替进行所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0847",
+    "name": "weighted seated bicep curl (on stability ball)",
+    "name_zh": "负重坐姿弯举（健身球上）",
+    "media": "raw:dataset_motion_0847",
+    "category": "upper arms",
+    "equipment": "medicine ball",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "坐在稳定球上，双脚平放在地面上，背部挺直。",
+      "反手握住健身球，手掌朝上，让手臂垂在身体两侧。",
+      "保持上臂静止，呼气并将药球向上卷向肩膀。",
+      "在顶部暂停片刻，挤压你的二头肌。",
+      "吸气并缓慢地将健身球放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  }
+]

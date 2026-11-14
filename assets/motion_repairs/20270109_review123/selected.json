@@ -1,0 +1,211 @@
+[
+  {
+    "id": "1723",
+    "name": "cable one arm tricep pushdown",
+    "name_zh": "绳索单臂肱三头肌下压",
+    "media": "raw:dataset_motion_1723",
+    "category": "upper arms",
+    "equipment": "cable",
+    "target": "triceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "面向缆绳机站立，并在胸部高度处安装直杆附件。",
+      "正手握住杠铃，然后后退以在绳索上产生张力。",
+      "将双脚分开与肩同宽，并稍微弯曲膝盖。",
+      "在整个练习过程中保持背部挺直并保持核心参与。",
+      "首先，手臂完全伸展并垂直于地板。",
+      "保持上臂静止，呼气并将杠铃向下推，直到手臂完全伸展。",
+      "暂停片刻，然后吸气，慢慢回到起始位置。",
+      "重复所需的重复次数，然后换臂。"
+    ]
+  },
+  {
+    "id": "1724",
+    "name": "cable rope high pulley overhead tricep extension",
+    "name_zh": "绳索高拉过头三头肌伸展",
+    "media": "raw:dataset_motion_1724",
+    "category": "upper arms",
+    "equipment": "cable",
+    "target": "triceps",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "将绳子连接到高滑轮上并相应地调整重量。",
+      "背对滑轮机站立，双脚与肩同宽。",
+      "双手抓住绳子，掌心朝下，双手举过头顶。",
+      "保持上臂靠近头部并垂直于地板。",
+      "弯曲肘部，慢慢将绳子降低到头后。",
+      "暂停片刻，然后将手臂伸回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1725",
+    "name": "cable rope incline tricep extension",
+    "name_zh": "绳索斜板三头肌伸展",
+    "media": "raw:dataset_motion_1725",
+    "category": "upper arms",
+    "equipment": "cable",
+    "target": "triceps",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "将绳子连接到高滑轮上，并将倾斜长凳调整到舒适的角度。",
+      "背对滑轮站立，双脚与肩同宽。",
+      "正手抓住绳子，并将双臂伸直过头顶。",
+      "在整个练习过程中，保持肘部靠近头部，上臂保持静止。",
+      "弯曲肘部，直到前臂接触二头肌，将绳子降低到头后。",
+      "暂停片刻，然后将手臂伸回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1726",
+    "name": "cable rope lying on floor tricep extension",
+    "name_zh": "绳索地板三头肌伸展",
+    "media": "raw:dataset_motion_1726",
+    "category": "upper arms",
+    "equipment": "cable",
+    "target": "triceps",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "将绳子连接到缆绳机上并将其设置到最低位置。",
+      "面朝上躺在地板上，头朝向电缆机。",
+      "双手握住绳子，掌心相对，双臂伸直向上伸向天花板。",
+      "保持上臂静止，慢慢地将绳子放低到前额，弯曲肘部。",
+      "暂停片刻，然后将手臂伸回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1727",
+    "name": "cable standing reverse grip one arm overhead tricep extension",
+    "name_zh": "绳索站姿反握单臂过头三头肌伸展",
+    "media": "raw:dataset_motion_1727",
+    "category": "upper arms",
+    "equipment": "cable",
+    "target": "triceps",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "背对缆绳机站立，双脚与肩同宽。",
+      "用手握住电缆手柄，并将手臂伸过头顶，保持肘部靠近头部。",
+      "保持上臂静止，弯曲肘部，慢慢将电缆手柄降低到脑后。",
+      "在底部停顿片刻，然后将手臂伸回起始位置。",
+      "重复所需的重复次数，然后换臂。"
+    ]
+  },
+  {
+    "id": "1728",
+    "name": "cable two arm tricep kickback",
+    "name_zh": "绳索双臂三头肌后推",
+    "media": "raw:dataset_motion_1728",
+    "category": "upper arms",
+    "equipment": "cable",
+    "target": "triceps",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "站立，双脚分开与肩同宽，膝盖稍微弯曲。",
+      "双手握住电缆手柄，手掌朝内，手臂弯曲成 90 度角。",
+      "保持上臂静止，向后伸展前臂，直到手臂完全伸展。",
+      "暂停片刻，然后慢慢回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1744",
+    "name": "exercise ball dip",
+    "name_zh": "健身球臂屈伸",
+    "media": "raw:dataset_motion_1744",
+    "category": "upper arms",
+    "equipment": "stability ball",
+    "target": "triceps",
+    "muscle_group": "chest",
+    "secondary_muscles": [
+      "chest",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "坐在稳定球上，双脚平放在地面上，膝盖弯曲成 90 度角。",
+      "将双手放在臀部旁边的球上，手指指向前方。",
+      "启动你的三头肌并用力推动你的身体，将你的身体抬离球，伸直你的手臂。",
+      "弯曲肘部，将身体放低，使其靠近身体两侧。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1745",
+    "name": "exercise ball seated triceps stretch",
+    "name_zh": "健身球坐姿三头肌拉伸",
+    "media": "raw:dataset_motion_1745",
+    "category": "upper arms",
+    "equipment": "stability ball",
+    "target": "triceps",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "坐在稳定球上，双脚平放在地面上，背部挺直。",
+      "一只手握住哑铃，将手臂伸直至头顶上方。",
+      "弯曲肘部，将哑铃放在脑后，保持上臂靠近耳朵。",
+      "保持伸展几秒钟，然后回到起始位置。",
+      "用另一只手臂重复上述步骤。"
+    ]
+  },
+  {
+    "id": "1747",
+    "name": "ez bar french press on exercise ball",
+    "name_zh": "曲杆健身球法式推举",
+    "media": "raw:dataset_motion_1747",
+    "category": "upper arms",
+    "equipment": "ez barbell",
+    "target": "triceps",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "坐在健身球上，正手握住 EZ 杠铃。",
+      "向上伸展双臂，保持肘部靠近头部。",
+      "弯曲肘部，慢慢将杠铃降低到脑后。",
+      "暂停片刻，然后将手臂伸回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1748",
+    "name": "ez bar lying close grip triceps extension behind head",
+    "name_zh": "曲杆仰卧窄握三头肌伸展（头后）",
+    "media": "raw:dataset_motion_1748",
+    "category": "upper arms",
+    "equipment": "ez barbell",
+    "target": "triceps",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "平躺在长凳上，双脚平放在地上，头放在长凳的末端。",
+      "紧紧握住 ez 杠铃，手掌朝上，将手臂伸直至胸部上方。",
+      "保持上臂静止，弯曲肘部，慢慢将杠铃降低到脑后。",
+      "暂停片刻，然后将手臂伸回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  }
+]

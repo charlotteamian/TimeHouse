@@ -1,0 +1,15 @@
+{
+  "batch_id": "20270107_review121",
+  "status": "passed",
+  "serial": "emulator-5554",
+  "apk": "build/timehouse-debug.apk",
+  "checks": 19,
+  "visually_reviewed": [
+    "1705"
+  ],
+  "dataset_sha256": "715a05b95c88267f8454248219a42371f67663cbdc02b220ad504a7fda1e31bd",
+  "media_sha256": {
+    "1705": "0a9a76494270de776b9e7fa62fd0163c40ba9b9b34cb4b4373df2838d800a79f"
+  },
+  "notes": "Verified Batch 121 candidate 1705 live playback frames on Android 12 emulator (y>=370 IoU(F1,F3)=0.9891, zero clipping, decodedAnimations=1) and verified all 9 deferred Batch 121 entries (plus Batches 119-120) stay blocked by mandatory 1.2.14 review gate across 19 initial checks."
+}

@@ -1,0 +1,223 @@
+[
+  {
+    "id": "1479",
+    "name": "lever incline chest press v. 2",
+    "name_zh": "斜板杠铃推胸（第二式）",
+    "media": "raw:dataset_motion_1479",
+    "category": "chest",
+    "equipment": "leverage machine",
+    "target": "pectorals",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "将杠杆机上的座椅高度和靠背角度调整到舒适的位置。",
+      "坐在机器上，背部靠在靠背上，双脚平放在地板上。",
+      "正手握住手柄，双手之间的距离略大于肩宽。",
+      "向前推动手柄并远离身体，直到手臂完全伸展，但不要锁定肘部。",
+      "在完全伸展的位置暂停片刻，然后慢慢弯曲肘部并将手柄放回胸部。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1496",
+    "name": "sledge hammer",
+    "name_zh": "锤式",
+    "media": "raw:dataset_motion_1496",
+    "category": "waist",
+    "equipment": "hammer",
+    "target": "abs",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，双手握住大锤。",
+      "启动你的核心并保持背部挺直。",
+      "使用核心和上半身的力量，将大锤向下挥向地面。",
+      "当你向下挥杆时，转动臀部并将力量传递到锤子上。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1545",
+    "name": "barbell full zercher squat",
+    "name_zh": "杠铃全泽赫蹲",
+    "media": "raw:dataset_motion_1545",
+    "category": "upper legs",
+    "equipment": "barbell",
+    "target": "glutes",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves",
+      "core"
+    ],
+    "instructions_zh": [
+      "站立，双脚分开与肩同宽，脚趾稍微外翻。",
+      "将杠铃放在肘部的弯曲处，双手握住杠铃以保持稳定。",
+      "当你将臀部向后降低到蹲姿时，启动你的核心并保持胸部抬起。",
+      "保持膝盖与脚趾对齐，并将重量放在脚后跟上。",
+      "降低直到大腿与地面平行，或者尽可能降低到您能舒服的高度。",
+      "通过脚跟发力站起来，在动作的最高点挤压臀部。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1559",
+    "name": "exercise ball hip flexor stretch",
+    "name_zh": "健身球髋屈肌拉伸",
+    "media": "raw:dataset_motion_1559",
+    "category": "upper legs",
+    "equipment": "stability ball",
+    "target": "glutes",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings"
+    ],
+    "instructions_zh": [
+      "将稳定球放在地上并跪在其前面。",
+      "将右脚放在稳定球上，膝盖弯曲成 90 度角。",
+      "将左腿伸到身后，保持伸直。",
+      "身体前倾，将臀部推向稳定球，直到感觉到右髋屈肌有拉伸感。",
+      "保持拉伸 20-30 秒，然后换边重复。"
+    ]
+  },
+  {
+    "id": "1560",
+    "name": "exercise ball seated hamstring stretch",
+    "name_zh": "健身球坐姿腘绳肌拉伸",
+    "media": "raw:dataset_motion_1560",
+    "category": "upper legs",
+    "equipment": "stability ball",
+    "target": "hamstrings",
+    "muscle_group": "glutes",
+    "secondary_muscles": [
+      "glutes",
+      "lower back"
+    ],
+    "instructions_zh": [
+      "坐在稳定球上，双脚平放在地面上，膝盖弯曲成 90 度角。",
+      "慢慢地向前滚动球，双脚向外走，直到上背部靠在球上，双腿在身前伸直。",
+      "将双手放在臀部上以获得支撑。",
+      "启动你的核心，慢慢地将上半身降低到地面，保持背部挺直，胸部抬起。",
+      "当您感觉到腿筋拉伸时停止，并保持该姿势 20-30 秒。",
+      "通过推动脚后跟并使用腿筋将自己拉回来，慢慢回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1564",
+    "name": "intermediate hip flexor and quad stretch",
+    "name_zh": "中等髋屈肌与股四头肌拉伸",
+    "media": "raw:dataset_motion_1564",
+    "category": "upper legs",
+    "equipment": "rope",
+    "target": "quads",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings",
+      "glutes"
+    ],
+    "instructions_zh": [
+      "站直，双脚分开与肩同宽。",
+      "抓住一个稳定的物体作为支撑。",
+      "弯曲右膝，将右脚移向臀部，用右手抓住绳子。",
+      "慢慢地将右脚拉向臀部，感受右股四头肌的拉伸。",
+      "保持拉伸 20-30 秒。",
+      "松开拉伸并在左侧重复。"
+    ]
+  },
+  {
+    "id": "1582",
+    "name": "reclining big toe pose with rope",
+    "name_zh": "绳索大脚趾后倾",
+    "media": "raw:dataset_motion_1582",
+    "category": "upper legs",
+    "equipment": "rope",
+    "target": "hamstrings",
+    "muscle_group": "calves",
+    "secondary_muscles": [
+      "calves",
+      "glutes"
+    ],
+    "instructions_zh": [
+      "仰卧，双腿伸展，双臂放在身体两侧。",
+      "将绳子绕在右脚掌上，并用手握住绳子的末端。",
+      "慢慢地将右腿抬向胸部，保持膝盖伸直，脚弯曲。",
+      "保持伸展几秒钟，然后慢慢将腿放回起始位置。",
+      "左腿重复上述动作。",
+      "继续交替双腿达到所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1599",
+    "name": "standing hamstring and calf stretch with strap",
+    "name_zh": "站姿带拉伸腘绳肌与小腿",
+    "media": "raw:dataset_motion_1599",
+    "category": "upper legs",
+    "equipment": "rope",
+    "target": "hamstrings",
+    "muscle_group": "calves",
+    "secondary_muscles": [
+      "calves"
+    ],
+    "instructions_zh": [
+      "站直，双脚分开与肩同宽。",
+      "用双手握住带子并将其放在脚掌周围。",
+      "保持腿伸直，从臀部慢慢向前倾斜，保持背部挺直。",
+      "感受腿筋和小腿肌肉的拉伸。",
+      "保持拉伸 20-30 秒。",
+      "放松拉伸并用另一条腿重复。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1614",
+    "name": "lever preacher curl v. 2",
+    "name_zh": "器械牧师凳弯举（第二式）",
+    "media": "raw:dataset_motion_1614",
+    "category": "upper arms",
+    "equipment": "leverage machine",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "调整座椅高度，将自己放在机器上，上臂放在垫子上，胸部靠在支撑物上。",
+      "反手握住手柄，握距略宽于肩宽。",
+      "保持上臂静止，呼气，同时将手柄向肩膀卷曲，收缩二头肌。",
+      "在动作的最高点暂停片刻，挤压你的二头肌。",
+      "吸气，慢慢将手柄放回起始位置，充分伸展双臂。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1615",
+    "name": "lever hammer grip preacher curl",
+    "name_zh": "杠杆锤握前臂弯举",
+    "media": "raw:dataset_motion_1615",
+    "category": "upper arms",
+    "equipment": "leverage machine",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "调整座椅高度并将自己放在杠杆机上。",
+      "将你的上臂放在讲道垫上，确保你的胸部压在上面。",
+      "用锤子握把抓住手柄（手掌相对）。",
+      "保持上臂静止，呼气并将手柄卷向肩膀。",
+      "在顶部暂停片刻，挤压你的二头肌。",
+      "吸气并慢慢将手柄放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  }
+]

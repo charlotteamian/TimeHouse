@@ -1,0 +1,221 @@
+[
+  {
+    "id": "1267",
+    "name": "cable one arm press on exercise ball",
+    "name_zh": "绳索单臂推举（健身球）",
+    "media": "raw:dataset_motion_1267",
+    "category": "chest",
+    "equipment": "cable",
+    "target": "pectorals",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "triceps"
+    ],
+    "instructions_zh": [
+      "坐在健身球上，双脚平放在地上，背部挺直。",
+      "一只手握住电缆手柄，将手臂置于胸部高度，肘部弯曲。",
+      "将另一只手放在臀部上以保持稳定。",
+      "向前按电缆手柄，完全伸展手臂。",
+      "暂停片刻，然后慢慢回到起始位置。",
+      "重复所需的重复次数，然后换臂。"
+    ]
+  },
+  {
+    "id": "1268",
+    "name": "cable press on exercise ball",
+    "name_zh": "绳索推举（健身球）",
+    "media": "raw:dataset_motion_1268",
+    "category": "chest",
+    "equipment": "cable",
+    "target": "pectorals",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "triceps"
+    ],
+    "instructions_zh": [
+      "坐在健身球上，双脚平放在地上，膝盖呈 90 度角。",
+      "将电缆手柄保持在胸部高度，手掌朝下，肘部弯曲。",
+      "收紧核心并向前按压缆索手柄，直到手臂完全伸展。",
+      "暂停片刻，然后慢慢释放张力，并将电缆手柄拉回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1269",
+    "name": "cable standing up straight crossovers",
+    "name_zh": "绳索站姿直臂交叉下压",
+    "media": "raw:dataset_motion_1269",
+    "category": "chest",
+    "equipment": "cable",
+    "target": "pectorals",
+    "muscle_group": "deltoids",
+    "secondary_muscles": [
+      "deltoids",
+      "triceps"
+    ],
+    "instructions_zh": [
+      "站在缆绳机中间，双脚分开与肩同宽。",
+      "手掌朝下握住电缆手柄，手臂伸直至两侧。",
+      "保持双臂伸直，将双手放在身体前面，相互交叉。",
+      "暂停片刻，然后慢慢回到起始位置，保持双臂伸展。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1270",
+    "name": "cable upper chest crossovers",
+    "name_zh": "绳索上胸交叉",
+    "media": "raw:dataset_motion_1270",
+    "category": "chest",
+    "equipment": "cable",
+    "target": "pectorals",
+    "muscle_group": "deltoids",
+    "secondary_muscles": [
+      "deltoids",
+      "triceps"
+    ],
+    "instructions_zh": [
+      "将手柄连接到胸部高度的电缆上。",
+      "站在绳索机的中央，一只脚稍微在另一只脚前面。",
+      "手掌朝下抓住手柄，手臂向两侧伸展。",
+      "保持肘部轻微弯曲并启动核心肌群。",
+      "将电缆在胸前拉到一起，使它们相互交叉。",
+      "在运动的最高点挤压胸部肌肉。",
+      "慢慢地将电缆释放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1272",
+    "name": "chest stretch with exercise ball",
+    "name_zh": "球上胸拉伸",
+    "media": "raw:dataset_motion_1272",
+    "category": "chest",
+    "equipment": "stability ball",
+    "target": "pectorals",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "triceps"
+    ],
+    "instructions_zh": [
+      "坐在稳定球上，双脚平放在地面上，背部挺直。",
+      "双手握住健身球，并将双臂伸直至身前。",
+      "慢慢地将健身球移向胸部，感受胸部肌肉的拉伸。",
+      "保持伸展几秒钟，然后慢慢回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1296",
+    "name": "exercise ball pike push up",
+    "name_zh": "健身球屈体俯卧撑",
+    "media": "raw:dataset_motion_1296",
+    "category": "chest",
+    "equipment": "stability ball",
+    "target": "pectorals",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "triceps",
+      "core"
+    ],
+    "instructions_zh": [
+      "从俯卧撑位置开始，双手放在地板上，小腿放在稳定球上。",
+      "收紧核心肌群，将臀部抬向天花板，将球滚向双手。",
+      "保持双腿伸直，身体呈屈体姿势，形成倒V字形。",
+      "弯曲肘部，将上半身降低到地板上，保持头部与双手在一条直线上。",
+      "用手推动并伸展双臂以返回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1298",
+    "name": "kettlebell one arm floor press",
+    "name_zh": "壶铃单臂地面推举",
+    "media": "raw:dataset_motion_1298",
+    "category": "chest",
+    "equipment": "kettlebell",
+    "target": "pectorals",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "仰卧在地板上，膝盖弯曲，双脚平放在地面上。",
+      "一只手握住壶铃，手掌朝向脚部，手臂笔直向上伸向天花板。",
+      "弯曲肘部，慢慢将壶铃降低到胸部，保持上臂靠近身体。",
+      "当壶铃位于胸部正上方时暂停片刻，然后通过伸展肘部将壶铃推回起始位置。",
+      "重复所需的重复次数，然后换到另一只手臂。"
+    ]
+  },
+  {
+    "id": "1299",
+    "name": "lever incline chest press",
+    "name_zh": "杠杆上斜胸推",
+    "media": "raw:dataset_motion_1299",
+    "category": "chest",
+    "equipment": "leverage machine",
+    "target": "pectorals",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "triceps"
+    ],
+    "instructions_zh": [
+      "将杠杆机的座椅和靠背调整到舒适的位置。",
+      "坐在机器上，背部靠在靠背上，双脚平放在地板上。",
+      "正手握住手柄，双手之间的距离略大于肩宽。",
+      "向前推动手柄并使其远离身体，直到双臂完全伸展。",
+      "暂停片刻，然后慢慢弯曲肘部，将手柄放回到胸部。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1300",
+    "name": "lever decline chest press",
+    "name_zh": "杠杆下斜胸推",
+    "media": "raw:dataset_motion_1300",
+    "category": "chest",
+    "equipment": "leverage machine",
+    "target": "pectorals",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "将杠杆机的座椅高度和靠背调整到舒适的位置。",
+      "坐在机器上，背部靠在靠背上，双脚平放在地板上。",
+      "正手握住手柄，双手之间的距离略大于肩宽。",
+      "向前推动手柄并使其远离身体，直到双臂完全伸展。",
+      "慢慢地将手柄放回胸部，保持肘部稍微弯曲。",
+      "在底部暂停片刻，然后将手柄推回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "1301",
+    "name": "machine inner chest press",
+    "name_zh": "机器胸推（内胸）",
+    "media": "raw:dataset_motion_1301",
+    "category": "chest",
+    "equipment": "leverage machine",
+    "target": "pectorals",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "调整座椅高度，将自己放在机器上，背部平放在垫子上。",
+      "正手握住手柄，肘部呈 90 度角。",
+      "向前推动手柄，直到手臂完全伸展，运动过程中呼气。",
+      "动作结束时暂停片刻，然后慢慢回到起始位置，同时吸气。",
+      "重复所需的重复次数。"
+    ]
+  }
+]

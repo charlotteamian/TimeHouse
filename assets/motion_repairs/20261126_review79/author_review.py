@@ -1,0 +1,231 @@
+#!/usr/bin/env python3
+"""Author Batch 79 review updates, pending notes, code baseline, and QA spec (0 candidates; 10 deferred)."""
+from pathlib import Path
+import json
+import hashlib
+
+B = Path(__file__).resolve().parent
+R = B.parents[2]
+BATCH_ID = "20261126_review79"
+VERSION = "1.2.84"
+VERSION_CODE = 2026112601
+
+inspected = ["0197", "0198", "0199", "0200", "0201", "0202", "0203", "0204", "0205", "0206"]
+review_candidates = []
+registered_media = []
+
+definition_updates = {
+    "0197": {
+        "name_zh": "坐姿龙门架绳索对握横杠高位下拉",
+        "category": "back",
+        "equipment": "cable",
+        "target": "lats",
+        "muscle_group": "",
+        "secondary_muscles": ["biceps", "rhomboids", "rear deltoids"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "端坐于高位下拉机坐垫上，大腿牢固置于海绵挡板下方固定，双脚平踏地面保持身体稳定。",
+            "双手采用中等宽度的对握手柄（掌心相对）握牢横杠，挺胸沉肩微后仰约 15 度。",
+            "呼气由背阔肌主导发力驱动双肘向下拉引，将对握横杠平稳下拉至胸骨上端位置。",
+            "在动作底部顶峰收缩挤压背部停顿 1 秒，吸气控制横杠缓慢匀速放回高位至双臂与背部完全伸展，重复规定次数。",
+        ],
+    },
+    "0198": {
+        "name_zh": "坐姿龙门架绳索宽握高位下拉",
+        "category": "back",
+        "equipment": "cable",
+        "target": "lats",
+        "muscle_group": "",
+        "secondary_muscles": ["biceps", "rhomboids", "rear deltoids"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "坐在高位下拉器械坐垫上，调整挡腿板牢牢卡住大腿前侧，双脚平踩地面，挺胸收腹。",
+            "双手采用宽握握距正握横杠两端曲折处，躯干微微向后倾斜并沉肩锁定肩胛骨。",
+            "呼气由背阔肌主动发力带动双肘向下向内收紧，将横杠沿直线下拉至锁骨下方上胸处。",
+            "在最低点顶峰收缩停顿 1 秒充分夹紧背肌，吸气匀速受控放平横杠回到高位完全拉伸，按计划重复。",
+        ],
+    },
+    "0199": {
+        "name_zh": "站姿龙门架绳索直臂下压第二式",
+        "category": "back",
+        "equipment": "cable",
+        "target": "lats",
+        "muscle_group": "",
+        "secondary_muscles": ["triceps", "shoulders"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "站在高位滑轮龙门架前方，双脚与肩同宽微屈膝微前倾，双手正握直杆与肩同宽。",
+            "双臂保持伸直微屈肘固定，沉肩收紧核心，挺胸并保持脊柱中立平直。",
+            "呼气由背阔肌强力收缩带动双臂向下沿弧线弧形下压，直至直杆贴近大腿前侧。",
+            "在底部顶峰充分夹紧背阔肌停顿 1 秒，吸气控制双臂缓慢匀速顺应阻力升回高位起始点，按规定次数重复。",
+        ],
+    },
+    "0200": {
+        "name_zh": "站姿龙门架绳索麻绳下压",
+        "category": "upper arms",
+        "equipment": "cable",
+        "target": "triceps",
+        "muscle_group": "",
+        "secondary_muscles": ["forearms"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "站在高位滑轮前，双脚前后或平行分开与肩同宽，双手对握麻绳手柄两端，大臂垂直贴紧身体两侧。",
+            "挺胸微前倾收紧核心，保持肘关节为唯一旋转轴心，呼气由肱三头肌发力向下伸展双臂。",
+            "在动作底部将双臂完全伸直并顺势向两侧微微分开绳索，顶峰收缩挤压肱三头肌 1 秒。",
+            "吸气屈肘匀速受控让前臂向上抬起回放至约 90 度水平位置，大臂保持不动，重复规定次数。",
+        ],
+    },
+    "0201": {
+        "name_zh": "站姿龙门架绳索直杆下压",
+        "category": "upper arms",
+        "equipment": "cable",
+        "target": "triceps",
+        "muscle_group": "",
+        "secondary_muscles": ["forearms"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "面朝高位滑轮龙门架稳固站立，双脚与肩同宽微屈膝微前倾，双手正握直杆，握距与肩同宽。",
+            "挺胸沉肩将大臂贴紧肋骨两侧保持固定，小臂抬起与地面接近平行作为动作起点。",
+            "呼气集中肱三头肌发力向下按压直杆，直至双臂完全伸直锁定。",
+            "在最低点用力收紧三头肌停顿 1 秒，吸气缓慢匀速屈肘将直杆还原至胸前起始位置，按规定次数重复。",
+        ],
+    },
+    "0202": {
+        "name_zh": "站姿龙门架绳索单臂后肩划船",
+        "category": "shoulders",
+        "equipment": "cable",
+        "target": "delts",
+        "muscle_group": "",
+        "secondary_muscles": ["traps", "rhomboids", "biceps"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "面向龙门架中低位滑轮稳固站立，单手持握单把手柄，同侧脚略微后撤形成弓步，微屈膝俯身挺胸。",
+            "手臂向前伸直自然对准滑轮，保持手掌朝下或中立握法，核心肌群收紧稳定骨盆。",
+            "呼气由三角肌后束与上背菱形肌发力，提肘水平向后拉动手柄至身体侧后方并尽力后夹。",
+            "在顶峰停顿 1 秒充分挤压后肩肌群，吸气缓慢匀速伸臂将手柄送回起始位置，单侧完成后换另一侧手臂重复。",
+        ],
+    },
+    "0203": {
+        "name_zh": "站姿龙门架绳索麻绳后肩划船",
+        "category": "shoulders",
+        "equipment": "cable",
+        "target": "delts",
+        "muscle_group": "",
+        "secondary_muscles": ["traps", "rhomboids", "biceps"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "调整龙门架滑轮至胸部或略低于胸部高度，双手对握麻绳两端，双脚与肩同宽微屈膝站立。",
+            "躯干微前倾挺胸沉肩，双臂伸直指向滑轮，保持手腕与前臂呈中立位。",
+            "呼气由三角肌后束与上背肌群主导发力，向后向外水平拉开麻绳，肘部保持高位向两侧展开。",
+            "在绳索拉至胸前上方时充分夹紧肩胛骨停顿 1 秒，吸气匀速受控放回绳索至双臂完全伸展，重复规定次数。",
+        ],
+    },
+    "0204": {
+        "name_zh": "站姿背向龙门架绳索后推臂屈伸",
+        "category": "upper arms",
+        "equipment": "cable",
+        "target": "triceps",
+        "muscle_group": "",
+        "secondary_muscles": ["shoulders", "upper back"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "背对低位滑轮器械站立，双脚前后弓步站稳，双手各持单把手柄自然垂于身体两侧偏前。",
+            "微前倾躯干收紧核心，挺胸沉肩保持背部平直，大臂保持微后置贴近躯干固定。",
+            "呼气由肱三头肌发力主导双臂向后向下方用力蹬伸直推，直至手臂完全伸展至身体后方。",
+            "在推至最远端顶峰强烈收缩肱三头肌长头停顿 1 秒，吸气匀速缓慢屈肘放回起始位置，按规定次数重复。",
+        ],
+    },
+    "0205": {
+        "name_zh": "坐姿龙门架绳索颈后高位下拉",
+        "category": "back",
+        "equipment": "cable",
+        "target": "lats",
+        "muscle_group": "",
+        "secondary_muscles": ["biceps", "rhomboids", "rear deltoids"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "端坐于高位下拉机坐垫上，调整挡板稳固卡住大腿前侧，双脚全脚掌踩实地面。",
+            "双手采用宽握正手握住横杠两端曲把，头部自然微前倾，保持颈椎放松与胸背挺直。",
+            "呼气由背阔肌与上背肌群发力沉肩引肘，将横杠平稳向下拉引至颈部后方、贴近斜方肌上端高度。",
+            "在最低点顶峰充分收紧背阔肌与肩胛收肌群停顿 1 秒，吸气控制横杠缓慢匀速放回高位完全拉伸，按计划重复。",
+        ],
+    },
+    "0206": {
+        "name_zh": "站姿龙门架绳索正握反向弯举",
+        "category": "upper arms",
+        "equipment": "cable",
+        "target": "biceps",
+        "muscle_group": "",
+        "secondary_muscles": ["forearms", "brachialis"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "面朝低位滑轮稳固站立，双脚与肩同宽微屈膝，挺胸沉肩并将双臂大臂紧贴身体两侧。",
+            "双手采用与肩同宽的正握握距（掌心朝下）握牢短杠横杆，双臂自然下垂伸直。",
+            "呼气由前臂伸肌群与肱肌、肱二头肌协同发力，保持掌心朝下向上正握卷屈杠铃至胸前高度。",
+            "在最高点顶峰紧绷前臂与手臂停顿 1 秒，吸气匀速受控平稳下放短杠至完全伸直起始位，按规定次数重复。",
+        ],
+    },
+}
+
+pending = {
+    "0197": "待修图 · 规范译名为坐姿龙门架绳索对握横杠高位下拉；原动图仅有 2 帧 (nf=2) 缺失下放至胸口与回放过程帧，待重制为 4 帧循环图。",
+    "0198": "待修图 · 消除下拉俗称规范为坐姿龙门架绳索宽握高位下拉；原动图仅有 2 帧 (nf=2) 缺失下拉至上胸与向上延展过程帧，待重制为 4 帧循环图。",
+    "0199": "待修图 · 消除英文字符规范为站姿龙门架绳索直臂下压第二式；原动图仅有 2 帧 (nf=2) 缺失直臂下压至大腿与高位还原过程帧，待重制为 4 帧循环图。",
+    "0200": "待修图 · 消除附件俗称规范为站姿龙门架绳索麻绳下压；原动图仅有 2 帧 (nf=2) 缺失肘部下推锁定与屈肘回放过程帧，待重制为 4 帧循环图。",
+    "0201": "待修图 · 规范译名为站姿龙门架绳索直杆下压；原动图边缘存在杂色像素与噪点底色不合规，待重制为 4 帧纯白底循环图。",
+    "0202": "待修图 · 规范译名为站姿龙门架绳索单臂后肩划船（激活单侧交替计次）；原动图为 10 帧 (nf=10) 超标且拉动轨迹欠平稳，待重制为 4 帧循环图。",
+    "0203": "待修图 · 消除重复括号规范为站姿龙门架绳索麻绳后肩划船；原动图仅有 2 帧 (nf=2) 缺失双臂提肘后拉与前放过程帧，待重制为 4 帧循环图。",
+    "0204": "待修图 · 消除后拉歧义规范为站姿背向龙门架绳索后推臂屈伸；原动图为 10 帧 (nf=10) 超标且伸臂后推节奏偏快，待重制为 4 帧循环图。",
+    "0205": "待修图 · 纠正错误译名规范为坐姿龙门架绳索颈后高位下拉；原动图仅有 2 帧 (nf=2) 缺失下引至颈后与高位伸展过程帧，待重制为 4 帧循环图。",
+    "0206": "待修图 · 补全握法规范为站姿龙门架绳索正握反向弯举；原动图仅有 2 帧 (nf=2) 缺失正握卷屈与下放伸直过程帧，待重制为 4 帧循环图。",
+}
+
+sources = {}
+review_notes = {}
+
+before_reviews = json.loads((B / "before/exercise_reviews.json").read_text())
+reviewed_count = len(before_reviews["reviewed"]) + len(review_candidates)
+
+review_result = {
+    "batch": BATCH_ID,
+    "version": VERSION,
+    "version_code": VERSION_CODE,
+    "output": "build/review79-20261126",
+    "inspected": inspected,
+    "review_candidates": review_candidates,
+    "registered_media": registered_media,
+    "definition_updates": definition_updates,
+    "pending": pending,
+    "sources": sources,
+    "review_notes": review_notes,
+    "image_generation_calls": 0,
+    "generated_images_imported": 0,
+}
+(B / "review-result.json").write_text(json.dumps(review_result, ensure_ascii=False, indent=2) + "\n")
+
+code_paths = [
+    "app/src/main/java",
+    "scripts/validate_exercise_dataset.sh",
+    "scripts/build_android_debug.sh",
+]
+baseline = {}
+for rel in code_paths:
+    p = R / rel
+    if p.is_file():
+        baseline[rel] = hashlib.sha256(p.read_bytes()).hexdigest()
+    else:
+        for f in sorted(p.rglob("*")):
+            if f.is_file():
+                baseline[str(f.relative_to(R))] = hashlib.sha256(f.read_bytes()).hexdigest()
+(B / "code-baseline.json").write_text(json.dumps(baseline, ensure_ascii=False, indent=2) + "\n")
+
+qa_spec = {
+    "batch": BATCH_ID,
+    "expected_checks": 16,
+    "expected_reviewed_after_approve": reviewed_count,
+    "candidate_ids": [],
+    "candidate_required_equipment": {},
+    "expected_per_side_ids": ["0202"],
+}
+(B / "qa-spec.json").write_text(json.dumps(qa_spec, ensure_ascii=False, indent=2) + "\n")
+print(f"Authored review-result.json, code-baseline.json, and qa-spec.json for {BATCH_ID}")

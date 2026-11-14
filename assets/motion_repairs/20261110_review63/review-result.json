@@ -1,0 +1,230 @@
+{
+  "batch": "20261110_review63",
+  "version": "1.2.68",
+  "version_code": 2026111001,
+  "output": "build/review63-20261110",
+  "inspected": [
+    "0007",
+    "0009",
+    "0010",
+    "0011",
+    "0012",
+    "0013",
+    "0014",
+    "0015",
+    "0016",
+    "0017"
+  ],
+  "review_candidates": [],
+  "registered_media": [],
+  "definition_updates": {
+    "0007": {
+      "name_zh": "龙门架绳索交替单臂高位下拉",
+      "category": "back",
+      "equipment": "cable",
+      "target": "lats",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "biceps",
+        "rhomboids",
+        "upper back"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "面对龙门架高位下拉机坐稳，双脚平踩地面，大腿牢固卡在固定挡板下方，核心收紧挺胸直背。",
+        "双手反握或对握拉柄，呼气时背阔肌与大圆肌主导发力，将一侧手柄沿体侧向下拉引至上胸侧面，沉肩并夹紧后背。",
+        "顶峰充分收缩背阔肌稍作停顿，吸气缓慢匀速受控放回伸直。",
+        "随即由对侧手臂交替下拉重复相同动作，按规定次数平稳交替完成。"
+      ]
+    },
+    "0009": {
+      "name_zh": "器械辅助跪姿双杠臂屈伸",
+      "category": "chest",
+      "equipment": "leverage machine",
+      "target": "pectorals",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "triceps",
+        "shoulders"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "根据自身力量选择适当配重片，双手握紧双杠手柄，双膝跪在辅助托板上，双臂撑直支撑身体。",
+        "上身适度前倾、核心收紧，吸气屈肘缓慢受控下沉身体，直到大臂与地面接近平行且胸大肌感到充分拉伸。",
+        "在底部稍作停顿，呼气由胸大肌与肱三头肌协同发力推直双臂，将身体推回起始撑起位。",
+        "动作全程保持手腕中立且避免肘部向外过度外撇，按规定次数重复练习。"
+      ]
+    },
+    "0010": {
+      "name_zh": "单杠挂姿提膝抗阻下推",
+      "category": "waist",
+      "equipment": "assisted",
+      "target": "abs",
+      "muscle_group": "hip flexors",
+      "secondary_muscles": [
+        "hip flexors",
+        "lower back",
+        "forearms"
+      ],
+      "required_equipment_zh": [
+        "单杠"
+      ],
+      "instructions_zh": [
+        "双手正握或对握握紧单杠直臂挂姿悬垂，双腿并拢下垂，下沉肩胛收紧核心避免身体前后晃动。",
+        "呼气时腹直肌与屈髋肌群发力，将双膝弯曲向胸口爆发性高高抬起至骨盆后倾卷屈。",
+        "协助伴侣在最高点向下方用力推按或抛掷双腿增加离心抗阻，练习者需强力收紧核心抵抗冲击并受控缓冲下放双腿。",
+        "双腿回到直线下垂位后立即紧接下一次抬膝，按规定次数连贯完成。"
+      ]
+    },
+    "0011": {
+      "name_zh": "单杠挂姿直臂抬膝",
+      "category": "waist",
+      "equipment": "assisted",
+      "target": "abs",
+      "muscle_group": "hip flexors",
+      "secondary_muscles": [
+        "hip flexors",
+        "forearms"
+      ],
+      "required_equipment_zh": [
+        "单杠"
+      ],
+      "instructions_zh": [
+        "双手分开与肩同宽握牢单杠悬挂，双臂伸直、肩胛下沉收紧，双腿自然伸直下垂。",
+        "呼气收紧核心，腹部主动发力带动骨盆后卷并屈膝将双膝向上提向胸口。",
+        "在动作顶峰充分挤压腹直肌下部短暂停顿，避免利用借力摆动身体。",
+        "吸气有控制地缓慢下放双腿恢复起始挂姿，重复规定次数。"
+      ]
+    },
+    "0012": {
+      "name_zh": "伴侣辅助仰卧单侧交替下抛抬腿",
+      "category": "waist",
+      "equipment": "assisted",
+      "target": "abs",
+      "muscle_group": "obliques",
+      "secondary_muscles": [
+        "obliques",
+        "hip flexors"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "仰卧平躺于垫上，双手抓住站在头侧的同伴脚踝以固定上身，双腿并拢伸直。",
+        "核心收紧下背贴紧地面，呼气由腹部与屈髋肌发力将并拢的双腿向上抬起至垂直于地面。",
+        "同伴在顶部抓住练习者脚踝用力将双腿向身体一侧斜向下抛掷，练习者核心发力急停制动减速，不让双脚触地。",
+        "随后立即将双腿重新抬向垂直位，同伴再向对侧斜向下抛，交替进行规定次数。"
+      ]
+    },
+    "0013": {
+      "name_zh": "伴侣辅助仰卧正向下推抬腿",
+      "category": "waist",
+      "equipment": "assisted",
+      "target": "abs",
+      "muscle_group": "hip flexors",
+      "secondary_muscles": [
+        "hip flexors",
+        "quadriceps"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "仰卧平躺于地面垫上，双手握紧头侧站立同伴的脚踝保持上身稳定，腰部贴实垫面。",
+        "呼气收紧腹肌，双腿并拢伸直垂直向上举起至与躯干成 90 度角。",
+        "同伴双手用力将练习者的双腿直接朝正下方地面推抛，练习者腹肌离心爆发发力刹车制动，在脚跟即将触地前减速停住。",
+        "紧接着再次主动抬起双腿返回垂直位，循环完成规定次数。"
+      ]
+    },
+    "0014": {
+      "name_zh": "药球坐姿单侧交替俄罗斯转体",
+      "category": "waist",
+      "equipment": "medicine ball",
+      "target": "abs",
+      "muscle_group": "obliques",
+      "secondary_muscles": [
+        "obliques",
+        "lower back",
+        "hip flexors"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "坐于垫上屈膝、双脚脚跟轻触地面或微抬悬空，上身向后倾斜约 45 度收紧核心，双手胸前托住药球。",
+        "保持下半身骨盆稳定，呼气由腹斜肌主动发力将躯干连同药球转向一侧，使药球轻触或靠近身体侧面地面。",
+        "顶峰收缩稍作停顿，随后平稳向对侧反向转体，药球移向另一侧地面。",
+        "左右两侧连贯交替转动，保持呼吸均匀，按规定次数完成。"
+      ]
+    },
+    "0015": {
+      "name_zh": "器械辅助对握窄距引体向上",
+      "category": "back",
+      "equipment": "leverage machine",
+      "target": "lats",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "biceps",
+        "forearms",
+        "rhomboids"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "调节辅助引体器械配重，双手掌心相对紧握器械窄距对握手柄，双膝跪在辅助托板上。",
+        "双臂完全伸直挂住，沉肩收腹，呼气由背阔肌与肱二头肌发力将身体向上垂直拉起。",
+        "持续拉起至下巴越过手柄高度、肩胛骨向后向下收紧，在顶部停顿片刻感受背部紧缩。",
+        "吸气缓慢伸直双臂受控下放身体回到起始位，重复规定次数。"
+      ]
+    },
+    "0016": {
+      "name_zh": "伴侣辅助俯卧单腿腘绳肌屈腿抗阻",
+      "category": "upper legs",
+      "equipment": "assisted",
+      "target": "hamstrings",
+      "muscle_group": "hamstrings",
+      "secondary_muscles": [
+        "glutes",
+        "calves"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "俯卧平趴在训练垫上，骨盆贴紧地面，双腿自然伸直，同伴在脚端施加适度阻力。",
+        "保持核心收紧不借力起腰，呼气由腘绳肌发力将单侧小腿向臀部方向弯屈，对抗同伴施加的阻力。",
+        "屈腿至大腿后侧充分收缩位停顿 1 秒。",
+        "吸气在同伴持续牵引下缓慢有控制地伸直小腿放回，完成单侧次数后换另一腿交替进行。"
+      ]
+    },
+    "0017": {
+      "name_zh": "器械辅助正手引体向上",
+      "category": "back",
+      "equipment": "leverage machine",
+      "target": "lats",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "biceps",
+        "forearms",
+        "rhomboids"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "调节好辅助机配重托板阻力，双手正握器械宽握引体横杠，握距略宽于肩，双膝跪在托垫上。",
+        "身体悬垂直臂准备，下沉肩胛骨，呼气背阔肌发力拉引肘部向下向后，带动躯干垂直向上拉起。",
+        "拉至胸部接近杠面、下巴过杠，在最高点充分收紧背阔肌并短暂停留。",
+        "吸气沿原轨迹离心受控缓慢下放身体至双臂完全伸展，重复规定次数。"
+      ]
+    }
+  },
+  "pending": {
+    "0007": "待修图 · 规范译名为龙门架绳索交替单臂高位下拉（激活单侧计次）；原动图仅有 2 帧 (nf=2) 严重缺失中间过渡帧且背景器械发生平移漂移，待重制为 4 帧循环图。",
+    "0009": "待修图 · 规范译名为器械辅助跪姿双杠臂屈伸（消除胸下压歧义）；原动图仅有 2 帧 (nf=2) 缺失动作折返过程帧，待重制为 4 帧循环图。",
+    "0010": "待修图 · 规范译名为单杠挂姿提膝抗阻下推（补全单杠必需器械、避免悬垂触发静力保持）；原动图为 10 帧 (nf=10) 帧率速率不符合 4 帧规范且伴侣下推形变剧烈，待重制为 4 帧循环图。",
+    "0011": "待修图 · 规范译名为单杠挂姿直臂抬膝（补全单杠必需器械、消除悬垂保持误判）；原动图仅有 2 帧 (nf=2) 缺失向心与离心过渡，待重制为 4 帧循环图。",
+    "0012": "待修图 · 规范译名为伴侣辅助仰卧单侧交替下抛抬腿（激活单侧计次）；原动图仅有 2 帧 (nf=2) 侧向摆动过程跳帧严重，待重制为 4 帧循环图。",
+    "0013": "待修图 · 规范译名为伴侣辅助仰卧正向下推抬腿；原动图仅有 2 帧 (nf=2) 缺失推放动态过程，待重制为 4 帧循环图。",
+    "0014": "待修图 · 规范译名为药球坐姿单侧交替俄罗斯转体（激活单侧计次）；原动图为 10 帧 (nf=10) 超标且躯干转动缺少精准对齐，待重制为 4 帧循环图。",
+    "0015": "待修图 · 规范译名为器械辅助对握窄距引体向上；原动图仅有 2 帧 (nf=2) 缺失拉起与下放过程帧，待重制为 4 帧循环图。",
+    "0016": "待修图 · 规范译名为伴侣辅助俯卧单腿腘绳肌屈腿抗阻（纠正单纯拉伸误区为屈腿抗阻训练、激活单侧计次）；原动图为 10 帧 (nf=10) 超标且腿部屈伸非标准循环，待重制为 4 帧循环图。",
+    "0017": "待修图 · 规范译名为器械辅助正手引体向上；原动图仅有 2 帧 (nf=2) 缺失拉起与回放过渡帧，待重制为 4 帧循环图。"
+  },
+  "sources": {},
+  "review_notes": {},
+  "image_generation_calls": 0,
+  "generated_images_imported": 0,
+  "initial_validation": "passed",
+  "newly_reviewed": [],
+  "android_playback_visually_reviewed": []
+}

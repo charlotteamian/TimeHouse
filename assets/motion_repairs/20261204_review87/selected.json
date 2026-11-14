@@ -1,0 +1,224 @@
+[
+  {
+    "id": "0532",
+    "name": "kettlebell figure 8",
+    "name_zh": "壶铃8字",
+    "media": "raw:dataset_motion_0532",
+    "category": "waist",
+    "equipment": "kettlebell",
+    "target": "abs",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，一只手握住壶铃。",
+      "稍微弯曲膝盖，髋部向前转动，保持背部挺直。",
+      "将壶铃放在双腿之间，当壶铃到达双腿后部时交换双手。",
+      "当壶铃向前移动时，将其传递到两腿之间的另一只手。",
+      "继续以 8 字形动作将壶铃传递到双腿之间。",
+      "在整个练习过程中保持稳定的节奏并调动核心力量。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0533",
+    "name": "kettlebell front squat",
+    "name_zh": "壶铃前蹲",
+    "media": "raw:dataset_motion_0533",
+    "category": "upper legs",
+    "equipment": "kettlebell",
+    "target": "glutes",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "站立，双脚分开与肩同宽，脚趾稍微向外。",
+      "双手将壶铃放在胸前，靠近身体。",
+      "收紧核心并保持挺胸，同时降低臀部和向后倾斜，就像坐在椅子上一样。",
+      "降低直到大腿与地面平行，或者尽可能降低到您能舒服的高度。",
+      "通过脚跟发力站起来，在顶部挤压臀部。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0534",
+    "name": "kettlebell goblet squat",
+    "name_zh": "壶铃壶铃深蹲",
+    "media": "raw:dataset_motion_0534",
+    "category": "upper legs",
+    "equipment": "kettlebell",
+    "target": "glutes",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，双手握住壶铃靠近胸部。",
+      "保持胸部挺直，核心收紧，弯曲膝盖和臀部，将身体降低至蹲姿。",
+      "继续降低，直到大腿与地面平行，或者尽可能低。",
+      "在底部停顿片刻，然后推动脚后跟回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0535",
+    "name": "kettlebell hang clean",
+    "name_zh": "壶铃挂举",
+    "media": "raw:dataset_motion_0535",
+    "category": "upper legs",
+    "equipment": "kettlebell",
+    "target": "hamstrings",
+    "muscle_group": "glutes",
+    "secondary_muscles": [
+      "glutes",
+      "quadriceps",
+      "calves"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，将壶铃放在大腿前面。",
+      "稍微弯曲膝盖，髋部向前转动，保持背部挺直。",
+      "将壶铃放低至地面，使其在双腿之间摆动。",
+      "快速伸展臀部和膝盖，利用动量将壶铃摆动到肩膀高度。",
+      "当壶铃达到肩膀高度时，旋转手腕，将壶铃置于架子位置，肘部内收，壶铃靠在前臂上。",
+      "将壶铃放回双腿之间的起始位置，然后重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0536",
+    "name": "kettlebell lunge pass through",
+    "name_zh": "壶铃弓步穿插",
+    "media": "raw:dataset_motion_0536",
+    "category": "upper legs",
+    "equipment": "kettlebell",
+    "target": "glutes",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，双手握住壶铃放在胸前。",
+      "右脚向前迈出一步，将身体降低至弓步位置。",
+      "当你向前弓步时，将壶铃传递到右大腿下方，然后将其转移到左手。",
+      "用右脚蹬地回到起始位置，同时将壶铃传回右手。",
+      "在另一侧重复弓步，将壶铃传递到左大腿下方。",
+      "继续交替弓步并在双手之间传递壶铃，达到所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0537",
+    "name": "kettlebell one arm clean and jerk",
+    "name_zh": "壶铃单臂挂举挺举",
+    "media": "raw:dataset_motion_0537",
+    "category": "shoulders",
+    "equipment": "kettlebell",
+    "target": "delts",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "core"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，一只手握住壶铃，正手握住。",
+      "稍微弯曲膝盖并以臀部为铰链，将壶铃放在两腿之间。",
+      "爆发性地伸展你的臀部、膝盖和脚踝，利用动量将壶铃摆动到肩膀的高度。",
+      "当壶铃到达肩膀高度时，旋转手腕并向上挥拳，将手臂锁定在头顶上方。",
+      "将壶铃放回起始位置，然后重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0538",
+    "name": "kettlebell one arm jerk",
+    "name_zh": "壶铃单臂挺举",
+    "media": "raw:dataset_motion_0538",
+    "category": "shoulders",
+    "equipment": "kettlebell",
+    "target": "delts",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "core"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，一只手握住壶铃，与肩同高。",
+      "稍微弯曲膝盖并启动核心。",
+      "将壶铃沿直线压过头顶，充分伸展手臂。",
+      "当你将壶铃举过头顶时，同时弯曲膝盖并快速伸直以产生动力。",
+      "当壶铃到达最高点时，弯曲膝盖和臀部，快速落到壶铃下方。",
+      "膝盖和臀部稍微弯曲，抓住壶铃，手臂完全伸过头顶。",
+      "站直，充分伸展膝盖和臀部，并将壶铃稳定在头顶上。",
+      "弯曲膝盖和臀部，将壶铃放回起始位置，然后重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0539",
+    "name": "kettlebell one arm military press to the side",
+    "name_zh": "壶铃单臂侧向军式推举",
+    "media": "raw:dataset_motion_0539",
+    "category": "shoulders",
+    "equipment": "kettlebell",
+    "target": "delts",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "core"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，一只手握住壶铃，与肩同高。",
+      "启动你的核心并保持背部挺直。",
+      "将壶铃压过头顶，充分伸展手臂。",
+      "在顶部暂停片刻，然后慢慢将壶铃放回起始位置。",
+      "重复所需的重复次数，然后换边。"
+    ]
+  },
+  {
+    "id": "0540",
+    "name": "kettlebell one arm push press",
+    "name_zh": "壶铃单臂推举",
+    "media": "raw:dataset_motion_0540",
+    "category": "shoulders",
+    "equipment": "kettlebell",
+    "target": "delts",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "core"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，一只手握住壶铃，与肩同高。",
+      "稍微弯曲膝盖并启动核心。",
+      "伸展手臂并完全伸展双腿，将壶铃压过头顶。",
+      "弯曲膝盖并将壶铃放回肩膀，将壶铃放回起始位置。",
+      "重复所需的重复次数，然后换边。"
+    ]
+  },
+  {
+    "id": "0541",
+    "name": "kettlebell one arm row",
+    "name_zh": "壶铃单臂划船",
+    "media": "raw:dataset_motion_0541",
+    "category": "back",
+    "equipment": "kettlebell",
+    "target": "upper back",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，一只手握住壶铃，正手握住。",
+      "稍微弯曲膝盖，髋部向前转动，保持背部挺直，核心肌群参与。",
+      "将壶铃向上拉向胸部，保持肘部靠近身体并将肩胛骨挤压在一起。",
+      "在顶部暂停片刻，然后慢慢将壶铃放回起始位置。",
+      "重复所需的重复次数，然后换边并用另一只手臂重复。"
+    ]
+  }
+]

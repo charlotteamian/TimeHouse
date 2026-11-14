@@ -1,0 +1,231 @@
+#!/usr/bin/env python3
+"""Author Batch 58 review updates, pending notes, code baseline, and QA spec (0 candidates; 10 deferred)."""
+from pathlib import Path
+import json
+import hashlib
+
+B = Path(__file__).resolve().parent
+R = B.parents[2]
+BATCH_ID = "20261105_review58"
+VERSION = "1.2.63"
+VERSION_CODE = 2026110501
+
+inspected = ["3318", "3240", "3327", "3241", "3360", "3541", "3361", "3542", "3418", "3545"]
+review_candidates = []
+registered_media = []
+
+definition_updates = {
+    "3318": {
+        "name_zh": "站姿双臂平展躯干水平旋转",
+        "category": "cardio",
+        "equipment": "body weight",
+        "target": "cardiovascular system",
+        "muscle_group": "obliques",
+        "secondary_muscles": ["shoulders", "core"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚分开与肩同宽稳立于地面，微屈膝盖、核心收紧。",
+            "双臂向身体前方伸直平抬至与肩同高，掌心相对或朝下。",
+            "以髋部与腰腹为核心轴，呼气时带动双臂平稳向一侧水平大幅旋转扭转躯干。",
+            "随后沿水平弧线反向旋转带动双臂划过前方并转向对侧，保持节奏连续交替旋转完成规定次数。",
+        ],
+    },
+    "3240": {
+        "name_zh": "背靠瑜伽球膝夹网球双持哑铃提踵",
+        "category": "lower legs",
+        "equipment": "dumbbell",
+        "target": "calves",
+        "muscle_group": "",
+        "secondary_muscles": ["quadriceps", "hamstrings"],
+        "required_equipment_zh": ["墙面", "瑜伽球"],
+        "instructions_zh": [
+            "将瑜伽球置于下背部与稳固墙面之间靠稳，双脚略前移分开与髋同宽平踩地面，双手对握持哑铃垂于体侧。",
+            "在双膝内侧轻夹一只网球并保持适度内收压力、全程不让球掉落。",
+            "呼气时小腿三头肌发力充分抬高脚后跟向上提踵至最高点，身体沿瑜伽球平稳滚动上升。",
+            "顶峰短暂停顿感受小腿肌群收缩后，吸气缓慢受控下落脚后跟回到起始平踩位，重复规定次数。",
+        ],
+    },
+    "3327": {
+        "name_zh": "地面并腿俄式俯卧撑",
+        "category": "chest",
+        "equipment": "body weight",
+        "target": "pectorals",
+        "muscle_group": "",
+        "secondary_muscles": ["shoulders", "triceps", "core"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双手与肩同宽实按地面，身体前倾锁死双肘将并直双腿抬离地面呈并腿俄式水平悬空位。",
+            "维持全身笔直平行于地面，吸气有控制地屈肘将胸部向地面平稳下沉下放。",
+            "下放至大臂大致与地面水平或胸口近地时短暂停顿，全程双腿双脚悬空不触地。",
+            "呼气由胸大肌与三角肌前束爆发推直双臂回到俄式水平起始位，重复规定次数。",
+        ],
+    },
+    "3241": {
+        "name_zh": "背靠瑜伽球踝夹网球双持哑铃提踵",
+        "category": "lower legs",
+        "equipment": "dumbbell",
+        "target": "calves",
+        "muscle_group": "",
+        "secondary_muscles": ["hamstrings", "quadriceps"],
+        "required_equipment_zh": ["墙面", "瑜伽球"],
+        "instructions_zh": [
+            "背对墙面将瑜伽球抵在下背部与墙面之间靠稳，双脚平行站立，双手各握一只哑铃垂于身侧。",
+            "将网球夹于两脚内踝之间并施加均匀内夹力，膝盖微屈保持中立。",
+            "呼气集中小腿肌群发力向上高高抬起脚后跟做提踵练习，感受腓肠肌与比目鱼肌强烈收紧。",
+            "在最高点稍作停顿，吸气缓慢匀速下放脚后跟踩回地面，重复规定次数。",
+        ],
+    },
+    "3360": {
+        "name_zh": "异侧手足俯撑熊爬前进",
+        "category": "cardio",
+        "equipment": "body weight",
+        "target": "cardiovascular system",
+        "muscle_group": "core",
+        "secondary_muscles": ["shoulders", "triceps"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双手位于双肩正下方撑地、双膝微屈离地悬空成四足四点熊爬姿态，背部维持水平平直、核心紧绷。",
+            "以对角线协同模式，右手与左脚同时向前迈出一小步，保持骨盆与躯干平稳不左右晃动。",
+            "随后立即换左手与右脚交替向前迈出，保持膝盖贴近地面悬空。",
+            "维持均匀节奏与呼吸持续平稳向前熊爬规定步数或距离。",
+        ],
+    },
+    "3541": {
+        "name_zh": "上斜训练凳俯卧哑铃前斜上举",
+        "category": "back",
+        "equipment": "dumbbell",
+        "target": "upper back",
+        "muscle_group": "",
+        "secondary_muscles": ["shoulders", "rear deltoids"],
+        "required_equipment_zh": ["上斜训练凳"],
+        "instructions_zh": [
+            "俯卧趴在倾斜约 30-45 度的上斜训练凳上，胸口贴稳靠垫、双脚向后踩实地面，双手各持轻量哑铃垂于凳下、掌心相对或朝前斜。",
+            "收紧核心维持脊柱平直，呼气时上背斜方肌中下束与三角肌后束发力带动双臂向斜前方大弧线抬起呈“Y”字形。",
+            "抬至双臂与躯干及地面接近平齐、拇指朝上的高位并短暂停顿收紧背部。",
+            "吸气缓慢受控沿原轨迹下放哑铃回到垂悬起始位，重复规定次数。",
+        ],
+    },
+    "3361": {
+        "name_zh": "左右滑冰步单腿侧跳",
+        "category": "cardio",
+        "equipment": "body weight",
+        "target": "cardiovascular system",
+        "muscle_group": "quadriceps",
+        "secondary_muscles": ["hamstrings", "glutes", "calves"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚并拢微屈膝站立、核心收紧，重心压低呈轻微蓄力准备姿势。",
+            "右腿单腿发力向右侧大幅横向跳跃，右脚轻柔着地微屈膝缓冲，同时左腿向右后侧斜向摆出悬空并摆臂配合平衡。",
+            "落地稳固后紧接着用右腿蹬地爆发向左侧大步横跳，左腿落地单腿缓冲并换右腿向左后摆动。",
+            "持续交替左右单腿滑冰式跳跃，保持快速流畅节奏完成规定次数。",
+        ],
+    },
+    "3542": {
+        "name_zh": "上斜训练凳俯卧哑铃水平侧展",
+        "category": "shoulders",
+        "equipment": "dumbbell",
+        "target": "delts",
+        "muscle_group": "",
+        "secondary_muscles": ["traps", "rhomboids"],
+        "required_equipment_zh": ["上斜训练凳"],
+        "instructions_zh": [
+            "俯卧趴在上斜训练凳斜垫面上，胸腹贴实、双脚向后蹬踩地面保持稳定，双手对握持轻哑铃垂直垂于身下。",
+            "肩胛骨微下沉避免耸肩，呼气时三角肌后束与菱形肌发力带动双臂向身体两侧水平正外展平抬呈“T”字形。",
+            "抬至双臂与地面大致水平平行、肩胛充分后缩夹紧处停顿 1 秒。",
+            "吸气缓慢匀速沿弧线放回垂臂起始位，重复规定次数。",
+        ],
+    },
+    "3418": {
+        "name_zh": "单杠直角举腿引体向上",
+        "category": "back",
+        "equipment": "body weight",
+        "target": "lats",
+        "muscle_group": "",
+        "secondary_muscles": ["biceps", "forearms", "core"],
+        "required_equipment_zh": ["单杠"],
+        "instructions_zh": [
+            "双手略宽于肩正握稳固单杠直臂挂起，腹部与屈髋肌群强力收缩将并直双腿向前上方抬起至与地面平行呈“L”字形。",
+            "全程锁定直角腿型不坠落，呼气时背阔肌与肱二头肌发力弯曲双肘向上垂直引体。",
+            "拉至下巴过单杠高度感受背阔肌极限顶峰收缩。",
+            "吸气有控制地下放身体回到悬垂底位，并在整个组数中保持双腿前平举不放下，重复规定次数。",
+        ],
+    },
+    "3545": {
+        "name_zh": "上斜训练凳单臂交替哑铃卧推",
+        "category": "chest",
+        "equipment": "dumbbell",
+        "target": "pectorals",
+        "muscle_group": "",
+        "secondary_muscles": ["shoulders", "triceps"],
+        "required_equipment_zh": ["上斜训练凳"],
+        "instructions_zh": [
+            "仰卧在调节为 30-45 度的上斜训练凳上，双脚分开踩实地面、臀背与头部贴紧靠垫，双手正握各持一只哑铃推至胸肩正上方。",
+            "保持一侧手臂直臂稳举固定不动，吸气时另一侧手臂有控制地屈肘下放哑铃至上胸部旁边。",
+            "下放底位胸大肌上束充分拉伸后，呼气发力推直该臂回到顶峰高位。",
+            "随后保持该臂高举，换对侧手臂交替屈肘下放推起，按规定次数完成双臂交替练习。",
+        ],
+    },
+}
+
+pending = {
+    "3318": "待修图 · 纠正生硬错译“360度摆动”为站姿双臂平展躯干水平旋转（核正腹斜肌协同）；原图躯干平展大角度旋转且双脚摆动无法锁定刚体锚点，待重制。",
+    "3240": "待修图 · 已去括号规范为背靠瑜伽球膝夹网球双持哑铃提踵（补全墙面与瑜伽球必需器械、移除误归主训的股四头肌）；原图提踵全帧头部升降 (+12,0)/(+23,+5) 且瑜伽球发生变形位移，待重制。",
+    "3327": "待修图 · 消除撑体与平板误触发词规范为地面并腿俄式俯卧撑（移除误归主训的肩部）；原图全程双腿悬空水平挺身伴随胸臂推举沉浮无法静态配准，待重制。",
+    "3241": "待修图 · 已去括号规范为背靠瑜伽球踝夹网球双持哑铃提踵（补全墙面与瑜伽球必需器械、移除误归主训的腘绳肌）；原图提踵过程小腿与瑜伽球变形飘移，待重制。",
+    "3360": "待修图 · 已规范为异侧手足俯撑熊爬前进；原图爬行过程 F1 触左缘 x=0 截断 (left=10) 且 F2 触右缘 x=479 截断 (right=30) 双端越界，待重制。",
+    "3541": "待修图 · 纠正错译为上斜训练凳俯卧哑铃前斜上举（补全上斜训练凳、移除误归主训的肩部）；原图凳面 F1(1,0)/F2(0,7) bs=0.9246 < 0.96 且左右支脚相对滑动，待重制。",
+    "3361": "待修图 · 规范为左右滑冰步单腿侧跳（激活单侧计次）；原图侧跳过程在画面左右大范围跨步跃起着地无法锁定背景锚点，待重制。",
+    "3542": "待修图 · 纠正错译为上斜训练凳俯卧哑铃水平侧展（补全上斜训练凳、移除误归主训的斜方肌）；原图上斜靠垫 F1(6,9)/F2(-11,17) 相对双脚 (2,0)/(0,0) 发生 20 px 垂直差速漂移，待重制。",
+    "3418": "待修图 · 纠正错译为单杠直角举腿引体向上（消除悬垂保持误触发，补全单杠器械、移除误归主训的肱二头肌）；原图单杠横梁 F1(10,4)/F2(0,24) bs=0.8930 与右立柱 (-23,13) 结构扭曲错位达 32 px，待重制。",
+    "3545": "待修图 · 已规范为上斜训练凳单臂交替哑铃卧推（补全上斜训练凳、激活单侧计次、移除误归主训的肩部）；原图 F0 触底 y=479 (bottom=25) 与相邻帧残影溢出且 F2 触顶 y=0 (top=27) 双端截断，待重制。",
+}
+
+sources = {}
+review_notes = {}
+
+before_reviews = json.loads((B / "before/exercise_reviews.json").read_text())
+reviewed_count = len(before_reviews["reviewed"]) + len(review_candidates)
+
+review_result = {
+    "batch": BATCH_ID,
+    "version": VERSION,
+    "version_code": VERSION_CODE,
+    "output": "build/review58-20261105",
+    "inspected": inspected,
+    "review_candidates": review_candidates,
+    "registered_media": registered_media,
+    "definition_updates": definition_updates,
+    "pending": pending,
+    "sources": sources,
+    "review_notes": review_notes,
+    "image_generation_calls": 0,
+    "generated_images_imported": 0,
+}
+(B / "review-result.json").write_text(json.dumps(review_result, ensure_ascii=False, indent=2) + "\n")
+
+code_paths = [
+    "app/src/main/java",
+    "scripts/validate_exercise_dataset.sh",
+    "scripts/build_android_debug.sh",
+]
+baseline = {}
+for rel in code_paths:
+    p = R / rel
+    if p.is_file():
+        baseline[rel] = hashlib.sha256(p.read_bytes()).hexdigest()
+    else:
+        for f in sorted(p.rglob("*")):
+            if f.is_file():
+                baseline[str(f.relative_to(R))] = hashlib.sha256(f.read_bytes()).hexdigest()
+(B / "code-baseline.json").write_text(json.dumps(baseline, ensure_ascii=False, indent=2) + "\n")
+
+qa_spec = {
+    "batch": BATCH_ID,
+    "expected_checks": 16,
+    "expected_reviewed_after_approve": reviewed_count,
+    "candidate_ids": [],
+    "candidate_required_equipment": {},
+    "expected_per_side_ids": ["3361", "3545"],
+}
+(B / "qa-spec.json").write_text(json.dumps(qa_spec, ensure_ascii=False, indent=2) + "\n")
+print(f"Authored review-result.json, code-baseline.json, and qa-spec.json for {BATCH_ID}")

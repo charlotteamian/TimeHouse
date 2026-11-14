@@ -1,0 +1,223 @@
+[
+  {
+    "id": "3302",
+    "name": "handstand",
+    "name_zh": "倒立",
+    "media": "raw:dataset_motion_3302",
+    "category": "upper arms",
+    "equipment": "body weight",
+    "target": "triceps",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "core"
+    ],
+    "instructions_zh": [
+      "找到一个有足够空间的空地来进行倒立。",
+      "将双手放在地上，与肩同宽，手指指向前方。",
+      "将双腿向上踢向墙壁，用核心和肩膀保持平衡。",
+      "处于倒立位置后，用三头肌来支撑体重。",
+      "只要能保持平衡，就保持倒立。",
+      "下降时，慢慢将双腿放回地面。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2803",
+    "name": "dumbbell supported squat",
+    "name_zh": "哑铃支撑深蹲",
+    "media": "raw:dataset_motion_2803",
+    "category": "upper legs",
+    "equipment": "dumbbell",
+    "target": "quads",
+    "muscle_group": "glutes",
+    "secondary_muscles": [
+      "glutes",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，双手各握一个哑铃放在身体两侧。",
+      "保持挺胸，核心收紧，弯曲膝盖并向后推臀部，慢慢降低身体。",
+      "继续降低，直到大腿与地面平行，或者尽可能低。",
+      "在底部停顿片刻，然后推动脚后跟回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3303",
+    "name": "flag",
+    "name_zh": "旗式",
+    "media": "raw:dataset_motion_3303",
+    "category": "waist",
+    "equipment": "body weight",
+    "target": "abs",
+    "muscle_group": "obliques",
+    "secondary_muscles": [
+      "obliques",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "首先，双手握住一根垂直杆，手掌相对，双臂完全伸展。",
+      "启动你的核心并将双腿抬离地面，保持伸直。",
+      "利用核心和上半身的力量，抬起双腿，直到它们与地面平行。",
+      "尽可能长时间地保持这个姿势，保持身体线条笔直。",
+      "慢慢地将双腿放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2805",
+    "name": "dumbbell single leg deadlift with stepbox support",
+    "name_zh": "哑铃单腿硬拉（台阶支撑）",
+    "media": "raw:dataset_motion_2805",
+    "category": "upper legs",
+    "equipment": "dumbbell",
+    "target": "glutes",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings",
+      "lower back"
+    ],
+    "instructions_zh": [
+      "双脚分开与臀部同宽站立，右手握住哑铃。",
+      "将左脚放在身后的台阶或高架表面上。",
+      "保持背部挺直，核心收紧，髋部向前转动，将哑铃放低至地面。",
+      "当你放下哑铃时，同时将左腿抬起到身后，从头到脚跟保持一条直线。",
+      "降低哑铃，直到感觉到右腿筋拉伸，然后回到起始位置。",
+      "重复所需的重复次数，然后换边。"
+    ]
+  },
+  {
+    "id": "3304",
+    "name": "skin the cat",
+    "name_zh": "猫式伸展",
+    "media": "raw:dataset_motion_3304",
+    "category": "back",
+    "equipment": "body weight",
+    "target": "upper back",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "core"
+    ],
+    "instructions_zh": [
+      "首先，将双臂完全伸展，身体放松地悬挂在杆上。",
+      "收紧核心并抬起双腿，使膝盖靠近胸部。",
+      "继续将双腿举过头顶，让身体穿过手臂。",
+      "一旦双腿完全伸过头顶，就开始将它们放回起始位置。",
+      "当你降低双腿时，让你的身体通过手臂向后移动，直到你再次完全伸展手臂悬挂。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2808",
+    "name": "dumbbell sumo pull through",
+    "name_zh": "哑铃和式拉伸",
+    "media": "raw:dataset_motion_2808",
+    "category": "upper legs",
+    "equipment": "dumbbell",
+    "target": "glutes",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings",
+      "quadriceps",
+      "core"
+    ],
+    "instructions_zh": [
+      "站立，双脚分开比肩宽，脚趾朝外。",
+      "双手握住哑铃置于身体前方，双臂伸展。",
+      "弯曲膝盖，将臀部放低至下蹲位置，保持背部挺直。",
+      "将哑铃放在两腿之间，保持手臂伸直。",
+      "通过脚后跟发力，向前伸展臀部，将哑铃向上拉至身体前方。",
+      "在动作的最高点挤压臀部，然后将哑铃放回双腿之间。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3314",
+    "name": "straddle maltese",
+    "name_zh": "马耳他式分腿",
+    "media": "raw:dataset_motion_3314",
+    "category": "waist",
+    "equipment": "body weight",
+    "target": "abs",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "chest"
+    ],
+    "instructions_zh": [
+      "首先，悬挂在一对环上，双臂完全伸展，身体呈一条直线。",
+      "双腿分开，形成跨坐姿势。",
+      "启动你的核心并慢慢降低你的身体，直到你的手臂与地面平行。",
+      "保持这个姿势几秒钟，然后将自己推回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2812",
+    "name": "dumbbell step-up split squat",
+    "name_zh": "哑铃台阶分腿蹲",
+    "media": "raw:dataset_motion_2812",
+    "category": "upper legs",
+    "equipment": "dumbbell",
+    "target": "quads",
+    "muscle_group": "glutes",
+    "secondary_muscles": [
+      "glutes",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "站在长凳或台阶前，每只手各握一个哑铃，手掌朝向身体。",
+      "将右脚放在长凳或台阶上，确保整个脚与表面接触。",
+      "走到长凳上或用右脚踩上，用脚跟推动身体抬起。",
+      "当你向上迈步时，同时将左膝抬向胸部。",
+      "在动作的最高点暂停，然后慢慢将左脚放回地面，同时将右脚放在长凳或台阶上。",
+      "将左脚放在长凳或台阶上，重复该动作。",
+      "继续交替左右脚，达到所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3315",
+    "name": "full maltese",
+    "name_zh": "全马耳他式",
+    "media": "raw:dataset_motion_3315",
+    "category": "waist",
+    "equipment": "body weight",
+    "target": "abs",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "chest"
+    ],
+    "instructions_zh": [
+      "首先站立，双脚分开与肩同宽，双臂伸直至两侧。",
+      "慢慢向前倾斜，保持手臂伸直，直到上半身与地面平行。",
+      "启动你的核心并保持这个姿势几秒钟。",
+      "通过双脚推动并站起来，回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3234",
+    "name": "hyght dumbbell fly",
+    "name_zh": "海特式哑铃飞鸟",
+    "media": "raw:dataset_motion_3234",
+    "category": "chest",
+    "equipment": "dumbbell",
+    "target": "pectorals",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "平躺在长凳上，双手各握一个哑铃，手掌相对。",
+      "将手臂伸直越过胸部，肘部稍微弯曲。",
+      "保持肘部轻微弯曲，以宽弧线将哑铃向两侧放低，直到感觉到胸部有拉伸感。",
+      "暂停片刻，然后反转动作，将哑铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  }
+]

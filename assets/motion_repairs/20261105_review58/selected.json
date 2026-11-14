@@ -1,0 +1,227 @@
+[
+  {
+    "id": "3318",
+    "name": "swing 360",
+    "name_zh": "360度摆动",
+    "media": "raw:dataset_motion_3318",
+    "category": "cardio",
+    "equipment": "body weight",
+    "target": "cardiovascular system",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "core"
+    ],
+    "instructions_zh": [
+      "站立，双脚分开与肩同宽，膝盖稍微弯曲。",
+      "将双臂伸直在身前，与地面平行。",
+      "启动你的核心并以圆周运动摆动你的手臂，同时旋转你的躯干。",
+      "继续圆周运动，摆动手臂并旋转躯干，达到所需的重复次数。",
+      "记住在整个练习过程中保持呼吸。"
+    ]
+  },
+  {
+    "id": "3240",
+    "name": "exercise ball on the wall calf raise (tennis ball between knees)",
+    "name_zh": "健身球靠墙提踵（膝盖夹网球）",
+    "media": "raw:dataset_motion_3240",
+    "category": "lower legs",
+    "equipment": "dumbbell",
+    "target": "calves",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings"
+    ],
+    "instructions_zh": [
+      "背靠墙站立，将健身球放在下背部和墙壁之间。",
+      "将双脚分开与肩同宽，并稍微位于您的前方。",
+      "每只手握住一个哑铃，双臂伸向身体两侧。",
+      "将网球放在膝盖之间。",
+      "将脚后跟抬离地面，将身体抬起到脚趾上。",
+      "在顶部停顿片刻，然后慢慢降低脚后跟回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3327",
+    "name": "full planche push-up",
+    "name_zh": "全平板俯卧撑",
+    "media": "raw:dataset_motion_3327",
+    "category": "chest",
+    "equipment": "body weight",
+    "target": "pectorals",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "triceps",
+      "core"
+    ],
+    "instructions_zh": [
+      "从俯卧撑位置开始，双手分开略宽于肩宽。",
+      "收紧核心肌群，将身体放低至地面，保持肘部靠近身体两侧。",
+      "当你降低身体高度时，身体向前倾斜，双脚离开地面，用双手保持平衡。",
+      "继续降低身体，直到胸部略高于地面。",
+      "用手推动并伸展双臂，将身体抬回到起始位置。",
+      "在整个运动过程中，从头部到脚后跟保持一条直线。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3241",
+    "name": "exercise ball on the wall calf raise (tennis ball between ankles)",
+    "name_zh": "健身球靠墙提踵（脚踝夹网球）",
+    "media": "raw:dataset_motion_3241",
+    "category": "lower legs",
+    "equipment": "dumbbell",
+    "target": "calves",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings",
+      "quadriceps"
+    ],
+    "instructions_zh": [
+      "面向墙壁站立，双脚分开与肩同宽。",
+      "在墙壁和下背部之间放置一个健身球。",
+      "每只手握住一个哑铃，双臂伸向身体两侧。",
+      "将网球放在脚踝之间。",
+      "将脚后跟抬离地面，将身体抬起到脚趾上。",
+      "在顶部停顿片刻，然后慢慢降低脚后跟回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3360",
+    "name": "bear crawl",
+    "name_zh": "熊爬",
+    "media": "raw:dataset_motion_3360",
+    "category": "cardio",
+    "equipment": "body weight",
+    "target": "cardiovascular system",
+    "muscle_group": "core",
+    "secondary_muscles": [
+      "core",
+      "shoulders",
+      "triceps"
+    ],
+    "instructions_zh": [
+      "从四肢着地开始，双手直接放在肩膀下方，膝盖直接放在臀部下方。",
+      "将膝盖稍微抬离地面，保持背部平坦并收紧核心。",
+      "同时向前移动右手和左脚，然后是左手和右脚。",
+      "继续向前爬行，手脚交替动作。",
+      "在整个练习过程中保持稳定的节奏并保持核心紧张。",
+      "继续所需的距离或时间。"
+    ]
+  },
+  {
+    "id": "3541",
+    "name": "dumbbell incline y-raise",
+    "name_zh": "哑铃上斜斜上举",
+    "media": "raw:dataset_motion_3541",
+    "category": "back",
+    "equipment": "dumbbell",
+    "target": "upper back",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "rear deltoids"
+    ],
+    "instructions_zh": [
+      "将上斜凳摆成 45 度角，坐在上面，双手各握一个哑铃，掌心向内。",
+      "稍微向前倾，让手臂伸直垂下，肘部保持轻微弯曲。",
+      "将手臂向两侧抬起并呈 Y 形，直到与地面平行。",
+      "在顶部暂停片刻，然后慢慢将手臂放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3361",
+    "name": "skater hops",
+    "name_zh": "滑步跳跃",
+    "media": "raw:dataset_motion_3361",
+    "category": "cardio",
+    "equipment": "body weight",
+    "target": "cardiovascular system",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "glutes",
+      "calves"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立。",
+      "稍微弯曲膝盖，向右跳，右脚着地。",
+      "落地时，将左腿摆动到右腿后面，并用左脚趾敲击地面。",
+      "立即向左侧跳跃，左脚着地。",
+      "落地时，将右腿摆动到左腿后面，并用右脚趾敲击地面。",
+      "继续交替两侧，跳跃并用每条腿敲击地面。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3542",
+    "name": "dumbbell incline t-raise",
+    "name_zh": "哑铃上斜水平展臂",
+    "media": "raw:dataset_motion_3542",
+    "category": "shoulders",
+    "equipment": "dumbbell",
+    "target": "delts",
+    "muscle_group": "traps",
+    "secondary_muscles": [
+      "traps",
+      "rhomboids"
+    ],
+    "instructions_zh": [
+      "将上斜凳摆成 45 度角，坐在上面，双手各握一个哑铃，掌心向内。",
+      "向前倾斜，让手臂笔直向下垂，垂直于地板。",
+      "保持手臂伸直，将它们向两侧举起，直到与地板平行，与身体形成“T”形。",
+      "在顶部暂停片刻，然后慢慢将手臂放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3418",
+    "name": "l-pull-up",
+    "name_zh": "直角举腿引体向上",
+    "media": "raw:dataset_motion_3418",
+    "category": "back",
+    "equipment": "body weight",
+    "target": "lats",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "正手握住引体向上杆，握距略宽于肩宽。",
+      "双臂完全伸展，身体伸直。",
+      "收紧背阔肌和二头肌，将身体拉向杠铃杆，保持肘部靠近身体。",
+      "继续拉，直到下巴位于杠铃上方。",
+      "在顶部停顿片刻，然后慢慢将身体放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3545",
+    "name": "dumbbell incline alternate press",
+    "name_zh": "哑铃上斜交替推举",
+    "media": "raw:dataset_motion_3545",
+    "category": "chest",
+    "equipment": "dumbbell",
+    "target": "pectorals",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "triceps"
+    ],
+    "instructions_zh": [
+      "坐在上斜凳上，每只手各拿一个哑铃，放在大腿上。",
+      "向后靠在长凳上，用大腿帮助将哑铃举至肩高，手掌朝前。",
+      "到达肩膀高度后，旋转手腕，使手掌朝前。",
+      "用胸部和肩膀将哑铃向上推，充分伸展手臂。",
+      "将哑铃放回起始位置，保持肘部稍微弯曲。",
+      "重复所需的重复次数，交替手臂。"
+    ]
+  }
+]

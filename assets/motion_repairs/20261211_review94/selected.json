@@ -1,0 +1,225 @@
+[
+  {
+    "id": "0656",
+    "name": "push-up (on stability ball)",
+    "name_zh": "球上俯卧撑",
+    "media": "raw:dataset_motion_0656",
+    "category": "chest",
+    "equipment": "stability ball",
+    "target": "pectorals",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "shoulders",
+      "core"
+    ],
+    "instructions_zh": [
+      "将稳定球放在地上，面朝下，双手放在球上，与肩同宽。",
+      "将双腿伸直在身后，用脚趾保持平衡。",
+      "弯曲肘部，调动核心力量，将胸部向球方向降低，保持身体呈一条直线。",
+      "在底部暂停片刻，然后伸直手臂将自己推回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0663",
+    "name": "push-up medicine ball",
+    "name_zh": "药球俯卧撑",
+    "media": "raw:dataset_motion_0663",
+    "category": "chest",
+    "equipment": "medicine ball",
+    "target": "pectorals",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "shoulders",
+      "core"
+    ],
+    "instructions_zh": [
+      "从高平板支撑位置开始，双手放在健身球上，距离与肩同宽。",
+      "弯曲肘部，保持背部挺直，调动核心力量，将身体降低至地面。",
+      "推动手掌以伸展手臂并返回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0673",
+    "name": "reverse grip machine lat pulldown",
+    "name_zh": "反握机器下拉",
+    "media": "raw:dataset_motion_0673",
+    "category": "back",
+    "equipment": "leverage machine",
+    "target": "lats",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "调整座椅高度，将自己放在机器上，膝盖位于垫子下方，双脚平放在地面上。",
+      "反手握住手柄，握距略宽于肩宽。",
+      "坐直，挺胸，肩膀向后，保持下背部轻微的拱形。",
+      "将手柄向下拉向胸部，将肩胛骨挤压在一起。",
+      "在动作底部暂停片刻，然后慢慢松开手柄回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0675",
+    "name": "reverse hyper extension (on stability ball)",
+    "name_zh": "球上反向超伸展",
+    "media": "raw:dataset_motion_0675",
+    "category": "upper legs",
+    "equipment": "stability ball",
+    "target": "glutes",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings",
+      "lower back"
+    ],
+    "instructions_zh": [
+      "面朝下躺在稳定球上，臀部放在球上，双腿伸直在身后。",
+      "将双手放在身前的地面上以保持稳定。",
+      "调动臀肌和腿筋，将双腿尽可能高地抬向天花板。",
+      "在顶部暂停片刻，然后慢慢将双腿放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0680",
+    "name": "rope climb",
+    "name_zh": "绳索攀爬",
+    "media": "raw:dataset_motion_0680",
+    "category": "back",
+    "equipment": "rope",
+    "target": "upper back",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms",
+      "biceps",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "面向绳子站立，双脚分开与肩同宽。",
+      "用双手抓住绳子，手掌朝向自己。",
+      "稍微弯曲膝盖并启动核心。",
+      "开始通过交替的双手动作将自己拉上绳子。",
+      "用双腿协助向上运动。",
+      "继续攀爬，直到到达所需的高度或绳索的顶部。",
+      "要下降，请在控制下降的同时反转双手的动作。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0738",
+    "name": "sled 45в° calf press",
+    "name_zh": "雪橇45度小腿推",
+    "media": "raw:dataset_motion_0738",
+    "category": "lower legs",
+    "equipment": "sled machine",
+    "target": "calves",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings"
+    ],
+    "instructions_zh": [
+      "将雪橇机调整至 45 度角。",
+      "将脚放在雪橇平台上，脚趾朝前。",
+      "伸展脚踝和小腿，将雪橇平台推离您。",
+      "在顶部暂停片刻，然后慢慢将雪橇平台放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0739",
+    "name": "sled 45в° leg press",
+    "name_zh": "雪橇45度腿推",
+    "media": "raw:dataset_motion_0739",
+    "category": "upper legs",
+    "equipment": "sled machine",
+    "target": "glutes",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "将雪橇机的座椅和脚踏板调整到舒适的位置。",
+      "坐在雪橇机上，背部靠在靠背上，双脚与肩同宽放在踏板上。",
+      "握住座椅两侧的把手以保持稳定性。",
+      "伸展双腿，将脚踏板推离身体，脚后跟保持在脚踏板上。",
+      "继续推动，直到双腿几乎完全伸展，但不要锁住膝盖。",
+      "在动作的最高点暂停片刻，然后弯曲膝盖，慢慢地将踏板放回到身体的方向。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0740",
+    "name": "sled 45в° leg wide press",
+    "name_zh": "雪橇45度宽距腿推",
+    "media": "raw:dataset_motion_0740",
+    "category": "upper legs",
+    "equipment": "sled machine",
+    "target": "glutes",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "将雪橇机调整至 45 度角。",
+      "坐在雪橇机上，背部靠在垫子上，双脚放在脚踏平台上。",
+      "双脚分开的距离比肩宽。",
+      "推动脚部平台以伸展双腿并伸直膝盖。",
+      "动作结束时暂停片刻，然后慢慢弯曲膝盖回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0741",
+    "name": "sled closer hack squat",
+    "name_zh": "雪橇近距深蹲",
+    "media": "raw:dataset_motion_0741",
+    "category": "upper legs",
+    "equipment": "sled machine",
+    "target": "glutes",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "将雪橇机调整到舒适的重量，并将背部靠在垫子上。",
+      "将双脚分开与肩同宽放在平台上，脚趾稍微向外。",
+      "握住机器两侧的手柄以保持稳定性。",
+      "弯曲膝盖和臀部，调动核心力量，慢慢降低身体，保持背部挺直。",
+      "继续降低，直到大腿与地面平行或略低于地面。",
+      "在底部停顿片刻，然后用脚跟推动双腿并返回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0742",
+    "name": "sled forward angled calf raise",
+    "name_zh": "雪橇前倾小腿提踵",
+    "media": "raw:dataset_motion_0742",
+    "category": "lower legs",
+    "equipment": "sled machine",
+    "target": "calves",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings",
+      "glutes"
+    ],
+    "instructions_zh": [
+      "将雪橇机调整到舒适的重量，然后将自己放在机器上，脚趾放在平台上，脚后跟悬空。",
+      "将手放在机器的手柄或侧面上以获得支撑。",
+      "收紧小腿，慢慢地尽可能高地抬起脚后跟，克服雪橇的阻力。",
+      "在动作的最高点暂停片刻，然后慢慢降低脚跟回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  }
+]

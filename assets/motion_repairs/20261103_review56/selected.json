@@ -1,0 +1,224 @@
+[
+  {
+    "id": "3297",
+    "name": "back lever",
+    "name_zh": "背杠杆",
+    "media": "raw:dataset_motion_3297",
+    "category": "back",
+    "equipment": "body weight",
+    "target": "upper back",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "forearms",
+      "core"
+    ],
+    "instructions_zh": [
+      "首先，用正手握法悬挂在引体向上杆上，双手分开的距离略大于肩宽。",
+      "启动你的核心并将肩胛骨向下拉和向后拉。",
+      "弯曲膝盖并将其向胸部靠拢。",
+      "慢慢抬起双腿，保持伸直，直到身体与地面平行。",
+      "保持这个姿势几秒钟，然后慢慢地将双腿放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2403",
+    "name": "dumbbell alternate biceps curl (with arm blaster)",
+    "name_zh": "哑铃交替弯举（带臂力器）",
+    "media": "raw:dataset_motion_2403",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "站直，双脚分开与肩同宽，双手各握一个哑铃，手掌朝前。",
+      "将手臂冲击波放在上臂上，确保牢固贴合。",
+      "保持上臂静止，呼气并将一只哑铃向上弯向肩膀，同时收缩二头肌。",
+      "继续举起哑铃，直到二头肌完全收缩并且哑铃与肩部齐平。",
+      "挤压二头肌时，保持收缩位置短暂停顿。",
+      "吸气，慢慢将哑铃放回起始位置。",
+      "用另一只手臂重复该动作。",
+      "继续交替手臂进行所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3298",
+    "name": "straddle planche",
+    "name_zh": "分腿平板",
+    "media": "raw:dataset_motion_3298",
+    "category": "waist",
+    "equipment": "body weight",
+    "target": "abs",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "triceps",
+      "chest"
+    ],
+    "instructions_zh": [
+      "从俯卧撑位置开始，双手与肩同宽，双脚分开。",
+      "启动你的核心，慢慢地将你的重心向前移动，将你的肩膀放在你的手上。",
+      "弯曲肘部，将身体放低至地面，保持肘部靠近身体两侧。",
+      "在底部停顿片刻，然后双手用力伸直手臂，将身体抬回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2470",
+    "name": "dumbbell lying on floor rear delt raise",
+    "name_zh": "哑铃平躺地板后三角举",
+    "media": "raw:dataset_motion_2470",
+    "category": "shoulders",
+    "equipment": "dumbbell",
+    "target": "delts",
+    "muscle_group": "trapezius",
+    "secondary_muscles": [
+      "trapezius",
+      "rhomboids"
+    ],
+    "instructions_zh": [
+      "脸朝下躺在地板上，双手各握一个哑铃，手掌相对。",
+      "将手臂伸直在身前，保持肘部轻微弯曲。",
+      "调动肩部肌肉，将手臂向上并向两侧抬起，将肩胛骨挤压在一起。",
+      "在顶部暂停片刻，然后慢慢将手臂放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3299",
+    "name": "full planche",
+    "name_zh": "全平板",
+    "media": "raw:dataset_motion_3299",
+    "category": "waist",
+    "equipment": "body weight",
+    "target": "abs",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "chest",
+      "triceps"
+    ],
+    "instructions_zh": [
+      "从俯卧撑位置开始，双手与肩同宽，手指指向前方。",
+      "启动你的核心并缓慢地将你的重心向前移动，将你的脚抬离地面。",
+      "继续向前移动体重，直到身体与地面平行，并用双手保持平衡。",
+      "尽可能长时间地保持这个姿势，保持身体线条笔直。",
+      "慢慢地将双脚放回地面，然后回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2705",
+    "name": "dumbbell lying pronation on floor",
+    "name_zh": "哑铃平躺地板旋前",
+    "media": "raw:dataset_motion_2705",
+    "category": "lower arms",
+    "equipment": "dumbbell",
+    "target": "forearms",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "triceps"
+    ],
+    "instructions_zh": [
+      "平躺在地板上，脸朝下，双臂伸直在身前，每只手各握一个哑铃。",
+      "旋转手掌，使其朝下朝向地板。",
+      "保持手臂伸直，收缩前臂将哑铃提离地板。",
+      "继续举起，直到前臂完全收缩并且哑铃与肩部齐平。",
+      "保持一会儿，然后慢慢将哑铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3300",
+    "name": "lean planche",
+    "name_zh": "斜板平板",
+    "media": "raw:dataset_motion_3300",
+    "category": "waist",
+    "equipment": "body weight",
+    "target": "abs",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "chest",
+      "triceps"
+    ],
+    "instructions_zh": [
+      "从俯卧撑位置开始，双手分开与肩同宽，身体伸直。",
+      "启动你的核心，慢慢地将你的重心向前移动，让你的肩膀越过你的手。",
+      "向前倾时，保持肘部稍微弯曲，身体伸直。",
+      "保持这个姿势几秒钟，然后慢慢回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2706",
+    "name": "dumbbell lying supination on floor",
+    "name_zh": "哑铃平躺地板旋后",
+    "media": "raw:dataset_motion_2706",
+    "category": "lower arms",
+    "equipment": "dumbbell",
+    "target": "forearms",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "仰卧在地板上，双腿伸直，双臂放在身体两侧，每只手各握一个哑铃。",
+      "将手掌旋转至向上，保持肘部靠近身体两侧。",
+      "慢慢地将哑铃向肩膀弯曲，挤压前臂。",
+      "在顶部停顿片刻，然后慢慢将哑铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3301",
+    "name": "frog planche",
+    "name_zh": "青蛙平板",
+    "media": "raw:dataset_motion_3301",
+    "category": "waist",
+    "equipment": "body weight",
+    "target": "abs",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "chest",
+      "triceps"
+    ],
+    "instructions_zh": [
+      "从俯卧撑位置开始，双手与肩同宽，双脚并拢。",
+      "弯曲肘部，将身体放低至地面，保持背部挺直。",
+      "当你降低身体时，将双脚抬离地面，并将膝盖靠近胸部。",
+      "保持这个姿势几秒钟，然后向后伸展双腿，并将自己推回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "2796",
+    "name": "dumbbell step-up lunge",
+    "name_zh": "哑铃台阶弓步",
+    "media": "raw:dataset_motion_2796",
+    "category": "upper legs",
+    "equipment": "dumbbell",
+    "target": "quads",
+    "muscle_group": "glutes",
+    "secondary_muscles": [
+      "glutes",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "站在台阶或平台前，每只手各持一个哑铃，手掌朝向身体两侧。",
+      "将右脚放在台阶上，确保整个脚都踩在台阶上。",
+      "推动右脚跟，将身体抬起到台阶上，同时将左脚抬起。",
+      "双脚踩在台阶上后，将左脚放回起始位置，并将右脚保持在台阶上。",
+      "重复该动作，每次交替使用哪只脚。",
+      "继续进行所需的重复次数。"
+    ]
+  }
+]

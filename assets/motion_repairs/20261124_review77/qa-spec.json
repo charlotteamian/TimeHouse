@@ -1,0 +1,20 @@
+{
+  "batch": "20261124_review77",
+  "expected_checks": 16,
+  "expected_reviewed_after_approve": 138,
+  "candidate_ids": [],
+  "candidate_required_equipment": {
+    "0182": [
+      "平板训练凳"
+    ],
+    "0184": [
+      "平板训练凳"
+    ],
+    "0185": [
+      "平板训练凳"
+    ]
+  },
+  "expected_per_side_ids": [
+    "0174"
+  ]
+}

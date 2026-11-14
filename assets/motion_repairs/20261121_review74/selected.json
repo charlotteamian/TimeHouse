@@ -1,0 +1,224 @@
+[
+  {
+    "id": "0122",
+    "name": "barbell wide bench press",
+    "name_zh": "杠铃宽卧推",
+    "media": "raw:dataset_motion_0122",
+    "category": "chest",
+    "equipment": "barbell",
+    "target": "pectorals",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "triceps"
+    ],
+    "instructions_zh": [
+      "平躺在长凳上，双脚平放在地上，背部紧贴长凳。",
+      "宽握距抓住杠铃，握距略宽于肩宽。",
+      "将杠铃从架子上提起，并将其直接放在胸部上方，双臂完全伸展。",
+      "慢慢地将杠铃向胸部降低，保持肘部稍微张开。",
+      "当杠铃接触胸部时暂停片刻，然后将其推回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0123",
+    "name": "barbell wide-grip upright row",
+    "name_zh": "杠铃宽握直立划船",
+    "media": "raw:dataset_motion_0123",
+    "category": "shoulders",
+    "equipment": "barbell",
+    "target": "delts",
+    "muscle_group": "traps",
+    "secondary_muscles": [
+      "traps",
+      "biceps"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，正手握住杠铃，双手分开比肩宽。",
+      "让杠铃悬挂在大腿前面，双臂完全伸展。",
+      "保持背部挺直，呼气，将杠铃向上举至下巴，用肘部引导。",
+      "在顶部停顿片刻，然后吸气，慢慢将杠铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0124",
+    "name": "barbell wide squat",
+    "name_zh": "杠铃宽深蹲",
+    "media": "raw:dataset_motion_0124",
+    "category": "upper legs",
+    "equipment": "barbell",
+    "target": "quads",
+    "muscle_group": "glutes",
+    "secondary_muscles": [
+      "glutes",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "站立，双脚分开比肩宽，脚趾稍微向外。",
+      "将杠铃放在上背部，将其放在斜方肌或三角肌后束上。",
+      "当你下蹲时，收紧你的核心并保持胸部挺直，将臀部向后推并弯曲膝盖。",
+      "降低直到大腿与地面平行，或者尽可能降低到您能舒服的高度。",
+      "在底部停顿片刻，然后推动脚后跟回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0125",
+    "name": "barbell wrist curl v. 2",
+    "name_zh": "杠铃腕弯举（第二式）",
+    "media": "raw:dataset_motion_0125",
+    "category": "lower arms",
+    "equipment": "barbell",
+    "target": "forearms",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "brachialis"
+    ],
+    "instructions_zh": [
+      "坐在长凳上，双脚平放在地上，膝盖弯曲。",
+      "反手握住杠铃，手掌朝上，双手与肩同宽。",
+      "将前臂放在大腿上，让手腕悬在边缘。",
+      "慢慢向上弯曲手腕，将杠铃拉向前臂。",
+      "在顶部停顿片刻，然后慢慢将杠铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0126",
+    "name": "barbell wrist curl",
+    "name_zh": "杠铃腕弯举",
+    "media": "raw:dataset_motion_0126",
+    "category": "lower arms",
+    "equipment": "barbell",
+    "target": "forearms",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "brachialis"
+    ],
+    "instructions_zh": [
+      "坐在长凳上，双脚平放在地面上，前臂放在大腿上，反握杠铃。",
+      "让杠铃向下滚动到指尖，保持手腕伸直。",
+      "弯曲手腕，慢慢地将杠铃向上卷向前臂。",
+      "在顶部停顿片刻，然后慢慢将杠铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0127",
+    "name": "barbell zercher squat",
+    "name_zh": "杠铃泽切尔深蹲",
+    "media": "raw:dataset_motion_0127",
+    "category": "upper legs",
+    "equipment": "barbell",
+    "target": "glutes",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves",
+      "core"
+    ],
+    "instructions_zh": [
+      "站立，双脚分开与肩同宽，脚趾稍微外翻。",
+      "将杠铃放在肘部的弯曲处，双手握住杠铃以保持稳定。",
+      "当你将臀部向后降低到蹲姿时，启动你的核心并保持胸部抬起。",
+      "保持膝盖与脚趾对齐，并将重量放在脚后跟上。",
+      "在深蹲底部暂停片刻，然后用脚后跟恢复到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0128",
+    "name": "battling ropes",
+    "name_zh": "战绳",
+    "media": "raw:dataset_motion_0128",
+    "category": "shoulders",
+    "equipment": "rope",
+    "target": "delts",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms",
+      "core"
+    ],
+    "instructions_zh": [
+      "站立，双脚分开与肩同宽，膝盖稍微弯曲。",
+      "双手握住绳子的一端，手掌相对。",
+      "将手臂举至肩膀高度，保持肘部稍微弯曲。",
+      "快速抬起和放下每只手臂，开始用绳索产生交替的波浪。",
+      "继续所需的持续时间或重复次数。"
+    ]
+  },
+  {
+    "id": "0148",
+    "name": "cable alternate shoulder press",
+    "name_zh": "绳索交替肩推",
+    "media": "raw:dataset_motion_0148",
+    "category": "shoulders",
+    "equipment": "cable",
+    "target": "delts",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "upper back"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，并用正手握住绳索机的手柄。",
+      "将双手放在与肩同高的位置，手掌朝前。",
+      "保持核心参与并保持背部挺直。",
+      "向上并向前按下一个手柄，直到您的手臂完全伸展。",
+      "在最高点暂停片刻，然后慢慢将手柄放回起始位置。",
+      "用另一只手臂重复上述步骤。",
+      "双臂交替进行所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0149",
+    "name": "cable alternate triceps extension",
+    "name_zh": "绳索交替肱三头肌伸展",
+    "media": "raw:dataset_motion_0149",
+    "category": "upper arms",
+    "equipment": "cable",
+    "target": "triceps",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "面对电缆机站立，双脚与肩同宽。",
+      "右手握住电缆手柄，抬起手臂，使上臂与地面平行，肘部弯曲成 90 度角。",
+      "保持上臂静止，前臂向后伸展，完全伸直手臂。",
+      "暂停片刻，然后慢慢回到起始位置。",
+      "用左臂重复此动作。",
+      "继续交替手臂进行所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0150",
+    "name": "cable bar lateral pulldown",
+    "name_zh": "绳索横杠下拉",
+    "media": "raw:dataset_motion_0150",
+    "category": "back",
+    "equipment": "cable",
+    "target": "lats",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "rhomboids",
+      "rear deltoids"
+    ],
+    "instructions_zh": [
+      "将电缆滑轮调整至较高位置并安装直杆。",
+      "面向缆绳机坐着，双脚平放在地面上，膝盖稍微弯曲。",
+      "正手握住杠铃，握距略宽于肩宽。",
+      "稍微向后倾斜，挺胸，保持下背部轻微的拱形。",
+      "将杠铃向下拉向胸部，用肘部引导并将肩胛骨挤压在一起。",
+      "在动作底部暂停片刻，然后慢慢地将杠铃返回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  }
+]

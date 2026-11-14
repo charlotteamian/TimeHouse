@@ -1,0 +1,232 @@
+{
+  "batch": "20261205_review88",
+  "version": "1.2.93",
+  "version_code": 2026120501,
+  "output": "build/review88-20261205",
+  "inspected": [
+    "0542",
+    "0543",
+    "0544",
+    "0545",
+    "0546",
+    "0547",
+    "0548",
+    "0549",
+    "0550",
+    "0551"
+  ],
+  "review_candidates": [],
+  "registered_media": [],
+  "definition_updates": {
+    "0542": {
+      "name_zh": "站姿壶铃单臂抓举",
+      "category": "shoulders",
+      "equipment": "kettlebell",
+      "target": "delts",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "traps",
+        "forearms",
+        "core"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "双脚与肩同宽稳固站立，单手正手握持壶铃垂放于双腿之间，微屈双膝屈髋俯身。",
+        "挺胸立腰沉肩，脊柱保持自然平直，肩胛骨收紧建立腰背张力。",
+        "呼气由臀腿爆发性伸髋蹬地，顺势带动单臂向上拉高引肘，并在壶铃过顶瞬间快速翻转手腕顺滑冲顶锁臂。",
+        "在头顶最高点双臂与身体完全伸展锁定停顿 1 秒，吸气受控屈肘下放顺应重力回荡至腿间，单侧完成后换边。"
+      ],
+      "perSide": true
+    },
+    "0543": {
+      "name_zh": "站姿壶铃单臂肩推",
+      "category": "shoulders",
+      "equipment": "kettlebell",
+      "target": "delts",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "triceps",
+        "forearms"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "双脚与肩同宽站立，单手握持壶铃稳妥架在同侧肩前位置，手肘收在肋侧前方。",
+        "挺胸收腹，双臀收紧保持骨盆与脊柱垂直稳定，避免躯干向对侧借力倾斜。",
+        "呼气由三角肌前束与中束协同发力，垂直向上推举壶铃直至单臂在头顶上方完全伸展。",
+        "推举顶点停顿 1 秒充分感受肩部收紧，吸气匀速受控缓慢将壶铃沿垂直路径落回肩前架式位，单侧做完后换另一侧。"
+      ],
+      "perSide": true
+    },
+    "0544": {
+      "name_zh": "站姿壶铃手枪式单腿深蹲",
+      "category": "upper legs",
+      "equipment": "kettlebell",
+      "target": "glutes",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "quads",
+        "hamstrings",
+        "calves"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "单腿独立稳固站立，双手抱持壶铃紧贴胸前，非负重腿平直向前伸出平行地面悬空。",
+        "挺胸收紧核心，支撑脚全脚掌贴地建立稳固足弓，吸气做好下蹲平衡准备。",
+        "吸气控制支撑腿屈髋屈膝平稳下蹲，臀部向后下方深坐，悬空腿保持伸直不触地，直至下蹲至深蹲底部。",
+        "在最低点稍作平衡停顿 1 秒，呼气由支撑腿臀大肌与股四头肌强力推蹬地面直立站起，单侧完成后换另一侧腿。"
+      ],
+      "perSide": true
+    },
+    "0545": {
+      "name_zh": "双手把位壶铃爆发俯卧撑",
+      "category": "chest",
+      "equipment": "kettlebell",
+      "target": "pectorals",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "triceps",
+        "shoulders"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "双手握住平放在地面的两个壶铃手柄，双脚向后伸展踩地，身体呈平直的高姿俯撑姿态。",
+        "收紧腹部与臀部保持从头至脚跟呈一条直线，手肘微屈锁住把手垂直受力。",
+        "吸气屈肘下沉胸部至壶铃手柄高度充分拉伸胸肌，紧接着呼气由胸大肌与肱三头肌爆发性推蹬起跳。",
+        "爆发腾空瞬间双手短暂停离手柄，随后轻柔顺势吸收冲击落回把手并顺势下沉，按规定次数重复。"
+      ]
+    },
+    "0546": {
+      "name_zh": "平凳坐姿双壶铃推举",
+      "category": "shoulders",
+      "equipment": "kettlebell",
+      "target": "delts",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "triceps",
+        "core"
+      ],
+      "required_equipment_zh": [
+        "平板训练凳"
+      ],
+      "instructions_zh": [
+        "坐在平板训练凳上，双脚平踏地面保持身体平衡，双手各持一个壶铃置于肩膀高度手掌朝前。",
+        "挺胸立腰沉肩，背部挺直紧绷核心，肘关节垂直朝向地面。",
+        "呼气由双侧三角肌协同发力，驱动两个壶铃垂直向上推过头顶直至双臂完全伸展。",
+        "在推举顶点停顿 1 秒充分感受肩部承重，吸气控制壶铃缓慢匀速下放回双肩起始位置，按计划重复。"
+      ]
+    },
+    "0547": {
+      "name_zh": "站姿双壶铃跷跷板推举",
+      "category": "shoulders",
+      "equipment": "kettlebell",
+      "target": "delts",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "triceps",
+        "core"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "双脚与肩同宽稳固站立，双手各持一个壶铃置于双肩前侧架式位，挺胸收紧腰腹。",
+        "单侧手臂先推举过头顶伸直，对侧手臂保持在肩膀架式位蓄力准备。",
+        "吸气缓慢下放高位壶铃的同时，呼气由对侧手臂同步向上推举对侧壶铃，两臂形成跷跷板式连续交替循环。",
+        "全程保持躯干垂直中立不左右摇晃，两臂动作节奏均匀流畅，按计划次数平稳完成。"
+      ]
+    },
+    "0548": {
+      "name_zh": "站姿壶铃相扑高拉",
+      "category": "back",
+      "equipment": "kettlebell",
+      "target": "traps",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "shoulders",
+        "glutes",
+        "hamstrings"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "双脚比肩宽站立呈相扑站姿，脚尖朝外展约 45 度，双手正手紧握放在地面的壶铃手柄。",
+        "屈膝屈髋俯身，挺胸沉肩保持脊柱平直，吸气做好相扑提拉准备。",
+        "呼气由臀腿协同爆发蹬地伸展髋膝，顺势驱动斜方肌与三角肌引肘向上垂直将壶铃提拉至锁骨与下巴下方。",
+        "在提拉顶点手肘保持高于手腕并停顿 1 秒充分收缩斜方肌，吸气匀速受控放回地面或膝下起始位，按计划重复。"
+      ]
+    },
+    "0549": {
+      "name_zh": "站姿双臂壶铃摇摆",
+      "category": "upper legs",
+      "equipment": "kettlebell",
+      "target": "glutes",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "hamstrings",
+        "core"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "双脚分开比肩略宽站立，双手握持壶铃手柄自然垂于身体前方，挺胸收腹下沉双肩。",
+        "屈髋向后推臀，带动双臂引导壶铃向后穿过两腿之间，背部保持平直中立蓄力。",
+        "呼气由臀大肌与腘绳肌发力爆发性强力向前顶髋蹬地，利用髋铰链冲量将壶铃顺势荡起至胸肩高度。",
+        "在摇摆顶点身体完全站立笔直锁定停顿 1 秒，吸气顺应壶铃自然下落弧度向后折叠屈髋回荡，按计划重复。"
+      ]
+    },
+    "0550": {
+      "name_zh": "站姿双壶铃深蹲推举",
+      "category": "shoulders",
+      "equipment": "kettlebell",
+      "target": "delts",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "quads",
+        "glutes",
+        "core"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "双脚与肩同宽站立，双手将两个壶铃架于双肩前侧架式位置，手肘微向下内收。",
+        "吸气屈髋屈膝向后下方深蹲，保持挺胸背直，下蹲直至大腿至少平行地面。",
+        "蹲至最低点呼气由臀腿爆发性蹬直站起，顺势将上升动量与肩部推力结合把双壶铃强力推过头顶。",
+        "在推举最高点双臂伸展身体笔直锁定停顿 1 秒，吸气顺势屈肘屈膝下沉衔接下一次深蹲，按计划循环。"
+      ]
+    },
+    "0551": {
+      "name_zh": "地面壶铃单臂土耳其起立深蹲式",
+      "category": "upper legs",
+      "equipment": "kettlebell",
+      "target": "glutes",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "quads",
+        "hamstrings",
+        "core"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "仰卧在地面训练垫上，单手握持壶铃垂直推举在胸肩上方锁定手臂，同侧腿屈膝脚踩地，对侧腿伸直。",
+        "以对侧手肘和手掌为支点侧推支撑起上身，顺势撑起骨盆将对侧腿向身体下方收拢转为深蹲蹲姿。",
+        "全程目光仰视上方壶铃保持负重臂垂直锁定，由双腿同时发力从深蹲姿态站立完全直立挺拔。",
+        "直立顶点停顿 1 秒，随后沿原动作顺序缓慢下蹲、手撑地面并回退坐回仰卧起始位，单侧完成后换边。"
+      ],
+      "perSide": true
+    }
+  },
+  "pending": {
+    "0542": "待修图 · 规范单臂抓举并激活单侧独立计次规范为站姿壶铃单臂抓举；原动图首帧时长异常 (dur=[0, 800, 380, 800]) 且边缘存在杂色像素，待重制为 4 帧循环图。",
+    "0543": "待修图 · 消除海盗腿机械乱码错译并激活单侧独立计次规范为站姿壶铃单臂肩推；原动图首帧时长异常且边缘存在杂色像素，待重制为 4 帧循环图。",
+    "0544": "待修图 · 消除英文字符并激活单侧独立计次规范为站姿壶铃手枪式单腿深蹲；原动图首帧时长异常且边缘存在杂色像素，待重制为 4 帧循环图。",
+    "0545": "待修图 · 消除英文字符规范为双手把位壶铃爆发俯卧撑；原动图首帧时长异常且边缘存在杂色像素，待重制为 4 帧循环图。",
+    "0546": "待修图 · 补全平凳支持器械规范为平凳坐姿双壶铃推举；原动图首帧时长异常且边缘存在杂色像素，待重制为 4 帧循环图。",
+    "0547": "待修图 · 消除英文字符规范为站姿双壶铃跷跷板推举；原动图首帧时长异常且边缘存在杂色像素，待重制为 4 帧循环图。",
+    "0548": "待修图 · 消除和式机械错译规范为站姿壶铃相扑高拉；原动图首帧时长异常且边缘存在杂色像素，待重制为 4 帧循环图。",
+    "0549": "待修图 · 规范双臂摇摆规范为站姿双臂壶铃摇摆；原动图首帧时长异常且足底锚点严重漂移 (diff=185)，待重制为 4 帧循环图。",
+    "0550": "待修图 · 消除推举单一名词错译规范为站姿双壶铃深蹲推举；原动图首帧时长异常且边缘存在杂色像素，待重制为 4 帧循环图。",
+    "0551": "待修图 · 消除机器错译并激活单侧独立计次规范为地面壶铃单臂土耳其起立深蹲式；原动图首帧时长异常且边缘存在杂色像素，待重制为 4 帧循环图。"
+  },
+  "sources": {},
+  "review_notes": {},
+  "image_generation_calls": 0,
+  "generated_images_imported": 0,
+  "initial_validation": "passed",
+  "newly_reviewed": [],
+  "android_playback_visually_reviewed": []
+}

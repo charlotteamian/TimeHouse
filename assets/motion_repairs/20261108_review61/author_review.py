@@ -1,0 +1,231 @@
+#!/usr/bin/env python3
+"""Author Batch 61 review updates, pending notes, code baseline, and QA spec (0 candidates; 10 deferred)."""
+from pathlib import Path
+import json
+import hashlib
+
+B = Path(__file__).resolve().parent
+R = B.parents[2]
+BATCH_ID = "20261108_review61"
+VERSION = "1.2.66"
+VERSION_CODE = 2026110801
+
+inspected = ["3637", "3638", "3639", "3640", "3645", "3655", "3656", "3662", "3663", "3665"]
+review_candidates = []
+registered_media = []
+
+definition_updates = {
+    "3637": {
+        "name_zh": "健腹轮直腿俯撑前滚",
+        "category": "waist",
+        "equipment": "body weight",
+        "target": "abs",
+        "muscle_group": "core",
+        "secondary_muscles": ["shoulders", "triceps"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚并拢以前脚掌撑地，双手正握健腹轮两端把手立于身前地面，呈直腿高姿俯撑准备。",
+            "核心紧缩、背部微圆含胸，吸气时受控带动健腹轮向前匀速滚动伸展躯干。",
+            "向前滚动至双臂伸过头顶、身体几乎贴近地面的一条斜直线，维持腹肌离心受力。",
+            "呼气由腹直肌与背阔肌收缩将健腹轮向后拉回至双脚前方起始俯撑位，重复规定次数。",
+        ],
+    },
+    "3638": {
+        "name_zh": "俯卧撑接单腿交替登山跑",
+        "category": "cardio",
+        "equipment": "body weight",
+        "target": "cardiovascular system",
+        "muscle_group": "quadriceps",
+        "secondary_muscles": ["chest", "triceps"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "采取标准俯卧撑起始姿势，双手与肩同宽撑地，身体从头到脚跟成一条斜直线。",
+            "屈双肘控制躯干下沉至胸部接近地面，随即呼气推直双臂回到高撑位。",
+            "紧接着收紧核心，快速将一侧单膝向前上方提拉冲向胸部，随后迅速换腿交替进行登山跑动。",
+            "完成规定次数交替登山步后顺势衔接下一次俯卧撑，保持紧凑节奏完成训练。",
+        ],
+    },
+    "3639": {
+        "name_zh": "仰卧屈膝单侧交替左右摆腿",
+        "category": "waist",
+        "equipment": "body weight",
+        "target": "abs",
+        "muscle_group": "obliques",
+        "secondary_muscles": ["glutes"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "仰卧平躺于垫上，双臂向身体两侧平展呈十字形按实地面以稳定上体，双膝弯曲约 90 度并拢抬起。",
+            "双肩与上背紧贴垫面不离地，吸气时腹斜肌受控带动并拢的双膝向一侧缓慢下放至接近地面。",
+            "在侧方短暂停顿感受对侧侧腹肌群拉伸收缩后，呼气发力将双膝拉回胸前正上方。",
+            "随后缓慢向对侧交替下放摆腿，按规定次数平稳进行左右交替练习。",
+        ],
+    },
+    "3640": {
+        "name_zh": "仰卧卷腹单侧交替触膝",
+        "category": "waist",
+        "equipment": "body weight",
+        "target": "abs",
+        "muscle_group": "hip flexors",
+        "secondary_muscles": [],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "仰卧平躺于地面，双膝屈曲、双脚平踩地面，双手轻扶耳后或抱头、双肘打开。",
+            "呼气时腹直肌收缩发力带动肩胛骨离开地面向上卷腹，同时身体微转将一侧手或肘部伸向对侧膝盖。",
+            "顶峰短暂挤压腹肌与斜肌后，吸气有控制地缓慢落回起始仰卧位。",
+            "换另一侧手与肘向对侧膝部交替卷腹碰触，重复规定次数。",
+        ],
+    },
+    "3645": {
+        "name_zh": "仰卧单腿伸腿臀桥",
+        "category": "upper legs",
+        "equipment": "body weight",
+        "target": "glutes",
+        "muscle_group": "hamstrings",
+        "secondary_muscles": ["quadriceps"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "仰卧平躺于训练垫上，一侧支撑腿屈膝约 90 度脚掌踩实地面，对侧非支撑腿向前上方笔直伸平悬空。",
+            "双臂平放于体侧地面维持上身平衡，核心微收紧保持骨盆中立。",
+            "呼气时由支撑腿臀大肌与腘绳肌集中发力向上推举髋部，使大腿与躯干呈一条斜直线。",
+            "顶峰短暂停顿充分夹紧臀部，吸气缓慢受控放回臀部接近地面，完成一侧规定次数后换腿练习。",
+        ],
+    },
+    "3655": {
+        "name_zh": "行进间单腿交替高抬膝弓步蹲",
+        "category": "cardio",
+        "equipment": "body weight",
+        "target": "cardiovascular system",
+        "muscle_group": "quadriceps",
+        "secondary_muscles": ["hamstrings", "glutes", "calves"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚并拢站立，挺胸收腹，双臂屈肘自然摆动准备。",
+            "向前迈步的同时单腿爆发高抬膝至大腿过髋水平位，躯干保持笔直直立平衡。",
+            "随后大步向前下落成前弓步蹲，前大腿接近平行于地面、后膝接近微擦地面缓冲。",
+            "前脚蹬地直接推起后腿并顺势向前上方高抬膝过渡成下一次弓步，交替前进完成规定次数。",
+        ],
+    },
+    "3656": {
+        "name_zh": "原地快速小步跑",
+        "category": "cardio",
+        "equipment": "body weight",
+        "target": "cardiovascular system",
+        "muscle_group": "quadriceps",
+        "secondary_muscles": ["hamstrings", "calves"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚分开与髋同宽站立，身体略微前倾、重心压低在两脚前脚掌上，双臂屈肘置于身侧。",
+            "前脚掌以极高频率交替轻快蹬地小幅弹起，步幅紧凑短小、脚跟始终悬空不着地。",
+            "双臂随步伐紧凑快速前后摆动，核心持续收缩保持躯干稳定。",
+            "维持高步频与顺畅呼吸，持续进行规定时长或步数。",
+        ],
+    },
+    "3662": {
+        "name_zh": "倒V字折髋推起转眼镜蛇式俯卧撑",
+        "category": "chest",
+        "equipment": "body weight",
+        "target": "pectorals",
+        "muscle_group": "",
+        "secondary_muscles": ["core", "shoulders", "triceps"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "从高姿直臂俯撑起始，双手略宽于肩撑地，先推臀向上使躯干呈倒 V 折髋姿态。",
+            "吸气屈肘将头胸部沿斜下方紧贴地面向前滑行俯冲掠过。",
+            "向前推过最低点后伸直双臂抬起胸部成腹部贴地微悬空的眼镜蛇伸展体位，充分拉伸腹部并收缩背肌。",
+            "呼气由胸臂推力逆向推起或后推臀部回至倒 V 支撑位，重复规定次数。",
+        ],
+    },
+    "3663": {
+        "name_zh": "反向支撑单腿交替抬腿",
+        "category": "waist",
+        "equipment": "body weight",
+        "target": "abs",
+        "muscle_group": "glutes",
+        "secondary_muscles": ["hamstrings", "shoulders"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "坐在地面双腿并拢向前伸直，双手置于臀后地面手指朝向脚尖，推直双臂将臀部挺起成反向斜板支撑位。",
+            "身体从肩部到脚跟成一条笔直斜线，下沉肩胛骨并收紧臀大肌与后背。",
+            "呼气时保持反向支撑稳定不掉髋，单腿并直发力向上抬高至大腿斜上方位。",
+            "吸气缓慢将腿放回脚跟着地，随后换对侧腿交替向上直腿抬起，按规定次数交替进行。",
+        ],
+    },
+    "3665": {
+        "name_zh": "高低姿单手交替俯撑",
+        "category": "waist",
+        "equipment": "body weight",
+        "target": "abs",
+        "muscle_group": "",
+        "secondary_muscles": ["shoulders", "triceps", "core"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "从直臂高姿俯撑位起始，双手置于肩部正下方，身体成一条斜直线、核心极度绷紧。",
+            "保持骨盆稳定不左右摆晃，依次屈一侧肘关节以前臂贴地支撑，随后对侧手臂同样屈肘下放进入平板前臂支撑位。",
+            "短暂停顿后以单手手掌撑地推起躯干，接着对侧手撑起推直身体回到直臂高姿俯撑。",
+            "换先下放支撑臂的顺序交替进行高低姿态转换，按规定次数完成训练。",
+        ],
+    },
+}
+
+pending = {
+    "3637": "待修图 · 纠正错译“轮式跑”为健腹轮直腿俯撑前滚（移除误归主训的股四头肌）；原图仅有 2 帧素材 (nf=2) 严重违反 4 帧动作规范标准，待重制。",
+    "3638": "待修图 · 纠正错译为俯卧撑接单腿交替登山跑（激活单侧计次）；原图 F0 触右缘 x=479 (right=15) 且 F1 触左缘 x=0 (left=15) 双端剧烈截断，待重制。",
+    "3639": "待修图 · 去“（男）”规范为仰卧屈膝单侧交替左右摆腿（激活单侧计次、纠正分类为 waist/abs 主训）；原图左右摆腿下肢旋转无法静态配准，待重制。",
+    "3640": "待修图 · 规范为仰卧卷腹单侧交替触膝（激活单侧计次、去重字段）；原图 F2 触右缘 x=479 截断 (right=16) 且卷腹交替错位，待重制。",
+    "3645": "待修图 · 去括号规范为仰卧单腿伸腿臀桥（激活单侧计次、去重字段）；原图单腿举臀全帧下肢形变无法静态配准，待重制。",
+    "3655": "待修图 · 已规范为行进间单腿交替高抬膝弓步蹲（激活单侧计次）；原图高抬腿跨步大范围移动无法锁定背景，待重制。",
+    "3656": "待修图 · 已规范为原地快速小步跑；原图快速原地踏步步频腾空飘移无法静态配准，待重制。",
+    "3662": "待修图 · 纠正错译为倒V字折髋推起转眼镜蛇式俯卧撑（纠正分类为 chest/pectorals 主训）；原图 F0 触右缘 (right=8) 且 F1 触左缘 (left=7) 双端截断，待重制。",
+    "3663": "待修图 · 消除平板触发词规范为反向支撑单腿交替抬腿（激活单侧计次与反向支撑保持）；原图支撑脚相对支撑双手发生 22 px 严重内部形变拉伸 (support_foot F1(-21,-2)/F2(-23,-3))，待重制。",
+    "3665": "待修图 · 消除平板触发词规范为高低姿单手交替俯撑（激活单侧计次）；原图高低姿过渡 F2 双脚 (9,24) bs=0.8139 < 0.96 且头部横纵滑移，待重制。",
+}
+
+sources = {}
+review_notes = {}
+
+before_reviews = json.loads((B / "before/exercise_reviews.json").read_text())
+reviewed_count = len(before_reviews["reviewed"]) + len(review_candidates)
+
+review_result = {
+    "batch": BATCH_ID,
+    "version": VERSION,
+    "version_code": VERSION_CODE,
+    "output": "build/review61-20261108",
+    "inspected": inspected,
+    "review_candidates": review_candidates,
+    "registered_media": registered_media,
+    "definition_updates": definition_updates,
+    "pending": pending,
+    "sources": sources,
+    "review_notes": review_notes,
+    "image_generation_calls": 0,
+    "generated_images_imported": 0,
+}
+(B / "review-result.json").write_text(json.dumps(review_result, ensure_ascii=False, indent=2) + "\n")
+
+code_paths = [
+    "app/src/main/java",
+    "scripts/validate_exercise_dataset.sh",
+    "scripts/build_android_debug.sh",
+]
+baseline = {}
+for rel in code_paths:
+    p = R / rel
+    if p.is_file():
+        baseline[rel] = hashlib.sha256(p.read_bytes()).hexdigest()
+    else:
+        for f in sorted(p.rglob("*")):
+            if f.is_file():
+                baseline[str(f.relative_to(R))] = hashlib.sha256(f.read_bytes()).hexdigest()
+(B / "code-baseline.json").write_text(json.dumps(baseline, ensure_ascii=False, indent=2) + "\n")
+
+qa_spec = {
+    "batch": BATCH_ID,
+    "expected_checks": 16,
+    "expected_reviewed_after_approve": reviewed_count,
+    "candidate_ids": [],
+    "candidate_required_equipment": {},
+    "expected_per_side_ids": ["3638", "3639", "3640", "3645", "3655", "3663", "3665"],
+}
+(B / "qa-spec.json").write_text(json.dumps(qa_spec, ensure_ascii=False, indent=2) + "\n")
+print(f"Authored review-result.json, code-baseline.json, and qa-spec.json for {BATCH_ID}")

@@ -1,0 +1,230 @@
+#!/usr/bin/env python3
+"""Author Batch 92 review updates, pending notes, code baseline, and QA spec (0 candidates; 10 deferred)."""
+from pathlib import Path
+import json
+import hashlib
+
+B = Path(__file__).resolve().parent
+R = B.parents[2]
+BATCH_ID = "20261209_review92"
+VERSION = "1.2.97"
+VERSION_CODE = 2026120901
+
+inspected = ["0597", "0598", "0599", "0600", "0601", "0602", "0603", "0604", "0605", "0606"]
+review_candidates = []
+registered_media = []
+
+definition_updates = {
+    "0597": {
+        "name_zh": "器械坐姿髋外展",
+        "category": "upper legs",
+        "equipment": "leverage machine",
+        "target": "abductors",
+        "muscle_group": "",
+        "secondary_muscles": ["glutes", "hamstrings"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "调节座椅靠背与挡腿垫初始开度，坐在坐垫上背部紧贴靠背，双膝外侧紧贴阻力挡垫。",
+            "双手握紧座椅两侧固定把手维持上身稳定，双脚平稳踩在踏板上，收紧核心维持骨盆中立。",
+            "呼气由臀中肌与髋外展肌群主动发力，平稳将双腿向身体两侧用力推开张开至最大舒适开度。",
+            "在充分外展顶点顶峰收紧臀部外侧停顿 1 秒，吸气控制双腿匀速缓慢向内并拢回落至起始位，按计划重复。",
+        ],
+    },
+    "0598": {
+        "name_zh": "器械坐姿髋内收",
+        "category": "upper legs",
+        "equipment": "leverage machine",
+        "target": "adductors",
+        "muscle_group": "",
+        "secondary_muscles": ["hamstrings", "glutes"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "调节座椅靠背与挡腿垫初始外展角度，坐在坐垫上背部紧贴靠背，双膝内侧贴靠阻力挡垫。",
+            "双手握紧座椅两侧固定握把维持躯干平稳，双脚平踏在踏板上，保持挺胸沉肩。",
+            "呼气由大腿内侧大腿内收肌群强力发力，克服阻力将双腿向身体中线用力夹紧靠拢。",
+            "在双膝内收夹紧顶点用力挤压大腿内收肌群停顿 1 秒，吸气控制双腿匀速缓慢外展回放至初始拉伸位，按计划重复。",
+        ],
+    },
+    "0599": {
+        "name_zh": "器械坐姿腿弯举",
+        "category": "upper legs",
+        "equipment": "leverage machine",
+        "target": "hamstrings",
+        "muscle_group": "",
+        "secondary_muscles": ["calves"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "调节座椅靠背前后距离与大腿压板，坐在坐垫上大腿被挡板牢固压紧固定，小腿脚踝后侧贴紧阻力滚筒。",
+            "双手握紧两侧固定扶手，收紧腹部挺胸，膝关节对准器械旋转转轴。",
+            "呼气由双侧腘绳肌发力驱动双膝向下弯曲后勾，平稳将滚筒向坐垫下方卷动压下。",
+            "在屈膝最低点强力挤压大腿后侧腘绳肌停顿 1 秒，吸气控制小腿缓慢匀速向上抬升放回至初始接近伸直位，按计划重复。",
+        ],
+    },
+    "0600": {
+        "name_zh": "器械坐姿抬腿卷腹",
+        "category": "waist",
+        "equipment": "leverage machine",
+        "target": "abs",
+        "muscle_group": "",
+        "secondary_muscles": ["hip flexors"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "坐在卷腹器械坐垫上，背部靠在靠背上，双腿踏在抬腿阻力架或卡垫上，双手握紧固定把手。",
+            "沉肩收腹，呼气由腹直肌上下协同发力，驱动躯干向前下方卷折，同时带动双腿向胸部上方抬升。",
+            "在躯干与双腿双向折叠最大收缩顶点用力挤压腹肌停顿 1 秒，吸气匀速受控缓慢将躯干与双腿下放放平回至起始位，按计划重复。",
+        ],
+    },
+    "0601": {
+        "name_zh": "器械坐姿对握反向飞鸟",
+        "category": "shoulders",
+        "equipment": "leverage machine",
+        "target": "delts",
+        "muscle_group": "",
+        "secondary_muscles": ["trapezius", "rhomboids"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "调节座椅高度使握把位于胸肩高度，胸部紧贴前方支撑靠垫，双脚平踏地面保持身体稳定。",
+            "双手采用垂直平行对握握姿抓持内侧手柄掌心相对，肘关节微屈并保持固定角度。",
+            "呼气由三角肌后束与上背菱形肌主动发力，驱动双臂沿水平弧线向后向外展开，避免过度夹背耸肩。",
+            "在双臂展开至顶点充分挤压三角肌后束停顿 1 秒，吸气控制把手匀速缓慢回放至胸前起始拉伸位，按计划重复。",
+        ],
+    },
+    "0602": {
+        "name_zh": "器械坐姿反向飞鸟",
+        "category": "shoulders",
+        "equipment": "leverage machine",
+        "target": "delts",
+        "muscle_group": "",
+        "secondary_muscles": ["trapezius", "rhomboids"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "调节座椅高度使横向把手与肩部平齐，面朝器械胸部稳固贴靠胸垫，双脚踩实地面保持平衡。",
+            "双手采用水平正手握姿抓握把手掌心朝下，沉肩挺胸，手肘微屈锁住弧度。",
+            "呼气由三角肌后束发力带动双臂沿水平面平稳向后向外划出宽弧线，孤立刺激后束。",
+            "展开至最高点顶峰收紧三角肌后束停顿 1 秒，吸气匀速缓慢放回把手回至胸前起始位，按计划重复。",
+        ],
+    },
+    "0603": {
+        "name_zh": "器械坐姿推肩",
+        "category": "shoulders",
+        "equipment": "leverage machine",
+        "target": "delts",
+        "muscle_group": "",
+        "secondary_muscles": ["triceps", "chest"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "调节推肩器械座椅高度，坐稳后背部平贴靠背，双脚踩实地面建立稳固支撑底盘。",
+            "双手抓握推肩把手位于双肩高度，手肘微收位于手腕垂直下方，挺胸沉肩收紧核心。",
+            "呼气由三角肌前束与中束协同发力，驱动握把垂直向上推举过头顶直至手臂充分伸展。",
+            "在推举顶点充分感受肩部顶峰承重停顿 1 秒，吸气控制握把匀速缓慢下放至双肩起始高度，按计划重复。",
+        ],
+    },
+    "0604": {
+        "name_zh": "器械坐姿耸肩",
+        "category": "back",
+        "equipment": "leverage machine",
+        "target": "traps",
+        "muscle_group": "",
+        "secondary_muscles": ["shoulders"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "调节座椅高度，坐在坐垫上背部靠在靠垫上，双手自然下垂正握抓住器械下方的耸肩把手。",
+            "挺胸收腹脊柱自然平直，手臂自然伸直仅作为连接负重的吊绳，手肘不弯曲借力。",
+            "呼气由斜方肌上束主动收缩发力，垂直向上提起双肩使肩峰尽可能靠近耳朵方向。",
+            "在最高耸肩点顶峰收紧斜方肌停顿 1 秒，吸气匀速缓慢下沉双肩放回至小幅度下压充分拉伸起始位，按计划重复。",
+        ],
+    },
+    "0605": {
+        "name_zh": "器械站姿小腿提踵",
+        "category": "lower legs",
+        "equipment": "leverage machine",
+        "target": "calves",
+        "muscle_group": "",
+        "secondary_muscles": ["soleus"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "调节肩部软垫高度，双肩稳妥顶在器械肩垫下方，双手握紧固定把手，前脚掌踩在踏板边缘脚后跟悬空。",
+            "双腿伸直但膝盖微屈不锁死，先将脚后跟缓慢匀速下沉至低于踏板水平面以获得小腿肌群深度预拉伸。",
+            "呼气由腓肠肌与比目鱼肌爆发蹬伸前脚掌，垂直向上抬起整个身体直至脚踝完全提至最高点。",
+            "在最高点顶峰收紧小腿肌群停顿 1 秒，吸气匀速受控缓慢下沉脚后跟回至起始深度拉伸位，按计划重复。",
+        ],
+    },
+    "0606": {
+        "name_zh": "器械胸托丁字杠划船",
+        "category": "back",
+        "equipment": "leverage machine",
+        "target": "upper back",
+        "muscle_group": "",
+        "secondary_muscles": ["biceps", "forearms"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "调节胸垫高度与座椅位置，胸部完全贴稳倾斜胸垫，双脚踏稳下方踏板，减轻腰椎剪切压力。",
+            "双手正握或对握抓紧丁字杠把手，初始双臂自然向前下方充分伸展，肩胛骨下沉建立上背拉伸感。",
+            "呼气由上背肌群、中下斜方肌及菱形肌协同发力，屈肘将把手沿身体方向向后拉向腹部两侧。",
+            "拉至顶点双侧肩胛骨用力向内夹拢挤压停顿 1 秒，吸气匀速控制把手向前放回至手臂充分伸展起始位，按计划重复。",
+        ],
+    },
+}
+
+pending = {
+    "0597": "待修图 · 消除杠杆直译规范为器械坐姿髋外展；原动图多达 10 帧且边缘杂色，待重制为 4 帧循环图。",
+    "0598": "待修图 · 消除杠杆直译规范为器械坐姿髋内收；原动图仅 2 帧且边缘杂色，待重制为 4 帧循环图。",
+    "0599": "待修图 · 消除杠杆直译规范为器械坐姿腿弯举；原动图多达 10 帧且边缘杂色，待重制为 4 帧循环图。",
+    "0600": "待修图 · 消除杠杆直译规范为器械坐姿抬腿卷腹；原动图仅 2 帧且边缘杂色，待重制为 4 帧循环图。",
+    "0601": "待修图 · 消除杠杆直译规范握法为器械坐姿对握反向飞鸟；原动图多达 10 帧且边缘杂色，待重制为 4 帧循环图。",
+    "0602": "待修图 · 消除杠杆直译规范器械动作为器械坐姿反向飞鸟；原动图仅 2 帧且边缘杂色，待重制为 4 帧循环图。",
+    "0603": "待修图 · 消除杠杆直译规范为器械坐姿推肩；原动图仅 2 帧且边缘杂色，待重制为 4 帧循环图。",
+    "0604": "待修图 · 消除杠杆直译规范为器械坐姿耸肩；原动图多达 10 帧且边缘杂色，待重制为 4 帧循环图。",
+    "0605": "待修图 · 消除小腿抬举直译规范为器械站姿小腿提踵；原动图多达 10 帧且边缘杂色，待重制为 4 帧循环图。",
+    "0606": "待修图 · 消除英文字符规范为器械胸托丁字杠划船；原动图多达 10 帧且边缘杂色，待重制为 4 帧循环图。",
+}
+
+sources = {}
+review_notes = {}
+
+before_reviews = json.loads((B / "before/exercise_reviews.json").read_text())
+reviewed_count = len(before_reviews["reviewed"]) + len(review_candidates)
+
+review_result = {
+    "batch": BATCH_ID,
+    "version": VERSION,
+    "version_code": VERSION_CODE,
+    "output": "build/review92-20261209",
+    "inspected": inspected,
+    "review_candidates": review_candidates,
+    "registered_media": registered_media,
+    "definition_updates": definition_updates,
+    "pending": pending,
+    "sources": sources,
+    "review_notes": review_notes,
+    "image_generation_calls": 0,
+    "generated_images_imported": 0,
+}
+(B / "review-result.json").write_text(json.dumps(review_result, ensure_ascii=False, indent=2) + "\n")
+
+code_paths = [
+    "app/src/main/java",
+    "scripts/validate_exercise_dataset.sh",
+    "scripts/build_android_debug.sh",
+]
+baseline = {}
+for rel in code_paths:
+    p = R / rel
+    if p.is_file():
+        baseline[rel] = hashlib.sha256(p.read_bytes()).hexdigest()
+    else:
+        for f in sorted(p.rglob("*")):
+            if f.is_file():
+                baseline[str(f.relative_to(R))] = hashlib.sha256(f.read_bytes()).hexdigest()
+(B / "code-baseline.json").write_text(json.dumps(baseline, ensure_ascii=False, indent=2) + "\n")
+
+qa_spec = {
+    "batch": BATCH_ID,
+    "expected_checks": 16,
+    "expected_reviewed_after_approve": reviewed_count,
+    "candidate_ids": [],
+    "candidate_required_equipment": {},
+    "expected_per_side_ids": [],
+}
+(B / "qa-spec.json").write_text(json.dumps(qa_spec, ensure_ascii=False, indent=2) + "\n")
+print(f"Authored review-result.json, code-baseline.json, and qa-spec.json for {BATCH_ID}")

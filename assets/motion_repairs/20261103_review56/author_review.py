@@ -1,0 +1,231 @@
+#!/usr/bin/env python3
+"""Author Batch 56 review updates, pending notes, code baseline, and QA spec (0 candidates; 10 deferred)."""
+from pathlib import Path
+import json
+import hashlib
+
+B = Path(__file__).resolve().parent
+R = B.parents[2]
+BATCH_ID = "20261103_review56"
+VERSION = "1.2.61"
+VERSION_CODE = 2026110301
+
+inspected = ["3297", "2403", "3298", "2470", "3299", "2705", "3300", "2706", "3301", "2796"]
+review_candidates = []
+registered_media = []
+
+definition_updates = {
+    "3297": {
+        "name_zh": "单杠直体后水平悬垂",
+        "category": "back",
+        "equipment": "body weight",
+        "target": "upper back",
+        "muscle_group": "",
+        "secondary_muscles": ["biceps", "forearms", "core"],
+        "required_equipment_zh": ["单杠"],
+        "instructions_zh": [
+            "双手略宽于肩正握稳固高单杠，肩胛下沉并收紧核心开始垂直下挂。",
+            "先团身折叠双腿穿向两臂之间，向后下方翻转成倒悬穿过杠底的仰背姿态。",
+            "随后缓缓向后展开并直双腿，直到身体背面朝上呈水平一条直线并平行于地面。",
+            "双臂保持直臂紧夹锁定发力、全身核心与臀背绷紧定型按规定秒数，结束后收腿受控落回。",
+        ],
+    },
+    "2403": {
+        "name_zh": "站姿护肘托板单臂交替哑铃弯举",
+        "category": "upper arms",
+        "equipment": "dumbbell",
+        "target": "biceps",
+        "muscle_group": "forearms",
+        "secondary_muscles": [],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚分开与肩同宽自然站直，佩戴好肘臂托板并将双大臂固定紧贴托板前侧，双手反握（掌心朝前）各持哑铃垂于体侧。",
+            "稳住躯干与大臂紧贴托板不借力摇晃，呼气时单侧肱二头肌集中发力屈肘向上弯举一侧哑铃至肩前高点。",
+            "在顶峰短暂停顿感受肱二头肌与前臂充分收缩，随后吸气有控制地缓慢放回起始底位。",
+            "换对侧手臂以相同节奏交替进行弯举，按规定次数完成左右两侧练习。",
+        ],
+    },
+    "3298": {
+        "name_zh": "地面分腿俄式撑体挺身",
+        "category": "waist",
+        "equipment": "body weight",
+        "target": "abs",
+        "muscle_group": "",
+        "secondary_muscles": ["shoulders", "triceps", "chest"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "采用高姿直臂俯撑准备，双手与肩同宽、指尖略向外展按实地面，双腿向左右大大分开脚尖点地。",
+            "锁定肘关节伸直并全力向前推送肩部越过手掌垂直线，同时极度收紧腹部核心、斜肌与臀肌。",
+            "顺势将大幅外展分直的双腿缓慢抬离地面，持续调整至双腿躯干与地面平行、身体呈分腿水平悬空。",
+            "按规定秒数稳定维持定型姿态，再缓慢屈髋下落脚尖点地休息。",
+        ],
+    },
+    "2470": {
+        "name_zh": "俯卧地面哑铃反向飞鸟",
+        "category": "shoulders",
+        "equipment": "dumbbell",
+        "target": "delts",
+        "muscle_group": "",
+        "secondary_muscles": ["trapezius", "rhomboids"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "俯卧趴在平稳地面或训练垫上，双腿自然向后伸直并拢，双手对握各持一只轻量哑铃将双臂向前斜上方伸展靠近地面。",
+            "腹部微收贴稳垫面，肩胛略后缩微抬胸口离开地面保持脊柱中立。",
+            "呼气时三角肌后束发力带动双臂沿水平两侧弧线向上展开飞起至肩膀两侧与肩平，顶峰夹紧肩胛。",
+            "吸气有控制地沿弧线缓慢放回前伸或体侧低位，重复规定次数。",
+        ],
+    },
+    "3299": {
+        "name_zh": "地面并腿俄式撑体挺身",
+        "category": "waist",
+        "equipment": "body weight",
+        "target": "abs",
+        "muscle_group": "",
+        "secondary_muscles": ["shoulders", "chest", "triceps"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "采取直臂俯卧撑位，双手与肩同宽手指微外展实按地面，双腿向后并拢紧绷。",
+            "锁死双肘、肩胛充分前引压实并逐步前倾重心使双肩大幅越过掌根。",
+            "以全身核心与肩前束强大张力将并拢伸直的双腿向上缓慢撬离地面，呈全身笔直水平的悬空定型。",
+            "稳定维持规定秒数不掉髋塌腰，完成后受控落回脚尖着地姿态。",
+        ],
+    },
+    "2705": {
+        "name_zh": "俯卧地面哑铃前臂旋前",
+        "category": "lower arms",
+        "equipment": "dumbbell",
+        "target": "forearms",
+        "muscle_group": "",
+        "secondary_muscles": ["biceps", "triceps"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "俯卧在训练垫上，双腿向后自然并拢伸直，双臂直臂向前伸平于头部前方地面、双手先对握或半斜握各持一只轻哑铃。",
+            "核心微收使躯干贴稳地面，仅保持肘伸直且仅微抬手腕与前臂脱离垫面准备。",
+            "呼气时由前臂肌群主导发力控制手腕向内侧旋前下转并稳住哑铃平举高度，感受前臂伸屈肌群紧张发力。",
+            "在旋前终点短暂停顿后，吸气缓慢受控回正并轻降归位，重复规定次数。",
+        ],
+    },
+    "3300": {
+        "name_zh": "地面直臂前倾俄式撑体",
+        "category": "waist",
+        "equipment": "body weight",
+        "target": "abs",
+        "muscle_group": "",
+        "secondary_muscles": ["shoulders", "chest", "triceps"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "采取标准直臂高姿俯撑位，双手约与肩同宽按实地面、掌指朝外或微向前，双脚前脚掌点地。",
+            "核心腹部与斜肌收紧不塌腰，双手推地使肩胛前引后背微圆呈含胸紧收姿态。",
+            "依靠脚踝蹬伸将整副直立躯干持续向前水平移送，让肩关节明显超越手掌位置形成高强度负荷。",
+            "按规定秒数静力定型维持前倾角度，完成后控稳重心缓缓后移归位。",
+        ],
+    },
+    "2706": {
+        "name_zh": "仰卧地面哑铃前臂旋后",
+        "category": "lower arms",
+        "equipment": "dumbbell",
+        "target": "forearms",
+        "muscle_group": "",
+        "secondary_muscles": ["biceps", "shoulders"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "仰卧在平稳地面或训练垫上，双腿伸直并拢、肩背紧贴地面，双臂贴近体侧伸放、双手各握一只轻量哑铃。",
+            "呼气时维持肘部贴稳或微屈靠紧身体两侧，前臂发力向上小幅弯收的同时将手腕充分外旋朝上旋后。",
+            "高点短暂停顿感受前臂旋后肌群及前臂前侧充分收紧发力。",
+            "吸气缓慢旋回原位并受控下放归位至体侧，重复规定次数。",
+        ],
+    },
+    "3301": {
+        "name_zh": "地面团身蛙式撑体",
+        "category": "waist",
+        "equipment": "body weight",
+        "target": "abs",
+        "muscle_group": "",
+        "secondary_muscles": ["shoulders", "chest", "triceps"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "从地面直臂高姿俯撑准备，双手与肩同宽按实地面、双脚并拢。",
+            "微屈肘将重心中下压低或前倾上移重心至双手正上方，收紧腹核心并顺势提臀屈膝。",
+            "将双膝向胸腹前方团拢收回离地悬空，以双臂肩肘支撑平衡全身呈团身蛙撑定型。",
+            "按规定秒数维持悬空平衡后，缓慢向后伸腿脚尖着地归位。",
+        ],
+    },
+    "2796": {
+        "name_zh": "稳固踏台单腿哑铃登阶弓步",
+        "category": "upper legs",
+        "equipment": "dumbbell",
+        "target": "quads",
+        "muscle_group": "",
+        "secondary_muscles": ["glutes", "hamstrings", "calves"],
+        "required_equipment_zh": ["稳固踏台"],
+        "instructions_zh": [
+            "站在稳固踏台前约一小步距离，双手对握各持一只哑铃垂于身体两侧，核心收紧。",
+            "一侧单腿迈出并将全脚掌稳踩踏台中央，躯干微前倾重心前移至踏台腿上。",
+            "呼气时发力脚跟蹬踏踏台将身体垂直推举站高，对侧后腿跟上轻并站上或抬膝控制片刻。",
+            "吸气有控制地将后腿先放回地面恢复起始弓步站姿，完成一侧规定次数后换另一条腿练习。",
+        ],
+    },
+}
+
+pending = {
+    "3297": "待修图 · 纠正生硬错译“背杠杆”为单杠直体后水平悬垂（补全单杠支持、定型等长保持并移除误归主训的肱二头肌）；原图悬垂翻转至后水平全程人物大幅倒翻移位且 F2 顶杠锚点匹配分仅 0.8962 < 0.96，待重制。",
+    "2403": "待修图 · 已去括号规范为站姿护肘托板单臂交替哑铃弯举并去重前臂字段（补全单侧计次，保留二头+前臂双主训红标）；原图 F1 头部独立右偏 (+12,0) 而双脚停留 (0,0)（跨点差速 12 px > 2.0 px），待重制。",
+    "3298": "待修图 · 已清除误触发词“平板”重命名为地面分腿俄式撑体挺身（定型等长保持并移除误归主训的肩部）；原图 F2 足尖触右缘 x=479 截断 (right=30) 且后脚跟大幅悬空起落，待重制。",
+    "2470": "待修图 · 已规范为俯卧地面哑铃反向飞鸟（去除误归主训的斜方肌）；原图 F1 头部偏移 (-21,+23) bs=0.8267 而双脚在 (0,0)，F2 双脚 (-4,+24) bs=0.9386 < 0.96，待重制。",
+    "3299": "待修图 · 已规范为地面并腿俄式撑体挺身（定型等长保持并移除误归主训的肩部）；原图从撑地准备跃起为水平悬空全程重心与双脚大幅移位，待重制。",
+    "2705": "待修图 · 已规范为俯卧地面哑铃前臂旋前（移除误归主训的肱二头肌）；原图 F2 双脚 (+17,+13) bs=0.8292 与头部 (-16,-23) bs=0.8765 跨点大幅飘移，待重制。",
+    "3300": "待修图 · 已规范为地面直臂前倾俄式撑体（定型等长保持并移除误归主训的肩部）；原图 F2 脚跟触右缘 x=479 截断 (right=2) 且前倾全躯干横向滑移，待重制。",
+    "2706": "待修图 · 已规范为仰卧地面哑铃前臂旋后（移除误归主训的肱二头肌）；原图 F2 整体上抬且双脚 (-6,-20) 与头部 (+6,-24) 发生水平拉扯错位 (bs=0.7983/0.8331)，待重制。",
+    "3301": "待修图 · 已规范为地面团身蛙式撑体（定型等长保持并移除误归主训的肩部）；原图撑体收腿悬空全程身位与臀膝大幅变换无法静帧配准，待重制。",
+    "2796": "待修图 · 已规范为稳固踏台单腿哑铃登阶弓步（补全稳固踏台器械、激活单侧计次、移除误归主训的臀肌）；原图 F0 触底 y=479 (bottom=39) 与相邻帧头顶残影溢出且 F2 触顶 y=0 (top=40) 双端截断，待重制。",
+}
+
+sources = {}
+review_notes = {}
+
+before_reviews = json.loads((B / "before/exercise_reviews.json").read_text())
+reviewed_count = len(before_reviews["reviewed"]) + len(review_candidates)
+
+review_result = {
+    "batch": BATCH_ID,
+    "version": VERSION,
+    "version_code": VERSION_CODE,
+    "output": "build/review56-20261103",
+    "inspected": inspected,
+    "review_candidates": review_candidates,
+    "registered_media": registered_media,
+    "definition_updates": definition_updates,
+    "pending": pending,
+    "sources": sources,
+    "review_notes": review_notes,
+    "image_generation_calls": 0,
+    "generated_images_imported": 0,
+}
+(B / "review-result.json").write_text(json.dumps(review_result, ensure_ascii=False, indent=2) + "\n")
+
+code_paths = [
+    "app/src/main/java",
+    "scripts/validate_exercise_dataset.sh",
+    "scripts/build_android_debug.sh",
+]
+baseline = {}
+for rel in code_paths:
+    p = R / rel
+    if p.is_file():
+        baseline[rel] = hashlib.sha256(p.read_bytes()).hexdigest()
+    else:
+        for f in sorted(p.rglob("*")):
+            if f.is_file():
+                baseline[str(f.relative_to(R))] = hashlib.sha256(f.read_bytes()).hexdigest()
+(B / "code-baseline.json").write_text(json.dumps(baseline, ensure_ascii=False, indent=2) + "\n")
+
+qa_spec = {
+    "batch": BATCH_ID,
+    "expected_checks": 16,
+    "expected_reviewed_after_approve": reviewed_count,
+    "candidate_ids": [],
+    "candidate_required_equipment": {},
+    "expected_per_side_ids": ["2403", "2796"],
+}
+(B / "qa-spec.json").write_text(json.dumps(qa_spec, ensure_ascii=False, indent=2) + "\n")
+print(f"Authored review-result.json, code-baseline.json, and qa-spec.json for {BATCH_ID}")

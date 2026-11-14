@@ -1,0 +1,220 @@
+{
+  "batch": "20261208_review91",
+  "version": "1.2.96",
+  "version_code": 2026120801,
+  "output": "build/review91-20261208",
+  "inspected": [
+    "0587",
+    "0588",
+    "0589",
+    "0590",
+    "0591",
+    "0592",
+    "0593",
+    "0594",
+    "0595",
+    "0596"
+  ],
+  "review_candidates": [],
+  "registered_media": [],
+  "definition_updates": {
+    "0587": {
+      "name_zh": "器械坐姿军式推举",
+      "category": "shoulders",
+      "equipment": "leverage machine",
+      "target": "delts",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "triceps",
+        "upper chest"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "调节座椅高度，坐在推举机上背部紧贴靠背，双脚踩实地面保持躯干中立平稳。",
+        "双手握紧推举把手握距略宽于肩，沉肩挺胸，手肘位于握把正下方保持垂直受力。",
+        "呼气由双侧三角肌主动发力，垂直向上推举把手直至双臂完全伸展，注意手肘不超伸锁死。",
+        "在推举顶点充分感受肩部顶峰收缩停顿 1 秒，吸气控制把手匀速缓慢下放回至双肩高度起始位，按计划重复。"
+      ]
+    },
+    "0588": {
+      "name_zh": "器械坐姿窄握划船",
+      "category": "back",
+      "equipment": "leverage machine",
+      "target": "upper back",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "biceps",
+        "forearms",
+        "lats"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "调整座椅高度与踏板距离，双脚平踏踏板微屈双膝，挺胸背部平直贴靠胸垫。",
+        "双手对握抓紧窄握手柄掌心相对，初始双臂自然向前充分伸展，肩胛骨下沉稳定。",
+        "呼气由上背肌群与背阔肌协同发力，驱动手柄向后拉向躯干下腹两侧，肘部贴近躯干。",
+        "在动作顶点肩胛骨用力向后夹紧收缩停顿 1 秒，吸气受控匀速向前放回把手至起始充分拉伸位，按计划重复。"
+      ]
+    },
+    "0589": {
+      "name_zh": "站姿杠铃地雷管单臂俯身划船",
+      "category": "back",
+      "equipment": "barbell",
+      "target": "upper back",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "biceps",
+        "forearms",
+        "lats"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "双脚前后弓步或与肩同宽微屈膝站立在地雷管杠铃侧方，屈髋俯身背部平直中立，非训练手可撑在同侧膝盖上维持平衡。",
+        "训练侧单手抓握地雷管杠铃杆末端或手柄，手臂自然垂悬充分拉伸背阔肌与上背。",
+        "呼气由训练侧背阔肌与上背肌群主动发力，屈肘沿身体侧向将杠铃杆向上拉向髋腰侧方。",
+        "拉至最高点用力收缩夹紧单侧肩胛骨停顿 1 秒，吸气匀速受控将杠铃下放回初始悬臂拉伸位，单侧完成后换另一侧。"
+      ],
+      "perSide": true
+    },
+    "0590": {
+      "name_zh": "器械坐姿单臂肩推",
+      "category": "shoulders",
+      "equipment": "leverage machine",
+      "target": "delts",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "triceps",
+        "upper back"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "调节座椅高度，坐在坐垫上背部紧贴靠背，双脚踩实地面维持骨盆水平中立。",
+        "单手握住一侧器械手柄位于肩前高度，手肘呈约 90 度角垂直指向下方，核心收紧避免身体倾斜代偿。",
+        "呼气由单侧三角肌主动发力，垂直向上推举手柄直至单臂完全伸展过顶，肘关节不锁死。",
+        "在推举顶点保持稳定承重停顿 1 秒，吸气控制把手缓慢匀速下放回肩前起始位，单侧做完后换另一侧。"
+      ],
+      "perSide": true
+    },
+    "0591": {
+      "name_zh": "器械坐姿双杠臂屈伸",
+      "category": "upper arms",
+      "equipment": "leverage machine",
+      "target": "triceps",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "chest",
+        "shoulders"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "调节座椅高度与压腿垫，坐稳后将大腿固定在挡垫下方，双手正握或对握抓紧两侧下压把手。",
+        "挺胸沉肩收腹，上身保持自然直立，手肘微屈锁住把手起始受力点。",
+        "呼气由肱三头肌主动发力伸直双肘，克服阻力将把手垂直向下平稳下压至双臂完全伸展。",
+        "在下压最低点强力挤压收缩肱三头肌停顿 1 秒，吸气控制把手匀速缓慢回放至肘部呈 90 度角起始位，按计划重复。"
+      ]
+    },
+    "0592": {
+      "name_zh": "器械坐姿牧师凳弯举",
+      "category": "upper arms",
+      "equipment": "leverage machine",
+      "target": "biceps",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "forearms"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "调节座椅高度，坐在坐垫上将上臂平稳贴放在倾斜托垫上，手肘对准器械旋转转轴。",
+        "双手反握抓持旋转把手掌心朝上，上身微前倾保持挺胸，胸部贴紧托垫上方。",
+        "呼气由肱二头肌主动发力向上屈肘弯举把手，保持上臂与手肘始终紧贴托垫不离开。",
+        "弯举至顶点双峰用力挤压肱二头肌停顿 1 秒，吸气控制把手匀速缓慢下放至双臂接近伸展起始位，按计划重复。"
+      ]
+    },
+    "0593": {
+      "name_zh": "器械反向山羊挺身",
+      "category": "upper legs",
+      "equipment": "leverage machine",
+      "target": "glutes",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "hamstrings",
+        "lower back"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "趴在反向挺身训练机上，髋部与腹部稳固贴靠支撑垫，双手紧握前方固定把手稳定躯干。",
+        "双腿下垂将小腿后侧或脚踝后方卡在阻力滚筒把手下方，核心收紧保持上身平稳不动。",
+        "呼气由臀大肌与腘绳肌发力驱动双腿向后上方摆动抬起，直至双腿与躯干呈平直延伸线。",
+        "在后抬顶点用力收紧臀大肌停顿 1 秒，吸气控制双腿匀速平稳缓慢落回起始下垂位，按计划重复。"
+      ]
+    },
+    "0594": {
+      "name_zh": "器械坐姿小腿提踵",
+      "category": "lower legs",
+      "equipment": "leverage machine",
+      "target": "calves",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "soleus"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "调节大腿压垫高度，坐在坐垫上将前脚掌踩在踏板边缘，脚后跟悬空，大腿软垫稳固压在膝盖上方。",
+        "双手轻握固定把手，先将脚后跟缓慢下沉至低于踏板水平面以充分拉伸小腿比目鱼肌与腓肠肌。",
+        "呼气由小腿肌群全力发力推蹬前脚掌，驱动阻力垫垂直向上抬升至脚踝最高屈曲点。",
+        "在提踵最高点顶峰收紧小腿肌群停顿 1 秒，吸气匀速受控缓慢下沉脚后跟回至初始深度拉伸位，按计划重复。"
+      ]
+    },
+    "0595": {
+      "name_zh": "器械坐姿卷腹",
+      "category": "waist",
+      "equipment": "leverage machine",
+      "target": "abs",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "obliques"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "根据体型调节座椅高度与胸垫阻力位置，坐在坐垫上胸前贴紧胸垫或双手抓紧肩上握把，双脚踩实地面。",
+        "收紧腹肌做好脊柱弯曲准备，呼气由腹直肌主动发力带动胸廓向骨盆方向卷缩。",
+        "在最大卷腹收缩点顶峰收紧核心停顿 1 秒，感受腹部深度挤压，吸气匀速缓慢抵抗阻力回放至直立起始位，按计划重复。"
+      ]
+    },
+    "0596": {
+      "name_zh": "器械坐姿飞鸟夹胸",
+      "category": "chest",
+      "equipment": "leverage machine",
+      "target": "pectorals",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "deltoids"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "调节座椅高度，坐在坐垫上背部与臀部紧靠靠背，双臂向两侧张开将肘部或手掌贴在阻力臂把手上。",
+        "沉肩挺胸，保持手肘微屈固定角度，肩关节处于中立舒适开度。",
+        "呼气由胸大肌发力驱动双臂沿水平弧线向胸前靠拢合拢，肘关节始终维持微屈锁定。",
+        "在胸前闭合顶点用力挤压胸肌中缝停顿 1 秒，吸气匀速受控将双臂向两侧缓慢打开回放至胸肌充分拉伸起始位，按计划重复。"
+      ]
+    }
+  },
+  "pending": {
+    "0587": "待修图 · 消除杠铃机械错译规范为器械坐姿军式推举；原动图多达 10 帧且边缘杂色，待重制为 4 帧循环图。",
+    "0588": "待修图 · 消除杠杆直译规范为器械坐姿窄握划船；原动图多达 10 帧且边缘杂色，待重制为 4 帧循环图。",
+    "0589": "待修图 · 消除反向划船错译并激活单侧独立计次规范为站姿杠铃地雷管单臂俯身划船；原动图仅 2 帧且边缘杂色，待重制为 4 帧循环图。",
+    "0590": "待修图 · 消除杠杆直译并激活单侧独立计次规范为器械坐姿单臂肩推；原动图仅 2 帧且边缘杂色，待重制为 4 帧循环图。",
+    "0591": "待修图 · 消除俯卧撑荒谬错译规范为器械坐姿双杠臂屈伸；原动图多达 10 帧且边缘杂色，待重制为 4 帧循环图。",
+    "0592": "待修图 · 规范牧师凳器械动作命名为器械坐姿牧师凳弯举；原动图多达 10 帧且边缘杂色，待重制为 4 帧循环图。",
+    "0593": "待修图 · 消除超伸展直译规范后链动作为器械反向山羊挺身；原动图仅 2 帧且边缘杂色，待重制为 4 帧循环图。",
+    "0594": "待修图 · 消除小腿抬举直译规范为器械坐姿小腿提踵；原动图多达 10 帧且边缘杂色，待重制为 4 帧循环图。",
+    "0595": "待修图 · 消除胸垫杠杆直译规范为器械坐姿卷腹；原动图仅 2 帧且边缘杂色，待重制为 4 帧循环图。",
+    "0596": "待修图 · 消除杠杆直译规范器械动作为器械坐姿飞鸟夹胸；原动图多达 10 帧且边缘杂色，待重制为 4 帧循环图。"
+  },
+  "sources": {},
+  "review_notes": {},
+  "image_generation_calls": 0,
+  "generated_images_imported": 0,
+  "initial_validation": "passed",
+  "newly_reviewed": [],
+  "android_playback_visually_reviewed": []
+}

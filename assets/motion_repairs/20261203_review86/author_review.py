@@ -1,0 +1,235 @@
+#!/usr/bin/env python3
+"""Author Batch 86 review updates, pending notes, code baseline, and QA spec (0 candidates; 10 deferred)."""
+from pathlib import Path
+import json
+import hashlib
+
+B = Path(__file__).resolve().parent
+R = B.parents[2]
+BATCH_ID = "20261203_review86"
+VERSION = "1.2.91"
+VERSION_CODE = 2026120301
+
+inspected = ["0522", "0523", "0524", "0525", "0526", "0527", "0528", "0529", "0530", "0531"]
+review_candidates = []
+registered_media = []
+
+definition_updates = {
+    "0522": {
+        "name_zh": "站姿俯身壶铃交替划船",
+        "category": "back",
+        "equipment": "kettlebell",
+        "target": "upper back",
+        "muscle_group": "",
+        "secondary_muscles": ["biceps", "forearms"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚与肩同宽稳固站立，双手各握一个壶铃，双膝微屈，以髋关节为折页屈髋俯身约 45 度。",
+            "挺胸收腹下沉双肩，保持脊柱呈自然中立位，双臂自然下垂垂直地面。",
+            "呼气由单侧背阔肌发力沉肩引肘，向上将该侧壶铃提拉至腰肋侧面，对侧手臂保持伸展不动。",
+            "在划船顶点充分挤压单侧背肌停顿 1 秒，吸气匀速下放壶铃回到起始位，随后换对侧手臂划船，双侧交替进行。",
+        ],
+    },
+    "0523": {
+        "name_zh": "站姿壶铃阿诺德推举",
+        "category": "shoulders",
+        "equipment": "kettlebell",
+        "target": "delts",
+        "muscle_group": "",
+        "secondary_muscles": ["triceps", "upper back"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚与肩同宽稳固站立，双手各持一个壶铃置于胸前肩膀高度，掌心朝向自己呈胸前反握姿态。",
+            "挺胸立腰收紧臀腹核心，肘关节贴近肋骨侧面，保持躯干正直不后仰。",
+            "呼气由三角肌与肱三头肌主导发力向上推举，推起过程中顺势旋转前臂使手掌逐渐转向前侧。",
+            "在推举顶点双臂完全伸展手掌朝前停顿 1 秒，吸气沿原弧度边旋转边匀速放回胸前起始位，按计划重复。",
+        ],
+    },
+    "0524": {
+        "name_zh": "站姿壶铃单臂侧屈推举",
+        "category": "waist",
+        "equipment": "kettlebell",
+        "target": "abs",
+        "muscle_group": "",
+        "secondary_muscles": ["shoulders", "triceps", "obliques"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚宽于肩站立，单手持壶铃置于肩前架式位，双脚脚尖微向对侧倾斜，目光注视上方壶铃。",
+            "收紧核心，微屈髋屈膝向对侧折叠俯身，对侧手臂顺着小腿内侧向下探，同时负重手臂保持垂直向上顶举。",
+            "继续折叠躯干直至对侧手轻触脚踝或地面，负重手臂在重力垂线方向保持完全伸直锁定。",
+            "在折叠顶点停顿 1 秒，呼气由腹斜肌群与臀腿同时发力拉直躯干还原至站立直立推举位，单侧做完后换边。",
+        ],
+        "perSide": True,
+    },
+    "0525": {
+        "name_zh": "站姿壶铃单臂垂膝底朝上高翻",
+        "category": "upper arms",
+        "equipment": "kettlebell",
+        "target": "biceps",
+        "muscle_group": "",
+        "secondary_muscles": ["forearms", "shoulders"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚与肩同宽站立，单手正握壶铃自然悬垂于膝关节前方，挺胸收腹保持背部平直。",
+            "臀部微后推呈轻微垂膝预备姿态，沉肩锁紧肩胛骨，手臂微屈保持手腕紧握手柄。",
+            "呼气由臀腿爆发性伸髋蹬地，顺势带动单侧手臂向上提拉引肘，迅速旋转手腕使壶铃底部朝天翻转。",
+            "在肩前高度以强大握力紧握手柄使壶底朝上垂直平衡停顿 1 秒，吸气受控回放至垂膝位，单侧完成后换边。",
+        ],
+        "perSide": True,
+    },
+    "0526": {
+        "name_zh": "站姿双壶铃垂膝高翻",
+        "category": "upper arms",
+        "equipment": "kettlebell",
+        "target": "biceps",
+        "muscle_group": "",
+        "secondary_muscles": ["forearms", "shoulders"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚与肩同宽自然站立，双手各握一个壶铃悬于身体前方膝关节处，挺胸收腹下沉双肩。",
+            "微屈髋微屈膝保持脊柱自然中立，肩胛骨收紧做好伸髋爆发准备。",
+            "呼气由臀大肌与腘绳肌发力爆发性伸展髋膝，顺势耸肩引肘驱动双壶铃垂直向上滑行翻动。",
+            "在肩前架式位置平稳吸收冲击，手肘贴近躯干停顿 1 秒，吸气匀速受控回放壶铃至垂膝起始位，按计划重复。",
+        ],
+    },
+    "0527": {
+        "name_zh": "站姿双壶铃挺举",
+        "category": "shoulders",
+        "equipment": "kettlebell",
+        "target": "delts",
+        "muscle_group": "",
+        "secondary_muscles": ["triceps", "core"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚与肩同宽站立，双手各持一个壶铃稳固放置于双肩架式位置，肘部抵住胸肋侧面。",
+            "挺胸收腹收紧核心，迅速屈膝下沉躯干约四分之一深度完成一次轻微预蹲蓄力。",
+            "呼气爆发性伸膝伸髋向上蹬起，顺势推动双壶铃向上升起，在壶铃过顶瞬间快速二次下潜屈膝接住壶铃。",
+            "在过顶顶点双臂伸直锁定并完全直立站起停顿 1 秒，吸气屈肘缓冲将壶铃匀速放回双肩架式位，按计划重复。",
+        ],
+    },
+    "0528": {
+        "name_zh": "站姿双壶铃借力推举",
+        "category": "shoulders",
+        "equipment": "kettlebell",
+        "target": "delts",
+        "muscle_group": "",
+        "secondary_muscles": ["triceps", "core"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚与肩同宽站立，双手各握一个壶铃置于肩膀前方稳定架式位，核心肌群紧缩收紧。",
+            "吸气微屈膝关节下沉身体数厘米进行快速蓄力，躯干始终保持垂直不前倾。",
+            "呼气由腿部爆发性蹬直驱动力量向上穿透躯干，双肩顺势发力将双壶铃强力推过头顶直至手臂伸直。",
+            "在推举顶点充分展肩锁定挺身停顿 1 秒，吸气匀速受控缓慢放回双肩起始位置，按计划重复。",
+        ],
+    },
+    "0529": {
+        "name_zh": "站姿双壶铃抓举",
+        "category": "shoulders",
+        "equipment": "kettlebell",
+        "target": "delts",
+        "muscle_group": "",
+        "secondary_muscles": ["traps", "forearms"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚分开比肩略宽站立，双手正握两个壶铃垂在双腿前方，背部挺直微屈膝屈髋。",
+            "臀部后推带动双壶铃在腿间轻微回摆，收紧腰腹核心做好发力连贯准备。",
+            "呼气由臀腿协同爆发性伸髋蹬地，驱动两个壶铃贴近身体垂直上冲，并在过顶瞬间平稳穿拳锁臂。",
+            "在头顶上方双臂完全伸直锁定双壶铃停顿 1 秒，吸气受控屈肘下放缓冲回摆，按计划重复。",
+        ],
+    },
+    "0530": {
+        "name_zh": "站姿双壶铃单侧风车",
+        "category": "waist",
+        "equipment": "kettlebell",
+        "target": "abs",
+        "muscle_group": "",
+        "secondary_muscles": ["shoulders", "hamstrings"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚宽于肩站立，一手将壶铃推举过头顶垂直锁定，另一手自然下垂握持地面壶铃或第二壶铃。",
+            "双脚向对侧偏转角度，目光始终仰视上方壶铃，挺胸收紧侧腹核心。",
+            "吸气向下方屈髋折叠俯身，下方手引带壶铃平稳下探至接近对侧脚踝地面，上方手臂保持垂直地面不动。",
+            "在折叠最低点停顿 1 秒充分感受髋侧与腹斜肌受力，呼气由侧腹与臀腿协同收缩拉直身体还原，单侧完成后换边。",
+        ],
+        "perSide": True,
+    },
+    "0531": {
+        "name_zh": "地面仰卧壶铃单臂超程推举",
+        "category": "chest",
+        "equipment": "kettlebell",
+        "target": "pectorals",
+        "muscle_group": "",
+        "secondary_muscles": ["triceps", "shoulders"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "仰卧在地面训练垫上，双膝弯曲双脚踏地，单手握持壶铃置于胸部外侧地面，大臂完全贴紧地面垫面。",
+            "下背自然贴实地面，对侧手臂自然向外平放稳定身体重心，吸气收紧核心。",
+            "呼气由胸大肌与肱三头肌主导发力，从地面深位超程垂直向上推展壶铃直至单臂伸直。",
+            "在推举最高点充分挤压胸肌停顿 1 秒，吸气匀速受控下放壶铃回至大臂触地起始位，单侧完成后换另一侧。",
+        ],
+        "perSide": True,
+    },
+}
+
+pending = {
+    "0522": "待修图 · 消除英文字符规范为站姿俯身壶铃交替划船；原动图首帧时长异常 (dur=[0, 800, 380, 800]) 且边缘存在杂色像素，待重制为 4 帧循环图。",
+    "0523": "待修图 · 消除英文字符规范为站姿壶铃阿诺德推举；原动图首帧时长异常 (dur=[0, 800, 380, 800]) 且边缘存在杂色像素，待重制为 4 帧循环图。",
+    "0524": "待修图 · 消除弯举机械错译并激活单侧独立计次规范为站姿壶铃单臂侧屈推举；原动图首帧时长异常且边缘存在杂色像素，待重制为 4 帧循环图。",
+    "0525": "待修图 · 消除机械错译并激活单侧独立计次规范为站姿壶铃单臂垂膝底朝上高翻；原动图首帧时长异常且边缘存在杂色像素，待重制为 4 帧循环图。",
+    "0526": "待修图 · 消除机械错译挂举规范为站姿双壶铃垂膝高翻；原动图首帧时长异常且边缘存在杂色像素，待重制为 4 帧循环图。",
+    "0527": "待修图 · 规范挺举规范为站姿双壶铃挺举；原动图首帧时长异常 (dur=[0, 800, 380, 800]) 且边缘存在杂色像素，待重制为 4 帧循环图。",
+    "0528": "待修图 · 消除英文字符规范为站姿双壶铃借力推举；原动图首帧时长异常且边缘存在杂色像素，待重制为 4 帧循环图。",
+    "0529": "待修图 · 规范抓举规范为站姿双壶铃抓举；原动图首帧时长异常 (dur=[0, 800, 380, 800]) 且边缘存在杂色像素，待重制为 4 帧循环图。",
+    "0530": "待修图 · 规范双风车译名并激活单侧独立计次规范为站姿双壶铃单侧风车；原动图首帧时长异常且边缘存在杂色像素，待重制为 4 帧循环图。",
+    "0531": "待修图 · 消除地面扩展范围机器错译并激活单侧独立计次规范为地面仰卧壶铃单臂超程推举；原动图首帧时长异常且边缘存在杂色像素，待重制为 4 帧循环图。",
+}
+
+sources = {}
+review_notes = {}
+
+before_reviews = json.loads((B / "before/exercise_reviews.json").read_text())
+reviewed_count = len(before_reviews["reviewed"]) + len(review_candidates)
+
+review_result = {
+    "batch": BATCH_ID,
+    "version": VERSION,
+    "version_code": VERSION_CODE,
+    "output": "build/review86-20261203",
+    "inspected": inspected,
+    "review_candidates": review_candidates,
+    "registered_media": registered_media,
+    "definition_updates": definition_updates,
+    "pending": pending,
+    "sources": sources,
+    "review_notes": review_notes,
+    "image_generation_calls": 0,
+    "generated_images_imported": 0,
+}
+(B / "review-result.json").write_text(json.dumps(review_result, ensure_ascii=False, indent=2) + "\n")
+
+code_paths = [
+    "app/src/main/java",
+    "scripts/validate_exercise_dataset.sh",
+    "scripts/build_android_debug.sh",
+]
+baseline = {}
+for rel in code_paths:
+    p = R / rel
+    if p.is_file():
+        baseline[rel] = hashlib.sha256(p.read_bytes()).hexdigest()
+    else:
+        for f in sorted(p.rglob("*")):
+            if f.is_file():
+                baseline[str(f.relative_to(R))] = hashlib.sha256(f.read_bytes()).hexdigest()
+(B / "code-baseline.json").write_text(json.dumps(baseline, ensure_ascii=False, indent=2) + "\n")
+
+qa_spec = {
+    "batch": BATCH_ID,
+    "expected_checks": 16,
+    "expected_reviewed_after_approve": reviewed_count,
+    "candidate_ids": [],
+    "candidate_required_equipment": {},
+    "expected_per_side_ids": ["0524", "0525", "0530", "0531"],
+}
+(B / "qa-spec.json").write_text(json.dumps(qa_spec, ensure_ascii=False, indent=2) + "\n")
+print(f"Authored review-result.json, code-baseline.json, and qa-spec.json for {BATCH_ID}")

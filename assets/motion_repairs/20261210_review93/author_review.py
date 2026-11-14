@@ -1,0 +1,230 @@
+#!/usr/bin/env python3
+"""Author Batch 93 review updates, pending notes, code baseline, and QA spec (0 candidates; 10 deferred)."""
+from pathlib import Path
+import json
+import hashlib
+
+B = Path(__file__).resolve().parent
+R = B.parents[2]
+BATCH_ID = "20261210_review93"
+VERSION = "1.2.98"
+VERSION_CODE = 2026121001
+
+inspected = ["0607", "0609", "0636", "0637", "0640", "0641", "0648", "0650", "0653", "0655"]
+review_candidates = []
+registered_media = []
+
+definition_updates = {
+    "0607": {
+        "name_zh": "器械坐姿三头屈伸",
+        "category": "upper arms",
+        "equipment": "leverage machine",
+        "target": "triceps",
+        "muscle_group": "",
+        "secondary_muscles": ["forearms"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "调节推臂器械座椅高度，坐稳后背部平贴靠背，双肘平稳托放在前方倾斜托垫上。",
+            "双手抓握推臂把手位于前额高度，上臂保持固定平稳，挺胸沉肩收腹。",
+            "呼气由肱三头肌主动发力，克服器械阻力向前向下平稳伸展前臂直至手臂完全伸直。",
+            "在双臂伸直顶点强力收缩肱三头肌停顿 1 秒，吸气控制把手匀速缓慢屈肘回放至起始弯曲位，按计划重复。",
+        ],
+    },
+    "0609": {
+        "name_zh": "站姿绳索伦敦桥划船",
+        "category": "back",
+        "equipment": "rope",
+        "target": "upper back",
+        "muscle_group": "",
+        "secondary_muscles": ["lats", "rear deltoids"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "将阻力绳索牢固连接在高位锚点上，背对锚点站立，双脚与肩同宽稳固踩实地面。",
+            "双手正手握持绳索两端，身体向前微倾呈稳定前倾支撑角度，脊柱平直核心紧绷。",
+            "呼气由上背肌群与背阔肌协同收缩发力，屈肘沿身体侧后方将绳索向下拉向躯干肋部两侧。",
+            "在动作顶点肩胛骨用力向后夹拢收缩停顿 1 秒，吸气控制受控平稳放回双臂回至起始拉伸位，按计划重复。",
+        ],
+    },
+    "0636": {
+        "name_zh": "站姿奥林匹克杠铃锤式弯举",
+        "category": "upper arms",
+        "equipment": "olympic barbell",
+        "target": "biceps",
+        "muscle_group": "",
+        "secondary_muscles": ["forearms", "brachialis"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚与肩同宽稳固站立，双手对握或中立握姿握持杠铃杆，杠铃垂悬于大腿前侧。",
+            "挺胸立腰沉肩，手肘紧贴躯干两侧固定，收紧臀肌与腹肌维持身体垂直不前后晃动借力。",
+            "呼气由肱二头肌与肱肌主动发力，向上屈肘将杠铃平稳弯举至胸肩高度。",
+            "在弯举最高点顶峰收缩二头肌停顿 1 秒，吸气控制杠铃缓慢匀速下放回至初始手臂接近完全伸展位，按计划重复。",
+        ],
+    },
+    "0637": {
+        "name_zh": "站姿奥林匹克杠铃过头臂屈伸",
+        "category": "upper arms",
+        "equipment": "olympic barbell",
+        "target": "triceps",
+        "muscle_group": "",
+        "secondary_muscles": ["forearms", "shoulders"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚分开与肩同宽稳固站立，双手较窄握距正手抓握杠铃，垂直推举过头顶充分伸展双臂。",
+            "沉肩挺胸收紧核心，大臂垂直贴紧头部两侧保持固定，肘关节微内夹不向外散开。",
+            "吸气缓慢屈肘将杠铃受控沿垂直路径下放至脑后颈椎高度，充分拉伸肱三头肌长头。",
+            "在底部拉伸位停顿 1 秒，呼气由肱三头肌强力发力向上伸展前臂将杠铃推回头顶起始位，按计划重复。",
+        ],
+    },
+    "0640": {
+        "name_zh": "站姿药球单臂砸地",
+        "category": "waist",
+        "equipment": "medicine ball",
+        "target": "abs",
+        "muscle_group": "",
+        "secondary_muscles": ["obliques", "shoulders", "lats"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚开立与肩同宽微屈双膝，单手托握药球在髋腰侧前方，挺胸收紧腹部核心。",
+            "吸气顺势将药球由单臂高高举过头顶充分伸展躯干，重心稳固偏向支撑侧足弓。",
+            "呼气由腹肌与腹外斜肌爆发性协同发力，驱动单臂与上身猛烈向下将药球全力砸击在地面上。",
+            "顺势吸收反弹或在地面重新拿球，顶点停顿后按计划循环，单侧完成后换另一只手。",
+        ],
+        "perSide": True,
+    },
+    "0641": {
+        "name_zh": "仰卧负重奥蒂斯卷腹起身",
+        "category": "waist",
+        "equipment": "weighted",
+        "target": "abs",
+        "muscle_group": "",
+        "secondary_muscles": ["hip flexors", "shoulders"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "仰卧在训练垫上屈膝双脚平踩地面，双手握紧负重杠铃片或哑铃垂直高举在胸前上方锁定手臂。",
+            "收紧腹肌沉肩立腰，呼气由腹直肌强力发力带动胸廓卷起，顺势推动负重过顶起身直立呈坐姿。",
+            "在坐姿起身顶点保持手臂过顶垂直伸展停顿 1 秒，吸气匀速受控沿脊柱逐节下放躺平回至起始仰卧位，按计划重复。",
+        ],
+    },
+    "0648": {
+        "name_zh": "站姿杠铃高翻",
+        "category": "upper legs",
+        "equipment": "barbell",
+        "target": "hamstrings",
+        "muscle_group": "",
+        "secondary_muscles": ["glutes", "quads", "traps"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚与髋同宽站立在杠铃前，屈髋屈膝俯身正手握持杠铃，握距略宽于肩，挺胸平背沉肩建立初始张力。",
+            "蹬地拉起杠铃越过膝盖后，由臀腿协同爆发性伸髋蹬地，顺势爆发耸肩引肘向上拉高杠铃。",
+            "在杠铃升至最高点瞬间快速下沉重心进肘转腕，在前蹲半蹲姿态稳稳将杠铃承接在双肩锁骨前架式位。",
+            "站直锁定身体停顿 1 秒，吸气受控将杠铃放回体前垂悬或地面起始位，按计划重复。",
+        ],
+    },
+    "0650": {
+        "name_zh": "瑜伽球坐姿收腹收腿",
+        "category": "waist",
+        "equipment": "stability ball",
+        "target": "abs",
+        "muscle_group": "",
+        "secondary_muscles": ["hip flexors"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "端坐在瑜伽球中央，双脚平踩地面双膝屈膝呈 90 度，双手轻扶在瑜伽球两侧维持平衡。",
+            "挺胸收腹坐姿笔直，呼气由下腹肌群与核心主动发力，平稳将双腿或单侧膝盖向胸部上方收拢提拉。",
+            "在收腹收腿顶点保持核心顶峰收紧停顿 1 秒，吸气受控匀速下放双腿平稳踩回地面起始位，按计划重复。",
+        ],
+    },
+    "0653": {
+        "name_zh": "波速球俯卧撑",
+        "category": "chest",
+        "equipment": "bosu ball",
+        "target": "pectorals",
+        "muscle_group": "",
+        "secondary_muscles": ["triceps", "shoulders", "core"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "将波速球平放在地面圆弧面朝上或底板朝上，双手撑在波速球两侧边缘，双脚向后伸展脚尖撑地呈平直俯卧姿态。",
+            "紧绷腹部与臀部保持从头至脚踝呈一条直线，控制核心克服不稳定平衡晃动。",
+            "吸气屈肘平稳下沉胸部至贴近波速球表面，充分拉伸胸大肌并激活肩关节稳定肌群。",
+            "在最低点停顿 1 秒，呼气由胸大肌与肱三头肌协同爆发推起身体回到起始高位伸臂位，按计划重复。",
+        ],
+    },
+    "0655": {
+        "name_zh": "瑜伽球俯卧撑",
+        "category": "chest",
+        "equipment": "stability ball",
+        "target": "pectorals",
+        "muscle_group": "",
+        "secondary_muscles": ["triceps", "shoulders", "core"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双手撑在平稳放置的瑜伽球球面上，双脚向后伸展脚尖踩地，身体呈一条笔直平稳的斜向俯卧线。",
+            "收紧腹肌与臀肌保持脊柱平直，手肘微屈锁住支撑角度抵抗球面不稳定摆动。",
+            "吸气受控屈肘下沉胸部贴近瑜伽球顶端，感受胸大肌深层拉伸与核心高度激活。",
+            "在底部停顿 1 秒，呼气由胸肌发力强力推起身体回至双臂充分伸展起始位，按计划重复。",
+        ],
+    },
+}
+
+pending = {
+    "0607": "待修图 · 消除杠杆直译规范为器械坐姿三头屈伸；原动图多达 10 帧且边缘杂色，待重制为 4 帧循环图。",
+    "0609": "待修图 · 消除英式直译规范为站姿绳索伦敦桥划船；原动图仅 2 帧且边缘杂色，待重制为 4 帧循环图。",
+    "0636": "待修图 · 消除机器错译规范为站姿奥林匹克杠铃锤式弯举；原动图多达 10 帧且边缘杂色，待重制为 4 帧循环图。",
+    "0637": "待修图 · 规范臂屈伸动作为站姿奥林匹克杠铃过头臂屈伸；原动图多达 10 帧且边缘杂色，待重制为 4 帧循环图。",
+    "0640": "待修图 · 激活单侧独立计次规范为站姿药球单臂砸地；原动图仅 2 帧且边缘杂色，待重制为 4 帧循环图。",
+    "0641": "待修图 · 规范复合起身动作为仰卧负重奥蒂斯卷腹起身；原动图仅 2 帧且边缘杂色，待重制为 4 帧循环图。",
+    "0648": "待修图 · 纠正抓举严重错译规范为站姿杠铃高翻；原动图仅 2 帧且边缘杂色，待重制为 4 帧循环图。",
+    "0650": "待修图 · 消除机器直译规范为瑜伽球坐姿收腹收腿；原动图首帧时长异常且边缘存在杂色像素，待重制为 4 帧循环图。",
+    "0653": "待修图 · 消除错译规范为波速球俯卧撑；原动图首帧时长异常且边缘存在杂色像素，待重制为 4 帧循环图。",
+    "0655": "待修图 · 消除球上粗糙直译规范为瑜伽球俯卧撑；原动图首帧时长异常且边缘存在杂色像素，待重制为 4 帧循环图。",
+}
+
+sources = {}
+review_notes = {}
+
+before_reviews = json.loads((B / "before/exercise_reviews.json").read_text())
+reviewed_count = len(before_reviews["reviewed"]) + len(review_candidates)
+
+review_result = {
+    "batch": BATCH_ID,
+    "version": VERSION,
+    "version_code": VERSION_CODE,
+    "output": "build/review93-20261210",
+    "inspected": inspected,
+    "review_candidates": review_candidates,
+    "registered_media": registered_media,
+    "definition_updates": definition_updates,
+    "pending": pending,
+    "sources": sources,
+    "review_notes": review_notes,
+    "image_generation_calls": 0,
+    "generated_images_imported": 0,
+}
+(B / "review-result.json").write_text(json.dumps(review_result, ensure_ascii=False, indent=2) + "\n")
+
+code_paths = [
+    "app/src/main/java",
+    "scripts/validate_exercise_dataset.sh",
+    "scripts/build_android_debug.sh",
+]
+baseline = {}
+for rel in code_paths:
+    p = R / rel
+    if p.is_file():
+        baseline[rel] = hashlib.sha256(p.read_bytes()).hexdigest()
+    else:
+        for f in sorted(p.rglob("*")):
+            if f.is_file():
+                baseline[str(f.relative_to(R))] = hashlib.sha256(f.read_bytes()).hexdigest()
+(B / "code-baseline.json").write_text(json.dumps(baseline, ensure_ascii=False, indent=2) + "\n")
+
+qa_spec = {
+    "batch": BATCH_ID,
+    "expected_checks": 16,
+    "expected_reviewed_after_approve": reviewed_count,
+    "candidate_ids": [],
+    "candidate_required_equipment": {},
+    "expected_per_side_ids": ["0640"],
+}
+(B / "qa-spec.json").write_text(json.dumps(qa_spec, ensure_ascii=False, indent=2) + "\n")
+print(f"Authored review-result.json, code-baseline.json, and qa-spec.json for {BATCH_ID}")

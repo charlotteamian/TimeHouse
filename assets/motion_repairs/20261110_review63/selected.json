@@ -1,0 +1,220 @@
+[
+  {
+    "id": "0007",
+    "name": "alternate lateral pulldown",
+    "name_zh": "交替侧下拉",
+    "media": "raw:dataset_motion_0007",
+    "category": "back",
+    "equipment": "cable",
+    "target": "lats",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "rhomboids"
+    ],
+    "instructions_zh": [
+      "坐在缆绳机上，背部挺直，双脚平放在地面上。",
+      "正手握住手柄，握距略宽于肩宽。",
+      "稍微向后倾斜，将手柄拉向胸部，将肩胛骨挤压在一起。",
+      "在动作的最高点暂停片刻，然后慢慢松开手柄回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0009",
+    "name": "assisted chest dip (kneeling)",
+    "name_zh": "跪姿辅助胸下压",
+    "media": "raw:dataset_motion_0009",
+    "category": "chest",
+    "equipment": "leverage machine",
+    "target": "pectorals",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "将机器调整到您想要的高度，并将膝盖固定在垫子上。",
+      "手掌朝下，抓住手柄，双臂完全伸展。",
+      "弯曲肘部降低身体，直到上臂与地板平行。",
+      "暂停片刻，然后将自己推回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0010",
+    "name": "assisted hanging knee raise with throw down",
+    "name_zh": "辅助悬挂抬膝带下抛",
+    "media": "raw:dataset_motion_0010",
+    "category": "waist",
+    "equipment": "assisted",
+    "target": "abs",
+    "muscle_group": "hip flexors",
+    "secondary_muscles": [
+      "hip flexors",
+      "lower back"
+    ],
+    "instructions_zh": [
+      "悬挂在引体向上杆上，双臂完全伸展，手掌背向自己。",
+      "收紧核心并将膝盖抬向胸部，保持双腿并拢。",
+      "一旦你的膝盖与胸部齐平，爆发性地将你的双腿向地面扔去，将它们完全伸展。",
+      "让双腿向后摆动并重复该动作达到所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0011",
+    "name": "assisted hanging knee raise",
+    "name_zh": "辅助悬挂抬膝",
+    "media": "raw:dataset_motion_0011",
+    "category": "waist",
+    "equipment": "assisted",
+    "target": "abs",
+    "muscle_group": "hip flexors",
+    "secondary_muscles": [
+      "hip flexors"
+    ],
+    "instructions_zh": [
+      "悬挂在引体向上杆上，双臂完全伸展，手掌背向自己。",
+      "调动你的核心肌肉，将膝盖抬向胸部，弯曲臀部和膝盖。",
+      "在动作的最高点暂停片刻，挤压腹肌。",
+      "慢慢地将双腿放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0012",
+    "name": "assisted lying leg raise with lateral throw down",
+    "name_zh": "辅助仰卧抬腿侧下抛",
+    "media": "raw:dataset_motion_0012",
+    "category": "waist",
+    "equipment": "assisted",
+    "target": "abs",
+    "muscle_group": "hip flexors",
+    "secondary_muscles": [
+      "hip flexors",
+      "obliques"
+    ],
+    "instructions_zh": [
+      "平躺，双腿伸展，双臂放在身体两侧。",
+      "将双手放在臀部下方以获得支撑。",
+      "收紧腹肌，将双腿抬离地面，保持伸直。",
+      "双腿并拢的同时，将它们降低到一侧，直到离地几英寸。",
+      "暂停片刻，然后抬起双腿回到起始位置。",
+      "到另一侧重复该动作。",
+      "继续交替进行所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0013",
+    "name": "assisted lying leg raise with throw down",
+    "name_zh": "辅助仰卧抬腿下抛",
+    "media": "raw:dataset_motion_0013",
+    "category": "waist",
+    "equipment": "assisted",
+    "target": "abs",
+    "muscle_group": "hip flexors",
+    "secondary_muscles": [
+      "hip flexors",
+      "quadriceps"
+    ],
+    "instructions_zh": [
+      "平躺，双腿伸展，双臂放在身体两侧。",
+      "将双手放在臀部下方以获得支撑。",
+      "启动你的核心并将双腿抬离地面，保持伸直。",
+      "抬起双腿，直到它们垂直于地面。",
+      "将双腿放低回到起始位置。",
+      "同时，将双腿向地面放下，保持伸直。",
+      "将双腿抬回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0014",
+    "name": "assisted motion russian twist",
+    "name_zh": "辅助动态俄罗斯转体",
+    "media": "raw:dataset_motion_0014",
+    "category": "waist",
+    "equipment": "medicine ball",
+    "target": "abs",
+    "muscle_group": "obliques",
+    "secondary_muscles": [
+      "obliques",
+      "lower back"
+    ],
+    "instructions_zh": [
+      "坐在地上，膝盖弯曲，双脚平放在地板上。",
+      "双手将健身球放在胸前。",
+      "稍微向后倾斜，收紧腹肌并保持背部挺直。",
+      "慢慢地将你的躯干向右扭转，将健身球移向身体的右侧。",
+      "暂停片刻，然后将躯干向左扭转，将健身球移向身体左侧。",
+      "继续交替进行所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0015",
+    "name": "assisted parallel close grip pull-up",
+    "name_zh": "辅助平行窄握引体向上",
+    "media": "raw:dataset_motion_0015",
+    "category": "back",
+    "equipment": "leverage machine",
+    "target": "lats",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "将机器调整到您想要的重量和高度。",
+      "将双手紧紧握在双杠上，手掌相对。",
+      "悬挂在杠上，双臂完全伸展，双脚离开地面。",
+      "收紧背部肌肉，将身体拉向杠铃，保持肘部靠近身体。",
+      "继续拉，直到下巴高于杠铃。",
+      "在顶部停顿片刻，然后慢慢将身体放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0016",
+    "name": "assisted prone hamstring",
+    "name_zh": "辅助俯卧腘绳肌拉伸",
+    "media": "raw:dataset_motion_0016",
+    "category": "upper legs",
+    "equipment": "assisted",
+    "target": "hamstrings",
+    "muscle_group": "glutes",
+    "secondary_muscles": [
+      "glutes",
+      "lower back"
+    ],
+    "instructions_zh": [
+      "脸朝下躺在垫子或长凳上，双腿完全伸展。",
+      "找一个伙伴或使用阻力带来固定脚踝。",
+      "收紧腿筋，将双腿抬向臀肌，保持膝盖伸直。",
+      "在顶部暂停片刻，然后慢慢将双腿放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0017",
+    "name": "assisted pull-up",
+    "name_zh": "辅助引体向上",
+    "media": "raw:dataset_motion_0017",
+    "category": "back",
+    "equipment": "leverage machine",
+    "target": "lats",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "将机器调整至您所需的体重和高度设置。",
+      "正手握住手柄，握距略宽于肩宽。",
+      "双臂完全伸展，双脚离开地面。",
+      "收紧背部肌肉，将身体拉向手柄，保持肘部靠近身体。",
+      "继续拉，直到下巴位于手柄上方。",
+      "在顶部停顿片刻，然后慢慢将身体放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  }
+]

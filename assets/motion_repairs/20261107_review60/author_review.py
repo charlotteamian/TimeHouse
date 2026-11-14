@@ -1,0 +1,231 @@
+#!/usr/bin/env python3
+"""Author Batch 60 review updates, pending notes, code baseline, and QA spec (0 candidates; 10 deferred)."""
+from pathlib import Path
+import json
+import hashlib
+
+B = Path(__file__).resolve().parent
+R = B.parents[2]
+BATCH_ID = "20261107_review60"
+VERSION = "1.2.65"
+VERSION_CODE = 2026110701
+
+inspected = ["3533", "3664", "3543", "3888", "3544", "5201", "3552", "3561", "3582", "3636"]
+review_candidates = []
+registered_media = []
+
+definition_updates = {
+    "3533": {
+        "name_zh": "自重徒手深蹲",
+        "category": "upper legs",
+        "equipment": "body weight",
+        "target": "quads",
+        "muscle_group": "",
+        "secondary_muscles": ["glutes", "hamstrings", "calves"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚分开略与肩同宽站立，脚尖微向外展，核心收紧、抬头挺胸，双手前伸或合抱于胸前以平衡重心。",
+            "屈髋屈膝向后下方缓缓坐低，保持躯干自然挺直，双膝顺脚尖方向打开，脚跟稳踩地面。",
+            "下蹲至大腿接近水平或略低于膝盖水平位，底位稍作控制。",
+            "由股四头肌与臀肌集中发力蹬地伸髋站起回到直立起始位，重复规定次数。",
+        ],
+    },
+    "3664": {
+        "name_zh": "单臂哑铃侧支撑反向飞鸟",
+        "category": "shoulders",
+        "equipment": "dumbbell",
+        "target": "upper back",
+        "muscle_group": "",
+        "secondary_muscles": ["delts", "core"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "单臂屈肘以前臂实按地面呈侧向支撑位，双腿向斜下方并拢伸直、以同侧脚外侧边缘着地支撑身体，核心绷紧使身体成一条斜直线。",
+            "上方手对握一只轻量哑铃垂于胸前地面上方。",
+            "维持侧桥支撑稳定不晃动，呼气时三角肌后束与上背发力带动持铃手臂沿垂直弧线向上展开飞鸟至手臂与地面垂直。",
+            "顶峰短暂停顿感受背肌收紧后，吸气缓慢受控放回胸前起始位，完成一侧规定次数后换边练习。",
+        ],
+    },
+    "3543": {
+        "name_zh": "自重跳下深蹲跳",
+        "category": "cardio",
+        "equipment": "body weight",
+        "target": "cardiovascular system",
+        "muscle_group": "quadriceps",
+        "secondary_muscles": ["glutes", "calves"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚与髋或肩同宽站立，核心收紧准备。",
+            "轻快下跳落地瞬间迅速屈膝屈髋缓冲并顺势下沉臀部成深蹲蓄力姿势。",
+            "脚跟与前掌强力蹬地爆发向上跳起，双臂自然配合摆动腾空，在空中充分展开躯干。",
+            "前脚掌过渡轻柔屈膝着地缓冲，并顺畅衔接下一次重复动作。",
+        ],
+    },
+    "3888": {
+        "name_zh": "单臂哑铃抓举",
+        "category": "upper legs",
+        "equipment": "dumbbell",
+        "target": "glutes",
+        "muscle_group": "hamstrings",
+        "secondary_muscles": ["shoulders", "quadriceps", "core"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚站距略宽于肩，一只哑铃置于双腿正中地面，屈髋屈膝下蹲、单手正握抓住哑铃，背部平直、挺胸抬头。",
+            "下肢爆发蹬地伸膝伸髋，顺势向上引拉哑铃紧贴身体中线快速上升。",
+            "利用下肢蹬伸冲力在哑铃达到最高点前迅速屈膝下沉沉肘翻腕，直臂将哑铃牢固锁定于头顶正上方。",
+            "完全站直锁定身体，再有控制地屈肘顺原轨迹将哑铃下放回体前地面或悬垂位，换边或重复规定次数。",
+        ],
+    },
+    "3544": {
+        "name_zh": "地面单侧肘撑侧桥支撑",
+        "category": "waist",
+        "equipment": "body weight",
+        "target": "abs",
+        "muscle_group": "obliques",
+        "secondary_muscles": ["shoulders"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "侧卧在平整地面或训练垫上，下侧肘关节正位于肩部正下方屈肘 90 度撑地，双腿向后下方伸直并拢。",
+            "收缩腹斜肌与臀中肌将臀部抬离地面，使头、躯干与双腿从侧面看成一条绷直的斜线。",
+            "保持视线向前、骨盆不前后倾斜，按规定秒数定型维持侧桥静力支撑。",
+            "结束后缓慢将臀部降回地面，换对侧以相同姿态完成等长保持。",
+        ],
+    },
+    "5201": {
+        "name_zh": "双手托片哑铃服务员弯举",
+        "category": "upper arms",
+        "equipment": "dumbbell",
+        "target": "biceps",
+        "muscle_group": "forearms",
+        "secondary_muscles": [],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚分开与肩同宽自然直立站稳，双手张开手掌掌心朝上、掌根托稳一只立放哑铃的上方内侧片底，大臂微夹贴紧体侧。",
+            "收紧腹部与腰背挺直，呼气时肱二头肌集中发力带动前臂向上弯举哑铃。",
+            "弯举至胸前最高点感受肱二头肌肌峰强烈顶峰收缩，保持哑铃盘片平稳不倾斜。",
+            "吸气缓慢匀速受控放回大腿前下方起始位，重复规定次数。",
+        ],
+    },
+    "3552": {
+        "name_zh": "原地快速单腿交替高抬腿跑",
+        "category": "cardio",
+        "equipment": "body weight",
+        "target": "cardiovascular system",
+        "muscle_group": "quadriceps",
+        "secondary_muscles": ["calves"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚并拢站立，上体微前倾、核心收紧，双臂屈肘 90 度置于体侧准备。",
+            "前脚掌轻快发力原地起跑，快速高抬一侧膝盖至髋部水平高度，同时对侧手臂协调向前摆动。",
+            "前脚掌着地弹性缓冲的瞬间立即换腿快速高抬另一侧膝盖，形成高频率单腿交替原地跑步态。",
+            "维持节奏紧凑快速，按规定时长或步数持续进行。",
+        ],
+    },
+    "3561": {
+        "name_zh": "仰卧臀桥单腿交替踏步提膝",
+        "category": "upper legs",
+        "equipment": "body weight",
+        "target": "glutes",
+        "muscle_group": "hamstrings",
+        "secondary_muscles": ["core"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "仰卧平躺于垫上，双膝弯曲约 90 度，双脚平踩地面、双手自然贴地放于体侧。",
+            "臀大肌发力抬起臀部成平整臀桥位，核心绷紧保持骨盆水平不倾斜。",
+            "维持臀桥高度不变，呼气将一侧脚抬离地面并向前上方屈膝提拉约 90 度，单侧支撑脚稳稳踩住地面。",
+            "吸气将抬起脚放回地面踩稳，随即换对侧脚交替离地提膝踏步，连续平稳进行规定次数。",
+        ],
+    },
+    "3582": {
+        "name_zh": "自重单腿交替跳跃弓步蹲",
+        "category": "cardio",
+        "equipment": "body weight",
+        "target": "cardiovascular system",
+        "muscle_group": "quadriceps",
+        "secondary_muscles": ["glutes", "hamstrings", "calves"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双腿前后分腿呈弓步下蹲姿势，躯干挺直、核心紧绷。",
+            "双腿爆发力同时蹬地向上跳起腾空，双臂自然上摆配合平衡。",
+            "在空中快速前后互换双腿位置，落地时前脚掌过渡脚跟轻柔缓冲成对侧弓步蹲底位。",
+            "落地稳定后紧接着再次爆发向上起跳换腿，持续交替跳跃完成规定次数。",
+        ],
+    },
+    "3636": {
+        "name_zh": "扶墙单腿交替高抬膝",
+        "category": "cardio",
+        "equipment": "body weight",
+        "target": "cardiovascular system",
+        "muscle_group": "quadriceps",
+        "secondary_muscles": ["calves"],
+        "required_equipment_zh": ["墙面"],
+        "instructions_zh": [
+            "面向稳固墙面站立约一步距离，身体微前倾，双手掌心平按在胸前高度的墙面上作为稳固支撑。",
+            "核心收紧保持身体成一条斜直线，支撑脚前脚掌着地。",
+            "呼气时一侧腿屈膝爆发向上高抬至大腿水平或过髋高度，感受屈髋肌与下肢发力。",
+            "受控放回地面脚尖点地，紧接着换对侧单腿交替快速高抬膝，按规定次数交替进行。",
+        ],
+    },
+}
+
+pending = {
+    "3533": "待修图 · 纠正单字错译“股四头肌”为自重徒手深蹲（去重字段）；原图 F0 触底 y=479 (bottom=43) 且 F2 触顶 y=0 (top=39) 双端截断，待重制。",
+    "3664": "待修图 · 纠正名称为单臂哑铃侧支撑反向飞鸟（定型侧撑保持、激活单侧计次、移除误归主训的肩部）；原图侧撑飞鸟全帧支撑臂与脚部滑移 (F2 feet bs=0.8091 < 0.96)，待重制。",
+    "3543": "待修图 · 纠正错译为自重跳下深蹲跳（去重字段）；原图 F0 触底 y=479 (bottom=35) 且 F2 触顶 y=0 (top=36) 双端截断，待重制。",
+    "3888": "待修图 · 已规范为单臂哑铃抓举（激活单侧计次）；原图 F0 触底 y=479 (bottom=33) 且 F2 触顶 y=0 (top=33) 双端截断，待重制。",
+    "3544": "待修图 · 纠正错译为地面单侧肘撑侧桥支撑（定型等长保持、激活单侧计次、去重字段）；原图侧桥支撑全躯干横向滑移无法锁定静态锚点，待重制。",
+    "5201": "待修图 · 已规范为双手托片哑铃服务员弯举并去重前臂字段（保留二头+前臂双主训）；原图提铃至胸前过程双侧大腿外缘与短裤发生亚像素微膨胀导致锚点分 (thigh_outer sc0=0.9290 < 0.96)，待重制。",
+    "3552": "待修图 · 去括号规范为原地快速单腿交替高抬腿跑；原图快速原地踏跑脚掌腾空移动无法静态配准，待重制。",
+    "3561": "待修图 · 纠正生硬错译“臀桥行进”为仰卧臀桥单腿交替踏步提膝（激活单侧计次）；原图提膝单侧踩地臀位与脚掌大幅位移，待重制。",
+    "3582": "待修图 · 纠正错译为自重单腿交替跳跃弓步蹲（激活单侧计次）；原图空中换腿横纵腾空位移大无法锁定背景，待重制。",
+    "3636": "待修图 · 已去括号规范为扶墙单腿交替高抬膝（补全墙面支撑、激活单侧计次）；原图按墙撑扶全帧墙面立线与支撑脚移位漂移 (wall bs=0.8776 < 0.96)，待重制。",
+}
+
+sources = {}
+review_notes = {}
+
+before_reviews = json.loads((B / "before/exercise_reviews.json").read_text())
+reviewed_count = len(before_reviews["reviewed"]) + len(review_candidates)
+
+review_result = {
+    "batch": BATCH_ID,
+    "version": VERSION,
+    "version_code": VERSION_CODE,
+    "output": "build/review60-20261107",
+    "inspected": inspected,
+    "review_candidates": review_candidates,
+    "registered_media": registered_media,
+    "definition_updates": definition_updates,
+    "pending": pending,
+    "sources": sources,
+    "review_notes": review_notes,
+    "image_generation_calls": 0,
+    "generated_images_imported": 0,
+}
+(B / "review-result.json").write_text(json.dumps(review_result, ensure_ascii=False, indent=2) + "\n")
+
+code_paths = [
+    "app/src/main/java",
+    "scripts/validate_exercise_dataset.sh",
+    "scripts/build_android_debug.sh",
+]
+baseline = {}
+for rel in code_paths:
+    p = R / rel
+    if p.is_file():
+        baseline[rel] = hashlib.sha256(p.read_bytes()).hexdigest()
+    else:
+        for f in sorted(p.rglob("*")):
+            if f.is_file():
+                baseline[str(f.relative_to(R))] = hashlib.sha256(f.read_bytes()).hexdigest()
+(B / "code-baseline.json").write_text(json.dumps(baseline, ensure_ascii=False, indent=2) + "\n")
+
+qa_spec = {
+    "batch": BATCH_ID,
+    "expected_checks": 16,
+    "expected_reviewed_after_approve": reviewed_count,
+    "candidate_ids": [],
+    "candidate_required_equipment": {},
+    "expected_per_side_ids": ["3664", "3888", "3544", "3552", "3561", "3582", "3636"],
+}
+(B / "qa-spec.json").write_text(json.dumps(qa_spec, ensure_ascii=False, indent=2) + "\n")
+print(f"Authored review-result.json, code-baseline.json, and qa-spec.json for {BATCH_ID}")

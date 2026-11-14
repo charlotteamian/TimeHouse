@@ -1,0 +1,223 @@
+[
+  {
+    "id": "0587",
+    "name": "lever military press",
+    "name_zh": "杠铃军事推举",
+    "media": "raw:dataset_motion_0587",
+    "category": "shoulders",
+    "equipment": "leverage machine",
+    "target": "delts",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "upper chest"
+    ],
+    "instructions_zh": [
+      "调整座椅高度并将自己放在机器上，背部靠在靠背上。",
+      "正手握住手柄，双手之间的距离略大于肩宽。",
+      "向上推动手柄，直到手臂完全伸展，但不要锁住肘部。",
+      "在顶部暂停片刻，然后慢慢将手柄放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0588",
+    "name": "lever narrow grip seated row",
+    "name_zh": "窄握坐姿划船（杠杆）",
+    "media": "raw:dataset_motion_0588",
+    "category": "back",
+    "equipment": "leverage machine",
+    "target": "upper back",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "调整座椅高度和脚踏板以确保形状正确。",
+      "坐在机器上，双脚平放在脚踏板上，膝盖稍微弯曲。",
+      "紧紧握住手柄，手掌相对。",
+      "保持背部挺直并稍微向前倾斜。",
+      "将手柄拉向躯干，将肩胛骨挤压在一起。",
+      "在动作的最高点停顿片刻。",
+      "慢慢松开手柄并返回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0589",
+    "name": "lever one arm bent over row",
+    "name_zh": "单臂反向划船（杠杆）",
+    "media": "raw:dataset_motion_0589",
+    "category": "back",
+    "equipment": "barbell",
+    "target": "upper back",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，膝盖稍微弯曲，正手握住杠铃。",
+      "臀部向前弯曲，保持背部挺直，头部抬起。",
+      "让杠铃悬挂在你面前，双臂完全伸展。",
+      "将杠铃拉向胸部，保持肘部靠近身体。",
+      "在动作的最高点将肩胛骨挤压在一起。",
+      "将杠铃降低回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0590",
+    "name": "lever one arm shoulder press",
+    "name_zh": "单臂肩推（杠杆）",
+    "media": "raw:dataset_motion_0590",
+    "category": "shoulders",
+    "equipment": "leverage machine",
+    "target": "delts",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "upper back"
+    ],
+    "instructions_zh": [
+      "调整座椅高度并将自己放在机器上，背部靠在垫子上。",
+      "用一只手抓住杠杆手柄，并将肘部置于 90 度角。",
+      "向上按下控制杆，直到手臂完全伸过头顶。",
+      "在顶部暂停片刻，然后慢慢将控制杆放回起始位置。",
+      "重复所需的重复次数，然后换到另一只手臂。"
+    ]
+  },
+  {
+    "id": "0591",
+    "name": "lever overhand triceps dip",
+    "name_zh": "反手俯卧撑（杠杆）",
+    "media": "raw:dataset_motion_0591",
+    "category": "upper arms",
+    "equipment": "leverage machine",
+    "target": "triceps",
+    "muscle_group": "chest",
+    "secondary_muscles": [
+      "chest",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "将机器调整到合适的高度并将身体固定到位。",
+      "正手握住手柄，调整身体位置，使手臂完全伸展。",
+      "弯曲肘部降低身体，保持上臂靠近身体两侧。",
+      "继续降低，直到上臂与地板平行。",
+      "暂停片刻，然后伸展肘部将自己推回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0592",
+    "name": "lever preacher curl",
+    "name_zh": "器械牧师凳弯举",
+    "media": "raw:dataset_motion_0592",
+    "category": "upper arms",
+    "equipment": "leverage machine",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "调整座椅高度并将自己放在杠杆机上。",
+      "将上臂放在垫子上，并用反手握住手柄。",
+      "保持背部挺直，并将肘部放在垫子上。",
+      "呼气并将前臂向上臂弯曲，收缩二头肌。",
+      "在动作的最高点暂停片刻，挤压你的二头肌。",
+      "吸气并慢慢将手柄放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0593",
+    "name": "lever reverse hyperextension",
+    "name_zh": "反向超伸展（杠杆）",
+    "media": "raw:dataset_motion_0593",
+    "category": "upper legs",
+    "equipment": "leverage machine",
+    "target": "glutes",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings",
+      "lower back"
+    ],
+    "instructions_zh": [
+      "调整杠杆机以适合您的身体并将双脚固定在脚垫中。",
+      "面朝下躺在机器上，上半身悬在机器边缘，臀部放在垫子上。",
+      "双臂交叉放在胸前或放在脑后。",
+      "用臀部和腿筋将双腿向上抬起，直到它们与地面平行。",
+      "在顶部暂停片刻，然后慢慢将双腿放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0594",
+    "name": "lever seated calf raise",
+    "name_zh": "坐姿小腿抬举（杠杆）",
+    "media": "raw:dataset_motion_0594",
+    "category": "lower legs",
+    "equipment": "leverage machine",
+    "target": "calves",
+    "muscle_group": "soleus",
+    "secondary_muscles": [
+      "soleus",
+      "ankle stabilizers"
+    ],
+    "instructions_zh": [
+      "调整座椅高度，使膝盖稍微弯曲，双脚平放在踏板上。",
+      "将脚趾放在踏板上，脚跟悬在踏板边缘。",
+      "抓住把手或座椅侧面以保持稳定性。",
+      "推动脚掌，将脚后跟尽可能抬高。",
+      "在顶部停顿片刻，然后慢慢降低脚后跟回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0595",
+    "name": "lever seated crunch (chest pad)",
+    "name_zh": "坐姿卷腹（胸垫）（杠杆）",
+    "media": "raw:dataset_motion_0595",
+    "category": "waist",
+    "equipment": "leverage machine",
+    "target": "abs",
+    "muscle_group": "obliques",
+    "secondary_muscles": [
+      "obliques"
+    ],
+    "instructions_zh": [
+      "根据您的舒适度调整座椅高度和胸垫位置。",
+      "坐在机器上，背部靠在胸垫上，双脚平放在地板上。",
+      "抓住手柄或侧杆以保持稳定性。",
+      "收紧腹肌并慢慢向后倾斜，让胸垫随着您一起移动。",
+      "在最大收缩时暂停片刻，感受腹肌的紧张感。",
+      "收缩腹肌并将自己拉回来，慢慢回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0596",
+    "name": "lever seated fly",
+    "name_zh": "坐姿飞鸟（杠杆）",
+    "media": "raw:dataset_motion_0596",
+    "category": "chest",
+    "equipment": "leverage machine",
+    "target": "pectorals",
+    "muscle_group": "deltoids",
+    "secondary_muscles": [
+      "deltoids",
+      "trapezius"
+    ],
+    "instructions_zh": [
+      "调整座椅高度并将自己放在机器上，背部靠在垫子上。",
+      "旋前抓住手柄，并保持肘部稍微弯曲。",
+      "呼气并将手柄向前推，将它们放在胸前。",
+      "暂停片刻，挤压胸部肌肉。",
+      "吸气并慢慢回到起始位置，让胸部肌肉伸展。",
+      "重复所需的重复次数。"
+    ]
+  }
+]

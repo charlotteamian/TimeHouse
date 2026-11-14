@@ -1,0 +1,211 @@
+[
+  {
+    "id": "0248",
+    "name": "cambered bar lying row",
+    "name_zh": "弯杆卧姿划船",
+    "media": "raw:dataset_motion_0248",
+    "category": "back",
+    "equipment": "barbell",
+    "target": "upper back",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "在地板上放一个杠铃，脸朝下躺在长凳上，胸部刚好离开边缘。",
+      "向下伸手，正手抓住杠铃，距离略宽于肩宽。",
+      "双腿伸直，双脚着地，伸展双臂，将杠铃提离地面。",
+      "将杠铃拉向胸部，将肩胛骨挤压在一起。",
+      "将杠铃放回起始位置，然后重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0271",
+    "name": "crunch (on stability ball)",
+    "name_zh": "球上卷腹",
+    "media": "raw:dataset_motion_0271",
+    "category": "waist",
+    "equipment": "stability ball",
+    "target": "abs",
+    "muscle_group": "hip flexors",
+    "secondary_muscles": [
+      "hip flexors"
+    ],
+    "instructions_zh": [
+      "坐在稳定球上，双脚平放在地面上，膝盖弯曲成 90 度角。",
+      "仰卧在球上，直到下背部得到支撑并且上半身与地板平行。",
+      "将双手放在脑后或放在胸前。",
+      "收紧腹肌，将上身抬向膝盖，躯干向前卷曲。",
+      "在动作的最高点暂停片刻，然后慢慢将上半身放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0272",
+    "name": "crunch (on stability ball, arms straight)",
+    "name_zh": "球上卷腹（手臂伸直）",
+    "media": "raw:dataset_motion_0272",
+    "category": "waist",
+    "equipment": "stability ball",
+    "target": "abs",
+    "muscle_group": "hip flexors",
+    "secondary_muscles": [
+      "hip flexors"
+    ],
+    "instructions_zh": [
+      "坐在稳定球上，双脚平放在地面上，膝盖弯曲成 90 度角。",
+      "仰卧在球上，直到下背部得到支撑并且上半身与地板平行。",
+      "将双手放在脑后或交叉放在胸前。",
+      "收紧腹肌，将上半身抬离球，将肩膀向臀部弯曲。",
+      "在顶部停顿片刻，然后慢慢将上半身放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0445",
+    "name": "ez barbell anti gravity press",
+    "name_zh": "曲杆反重力推举",
+    "media": "raw:dataset_motion_0445",
+    "category": "shoulders",
+    "equipment": "ez barbell",
+    "target": "delts",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "chest"
+    ],
+    "instructions_zh": [
+      "首先，双脚分开与肩同宽站立，并用正手握住杠铃。",
+      "将杠铃举至肩膀高度，保持肘部稍微弯曲，手掌朝前。",
+      "将杠铃推过头顶，充分伸展双臂。",
+      "将杠铃降低回肩部高度，然后重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0446",
+    "name": "ez barbell close-grip curl",
+    "name_zh": "曲杆窄握弯举",
+    "media": "raw:dataset_motion_0446",
+    "category": "upper arms",
+    "equipment": "ez barbell",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "站直，双脚分开与肩同宽，反手握住杠铃，双手分开与肩同宽。",
+      "在整个运动过程中，保持肘部靠近躯干，上臂保持静止。",
+      "将杠铃向上弯向肩膀，收缩二头肌。",
+      "在顶部停顿片刻，然后慢慢将杠铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0447",
+    "name": "ez barbell curl",
+    "name_zh": "曲杆弯举",
+    "media": "raw:dataset_motion_0447",
+    "category": "upper arms",
+    "equipment": "ez barbell",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "站直，双脚分开与肩同宽，反手握住 ez 杠铃，手掌朝上。",
+      "在整个运动过程中，保持肘部靠近躯干，上臂保持静止。",
+      "当你将杠铃向肩膀方向卷曲时呼气，收缩二头肌。",
+      "在顶部暂停片刻，然后吸气，慢慢将杠铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0448",
+    "name": "ez barbell decline close grip face press",
+    "name_zh": "曲杆下斜窄握面推",
+    "media": "raw:dataset_motion_0448",
+    "category": "upper arms",
+    "equipment": "ez barbell",
+    "target": "triceps",
+    "muscle_group": "chest",
+    "secondary_muscles": [
+      "chest",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "躺在倾斜的长凳上，头低于脚。",
+      "紧紧抓住 ez 杠铃，手掌相对。",
+      "将手臂伸直至胸部上方，保持肘部靠近身体。",
+      "弯曲肘部，将杠铃降低到前额。",
+      "暂停片刻，然后将杠铃推回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0449",
+    "name": "ez barbell incline triceps extension",
+    "name_zh": "曲杆上斜三头肌伸展",
+    "media": "raw:dataset_motion_0449",
+    "category": "upper arms",
+    "equipment": "ez barbell",
+    "target": "triceps",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "设置一个 45 度角的上斜凳。",
+      "坐在长凳上，背部靠在垫子上，正手握住 ez 杠铃。",
+      "将手臂完全伸过头顶，保持肘部靠近头部。",
+      "弯曲肘部，将杠铃降低到头后，保持上臂静止。",
+      "暂停片刻，然后将手臂伸回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0450",
+    "name": "ez barbell jm bench press",
+    "name_zh": "曲杆杰姆卧推",
+    "media": "raw:dataset_motion_0450",
+    "category": "upper arms",
+    "equipment": "ez barbell",
+    "target": "triceps",
+    "muscle_group": "chest",
+    "secondary_muscles": [
+      "chest",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "平躺在长凳上，双脚平放在地上，背部紧贴长凳。",
+      "正手握住杠铃，握距略宽于肩宽。",
+      "将杠铃降低到胸部，保持肘部靠近身体。",
+      "将杠铃推回到起始位置，完全伸展双臂。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0451",
+    "name": "ez barbell reverse grip curl",
+    "name_zh": "曲杆反握弯举",
+    "media": "raw:dataset_motion_0451",
+    "category": "upper arms",
+    "equipment": "ez barbell",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "站直，双脚分开与肩同宽，反手握住 ez 杠铃。",
+      "在整个练习过程中，保持肘部靠近躯干，上臂保持静止。",
+      "通过收缩二头肌将杠铃向上卷曲，同时呼气。",
+      "继续举起杠铃，直到二头肌完全收缩并且杠铃与肩部齐平。",
+      "挤压二头肌时，保持收缩位置短暂停顿。",
+      "吸气时慢慢开始将杠铃拉回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  }
+]

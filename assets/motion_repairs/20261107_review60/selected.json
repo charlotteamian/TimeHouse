@@ -1,0 +1,226 @@
+[
+  {
+    "id": "3533",
+    "name": "quads",
+    "name_zh": "股四头肌",
+    "media": "raw:dataset_motion_3533",
+    "category": "upper legs",
+    "equipment": "body weight",
+    "target": "quads",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings",
+      "glutes"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立。",
+      "弯曲膝盖并将臀部向后推，降低身体，就像坐在椅子上一样。",
+      "保持挺胸、背部挺直。",
+      "降低身体直到大腿与地面平行。",
+      "推动脚后跟回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3664",
+    "name": "dumbbell side plank with rear fly",
+    "name_zh": "哑铃侧平板反飞鸟",
+    "media": "raw:dataset_motion_3664",
+    "category": "back",
+    "equipment": "dumbbell",
+    "target": "upper back",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders",
+      "core"
+    ],
+    "instructions_zh": [
+      "首先侧躺，双腿伸展并叠放在一起。",
+      "将前臂放在肩膀正下方的地面上，保持肘部弯曲成 90 度角。",
+      "用你的上手握住哑铃，手臂垂直向下伸向地面。",
+      "收紧核心并将臀部抬离地面，从头部到脚后跟形成一条直线。",
+      "在保持侧平板支撑位置的同时，将哑铃向天花板方向举起，将肩胛骨挤压在一起。",
+      "将哑铃放回起始位置。",
+      "重复所需的重复次数，然后换边。"
+    ]
+  },
+  {
+    "id": "3543",
+    "name": "bodyweight drop jump squat",
+    "name_zh": "自重跳深蹲",
+    "media": "raw:dataset_motion_3543",
+    "category": "upper legs",
+    "equipment": "body weight",
+    "target": "glutes",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立。",
+      "弯曲膝盖并将臀部向后推，将身体降低至蹲姿。",
+      "爆发性地跳起来，伸展臀部、膝盖和脚踝。",
+      "在半空中时，快速将双脚并拢。",
+      "脚掌轻轻着地，然后立即回到蹲姿。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3888",
+    "name": "dumbbell one arm snatch",
+    "name_zh": "哑铃单臂抓举",
+    "media": "raw:dataset_motion_3888",
+    "category": "upper legs",
+    "equipment": "dumbbell",
+    "target": "glutes",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings",
+      "quadriceps",
+      "core"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，一只手握住哑铃，正握。",
+      "稍微弯曲膝盖，臀部向前转动，保持背部挺直，挺胸。",
+      "将哑铃向地面放低，使其靠近身体。",
+      "爆发性伸展臀部、膝盖和脚踝，将哑铃沿直线向上推。",
+      "当哑铃到达肩膀高度时，快速旋转你的手并将其击打过头顶，充分伸展你的手臂。",
+      "将哑铃举过头顶，膝盖和臀部稍微弯曲。",
+      "以受控的方式将哑铃放回起始位置。",
+      "重复所需的重复次数，然后换到另一只手臂。"
+    ]
+  },
+  {
+    "id": "3544",
+    "name": "bodyweight incline side plank",
+    "name_zh": "自重斜板侧平板",
+    "media": "raw:dataset_motion_3544",
+    "category": "waist",
+    "equipment": "body weight",
+    "target": "abs",
+    "muscle_group": "obliques",
+    "secondary_muscles": [
+      "obliques",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "首先侧躺，双腿伸展并叠放在一起。",
+      "将前臂放在肩膀正下方的地面上，肘部弯曲成 90 度角。",
+      "启动你的核心并将臀部抬离地面，从头到脚形成一条直线。",
+      "保持此位置所需的时间。",
+      "将臀部放回到地面，然后在另一侧重复。"
+    ]
+  },
+  {
+    "id": "5201",
+    "name": "dumbbell waiter biceps curl",
+    "name_zh": "哑铃服务员弯举",
+    "media": "raw:dataset_motion_5201",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "站直，双手各持一个哑铃，手掌朝前。",
+      "保持上臂靠近身体，肘部内收。",
+      "慢慢地将哑铃向上弯向肩膀，保持手腕伸直。",
+      "在顶部停顿片刻，然后慢慢将哑铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3552",
+    "name": "quick feet v. 2",
+    "name_zh": "快脚（第二式）",
+    "media": "raw:dataset_motion_3552",
+    "category": "upper legs",
+    "equipment": "body weight",
+    "target": "quads",
+    "muscle_group": "calves",
+    "secondary_muscles": [
+      "calves",
+      "hamstrings"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，双臂放在身体两侧。",
+      "首先快速上下移动双脚，就像原地跑步一样。",
+      "保持动作快速而轻盈，重点放在脚掌上。",
+      "继续所需的持续时间或重复次数。"
+    ]
+  },
+  {
+    "id": "3561",
+    "name": "glute bridge march",
+    "name_zh": "臀桥行进",
+    "media": "raw:dataset_motion_3561",
+    "category": "upper legs",
+    "equipment": "body weight",
+    "target": "glutes",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings",
+      "quadriceps"
+    ],
+    "instructions_zh": [
+      "平躺，膝盖弯曲，双脚平放在地上。",
+      "收紧臀部并将臀部抬离地面，从膝盖到肩膀形成一条直线。",
+      "在保持臀部抬起的同时，将一只脚抬离地面，并将膝盖靠近胸部。",
+      "将脚放回地面，然后用另一条腿重复该动作。",
+      "继续交替双腿进行行进动作，同时保持桥式姿势。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3582",
+    "name": "lunge with jump",
+    "name_zh": "弓步跳",
+    "media": "raw:dataset_motion_3582",
+    "category": "upper legs",
+    "equipment": "body weight",
+    "target": "glutes",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "首先站立，双脚分开与肩同宽。",
+      "右脚向前迈出一步，将身体降低至弓步位置。",
+      "右脚蹬地，跳到空中，在空中改变脚的位置。",
+      "左脚向前轻柔落地，并立即将身体降低至弓步位置。",
+      "继续在弓步和跳跃之间交替进行所需的重复次数。"
+    ]
+  },
+  {
+    "id": "3636",
+    "name": "high knee against wall",
+    "name_zh": "靠墙高抬膝",
+    "media": "raw:dataset_motion_3636",
+    "category": "cardio",
+    "equipment": "body weight",
+    "target": "cardiovascular system",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "glutes",
+      "calves"
+    ],
+    "instructions_zh": [
+      "面向墙壁站立，双脚分开与臀部同宽。",
+      "将双手放在墙上以获得支撑。",
+      "启动你的核心并将右膝抬向胸部，同时将左脚保持在地面上。",
+      "快速换腿，将左膝抬向胸部，然后将右脚放低。",
+      "继续交替双腿进行跑步动作，将膝盖尽可能抬高。",
+      "在整个练习过程中保持快节奏并保持上半身稳定。",
+      "重复所需的持续时间或重复次数。"
+    ]
+  }
+]

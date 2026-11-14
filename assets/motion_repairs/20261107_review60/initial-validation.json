@@ -1,0 +1,11 @@
+{
+  "batch_id": "20261107_review60",
+  "status": "passed",
+  "serial": "emulator-5554",
+  "apk": "build/timehouse-debug.apk",
+  "checks": 16,
+  "visually_reviewed": [],
+  "dataset_sha256": "468cd856018034d2990215d34dbb948121c323c28535d7d0d73c4321c89f381b",
+  "media_sha256": {},
+  "notes": "Verified all 10 deferred Batch 60 entries stay blocked in unreviewed state with corrected names, primary muscle groups, required wall support, joint stress, and unilateral & side-bridge hold flags across 16 initial Android 12 emulator checks."
+}

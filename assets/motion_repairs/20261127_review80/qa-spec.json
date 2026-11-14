@@ -1,0 +1,36 @@
+{
+  "batch": "20261127_review80",
+  "expected_checks": 16,
+  "expected_reviewed_after_approve": 138,
+  "candidate_ids": [],
+  "candidate_required_equipment": {
+    "0208": [
+      "平板训练凳"
+    ],
+    "0209": [
+      "牧师凳"
+    ],
+    "0210": [
+      "平板训练凳"
+    ],
+    "0211": [
+      "瑜伽球"
+    ],
+    "0213": [
+      "平板训练凳"
+    ],
+    "0214": [
+      "平板训练凳"
+    ],
+    "0215": [
+      "平板训练凳"
+    ],
+    "0216": [
+      "平板训练凳"
+    ]
+  },
+  "expected_per_side_ids": [
+    "0214",
+    "0216"
+  ]
+}

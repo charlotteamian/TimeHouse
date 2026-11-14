@@ -1,0 +1,236 @@
+{
+  "batch": "20261114_review67",
+  "version": "1.2.72",
+  "version_code": 2026111401,
+  "output": "build/review67-20261114",
+  "inspected": [
+    "0050",
+    "0051",
+    "0052",
+    "0053",
+    "0054",
+    "0055",
+    "0056",
+    "0057",
+    "0058",
+    "0059"
+  ],
+  "review_candidates": [],
+  "registered_media": [],
+  "definition_updates": {
+    "0050": {
+      "name_zh": "上斜训练凳仰卧杠铃肩胛推举",
+      "category": "chest",
+      "equipment": "barbell",
+      "target": "serratus anterior",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "deltoids",
+        "trapezius"
+      ],
+      "required_equipment_zh": [
+        "上斜训练凳"
+      ],
+      "instructions_zh": [
+        "仰卧在 30-45 度角的上斜训练凳上，双脚踩实地面，双手正握杠铃，握距与肩同宽。",
+        "双臂完全伸直将杠铃推起支撑在上胸正上方，手肘保持微屈锁定不动。",
+        "呼气由前锯肌主动发力，将肩胛骨向前上方彻底推开伸展（肩胛前引），使杠铃再向上推高数厘米。",
+        "在顶点充分收缩前锯肌停留 1 秒，吸气受控沉肩回缩肩胛骨落回凳面，手臂肘关节全程保持伸直，重复规定次数。"
+      ]
+    },
+    "0051": {
+      "name_zh": "站姿跨杠杠铃杰弗逊深蹲",
+      "category": "upper legs",
+      "equipment": "barbell",
+      "target": "glutes",
+      "muscle_group": "quadriceps",
+      "secondary_muscles": [
+        "quadriceps",
+        "hamstrings",
+        "calves",
+        "adductors"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "双脚前后分跨于杠铃两侧站立，躯干居中挺直，屈髋下蹲双手一前一后分别正反握住杠铃杆正中。",
+        "挺胸收紧核心，双腿同步蹬地发力将杠铃自地面垂直拉起，身体完全直立，顶峰收缩臀部。",
+        "吸气屈髋屈膝受控下蹲，杠铃平稳下落至接近地面或轻触地面。",
+        "双腿发力均匀对抗旋转力矩，按规定次数完成单侧站位后换另一侧前后脚交替练习。"
+      ]
+    },
+    "0052": {
+      "name_zh": "平凳仰卧杠铃杰姆卧推",
+      "category": "upper arms",
+      "equipment": "barbell",
+      "target": "triceps",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "chest",
+        "shoulders"
+      ],
+      "required_equipment_zh": [
+        "平板训练凳"
+      ],
+      "instructions_zh": [
+        "仰卧平躺于平凳上，双脚踏实地面，双手正握杠铃，握距与肩同宽或略窄于肩宽。",
+        "杠铃出架支撑于胸部上方，下放时前臂与大臂同步折叠，肘部向前下方指向脚尖，将杠铃落点引导向喉部或锁骨下方。",
+        "在最低点稍作停顿，呼气由肱三头肌爆发发力将杠铃顺势推直回起始位。",
+        "兼具窄握卧推与臂屈伸复合发力优势，重复规定次数。"
+      ]
+    },
+    "0053": {
+      "name_zh": "站姿杠铃颈后深蹲跳",
+      "category": "upper legs",
+      "equipment": "barbell",
+      "target": "glutes",
+      "muscle_group": "quadriceps",
+      "secondary_muscles": [
+        "quadriceps",
+        "hamstrings",
+        "calves"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "将轻适重量杠铃稳固扛于上背斜方肌上，双手握紧，双脚分开与肩同宽站稳。",
+        "核心紧绷挺胸，吸气屈髋屈膝下蹲至大腿平行地面深蹲位。",
+        "在底部消除停顿，双腿由脚掌瞬间爆发蹬地全力向上跃起腾空，髋膝踝三关节充分伸展。",
+        "双脚前脚掌轻柔着地顺势屈膝下蹲缓冲吸收冲击力，连贯衔接下一次跳跃，按规定次数完成练习。"
+      ]
+    },
+    "0054": {
+      "name_zh": "站姿杠铃单腿交替向前弓步",
+      "category": "upper legs",
+      "equipment": "barbell",
+      "target": "glutes",
+      "muscle_group": "quadriceps",
+      "secondary_muscles": [
+        "quadriceps",
+        "hamstrings",
+        "calves"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "双脚并拢站直，将杠铃稳固架在斜方肌上，双手握牢维持平衡，核心收紧挺胸。",
+        "一侧脚向前迈出一大步，顺势垂直下沉身体呈弓步蹲，前大腿接近平行地面，后膝靠近垫面。",
+        "前脚脚跟强力蹬地推回身体恢复并步直立位，随即换对侧脚向前迈步下蹲。",
+        "左右腿平稳交替进行，保持躯干时刻垂直地面不前倾晃动，重复规定次数。"
+      ]
+    },
+    "0055": {
+      "name_zh": "平凳仰卧杠铃窄距推胸",
+      "category": "upper arms",
+      "equipment": "barbell",
+      "target": "triceps",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "chest",
+        "shoulders"
+      ],
+      "required_equipment_zh": [
+        "平板训练凳"
+      ],
+      "instructions_zh": [
+        "仰卧在平凳上，双脚踏地，双手窄距正握杠铃，双手间距约 20-30 厘米。",
+        "杠铃推起至胸部正上方，双肘紧贴体侧收拢，吸气垂直受控下放至胸口下部中缝位置。",
+        "触胸轻停感受肱三头肌与内侧胸肌受拉，呼气强力伸展手臂将杠铃推回起始位。",
+        "动作全程避免肘部过度向外张开，按规定次数重复练习。"
+      ]
+    },
+    "0056": {
+      "name_zh": "平凳仰卧杠铃窄握臂屈伸",
+      "category": "upper arms",
+      "equipment": "barbell",
+      "target": "triceps",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "shoulders"
+      ],
+      "required_equipment_zh": [
+        "平板训练凳"
+      ],
+      "instructions_zh": [
+        "仰卧平躺平凳上，头部靠近凳端，双手反握或正握窄握杠铃置于面部上方，双臂垂直地面。",
+        "固定大臂保持垂直静止，吸气仅活动前臂屈肘将杠铃缓慢平稳放落至前额上方发际线处。",
+        "在最低点稍作停顿感受肱三头肌深度离心拉伸，呼气由肱三头肌发力伸直小臂推回起始位。",
+        "全程手肘稳定不晃动，按规定次数重复练习。"
+      ]
+    },
+    "0057": {
+      "name_zh": "平凳仰卧杠铃过头臂屈伸",
+      "category": "upper arms",
+      "equipment": "barbell",
+      "target": "triceps",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "shoulders"
+      ],
+      "required_equipment_zh": [
+        "平板训练凳"
+      ],
+      "instructions_zh": [
+        "仰卧在平凳上，双手与肩同宽握住杠铃，大臂向头顶方向后倾约 15-30 度并锁定倾角。",
+        "吸气屈肘将杠铃沿弧线下落至头顶后下方悬空位，获得长头更大幅度的充分拉伸。",
+        "在最深拉伸点停顿 1 秒，呼气由肱三头肌发力将前臂推直回大臂倾斜锁定位。",
+        "动作顶峰持续保持张力不松懈，重复规定次数。"
+      ]
+    },
+    "0058": {
+      "name_zh": "平凳仰卧杠铃髋部推力臀桥",
+      "category": "upper legs",
+      "equipment": "barbell",
+      "target": "glutes",
+      "muscle_group": "hamstrings",
+      "secondary_muscles": [
+        "hamstrings",
+        "quadriceps"
+      ],
+      "required_equipment_zh": [
+        "平板训练凳"
+      ],
+      "instructions_zh": [
+        "仰卧平躺在平凳或上背仰靠平凳边缘，双脚屈膝踩实地面，杠铃横置于髋骨折叠线上，双手扶稳杠铃杆。",
+        "收腹挺胸，呼气时臀大肌主导强力向上顶髋推起杠铃，直到大腿与躯干呈一条平直直线。",
+        "在最高点强力夹紧臀部顶峰收缩 1-2 秒，小腿垂直地面。",
+        "吸气缓慢受控下放髋部回起始位，重复规定次数。"
+      ]
+    },
+    "0059": {
+      "name_zh": "牧师凳斜托杠铃俯卧弯举",
+      "category": "upper arms",
+      "equipment": "barbell",
+      "target": "biceps",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "forearms"
+      ],
+      "required_equipment_zh": [
+        "牧师凳"
+      ],
+      "instructions_zh": [
+        "身体俯卧靠在牧师凳斜板上，胸部贴紧斜面顶端，双臂顺着斜托板前侧自然伸展下垂反握杠铃。",
+        "大臂完全贴实斜面托板消除身体借力，呼气由肱二头肌收缩屈肘向上弯举杠铃至前臂垂直于地面。",
+        "在顶峰停顿 1 秒充分挤压肱二头肌肌峰，吸气缓慢匀速沿斜板下放还原手臂直直状态。",
+        "全程保持腋窝紧卡托板上缘，重复规定次数。"
+      ]
+    }
+  },
+  "pending": {
+    "0050": "待修图 · 消除肩推歧义规范为上斜训练凳仰卧杠铃肩胛推举（补全上斜训练凳必需器械）；原动图仅有 2 帧 (nf=2) 缺失肩胛推起折返过程，待重制为 4 帧循环图。",
+    "0051": "待修图 · 规范译名为站姿跨杠杠铃杰弗逊深蹲；原动图仅有 2 帧 (nf=2) 缺失下蹲离心折返帧，待重制为 4 帧循环图。",
+    "0052": "待修图 · 规范译名为平凳仰卧杠铃杰姆卧推（补全平板训练凳必需器械、规避平板触发静力保持）；原动图仅有 2 帧 (nf=2) 缺失折返过渡，待重制为 4 帧循环图。",
+    "0053": "待修图 · 规范译名为站姿杠铃颈后深蹲跳；原动图仅有 2 帧 (nf=2) 缺失爆发跳跃与缓冲下落过渡，待重制为 4 帧循环图。",
+    "0054": "待修图 · 规范译名为站姿杠铃单腿交替向前弓步（激活单侧计次）；原动图仅有 2 帧 (nf=2) 缺失弓步蹬回与换腿过程，待重制为 4 帧循环图。",
+    "0055": "待修图 · 消除窄握推歧义规范为平凳仰卧杠铃窄距推胸（补全平板训练凳必需器械、规避平板触发静力保持）；原动图仅有 2 帧 (nf=2) 缺失推举过程帧，待重制为 4 帧循环图。",
+    "0056": "待修图 · 规范译名为平凳仰卧杠铃窄握臂屈伸（补全平板训练凳必需器械、规避平板触发静力保持）；原动图为 10 帧 (nf=10) 超标且前额落点偏移，待重制为 4 帧循环图。",
+    "0057": "待修图 · 规范译名为平凳仰卧杠铃过头臂屈伸（补全平板训练凳必需器械、规避平板触发静力保持）；原动图为 10 帧 (nf=10) 超标且手臂屈伸速率不均，待重制为 4 帧循环图。",
+    "0058": "待修图 · 纠正错译抬臀为平凳仰卧杠铃髋部推力臀桥（补全平板训练凳必需器械、规避平板触发静力保持）；原动图仅有 2 帧 (nf=2) 缺失顶髋停顿与下落过渡，待重制为 4 帧循环图。",
+    "0059": "待修图 · 消除仰卧歧义规范为牧师凳斜托杠铃俯卧弯举（补全牧师凳必需器械）；原动图为 10 帧 (nf=10) 超标且斜托板发生形变漂移，待重制为 4 帧循环图。"
+  },
+  "sources": {},
+  "review_notes": {},
+  "image_generation_calls": 0,
+  "generated_images_imported": 0,
+  "initial_validation": "passed",
+  "newly_reviewed": [],
+  "android_playback_visually_reviewed": []
+}

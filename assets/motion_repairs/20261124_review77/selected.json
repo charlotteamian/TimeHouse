@@ -1,0 +1,223 @@
+[
+  {
+    "id": "0174",
+    "name": "cable judo flip",
+    "name_zh": "绳索柔术翻转",
+    "media": "raw:dataset_motion_0174",
+    "category": "waist",
+    "equipment": "cable",
+    "target": "abs",
+    "muscle_group": "obliques",
+    "secondary_muscles": [
+      "obliques",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "面对电缆机站立，双脚与肩同宽。",
+      "用双手握住电缆手柄，使其与胸部齐平，手掌朝下。",
+      "启动你的核心并将你的躯干向右旋转，将电缆拉过你的身体。",
+      "当你旋转时，转动后脚并让臀部自然旋转。",
+      "充分伸展双臂，将绳索手柄翻转到肩膀上来完成动作。",
+      "通过反向运动返回起始位置，将躯干旋转回中心。",
+      "在另一侧重复该动作。",
+      "继续交替进行所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0175",
+    "name": "cable kneeling crunch",
+    "name_zh": "绳索跪姿卷腹",
+    "media": "raw:dataset_motion_0175",
+    "category": "waist",
+    "equipment": "cable",
+    "target": "abs",
+    "muscle_group": "obliques",
+    "secondary_muscles": [
+      "obliques"
+    ],
+    "instructions_zh": [
+      "将绳索手柄连接到高滑轮上，然后面向远离机器的方向跪下。",
+      "双手握住绳柄，将其放在脑后，肘部向两侧伸出。",
+      "保持臀部不动，弯曲腰部并将躯干向大腿方向挤压。",
+      "在底部停顿片刻，然后慢慢回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0176",
+    "name": "cable kneeling triceps extension",
+    "name_zh": "绳索跪姿肱三头肌伸展",
+    "media": "raw:dataset_motion_0176",
+    "category": "upper arms",
+    "equipment": "cable",
+    "target": "triceps",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "将绳索手柄连接到高滑轮上，面向绳索机跪下。",
+      "以中立握法（手掌相对）抓住绳子，并将双手放在头的两侧。",
+      "在整个练习过程中，保持肘部靠近头部，上臂保持静止。",
+      "通过收缩三头肌来伸展前臂，直到手臂完全伸展。",
+      "暂停片刻，然后弯曲肘部慢慢回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0177",
+    "name": "cable lateral pulldown (with rope attachment)",
+    "name_zh": "绳索下拉（绳索附件）",
+    "media": "raw:dataset_motion_0177",
+    "category": "back",
+    "equipment": "cable",
+    "target": "lats",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "将绳索附件连接到电缆机的高位置。",
+      "面向机器站立，双脚分开与肩同宽。",
+      "正手握住绳子，手掌相对。",
+      "保持背部挺直并稍微向后倾斜。",
+      "将绳子向下拉向身体两侧，将肩胛骨挤压在一起。",
+      "在动作的底部停顿片刻。",
+      "慢慢释放张力，让绳子回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0178",
+    "name": "cable lateral raise",
+    "name_zh": "绳索侧平举",
+    "media": "raw:dataset_motion_0178",
+    "category": "shoulders",
+    "equipment": "cable",
+    "target": "delts",
+    "muscle_group": "traps",
+    "secondary_muscles": [
+      "traps",
+      "triceps"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，并用正手握住电缆手柄。",
+      "保持双臂伸直，核心肌群参与。",
+      "将手臂向两侧举起，直到与地板平行。",
+      "在顶部暂停片刻，然后慢慢将手臂放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0179",
+    "name": "cable low fly",
+    "name_zh": "绳索低飞鸟",
+    "media": "raw:dataset_motion_0179",
+    "category": "chest",
+    "equipment": "cable",
+    "target": "pectorals",
+    "muscle_group": "deltoids",
+    "secondary_muscles": [
+      "deltoids",
+      "triceps"
+    ],
+    "instructions_zh": [
+      "将手柄连接到缆绳机的低滑轮上，并选择合适的重量。",
+      "站在机器中间，双脚分开与肩同宽，膝盖稍微弯曲。",
+      "正手握住手柄，将手臂向两侧伸展，肘部保持轻微弯曲。",
+      "保持控制，以扫过的动作缓慢地将手臂向前伸，交叉在身体前面。",
+      "在运动的最高点暂停片刻，感受胸部肌肉的拉伸。",
+      "反转动作，慢慢将手臂恢复到起始位置，始终保持胸部肌肉紧张。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0180",
+    "name": "cable low seated row",
+    "name_zh": "绳索低坐姿划船",
+    "media": "raw:dataset_motion_0180",
+    "category": "back",
+    "equipment": "cable",
+    "target": "upper back",
+    "muscle_group": "biceps",
+    "secondary_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "instructions_zh": [
+      "坐在机器上，双脚平放在脚踏板上，膝盖稍微弯曲。",
+      "正手握住手柄，手掌朝下。",
+      "保持背部挺直，稍微向前倾斜，肘部保持轻微弯曲。",
+      "将手柄拉向身体，将肩胛骨挤压在一起。",
+      "在动作的最高点暂停片刻，然后慢慢松开手柄回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0182",
+    "name": "cable lying close-grip curl",
+    "name_zh": "绳索仰卧窄握弯举",
+    "media": "raw:dataset_motion_0182",
+    "category": "upper arms",
+    "equipment": "cable",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "将直杆连接到低滑轮电缆机上。",
+      "面朝上躺在平坦的长凳上，双脚平放在地上。",
+      "反手握住杠铃，双手与肩同宽。",
+      "充分伸展双臂，保持肘部靠近身体两侧。",
+      "保持上臂静止，通过收缩二头肌将杠铃卷向胸部。",
+      "在顶部暂停片刻，挤压你的二头肌。",
+      "慢慢地将杠铃放回起始位置，充分伸展双臂。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0184",
+    "name": "cable lying extension pullover (with rope attachment)",
+    "name_zh": "绳索仰卧下拉（绳索附件）",
+    "media": "raw:dataset_motion_0184",
+    "category": "back",
+    "equipment": "cable",
+    "target": "lats",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "将绳子连接到缆绳机上，并将滑轮设置在最高位置。",
+      "躺在长凳上，头朝向电缆机。",
+      "双手握住绳子，将双臂伸直至胸部上方。",
+      "保持双臂伸直，在保持控制的同时慢慢将绳子放到脑后。",
+      "在底部停顿片刻，然后慢慢将绳子拉回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0185",
+    "name": "cable lying fly",
+    "name_zh": "绳索仰卧飞鸟",
+    "media": "raw:dataset_motion_0185",
+    "category": "chest",
+    "equipment": "cable",
+    "target": "pectorals",
+    "muscle_group": "deltoids",
+    "secondary_muscles": [
+      "deltoids",
+      "triceps"
+    ],
+    "instructions_zh": [
+      "将手柄连接到电缆上，平放在长凳上，双脚平放在地面上。",
+      "手掌相对，握住手柄，双臂伸直至胸部上方。",
+      "保持肘部轻微弯曲，将手臂以宽弧线向两侧放低，直到感觉到胸部有拉伸感。",
+      "暂停片刻，然后挤压胸部肌肉，使手臂回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  }
+]

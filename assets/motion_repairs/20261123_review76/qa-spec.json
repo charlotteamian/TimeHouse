@@ -1,0 +1,20 @@
+{
+  "batch": "20261123_review76",
+  "expected_checks": 16,
+  "expected_reviewed_after_approve": 138,
+  "candidate_ids": [],
+  "candidate_required_equipment": {
+    "0169": [
+      "上斜训练凳"
+    ],
+    "0170": [
+      "瑜伽球"
+    ],
+    "0171": [
+      "上斜训练凳"
+    ]
+  },
+  "expected_per_side_ids": [
+    "0168"
+  ]
+}

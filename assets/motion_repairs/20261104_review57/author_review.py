@@ -1,0 +1,231 @@
+#!/usr/bin/env python3
+"""Author Batch 57 review updates, pending notes, code baseline, and QA spec (0 candidates; 10 deferred)."""
+from pathlib import Path
+import json
+import hashlib
+
+B = Path(__file__).resolve().parent
+R = B.parents[2]
+BATCH_ID = "20261104_review57"
+VERSION = "1.2.62"
+VERSION_CODE = 2026110401
+
+inspected = ["3302", "2803", "3303", "2805", "3304", "2808", "3314", "2812", "3315", "3234"]
+review_candidates = []
+registered_media = []
+
+definition_updates = {
+    "3302": {
+        "name_zh": "地面控体手倒立支撑",
+        "category": "upper arms",
+        "equipment": "body weight",
+        "target": "triceps",
+        "muscle_group": "",
+        "secondary_muscles": ["shoulders", "core"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双手与肩同宽、指尖微张开按实地面，两臂充分伸直顶肩、视线落在双手正中间。",
+            "单腿向前迈小步、另一侧后腿屈髋蓄力向前上方轻快踢起，随势带起双腿离地悬空。",
+            "核心紧缩、尾骨内收并夹紧臀腿，迅速将双腿并在空中垂直挺直，形成脚跟至手腕笔直的手倒立线。",
+            "通过手掌与指尖微调抓地力量保持平衡，静力定型维持规定秒数后受控单腿落回地面。",
+        ],
+    },
+    "2803": {
+        "name_zh": "站姿双持哑铃深蹲",
+        "category": "upper legs",
+        "equipment": "dumbbell",
+        "target": "quads",
+        "muscle_group": "",
+        "secondary_muscles": ["glutes", "hamstrings", "calves"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚分开略宽于肩站立，脚尖微向外展，双手对握各持一只哑铃垂于体侧两旁。",
+            "保持挺胸收腹、脊柱自然中立，屈髋屈膝将臀部向后下方缓慢坐低。",
+            "下蹲至大腿接近水平或略低于膝盖高度，双膝顺应脚尖方向打开，脚跟稳踩地面。",
+            "呼气由股四头肌与臀肌协同发力蹬地推直双腿回到直立起始位，重复规定次数。",
+        ],
+    },
+    "3303": {
+        "name_zh": "稳固立柱人旗撑体悬垂",
+        "category": "waist",
+        "equipment": "body weight",
+        "target": "abs",
+        "muscle_group": "obliques",
+        "secondary_muscles": ["shoulders"],
+        "required_equipment_zh": ["稳固立柱"],
+        "instructions_zh": [
+            "侧对稳固立柱站立，上方手正握抓高、下方手反握/正握按低撑牢立柱，双臂一推一拉锁定肩胛与手臂发力。",
+            "核心与腹斜肌紧绷发力，将双腿并直向上侧向踢起离开地面。",
+            "持续加大推拉力矩将躯干和并拢双腿拉至水平横悬于立柱一侧，使全身从脚尖到肩膀与地面保持平行。",
+            "静力定型维持人旗姿态规定秒数，结束后屈髋受控落脚归位。",
+        ],
+    },
+    "2805": {
+        "name_zh": "稳固踏台单腿哑铃硬拉",
+        "category": "upper legs",
+        "equipment": "dumbbell",
+        "target": "glutes",
+        "muscle_group": "hamstrings",
+        "secondary_muscles": ["lower back"],
+        "required_equipment_zh": ["稳固踏台"],
+        "instructions_zh": [
+            "背对稳固踏台站立约两小步距离，将一侧后脚脚背平搭在踏台上方，站立前腿微屈膝踩实地面。",
+            "双手对握各持一只哑铃垂于大腿前侧，挺胸收腹保持脊柱中立平直。",
+            "吸气以站立腿髋关节为轴向前俯身折髋，将哑铃沿前小腿前侧受控下放，感受前腿臀大肌与腘绳肌充分拉伸。",
+            "呼气发力蹬地伸髋站起回到直立起始位，完成一侧规定次数后换腿换边练习。",
+        ],
+    },
+    "3304": {
+        "name_zh": "单杠直臂卷身穿杠",
+        "category": "back",
+        "equipment": "body weight",
+        "target": "upper back",
+        "muscle_group": "",
+        "secondary_muscles": ["shoulders", "core"],
+        "required_equipment_zh": ["单杠"],
+        "instructions_zh": [
+            "双手略宽于肩正握稳固高单杠，双臂伸直启动、肩胛骨下沉锁紧。",
+            "腹部与核心爆发收缩，屈髋抬腿将双膝并拢拉近胸腹并顺势向上翻转。",
+            "持续直臂下压使双脚从两臂内侧穿过单杠下方，身体顺畅后翻至倒挂伸展体位。",
+            "在底端充分拉伸肩关节后，反向发力收腹翻转身体穿回起始位，重复规定次数。",
+        ],
+    },
+    "2808": {
+        "name_zh": "站姿相扑深蹲哑铃提拉",
+        "category": "upper legs",
+        "equipment": "dumbbell",
+        "target": "glutes",
+        "muscle_group": "hamstrings",
+        "secondary_muscles": ["quadriceps", "core"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚大幅宽距站立，脚尖明显朝向外侧约 45 度，双手合握或各握一只哑铃垂放于两腿正中央下方。",
+            "背部平直、挺胸收腹，屈髋屈膝沿脚尖方向将臀部垂直下沉至深蹲底位，哑铃接近地面。",
+            "臀大肌与腘绳肌集中发力向上推蹬站直，同时顺势将哑铃沿身前垂直上提收紧臀部。",
+            "在最高位充分夹紧臀部后，再受控屈膝下放哑铃回到相扑深蹲底位，重复规定次数。",
+        ],
+    },
+    "3314": {
+        "name_zh": "吊环分腿马耳他十字撑体",
+        "category": "waist",
+        "equipment": "body weight",
+        "target": "abs",
+        "muscle_group": "",
+        "secondary_muscles": ["shoulders", "chest"],
+        "required_equipment_zh": ["吊环"],
+        "instructions_zh": [
+            "双手对握牢固悬吊的一副体操吊环，双臂伸直撑起身体，双腿在身下向左右大幅张开呈分腿姿态。",
+            "保持肘部完全锁死微屈，核心紧绷，慢慢向前倾斜俯身并将两臂向两侧大幅水平推开至身体两旁。",
+            "身体降低至近乎与地面水平平行、双臂向两侧大字型展开，依靠强大的胸大肌与三角肌前束维持十字支撑平衡。",
+            "维持规定静力秒数不晃动，完成后受控收肘推回起始高位支撑。",
+        ],
+    },
+    "2812": {
+        "name_zh": "稳固踏台单腿哑铃登阶提膝",
+        "category": "upper legs",
+        "equipment": "dumbbell",
+        "target": "quads",
+        "muscle_group": "",
+        "secondary_muscles": ["glutes", "hamstrings", "calves"],
+        "required_equipment_zh": ["稳固踏台"],
+        "instructions_zh": [
+            "站在稳固踏台前，双手对握各持一只哑铃垂放于体侧，核心收紧、躯干挺直。",
+            "迈出一侧前脚全脚掌稳踩在踏台台面上，躯干微前倾将重心移至踏台支撑脚。",
+            "前侧腿发力蹬踏台面推起身体站上踏台，同时对侧后腿顺势向前上方屈膝抬高至大腿水平位。",
+            "在顶部单腿稳定控制片刻后，缓慢将提膝腿受控退步落回地面起始位，完成一侧规定次数后换腿练习。",
+        ],
+    },
+    "3315": {
+        "name_zh": "吊环并腿马耳他十字撑体",
+        "category": "waist",
+        "equipment": "body weight",
+        "target": "abs",
+        "muscle_group": "",
+        "secondary_muscles": ["shoulders", "chest"],
+        "required_equipment_zh": ["吊环"],
+        "instructions_zh": [
+            "双手紧握一对稳固体操吊环直臂撑起身体，双腿向身后笔直并拢绷脚。",
+            "核心与臀腿极致绷直成一条硬线，双臂保持直臂向身体两侧缓缓大幅打开同时向前下倾躯干。",
+            "下放至身体几乎完全水平、双臂向两侧大字平展成经典马耳他十字受力位。",
+            "静力定型稳定维持规定秒数，由胸部、肩部与核心协同抗阻，随后匀速收拢双臂安全回退。",
+        ],
+    },
+    "3234": {
+        "name_zh": "平凳仰卧反手哑铃飞鸟",
+        "category": "chest",
+        "equipment": "dumbbell",
+        "target": "pectorals",
+        "muscle_group": "",
+        "secondary_muscles": ["shoulders"],
+        "required_equipment_zh": ["平板训练凳"],
+        "instructions_zh": [
+            "平躺在稳固的平板训练凳上，双脚分开踩实地面，腰背与臀部紧贴凳垫。",
+            "双手反握（掌心朝向头顶方向）各持一只哑铃高举于胸肩正上方，双肘微屈锁住角度。",
+            "吸气时胸大肌受控发力，将哑铃沿大弧线向身体两侧下方缓慢展开下放至胸旁深度，感受胸肌被充分拉伸。",
+            "呼气由胸大肌发力沿原弧线向上夹拢哑铃推回起始高位，重复规定次数。",
+        ],
+    },
+}
+
+pending = {
+    "3302": "待修图 · 规范动作为地面控体手倒立支撑（定型等长保持并移除误归主训的肩部）；原图从折体俯撑踢起至垂直倒立全帧身姿大幅变换，待重制。",
+    "2803": "待修图 · 纠正名称误加的“支撑”二字为站姿双持哑铃深蹲（消除等长保持误触发，移除误归主训的臀肌）；原图下蹲至底位双脚位移 (+18,0)/(+8,+24) 且小腿肌群大幅变形，待重制。",
+    "3303": "待修图 · 纠正错译“旗式”为稳固立柱人旗撑体悬垂（补全稳固立柱支持、定型等长保持）；原图立柱底座与抓握手发生垂直差速错位 (F2 pole_base_plate sc0=0.9414 < 0.96)，待重制。",
+    "2805": "待修图 · 已去括号规范为稳固踏台单腿哑铃硬拉（补全稳固踏台、激活单侧计次）；原图俯身硬拉全程支撑脚与抬高腿位移形变无法锁定静态锚点，待重制。",
+    "3304": "待修图 · 纠正严重错译“猫式伸展”为单杠直臂卷身穿杠（消除悬垂保持触发词，补全单杠支持并移除误归主训的肩部）；原图引体架立柱 F1(-15,1)/(-8,0) 与握手横杠发生 15 px 左右差速形变，待重制。",
+    "2808": "待修图 · 纠正离谱错译“和式拉伸”为站姿相扑深蹲哑铃提拉（保留臀肌/腘绳肌主训）；原图下蹲相扑全程双脚横纵位移 (+14,+1)/(-5,+8)，待重制。",
+    "3314": "待修图 · 纠正错译为吊环分腿马耳他十字撑体（补全吊环器械、定型等长保持并移除误归主训的肩部）；原图 F0 触顶 y=0 (top=33) 与触底 y=479 (bottom=28) 严重双端截断且吊带边缘溢出，待重制。",
+    "2812": "待修图 · 已规范为稳固踏台单腿哑铃登阶提膝（补全稳固踏台、激活单侧计次、移除误归主训的臀肌）；原图 F0 触底 y=479 (bottom=24) 与相邻帧残影溢出且 F2 触顶 y=0 (top=27) 双端截断，待重制。",
+    "3315": "待修图 · 纠正错译为吊环并腿马耳他十字撑体（补全吊环器械、定型等长保持并移除误归主训的肩部）；原图 F0/F1/F2 顶缘吊带全帧严重截断 (top=35..36) 且触底截断 (bottom=34..35)，待重制。",
+    "3234": "待修图 · 已去人名并规范为平凳仰卧反手哑铃飞鸟（补全平板训练凳、移除误归主训的肩部）；原图平凳左支脚 F1(-6,+6)/F2(+23,+14) 与右支脚 (-9,-1)/(0,0) 发生 23 px 结构错位漂移且头部 bs=0.8707 < 0.96，待重制。",
+}
+
+sources = {}
+review_notes = {}
+
+before_reviews = json.loads((B / "before/exercise_reviews.json").read_text())
+reviewed_count = len(before_reviews["reviewed"]) + len(review_candidates)
+
+review_result = {
+    "batch": BATCH_ID,
+    "version": VERSION,
+    "version_code": VERSION_CODE,
+    "output": "build/review57-20261104",
+    "inspected": inspected,
+    "review_candidates": review_candidates,
+    "registered_media": registered_media,
+    "definition_updates": definition_updates,
+    "pending": pending,
+    "sources": sources,
+    "review_notes": review_notes,
+    "image_generation_calls": 0,
+    "generated_images_imported": 0,
+}
+(B / "review-result.json").write_text(json.dumps(review_result, ensure_ascii=False, indent=2) + "\n")
+
+code_paths = [
+    "app/src/main/java",
+    "scripts/validate_exercise_dataset.sh",
+    "scripts/build_android_debug.sh",
+]
+baseline = {}
+for rel in code_paths:
+    p = R / rel
+    if p.is_file():
+        baseline[rel] = hashlib.sha256(p.read_bytes()).hexdigest()
+    else:
+        for f in sorted(p.rglob("*")):
+            if f.is_file():
+                baseline[str(f.relative_to(R))] = hashlib.sha256(f.read_bytes()).hexdigest()
+(B / "code-baseline.json").write_text(json.dumps(baseline, ensure_ascii=False, indent=2) + "\n")
+
+qa_spec = {
+    "batch": BATCH_ID,
+    "expected_checks": 16,
+    "expected_reviewed_after_approve": reviewed_count,
+    "candidate_ids": [],
+    "candidate_required_equipment": {},
+    "expected_per_side_ids": ["2805", "2812"],
+}
+(B / "qa-spec.json").write_text(json.dumps(qa_spec, ensure_ascii=False, indent=2) + "\n")
+print(f"Authored review-result.json, code-baseline.json, and qa-spec.json for {BATCH_ID}")

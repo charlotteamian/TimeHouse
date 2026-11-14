@@ -1,0 +1,215 @@
+[
+  {
+    "id": "0030",
+    "name": "barbell close-grip bench press",
+    "name_zh": "杠铃窄握卧推",
+    "media": "raw:dataset_motion_0030",
+    "category": "upper arms",
+    "equipment": "barbell",
+    "target": "triceps",
+    "muscle_group": "chest",
+    "secondary_muscles": [
+      "chest",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "平躺在长凳上，双脚平放在地上，背部紧贴长凳。",
+      "紧紧握住杠铃，握距略窄于肩宽。",
+      "松开杠铃并将其缓慢降低至胸部，保持肘部靠近身体。",
+      "当杠铃触及胸部时暂停片刻。",
+      "将杠铃推回到起始位置，完全伸展双臂。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0031",
+    "name": "barbell curl",
+    "name_zh": "杠铃弯举",
+    "media": "raw:dataset_motion_0031",
+    "category": "upper arms",
+    "equipment": "barbell",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "站直，双脚分开与肩同宽，反手握住杠铃，手掌朝前。",
+      "保持肘部靠近躯干，在弯举哑铃时呼气，同时收缩二头肌。",
+      "继续抬高杠铃，直到二头肌完全收缩并且杠铃与肩部齐平。",
+      "挤压二头肌时，保持收缩位置短暂停顿。",
+      "吸气，慢慢开始将杠铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0032",
+    "name": "barbell deadlift",
+    "name_zh": "杠铃硬拉",
+    "media": "raw:dataset_motion_0032",
+    "category": "upper legs",
+    "equipment": "barbell",
+    "target": "glutes",
+    "muscle_group": "hamstrings",
+    "secondary_muscles": [
+      "hamstrings",
+      "lower back"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，杠铃放在你面前的地面上。",
+      "弯曲膝盖并以臀部为铰链，降低躯干，正手握住杠铃，双手分开略宽于肩宽。",
+      "当你通过脚后跟将杠铃抬离地面时，保持背部挺直，胸部抬起，伸展臀部和膝盖。",
+      "当你站直时，挤压你的臀部并保持你的核心参与。",
+      "弯曲臀部和膝盖，将杠铃放回地面，保持背部挺直。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0033",
+    "name": "barbell decline bench press",
+    "name_zh": "杠铃下斜卧推",
+    "media": "raw:dataset_motion_0033",
+    "category": "chest",
+    "equipment": "barbell",
+    "target": "pectorals",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "躺在倾斜的长凳上，双脚固定，头部低于臀部。",
+      "正手握住杠铃，握距略宽于肩宽。",
+      "松开杠铃，慢慢将其降低到胸部，保持肘部内收。",
+      "在底部停顿片刻，然后将杠铃推回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0034",
+    "name": "barbell decline bent arm pullover",
+    "name_zh": "杠铃下斜屈臂下拉",
+    "media": "raw:dataset_motion_0034",
+    "category": "back",
+    "equipment": "barbell",
+    "target": "lats",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "chest"
+    ],
+    "instructions_zh": [
+      "躺在倾斜的长凳上，头部低于臀部，双脚固定。",
+      "旋前握住杠铃（手掌背向您），并将手臂伸直至胸部上方。",
+      "有控制地将杠铃降低到头后，保持手臂稍微弯曲。",
+      "暂停片刻，然后收缩背阔肌，将杠铃抬回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0035",
+    "name": "barbell decline close grip to skull press",
+    "name_zh": "杠铃下斜窄握头顶推",
+    "media": "raw:dataset_motion_0035",
+    "category": "upper arms",
+    "equipment": "barbell",
+    "target": "triceps",
+    "muscle_group": "chest",
+    "secondary_muscles": [
+      "chest",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "躺在下斜长凳上，头低于脚，紧紧握住杠铃。",
+      "弯曲肘部，将杠铃向前额降低，保持上臂静止。",
+      "暂停片刻，然后伸展双臂将杠铃推回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0036",
+    "name": "barbell decline wide-grip press",
+    "name_zh": "杠铃下斜宽握推",
+    "media": "raw:dataset_motion_0036",
+    "category": "chest",
+    "equipment": "barbell",
+    "target": "pectorals",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "躺在倾斜的长凳上，双脚固定，头部低于臀部。",
+      "宽握距抓住杠铃，握距略宽于肩宽。",
+      "将杠铃降低到胸部，保持肘部向两侧伸出。",
+      "将杠铃推回到起始位置，完全伸展双臂。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0037",
+    "name": "barbell decline wide-grip pullover",
+    "name_zh": "杠铃下斜宽握下拉",
+    "media": "raw:dataset_motion_0037",
+    "category": "back",
+    "equipment": "barbell",
+    "target": "lats",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "chest"
+    ],
+    "instructions_zh": [
+      "躺在倾斜的长凳上，头部低于臀部，双脚固定。",
+      "宽握距握住杠铃，并将双臂伸直至胸部上方。",
+      "有控制地将杠铃降低到头后，保持手臂伸直。",
+      "暂停片刻，然后将杠铃举回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0038",
+    "name": "barbell drag curl",
+    "name_zh": "杠铃拖举弯举",
+    "media": "raw:dataset_motion_0038",
+    "category": "upper arms",
+    "equipment": "barbell",
+    "target": "biceps",
+    "muscle_group": "forearms",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，反手握住杠铃，手掌朝上。",
+      "让杠铃悬挂在大腿前面，与手臂保持一定距离。",
+      "保持上臂静止，通过收缩二头肌将杠铃向上卷曲至胸部。",
+      "在顶部停顿片刻，然后慢慢将杠铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0039",
+    "name": "barbell front chest squat",
+    "name_zh": "杠铃前胸深蹲",
+    "media": "raw:dataset_motion_0039",
+    "category": "upper legs",
+    "equipment": "barbell",
+    "target": "glutes",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves",
+      "core"
+    ],
+    "instructions_zh": [
+      "首先站立，双脚分开与肩同宽，脚趾稍微向外。",
+      "将杠铃放在胸前，双手与肩同宽，肘部向前。",
+      "当你将身体降低到蹲姿时，收紧核心并保持挺胸，将臀部向后推并弯曲膝盖。",
+      "降低直到大腿与地面平行，或者尽可能降低到您能舒服的高度。",
+      "在底部停顿片刻，然后推动脚后跟回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  }
+]

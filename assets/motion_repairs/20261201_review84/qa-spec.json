@@ -1,0 +1,27 @@
+{
+  "batch": "20261201_review84",
+  "expected_checks": 16,
+  "expected_reviewed_after_approve": 138,
+  "candidate_ids": [],
+  "candidate_required_equipment": {
+    "0248": [
+      "平板训练凳"
+    ],
+    "0271": [
+      "瑜伽球"
+    ],
+    "0272": [
+      "瑜伽球"
+    ],
+    "0448": [
+      "带勾脚的下斜训练凳"
+    ],
+    "0449": [
+      "上斜训练凳"
+    ],
+    "0450": [
+      "平板训练凳"
+    ]
+  },
+  "expected_per_side_ids": []
+}

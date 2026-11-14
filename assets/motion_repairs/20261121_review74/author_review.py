@@ -1,0 +1,237 @@
+#!/usr/bin/env python3
+"""Author Batch 74 review updates, pending notes, code baseline, and QA spec (0 candidates; 10 deferred)."""
+from pathlib import Path
+import json
+import hashlib
+
+B = Path(__file__).resolve().parent
+R = B.parents[2]
+BATCH_ID = "20261121_review74"
+VERSION = "1.2.79"
+VERSION_CODE = 2026112101
+
+inspected = ["0122", "0123", "0124", "0125", "0126", "0127", "0128", "0148", "0149", "0150"]
+review_candidates = []
+registered_media = []
+
+definition_updates = {
+    "0122": {
+        "name_zh": "平凳杠铃宽握卧推",
+        "category": "chest",
+        "equipment": "barbell",
+        "target": "pectorals",
+        "muscle_group": "",
+        "secondary_muscles": ["shoulders", "triceps"],
+        "required_equipment_zh": ["平板训练凳"],
+        "instructions_zh": [
+            "平躺于平凳上，双脚全脚掌踏实地面，臀部背部紧贴凳面并沉肩收紧肩胛骨。",
+            "双手采用宽于肩宽的握距正手握稳杠铃，起杠后双臂伸直将杠铃稳置于胸口上方。",
+            "吸气控制杠铃缓慢平稳沿微弧线垂直下落，手肘向外展开约 70 度，直至横杠轻触胸大肌中部。",
+            "在底部短暂停顿保持胸肌紧绷，呼气由胸大肌发力推起杠铃回到起始锁定位置，按规定次数重复。",
+        ],
+    },
+    "0123": {
+        "name_zh": "站姿杠铃宽握直立划船",
+        "category": "shoulders",
+        "equipment": "barbell",
+        "target": "delts",
+        "muscle_group": "",
+        "secondary_muscles": ["traps", "biceps"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚自然分开与肩同宽稳固站立，双手正手握住杠铃垂于大腿前方，握距明显宽于肩宽。",
+            "保持躯干正直挺胸收腹，呼气由三角肌外侧中束主导提肘发力，将杠铃沿贴身垂直轨迹向上提至胸骨高度。",
+            "在动作顶部手肘保持略高于杠铃并短暂停顿充分挤压肩部，吸气控制杠铃平稳缓慢下落回起始位。",
+            "全程避免利用身体后仰甩动代偿借力，按规定次数平稳完成练习。",
+        ],
+    },
+    "0124": {
+        "name_zh": "站姿杠铃宽距深蹲",
+        "category": "upper legs",
+        "equipment": "barbell",
+        "target": "quads",
+        "muscle_group": "",
+        "secondary_muscles": ["glutes", "hamstrings", "calves"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚站距明显宽于肩宽，脚尖向外展开约 30 度，将适重杠铃平稳扛于上背斜方肌上，双手握稳挺胸收腹。",
+            "吸气主动屈髋屈膝向后下蹲，膝盖顺着脚尖方向打开，保持脊柱平直将躯干下放至大腿与地面平行。",
+            "在深蹲底部保持核心紧绷短暂停顿，感受大腿内侧肌群与臀部充分受力。",
+            "呼气由股四头肌与臀大肌发力蹬伸地面推回起始站立位，并在顶端夹紧臀部，重复规定次数。",
+        ],
+    },
+    "0125": {
+        "name_zh": "平凳坐姿杠铃腕弯举第二式",
+        "category": "lower arms",
+        "equipment": "barbell",
+        "target": "forearms",
+        "muscle_group": "",
+        "secondary_muscles": ["biceps", "brachialis"],
+        "required_equipment_zh": ["平板训练凳"],
+        "instructions_zh": [
+            "端坐于平凳边缘，双脚平踩地面，双手采用与肩同宽的反握握距（手心朝上）握住杠铃。",
+            "将前臂贴实放在大腿上方，手腕自然伸出膝盖边缘悬空，吸气放松手腕让杠铃轻柔向下屈伸。",
+            "呼气由前臂屈肌群全力发力向上弯屈手腕，将杠铃尽力向内侧卷起至最高点。",
+            "在顶峰充分挤压前臂肌肉停顿 1 秒，吸气匀速受控缓慢放低手腕回到起始位，重复规定次数。",
+        ],
+    },
+    "0126": {
+        "name_zh": "平凳坐姿杠铃指卷腕弯举",
+        "category": "lower arms",
+        "equipment": "barbell",
+        "target": "forearms",
+        "muscle_group": "",
+        "secondary_muscles": ["biceps", "brachialis"],
+        "required_equipment_zh": ["平板训练凳"],
+        "instructions_zh": [
+            "端坐于平凳前沿，前臂平放支撑在大腿上，双手反握杠铃，手腕探出膝关节边缘悬空。",
+            "吸气放松手腕，同时微微展开手指，让杠铃缓慢顺着指腹向下滚落至指尖末端以最大化拉伸前臂肌群。",
+            "呼气先由手指全力弯卷握紧杠铃，紧接着前臂屈肌群强力发力屈腕将杠铃向上卷提至动作顶点。",
+            "在最高点顶峰收缩停顿 1 秒，吸气缓慢匀速下放展开手指回到起始位，重复规定次数。",
+        ],
+    },
+    "0127": {
+        "name_zh": "站姿杠铃泽奇深蹲",
+        "category": "upper legs",
+        "equipment": "barbell",
+        "target": "glutes",
+        "muscle_group": "",
+        "secondary_muscles": ["quadriceps", "hamstrings", "calves", "core"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚分开与肩同宽稳立，双肘弯曲将杠铃杆卡在双肘内侧窝中，双手交握或握拳置于胸前保持躯干直立。",
+            "腹部核心强力收紧保持躯干刚性，吸气由髋膝同时屈曲向后坐下蹲，双肘可平稳沉入双膝内侧。",
+            "下蹲至大腿与地面平行深度短暂停顿，保持脊柱绝对中立挺直。",
+            "呼气由臀肌与大腿强力蹬地伸髋伸膝站起回直立起始位，重复规定次数。",
+        ],
+    },
+    "0128": {
+        "name_zh": "站姿战绳交替波浪摆动",
+        "category": "shoulders",
+        "equipment": "rope",
+        "target": "delts",
+        "muscle_group": "",
+        "secondary_muscles": ["forearms", "core"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "双脚开立略宽于肩，微屈髋屈膝呈稳固半蹲姿态，双手各持一侧战绳握把，挺胸收腹核心紧锁。",
+            "呼气由一侧手臂由肩部带动快速向上甩起战绳随后迅速向下抽打，产生向锚点传导的垂直波浪。",
+            "对侧手臂立刻以相反节奏同步交替甩动，双臂连续交替上下抽动形成连绵不绝的交替波动。",
+            "动作全程保持下肢与核心稳如磐石，节奏连贯稳定，按规定时间或次数完成练习。",
+        ],
+    },
+    "0148": {
+        "name_zh": "站姿绳索单臂交替肩推",
+        "category": "shoulders",
+        "equipment": "cable",
+        "target": "delts",
+        "muscle_group": "",
+        "secondary_muscles": ["triceps", "upper back"],
+        "perSide": True,
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "背向龙门架绳索机稳固站立，双脚与肩同宽微屈膝，双手各握一侧低位或胸位绳索把手置于肩侧，手心朝前。",
+            "挺胸收腹收紧核心，呼气由单侧三角肌前束与上胸发力将手柄向上向前推举伸展至手臂完全伸直。",
+            "在推举顶点稍作停顿感受肩部受力，吸气匀速受控将把手放回肩侧起始位置。",
+            "随即由对侧手臂执行相同推举动作，双臂交替进行完成规定次数。",
+        ],
+    },
+    "0149": {
+        "name_zh": "站姿绳索单臂交替臂屈伸",
+        "category": "upper arms",
+        "equipment": "cable",
+        "target": "triceps",
+        "muscle_group": "",
+        "secondary_muscles": ["shoulders"],
+        "perSide": True,
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "面对龙门架绳索机站立，躯干微俯身，一手反手握住绳索把手，上臂紧贴躯干并抬至与地面平行，肘关节屈成 90 度。",
+            "上臂与躯干保持静止锁死，呼气由肱三头肌主导发力向后推动前臂，直至手臂完全伸直。",
+            "在手臂完全伸展顶点充分挤压肱三头肌停顿 1 秒，吸气缓慢匀速受控屈肘将手柄放回 90 度起始位。",
+            "换另一侧手臂重复相同伸展，双臂交替完成规定次数练习。",
+        ],
+    },
+    "0150": {
+        "name_zh": "坐姿龙门架绳索横杠高位下拉",
+        "category": "back",
+        "equipment": "cable",
+        "target": "lats",
+        "muscle_group": "",
+        "secondary_muscles": ["biceps", "rhomboids", "rear deltoids"],
+        "required_equipment_zh": [],
+        "instructions_zh": [
+            "坐在高位下拉器械坐垫上，大腿牢固固定在压腿挡板下方，双脚平踏地面，双手正手宽握横杠两端。",
+            "胸口微挺躯干微后仰约 15 度，呼气由背阔肌主导发力沉肩夹背，带动双肘向下拉引横杠至锁骨上胸位置。",
+            "在动作底部充分挤压背阔肌与中下斜方肌短暂停顿，吸气控制横杠缓慢匀速受控放回高位至双臂与背部完全舒展。",
+            "全程避免利用身体大幅前后摇晃借力，按规定次数平稳重复。",
+        ],
+    },
+}
+
+pending = {
+    "0122": "待修图 · 补全平凳支持器械规范为平凳杠铃宽握卧推；原动图仅有 2 帧 (nf=2) 缺失下放至胸口与推起伸展过程帧，待重制为 4 帧循环图。",
+    "0123": "待修图 · 规范译名为站姿杠铃宽握直立划船；原动图为 10 帧 (nf=10) 超标且手臂提拉顶峰缺乏停顿，待重制为 4 帧循环图。",
+    "0124": "待修图 · 消除宽深蹲俗称规范为站姿杠铃宽距深蹲；原动图仅有 2 帧 (nf=2) 缺失屈髋屈膝下蹲与蹬伸过程帧，待重制为 4 帧循环图。",
+    "0125": "待修图 · 消除英文字符并补全平凳器械规范为平凳坐姿杠铃腕弯举第二式；原动图为 10 帧 (nf=10) 超标且动作幅度欠平稳，待重制为 4 帧循环图。",
+    "0126": "待修图 · 消除重名歧义并补全平凳器械规范为平凳坐姿杠铃指卷腕弯举；原动图为 10 帧 (nf=10) 超标且下放滚动不均匀，待重制为 4 帧循环图。",
+    "0127": "待修图 · 消除音译歧义规范为站姿杠铃泽奇深蹲；原动图仅有 2 帧 (nf=2) 缺失肘窝抱杠下蹲与站起过程帧，待重制为 4 帧循环图。",
+    "0128": "待修图 · 消除战绳俗称规范为站姿战绳交替波浪摆动；原动图仅有 2 帧 (nf=2) 缺失连续交替甩绳波浪帧，待重制为 4 帧循环图。",
+    "0148": "待修图 · 规范译名为站姿绳索单臂交替肩推（激活单侧交替计次）；原动图为 10 帧 (nf=10) 超标且双侧推举缺乏平稳过渡帧，待重制为 4 帧循环图。",
+    "0149": "待修图 · 消除三头肌伸展俗称规范为站姿绳索单臂交替臂屈伸（激活单侧交替计次）；原动图为 10 帧 (nf=10) 超标且手臂回放速度过快，待重制为 4 帧循环图。",
+    "0150": "待修图 · 消除横杠下拉歧义规范为坐姿龙门架绳索横杠高位下拉；原动图为 10 帧 (nf=10) 超标且下拉触胸缺乏稳定停顿，待重制为 4 帧循环图。",
+}
+
+sources = {}
+review_notes = {}
+
+before_reviews = json.loads((B / "before/exercise_reviews.json").read_text())
+reviewed_count = len(before_reviews["reviewed"]) + len(review_candidates)
+
+review_result = {
+    "batch": BATCH_ID,
+    "version": VERSION,
+    "version_code": VERSION_CODE,
+    "output": "build/review74-20261121",
+    "inspected": inspected,
+    "review_candidates": review_candidates,
+    "registered_media": registered_media,
+    "definition_updates": definition_updates,
+    "pending": pending,
+    "sources": sources,
+    "review_notes": review_notes,
+    "image_generation_calls": 0,
+    "generated_images_imported": 0,
+}
+(B / "review-result.json").write_text(json.dumps(review_result, ensure_ascii=False, indent=2) + "\n")
+
+code_paths = [
+    "app/src/main/java",
+    "scripts/validate_exercise_dataset.sh",
+    "scripts/build_android_debug.sh",
+]
+baseline = {}
+for rel in code_paths:
+    p = R / rel
+    if p.is_file():
+        baseline[rel] = hashlib.sha256(p.read_bytes()).hexdigest()
+    else:
+        for f in sorted(p.rglob("*")):
+            if f.is_file():
+                baseline[str(f.relative_to(R))] = hashlib.sha256(f.read_bytes()).hexdigest()
+(B / "code-baseline.json").write_text(json.dumps(baseline, ensure_ascii=False, indent=2) + "\n")
+
+qa_spec = {
+    "batch": BATCH_ID,
+    "expected_checks": 16,
+    "expected_reviewed_after_approve": reviewed_count,
+    "candidate_ids": [],
+    "candidate_required_equipment": {
+        "0122": ["平板训练凳"],
+        "0125": ["平板训练凳"],
+        "0126": ["平板训练凳"],
+    },
+    "expected_per_side_ids": ["0148", "0149"],
+}
+(B / "qa-spec.json").write_text(json.dumps(qa_spec, ensure_ascii=False, indent=2) + "\n")
+print(f"Authored review-result.json, code-baseline.json, and qa-spec.json for {BATCH_ID}")

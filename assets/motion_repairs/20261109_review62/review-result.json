@@ -1,0 +1,163 @@
+{
+  "batch": "20261109_review62",
+  "version": "1.2.67",
+  "version_code": 2026110901,
+  "output": "build/review62-20261109",
+  "inspected": [
+    "3667",
+    "3669",
+    "3671",
+    "3672",
+    "3679",
+    "3698",
+    "3785"
+  ],
+  "review_candidates": [],
+  "registered_media": [],
+  "definition_updates": {
+    "3667": {
+      "name_zh": "侧卧单腿髋外展抬腿",
+      "category": "upper legs",
+      "equipment": "body weight",
+      "target": "glutes",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "adductors",
+        "hamstrings"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "侧卧平躺于垫上，双腿并拢伸直叠放，下侧手臂屈肘托头或平伸垫于头下作为支撑，上侧手掌轻按体前地面维持稳定。",
+        "核心收紧保持身体侧向中立、骨盆不前后倾斜翻转。",
+        "呼气时臀中肌发力带动上方伸直的单腿垂直向上抬高外展至大腿充分收缩位。",
+        "在最高点稍作停顿，吸气缓慢匀速受控放回与下腿叠放起始位，完成一侧规定次数后换边练习。"
+      ]
+    },
+    "3669": {
+      "name_zh": "站姿单侧交替开弓扩胸展臂",
+      "category": "back",
+      "equipment": "body weight",
+      "target": "upper back",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "shoulders",
+        "biceps",
+        "forearms"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "双脚分开与肩同宽站稳，膝盖微屈，双臂向前水平伸直平举至与肩同高，掌心朝内相对。",
+        "收紧核心维持骨盆朝前稳定，呼气时向一侧拉肘旋转躯干，如同拉满一张大弓般将一侧手臂向后充分屈肘后拉展开，同时对侧手臂直臂前指。",
+        "顶峰夹紧肩胛骨感受上背与后肩充分收紧，略停片刻。",
+        "吸气缓慢将后拉手臂前伸还原回双臂平举位，随后换对侧手臂交替后拉开弓，重复规定次数。"
+      ]
+    },
+    "3671": {
+      "name_zh": "左右单腿滑雪交叉侧跳",
+      "category": "cardio",
+      "equipment": "body weight",
+      "target": "cardiovascular system",
+      "muscle_group": "quadriceps",
+      "secondary_muscles": [
+        "hamstrings",
+        "glutes",
+        "calves"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "双脚并拢站立，微屈髋膝重心压低准备。",
+        "单腿爆发蹬地向右侧横向跃起，右脚前脚掌着地轻柔屈膝缓冲，同时左腿向右后侧斜向交叉摆出悬空并摆臂配合滑雪步态。",
+        "紧接着由右腿蹬地爆发向左侧大步横向跳出，左脚着地缓冲并换右腿向左后交叉滑出。",
+        "保持节奏紧凑流畅，持续左右交替侧跳完成规定次数。"
+      ]
+    },
+    "3672": {
+      "name_zh": "原地前后单腿交替踏步弓步",
+      "category": "cardio",
+      "equipment": "body weight",
+      "target": "cardiovascular system",
+      "muscle_group": "quadriceps",
+      "secondary_muscles": [
+        "hamstrings",
+        "glutes",
+        "calves"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "双脚并拢直立站稳，核心收紧、双手自然叉腰或放于体前。",
+        "一侧脚向前迈出一大步顺势垂直下沉成前弓步蹲，前大腿接近与地面平行。",
+        "前脚蹬地推回原位，随即对侧脚同样向前迈步下沉弓步，连续平稳交替前后迈步踩实缓冲。",
+        "全程保持上身挺直与呼吸均匀，按规定次数交替进行。"
+      ]
+    },
+    "3679": {
+      "name_zh": "抱胸屈膝仰卧起坐",
+      "category": "waist",
+      "equipment": "body weight",
+      "target": "abs",
+      "muscle_group": "hip flexors",
+      "secondary_muscles": [],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "平躺在垫上，双膝弯曲约 90 度，双脚脚掌踩实地面，双手交叠抱于胸前。",
+        "收紧下巴腹部发力，呼气时由腹直肌带动上半身自肩胛、中背到腰部逐节卷离地面抬起坐直。",
+        "坐至胸腹接近大腿前侧时稍作收缩停留。",
+        "吸气由腹肌离心控制身体缓慢逐节回落平躺地面，重复规定次数。"
+      ]
+    },
+    "3698": {
+      "name_zh": "直腿俯身手足毛毛虫爬行",
+      "category": "waist",
+      "equipment": "body weight",
+      "target": "abs",
+      "muscle_group": "core",
+      "secondary_muscles": [
+        "shoulders",
+        "hamstrings"
+      ],
+      "required_equipment_zh": [],
+      "instructions_zh": [
+        "双脚并拢或与髋同宽站立，双腿微屈或尽量伸直由髋部向前向下俯身，双手手掌撑于身前地面。",
+        "脚跟离地以前脚掌支撑，双手交替向前小步爬行推进，直到身体完全延展成高姿平板支撑位。",
+        "核心收紧短暂停顿后，保持双膝尽量伸直，双脚前脚掌交替小步向前迈进跟进手掌位置、臀部向天花板顶高折髋。",
+        "跟进至靠近手掌后双手再次向前爬行，如此循环完成规定步数或距离。"
+      ]
+    },
+    "3785": {
+      "name_zh": "稳固踏台上斜俯卧撑",
+      "category": "chest",
+      "equipment": "body weight",
+      "target": "pectorals",
+      "muscle_group": "",
+      "secondary_muscles": [
+        "triceps",
+        "shoulders"
+      ],
+      "required_equipment_zh": [
+        "稳固踏台"
+      ],
+      "instructions_zh": [
+        "双手分开略宽于肩撑在稳固踏台或箱体上边缘，双腿向后伸直、脚尖踩实地面，身体从头到脚跟呈斜直线。",
+        "收紧核心与臀部不塌腰，吸气屈肘将胸部有控制地下沉靠近踏台表面。",
+        "下放至胸口接近箱面、大臂与地面平行时短暂停顿感受胸大肌拉伸。",
+        "呼气由胸大肌发力推直双臂将身体推回高撑起始位，重复规定次数。"
+      ]
+    }
+  },
+  "pending": {
+    "3667": "待修图 · 纠正错译为侧卧单腿髋外展抬腿（图像实为抬腿外展、去“（男）”、激活单侧计次）；原图抬腿过程 F2 头部 (+8,+24) 与骨盆 (-2,+24) 发生剧烈纵移飘移 (bs=0.7872/0.8033)，待重制。",
+    "3669": "待修图 · 纠正错译“站立弓步”为站姿单侧交替开弓扩胸展臂（激活单侧计次、移除误归主训的肩部）；原图开弓展臂过程 F2 双脚 (-24,+13) bs=0.9257 < 0.96 且头部横偏 20 px，待重制。",
+    "3671": "待修图 · 纠正错译为左右单腿滑雪交叉侧跳（激活单侧计次）；原图侧跳过程在画框内大范围横向侧跃着地无法静态配准，待重制。",
+    "3672": "待修图 · 纠正错译为原地前后单腿交替踏步弓步（激活单侧计次）；原图前后弓步换步位移大无法锁定背景锚点，待重制。",
+    "3679": "待修图 · 已去括号规范为抱胸屈膝仰卧起坐并去重字段；原图 F0 触右缘 x=479 (right=22) 且 F1 触左缘 x=0 (left=20) 发生严重横向双向截断，待重制。",
+    "3698": "待修图 · 去括号规范为直腿俯身手足毛毛虫爬行；原图全流程 F0 触右缘 (right=68) 与 F1 触左缘 (left=68) 发生极端大幅双向截断越界，待重制。",
+    "3785": "待修图 · 已去括号规范为稳固踏台上斜俯卧撑（补全稳固踏台必需器械、消除支撑保持误触发）；原图 F2 箱体发生位移形变 (box bs=0.9502 < 0.96) 且推起沉浮差速大，待重制。"
+  },
+  "sources": {},
+  "review_notes": {},
+  "image_generation_calls": 0,
+  "generated_images_imported": 0,
+  "initial_validation": "passed",
+  "newly_reviewed": [],
+  "android_playback_visually_reviewed": []
+}

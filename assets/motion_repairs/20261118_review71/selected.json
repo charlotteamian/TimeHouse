@@ -1,0 +1,222 @@
+[
+  {
+    "id": "0091",
+    "name": "barbell seated overhead press",
+    "name_zh": "杠铃坐姿过头推",
+    "media": "raw:dataset_motion_0091",
+    "category": "shoulders",
+    "equipment": "barbell",
+    "target": "delts",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "upper back"
+    ],
+    "instructions_zh": [
+      "坐在长凳上，背部挺直，双脚平放在地上。",
+      "正手握住杠铃，杠铃间距略宽于肩宽。",
+      "将杠铃从架子上提起，并将其置于与肩同高的位置，肘部弯曲，手掌朝前。",
+      "充分伸展双臂，将杠铃压过头顶。",
+      "在顶部停顿片刻，然后慢慢将杠铃放回肩部水平。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0092",
+    "name": "barbell seated overhead triceps extension",
+    "name_zh": "杠铃坐姿过头三头肌伸展",
+    "media": "raw:dataset_motion_0092",
+    "category": "upper arms",
+    "equipment": "barbell",
+    "target": "triceps",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "坐在长凳上，背部挺直，双脚平放在地上。",
+      "正手握住杠铃，双手与肩同宽，并将其举过头顶。",
+      "弯曲肘部，将杠铃降低到脑后，保持上臂靠近头部。",
+      "暂停片刻，然后伸展双臂将杠铃举回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0094",
+    "name": "barbell seated twist",
+    "name_zh": "杠铃坐姿扭转",
+    "media": "raw:dataset_motion_0094",
+    "category": "waist",
+    "equipment": "barbell",
+    "target": "abs",
+    "muscle_group": "obliques",
+    "secondary_muscles": [
+      "obliques",
+      "lower back"
+    ],
+    "instructions_zh": [
+      "坐在平坦的长凳上，双脚平放在地上，膝盖弯曲。",
+      "双手握住杠铃于胸前，保持肘部稍微弯曲。",
+      "启动你的核心，慢慢地将你的躯干扭转到一侧，保持背部挺直。",
+      "扭转结束时暂停片刻，然后慢慢旋转回到起始位置。",
+      "重复扭转到另一侧。",
+      "继续交替进行所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0095",
+    "name": "barbell shrug",
+    "name_zh": "杠铃耸肩",
+    "media": "raw:dataset_motion_0095",
+    "category": "back",
+    "equipment": "barbell",
+    "target": "traps",
+    "muscle_group": "shoulders",
+    "secondary_muscles": [
+      "shoulders"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，正手握住杠铃。",
+      "在整个练习过程中保持手臂伸直和背部挺直。",
+      "将肩膀尽可能高地抬向耳朵，挤压斜方肌顶部。",
+      "保持一会儿，然后慢慢将肩膀放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0096",
+    "name": "barbell side bent v. 2",
+    "name_zh": "杠铃侧弯（第二式）",
+    "media": "raw:dataset_motion_0096",
+    "category": "waist",
+    "equipment": "barbell",
+    "target": "abs",
+    "muscle_group": "obliques",
+    "secondary_muscles": [
+      "obliques",
+      "lower back"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，双手握住杠铃，掌心朝下。",
+      "在整个练习过程中保持背部挺直并保持核心参与。",
+      "慢慢地将你的躯干弯曲到右侧，将杠铃向右膝方向降低。",
+      "暂停片刻，然后回到起始位置。",
+      "在左侧重复该动作。",
+      "继续交替进行所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0097",
+    "name": "barbell side split squat v. 2",
+    "name_zh": "杠铃侧分腿蹲（第二式）",
+    "media": "raw:dataset_motion_0097",
+    "category": "upper legs",
+    "equipment": "barbell",
+    "target": "quads",
+    "muscle_group": "glutes",
+    "secondary_muscles": [
+      "glutes",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "站立，双脚分开比肩宽，脚趾稍微向外。",
+      "将杠铃放在上背部，将其放在肩膀上。",
+      "右脚向一侧迈出一大步，保持左脚踩地。",
+      "弯曲右膝，将身体放低至蹲姿，保持挺胸、背部挺直。",
+      "推动右脚跟回到起始位置。",
+      "在另一侧重复，左脚迈出。",
+      "继续交替进行所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0098",
+    "name": "barbell side split squat",
+    "name_zh": "杠铃侧分腿蹲",
+    "media": "raw:dataset_motion_0098",
+    "category": "upper legs",
+    "equipment": "barbell",
+    "target": "quads",
+    "muscle_group": "glutes",
+    "secondary_muscles": [
+      "glutes",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "站立，双脚分开比肩宽，脚趾稍微向外。",
+      "将杠铃放在上背部，将其放在斜方肌上。",
+      "当你将身体降低到蹲姿时，收紧你的核心并保持胸部向上，弯曲膝盖和臀部。",
+      "当你下降时，将膝盖向两侧推出，并将体重保持在脚后跟上。",
+      "降低直到大腿与地面平行，然后通过脚后跟推回到起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0099",
+    "name": "barbell single leg split squat",
+    "name_zh": "杠铃单腿分腿蹲",
+    "media": "raw:dataset_motion_0099",
+    "category": "upper legs",
+    "equipment": "barbell",
+    "target": "quads",
+    "muscle_group": "glutes",
+    "secondary_muscles": [
+      "glutes",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，将杠铃放在上背部。",
+      "单腿向前迈出一大步，保持躯干直立。",
+      "弯曲前膝盖和臀部，降低身体，同时保持后腿伸直。",
+      "继续降低，直到大腿前侧与地面平行。",
+      "暂停片刻，然后推动前脚跟回到起始位置。",
+      "重复所需的重复次数，然后换腿。"
+    ]
+  },
+  {
+    "id": "0100",
+    "name": "barbell skier",
+    "name_zh": "杠铃滑雪式",
+    "media": "raw:dataset_motion_0100",
+    "category": "shoulders",
+    "equipment": "barbell",
+    "target": "delts",
+    "muscle_group": "triceps",
+    "secondary_muscles": [
+      "triceps",
+      "core"
+    ],
+    "instructions_zh": [
+      "双脚分开与肩同宽站立，正手握住杠铃于大腿前方。",
+      "稍微弯曲膝盖，臀部向前转动，保持背部挺直，挺胸。",
+      "同时将杠铃举向肩膀，同时稍微离开地面。",
+      "当您到达动作的最高点时，快速反转动作并将杠铃放回起始位置。",
+      "重复所需的重复次数。"
+    ]
+  },
+  {
+    "id": "0101",
+    "name": "barbell speed squat",
+    "name_zh": "杠铃快速深蹲",
+    "media": "raw:dataset_motion_0101",
+    "category": "upper legs",
+    "equipment": "barbell",
+    "target": "glutes",
+    "muscle_group": "quadriceps",
+    "secondary_muscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves"
+    ],
+    "instructions_zh": [
+      "站立，双脚分开与肩同宽，脚趾稍微向外。",
+      "将杠铃放在上背部，将其放在斜方肌或三角肌后束上。",
+      "收紧核心肌群，保持挺胸，同时向后和向下降低臀部，就像坐在椅子上一样。",
+      "降低直到大腿与地面平行，或者尽可能降低到您能舒服的高度。",
+      "通过脚跟发力站起来，在顶部挤压臀部。",
+      "重复所需的重复次数。"
+    ]
+  }
+]
